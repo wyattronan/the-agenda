@@ -1025,7 +1025,7 @@ dialog.gtodlg{max-width:640px}
   .gptop .gpbar{height:36px}.gptop .gpbar>span{font-size:12.5px}
   .gptop .gmets{grid-template-rows:1fr 1fr;height:100%}
   .gptop .gmet{align-content:center}
-  .gptop .gdn{font-size:46px}.gptop .gdcap svg{width:66px;height:44px}.gptop .gdl{font-size:12px}
+  .gptop .gdn{font-size:46px}.gptop .gdcap{width:64px;height:64px}.gptop .gdcap svg{width:50px;height:50px}.gptop .gdl{font-size:12px}
   .gptop .gavg .gmn{font-size:46px}.gptop .gavg .gmstage{height:52px}.gptop .gavg .gdown{left:100px;font-size:15px}
   .gptop .gpblame{align-content:space-between;gap:6px}
   .gptop .gbr{font-size:13px}.gptop .gbt{height:12px}
@@ -1379,6 +1379,14 @@ dialog.gtodlg{max-width:640px}
 .homebtn b{grid-row:1;grid-column:2;font-size:clamp(20px,1.7vw,26px);line-height:1.02;text-wrap:balance}
 .homebtn > span{grid-column:1/-1;font-size:13px;line-height:1.42;margin-right:-28px}
 .homebtn i{right:14px;top:12px;bottom:auto;font-size:24px}
+/* Moved away / toward: diagonal blue-red split with the tie on the seam */
+.gdir{position:relative;isolation:isolate;grid-template-columns:minmax(0,1fr) minmax(6px,.3fr) auto minmax(6px,.3fr) minmax(0,1fr)!important;container-type:inline-size;column-gap:clamp(4px,2cqi,8px)!important;padding-inline:clamp(8px,3cqi,14px)!important;background:var(--dem)!important;border-color:var(--ink)!important;border-width:2px!important}
+.gdir::before{content:"";position:absolute;inset:0;background:var(--rep);clip-path:polygon(56% 0,100% 0,100% 100%,44% 100%);z-index:-1}
+.gdir::after{content:"";position:absolute;inset:0;background:#FFFCF3;clip-path:polygon(calc(56% - 2px) 0,calc(56% + 2px) 0,calc(44% + 2px) 100%,calc(44% - 2px) 100%);z-index:-1}
+.gdir .gdside.l,.gdir .gdside.r,.gdir .garr.l,.gdir .garr.r{color:#fff}
+.gdir .gdq{color:rgba(255,255,255,.85)}.gdir .gdl{white-space:nowrap;font-size:clamp(8.5px,2.75cqi,11px);letter-spacing:clamp(0em,calc(2cqi - 5px),.08em)}.gdir .gdn{font-size:clamp(30px,10.5cqi,42px)}
+.gdir .gdcap{width:clamp(46px,14cqi,58px);height:clamp(46px,14cqi,58px);border-radius:50%;background:#FFFCF3;border:2.5px solid var(--ink);place-items:center;align-self:center}
+.gdir .gdcap svg{width:78%;height:78%}
 </style>
 </head>
 <body>
@@ -1989,7 +1997,7 @@ function gTowards(f){
   return {out, open};
 }
 const gfx = v => (Math.abs(v)<.005?'0':(v>0?'+':'−')+Math.abs(v).toFixed(2));
-const GCAPSVG = `<svg viewBox="0 0 60 40" aria-hidden="true"><g stroke="#0F1C3F" stroke-linejoin="round" stroke-linecap="round"><rect x="4" y="23" width="52" height="14" fill="#FFFCF3" stroke-width="1.1"/><path d="M3 23H57" stroke-width="1.6"/><g fill="#B9C0D0" stroke="none"><rect x="7" y="25.6" width="3.2" height="3.8"/><rect x="12.4" y="25.6" width="3.2" height="3.8"/><rect x="44.4" y="25.6" width="3.2" height="3.8"/><rect x="49.8" y="25.6" width="3.2" height="3.8"/><rect x="7" y="31.4" width="3.2" height="3.6"/><rect x="12.4" y="31.4" width="3.2" height="3.6"/><rect x="44.4" y="31.4" width="3.2" height="3.6"/><rect x="49.8" y="31.4" width="3.2" height="3.6"/></g><rect x="19" y="23" width="22" height="14" fill="#FFFCF3" stroke-width="1"/><path d="M18.2 23L30 16.2L41.8 23Z" fill="#FFFCF3" stroke-width="1.1"/><path d="M21.6 24.4V37M25.8 24.4V37M30 24.4V37M34.2 24.4V37M38.4 24.4V37" stroke-width="1"/><path d="M1.5 37.2H58.5" stroke-width="1.8"/></g><g transform="translate(30 16.6) rotate(-7) scale(.6) translate(-22.9 -25)"><path d="M4.5 24.5C3.6 13.5 11.5 4.6 22.8 4.6C33.4 4.6 40.3 11.4 41.3 22.6L41.2 24C30 26.2 15.5 26.4 4.5 24.5Z" fill="#C61F2E"/><path d="M23.6 4.7C32.4 5.6 39.7 12 40.9 22.8L41 24.1C35.8 25.1 30 25.6 24.4 25.8C25.7 18.3 25.7 10.6 23.6 4.7Z" fill="#DA4A3C"/><path d="M22.8 4.7C18.4 9.4 15.9 16.5 15.6 25.6M23.2 4.7C25.6 10.4 26 18 24.7 25.7" fill="none" stroke="#8E1F12" stroke-width=".9" opacity=".7"/><path d="M4.6 23.4C15.6 25.3 30.2 25.1 41.2 22.9" fill="none" stroke="#8E1F12" stroke-width="1.3"/><path d="M36.5 22.6C42.4 21.3 48.8 22.3 51.3 24.8C51.8 26.6 47.8 28 42.3 27.8C37.6 27.6 33.3 26.6 30.5 25C32.6 24.3 34.6 23.4 36.5 22.6Z" fill="#9E1A22"/><ellipse cx="22.9" cy="4.9" rx="2.2" ry="1.3" fill="#9E1A22"/></g></svg>`;
+const GCAPSVG = `<svg aria-hidden="true" viewBox="0 0 64 64"><g stroke="#0F1C3F" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round"><path d="M22 5H42L39 10H25Z" fill="#FFFCF3"/><path d="M30.6 12L22 5L22.6 21Z" fill="#FFFCF3"/><path d="M33.4 12L42 5L41.4 21Z" fill="#FFFCF3"/><path d="M28.2 10.6H35.8L34.4 17H29.6Z" fill="#9E1A22"/><path d="M29.6 17H34.4L38 54L32 61L26 54Z" fill="#C61F2E"/><path d="M33 17.6L36.4 53.4L32.2 58.4" fill="none" stroke="#DE5546" stroke-width="2" stroke-linecap="round"/><path d="M29.6 17H34.4L38 54L32 61L26 54Z" fill="none"/></g></svg>`;
 const GBICO = {
   prices:'<path d="M3 3h6l7 7-6 6-7-7z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><circle cx="6.5" cy="6.5" r="1.3" fill="currentColor"/>',
   war:'<circle cx="9.5" cy="9.5" r="6" fill="none" stroke="currentColor" stroke-width="1.8"/><circle cx="9.5" cy="9.5" r="1.8" fill="currentColor"/><path d="M9.5 1v4M9.5 14v4M1 9.5h4M14 9.5h4" stroke="currentColor" stroke-width="1.8"/>',
@@ -2014,7 +2022,7 @@ function renderGopScore(){
       <div class="gmet gdir" role="img" tabindex="0" aria-label="${away} moved at least one point away from Trump, ${toward} moved at least one point toward him" data-tiph="${esc(dirTip)}">
         <div class="gdside l"><b class="gdn"><span class="gcnt" data-to="${away}" data-dur="1400" data-dl="500">0</span></b><span class="gdl">Moved away</span><span class="gdq">1+ point</span></div>
         <span class="garr l" aria-hidden="true"></span>
-        <span class="gdcap" title="Trump">${GCAPSVG}<em>Trump</em></span>
+        <span class="gdcap" title="Trump">${GCAPSVG}</span>
         <span class="garr r" aria-hidden="true"></span>
         <div class="gdside r"><b class="gdn"><span class="gcnt" data-to="${toward}" data-dur="1400" data-dl="500">0</span></b><span class="gdl">Moved toward</span><span class="gdq">1+ point</span></div>
       </div>
