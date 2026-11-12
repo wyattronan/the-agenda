@@ -1499,6 +1499,9 @@ dialog.gtodlg{max-width:640px}
 .ranrec .rtop{margin-left:6px;font:800 9.5px var(--display);letter-spacing:.06em;text-transform:uppercase;background:var(--ink);color:var(--hl);border-radius:3px;padding:1px 5px;vertical-align:1px}
 @media (max-width:640px){.gacts{margin-left:0}}
 .lawtag{display:inline-block;margin-left:6px;vertical-align:1px;font:800 9.5px var(--display);letter-spacing:.08em;text-transform:uppercase;background:var(--law);color:#fff;border-radius:3px;padding:1px 6px;cursor:help}
+.hdiff{display:inline-flex;align-items:center;gap:5px;margin-top:4px;font-size:11.5px;font-weight:700;color:var(--muted);cursor:help;border-bottom:1px dotted var(--muted)}
+.hdiff i{font-style:normal;font:800 9px var(--display);width:13px;height:13px;border-radius:50%;border:1.3px solid currentColor;display:inline-grid;place-items:center}
+.hdiff:focus-visible{outline:2px solid var(--ink);outline-offset:2px}
 </style>
 </head>
 <body>
@@ -2884,7 +2887,7 @@ function renderGsdTop(){
     ...[['governor',GROWS],['senator',SROWS],['presidential hopeful',HROWS]].map(([lab,rows])=>{
       const sc=scored(rows), top=sc.filter(r=>r.tot===sc[0].tot);
       const sub=r=> lab==='presidential hopeful' ? ({gov:`Governor · ${r.s}`,sen:`Senator · ${r.s}`,selfsen:`Rep. · ${r.s}`}[r.kind]||esc(r.role.split(/,| and /)[0])) : `${r.pl&&r.pl[0]==='I'?'I':r.p}-${r.s}`;
-      return `<div class="t3 t1"><span class="k">Top ${lab}${top.length>1?'s (tied)':''}</span><ol class="gtop3">${top.map(r=>`<li><span class="nm">${esc(r.n)}<small>${sub(r)}</small></span><b>${r.tot}</b></li>`).join('')}</ol></div>`; }),
+      return `<div class="t3 t1"><span class="k">Top ${lab}${top.length>1?'s (tied)':''}</span><ol class="gtop3">${top.map(r=>{ const t=lab==='presidential hopeful'?hopeDiffTip(r):null; return `<li><span class="nm">${esc(r.n)}<small>${sub(r)}${t?`<br><span class="hdiff" tabindex="0" data-tiph="${esc(t.tip)}">${t.off} as ${t.role}<i aria-hidden="true">i</i></span>`:''}</small></span><b>${r.tot}</b></li>`; }).join('')}</ol></div>`; }),
   ].join('');
   // three things to know, from the scores
   const G=scored(GROWS), H=scored(HROWS), mix=LAD.mix, tot=LR.reduce((a,R)=>a+mix[R],0), pc=R=>Math.round(mix[R]/tot*100);
@@ -2963,6 +2966,20 @@ function ladRecord(r,side){
   return `<div class="lrec"><div class="rhd"><span>${L.den} issues counted${none?` · ${none} with no position on record`:''}${r.partial?' · own record, partly researched':''}</span>${go?`<button type="button" class="golink" data-go="${esc(go.id)}" data-gside="${go.g}">${go.lab} →</button>`:''}</div>
     ${groups||'<p class="small">No support on record for these issues yet.</p>'}${out}</div>`;
 }
+// A hopeful who also holds a graded office (governor or senator) can score differently here: hopefuls are graded on the
+// Senate and statehouse agendas together (so advocacy outside their official job counts) and scaled against the 2028 field.
+function hopeDiffTip(r){
+  const gov=GROWS.find(x=>x.n===r.n), sen=SROWS.find(x=>x.n===r.n), off=gov||sen; if(!off||off.tot==null||r.tot==null||off.tot===r.tot) return null;
+  const role=gov?'governor':'senator', SK2=SK.map(k=>k==='pfl'?'pfml':k), other=gov?(k=>!GK.includes(k)):(k=>!SK2.includes(k));   // issues that exist only in the other arena
+  const out=LR.flatMap(R=>(r.lad.keys[R]||[]).filter(other).map(k=>`${esc(gov?SHORT(k):GI[k].s)} <small>(${R})</small>`));
+  const top=rows=>rows.filter(x=>x.tot!=null).sort((a,b)=>b.tot-a.tot)[0], H0=top(HROWS), O0=top(gov?GROWS:SROWS);
+  const tip=TT(`${esc(r.n)}: ${r.tot} as a hopeful, ${off.tot} as ${role}`,
+    TKV([[`As ${role}`,off.tot],['As a 2028 hopeful',r.tot]]),
+    `As a hopeful, the score covers the Senate and statehouse agendas together, so it factors in advocacy outside their official responsibilities${out.length?`: ${out.join(', ')}`:', though none is on record yet'}.`,
+    `${out.length?'Each group is also':'The difference comes from scaling: each group is'} scaled so its top scorer is 100: ${esc(O0.n)} among ${role}s, ${esc(H0.n)} among hopefuls${!gov&&H0.n!==O0.n?', whose signed laws set a higher bar':''}.`);
+  return {off:off.tot, role, tip};
+}
+function hopeDiff(r){ const t=hopeDiffTip(r); return t ? `<span class="hdiff" tabindex="0" data-tiph="${esc(t.tip)}">${t.off} as ${t.role}<i aria-hidden="true">i</i></span>` : ''; }
 function renderGSD(){
   const box=$('gsdbox'), side=gsdSide, S=gsdSorts[side];
   const all = side==='gov'?GROWS:side==='sen'?SROWS:HROWS;
@@ -3001,7 +3018,7 @@ function renderGSD(){
     body=rows.map(r=>{ const open=gsdOpen==='hope:'+r.n;
       const tag=`<em class="howtag"${r.partial?` tabindex="0" data-tiph="${esc(TT('Partial record','Their state\'s governor row now belongs to their successor, so this grades their own record: signed and funded laws only, so far.',TFT('Treat the score as a floor')))}"`:''}>${esc(r.how)}</em>`;
       const btn = `<button class="gnm" data-hrec="hope:${esc(r.n)}" aria-expanded="${open}" title="Show the record behind this score">${stIcon(r.s,r.p,40,32)}<span><b>${esc(r.n)}</b><br><span>${esc(r.role)}</span>${tag}</span></button>`;
-      return `<tr${open?' class="sel"':''}><td class="rk">${rankCell(r)}</td><td>${btn}${gActs('hope:'+r.n, r.n)}</td><td class="tot">${gsdBar(r)}</td>${delCell(r)}${ladCell(r)}${rkCol(r)}</tr>`
+      return `<tr${open?' class="sel"':''}><td class="rk">${rankCell(r)}</td><td>${btn}${gActs('hope:'+r.n, r.n)}</td><td class="tot">${gsdBar(r)}${hopeDiff(r)}</td>${delCell(r)}${ladCell(r)}${rkCol(r)}</tr>`
         + (open?`<tr class="hdet"><td></td><td colspan="5">${ladRecord(r,'hope')}</td></tr>`:'') + ranRow('hope:'+r.n, r.n); }).join('');
   }
   const seg=(v,l)=>`<button data-gsdp="${v}" aria-pressed="${gsdP===v}">${l}</button>`;
