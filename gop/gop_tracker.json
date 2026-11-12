@@ -58,7 +58,9 @@
   {
    "name": "JD Vance",
    "category": "Presidential Hopefuls",
-   "also_in": [],
+   "also_in": [
+    "New Right"
+   ],
    "role": "Vice President",
    "posture": "Distancer",
    "issues": {
@@ -100,7 +102,9 @@
   {
    "name": "Marco Rubio",
    "category": "Presidential Hopefuls",
-   "also_in": [],
+   "also_in": [
+    "Hawks"
+   ],
    "role": "Secretary of State",
    "posture": "Defender",
    "issues": {
@@ -1742,7 +1746,9 @@
   {
    "name": "Tucker Carlson",
    "category": "Media voices",
-   "also_in": [],
+   "also_in": [
+    "New Right"
+   ],
    "role": "Host; left GOP in June",
    "posture": "Critic",
    "issues": {
@@ -1784,7 +1790,9 @@
   {
    "name": "Kevin Roberts",
    "category": "Media voices",
-   "also_in": [],
+   "also_in": [
+    "New Right"
+   ],
    "role": "President, Heritage Foundation",
    "posture": "Hedger",
    "issues": {
@@ -1826,7 +1834,9 @@
   {
    "name": "Erika Kirk",
    "category": "Media voices",
-   "also_in": [],
+   "also_in": [
+    "Trump Loyalists"
+   ],
    "role": "CEO, Turning Point USA",
    "posture": "Hedger",
    "issues": {
@@ -1868,7 +1878,9 @@
   {
    "name": "Ben Shapiro",
    "category": "Media voices",
-   "also_in": [],
+   "also_in": [
+    "Hawks"
+   ],
    "role": "Host, Daily Wire",
    "posture": "Critic",
    "issues": {
@@ -1910,7 +1922,9 @@
   {
    "name": "Megyn Kelly",
    "category": "Media voices",
-   "also_in": [],
+   "also_in": [
+    "Trump Loyalists"
+   ],
    "role": "Host",
    "posture": "Critic",
    "issues": {
@@ -1952,7 +1966,9 @@
   {
    "name": "Laura Loomer",
    "category": "Media voices",
-   "also_in": [],
+   "also_in": [
+    "Trump Loyalists"
+   ],
    "role": "Activist/podcaster",
    "posture": "Defender",
    "issues": {
@@ -1994,7 +2010,9 @@
   {
    "name": "Laura Ingraham",
    "category": "Media voices",
-   "also_in": [],
+   "also_in": [
+    "Trump Loyalists"
+   ],
    "role": "Host, Fox News",
    "posture": "Distancer",
    "issues": {
@@ -2036,7 +2054,9 @@
   {
    "name": "Candace Owens",
    "category": "Media voices",
-   "also_in": [],
+   "also_in": [
+    "New Right"
+   ],
    "role": "Podcaster",
    "posture": "Silent",
    "issues": {
@@ -2078,7 +2098,9 @@
   {
    "name": "Joe Rogan",
    "category": "Media voices",
-   "also_in": [],
+   "also_in": [
+    "Tea Party/Freedom Caucus"
+   ],
    "role": "Podcaster",
    "posture": "Critic",
    "issues": {
@@ -2120,7 +2142,9 @@
   {
    "name": "Sean Hannity",
    "category": "Media voices",
-   "also_in": [],
+   "also_in": [
+    "Trump Loyalists"
+   ],
    "role": "Host, Fox News",
    "posture": "Defender",
    "issues": {

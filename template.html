@@ -1420,6 +1420,23 @@ dialog.gtodlg{max-width:640px}
 .gbt{height:16px!important;background:color-mix(in srgb,var(--line) 45%,transparent);border:0;border-radius:3px}
 .gbt i{background:var(--dem)!important;clip-path:polygon(0 0,100% 0,calc(100% - 7px) 100%,0 100%)}
 .gbr.top .gbt i{background:var(--rep)!important}
+/* collapsed faction rows: mini 0-10 track; the faction dot slides from its Election Day average to now */
+.glsum{grid-template-columns:auto minmax(0,1fr) auto auto auto auto auto!important}
+.glmini{position:relative;width:170px;height:18px;flex:none;border-radius:9px;border:1.5px solid var(--ink);background:#DCE4F7;overflow:visible;isolation:isolate}
+.glmini::before{content:"";position:absolute;inset:0;border-radius:8px;background:#F6D9D5;clip-path:polygon(54% 0,100% 0,100% 100%,46% 100%);z-index:-1}
+.glmini i{position:absolute;top:50%}
+.gmg{left:calc(8px + (100% - 16px)*var(--v0));width:12px;height:12px;border:2px dashed var(--fc);border-radius:50%;transform:translate(-50%,-50%);background:#FFFCF3;box-sizing:border-box}
+.gmt{left:calc(8px + (100% - 16px)*var(--va));width:calc((100% - 16px)*(var(--vb) - var(--va)));height:3px;background:var(--fc);transform:translateY(-50%);opacity:0;transition:opacity .5s ease 1.3s}
+.gmd{left:calc(8px + (100% - 16px)*var(--v0));width:15px;height:15px;border-radius:50%;background:var(--fc);border:2px solid var(--ink);box-sizing:border-box;transform:translate(-50%,-50%);transition:left 1.6s cubic-bezier(.3,.7,.2,1) .25s;z-index:1}
+.glane.go .gmd{left:calc(8px + (100% - 16px)*var(--v1))}
+.glane.go .gmt{opacity:.75}
+.glane.reset .gmd,.glane.reset .gmt{transition:none!important}
+.glsum:hover .gmd{animation:gmslide 3.2s cubic-bezier(.3,.7,.2,1) infinite}
+@keyframes gmslide{0%,10%{left:calc(8px + (100% - 16px)*var(--v0))}55%,85%{left:calc(8px + (100% - 16px)*var(--v1))}100%{left:calc(8px + (100% - 16px)*var(--v0))}}
+.glmore{font-size:11px;font-weight:800;color:var(--muted);align-self:center;margin-left:4px}
+@media (max-width:1180px){.glsum .glav{display:none!important}}
+@media (max-width:760px){.glsum{grid-template-columns:auto 1fr auto!important}.glsum .glmini{grid-column:2;width:min(150px,100%)}}
+@media (prefers-reduced-motion: reduce){.gmd,.gmt{transition:none!important}}
 </style>
 </head>
 <body>
@@ -2017,7 +2034,8 @@ const isPre = t => /^Pre-election|\(pre-election\)/i.test(t||'');
 const isNone = t => /^No (public|verified|post-election)|^No public comment/i.test(t||'');
 const gcode = (p,k) => (GCODE[k]||{})[p.name] || null;
 const gbreaks = p => GISS.filter(([k])=>gcode(p,k)==='B').length;
-const gmem = f => GP.filter(p=>p.category===f), galso = f => GP.filter(p=>(p.also_in||[]).includes(f));
+// a faction's listed members: its own people plus anyone cross-listed into it (hopefuls and media voices also sit in an ideological faction)
+const galso = f => GP.filter(p=>p.category!==f && (p.also_in||[]).includes(f)), gmem = f => [...GP.filter(p=>p.category===f), ...galso(f)];
 const GMONS=['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
 const gpd = d => { const m=/^(\d{4})-(\d{2})-(\d{2})$/.exec(d||''); return m ? `${GMONS[+m[2]-1]} ${+m[3]}, ${m[1]}` : (d||''); };
 const [gw0,gw1] = (G.window||'').split('/'); const gpWin = gw0&&gw1 ? `${gpd(gw0).replace(/, \d{4}$/,'')}–${+gw1.slice(8)}, ${gw1.slice(0,4)}` : '';
@@ -2102,7 +2120,7 @@ function renderGopLanes(){
   const X = v => 4 + v/10*92;
   $('gplanes').innerHTML = rows.map((r,ix)=>{
     const co=gCohesion(r.f), tw=gTowards(r.f);
-    const all=[...r.ms, ...galso(r.f)].map(p=>({p, sc:gScore(p)})).sort((a,b)=>a.sc.post-b.sc.post);
+    const all=r.ms.map(p=>({p, sc:gScore(p)})).sort((a,b)=>a.sc.post-b.sc.post);
     const span = (x,named) => !named ? [x-1.9,x+1.9] : (x>84 ? [x-17,x+2] : [x-2,x+17]);
     const pack = named => { const rowsX=[]; return all.map(o=>{ const x=X(o.sc.post), sp=span(x,named); let ri=rowsX.findIndex(rr=>rr.every(q=>sp[1]<=q[0]||sp[0]>=q[1])); if(ri<0){ rowsX.push([]); ri=rowsX.length-1; } rowsX[ri].push(sp); return {...o, row:ri}; }); };
     let placed=pack(true), named=true;
@@ -2117,7 +2135,7 @@ function renderGopLanes(){
     const mv=[...grp(tw.out.B,'B'),...grp(tw.out.R,'R')], br=grp(tw.out.D,'D'), op=Object.entries(tw.open).map(([m,ns])=>({l:gms(m), ns:[...ns], c:'o', m}));
     const open = gLaneOpen.has(r.f);
     return `<article class="glane${open?'':' shut'}" style="--fc:${GFCOL[r.f]};--ft:${gft(r.f)}" data-f="${esc(r.f)}">
-      <button class="glsum" data-gplane="${esc(r.f)}" aria-expanded="${open}">${gfi(r.f,'sm')}<span class="glname">${esc(r.f)}</span><span class="gco ${co.cls}"><b>${esc(co.tag)}</b></span><span class="glav">${r.ms.map(p=>gav(p,22)).join('')}</span><span class="glsc">${g1(r.t0)} <span aria-hidden="true">→</span> <b>${g1(r.t1)}</b></span><span class="glchev" aria-hidden="true">${open?'Collapse':'Expand'} <i>▾</i></span></button>
+      <button class="glsum" data-gplane="${esc(r.f)}" aria-expanded="${open}">${gfi(r.f,'sm')}<span class="glname">${esc(r.f)}</span><span class="gco ${co.cls}"><b>${esc(co.tag)}</b></span><span class="glmini" style="--v0:${(r.t0/10).toFixed(3)};--v1:${(r.t1/10).toFixed(3)};--va:${(Math.min(r.t0,r.t1)/10).toFixed(3)};--vb:${(Math.max(r.t0,r.t1)/10).toFixed(3)}" aria-hidden="true"><i class="gmg"></i><i class="gmt"></i><i class="gmd"></i></span><span class="glav">${r.ms.slice(0,8).map(p=>gav(p,22)).join('')}${r.ms.length>8?`<span class="glmore">+${r.ms.length-8}</span>`:''}</span><span class="glsc">${g1(r.t0)} <span aria-hidden="true">→</span> <b>${g1(r.t1)}</b></span><span class="glchev" aria-hidden="true">${open?'Collapse':'Expand'} <i>▾</i></span></button>
       <div class="glhd">${gfi(r.f)}<div><h4>${esc(r.f)}</h4><p>${esc((G.factions||{})[r.f]||'')}</p></div></div>
       <div class="glbody">
         <div class="gco ${co.cls}"><b>${esc(co.tag)}</b></div>
