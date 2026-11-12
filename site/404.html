@@ -1452,6 +1452,8 @@ dialog.gtodlg{max-width:640px}
 .pnote .pchip{cursor:default}
 .pcols{align-items:start}
 .plist>li{align-content:start}
+.plist>li>:not(.t10n){grid-column:2}
+.plist>li{grid-template-columns:auto minmax(0,1fr)}@media (max-width:600px){.t10list .plrow .plike small{display:none}}@media (max-width:420px){.t10list .plrow .plike{font-size:9.5px!important;letter-spacing:.02em!important;padding:4px 9px 4px 7px!important;gap:5px!important}}.plist>li>.t10n{grid-row:span 4}
 .plist>li p{margin:2px 0 8px;font-size:14px}
 .pchips{display:flex;flex-wrap:wrap;gap:5px;align-items:center}
 .pchip{display:inline-flex;align-items:baseline;gap:3px;font-size:12px;font-weight:700;line-height:1.2;padding:3px 9px;border-radius:999px;border:1.5px solid var(--line);background:var(--surface);color:var(--ink);cursor:help;white-space:nowrap}
@@ -1478,6 +1480,12 @@ dialog.gtodlg{max-width:640px}
 .top10[data-t10go]{cursor:pointer}.top10[data-t10go]:hover{background:var(--hl);color:var(--ink);outline:1.5px solid var(--ink)}
 .plist>li.pflash{animation:pflash 1.8s ease .3s}
 @keyframes pflash{0%,100%{box-shadow:var(--shadow,4px 4px 0 var(--ink))}25%,60%{box-shadow:0 0 0 4px var(--hl),6px 6px 0 var(--ink)}}
+.plrow{grid-column:2;margin:2px 0 6px}
+.t10list .plrow .plike{all:unset;box-sizing:border-box;display:inline-flex;align-items:center;gap:6px;cursor:pointer;font:800 11px var(--display);letter-spacing:.05em;text-transform:uppercase;padding:4px 11px 4px 9px;border-radius:999px;border:1.5px solid var(--ink);white-space:nowrap;transition:transform .12s,box-shadow .12s}
+.t10list .plrow .plike small{font-size:10.5px;font-weight:700;letter-spacing:.02em;text-transform:none;opacity:.85}
+.t10list .plrow .plike i{width:8px;height:8px;border-radius:50%;background:currentColor;flex:none}
+.t10list .plrow .plike.hi{background:#dff3e6;color:#11603a}.t10list .plrow .plike.mid{background:#fdf1cf;color:#7a5600}.t10list .plrow .plike.lo{background:#f8dedb;color:#8e1f12}
+.t10list .plrow .plike:hover,.t10list .plrow .plike:focus-visible{box-shadow:2px 2px 0 var(--ink);transform:translate(-1px,-1px)}
 </style>
 </head>
 <body>
@@ -3369,6 +3377,27 @@ function prioItems(){
     gov: mk('gov', gov, (g,k)=>g.sp[k]||['Unclear',''], k=>GI[k].f)
   };
 }
+// likelihood badge for a priority, using the same tests as the Top 10 lists:
+// Senate: senators on record (support or lean) vs. what it needs (60 for most bills, 51 for resolutions and rules, 67 for amendments)
+// Governors: Democratic trifectas that don't have it yet with a governor who backs it can pass it alone; split states need Republican votes
+function prioLike(side,k){
+  if(side==='sen'){
+    const o=onRecord(k), need=needOf(k), maj=Math.min(51,need);
+    const lv = o.n>=need ? 'hi' : o.n>=maj ? 'mid' : 'lo';
+    const lab = lv==='hi' ? 'Likely to pass' : lv==='mid' ? 'On the verge' : 'Unlikely to pass';
+    const why = lv==='hi' ? `${o.n} senators are on record for it, enough to clear the ${need} it needs.` : lv==='mid' ? `${o.n} senators are on record, a majority but ${need-o.n} short of the ${need} it needs to beat a filibuster.` : `Only ${o.n} senators are on record, short of ${maj===need?`the ${need} it needs`:`a majority, let alone ${need}`}.`;
+    return {lv, lab, sub:`${o.n} on record · needs ${need}`, tip:TT(`${lab} in the Senate`, why, TKV([['On record for it',o.n],['Republicans among them',o.r],['Needed',need]]), TFT('Click to open the measure'))};
+  }
+  const dt = STS.filter(s=>cat(k,s)==='dtri'), ready = dt.filter(s=>govStance(k,s)==='Support'), leanT = dt.filter(s=>govStance(k,s)==='Lean support');
+  const split = STS.filter(s=>cat(k,s)==='mixed' && ctl(s).gov==='D' && isSup(govStance(k,s)));
+  const law = STS.filter(s=>cat(k,s)==='law').length;
+  const lv = ready.length ? 'hi' : (leanT.length||split.length) ? 'mid' : 'lo';
+  const nst = n => `${n} state${n===1?'':'s'}`;
+  const lab = lv==='hi' ? `Likely to pass in ${nst(ready.length)}` : lv==='mid' ? `Possible in ${nst(leanT.length+split.length)}` : 'Unlikely to pass';
+  const sub = lv==='hi' ? 'Democratic trifectas with a governor for it' : lv==='mid' ? 'needs a push or Republican votes' : 'no clear path yet';
+  const why = lv==='hi' ? `Democratic trifectas where it isn't law yet and the governor backs it can pass it on their own.` : lv==='mid' ? `No trifecta governor fully backs it yet; it would take a governor who leans in, or Republican votes in a split state.` : `No Democratic trifecta without it has a governor on record, and no split state has a path.`;
+  return {lv, lab, sub, tip:TT(`${lab} in the states`, why, TKV([['Trifectas ready',ready.length?ready.join(', '):'none'],['Trifecta governors leaning in',leanT.length?leanT.join(', '):'none'],['Split states with a Democratic governor for it',split.length?split.join(', '):'none'],['Already law',`${law} state${law===1?'':'s'}`]]), TFT('Click to open the priority'))};
+}
 function prioCard(it,i){
   const race = it.side==='sen' ? 'Senate' : 'governor';
   const chip = b => { const nm = it.side==='sen' ? `${esc(b.x.n.split(' ').slice(-1)[0])} <small>${b.x.st}</small>` : `${esc(b.x.n)} <small>${b.x.st}</small>`;
@@ -3382,7 +3411,7 @@ function prioCard(it,i){
       sup.length?`<b class="tch-h">Supports · ${sup.length}</b>${TCH(cap(sup,12))}`:'', TFT('Click to list them with their records')); };
   const grp = (cls, label, list, title) => list.length ? `<details class="pmore ${cls}"><summary data-tiph="${esc(tip(title, list))}">${label} <span class="pc">· ${list.length}</span><i aria-hidden="true">▾</i></summary><div class="pchips">${list.map(chip).join('')}</div></details>` : '';
   const counts = `<b>${it.nc}</b> of ${it.of} Democratic ${race} winners in 2026 campaigned on it. <b>${it.n}</b> of ${it.ofAll} Democratic ${it.side==='sen'?'senators':'governors'} back it in all.`;
-  return `<li style="--i:${i-1}"><span class="t10n">${i}</span><h3><button data-t10="${it.side}:${it.k}" title="Open this ${it.side==='sen'?'measure':'priority'}">${esc(it.title)}</button><span class="t10k ${it.side==='sen'?'sen':'st'}">${it.side==='sen'?'Senate':'Governors'}</span></h3><p>${counts}</p>
+  return `<li style="--i:${i-1}"><span class="t10n">${i}</span><h3><button data-t10="${it.side}:${it.k}" title="Open this ${it.side==='sen'?'measure':'priority'}">${esc(it.title)}</button><span class="t10k ${it.side==='sen'?'sen':'st'}">${it.side==='sen'?'Senate':'Governors'}</span></h3>${(L=>`<div class="plrow"><button type="button" class="plike ${L.lv}" data-t10="${it.side}:${it.k}" data-tiph="${esc(L.tip)}"><i aria-hidden="true"></i>${L.lab}${L.sub?`<small>${L.sub}</small>`:''}</button></div>`)(prioLike(it.side,it.k))}<p>${counts}</p>
     <div class="pgroups">${grp('cpg','Campaigned on it',lead,`Campaigned on it in 2026 · ${lead.length}`)}${grp('', 'Other backers',rest,`Other Democratic backers · ${rest.length}`)}</div></li>`;
 }
 function t10Card(it,i){ return `<li style="--i:${i-1}"><span class="t10n">${i}</span><h3><button data-t10="${it.side}:${it.k}" title="Open this measure">${esc(it.title)}</button><span class="t10k ${it.side==='sen'?'sen':'st'}">${it.tag}</span>${topTag(it.side,it.k)}</h3><p>${it.body}</p>${it.extra}</li>`; }
