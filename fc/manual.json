@@ -131,7 +131,7 @@
   "who": "Scott Colom",
   "key": "sch",
   "new_stance": "Unclear",
-  "evidence": "Withholding support; wants leaders 'from beyond one borough.' Race not yet called. (Public statements as of Nov 8 2026, via CNN, Roll Call, POLITICO, The Hill, Al Jazeera, Drop Site News.)",
+  "evidence": "Withholding support; wants leaders 'from beyond one borough.' Won the race (AP call, Nov 11 2026). (Public statements as of Nov 8 2026, via CNN, Roll Call, POLITICO, The Hill, Al Jazeera, Drop Site News.)",
   "url": null,
   "why": "Schumer leadership count graphic, Nov 8 2026"
  },
@@ -342,5 +342,37 @@
   "evidence": "'Voters are hungry for ... a new generation of leadership in the Senate' (Nov 2026).",
   "url": "https://www.aljazeera.com/news/2026/11/5/division-among-us-democrats-over-schumers-leadership-role",
   "why": "Schumer leadership update, Nov 10 2026"
+ },
+ {
+  "who": "John Fetterman",
+  "key": "sch",
+  "new_stance": "Support",
+  "evidence": "Asked whether he'd back Schumer for majority leader, said he would vote for him (Nov 11, 2026, new-member orientation); his office had confirmed his support Nov 9.",
+  "url": "https://www.wgal.com/article/senator-fetterman-shares-optimism-during-new-member-orientation-in-washington/74403736",
+  "why": "Daily update, Nov 12 2026"
+ },
+ {
+  "who": "Kirsten Gillibrand",
+  "key": "sch",
+  "new_stance": "Support",
+  "evidence": "Publicly backs Schumer (Newsweek, Nov 11, 2026); as DSCC chair she credited him with winning the majority at the Nov 10 caucus press conference.",
+  "url": "https://www.newsweek.com/chuck-schumer-senate-majority-leadership-democrats-12700175",
+  "why": "Daily update, Nov 12 2026"
+ },
+ {
+  "who": "Ruben Gallego",
+  "key": "sch",
+  "new_stance": "Lean support",
+  "evidence": "'It's time for us to unify' (Nov 10, 2026); Roll Call reads it as backing Schumer despite past differences. No explicit vote commitment yet.",
+  "url": "https://rollcall.com/2026/11/10/rift-grows-among-senate-democrats-over-who-will-lead-in-majority/",
+  "why": "Daily update, Nov 12 2026"
+ },
+ {
+  "who": "Angus King",
+  "key": "sch",
+  "new_stance": "Lean support",
+  "evidence": "Dismissed the push to replace Schumer as pressure tactics: 'You don't fire the manager after you've won the World Series' (NY1, Nov 11, 2026). No explicit vote commitment.",
+  "url": "https://ny1.com/nyc/all-boroughs/politics/2026/11/12/schumer-won-big--but-is-his-leadership-role-jeopardy-",
+  "why": "Daily update, Nov 12 2026"
  }
 ]
