@@ -17,7 +17,7 @@ SEN = {
  "childcare": "Caps what families pay for child care at 7% of their income and funds more providers, moving toward child care that every family can afford.",
  "toptax": "Undoes the 2025 tax cuts for the highest earners and closes loopholes used by billionaires, raising revenue for other priorities.",
  "pfl": "Guarantees workers paid time off to care for a new child, a sick relative or their own illness, funded through a national insurance program.",
- "road": "Speeds up permitting and funds new construction to increase the housing supply, aiming to bring down rents and home prices over time.",
+ "road": "Now law (July 11, 2026): eases federal permitting and housing rules and authorizes pilot grants to build and convert housing, aiming to bring down rents and home prices over time.",
  "downpay": "Gives first-time and first-generation homebuyers federal help with a down payment, making it easier for renters to buy a home.",
  "wage": "Raises the federal minimum wage from $7.25 to between $15 and $25 an hour and expands overtime pay, giving raises to millions of low-wage workers.",
  "pro": "Makes it easier for workers to form unions and bargain, and adds penalties for employers who illegally fight organizing drives.",

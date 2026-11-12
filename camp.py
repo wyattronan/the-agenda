@@ -39,13 +39,17 @@ def build(d):
     return out
 
 
+ENACTED = {"sen": {"road"}, "gov": set()}   # already law; keep in sync with ENACTED in template.html
+
+
 def rank(d, camp):
     """Top 10 per side by number of 2026 Democratic winners who campaigned on it; ties go to more Democratic backers overall."""
+    # measures that are already law drop out of the rankings
     sen = [x for x in d["sen"] if x["p"] == "D" and "ppoint" not in x["id"]]
     gov = [g for g in d["gov"] if g["p"] == "D"]
     back = {
         "sen": lambda k: sum(x["r"].get(k, ["U"])[0] == "Support" for x in sen),
         "gov": lambda k: sum(g["sp"].get(k, ["U"])[0] == "Support" for g in gov),
     }
-    top = {s: sorted(w, key=lambda k: (-len(w[k]), -back[s](k)))[:10] for s, w in camp["who"].items()}
+    top = {s: sorted((k for k in w if k not in ENACTED[s]), key=lambda k: (-len(w[k]), -back[s](k)))[:10] for s, w in camp["who"].items()}
     return top, {s: {k: len(camp["who"][s][k]) for k in top[s]} for s in top}

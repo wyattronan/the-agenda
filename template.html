@@ -1498,6 +1498,7 @@ dialog.gtodlg{max-width:640px}
 .ranrec .rgrp h4 i{background:#cfe0fb}.ranrec .ran0 h4 i{background:#2148c8}.ranrec .ran1 h4 i{background:#5b86e8}.ranrec .ran2 h4 i{background:#a9c3f5}.ranrec .ran3 h4 i{background:#dbe5f8;border:1px solid #a9c3f5}
 .ranrec .rtop{margin-left:6px;font:800 9.5px var(--display);letter-spacing:.06em;text-transform:uppercase;background:var(--ink);color:var(--hl);border-radius:3px;padding:1px 5px;vertical-align:1px}
 @media (max-width:640px){.gacts{margin-left:0}}
+.lawtag{display:inline-block;margin-left:6px;vertical-align:1px;font:800 9.5px var(--display);letter-spacing:.08em;text-transform:uppercase;background:var(--law);color:#fff;border-radius:3px;padding:1px 6px;cursor:help}
 </style>
 </head>
 <body>
@@ -1722,20 +1723,37 @@ function ttkHtml(items, foot){
 // stamp-and-slide intro: plays the first time a box is drawn and again each time its tab is opened (re-renders after that stay still)
 function ttkAnim(box){ const t=box&&box.querySelector('.ttk'); if(!t || matchMedia('(prefers-reduced-motion: reduce)').matches) return; t.classList.remove('anim'); void t.offsetWidth; t.classList.add('anim'); }
 function ttkFirst(box){ if(!box.dataset.ttkp){ box.dataset.ttkp='1'; ttkAnim(box); } }
-const TTK_SEN = [
-  ["AI guardrails, housing permitting reform, a stock-trading ban, prior-authorization reform, and data center rules already have bipartisan supermajorities.",
-   "On the record: 87, 83, 72, 68, and 65 votes, with 21 to 41 Republicans behind each."],
+// Senate measures that are already law. They drop out of the "likely to pass" counts and Top 10 rankings and carry a "Law" tag.
+const ENACTED = {road:{d:'Jul 11, 2026', how:'Became law on July 11, 2026, without the President\'s signature, after passing the Senate 85–5 and the House 358–32.'}};
+const lawTag = k => ENACTED[k] ? `<span class="lawtag" tabindex="0" data-tip="${ENACTED[k].how}">Law · ${ENACTED[k].d}</span>` : '';
+const TTK_SEN = (()=>{
+  const S0=D.sen.filter(x=>!/ppoint/.test(x.id)), onR=k=>{ const a=S0.filter(x=>['Support','Lean support'].includes((x.r[k]||[])[0])); return {n:a.length, r:a.filter(x=>x.p==='R').length}; };
+  const PH={ai:'AI guardrails',stock:'a stock-trading ban',priorauth:'prior-authorization reform',datactr:'data center rules',road:'ROAD to Housing Act'}, SHORTN=k=>PH[k]||D.meta[k].s.toLowerCase();
+  const sup=D.issues.map(i=>i[0]).filter(k=>D.meta[k].need==='leg' && !['fil','sch','heg'].includes(k) && !ENACTED[k]).map(k=>({k,...onR(k)})).filter(o=>o.n>=60).sort((a,b)=>b.n-a.n);
+  const nm=a=>a.length<2?a.join(''):a.slice(0,-1).join(', ')+', and '+a.slice(-1);
+  const Dm=D.sen.filter(x=>x.p==='D'), fil=Dm.filter(x=>['Support','Lean support'].includes((x.r.fil||[])[0])).length, filU=Dm.filter(x=>(x.r.fil||[])[0]==='Unclear').length;
+  const law=Object.keys(ENACTED).map(k=>SHORTN(k));
+  return [
+  [`${nm(sup.map(o=>SHORTN(o.k))).replace(/^./,c=>c.toUpperCase())} already have bipartisan supermajorities.`,
+   `On the record: ${nm(sup.map(o=>o.n))} votes, with ${Math.min(...sup.map(o=>o.r))} to ${Math.max(...sup.map(o=>o.r))} Republicans behind each.${law.length?` Another, the ${nm(law)}, became law in July.`:''}`],
   ["Schumer faces an uphill battle to stay leader, with just 4 votes locked in, his own included.",
    "He needs 29 of 56 in December's secret ballot. 12 Democrats say no, including Sanders and Slotkin as of Nov 10 (4 of the 12 softly); 40 haven't committed."],
   ["Democrats may have the votes to end the filibuster. Should they? When?",
-   "41 are on record for ending it and 14 haven't said. Keep it, and only five bills here reach 60; end it, and the next Republican majority gets the same power."]];
-const TTK_GOV = [
+   `${fil} are on record for ending it and ${filU} haven't said. Keep it, and only ${sup.length===4?'four':sup.length===5?'five':sup.length} bills here reach 60; end it, and the next Republican majority gets the same power.`]];
+})();
+const TTK_GOV_F = ()=>{   // built when the Governors tab first renders, from the same data the map uses
+  const tri=STS.filter(st=>ctl(st).gov==='D'&&ctl(st).leg==='D'), nm=a=>a.length<2?a.join(''):a.slice(0,-1).join(', ')+(a.length>2?',':'')+' and '+a.slice(-1);
+  const med=tri.filter(st=>cat('medicaid',st)==='dtri');
+  const wage=tri.filter(st=>cat('wage',st)==='dtri' && /^No\b/.test(GOV[st].status.wage||'')), floor=wage.filter(st=>/7\.25/.test(GOV[st].status.wage)), rest=wage.filter(st=>!floor.includes(st));
+  const npvIn=STS.filter(st=>has('npv',st)), npvEV=npvIn.reduce((a,st)=>a+EV[st],0)+3, npvNew=tri.filter(st=>cat('npv',st)==='dtri').sort(), add=npvNew.reduce((a,st)=>a+EV[st],0);
+  return [
   ["Democratic legislatures can expand Medicaid and raise the minimum wage in new states.",
-   "Wisconsin is now the only Democratic trifecta that hasn't expanded Medicaid, and Gov.-elect Crowley backs it. New trifectas in Wisconsin and Pennsylvania (both still at the $7.25 federal floor), plus Minnesota and Nevada, can pass a $15 wage."],
+   `${med.length===1?`${STN[med[0]]} is now the only Democratic trifecta that hasn't expanded Medicaid, and ${GOV[med[0]].s&&/elect/i.test(GOV[med[0]].s)?'Gov.-elect':'Gov.'} ${GOV[med[0]].n.split(' ').slice(-1)} ${isSup(govStance('medicaid',med[0]))?'backs it':'hasn\'t said'}.`:`${nm(med.map(st=>STN[st]))} are Democratic trifectas that haven't expanded Medicaid.`} Trifectas in ${nm(floor.map(st=>STN[st]))} (${floor.length===2?'both':'all'} still at the $7.25 federal floor), plus ${nm(rest.map(st=>STN[st]))}, can pass a $15 wage.`],
   ["With a Democratic governor and House, Texas, North Carolina, and Georgia are a few scarce Senate seats from a majority. What can they get Senate Republicans to do?",
-   "North Carolina is one seat short (a 25–25 tie goes to Lt. Gov. Hunt, and SD24 is in recount range), Georgia two short of 29, Texas seven short of the 17 its floor rule demands. Click NC, TX, or GA on the map to whip each chamber."],
-  ["Democratic trifectas in AZ, NV, WI, MI, and PA could effectively end the Electoral College, if courts allow it.",
-   "The National Popular Vote compact already has 222 electoral votes, counting D.C. These five new trifectas would add 61, past the 270 that switches it on, though the compact would still face court challenges."]];
+   "North Carolina is one seat short (a 25–25 tie goes to Lt. Gov. Hunt, and SD24 is in recount range), Georgia two short of 29, Texas seven short of the 17 its floor rule demands with two seats vacant. Click NC, TX, or GA on the map to whip each chamber."],
+  [`Democratic trifectas in ${nm(npvNew)} could effectively end the Electoral College, if courts allow it.`,
+   `The National Popular Vote compact already has ${npvEV} electoral votes, counting D.C. These ${npvNew.length===6?'six':npvNew.length} trifectas would add ${add}, ${npvEV+add>=270?`reaching ${npvEV+add}, past the 270 that switches it on`:`short of the 270 that switches it on`}, though the compact would still face court challenges.`]];
+};
 const TTK_PROJ = [
   ["Recent statewide results put Democrats over 270 electoral votes before TX, NV, OH, NH, WI, IA, or AK are even counted.",
    "Averaging every statewide race from 2024 through 2026, states leaning Democratic or better add up to 296 electoral votes. Those seven, plus Vermont, start as toss-ups."],
@@ -1797,7 +1815,7 @@ const sItems = a=>KEYS.filter(k=>META[k].area===a);
 function sItem(k, on){
   const v=verdict(k), c=v.c;
   return `<button class="ti" role="listitem" data-k="${k}" aria-pressed="${on}" title="${esc(FULL(k))}">
-    <span class="nm">${esc(tc(SHORT(k)))}${topTag('sen',k)}</span>
+    <span class="nm">${esc(tc(SHORT(k)))}${topTag('sen',k)}${lawTag(k)}</span>
     <span class="pill ${v.cls}">${v.cls==='pass'?'Passes':v.cls==='play'?'In play':'Fails'}</span>
     <span class="cts"><b class="y">${c.y}</b> yes · ${c.u} ? · <b class="n">${c.n}</b> no · need ${v.t}</span></button>`;
 }
@@ -1865,7 +1883,7 @@ function renderDetail(){
     const pw = POWER.has(k) ? ` Per our rule for measures that could add to Democratic power, every Republican starts as No here.` : '';
     box.dataset.key=key;
     box.innerHTML = `
-      <div class="dhead"><div class="ttl"><h2 class="dttl"><span class="dico" title="${esc(tc(a[1]))}">${icon(a[0])}</span><span>${mtitle('sen',k,FULL(k))}${topTag('sen',k)}</span></h2>${descHtml('sen',k)}${dBtns('sen',k)}</div></div>
+      <div class="dhead"><div class="ttl"><h2 class="dttl"><span class="dico" title="${esc(tc(a[1]))}">${icon(a[0])}</span><span>${mtitle('sen',k,FULL(k))}${topTag('sen',k)}${lawTag(k)}</span></h2>${descHtml('sen',k)}${dBtns('sen',k)}</div></div>
       <div class="vrow"><div class="nums3"><div><div class="big y" id="d-y"></div><div class="small">yes</div></div><div><div class="big u" id="d-u"></div><div class="small">undecided</div></div><div><div class="big n" id="d-n"></div><div class="small">no</div></div></div><span class="pill" id="d-pill"></span></div>
       <div class="vbar-wrap"><div class="vbar" id="d-bar" style="--n:${N}"><i class="sy" id="d-sy"></i><i class="su" id="d-su"></i><i class="sn" id="d-sn"></i></div><div class="marks">${marks.join('')}</div></div>
 `;
@@ -2643,7 +2661,7 @@ function govChampHtml(s){
 }
 function renderSide(){
   const side=$('side');
-  if(!selSt){ const was=side.classList.contains('ttkmode'); side.classList.add('ttkmode'); side.innerHTML = ttkHtml(TTK_GOV, 'Click any state for its profile.'); if(!was) side.dataset.ttkp=''; ttkFirst(side); return; }
+  if(!selSt){ const was=side.classList.contains('ttkmode'); side.classList.add('ttkmode'); side.innerHTML = ttkHtml(TTK_GOV_F(), 'Click any state for its profile.'); if(!was) side.dataset.ttkp=''; ttkFirst(side); return; }
   side.classList.remove('ttkmode');
   const s=selSt, g=GOV[s], {leg,gov}=ctl(s);
   const govName = g.n;
@@ -3374,18 +3392,20 @@ function t10Meter(k, need, label){ const o=onRecord(k), d=o.n-o.r;
 function t10Chips(k, list){ return `<div class="t10chips">${list.map(([st,lvl])=>{ const g=GOV[st], c=ctl(st), tri=c.gov==='D'&&c.leg==='D';
   return `<span class="stw" tabindex="0" data-tiph="${esc(TT(STN[st], TKV([['Governor',`${esc(g.n)} (${g.p})`],['Stance',esc(govStance(k,st))],['Legislature',tri?'Dem. trifecta':c.leg==='D'?'Democratic':c.leg==='R'?'Republican':'Split']])))}">${stIcon(st,lvl,50,40)}</span>`; }).join('')}</div>`; }
 function t10Items(){
-  const legK = KEYS.filter(k=>META[k].need==='leg' && !['fil','sch','heg'].includes(k));
+  const legK = KEYS.filter(k=>META[k].need==='leg' && !['fil','sch','heg'].includes(k) && !ENACTED[k]);
   const big = legK.map(k=>[k,onRecord(k).n]).filter(x=>x[1]>=60).sort((a,b)=>b[1]-a[1]).slice(0,5).map(x=>x[0]);
   const fil = onRecord('fil'), unlock = legK.filter(k=>{ const n=onRecord(k).n; return n>=51&&n<60; });
-  const likely = big.map(k=>({side:'sen', k, title:FULL(k), tag:'Senate', body:`${onRecord(k).r} Republicans are already on record, so this clears a filibuster as things stand.${k==='road'?' The Senate already passed it 89–10 in March 2026.':''}`, extra:t10Meter(k,60,'to break a filibuster')}));
+  const likely = big.map(k=>({side:'sen', k, title:FULL(k), tag:'Senate', body:`${onRecord(k).r} Republicans are already on record, so this clears a filibuster as things stand.`, extra:t10Meter(k,60,'to break a filibuster')}));
   likely.push({side:'gov', k:'medicaid', title:'Expand Medicaid', tag:'Statehouses', body:`Wisconsin's new trifecta can finally expand it, and Gov.-elect ${GOV.WI.n} backs it. Georgia, Texas, and Kansas have Democratic governors on record for it but still need Republican votes in their legislatures.`, extra:t10Chips('medicaid',[['WI','go'],['GA','maybe'],['TX','maybe'],['KS','maybe']])});
-  likely.push({side:'gov', k:'wage', title:'A $15 minimum wage', tag:'Statehouses', body:`New trifectas in Nevada, Wisconsin, and Pennsylvania can pass it, and their governors campaigned on raising the wage (Wisconsin and Pennsylvania are still at the $7.25 federal floor).`, extra:t10Chips('wage',[['NV','go'],['WI','go'],['PA','go']])});
+  likely.push({side:'gov', k:'wage', title:'A $15 minimum wage', tag:'Statehouses', body:`New trifectas in Nevada, Wisconsin, and Pennsylvania can pass it. Wisconsin's and Pennsylvania's governors campaigned on raising the wage, and Nevada's leans toward it (Wisconsin and Pennsylvania are still at the $7.25 federal floor).`, extra:t10Chips('wage',[['NV','go'],['WI','go'],['PA','go']])});
   likely.push({side:'gov', k:'roe', title:'Write abortion rights into state law', tag:'Statehouses', body:`Pennsylvania, Wisconsin, and Alaska can codify Roe with their new trifectas. Georgia and North Carolina are possible with a few Republican votes, and Texas is a long shot.`, extra:t10Chips('roe',[['PA','go'],['WI','go'],['AK','go'],['GA','maybe'],['NC','maybe'],['TX','maybe']])});
   likely.push({side:'gov', k:'house', title:'Ease zoning and building rules', tag:'Statehouses', body:`One of the priorities governors championed most. New trifectas in Pennsylvania, Wisconsin, and Alaska have governors fully behind it, Michigan's and Nevada's lean in, and zoning reform has passed with bipartisan votes in states like Montana and Arizona.`, extra:t10Chips('house',[['PA','go'],['WI','go'],['AK','go'],['MI','maybe'],['NV','maybe']])});
   likely.push({side:'gov', k:'npv', title:'Activate the National Popular Vote compact', tag:'Statehouses', body:`The compact has 222 electoral votes. Trifectas in Arizona, Alaska, Nevada, Wisconsin, Michigan, and Pennsylvania would add 64, pushing it to 286, past the 270 that switches it on. None of those six governors is on record for it yet, and it would face court challenges.`, extra:t10Chips('npv',[['AZ','go'],['AK','go'],['NV','go'],['WI','go'],['MI','go'],['PA','go']])});
-  const ORDER=['road','ai','medicaid','wage','roe','stock','house','priorauth','datactr','npv'], pos=k=>{ const i=ORDER.indexOf(k); return i<0?99:i; };
+  { const dt=STS.filter(s=>cat('datactr',s)==='dtri'), rd=dt.filter(s=>govStance('datactr',s)==='Support'), nw=['AK','AZ','MI','NV','PA','WI'].filter(s=>rd.includes(s));
+    likely.push({side:'gov', k:'datactr', title:'Make data centers pay their full costs in the states', tag:'Statehouses', body:`${rd.length} Democratic trifectas that haven't passed it have governors who back it, including ${nw.length===6?'all six':nw.length} new trifectas. It's the most widely backed statehouse priority, and ${STS.filter(s=>cat('datactr',s)==='law').length} states already have a law on the books.`, extra:t10Chips('datactr',rd.map(s=>[s,'go']))}); }
+  const ORDER=['ai','medicaid','wage','roe','stock','house','priorauth','datactr','npv'], pos=k=>{ const i=ORDER.indexOf(k); return i<0?99:i; };
   likely.sort((a,b)=>pos(a.k)-pos(b.k));
-  const lowK = KEYS.filter(k=>(META[k].need==='leg'||k==='termlim') && !['fil','sch','heg'].includes(k)).map(k=>[k,onRecord(k).n]).sort((a,b)=>a[1]-b[1]).slice(0,5).map(x=>x[0]);
+  const lowK = KEYS.filter(k=>(META[k].need==='leg'||k==='termlim') && !['fil','sch','heg'].includes(k) && !ENACTED[k]).map(k=>[k,onRecord(k).n]).sort((a,b)=>a[1]-b[1]).slice(0,5).map(x=>x[0]);
   const unlikelySen = lowK.map(k=>{ const o=onRecord(k), need=needOf(k); return {side:'sen', k, title:FULL(k), tag:'Senate', body:`Only ${o.n} senators are on record in support${o.r?`, ${o.r} of them Republicans`:''}, far from ${need}${need===60?', and short of 51 even without the filibuster':''}.`, extra:t10Meter(k,need,'')}; });
   const triStates = ['AZ','AK','NV','WI','MI','PA'];
   const unlikelySt = [
@@ -3393,7 +3413,7 @@ function t10Items(){
     {side:'gov', k:'avr', title:'Automatic voter registration in split states', tag:'Statehouses', body:`North Carolina, Texas, and Kansas would need Republican votes for a partisan election change, and their Democratic governors haven't made it a priority.`, extra:t10Chips('avr',[['NC','no'],['TX','no'],['KS','no']])},
     {side:'gov', k:'ptaxcorp', title:'Pay for property-tax cuts by ending corporate giveaways', tag:'Statehouses', body:`Just ${dGovSup('ptaxcorp')} Democratic governor is on record for it, and none of the new trifecta governors has taken it up.`, extra:t10Chips('ptaxcorp',triStates.map(s=>[s,'no']))},
     {side:'gov', k:'pricecap', title:'Push regulators to cap power prices', tag:'Statehouses', body:`Only ${dGovSup('pricecap')} Democratic governors back price caps through regulators and the grid operator; most prefer making data centers pay their own way.`, extra:t10Chips('pricecap',triStates.map(s=>[s,'no']))},
-    {side:'gov', k:'drugbd', title:'State drug price boards with power to cap prices', tag:'Statehouses', body:`Among the new trifectas, only Michigan's ${GOV.MI.n} fully backs one; Arizona, Nevada, and Pennsylvania's governors only lean toward it.`, extra:t10Chips('drugbd',[['MI','go'],['AZ','no'],['NV','no'],['PA','no'],['WI','no']])},
+    {side:'gov', k:'drugbd', title:'State drug price boards with power to cap prices', tag:'Statehouses', body:`Among the new trifectas, only Michigan's ${GOV.MI.n} fully backs one; the governors of Arizona, Alaska, Nevada, and Pennsylvania only lean toward it.`, extra:t10Chips('drugbd',[['MI','go'],['AZ','no'],['AK','no'],['NV','no'],['PA','no'],['WI','no']])},
   ];
   const verge = legK.map(k=>[k,onRecord(k).n]).filter(x=>x[1]>=51&&x[1]<60).sort((a,b)=>b[1]-a[1]).slice(0,5).map(([k])=>{ const o=onRecord(k), u=SEN0.filter(x=>(x.r[k]||[])[0]==='Unclear').length;
     return {side:'sen', k, title:FULL(k), tag:'Senate', body:`${o.n} senators are on record${o.r?`, ${o.r} of them Republicans`:''}: ${60-o.n} short of breaking a filibuster, but enough to pass if the filibuster goes. ${u} ${u===1?'senator hasn\'t':'senators haven\'t'} taken a position.`, extra:t10Meter(k,60,'to break a filibuster')}; });
@@ -3430,6 +3450,7 @@ function prioItems(){
 // Senate: senators on record (support or lean) vs. what it needs (60 for most bills, 51 for resolutions and rules, 67 for amendments)
 // Governors: Democratic trifectas that don't have it yet with a governor who backs it can pass it alone; split states need Republican votes
 function prioLike(side,k){
+  if(side==='sen' && ENACTED[k]) return {lv:'hi', lab:'Already law', sub:ENACTED[k].d, tip:TT('Already law', ENACTED[k].how, TFT('Click to open the measure'))};
   if(side==='sen'){
     const o=onRecord(k), need=needOf(k), maj=Math.min(51,need);
     const lv = o.n>=need ? 'hi' : o.n>=maj ? 'mid' : 'lo';
