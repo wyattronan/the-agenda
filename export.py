@@ -44,6 +44,12 @@ _sid = {s["n"]: s["id"] for s in d["sen"]}; _gst = {g["n"]: g["st"] for g in d["
 d["curl"] = {"sen": {f"{_sid[n]}|{k}": u for (sd,n,k),u in _fcurls.items() if sd=="sen" and n in _sid}, "gov": {f"{_gst[n]}|{k}": u for (sd,n,k),u in _fcurls.items() if sd=="gov" and n in _gst}}
 d["curl"]["sen"].update({f"{i}|heg": p[2] for i, p in _heg.POS.items()})
 d["curl"]["gov"].update({f"{st}|guard": u for st, u in gov2.GUARD_URLS.items()})
+# measures removed from the site: drop any leftover research records for them (fc/out still holds old findings)
+DROPPED = {"road"}
+for _x in d["sen"]:
+    for _k in DROPPED: _x["r"].pop(_k, None)
+d["curl"]["sen"] = {k: v for k, v in d["curl"]["sen"].items() if k.split("|")[-1] not in DROPPED}
+_fcurls = {kk: v for kk, v in _fcurls.items() if not (kk[0] == "sen" and kk[2] in DROPPED)}
 from build_champ import build as _bc
 d["champ"], _st = _bc(d, _fcurls); print("champions", _st)
 import os
@@ -54,6 +60,7 @@ from build_polls import build as _bp
 _m = json.load(open(ROOT + "/fc/in/measures.json"))
 _vk = ["sen:"+x["key"] for x in _m["senate"]] + ["gov:"+x["key"] for x in _m["governor"]]
 d["polls"] = _bp(_vk, os.environ.get("POLLSRC", ROOT + "/fc/polls/out"))
+for _k in DROPPED: d["polls"].pop("sen:"+_k, None) if isinstance(d["polls"], dict) else None; d["mlinks"].get("sen", {}).pop(_k, None)
 _g = json.load(open(ROOT + "/gop/gop_tracker.json")); _gx = json.load(open(ROOT + "/gop/extras.json"))
 d["gop"] = {"as_of": _g["as_of"], "window": _g["window"], "people": _g["people"], "photos": json.load(open(ROOT + "/gop/photos.json")), **_gx}
 d["desc"] = {"sen": _desc.SEN, "gov": _desc.GOV}

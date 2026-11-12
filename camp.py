@@ -39,7 +39,7 @@ def build(d):
     return out
 
 
-ENACTED = {"sen": {"road"}, "gov": set()}   # already law; keep in sync with ENACTED in template.html
+ENACTED = {"sen": set(), "gov": set()}   # already law; keep in sync with ENACTED in template.html
 
 
 def rank(d, camp):

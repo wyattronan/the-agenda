@@ -36,7 +36,6 @@ META = [
     ("toptax", "Repeal top-bracket OBBBA cuts; close billionaire loopholes", "cost", "leg", "both"),
     ("pfl", "National paid family leave", "cost", "leg", "new"),
 
-    ("road", "Housing supply: ROAD to Housing Act, permitting", "cost", "leg", "both"),
     ("downpay", "Down payment help for first-time buyers", "cost", "leg", "both"),
 
     ("wage", "Raise the minimum wage ($15–$25) & expand overtime", "cost", "leg", "both"),
@@ -80,7 +79,7 @@ SHORT = {
  "medicaid":"Undo Medicaid cuts","drugneg":"Drug price negotiation","priorauth":"Curb prior auth","roe":"Codify Roe",
  "gouge":"Price-gouging ban","meat":"Break up meatpackers","gastax":"Gas tax holiday","datactr":"Data centers pay",
  "ctc":"Expand the CTC","childcare":"7% child care cap","toptax":"Repeal top-rate cuts","keeppay":"Keep Your Pay Act",
- "pfl":"Paid family leave","road":"ROAD to Housing","downpay":"Down payment help","rental":"Rental assistance",
+ "pfl":"Paid family leave","downpay":"Down payment help","rental":"Rental assistance",
  "wage":"Raise the minimum wage","pro":"PRO Act","repair":"Farm right-to-repair","stock":"Stock trading ban",
  "gerry":"Ban gerrymandering","dcpr":"DC / PR statehood","pacs":"Ban corporate PACs","termlim":"Term/age limits","heg":"Convict Hegseth",
  "imm":"Immigration reform","ice":"Rein in ICE","border24":"2024 border deal","isr":"Condition Israel aid",
@@ -99,7 +98,7 @@ FULL = {
  "ctc":"Expand the Child Tax Credit","childcare":"Cap child care at 7% of income / universal child care",
  "toptax":"Repeal the OBBBA top-bracket cuts and close billionaire loopholes",
  "keeppay":"Keep Your Pay Act (no federal income tax on the first $75,000, joint)",
- "pfl":"National paid family and medical leave","road":"ROAD to Housing Act (housing supply and permitting)",
+ "pfl":"National paid family and medical leave",
  "downpay":"Down payment assistance for first-time buyers","rental":"Expand rental assistance and Section 8 vouchers",
  "wage":"Raise the minimum wage ($15–$25) and expand overtime","pro":"PRO Act (Protecting the Right to Organize)",
  "repair":"Federal right-to-repair for farm equipment",

@@ -197,14 +197,6 @@ P("rental", ["Cramer"], "Support", "Republican co-lead, Choice in Affordable Hou
 P("rental", ["Warnock", "Moran", "Curtis", "Heinrich"], "Support", CAH)
 P("rental", "Schiff", "Support", "Sponsor, a 2025 housing bill authorizing more vouchers and eviction assistance (S.3464).")
 
-# ---------------- ROAD to Housing ----------------
-RD = "Voted for final passage of the 21st Century ROAD to Housing Act (Jun 22 2026, 85–5), which became law Jul 11 2026."
-P("road", INC, "Support", RD)
-P("road", ["Johnson", "Lee", "Paul", "Scott (FL)"], "Oppose", "One of five senators to vote against the 21st Century ROAD to Housing Act (Jun 22 2026, 85–5).")
-P("road", ["Bennet", "Cruz", "Curtis", "Justice", "Murray", "Slotkin", "Whitehouse", "Young"], "Unclear",
-  "Did not vote on final passage of the ROAD to Housing Act (Jun 22 2026); its earlier 89–10 Senate vote isn't broken out here.")
-P("road", "Scott (SC)", "Support", "Co-wrote the ROAD to Housing Act as Banking chair; it passed committee 24–0 and became law Jul 11 2026.")
-P("road", "Warren", "Support", "Co-wrote the ROAD to Housing Act as Banking ranking member; it became law Jul 11 2026.")
 
 P("gerry", "Murkowski", "Lean oppose", "Voted against advancing the Freedom to Vote: John R. Lewis Act, which bans partisan gerrymandering (Jan 19 2022).")
 
