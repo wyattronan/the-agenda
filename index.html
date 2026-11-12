@@ -2872,12 +2872,20 @@ function renderGsdTop(){
   const top3=G.slice(0,3), topR=G.filter(r=>r.p==='R')[0], dBelow=topR?G.filter(r=>r.p==='D'&&r.tot<topR.tot).length:0, dNew=topR?G.filter(r=>r.p==='D'&&r.tot<topR.tot&&r.isNew).length:0;
   const signedR=G.filter(r=>r.p==='R'&&r.lad.n.Deliver>=3).sort((a,b)=>b.lad.n.Deliver-a.lad.n.Deliver).slice(0,3);
   const hTop=H[0], hSen=H.find(o=>o.kind==='sen'), hSenRk=hSen?tieRank(HROWS,hSen):null, execAbove=hSen?H.filter(o=>o.tot>hSen.tot).length:0;
+  // three things to know: the governors' biggest talk-vs-action gap, what governors actually sign, and the Senate's biggest talk-vs-action gap
+  const gDel={}; GROWS.forEach(r=>(r.lad.keys.Deliver||[]).forEach(k=>gDel[k]=(gDel[k]||0)+1));
+  const gSup=k=>D.gov.filter(g=>g.p==='D'&&govStance(k,g.st)==='Support').length;
+  const gGap=GK.map(k=>({k, s:gSup(k), d:gDel[k]||0})).filter(o=>o.s>=10);
+  const gA=gGap.slice().sort((a,b)=>(b.s-b.d)/b.s-(a.s-a.d)/a.s || b.s-a.s)[0], gB=gGap.filter(o=>o!==gA).sort((a,b)=>(b.s-b.d)-(a.s-a.d))[0];
+  const gTop=Object.entries(gDel).sort((a,b)=>b[1]-a[1]).slice(0,4);
+  const sRow=SK.filter(k=>!['sch','heg','fil'].includes(k)).map(k=>{ let t=0,c=0,a=0; SROWS.forEach(r=>{ const K=r.lad.keys; if((K.Talk||[]).includes(k)) t++; if((K.Commit||[]).includes(k)) c++; if((K.Spend||[]).includes(k)||(K.Deliver||[]).includes(k)) a++; }); return {k,t,c,a,n:t+c+a,need:META[k].need==='leg'?60:+META[k].need}; }).filter(o=>o.a===0).sort((a,b)=>b.t-a.t);
+  const sA=sRow[0], sB=sRow[1], sNm=k=>FULL(k).split(' (')[0].split(':')[0];
   const T=[
-    ['Signed laws are rare, and they decide the rankings.', `Only ${pc('Deliver')}% of the governor and senator positions on record reach Deliver; ${pc('Commit')}% stop at Commit and ${pc('Talk')}% at Talk. The top governors, ${nm(top3.map(r=>`${r.n.split(' ').slice(1).join(' ')} (${r.lad.n.Deliver} delivered)`))}, are the ones who turned the agenda into law.`],
-    ['Doing outranks promising, in either party.', `${nm(signedR.map(r=>`${r.n} (R-${r.s}, ${r.lad.n.Deliver} delivered)`))} rank ahead of governors who have only campaigned on these priorities. The top Republican, ${topR.n}, outscores ${dBelow} Democratic governors${dNew*2>dBelow?`, ${dNew} of them newly elected and not yet able to sign anything`:''}.`],
-    ['The 2028 field is led by people who sign bills.', `${hTop.n} leads the hopefuls at ${hTop.tot}, with ${hTop.lad.n.Deliver} agenda priorities delivered. The highest-ranked senator, ${hSen.n}, is ${gsdRk(hSenRk)}: a vote or cosponsorship is Commit or Talk, not delivery, so senators trail ${execAbove===1?'one hopeful':execAbove+' hopefuls'} with executive records.`],
+    [`${GI[gA.k].s} is the governors' biggest gap between talk and action.`, `${gA.s} Democratic governors back it and ${gA.d?`only ${gA.d} ${gA.d===1?'has':'have'}`:'none has'} signed it. “${GI[gB.k].s}” comes next: ${gB.s} back it, ${gB.d} ${gB.d===1?'has':'have'} signed it.`],
+    [`${gTop[0]?GI[gTop[0][0]].s:''} and ${gTop[1]?GI[gTop[1][0]].s.toLowerCase():''} are what governors actually sign.`, `“${GI[gTop[0][0]].s}” is the most-delivered priority, at ${gTop[0][1]} governors, followed by “${GI[gTop[1][0]].s}” at ${gTop[1][1]}, then “${GI[gTop[2][0]].s}” and “${GI[gTop[3][0]].s}” at ${gTop[2][1]===gTop[3][1]?`${gTop[2][1]} each`:`${gTop[2][1]} and ${gTop[3][1]}`}.`],
+    [`In the Senate, “${sNm(sA.k)}” is the biggest gap between talk and action.`, `${sA.n} senators are on record for it${sA.n>=sA.need?`, more than the ${sA.need} it needs`:''}, but ${sA.t} of them have only cosponsored it or spoken up, and none has forced a vote. “${sNm(sB.k)}” is next: ${sB.t} of its ${sB.n} backers are talk only.`],
   ];
-  if(!(topR && signedR.length && hSen && hTop.kind!=='sen')) console.warn('GSD TTK no longer matches the data');
+  if(!(gA && gB && gTop.length>=4 && sA && sB)) console.warn('GSD TTK no longer matches the data');
   if(!$('gsdttk').firstChild){ $('gsdttk').innerHTML = ttkHtml(T,'Scores use researched positions through Nov 10, 2026.'); ttkFirst($('gsdttk')); }
   renderLadder();
 }
