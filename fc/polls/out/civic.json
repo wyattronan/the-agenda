@@ -1,0 +1,556 @@
+[
+ {
+  "keys": [
+   "gov:teacher"
+  ],
+  "match": "concept",
+  "pollster": "Oklahoma Center for Education Policy (University of Oklahoma)",
+  "sponsor": "",
+  "tier": 1,
+  "type": "state",
+  "fielded": "2026-03",
+  "n": 1165,
+  "question": "Should Oklahoma teacher salaries be increased, kept the same, or decreased",
+  "url": "https://www.ou.edu/content/dam/education/centers-and-partnerships/education-policy/education-poll-april2026.pdf",
+  "states": {
+   "OK": {
+    "sup": 71,
+    "opp": 6
+   }
+  },
+  "national": null,
+  "note": "sup = greatly increase (34) + increase (37); opp = decrease (4) + greatly decrease (2); 22% stay the same. Adults, RDD cell sample."
+ },
+ {
+  "keys": [
+   "gov:teacher"
+  ],
+  "match": "concept",
+  "pollster": "RABA Research",
+  "sponsor": "Not disclosed",
+  "tier": 3,
+  "type": "state",
+  "fielded": "2026-02",
+  "n": 500,
+  "question": "Support raising pay for West Virginia educators and school service personnel",
+  "url": "https://www.rabaresearch.com/recent-polls/poll-of-west-virginia-residents-2/",
+  "states": {
+   "WV": {
+    "sup": 90
+   }
+  },
+  "national": null,
+  "note": "Online survey of WV voters Feb 23-25, 2026; 60 strongly + 30 somewhat support; opposition not reported. Sponsor not named; question battery reads like an advocacy poll, so tiered 3."
+ },
+ {
+  "keys": [
+   "gov:teacher"
+  ],
+  "match": "bill",
+  "pollster": "YouGov / Saint Louis University",
+  "sponsor": "Saint Louis University",
+  "tier": 1,
+  "type": "state",
+  "fielded": "2022-08",
+  "n": 900,
+  "question": "Make permanent the state support raising Missouri's minimum teacher starting salary from $25,000 to $38,000",
+  "url": "https://www.yahoo.com/news/poll-missourians-support-higher-teacher-190758818.html",
+  "states": {
+   "MO": {
+    "sup": 71
+   }
+  },
+  "national": null,
+  "note": "Likely voters, Aug 8-16, 2022; opposition not reported in article."
+ },
+ {
+  "keys": [
+   "gov:teacher"
+  ],
+  "match": "concept",
+  "pollster": "University of New Hampshire Survey Center (Granite State Poll)",
+  "sponsor": "",
+  "tier": 1,
+  "type": "state",
+  "fielded": "2022-10",
+  "n": 966,
+  "question": "Support raising local teacher pay even if it increases the school district budget",
+  "url": "https://www.nhpr.org/education/2022-10-21/poll-majority-of-granite-staters-support-raising-teacher-pay-oppose-new-restrictions-on-classroom-teaching",
+  "states": {
+   "NH": {
+    "sup": 61
+   }
+  },
+  "national": null,
+  "note": "Oct 13-17, 2022; opposition not reported in article."
+ },
+ {
+  "keys": [
+   "gov:teacher"
+  ],
+  "match": "concept",
+  "pollster": "PDK Poll (Phi Delta Kappa / Langer Research)",
+  "sponsor": "PDK International",
+  "tier": 1,
+  "type": "national",
+  "fielded": "2023",
+  "n": 1000,
+  "question": "Support raising teacher salaries in your community even if it means higher property taxes",
+  "url": "https://www.k12dive.com/news/PDK-poll-teacher-pay-curriculum-influence/692114/",
+  "states": {},
+  "national": {
+   "sup": 67
+  },
+  "note": "Adults; 66% said teachers are underpaid. Opposition not given in article; n approx 1,000."
+ },
+ {
+  "keys": [
+   "gov:vouchers"
+  ],
+  "match": "concept",
+  "pollster": "MassINC Polling Group",
+  "sponsor": "Spotlight PA",
+  "tier": 1,
+  "type": "state",
+  "fielded": "2024-09",
+  "n": 800,
+  "question": "Approve or disapprove of private school vouchers (state money for private school tuition) in Pennsylvania",
+  "url": "https://www.statecollege.com/articles/education/private-school-vouchers-opposed-by-more-than-half-of-pa-voters-poll-shows/",
+  "states": {
+   "PA": {
+    "sup": 54,
+    "opp": 36
+   }
+  },
+  "national": null,
+  "note": "Reversed: sup = % disapproving of vouchers (36 strongly + 18 somewhat); opp = % approving (22+14). 10% unsure. Likely voters, Sept 12-18, 2024."
+ },
+ {
+  "keys": [
+   "gov:vouchers"
+  ],
+  "match": "concept",
+  "pollster": "Hobby School of Public Affairs (Univ. of Houston) & Texas Southern University / YouGov (Texas Trends)",
+  "sponsor": "",
+  "tier": 1,
+  "type": "state",
+  "fielded": "2023-10",
+  "n": 1914,
+  "question": "Support or oppose school vouchers for all Texas parents",
+  "url": "https://www.uh.edu/hcpp/txtrends/vouchers.pdf",
+  "states": {
+   "TX": {
+    "sup": 28,
+    "opp": 47
+   }
+  },
+  "national": null,
+  "note": "Reversed: sup = % opposing vouchers for all parents; opp = % supporting. Remainder neutral/unsure. Adults, Oct 6-18, 2023. Other versions: low-income-only vouchers 49 support/27 oppose; SB1 ESAs 41/24."
+ },
+ {
+  "keys": [
+   "gov:vouchers"
+  ],
+  "match": "concept",
+  "pollster": "Vanderbilt University Poll",
+  "sponsor": "",
+  "tier": 1,
+  "type": "state",
+  "fielded": "2024-04",
+  "n": null,
+  "question": "Support or oppose Gov. Lee's universal school voucher plan in Tennessee",
+  "url": "https://www.chalkbeat.org/tennessee/2024/06/13/school-voucher-polls-vary-election-year-legislative-candidates-vanderbilt",
+  "states": {
+   "TN": {
+    "sup": 46,
+    "opp": 45
+   }
+  },
+  "national": null,
+  "note": "Reversed: sup = % opposing vouchers (46); opp = % supporting (45); 9% neither. Spring 2024 Vanderbilt Poll of registered voters; exact dates/n not in article (fielded approx. Apr-May 2024)."
+ },
+ {
+  "keys": [
+   "gov:vouchers"
+  ],
+  "match": "concept",
+  "pollster": "Oklahoma Center for Education Policy (University of Oklahoma)",
+  "sponsor": "",
+  "tier": 1,
+  "type": "state",
+  "fielded": "2026-03",
+  "n": 1165,
+  "question": "Support or oppose giving families a tax refund for private school tuition (Oklahoma's private school tax credit)",
+  "url": "https://www.ou.edu/content/dam/education/centers-and-partnerships/education-policy/education-poll-april2026.pdf",
+  "states": {
+   "OK": {
+    "sup": 44,
+    "opp": 47
+   }
+  },
+  "national": null,
+  "note": "Reversed: sup = % opposing the private-school tax credit (11 oppose + 33 strongly oppose); opp = % supporting (30+17). 8% neither. Tax-credit voucher equivalent, not a classic voucher."
+ },
+ {
+  "keys": [
+   "gov:npv"
+  ],
+  "match": "concept",
+  "pollster": "Pew Research Center",
+  "sponsor": "",
+  "tier": 1,
+  "type": "national",
+  "fielded": "2024-08",
+  "n": 9720,
+  "question": "Prefer electing the president by national popular vote rather than the Electoral College",
+  "url": "https://www.pewresearch.org/short-reads/2024/09/25/majority-of-americans-continue-to-favor-moving-away-from-electoral-college/",
+  "states": {},
+  "national": {
+   "sup": 63,
+   "opp": 35
+  },
+  "note": "Adults, Aug 26-Sep 2, 2024 (American Trends Panel). Figures read via nationalpopularvote.com/node/448 summary of the Pew release."
+ },
+ {
+  "keys": [
+   "gov:npv"
+  ],
+  "match": "concept",
+  "pollster": "Gallup",
+  "sponsor": "",
+  "tier": 1,
+  "type": "national",
+  "fielded": "2024-09",
+  "n": null,
+  "question": "Amend the Constitution so the president is elected by national popular vote instead of the Electoral College",
+  "url": "https://abcnews4.com/news/nation-world/electoral-college-most-americans-favor-letting-popular-vote-determine-president-gallup-george-washington-university-2024-election-harris-trump",
+  "states": {},
+  "national": {
+   "sup": 58
+  },
+  "note": "Reported Sept 2024; opposition share not given in the article."
+ },
+ {
+  "keys": [
+   "gov:npv"
+  ],
+  "match": "concept",
+  "pollster": "Civiqs (tracking poll)",
+  "sponsor": "",
+  "tier": 3,
+  "type": "national",
+  "fielded": "2026-11",
+  "n": 79277,
+  "question": "Keep the Electoral College or switch to electing the candidate who wins the national popular vote",
+  "url": "https://civiqs.com/results/national_popular_vote?annotations=true&uncertainty=true&zoomIn=true&map=true",
+  "states": {},
+  "national": {
+   "sup": 51,
+   "opp": 42
+  },
+  "note": "Registered voters; rolling tracking estimate as of Nov 5, 2026 (trend since July 2023); 7% unsure. Civiqs is a Democratic-aligned firm. Civiqs site shows a state map but state values could not be extracted (JS-rendered; direct download blocked)."
+ },
+ {
+  "keys": [
+   "gov:avr"
+  ],
+  "match": "concept",
+  "pollster": "Pew Research Center",
+  "sponsor": "",
+  "tier": 1,
+  "type": "national",
+  "fielded": "2025-08",
+  "n": 1770,
+  "question": "Favor or oppose automatically registering all eligible citizens to vote",
+  "url": "https://www.pewresearch.org/wp-content/uploads/sites/20/2025/08/PP_2025.8.22_voting-policy_report.pdf",
+  "states": {},
+  "national": {
+   "sup": 59,
+   "opp": 40
+  },
+  "note": "Adults, Aug 4-10, 2025 (ATP); asked of Form 1 half-sample (n=1,770 of 3,554). opp = 21 somewhat + 19 strongly oppose. Dems 77% favor, Reps 42%."
+ },
+ {
+  "keys": [
+   "gov:avr"
+  ],
+  "match": "concept",
+  "pollster": "AP-NORC Center for Public Affairs Research",
+  "sponsor": "",
+  "tier": 1,
+  "type": "national",
+  "fielded": "2021-03",
+  "n": null,
+  "question": "Favor or oppose automatic voter registration",
+  "url": "https://weartv.com/news/nation-world/poll-finds-majority-in-us-back-easier-voter-registration",
+  "states": {},
+  "national": {
+   "sup": 60
+  },
+  "note": "Published Apr 2, 2021; fieldwork dates/n not given in article (approx. March 2021). Opposition not reported."
+ },
+ {
+  "keys": [
+   "sen:gerry"
+  ],
+  "match": "concept",
+  "pollster": "Noble Predictive Insights",
+  "sponsor": "Common Cause",
+  "tier": 3,
+  "type": "multistate",
+  "fielded": "2025-08",
+  "n": 2016,
+  "question": "Support having independent citizen commissions draw electoral districts",
+  "url": "https://data.ddhq.io/polls/2025/10/22/Noble Predictive Insights/Common Cause-California-2025-08-26-2025-09-03",
+  "states": {
+   "CA": {
+    "sup": 80
+   },
+   "FL": {
+    "sup": 76
+   },
+   "TX": {
+    "sup": 74
+   },
+   "NY": {
+    "sup": 78
+   },
+   "IL": {
+    "sup": 75
+   }
+  },
+  "national": {
+   "sup": 77
+  },
+  "note": "Registered voters, Aug 26-Sep 3, 2025; national n=2,016 plus state samples CA 484, FL 499, IL 490, NY 482, TX 400. Hybrid opt-in panel/text-to-web. Advocacy sponsor (Common Cause). Opposition not reported. State figures from indypolitics.org write-up (https://indypolitics.org/poll-finds-broad-opposition-to-mid-decade-redistricting/). Same poll: 60% oppose letting parties redraw districts mid-decade."
+ },
+ {
+  "keys": [
+   "sen:gerry"
+  ],
+  "match": "concept",
+  "pollster": "NBC News Decision Desk Poll (SurveyMonkey)",
+  "sponsor": "NBC News",
+  "tier": 1,
+  "type": "national",
+  "fielded": "2025-08",
+  "n": null,
+  "question": "Prefer redistricting done by a nonpartisan commission rather than by the party in power",
+  "url": "https://ivn.us/poll-82-americans-want-redistricting-done-independent-commission-not-politicians-2025-09-10.md",
+  "states": {},
+  "national": {
+   "sup": 82
+  },
+  "note": "Aug 13-Sep 1, 2025; n not given in the IVN write-up. 71% of Republicans in GOP-run states and 88% of Democrats in Dem-run states preferred a commission. Opposition not reported."
+ },
+ {
+  "keys": [
+   "sen:gerry"
+  ],
+  "match": "concept",
+  "pollster": "Texas Politics Project (UT Austin)",
+  "sponsor": "",
+  "tier": 1,
+  "type": "state",
+  "fielded": "2025-08",
+  "n": 1200,
+  "question": "Approve of the 2025 mid-decade redraw of Texas congressional districts",
+  "url": "https://www.texastribune.org/2025/09/09/texas-redistricting-poll-trump-megabill-thc-senate-race",
+  "states": {
+   "TX": {
+    "sup": 41,
+    "opp": 34
+   }
+  },
+  "national": null,
+  "note": "Reversed proxy: sup = % disapproving of the partisan mid-decade redraw (41), opp = % approving (34). Registered voters, Aug 22-Sep 1, 2025. Same poll asked about moving redistricting to an independent commission but the topline was not in the article or chart text."
+ },
+ {
+  "keys": [
+   "sen:gerry"
+  ],
+  "match": "concept",
+  "pollster": "Change Research",
+  "sponsor": "Not stated",
+  "tier": 3,
+  "type": "state",
+  "fielded": "2025-08",
+  "n": 1662,
+  "question": "Agree that gerrymandering should be illegal in Indiana",
+  "url": "https://ipbs.org/projects/assets/Indiana%20Redistricting%20Survey%20Memo%20_%20August%202025.pdf",
+  "states": {
+   "IN": {
+    "sup": 74,
+    "opp": 10
+   }
+  },
+  "national": null,
+  "note": "Registered voters, online, Aug 18-21, 2025. Change Research is a Democratic-aligned firm. Same poll: 52% opposed the 2025 mid-decade redraw (34% support)."
+ },
+ {
+  "keys": [
+   "sen:gerry"
+  ],
+  "match": "concept",
+  "pollster": "YouGov",
+  "sponsor": "",
+  "tier": 1,
+  "type": "national",
+  "fielded": "2025-08",
+  "n": null,
+  "question": "Partisan gerrymandering should be illegal",
+  "url": "https://abc6onyourside.com/news/beyond-the-podium/voters-see-gerrymandering-as-threat-to-democracy-as-california-and-texas-move-forward-redistricting-house-maps-2026-midterms-congress-majority",
+  "states": {},
+  "national": {
+   "sup": 69
+  },
+  "note": "Early August 2025, as reported by Sinclair/ABC6; exact dates, n and opposition not given. 76% call it a major problem."
+ },
+ {
+  "keys": [
+   "sen:dcpr"
+  ],
+  "match": "concept",
+  "pollster": "YouGov",
+  "sponsor": "",
+  "tier": 1,
+  "type": "national",
+  "fielded": "2024-10",
+  "n": 7200,
+  "question": "Support Puerto Rico becoming a state if its residents voted for it",
+  "url": "https://columbian.com/news/2024/oct/30/would-americans-support-puerto-rico-becoming-a-state-or-leaving-us-what-poll-says",
+  "states": {},
+  "national": {
+   "sup": 59,
+   "opp": 16
+  },
+  "note": "Puerto Rico half of the measure only; adults, Oct 28, 2024; 25% unsure. Conditional on PR residents voting for statehood."
+ },
+ {
+  "keys": [
+   "sen:dcpr"
+  ],
+  "match": "concept",
+  "pollster": "Economist/YouGov",
+  "sponsor": "The Economist",
+  "tier": 1,
+  "type": "national",
+  "fielded": "2021-04",
+  "n": 1500,
+  "question": "Support or oppose making Washington, DC a state",
+  "url": "https://yougov.com/en-us/articles/35628-what-americans-think-about-dc-statehood",
+  "states": {},
+  "national": {
+   "sup": 36,
+   "opp": 37
+  },
+  "note": "DC half of the measure; adult citizens, Apr 25-27, 2021; 27% unsure. Same poll: Puerto Rico statehood 43% support / 31% oppose."
+ },
+ {
+  "keys": [
+   "gov:fraud"
+  ],
+  "match": "concept",
+  "pollster": "SurveyUSA",
+  "sponsor": "KSTP-TV",
+  "tier": 1,
+  "type": "state",
+  "fielded": "2026-06",
+  "n": null,
+  "question": "Minnesota Legislature needs to do more to stop fraud in state programs",
+  "url": "https://kstp.com/kstp-news/top-news/kstp-surveyusa-poll-most-minnesotans-critical-of-fraud-efforts-to-stop-it-most-important-voter-issues/",
+  "states": {
+   "MN": {
+    "sup": 76
+   }
+  },
+  "national": null,
+  "note": "Proxy for support for stronger anti-fraud oversight, not a question on audits/inspector general specifically. Published June 19, 2026; dates/n not in article. 73% said Gov. Walz needs to do more; 81% call fraud the biggest or a major problem."
+ },
+ {
+  "keys": [
+   "gov:fraud"
+  ],
+  "match": "concept",
+  "pollster": "Change Research (Compass Poll)",
+  "sponsor": "",
+  "tier": 3,
+  "type": "national",
+  "fielded": "2026-01",
+  "n": 1348,
+  "question": "Preventing fraud in public benefit programs should come first even if stricter rules limit access",
+  "url": "https://changeresearch.com/research/2026/2026-01-27-the-fraud-prevention-vs-access-debate",
+  "states": {},
+  "national": {
+   "sup": 53,
+   "opp": 41
+  },
+  "note": "Registered voters, Jan 13-19, 2026. opp = % prioritizing access even if some fraud continues. Weak proxy for gov:fraud; Democratic-aligned firm."
+ },
+ {
+  "keys": [
+   "gov:fraud"
+  ],
+  "match": "concept",
+  "pollster": "SurveyUSA",
+  "sponsor": "KSTP-TV",
+  "tier": 1,
+  "type": "state",
+  "fielded": "2025-12",
+  "n": 578,
+  "question": "Minnesota Legislature needs to do more to stop fraud in state programs (vs. has done enough)",
+  "url": "https://kstp.com/kstp-news/top-news/kstp-surveyusa-results-fraud-in-minnesota/",
+  "states": {
+   "MN": {
+    "sup": 74,
+    "opp": 11
+   }
+  },
+  "national": null,
+  "note": "Proxy for support for stronger anti-fraud oversight, not a question on audits/inspector general specifically. Registered voters; published Dec 13, 2025. opp = % saying Legislature has done enough. Same poll: 69% say Gov. Walz needs to do more, 14% done enough."
+ },
+ {
+  "keys": [
+   "gov:avr"
+  ],
+  "match": "concept",
+  "pollster": "Franklin & Marshall College Poll",
+  "sponsor": "",
+  "tier": 1,
+  "type": "state",
+  "fielded": "2024-03",
+  "n": null,
+  "question": "Favor or oppose automatic voter registration in Pennsylvania",
+  "url": "https://www.pressreader.com/usa/daily-times-primos-pa/20240405/281638195225832",
+  "states": {
+   "PA": {
+    "sup": 65,
+    "opp": 32
+   }
+  },
+  "national": null,
+  "note": "Registered voters; reported in the Delaware County Daily Times Apr 5, 2024 (field dates/n not given; F&M spring 2024 poll, approx. March 2024). PA adopted AVR at PennDOT by executive action in Sept 2023."
+ },
+ {
+  "keys": [
+   "gov:npv"
+  ],
+  "match": "bill",
+  "pollster": "UNH Survey Center (Pine Tree State Poll)",
+  "sponsor": "",
+  "tier": 1,
+  "type": "state",
+  "fielded": "2024-08",
+  "n": null,
+  "question": "Support or oppose Maine joining the National Popular Vote Interstate Compact",
+  "url": "https://www.themainewire.com/2024/08/mainers-split-over-national-popular-vote-compact-electoral-vote-distribution-pine-tree-state-poll/",
+  "states": {
+   "ME": {
+    "sup": 35,
+    "opp": 37
+   }
+  },
+  "national": null,
+  "note": "Poll dated Aug 22, 2024 (Maine enacted the compact in April 2024); n not given in article; remainder neutral/unsure. 1st District 43% support."
+ }
+]

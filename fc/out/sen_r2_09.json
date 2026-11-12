@@ -1,0 +1,46 @@
+[
+ {
+  "who": "Chris Pappas",
+  "state": "NH",
+  "key": "priorauth",
+  "old_stance": "Unclear",
+  "new_stance": "Support",
+  "evidence": "Cosponsor, Improving Seniors' Timely Access to Care Act of 2025 (H.R.3514), joining in June 2025.",
+  "url": "https://policyrisk.com/research/legislation/HR3514",
+  "confirmed": false,
+  "changed": true
+ },
+ {
+  "who": "Cory Booker",
+  "state": "NJ",
+  "key": "iran",
+  "old_stance": "Support",
+  "new_stance": "Support",
+  "evidence": "Sponsor, S.J.Res.118, an Iran war powers resolution (Mar 2026); also cosponsored Kaine's S.J.Res.104 and Duckworth's S.J.Res.123 (Mar 2026).",
+  "url": "https://policyrisk.com/research/legislation/SJRES118",
+  "confirmed": false,
+  "changed": true
+ },
+ {
+  "who": "Andy Kim",
+  "state": "NJ",
+  "key": "iran",
+  "old_stance": "Support",
+  "new_stance": "Support",
+  "evidence": "Sponsor, S.J.Res.171, an Iran war powers resolution (Apr 2026); also cosponsored Kaine's S.J.Res.104 (Feb 2026).",
+  "url": "https://policyrisk.com/research/legislation/SJRES171",
+  "confirmed": false,
+  "changed": true
+ },
+ {
+  "who": "Martin Heinrich",
+  "state": "NM",
+  "key": "iran",
+  "old_stance": "Support",
+  "new_stance": "Support",
+  "evidence": "Cosponsor, Kaine's Iran war powers resolution S.J.Res.104 (Mar 2026).",
+  "url": "https://policyrisk.com/research/legislation/SJRES104",
+  "confirmed": false,
+  "changed": true
+ }
+]

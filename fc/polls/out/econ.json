@@ -1,0 +1,576 @@
+[
+ {
+  "keys": [
+   "sen:tariff"
+  ],
+  "match": "concept",
+  "pollster": "Marquette Law School Poll",
+  "sponsor": "",
+  "tier": 1,
+  "type": "state",
+  "fielded": "2026-10",
+  "n": 408,
+  "question": "Raising tariffs on goods imported from Canada (WI registered voters, half sample)",
+  "url": "https://law.marquette.edu/poll/2026/10/28/mlsp92-press-release/",
+  "states": {
+   "WI": {
+    "sup": 67,
+    "opp": 33
+   }
+  },
+  "national": null,
+  "note": "Measure opposes tariffs: sup = % opposing higher tariffs on Canada (67%), opp = % supporting (33%). Also 70% say tariffs hurting WI farmers vs 8% helping."
+ },
+ {
+  "keys": [
+   "sen:tariff"
+  ],
+  "match": "concept",
+  "pollster": "Marquette Law School Poll",
+  "sponsor": "",
+  "tier": 1,
+  "type": "state",
+  "fielded": "2026-09",
+  "n": 422,
+  "question": "Raising tariffs on goods imported from Canada (WI registered voters, half sample)",
+  "url": "https://law.marquette.edu/poll/2026/09/30/mlsp91-press-release/",
+  "states": {
+   "WI": {
+    "sup": 70,
+    "opp": 30
+   }
+  },
+  "national": null,
+  "note": "Measure opposes tariffs: sup = % opposing higher tariffs on Canada, opp = % supporting. Same release: 65% say tariffs hurt WI farmers, 12% help."
+ },
+ {
+  "keys": [
+   "sen:tariff"
+  ],
+  "match": "bill",
+  "pollster": "Marquette Law School Poll (national)",
+  "sponsor": "",
+  "tier": 1,
+  "type": "state",
+  "fielded": "2026-01",
+  "n": 1003,
+  "question": "Supreme Court should rule against Trump's emergency tariff authority",
+  "url": "https://law.marquette.edu/facultyblog/?p=31540",
+  "states": {},
+  "national": {
+   "sup": 63,
+   "opp": null
+  },
+  "note": "National adults, SSRS panel, Jan 21-28 2026. sup = % saying Court should limit/rule against Trump's tariff authority; opp not stated in text. Also 56% say tariffs hurt economy, 30% help."
+ },
+ {
+  "keys": [
+   "sen:iran"
+  ],
+  "match": "bill",
+  "pollster": "UNH Survey Center",
+  "sponsor": "",
+  "tier": 1,
+  "type": "multistate",
+  "fielded": "2026-03",
+  "n": 6266,
+  "question": "Trump should have sought congressional approval before attacking Iran",
+  "url": "https://www.yahoo.com/news/articles/england-states-oppose-iran-attacks-163324947.html",
+  "states": {
+   "VT": {
+    "sup": 72,
+    "opp": 22
+   },
+   "NH": {
+    "sup": 63,
+    "opp": 32
+   },
+   "ME": {
+    "sup": 65,
+    "opp": 31
+   },
+   "MA": {
+    "sup": 77,
+    "opp": 22
+   },
+   "CT": {
+    "sup": 63,
+    "opp": 34
+   },
+   "RI": {
+    "sup": 66,
+    "opp": 28
+   }
+  },
+  "national": null,
+  "note": "UNH March 2026 Breaking News Survey, Mar 2-4, online, six New England states (n=6,266 total, per-state n not reported; MoE 1.9-4.4 by state). Figures via news write-up of UNH release. Same survey, oppose/support Iran attacks: VT 64/28, NH 58/38, ME 58/40, MA 56/34, CT 55/42, RI 54/35."
+ },
+ {
+  "keys": [
+   "sen:iran"
+  ],
+  "match": "concept",
+  "pollster": "Glengariff Group",
+  "sponsor": "WDIV-TV / Detroit News",
+  "tier": 1,
+  "type": "state",
+  "fielded": "2026-09",
+  "n": 600,
+  "question": "Agree/disagree with decision to launch military attacks on Iran (MI likely voters)",
+  "url": "https://www.clickondetroit.com/news/local/2026/09/09/do-michigan-voters-approve-trumps-handling-of-war-with-iran-here-are-the-latest-poll-results/",
+  "states": {
+   "MI": {
+    "sup": 60.3,
+    "opp": 35.2
+   }
+  },
+  "national": null,
+  "note": "Proxy: sup = % disagreeing with decision to attack Iran, opp = % agreeing. No congressional-authorization question. Also 67.3% disapprove Trump's handling of the war. Live phone, Aug 31-Sep 3 2026."
+ },
+ {
+  "keys": [
+   "sen:iran"
+  ],
+  "match": "concept",
+  "pollster": "Marquette Law School Poll",
+  "sponsor": "",
+  "tier": 1,
+  "type": "state",
+  "fielded": "2026-10",
+  "n": 408,
+  "question": "Has the Iran war been worth the cost (WI registered voters, half sample)",
+  "url": "https://law.marquette.edu/poll/2026/10/28/mlsp92-press-release/",
+  "states": {
+   "WI": {
+    "sup": 76,
+    "opp": 22
+   }
+  },
+  "national": null,
+  "note": "Weak proxy: sup = % saying war NOT worth the cost, opp = % saying worth it. No war-powers question. Sept 2026 wave: 73 not worth / 26 worth."
+ },
+ {
+  "keys": [
+   "sen:iran"
+  ],
+  "match": "bill",
+  "pollster": "CNN/SSRS",
+  "sponsor": "",
+  "tier": 1,
+  "type": "national",
+  "fielded": "2026-03",
+  "n": null,
+  "question": "Trump should be required to get congressional approval for further military action in Iran",
+  "url": "https://gpi.umd.edu/sites/default/files/2026-08/Formatted_for_Accessibility_War%20with%20No%20Rally%20v4.pdf",
+  "states": {},
+  "national": {
+   "sup": 62,
+   "opp": 23
+  },
+  "note": "Feb 28-Mar 1 2026; 16% not sure. Figures from UMD CISSM review of Iran war polling (Aug 2026)."
+ },
+ {
+  "keys": [
+   "sen:iran"
+  ],
+  "match": "bill",
+  "pollster": "Quinnipiac University",
+  "sponsor": "",
+  "tier": 1,
+  "type": "national",
+  "fielded": "2026-03",
+  "n": null,
+  "question": "Trump should have received congressional approval before military action against Iran (RV)",
+  "url": "https://gpi.umd.edu/sites/default/files/2026-08/Formatted_for_Accessibility_War%20with%20No%20Rally%20v4.pdf",
+  "states": {},
+  "national": {
+   "sup": 59,
+   "opp": 38
+  },
+  "note": "Mar 6-8 2026 registered voters; via UMD CISSM review."
+ },
+ {
+  "keys": [
+   "sen:iran"
+  ],
+  "match": "bill",
+  "pollster": "Ipsos KnowledgePanel",
+  "sponsor": "Chicago Council on Global Affairs",
+  "tier": 1,
+  "type": "national",
+  "fielded": "2026-03",
+  "n": 1018,
+  "question": "President must get congressional approval before using force against Iran's nuclear facilities",
+  "url": "https://globalaffairs.org/index.php/research/public-opinion-survey/majority-americans-say-congress-approval-needed-us-strikes-iran",
+  "states": {},
+  "national": {
+   "sup": 56,
+   "opp": 14
+  },
+  "note": "Feb 27-Mar 1 2026. sup = 'necessary'; 26% 'preferable but not necessary'; opp = 'neither necessary nor preferable'."
+ },
+ {
+  "keys": [
+   "sen:isr"
+  ],
+  "match": "bill",
+  "pollster": "YouGov",
+  "sponsor": "Institute for Middle East Understanding (IMEU) Policy Project",
+  "tier": 3,
+  "type": "multistate",
+  "fielded": "2026",
+  "n": 3200,
+  "question": "Approve of Senate measures to block the transfer of bombs to Israel",
+  "url": "https://www.commondreams.org/news/swing-state-voters-israel-aid",
+  "states": {
+   "ME": {
+    "sup": 65,
+    "opp": null
+   },
+   "NC": {
+    "sup": 51,
+    "opp": null
+   }
+  },
+  "national": null,
+  "note": "Advocacy-sponsored (IMEU). Six-state survey (GA, IA, ME, NC, OH, TX; >3,200 voters total); write-up reports only the highest (ME 65%) and lowest (NC 51%) approval; other states between 51-65; opposition did not exceed 31% in any state. Field dates not given in write-up; original page (imeupolicyproject.org/polls/2026-swing-states) would not load. Approval of cutting $3.3B in weapons exceeded disapproval in all six states (ME gap +40, GA and OH +22)."
+ },
+ {
+  "keys": [
+   "sen:isr"
+  ],
+  "match": "concept",
+  "pollster": "AP-NORC",
+  "sponsor": "",
+  "tier": 1,
+  "type": "national",
+  "fielded": "2026-03",
+  "n": null,
+  "question": "Favor/oppose sending government funds to aid Israel's military",
+  "url": "https://gpi.umd.edu/sites/default/files/2026-08/Formatted_for_Accessibility_War%20with%20No%20Rally%20v4.pdf",
+  "states": {},
+  "national": {
+   "sup": 48,
+   "opp": 20
+  },
+  "note": "Mar 19-23 2026. sup = % OPPOSING military aid funds to Israel (48%), opp = % favoring (20%); 30% neither. Via UMD CISSM review."
+ },
+ {
+  "keys": [
+   "sen:iran"
+  ],
+  "match": "bill",
+  "pollster": "Data for Progress",
+  "sponsor": "IMEU Policy Project / Demand Progress",
+  "tier": 3,
+  "type": "national",
+  "fielded": "2026-03",
+  "n": null,
+  "question": "Support Congress passing a war powers resolution on Iran",
+  "url": "https://gpi.umd.edu/sites/default/files/2026-08/Formatted_for_Accessibility_War%20with%20No%20Rally%20v4.pdf",
+  "states": {},
+  "national": {
+   "sup": 51,
+   "opp": 44
+  },
+  "note": "Mar 6-8 2026, advocacy-sponsored; via UMD CISSM review."
+ },
+ {
+  "keys": [
+   "sen:ai"
+  ],
+  "match": "concept",
+  "pollster": "MassINC Polling Group",
+  "sponsor": "Anthropic",
+  "tier": 3,
+  "type": "state",
+  "fielded": "2026-07",
+  "n": 1264,
+  "question": "Support package of state AI safety regulations being considered by MA lawmakers",
+  "url": "https://www.massincpolling.com/our-work/massachusetts-voters-support-state-oversight-of-powerful-ai-models-to-mitigate-risks-of-catastrophic-impacts",
+  "states": {
+   "MA": {
+    "sup": 75,
+    "opp": 13
+   }
+  },
+  "national": null,
+  "note": "Sponsored by Anthropic (an AI company with a stake in regulation), hence tier 3 despite nonpartisan pollster. Jun 23-Jul 1 2026, MA RV. Also 70% say MA should act without waiting for other states; 59% gov't oversight vs 23% company self-policing."
+ },
+ {
+  "keys": [
+   "sen:ai"
+  ],
+  "match": "concept",
+  "pollster": "CHRR, Ohio State University",
+  "sponsor": "",
+  "tier": 1,
+  "type": "state",
+  "fielded": "2026-05",
+  "n": 501,
+  "question": "Government should regulate AI to prevent harm even if it slows innovation (Ohio adults)",
+  "url": "https://chrr.osu.edu/node/623/",
+  "states": {
+   "OH": {
+    "sup": 71,
+    "opp": null
+   }
+  },
+  "national": null,
+  "note": "Apr 14-May 12 (2026 per article date), American Population Panel, online. opp not reported. Also 80% agree state and federal governments should require minimum safety procedures for tech companies."
+ },
+ {
+  "keys": [
+   "sen:ai"
+  ],
+  "match": "bill",
+  "pollster": "YouGov",
+  "sponsor": "Institute for Family Studies",
+  "tier": 3,
+  "type": "national",
+  "fielded": "2025-12",
+  "n": null,
+  "question": "Federal preemption of state AI laws via the NDAA (support/oppose)",
+  "url": "https://ifstudies.org/press-release/new-poll-shows-americans-overwhelmingly-oppose-federal-preemption-of-state-ai-regulations",
+  "states": {},
+  "national": {
+   "sup": 57,
+   "opp": 19
+  },
+  "note": "sup = % OPPOSING federal preemption of state AI laws, opp = % supporting. Field date not given on page (release tied to late-2025 NDAA debate; month approximate). IFS is a think tank with an advocacy position."
+ },
+ {
+  "keys": [
+   "sen:ai"
+  ],
+  "match": "concept",
+  "pollster": "AI Policy Institute",
+  "sponsor": "AI Policy Institute",
+  "tier": 3,
+  "type": "national",
+  "fielded": "2026-06",
+  "n": 1007,
+  "question": "Mandatory AI safety and security standards vs. no regulation",
+  "url": "https://theaipi.org/poll-ai-safety-majority/",
+  "states": {},
+  "national": {
+   "sup": 78,
+   "opp": 8
+  },
+  "note": "Advocacy pollster. Jun 10-11 2026 LV. On preemption: only 16% would bar states from regulating AI; 70% want states to keep some authority."
+ },
+ {
+  "keys": [
+   "sen:gouge"
+  ],
+  "match": "concept",
+  "pollster": "GBAO",
+  "sponsor": "UFCW",
+  "tier": 3,
+  "type": "state",
+  "fielded": "2026-03",
+  "n": 600,
+  "question": "Ban digital price tags and surveillance pricing in grocery stores (MD RV)",
+  "url": "https://www.ufcw.org/wp-content/blogs.dir/61/files/2026/04/GBAO-UFCW-Maryland-Survey-Memo.pdf",
+  "states": {
+   "MD": {
+    "sup": 68,
+    "opp": 27
+   }
+  },
+  "national": null,
+  "note": "Union-sponsored. Combined question (digital tags + surveillance pricing). Mar 22-25 2026, phone/text."
+ },
+ {
+  "keys": [
+   "sen:gouge"
+  ],
+  "match": "concept",
+  "pollster": "GBAO",
+  "sponsor": "UFCW",
+  "tier": 3,
+  "type": "state",
+  "fielded": "2026-04",
+  "n": 600,
+  "question": "Ban digital price tags and surveillance pricing in grocery stores (IL RV)",
+  "url": "https://www.ufcw.org/wp-content/blogs.dir/61/files/2026/04/GBAO-UFCW-Illinois-Survey-Memo.pdf",
+  "states": {
+   "IL": {
+    "sup": 62,
+    "opp": 33
+   }
+  },
+  "national": null,
+  "note": "Union-sponsored. Combined question. Apr 15-19 2026, phone/text."
+ },
+ {
+  "keys": [
+   "sen:gouge"
+  ],
+  "match": "concept",
+  "pollster": "GBAO",
+  "sponsor": "UFCW",
+  "tier": 3,
+  "type": "state",
+  "fielded": "2026-04",
+  "n": 600,
+  "question": "Ban digital price tags and surveillance pricing in grocery stores (NJ RV)",
+  "url": "https://www.ufcw.org/wp-content/blogs.dir/61/files/2026/04/GBAO-UFCW-New-Jersey-Survey-Memo.pdf",
+  "states": {
+   "NJ": {
+    "sup": 65,
+    "opp": 29
+   }
+  },
+  "national": null,
+  "note": "Union-sponsored. Combined question. Apr 13-17 2026, phone/text."
+ },
+ {
+  "keys": [
+   "sen:gouge"
+  ],
+  "match": "concept",
+  "pollster": "Data for Progress",
+  "sponsor": "American Economic Liberties Project",
+  "tier": 3,
+  "type": "state",
+  "fielded": "2026-04",
+  "n": 594,
+  "question": "Bar companies from using personal surveillance data to set individualized prices or wages (CO LV)",
+  "url": "https://www.economicliberties.us/press-release/new-poll-colorado-voters-overwhelmingly-support-banning-surveillance-based-pricing-and-wages/",
+  "states": {
+   "CO": {
+    "sup": 78,
+    "opp": 20
+   }
+  },
+  "national": null,
+  "note": "Advocacy-sponsored. Apr 2-5 2026."
+ },
+ {
+  "keys": [
+   "sen:gouge"
+  ],
+  "match": "concept",
+  "pollster": "GBAO",
+  "sponsor": "UFCW",
+  "tier": 3,
+  "type": "national",
+  "fielded": "2026-05",
+  "n": 1000,
+  "question": "Ban digital price tags and surveillance pricing",
+  "url": "https://www.ufcw.org/wp-content/blogs.dir/61/files/2026/05/GBAO-UFCW-National-Survey-Memo-052626.pdf",
+  "states": {},
+  "national": {
+   "sup": 67,
+   "opp": 26
+  },
+  "note": "Union-sponsored. May 3-9 2026 RV."
+ },
+ {
+  "keys": [
+   "sen:repair"
+  ],
+  "match": "concept",
+  "pollster": "Unnamed",
+  "sponsor": "Repair.org (Right to Repair coalition)",
+  "tier": 3,
+  "type": "state",
+  "fielded": "2022-04",
+  "n": 200,
+  "question": "Support Right to Repair legislation (MN registered voters)",
+  "url": "https://www.repair.org/blog/2022/4/25/release-survey-shows-vast-majority-of-minnesotans-support-right-to-repair-as-floor-vote-nears",
+  "states": {
+   "MN": {
+    "sup": 79.6,
+    "opp": 4
+   }
+  },
+  "national": null,
+  "note": "DOUBTFUL: advocacy release, pollster and field dates not stated (release dated Apr 25 2022), small n=200. General right to repair (digital electronics bill), not farm-equipment specific."
+ },
+ {
+  "keys": [
+   "sen:repair"
+  ],
+  "match": "concept",
+  "pollster": "Morning Consult",
+  "sponsor": "",
+  "tier": 1,
+  "type": "national",
+  "fielded": "2022-03",
+  "n": 2005,
+  "question": "Support right-to-repair legislation for electronic devices/equipment",
+  "url": "https://morningconsult.com/2022/03/23/right-to-repair-electronic-devices-survey/",
+  "states": {},
+  "national": {
+   "sup": 69,
+   "opp": null
+  },
+  "note": "Mar 18-21 2022 RV; opp not reported. Not farm-equipment specific."
+ },
+ {
+  "keys": [
+   "sen:tariff"
+  ],
+  "match": "concept",
+  "pollster": "Emerson College Polling",
+  "sponsor": "Nexstar Media",
+  "tier": 1,
+  "type": "state",
+  "fielded": "2026-09",
+  "n": 750,
+  "question": "Support/oppose U.S. tariffs on Canadian products (IA likely voters)",
+  "url": "https://emersoncollegepolling.com/iowa-2026-poll-hinson-leads-turek/",
+  "states": {
+   "IA": {
+    "sup": 58,
+    "opp": 42
+   }
+  },
+  "national": null,
+  "note": "Measure opposes tariffs: sup = % opposing tariffs on Canada, opp = % supporting. Aug 31-Sep 1 2026. 71% concerned about Canadian retaliatory tariffs."
+ },
+ {
+  "keys": [
+   "sen:tariff"
+  ],
+  "match": "concept",
+  "pollster": "Glengariff Group",
+  "sponsor": "WDIV-TV / Detroit News",
+  "tier": 1,
+  "type": "state",
+  "fielded": "2026-09",
+  "n": 600,
+  "question": "Support/oppose 50% tariffs on Canadian goods (MI likely voters)",
+  "url": "https://www.clickondetroit.com/news/local/2026/09/09/how-michigan-voters-feel-about-trumps-imposed-tariffs-on-canadian-goods-according-to-poll/",
+  "states": {
+   "MI": {
+    "sup": 64.2,
+    "opp": 28.6
+   }
+  },
+  "national": null,
+  "note": "Measure opposes tariffs: sup = % opposing, opp = % supporting. Live phone, Aug 31-Sep 3 2026. Also 61.5% say tariffs bad for MI economy; 71.5% say they raise what they pay."
+ },
+ {
+  "keys": [
+   "sen:tariff"
+  ],
+  "match": "concept",
+  "pollster": "Reuters/Ipsos",
+  "sponsor": "",
+  "tier": 1,
+  "type": "national",
+  "fielded": "2026-08",
+  "n": 1023,
+  "question": "Support/oppose higher tariffs on Canadian goods",
+  "url": "https://gvwire.com/2026/09/01/majority-of-americans-oppose-trumps-new-canada-tariffs-renaming-lake-ontario-reuters-ipsos-poll-finds/",
+  "states": {},
+  "national": {
+   "sup": 57,
+   "opp": 20
+  },
+  "note": "sup = % opposing higher Canada tariffs, opp = % supporting; 21% don't know. Three-day online poll ending ~Aug 30 2026."
+ }
+]

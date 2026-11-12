@@ -1,0 +1,211 @@
+[
+ {
+  "who": "Jeff Merkley",
+  "state": "OR",
+  "key": "isr",
+  "old_stance": "Support",
+  "new_stance": "Support",
+  "evidence": "Cosponsor, S.J.Res.138 (Sanders) to block sale of 12,000 1,000-lb bomb bodies to Israel, introduced Mar 19 2026.",
+  "url": "https://www.govinfo.gov/content/pkg/BILLS-119sjres138is/html/BILLS-119sjres138is.htm",
+  "confirmed": false,
+  "changed": true
+ },
+ {
+  "who": "Jeff Merkley",
+  "state": "OR",
+  "key": "pro",
+  "old_stance": "Unclear",
+  "new_stance": "Support",
+  "evidence": "Original cosponsor (co-introducer), Richard L. Trumka PRO Act of 2025, S.852 (Mar 2025).",
+  "url": "https://policyrisk.com/research/legislation/S852",
+  "confirmed": false,
+  "changed": true
+ },
+ {
+  "who": "John Fetterman",
+  "state": "PA",
+  "key": "pro",
+  "old_stance": "Unclear",
+  "new_stance": "Support",
+  "evidence": "Original cosponsor, Richard L. Trumka PRO Act of 2025, S.852 (Mar 2025).",
+  "url": "https://policyrisk.com/research/legislation/S852",
+  "confirmed": false,
+  "changed": true
+ },
+ {
+  "who": "Jeff Merkley",
+  "state": "OR",
+  "key": "pfl",
+  "old_stance": "Unclear",
+  "new_stance": "Support",
+  "evidence": "Cosponsor, FAMILY Act (S.2823), national paid family and medical leave insurance (Sep 2025).",
+  "url": "https://policyrisk.com/research/legislation/S2823",
+  "confirmed": false,
+  "changed": true
+ },
+ {
+  "who": "Jeff Merkley",
+  "state": "OR",
+  "key": "childcare",
+  "old_stance": "Unclear",
+  "new_stance": "Support",
+  "evidence": "Cosponsor, Child Care for Working Families Act (S.2295), capping child care costs at 7% of income (Sep 2025).",
+  "url": "https://policyrisk.com/research/legislation/S2295",
+  "confirmed": false,
+  "changed": true
+ },
+ {
+  "who": "John Fetterman",
+  "state": "PA",
+  "key": "pfl",
+  "old_stance": "Unclear",
+  "new_stance": "Support",
+  "evidence": "Cosponsor, FAMILY Act (S.2823), national paid family and medical leave insurance (Sep 2025).",
+  "url": "https://policyrisk.com/research/legislation/S2823",
+  "confirmed": false,
+  "changed": true
+ },
+ {
+  "who": "John Fetterman",
+  "state": "PA",
+  "key": "childcare",
+  "old_stance": "Unclear",
+  "new_stance": "Support",
+  "evidence": "Cosponsor, Child Care for Working Families Act (S.2295), capping child care costs at 7% of income (Sep 2025).",
+  "url": "https://policyrisk.com/research/legislation/S2295",
+  "confirmed": false,
+  "changed": true
+ },
+ {
+  "who": "Jeff Merkley",
+  "state": "OR",
+  "key": "ctc",
+  "old_stance": "Lean support",
+  "new_stance": "Support",
+  "evidence": "Original cosponsor, American Family Act (S.1393), expanding the Child Tax Credit (Apr 2025).",
+  "url": "https://policyrisk.com/research/legislation/S1393",
+  "confirmed": false,
+  "changed": true
+ },
+ {
+  "who": "John Fetterman",
+  "state": "PA",
+  "key": "ctc",
+  "old_stance": "Unclear",
+  "new_stance": "Support",
+  "evidence": "Original cosponsor, American Family Act (S.1393), expanding the Child Tax Credit (Apr 2025).",
+  "url": "https://policyrisk.com/research/legislation/S1393",
+  "confirmed": false,
+  "changed": true
+ },
+ {
+  "who": "Jack Reed",
+  "state": "RI",
+  "key": "ctc",
+  "old_stance": "Lean support",
+  "new_stance": "Support",
+  "evidence": "Original cosponsor, American Family Act (S.1393), expanding the Child Tax Credit (Apr 2025).",
+  "url": "https://policyrisk.com/research/legislation/S1393",
+  "confirmed": false,
+  "changed": true
+ },
+ {
+  "who": "Sheldon Whitehouse",
+  "state": "RI",
+  "key": "ctc",
+  "old_stance": "Lean support",
+  "new_stance": "Support",
+  "evidence": "Original cosponsor, American Family Act (S.1393), expanding the Child Tax Credit (Apr 2025).",
+  "url": "https://policyrisk.com/research/legislation/S1393",
+  "confirmed": false,
+  "changed": true
+ },
+ {
+  "who": "John Fetterman",
+  "state": "PA",
+  "key": "repair",
+  "old_stance": "Unclear",
+  "new_stance": "Support",
+  "evidence": "Original cosponsor, FARM Act (S.3068), Welch's agricultural right-to-repair bill (Oct 2025).",
+  "url": "https://policyrisk.com/research/legislation/S3068",
+  "confirmed": false,
+  "changed": true
+ },
+ {
+  "who": "Jeff Merkley",
+  "state": "OR",
+  "key": "medicaid",
+  "old_stance": "Lean support",
+  "new_stance": "Support",
+  "evidence": "Original cosponsor and co-lead, Protecting Health Care and Lowering Costs Act (S.2556), reversing the OBBBA Medicaid cuts (Jul 2025).",
+  "url": "https://policyrisk.com/research/legislation/S2556",
+  "confirmed": false,
+  "changed": true
+ },
+ {
+  "who": "John Fetterman",
+  "state": "PA",
+  "key": "medicaid",
+  "old_stance": "Lean support",
+  "new_stance": "Support",
+  "evidence": "Original cosponsor, Protecting Health Care and Lowering Costs Act (S.2556), reversing the OBBBA Medicaid cuts (Jul 2025).",
+  "url": "https://policyrisk.com/research/legislation/S2556",
+  "confirmed": false,
+  "changed": true
+ },
+ {
+  "who": "Jack Reed",
+  "state": "RI",
+  "key": "medicaid",
+  "old_stance": "Lean support",
+  "new_stance": "Support",
+  "evidence": "Original cosponsor, Protecting Health Care and Lowering Costs Act (S.2556), reversing the OBBBA Medicaid cuts (Jul 2025).",
+  "url": "https://policyrisk.com/research/legislation/S2556",
+  "confirmed": false,
+  "changed": true
+ },
+ {
+  "who": "Sheldon Whitehouse",
+  "state": "RI",
+  "key": "medicaid",
+  "old_stance": "Lean support",
+  "new_stance": "Support",
+  "evidence": "Original cosponsor, Protecting Health Care and Lowering Costs Act (S.2556), reversing the OBBBA Medicaid cuts (Jul 2025).",
+  "url": "https://policyrisk.com/research/legislation/S2556",
+  "confirmed": false,
+  "changed": true
+ },
+ {
+  "who": "Dave McCormick",
+  "state": "PA",
+  "key": "priorauth",
+  "old_stance": "Unclear",
+  "new_stance": "Support",
+  "evidence": "Cosponsor, Improving Seniors' Timely Access to Care Act (S.1816), Marshall's Medicare Advantage prior-authorization bill (Mar 2026).",
+  "url": "https://policyrisk.com/research/legislation/S1816",
+  "confirmed": false,
+  "changed": true
+ },
+ {
+  "who": "Tim Scott",
+  "state": "SC",
+  "key": "termlim",
+  "old_stance": "Unclear",
+  "new_stance": "Support",
+  "evidence": "Cosponsor, S.J.Res.1 (Cruz), constitutional amendment imposing congressional term limits (Mar 2025).",
+  "url": "https://policyrisk.com/research/legislation/SJRES1",
+  "confirmed": false,
+  "changed": true
+ },
+ {
+  "who": "Jeff Merkley",
+  "state": "OR",
+  "key": "iran",
+  "old_stance": "Support",
+  "new_stance": "Support",
+  "evidence": "Cosponsor, S.J.Res.184 (Schiff) to remove U.S. forces from unauthorized hostilities against Iran (Apr 2026); also filed his own resolution.",
+  "url": "https://www.billsponsor.com/bills/871952/senate-joint-resolution-184-congress-119/text/is",
+  "confirmed": false,
+  "changed": true
+ }
+]

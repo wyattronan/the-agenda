@@ -1,0 +1,200 @@
+[
+ {
+  "who": "Xavier Becerra",
+  "state": "CA",
+  "key": "corphome",
+  "old_stance": "Unclear",
+  "new_stance": "Support",
+  "evidence": "Campaign platform commits to policies stopping large corporations from buying up homes en masse (2026 campaign, CalMatters voter guide).",
+  "url": "https://calmatters.org/california-voter-guide-2026/governor/",
+  "confirmed": false,
+  "changed": true
+ },
+ {
+  "who": "Xavier Becerra",
+  "state": "CA",
+  "key": "downpay",
+  "old_stance": "Unclear",
+  "new_stance": "Lean support",
+  "evidence": "Backs expanding the state's homebuyer down payment assistance program; no stance on broker fees (2026 campaign, CalMatters voter guide).",
+  "url": "https://calmatters.org/california-voter-guide-2026/governor/",
+  "confirmed": false,
+  "changed": true
+ },
+ {
+  "who": "Xavier Becerra",
+  "state": "CA",
+  "key": "millionaire",
+  "old_stance": "Mixed",
+  "new_stance": "Lean support",
+  "evidence": "Backs extending the Prop 30/55 higher income tax rates on high earners for schools (Jan 2026); opposes the separate billionaire wealth tax (Jun 2026).",
+  "url": "https://www.newsweek.com/californias-next-governor-opposes-billionaire-tax-on-the-ballot-anyway-12124232",
+  "confirmed": false,
+  "changed": true
+ },
+ {
+  "who": "Xavier Becerra",
+  "state": "CA",
+  "key": "renter",
+  "old_stance": "Unclear",
+  "new_stance": "Lean support",
+  "evidence": "Supports extending and enforcing the 2019 Tenant Protection Act's rent caps; a related renter policy, not deposit or junk-fee limits (May 2026).",
+  "url": "https://www.kqed.org/news/12084487/how-californias-next-governor-would-tackle-rent-insurance-and-housing-costs",
+  "confirmed": false,
+  "changed": true
+ },
+ {
+  "who": "Xavier Becerra",
+  "state": "CA",
+  "key": "meddebt",
+  "old_stance": "Unclear",
+  "new_stance": "Lean support",
+  "evidence": "Says families shouldn't face bankruptcy or losing their home over a child's hospital bills; no debt-relief plan (2026 CalMatters candidate Q&A).",
+  "url": "https://calmatters.org/california-voter-guide-2026/governor/videos/transcripts/",
+  "confirmed": false,
+  "changed": true
+ },
+ {
+  "who": "Phil Weiser",
+  "state": "CO",
+  "key": "vouchers",
+  "old_stance": "Lean support",
+  "new_stance": "Support",
+  "evidence": "Campaign blueprint explicitly opposes introducing voucher programs and notes he opposed Amendment 80, the school-choice measure (May 2026).",
+  "url": "https://philforcolorado.com/wp-content/uploads/2026/05/Blueprint-051626.pdf",
+  "confirmed": false,
+  "changed": true
+ },
+ {
+  "who": "Phil Weiser",
+  "state": "CO",
+  "key": "renter",
+  "old_stance": "Unclear",
+  "new_stance": "Support",
+  "evidence": "Blueprint pledges to ban algorithmic rent collusion by corporate landlords and target mandatory junk fees on renters (May 2026).",
+  "url": "https://philforcolorado.com/wp-content/uploads/2026/05/Blueprint-051626.pdf",
+  "confirmed": false,
+  "changed": true
+ },
+ {
+  "who": "Phil Weiser",
+  "state": "CO",
+  "key": "aca",
+  "old_stance": "Unclear",
+  "new_stance": "Lean support",
+  "evidence": "Blueprint says he would explore state and philanthropic options to subsidize coverage for families in need; no backfill commitment (May 2026).",
+  "url": "https://philforcolorado.com/wp-content/uploads/2026/05/Blueprint-051626.pdf",
+  "confirmed": false,
+  "changed": true
+ },
+ {
+  "who": "Phil Weiser",
+  "state": "CO",
+  "key": "fraud",
+  "old_stance": "Unclear",
+  "new_stance": "Lean support",
+  "evidence": "Blueprint pledges to fully investigate government fraud, partner with the State Auditor's fraud hotline, and use the False Claims Act; no inspector general (May 2026).",
+  "url": "https://philforcolorado.com/wp-content/uploads/2026/05/Blueprint-051626.pdf",
+  "confirmed": false,
+  "changed": true
+ },
+ {
+  "who": "Ned Lamont",
+  "state": "CT",
+  "key": "roe",
+  "old_stance": "Unclear",
+  "new_stance": "Support",
+  "evidence": "Signed HB 5414, the Reproductive Freedom Defense Act, shielding abortion patients and providers and widening who may provide abortions (May 2022).",
+  "url": "https://en.wikipedia.org/wiki/House_Bill_5414",
+  "confirmed": false,
+  "changed": true
+ },
+ {
+  "who": "Ned Lamont",
+  "state": "CT",
+  "key": "ptax",
+  "old_stance": "Unclear",
+  "new_stance": "Support",
+  "evidence": "Signed an expanded state property tax credit worth about $125 million to middle-class filers and a statewide car-tax cap, per his campaign record (2026).",
+  "url": "https://www.nedlamont.com/accomplishments",
+  "confirmed": false,
+  "changed": true
+ },
+ {
+  "who": "Ned Lamont",
+  "state": "CT",
+  "key": "priorauth",
+  "old_stance": "Unclear",
+  "new_stance": "Lean support",
+  "evidence": "Signed a cap on insulin at $25 a month and diabetic supplies at $100, per his campaign record; no prior-authorization action found (2020 law, cited 2026).",
+  "url": "https://www.nedlamont.com/accomplishments",
+  "confirmed": false,
+  "changed": true
+ },
+ {
+  "who": "Ned Lamont",
+  "state": "CT",
+  "key": "pubopt",
+  "old_stance": "Lean support",
+  "new_stance": "Lean support",
+  "evidence": "His 2018 platform proposed a Medicaid buy-in option on the Access Health CT exchange; in 2026 he backs expanding coverage via a narrower CT Option.",
+  "url": "https://ballotpedia.org/Ned_Lamont",
+  "confirmed": false,
+  "changed": true
+ },
+ {
+  "who": "Ned Lamont",
+  "state": "CT",
+  "key": "drugbd",
+  "old_stance": "Unclear",
+  "new_stance": "Lean support",
+  "evidence": "2018 platform proposed monthly out-of-pocket drug cost caps and price/rebate disclosure; related to but not a drug-price board; 2026 agenda pledges lower drug costs.",
+  "url": "https://ballotpedia.org/Ned_Lamont",
+  "confirmed": false,
+  "changed": true
+ },
+ {
+  "who": "Ned Lamont",
+  "state": "CT",
+  "key": "medicaid",
+  "old_stance": "Unclear",
+  "new_stance": "Lean support",
+  "evidence": "Created Covered Connecticut, no-cost coverage for about 40,000 low-income adults, a related program run through the exchange rather than Medicaid (campaign record, 2026).",
+  "url": "https://www.nedlamont.com/accomplishments",
+  "confirmed": false,
+  "changed": true
+ },
+ {
+  "who": "Matt Meyer",
+  "state": "DE",
+  "key": "ice",
+  "old_stance": "Unclear",
+  "new_stance": "Support",
+  "evidence": "Signed HB 94, HB 150 and HB 368, barring state help with federal immigration enforcement in schools, health facilities, courts, churches and hospitals (Sep 2026).",
+  "url": "https://news.delaware.gov/2026/09/03/governor-meyer-signs-expansive-bill-package-to-protect-immigrant-communities-in-delaware/",
+  "confirmed": false,
+  "changed": true
+ },
+ {
+  "who": "Matt Meyer",
+  "state": "DE",
+  "key": "roe",
+  "old_stance": "Unclear",
+  "new_stance": "Support",
+  "evidence": "Campaign platform pledged to enshrine reproductive care in Delaware's constitution, and he ran on an abortion-rights amendment (2024 campaign).",
+  "url": "https://ballotpedia.org/Matt_Meyer",
+  "confirmed": false,
+  "changed": true
+ },
+ {
+  "who": "Matt Meyer",
+  "state": "DE",
+  "key": "prek",
+  "old_stance": "Unclear",
+  "new_stance": "Support",
+  "evidence": "Campaigned on universal pre-K for Delaware, per Delaware Public Media reporting cited by Ballotpedia (Nov 2024).",
+  "url": "https://ballotpedia.org/Matt_Meyer",
+  "confirmed": false,
+  "changed": true
+ }
+]

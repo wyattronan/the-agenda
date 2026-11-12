@@ -1,0 +1,560 @@
+[
+ {
+  "keys": [
+   "gov:medicaid",
+   "sen:medicaid"
+  ],
+  "match": "concept",
+  "pollster": "University of Georgia SPIA",
+  "sponsor": "Atlanta Journal-Constitution",
+  "tier": 1,
+  "type": "state",
+  "fielded": "2024-01",
+  "n": 1007,
+  "question": "Should Georgia fully expand Medicaid eligibility to cover all eligible low-income adults",
+  "url": "https://www.ajc.com/politics/ajc-poll-georgians-support-medicaid-expansion-continuing-yearslong-trend/DL526GMHCNAQ3OI2S3J54YYJOU",
+  "states": {
+   "GA": {
+    "sup": 69,
+    "opp": null
+   }
+  },
+  "national": null,
+  "note": "Registered voters, Jan 3-11 2024. Article says 'more than 69%' support; opposition share not reported in article. Republicans 47% support."
+ },
+ {
+  "keys": [
+   "sen:medicaid",
+   "gov:medicaid"
+  ],
+  "match": "concept",
+  "pollster": "KFF",
+  "sponsor": "",
+  "tier": 1,
+  "type": "national",
+  "fielded": "2025-02",
+  "n": 1322,
+  "question": "Support or oppose requiring nearly all adults to work or look for work to get Medicaid",
+  "url": "https://www.kff.org/medicaid/poll-finding/kff-health-tracking-poll-public-views-on-potential-changes-to-medicaid",
+  "states": {},
+  "national": {
+   "sup": 38,
+   "opp": 62
+  },
+  "note": "National-only. Reverse-worded: sup = % opposing work requirements (38), opp = % supporting (62). Support fell to 32% when told about paperwork-driven coverage losses."
+ },
+ {
+  "keys": [
+   "sen:medicaid"
+  ],
+  "match": "concept",
+  "pollster": "KFF",
+  "sponsor": "",
+  "tier": 1,
+  "type": "national",
+  "fielded": "2025-02",
+  "n": 1322,
+  "question": "Support or oppose eliminating the 90% federal match for ACA Medicaid expansion adults",
+  "url": "https://www.kff.org/medicaid/poll-finding/kff-health-tracking-poll-public-views-on-potential-changes-to-medicaid",
+  "states": {},
+  "national": {
+   "sup": 59,
+   "opp": 40
+  },
+  "note": "National-only. Reverse-worded: sup = % opposing the federal match cut (59), opp = % supporting it (40)."
+ },
+ {
+  "keys": [
+   "sen:medicaid",
+   "gov:medicaid"
+  ],
+  "match": "concept",
+  "pollster": "KFF",
+  "sponsor": "",
+  "tier": 1,
+  "type": "national",
+  "fielded": "2025-02",
+  "n": 1322,
+  "question": "Should Congress increase, keep about the same, or decrease federal Medicaid spending",
+  "url": "https://www.kff.org/medicaid/poll-finding/kff-health-tracking-poll-public-views-on-potential-changes-to-medicaid",
+  "states": {},
+  "national": {
+   "sup": 42,
+   "opp": 17
+  },
+  "note": "National-only. sup = increase (42); opp = decrease (17); 40% said keep about the same (so 82% oppose cutting)."
+ },
+ {
+  "keys": [
+   "gov:medicaid",
+   "sen:medicaid"
+  ],
+  "match": "concept",
+  "pollster": "Vanderbilt University (Vanderbilt Poll)",
+  "sponsor": "",
+  "tier": 1,
+  "type": "state",
+  "fielded": "2024-11",
+  "n": 955,
+  "question": "Agree the state should expand Medicaid to cover more low-income and uninsured people",
+  "url": "https://news.vanderbilt.edu/2024/12/13/vanderbilt-poll-post-election-core-concerns-and-views-of-tennesseans-persist/",
+  "states": {
+   "TN": {
+    "sup": 73,
+    "opp": null
+   }
+  },
+  "national": null,
+  "note": "Registered voters, Nov 18-Dec 4 2024; strongly+somewhat agree. Opposition not reported in release."
+ },
+ {
+  "keys": [
+   "sen:drugneg",
+   "gov:drugbd"
+  ],
+  "match": "concept",
+  "pollster": "Vanderbilt University (Vanderbilt Poll)",
+  "sponsor": "",
+  "tier": 1,
+  "type": "state",
+  "fielded": "2024-11",
+  "n": 955,
+  "question": "Agree health costs are too high and the federal government should do more to negotiate cheaper prices",
+  "url": "https://news.vanderbilt.edu/2024/12/13/vanderbilt-poll-post-election-core-concerns-and-views-of-tennesseans-persist/",
+  "states": {
+   "TN": {
+    "sup": 87,
+    "opp": null
+   }
+  },
+  "national": null,
+  "note": "Registered voters. Federal negotiation framing; broad concept match for gov:drugbd. Opposition not reported."
+ },
+ {
+  "keys": [
+   "gov:priorauth",
+   "sen:priorauth"
+  ],
+  "match": "concept",
+  "pollster": "Vanderbilt University (Vanderbilt Poll)",
+  "sponsor": "",
+  "tier": 1,
+  "type": "state",
+  "fielded": "2024-11",
+  "n": 955,
+  "question": "Agree prescription out-of-pocket costs should be capped for insured adults",
+  "url": "https://news.vanderbilt.edu/2024/12/13/vanderbilt-poll-post-election-core-concerns-and-views-of-tennesseans-persist/",
+  "states": {
+   "TN": {
+    "sup": 87,
+    "opp": null
+   }
+  },
+  "national": null,
+  "note": "Registered voters. Broad prescription co-pay cap (closest to insulin co-pay cap piece of gov:priorauth); loose match for sen:priorauth. Opposition not reported."
+ },
+ {
+  "keys": [
+   "gov:medicaid",
+   "sen:medicaid"
+  ],
+  "match": "concept",
+  "pollster": "Marquette Law School Poll",
+  "sponsor": "",
+  "tier": 1,
+  "type": "state",
+  "fielded": "2019",
+  "n": null,
+  "question": "Wisconsin should accept federal funds to expand Medicaid coverage",
+  "url": "https://wisconsinwatch.org/2023/05/do-most-wisconsinites-support-medicaid-expansion-paid-parental-leave-lead-pipe-replacement-and-marijuana-legalization/",
+  "states": {
+   "WI": {
+    "sup": 70,
+    "opp": null
+   }
+  },
+  "national": null,
+  "note": "Registered voters, 2019 Marquette poll as reported by Wisconsin Watch; month, n and opposition not given in the write-up. Older poll, use as fallback."
+ },
+ {
+  "keys": [
+   "gov:medicaid",
+   "sen:medicaid"
+  ],
+  "match": "concept",
+  "pollster": "Global Strategy Group",
+  "sponsor": "Florida Decides Healthcare (Medicaid expansion ballot campaign)",
+  "tier": 3,
+  "type": "state",
+  "fielded": "2025-06",
+  "n": 800,
+  "question": "Support expanding Medicaid to adults 18-64 at or below 138% of poverty",
+  "url": "https://floridaphoenix.com/2025/07/23/new-poll-shows-voters-support-expanding-medicaid-to-low-income-childless-adults/",
+  "states": {
+   "FL": {
+    "sup": 67,
+    "opp": 25
+   }
+  },
+  "national": null,
+  "note": "Likely voters, June 11-17 2025. Sponsored by the campaign behind the proposed amendment."
+ },
+ {
+  "keys": [
+   "gov:medicaid",
+   "sen:medicaid"
+  ],
+  "match": "concept",
+  "pollster": "Public Opinion Strategies",
+  "sponsor": "Sunflower Foundation",
+  "tier": 3,
+  "type": "state",
+  "fielded": "2023-11",
+  "n": null,
+  "question": "Favor expanding Medicaid in Kansas (covering ~150,000 more, 90% federal cost)",
+  "url": "https://sunflowerfoundation.org/statewide-poll-on-medicaid-expansion/",
+  "states": {
+   "KS": {
+    "sup": 68,
+    "opp": null
+   }
+  },
+  "national": null,
+  "note": "Registered voters, Nov 10-20 2023. Sponsor is a pro-expansion health foundation; n and opposition not stated."
+ },
+ {
+  "keys": [
+   "gov:medicaid",
+   "sen:medicaid"
+  ],
+  "match": "concept",
+  "pollster": "SSRS",
+  "sponsor": "Episcopal Health Foundation",
+  "tier": 2,
+  "type": "state",
+  "fielded": "2023-10",
+  "n": 1956,
+  "question": "Support expanding Medicaid in Texas to cover more low-income uninsured people",
+  "url": "https://www.episcopalhealth.org/wp-content/uploads/2024/09/SSRS-Policy-2024.pdf",
+  "states": {
+   "TX": {
+    "sup": 71,
+    "opp": null
+   }
+  },
+  "national": null,
+  "note": "Texas adults, Oct 18-Dec 19 2023. Nonpartisan health foundation sponsor. Opposition not stated in summary."
+ },
+ {
+  "keys": [
+   "gov:medicaid",
+   "sen:medicaid"
+  ],
+  "match": "concept",
+  "pollster": "Texas Southern University Barbara Jordan Public Policy Research and Survey Center",
+  "sponsor": "",
+  "tier": 1,
+  "type": "state",
+  "fielded": "2025-02",
+  "n": null,
+  "question": "Want the Legislature to expand Medicaid access this session vs keep status quo",
+  "url": "https://aframnews.com/texas-southern-university-researchers-find-a-majority-of-all-texans-a-super-majority-of-black-texans-support-medicaid-expansion-recreational-marijuana-casino-gambling-in-texas",
+  "states": {
+   "TX": {
+    "sup": 51,
+    "opp": 31
+   }
+  },
+  "national": null,
+  "note": "Released March 2025; exact field dates and n not stated (fielded month approximate). opp = favor status quo; 18% unsure."
+ },
+ {
+  "keys": [
+   "gov:drugbd",
+   "sen:drugneg"
+  ],
+  "match": "bill",
+  "pollster": "AARP voter survey (telephone)",
+  "sponsor": "AARP (advocates for PDABs)",
+  "tier": 2,
+  "type": "state",
+  "fielded": "2025-06",
+  "n": 1001,
+  "question": "Support a state prescription drug affordability board that could limit what payers pay for high-cost drugs",
+  "url": "https://www.aarp.org/states/virginia/virginia-voters-support-major-prescription-drug-price-reforms/",
+  "states": {
+   "VA": {
+    "sup": 84,
+    "opp": null
+   }
+  },
+  "national": null,
+  "note": "Likely VA voters, June 25-July 8 2025. Bill match for gov:drugbd; concept for sen:drugneg. Up 9 pts from AARP 2023. Opposition not reported. AARP-sponsored; tier 2-3 judgment call."
+ },
+ {
+  "keys": [
+   "sen:medicaid",
+   "gov:medicaid"
+  ],
+  "match": "concept",
+  "pollster": "AARP voter survey (telephone)",
+  "sponsor": "AARP",
+  "tier": 2,
+  "type": "state",
+  "fielded": "2025-06",
+  "n": 1001,
+  "question": "Support or oppose federal legislation reducing or eliminating Medicaid coverage",
+  "url": "https://www.aarp.org/states/virginia/virginia-voters-support-major-prescription-drug-price-reforms/",
+  "states": {
+   "VA": {
+    "sup": 63,
+    "opp": 25
+   }
+  },
+  "national": null,
+  "note": "Reverse-worded: sup = % opposing Medicaid cuts (63), opp = % supporting (25). Likely VA voters. AARP-sponsored."
+ },
+ {
+  "keys": [
+   "gov:drugbd",
+   "sen:drugneg"
+  ],
+  "match": "bill",
+  "pollster": "AARP Research (Granite State panel, online)",
+  "sponsor": "AARP",
+  "tier": 2,
+  "type": "state",
+  "fielded": "2024-06",
+  "n": 1103,
+  "question": "Set upper payment limits on certain high-cost prescription drugs in New Hampshire",
+  "url": "https://www-pi.aarp.org/content/dam/aarp/research/topics/health/prescription-drugs/prescription-drug-costs-new-hampshire-annotated-questionnaire.doi.10.26419-2fres.00839.002.pdf",
+  "states": {
+   "NH": {
+    "sup": 80,
+    "opp": 6
+   }
+  },
+  "national": null,
+  "note": "NH adults 18+, June 20-24 2024. Strongly 58 + somewhat 22 support; 8 neutral, 7 don't know. Concept match for sen:drugneg."
+ },
+ {
+  "keys": [
+   "gov:drugbd"
+  ],
+  "match": "bill",
+  "pollster": "AARP Research (Granite State panel, online)",
+  "sponsor": "AARP",
+  "tier": 2,
+  "type": "state",
+  "fielded": "2024-06",
+  "n": 1104,
+  "question": "Support or oppose NH having a Prescription Drug Affordability Board",
+  "url": "https://www-pi.aarp.org/content/dam/aarp/research/topics/health/prescription-drugs/prescription-drug-costs-new-hampshire-annotated-questionnaire.doi.10.26419-2fres.00839.002.pdf",
+  "states": {
+   "NH": {
+    "sup": 59,
+    "opp": 24
+   }
+  },
+  "national": null,
+  "note": "Strongly 33 + somewhat 26 support; somewhat 21 + strongly 3 oppose, per PDF extraction (oppose split looked odd, 13% listed as refused; verify before use). AARP summary says 'about 6 in 10' support."
+ },
+ {
+  "keys": [
+   "sen:drugneg"
+  ],
+  "match": "concept",
+  "pollster": "OH Predictive Insights",
+  "sponsor": "AARP Arizona",
+  "tier": 2,
+  "type": "state",
+  "fielded": "2021-09",
+  "n": 800,
+  "question": "Support letting Medicare negotiate prescription drug prices",
+  "url": "https://ohpredictive.com/press-releases/big-pharma-prescribes-pricey-drugs-az-voters-overwhelmingly-want-action",
+  "states": {
+   "AZ": {
+    "sup": 94,
+    "opp": null
+   }
+  },
+  "national": null,
+  "note": "Arizona registered voters, Sept 21-27 2021, online panel weighted. Release says 'over 94%' support; opposition not reported. Pre-IRA poll."
+ },
+ {
+  "keys": [
+   "gov:meddebt"
+  ],
+  "match": "concept",
+  "pollster": "Lake Research Partners and Chesapeake Beach Consulting",
+  "sponsor": "Americans for Financial Reform / Center for Responsible Lending",
+  "tier": 3,
+  "type": "national",
+  "fielded": "2024-07",
+  "n": 1575,
+  "question": "Support the CFPB rule removing medical debt from credit reports (after hearing CFPB rationale)",
+  "url": "https://ourfinancialsecurity.org/wp-content/uploads/2024/09/PollingMemo.AFR_.MedicalDebt.f.2024.10.08.pdf",
+  "states": {},
+  "national": {
+   "sup": 82,
+   "opp": 11
+  },
+  "note": "National-only, likely voters, online July 17-25 2024. Advocacy-sponsored. Republicans 78% support."
+ },
+ {
+  "keys": [
+   "gov:meddebt"
+  ],
+  "match": "concept",
+  "pollster": "NORC and PerryUndem",
+  "sponsor": "Undue Medical Debt",
+  "tier": 3,
+  "type": "national",
+  "fielded": "2025-07",
+  "n": 1300,
+  "question": "Support banning providers and collectors from reporting medical debt to credit bureaus",
+  "url": "https://www.healthcaredive.com/news/voters-blame-insurers-medical-debt-undue-medical-debt-poll/804010/",
+  "states": {},
+  "national": {
+   "sup": 80,
+   "opp": null
+  },
+  "note": "National-only. Article says 'more than 80%' and 'more than 1,300' voters; fielded summer 2025 (month approximate). Sponsor is a medical-debt relief nonprofit."
+ },
+ {
+  "keys": [
+   "gov:priorauth",
+   "sen:priorauth"
+  ],
+  "match": "concept",
+  "pollster": "Mason-Dixon Polling & Strategy",
+  "sponsor": "not stated",
+  "tier": 1,
+  "type": "state",
+  "fielded": "2024-12",
+  "n": 625,
+  "question": "Legislators should set standards for insurer prior authorization decisions and require disclosure of PA rules and approval rates",
+  "url": "https://thestarnewsnetwork.com/2025/01/08/virginia-voters-want-state-legislators-to-pass-bill-setting-new-standards-for-health-insurance-companies-poll-finds",
+  "states": {
+   "VA": {
+    "sup": 88,
+    "opp": 8
+   }
+  },
+  "national": null,
+  "note": "Registered VA voters, Dec 17-20 (year inferred as 2024 from Jan 8 2025 article date); 4% undecided. Sponsor not named in article; may be advocacy-commissioned."
+ },
+ {
+  "keys": [
+   "sen:priorauth",
+   "gov:priorauth"
+  ],
+  "match": "bill",
+  "pollster": "unnamed (online)",
+  "sponsor": "Autoimmune Association",
+  "tier": 3,
+  "type": "national",
+  "fielded": "2022-11",
+  "n": 1000,
+  "question": "Favor requiring electronic prior authorization (also: response deadlines, public requirements 80%)",
+  "url": "https://www.medicaleconomics.com/view/americans-favor-prior-authorization-reform",
+  "states": {},
+  "national": {
+   "sup": 77,
+   "opp": null
+  },
+  "note": "National-only adults, online, early Nov 2022. Electronic PA is the core of the Improving Seniors' Timely Access to Care Act. Patient-advocacy sponsor; 49% unfavorable vs 39% favorable toward prior authorization itself."
+ },
+ {
+  "keys": [
+   "gov:medicaid",
+   "sen:medicaid"
+  ],
+  "match": "concept",
+  "pollster": "Siena College Research Institute",
+  "sponsor": "Mississippi Today",
+  "tier": 1,
+  "type": "state",
+  "fielded": "2023-01",
+  "n": 821,
+  "question": "Mississippi should accept federal funds to expand Medicaid",
+  "url": "https://hottytoddy.com/?p=383251",
+  "states": {
+   "MS": {
+    "sup": 80,
+    "opp": 14
+   }
+  },
+  "national": null,
+  "note": "Registered voters, Jan 8-12 2023 (year inferred from Jan 18 2023 article). Strongly+somewhat agree; Republicans 70%."
+ },
+ {
+  "keys": [
+   "gov:medicaid",
+   "sen:medicaid"
+  ],
+  "match": "concept",
+  "pollster": "not named",
+  "sponsor": "AARP South Carolina",
+  "tier": 2,
+  "type": "state",
+  "fielded": "2021-06",
+  "n": 1000,
+  "question": "Favor expanding Medicaid to cover South Carolinians earning up to about $18,000 a year",
+  "url": "https://www.yahoo.com/news/medicaid-expansion-state-backed-majority-192756107.html",
+  "states": {
+   "SC": {
+    "sup": 78,
+    "opp": null
+   }
+  },
+  "national": null,
+  "note": "June 21-30 (2021, inferred from Aug 3 2021 article). Article ambiguous whether 78% is all registered voters or those 50+; opposition not reported. Republicans 69%."
+ },
+ {
+  "keys": [
+   "gov:medicaid",
+   "sen:medicaid"
+  ],
+  "match": "concept",
+  "pollster": "New Bridge Strategy",
+  "sponsor": "ACS CAN, American Heart Association, American Lung Association, AARP",
+  "tier": 3,
+  "type": "state",
+  "fielded": "2021",
+  "n": 500,
+  "question": "Support a described proposal to expand Medicaid coverage in Wyoming",
+  "url": "https://newslj.com/poll-medicaid-expansion-popular",
+  "states": {
+   "WY": {
+    "sup": 66,
+    "opp": 31
+   }
+  },
+  "national": null,
+  "note": "Wyoming residents; field dates not reported (article Oct 19 2021). Question described a hypothetical expansion scenario. Health-advocacy sponsors."
+ },
+ {
+  "keys": [
+   "sen:medicaid",
+   "gov:medicaid"
+  ],
+  "match": "concept",
+  "pollster": "EPIC-MRA",
+  "sponsor": "Michigan Health & Hospital Association, Michigan Association of Health Plans, CMH Association of Michigan, Michigan Primary Care Association, Protect MI Care",
+  "tier": 3,
+  "type": "state",
+  "fielded": "2025",
+  "n": null,
+  "question": "Oppose cutting Medicaid to pay for tax cuts",
+  "url": "https://www.mha.org/?p=27724",
+  "states": {
+   "MI": {
+    "sup": 82,
+    "opp": null
+   }
+  },
+  "national": null,
+  "note": "Field dates and n not stated (released during the 2025 federal budget debate). Also 83% want Medicaid spending increased or kept the same; 71% oppose cuts creating a state deficit. Health-industry/coalition sponsors."
+ }
+]

@@ -1,0 +1,145 @@
+[
+ {
+  "who": "Tammy Duckworth",
+  "state": "IL",
+  "key": "medicaid",
+  "old_stance": "Lean support",
+  "new_stance": "Support",
+  "evidence": "Cosponsor, Protecting Health Care and Lowering Costs Act S.2556 (Jul 2025), which repeals the OBBBA health subtitle, including its Medicaid cuts and work requirements.",
+  "url": "https://policyrisk.com/research/legislation/S2556",
+  "confirmed": false,
+  "changed": true
+ },
+ {
+  "who": "Tammy Duckworth",
+  "state": "IL",
+  "key": "datactr",
+  "old_stance": "Unclear",
+  "new_stance": "Support",
+  "evidence": "Cosponsor, Power for the People Act S.3682 (Jan 2026), which would make large data centers pay for the grid upgrades they require instead of ratepayers.",
+  "url": "https://policyrisk.com/research/legislation/S3682",
+  "confirmed": false,
+  "changed": true
+ },
+ {
+  "who": "Tammy Duckworth",
+  "state": "IL",
+  "key": "ctc",
+  "old_stance": "Lean support",
+  "new_stance": "Support",
+  "evidence": "Cosponsor, American Family Act S.1393 (Apr 2025), Bennet's bill to expand the Child Tax Credit and make it fully available to low-income families.",
+  "url": "https://policyrisk.com/research/legislation/S1393",
+  "confirmed": false,
+  "changed": true
+ },
+ {
+  "who": "Tammy Duckworth",
+  "state": "IL",
+  "key": "childcare",
+  "old_stance": "Unclear",
+  "new_stance": "Support",
+  "evidence": "Cosponsor, Child Care for Working Families Act S.2295 (Jul 2025), which caps family child care costs at 7% of income; she helped reintroduce it.",
+  "url": "https://www.duckworth.senate.gov/news/press-releases/duckworth-durbin-help-reintroduce-bill-to-help-families-get-the-affordable-child-care-they-need",
+  "confirmed": false,
+  "changed": true
+ },
+ {
+  "who": "Tammy Duckworth",
+  "state": "IL",
+  "key": "pfl",
+  "old_stance": "Unclear",
+  "new_stance": "Support",
+  "evidence": "Cosponsor, FAMILY Act S.2823 (Sep 2025), Gillibrand's national paid family and medical leave insurance bill.",
+  "url": "https://policyrisk.com/research/legislation/S2823",
+  "confirmed": false,
+  "changed": true
+ },
+ {
+  "who": "Tammy Duckworth",
+  "state": "IL",
+  "key": "pro",
+  "old_stance": "Unclear",
+  "new_stance": "Support",
+  "evidence": "Cosponsor, Richard L. Trumka PRO Act of 2025 S.852 (Mar 2025).",
+  "url": "https://policyrisk.com/research/legislation/S852",
+  "confirmed": false,
+  "changed": true
+ },
+ {
+  "who": "Tammy Duckworth",
+  "state": "IL",
+  "key": "iran",
+  "old_stance": "Support",
+  "new_stance": "Support",
+  "evidence": "Sponsor, S.J.Res.123 Iran war powers resolution (Mar 2026), blocked 47-52 on Apr 15 2026; also original cosponsor of Coons's S.J.Res.191 (Apr 2026).",
+  "url": "https://www.billsponsor.com/bills/864376/senate-joint-resolution-123-congress-119/text/is",
+  "confirmed": false,
+  "changed": true
+ },
+ {
+  "who": "Juliana Stratton",
+  "state": "IL",
+  "key": "drugneg",
+  "old_stance": "Lean support",
+  "new_stance": "Support",
+  "evidence": "Her 2026 campaign affordability blueprint commits to expanding Medicare's negotiations with drug companies to lower prescription prices.",
+  "url": "https://www.julianastratton.com/_files/ugd/9308f6_f10229b2fc7142fea157fa78764b1e05.pdf",
+  "confirmed": false,
+  "changed": true
+ },
+ {
+  "who": "Juliana Stratton",
+  "state": "IL",
+  "key": "downpay",
+  "old_stance": "Unclear",
+  "new_stance": "Support",
+  "evidence": "Her 2026 campaign blueprint would tax hedge funds buying single-family homes and use the revenue for first-time buyer down payment assistance.",
+  "url": "https://www.julianastratton.com/_files/ugd/9308f6_f10229b2fc7142fea157fa78764b1e05.pdf",
+  "confirmed": false,
+  "changed": true
+ },
+ {
+  "who": "Juliana Stratton",
+  "state": "IL",
+  "key": "childcare",
+  "old_stance": "Unclear",
+  "new_stance": "Lean support",
+  "evidence": "Her 2026 campaign blueprint would expand the Child Care and Development Block Grant to subsidize more families; no 7%-of-income cap or universal plan.",
+  "url": "https://www.julianastratton.com/_files/ugd/9308f6_f10229b2fc7142fea157fa78764b1e05.pdf",
+  "confirmed": false,
+  "changed": true
+ },
+ {
+  "who": "Josh Turek",
+  "state": "IA",
+  "key": "gastax",
+  "old_stance": "Unclear",
+  "new_stance": "Support",
+  "evidence": "His Sep 2026 three-part fuel price plan calls for temporarily suspending the federal gas tax, alongside tapping the SPR and pausing diesel exports.",
+  "url": "https://turek4iowa.com/news/new-josh-turek-proposes-three-prong-plan-to-lower-fuel-prices-for-iowans-while-hinson-votes-once-again-to-continue-the-war-refuses-to-address-rising-costs",
+  "confirmed": false,
+  "changed": true
+ },
+ {
+  "who": "Todd Young",
+  "state": "IN",
+  "key": "termlim",
+  "old_stance": "Unclear",
+  "new_stance": "Support",
+  "evidence": "Original cosponsor, Cruz's S.J.Res.1 (Jan 2025), a constitutional amendment to limit the number of terms members of Congress may serve.",
+  "url": "https://policyrisk.com/research/legislation/SJRES1",
+  "confirmed": false,
+  "changed": true
+ },
+ {
+  "who": "Jim Banks",
+  "state": "IN",
+  "key": "termlim",
+  "old_stance": "Unclear",
+  "new_stance": "Support",
+  "evidence": "Original cosponsor, Cruz's S.J.Res.1 (Jan 2025), a constitutional amendment to limit the number of terms members of Congress may serve.",
+  "url": "https://policyrisk.com/research/legislation/SJRES1",
+  "confirmed": false,
+  "changed": true
+ }
+]

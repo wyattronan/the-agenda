@@ -1,0 +1,156 @@
+[
+ {
+  "who": "Ben Ray Luján",
+  "state": "NM",
+  "key": "medicaid",
+  "old_stance": "Lean support",
+  "new_stance": "Support",
+  "evidence": "Cosponsor, Protecting Health Care and Lowering Costs Act S.2556 (Jul 2025), which repeals the OBBBA health subtitle including its Medicaid cuts and work requirements.",
+  "url": "https://policyrisk.com/research/legislation/S2556",
+  "confirmed": false,
+  "changed": true
+ },
+ {
+  "who": "Ben Ray Luján",
+  "state": "NM",
+  "key": "priorauth",
+  "old_stance": "Lean support",
+  "new_stance": "Support",
+  "evidence": "Cosponsor, Improving Seniors' Timely Access to Care Act of 2025, S.1816 (2025-26).",
+  "url": "https://policyrisk.com/research/legislation/S1816",
+  "confirmed": false,
+  "changed": true
+ },
+ {
+  "who": "Ben Ray Luján",
+  "state": "NM",
+  "key": "ctc",
+  "old_stance": "Lean support",
+  "new_stance": "Support",
+  "evidence": "Cosponsor, American Family Act S.1393, expanding the Child Tax Credit and making it fully refundable (Apr 2025).",
+  "url": "https://policyrisk.com/research/legislation/S1393",
+  "confirmed": false,
+  "changed": true
+ },
+ {
+  "who": "Ben Ray Luján",
+  "state": "NM",
+  "key": "childcare",
+  "old_stance": "Unclear",
+  "new_stance": "Support",
+  "evidence": "Cosponsor, Child Care for Working Families Act S.2295, which caps family child care costs at 7% of income (Sep 2025).",
+  "url": "https://policyrisk.com/research/legislation/S2295",
+  "confirmed": false,
+  "changed": true
+ },
+ {
+  "who": "Ben Ray Luján",
+  "state": "NM",
+  "key": "downpay",
+  "old_stance": "Unclear",
+  "new_stance": "Support",
+  "evidence": "Cosponsor, Downpayment Toward Equity Act of 2025, S.967, giving first-generation homebuyers down payment aid (Jun 2025).",
+  "url": "https://policyrisk.com/research/legislation/S967",
+  "confirmed": false,
+  "changed": true
+ },
+ {
+  "who": "Chuck Schumer",
+  "state": "NY",
+  "key": "medicaid",
+  "old_stance": "Lean support",
+  "new_stance": "Support",
+  "evidence": "Sponsor, Protecting Health Care and Lowering Costs Act S.2556 (Jul 2025), repealing the OBBBA health subtitle including its Medicaid cuts and work requirements.",
+  "url": "https://policyrisk.com/research/legislation/S2556",
+  "confirmed": false,
+  "changed": true
+ },
+ {
+  "who": "Chuck Schumer",
+  "state": "NY",
+  "key": "ctc",
+  "old_stance": "Lean support",
+  "new_stance": "Support",
+  "evidence": "Cosponsor, American Family Act S.1393, expanding the Child Tax Credit and making it fully refundable (Apr 2025).",
+  "url": "https://policyrisk.com/research/legislation/S1393",
+  "confirmed": false,
+  "changed": true
+ },
+ {
+  "who": "Chuck Schumer",
+  "state": "NY",
+  "key": "childcare",
+  "old_stance": "Unclear",
+  "new_stance": "Support",
+  "evidence": "Cosponsor, Child Care for Working Families Act S.2295, which caps family child care costs at 7% of income (Sep 2025).",
+  "url": "https://policyrisk.com/research/legislation/S2295",
+  "confirmed": false,
+  "changed": true
+ },
+ {
+  "who": "Chuck Schumer",
+  "state": "NY",
+  "key": "iran",
+  "old_stance": "Support",
+  "new_stance": "Support",
+  "evidence": "Cosponsor and co-lead, Schiff's Iran war powers resolution S.J.Res.184 (Apr 2026); also cosponsored S.J.Res.181 (Apr 2026) and S.J.Res.172 (Sep 2026).",
+  "url": "https://policyrisk.com/research/legislation/SJRES184",
+  "confirmed": false,
+  "changed": true
+ },
+ {
+  "who": "Kirsten Gillibrand",
+  "state": "NY",
+  "key": "medicaid",
+  "old_stance": "Lean support",
+  "new_stance": "Support",
+  "evidence": "Cosponsor, Protecting Health Care and Lowering Costs Act S.2556 (Jul 2025), repealing the OBBBA health subtitle including its Medicaid cuts and work requirements.",
+  "url": "https://policyrisk.com/research/legislation/S2556",
+  "confirmed": false,
+  "changed": true
+ },
+ {
+  "who": "Kirsten Gillibrand",
+  "state": "NY",
+  "key": "ctc",
+  "old_stance": "Lean support",
+  "new_stance": "Support",
+  "evidence": "Cosponsor, American Family Act S.1393, expanding the Child Tax Credit and making it fully refundable (Apr 2025).",
+  "url": "https://policyrisk.com/research/legislation/S1393",
+  "confirmed": false,
+  "changed": true
+ },
+ {
+  "who": "Kirsten Gillibrand",
+  "state": "NY",
+  "key": "childcare",
+  "old_stance": "Unclear",
+  "new_stance": "Support",
+  "evidence": "Cosponsor, Child Care for Working Families Act S.2295, which caps family child care costs at 7% of income (Sep 2025).",
+  "url": "https://policyrisk.com/research/legislation/S2295",
+  "confirmed": false,
+  "changed": true
+ },
+ {
+  "who": "Kirsten Gillibrand",
+  "state": "NY",
+  "key": "iran",
+  "old_stance": "Support",
+  "new_stance": "Support",
+  "evidence": "Sponsor, S.J.Res.181 to remove U.S. forces from unauthorized hostilities with Iran (Apr 2026); also cosponsored Schiff's S.J.Res.184 (Apr 2026).",
+  "url": "https://policyrisk.com/research/legislation/SJRES181",
+  "confirmed": false,
+  "changed": true
+ },
+ {
+  "who": "Ted Budd",
+  "state": "NC",
+  "key": "termlim",
+  "old_stance": "Lean support",
+  "new_stance": "Support",
+  "evidence": "Cosponsor, Cruz's S.J.Res.1 constitutional amendment limiting congressional terms (signed on Jan 8, 2025).",
+  "url": "https://policyrisk.com/research/legislation/SJRES1",
+  "confirmed": false,
+  "changed": true
+ }
+]

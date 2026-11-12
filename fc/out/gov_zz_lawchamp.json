@@ -1,0 +1,57 @@
+[
+ {
+  "who": "JB Pritzker",
+  "state": "IL",
+  "key": "ice",
+  "old_stance": "Lean support",
+  "new_stance": "Support",
+  "evidence": "Signed HB 1312 (Dec 2025), barring civil immigration arrests in and near courthouses and limiting them at hospitals, day cares, and colleges.",
+  "url": "https://capitolnewsillinois.com/news/pritzker-signs-bill-enacting-immigrant-protections-in-courthouses/",
+  "confirmed": false,
+  "changed": true
+ },
+ {
+  "who": "Kathy Hochul",
+  "state": "NY",
+  "key": "meddebt",
+  "old_stance": "Unclear",
+  "new_stance": "Support",
+  "evidence": "Signed the Fair Medical Debt Reporting Act keeping medical debt off New Yorkers' credit reports (Dec 2023).",
+  "url": "https://www.cbsnews.com/news/credit-report-new-york-law-kathy-hochul-medical-debt",
+  "confirmed": false,
+  "changed": true
+ },
+ {
+  "who": "Bob Ferguson",
+  "state": "WA",
+  "key": "meddebt",
+  "old_stance": "Unclear",
+  "new_stance": "Support",
+  "evidence": "Signed SB 5480 barring medical debt from credit reports (Apr 2025), calling medical debt a huge issue nationwide.",
+  "url": "https://washingtonstatestandard.com/2025/04/22/wa-bill-to-keep-medical-debt-off-credit-reports-signed-into-law/",
+  "confirmed": false,
+  "changed": true
+ },
+ {
+  "who": "Wes Moore",
+  "state": "MD",
+  "key": "meddebt",
+  "old_stance": "Unclear",
+  "new_stance": "Support",
+  "evidence": "Signed HB 1020, the Fair Medical Debt Reporting Act, banning medical debt from credit reports (Apr 2025).",
+  "url": "https://mgaleg.maryland.gov/mgawebsite/Legislation/Details/HB1020?ys=2025rs",
+  "confirmed": false,
+  "changed": true
+ },
+ {
+  "who": "JB Pritzker",
+  "state": "IL",
+  "key": "medicaid",
+  "old_stance": "Unclear",
+  "new_stance": "Support",
+  "evidence": "His Day One Agenda for the new Congress calls for repealing the H.R. 1 provisions that cut federal Medicaid support (Nov 2026).",
+  "url": "https://capitolnewsillinois.com/news/on-1st-day-since-winning-3rd-term-as-governor-pritzker-releases-200-point-national-agenda/",
+  "confirmed": false,
+  "changed": true
+ }
+]

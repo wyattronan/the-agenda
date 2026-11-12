@@ -1,0 +1,260 @@
+[
+ {
+  "keys": [
+   "sen:aca"
+  ],
+  "match": "bill",
+  "pollster": "KFF",
+  "sponsor": "",
+  "tier": 1,
+  "type": "national",
+  "fielded": "2025-06",
+  "n": 1321,
+  "question": "Should Congress extend the enhanced ACA premium tax credits set to expire, or let them expire",
+  "url": "https://www.kff.org/affordable-care-act/poll-most-of-the-public-support-extending-the-acas-enhanced-premium-tax-credits-including-most-republicans-and-maga-supporters/",
+  "states": {},
+  "national": {
+   "sup": 77,
+   "opp": 22
+  },
+  "note": "KFF Health Tracking Poll, June 4-8, 2025, US adults"
+ },
+ {
+  "keys": [
+   "sen:aca"
+  ],
+  "match": "bill",
+  "pollster": "KFF",
+  "sponsor": "",
+  "tier": 1,
+  "type": "national",
+  "fielded": "2025-09",
+  "n": 1334,
+  "question": "Should Congress extend the enhanced ACA tax credits or let them expire",
+  "url": "https://www.kff.org/public-opinion/despite-budget-concerns-three-quarters-of-public-say-congress-should-extend-the-enhanced-aca-tax-credits-set-to-expire-next-year-including-most-republicans-and-maga-supporters/",
+  "states": {},
+  "national": {
+   "sup": 78,
+   "opp": 22
+  },
+  "note": "KFF Health Tracking Poll, Sept 23-29, 2025, US adults"
+ },
+ {
+  "keys": [
+   "sen:m4a"
+  ],
+  "match": "concept",
+  "pollster": "David Binder Research",
+  "sponsor": "California Nurses Association",
+  "tier": 3,
+  "type": "state",
+  "fielded": "2026-01",
+  "n": 1000,
+  "question": "Support a single-payer system ('Medicare for All') covering all California residents through one state-run program",
+  "url": "https://www.nationalnursesunited.org/sites/default/files/nnu/documents/CalCare_Poll_Brief_2026.pdf",
+  "states": {
+   "CA": {
+    "sup": 58,
+    "opp": 37
+   }
+  },
+  "national": null,
+  "note": "Advocacy-sponsored (CNA backs CalCare); Jan 6-11, 2026, likely voters; state single-payer, concept match to national M4A"
+ },
+ {
+  "keys": [
+   "sen:aca"
+  ],
+  "match": "bill",
+  "pollster": "KFF",
+  "sponsor": "",
+  "tier": 1,
+  "type": "national",
+  "fielded": "2026-01",
+  "n": 1426,
+  "question": "Did Congress do the right or wrong thing by not extending the enhanced ACA tax credits (after expiration)",
+  "url": "https://www.kff.org/public-opinion/kff-health-tracking-poll-health-care-costs-expiring-aca-tax-credits-and-the-2026-midterms/",
+  "states": {},
+  "national": {
+   "sup": 67,
+   "opp": null
+  },
+  "note": "Jan 13-20, 2026, US adults; sup = % saying 'wrong thing' to not extend; 'right thing' reported only as about one-third"
+ },
+ {
+  "keys": [
+   "sen:aca",
+   "gov:aca"
+  ],
+  "match": "concept",
+  "pollster": "Mason-Dixon Polling & Strategy",
+  "sponsor": "Virginia Hospital & Healthcare Association",
+  "tier": 3,
+  "type": "state",
+  "fielded": "2025-11",
+  "n": 800,
+  "question": "Should Congress extend the enhanced health insurance tax credits that expire at year's end",
+  "url": "https://www.vhha.com/wp-content/uploads/2025/12/Mason-Dixon-Poll-2025-Virginia-Healthcare.pdf",
+  "states": {
+   "VA": {
+    "sup": 75,
+    "opp": 19
+   }
+  },
+  "national": null,
+  "note": "Sponsored by hospital industry group (VHHA); registered voters Nov 19-22, 2025. Asks about Congress extending (bill match for sen:aca); gov:aca tagged as concept only (state backfill not asked)"
+ },
+ {
+  "keys": [
+   "gov:pubopt"
+  ],
+  "match": "bill",
+  "pollster": "Global Strategy Group",
+  "sponsor": "New Day Nevada (Democratic-aligned PAC)",
+  "tier": 3,
+  "type": "state",
+  "fielded": "2023-02",
+  "n": 1000,
+  "question": "After a description, keep Nevada's state public option law or repeal it (as Gov. Lombardo sought)",
+  "url": "https://thenevadaindependent.com/article/poll-voters-unfamiliar-with-public-option-but-oppose-repeal-sought-by-lombardo",
+  "states": {
+   "NV": {
+    "sup": 56,
+    "opp": 41
+   }
+  },
+  "national": null,
+  "note": "sup = % wanting the public option preserved (oppose repeal); opp = % supporting repeal; article gives figures as 'about'. Likely 2024 GE voters."
+ },
+ {
+  "keys": [
+   "gov:pubopt"
+  ],
+  "match": "bill",
+  "pollster": "ALG Research",
+  "sponsor": "United States of Care",
+  "tier": 3,
+  "type": "state",
+  "fielded": "2020-12",
+  "n": 801,
+  "question": "Support the two-stage Colorado public option proposal under consideration",
+  "url": "https://unitedstatesofcare.org/wp-content/uploads/2021/02/Memo-USofCare-CO-Statewide-Jan-2020_ALG.pdf",
+  "states": {
+   "CO": {
+    "sup": 62,
+    "opp": 25
+   }
+  },
+  "national": null,
+  "note": "Advocacy-sponsored (memo hosted by United States of Care, which backs public options). Dec 11-16, 2020; 601 RV online + 200 phone oversamples. 69% supported the public option concept generally."
+ },
+ {
+  "keys": [
+   "gov:pubopt"
+  ],
+  "match": "bill",
+  "pollster": "Locust Street Group",
+  "sponsor": "Colorado's Health Care Future (insurer/hospital/pharma-backed coalition opposing the plan)",
+  "tier": 3,
+  "type": "state",
+  "fielded": "2019",
+  "n": 800,
+  "question": "Support the Polis administration's Colorado public option proposal",
+  "url": "https://coloradosun.com/?p=65980",
+  "states": {
+   "CO": {
+    "sup": 45,
+    "opp": 25
+   }
+  },
+  "national": null,
+  "note": "Sponsored by industry group opposed to public option; 24% unsure. Field month not stated (late 2019/early 2020 per article context)."
+ },
+ {
+  "keys": [
+   "gov:pubopt"
+  ],
+  "match": "concept",
+  "pollster": "Strategies 360",
+  "sponsor": "State Innovation Exchange (SiX, progressive)",
+  "tier": 3,
+  "type": "state",
+  "fielded": "2020-01",
+  "n": 600,
+  "question": "Favor a Colorado public health insurance option",
+  "url": "https://www.pressreader.com/usa/the-denver-post/20200123/281526523020268",
+  "states": {
+   "CO": {
+    "sup": 58,
+    "opp": null
+   }
+  },
+  "national": null,
+  "note": "Denver Post, Jan 23, 2020; RV phone; opposition not reported."
+ },
+ {
+  "keys": [
+   "sen:m4a"
+  ],
+  "match": "concept",
+  "pollster": "KFF",
+  "sponsor": "",
+  "tier": 1,
+  "type": "national",
+  "fielded": "2026-09",
+  "n": 1328,
+  "question": "Favor or oppose a national health plan ('Medicare-for-all') in which all Americans get insurance from a single government plan",
+  "url": "https://www.kff.org/public-opinion/current-and-historical-public-opinion-on-medicare-for-all-and-other-national-health-plan-proposals/",
+  "states": {},
+  "national": {
+   "sup": 66,
+   "opp": 34
+  },
+  "note": "KFF Health Tracking Poll Sept 16-21, 2026, US adults; n from KTVU write-up (https://www.ktvu.com/news/americans-favor-medicare-all-poll). Oct 2020 KFF: 53/42."
+ },
+ {
+  "keys": [
+   "sen:aca",
+   "gov:aca"
+  ],
+  "match": "concept",
+  "pollster": "Public Policy Institute of California (PPIC Statewide Survey)",
+  "sponsor": "",
+  "tier": 1,
+  "type": "state",
+  "fielded": "2026-02",
+  "n": null,
+  "question": "Did Congress do the right or wrong thing by not extending the enhanced ACA tax credits that expired at the end of 2025",
+  "url": "https://www.ppic.org/publication/ppic-statewide-survey-californians-and-their-government-february-2026/",
+  "states": {
+   "CA": {
+    "sup": 64,
+    "opp": 32
+   }
+  },
+  "national": null,
+  "note": "Feb 3-11, 2026; all adults (likely voters: 64 wrong / 35 right). sup = 'wrong thing' to let credits lapse. Bill match for sen:aca; gov:aca concept only (state backfill not asked). Also summarized at https://www.ppic.org/?p=97884"
+ },
+ {
+  "keys": [
+   "sen:m4a"
+  ],
+  "match": "concept",
+  "pollster": "Lake Research Partners",
+  "sponsor": "Not stated (advocacy/political; reported by PNHP)",
+  "tier": 3,
+  "type": "state",
+  "fielded": "2021-04",
+  "n": null,
+  "question": "Support a state Medicare for All (single-payer) system for California",
+  "url": "https://pnhp.org/news/sustained-robust-support-for-single-payer-in-california/",
+  "states": {
+   "CA": {
+    "sup": 60,
+    "opp": 34
+   }
+  },
+  "national": null,
+  "note": "Memo dated May 3, 2021 (field month approximate); likely voters; Democratic-aligned firm; after opposition message 52/34. Older and partisan; CalCare/Binder 2026 poll is newer."
+ }
+]

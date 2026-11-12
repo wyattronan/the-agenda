@@ -1,0 +1,2163 @@
+{
+ "as_of": "2026-11-11",
+ "window": "2026-11-03/2026-11-11",
+ "scales": {
+  "trump_alignment": "-2 open critic … +2 loyal",
+  "economic": "-2 free-market/technocratic … +2 state-directed/populist",
+  "israel": "-2 skeptic/hostile … +2 strongly pro-Israel"
+ },
+ "posture_scores": {
+  "Defender": 2,
+  "Hedger": 1,
+  "Distancer": -1,
+  "Critic": -2
+ },
+ "people": [
+  {
+   "name": "Donald Trump",
+   "category": "Trump Loyalists",
+   "also_in": [],
+   "role": "President",
+   "posture": "Defender",
+   "issues": {
+    "midterm_loss": "First said he wasn't on the ballot and blamed weak candidates and Fox News; by Nov 8 (60 Minutes) blamed the war, dislike of Israel and bad economic messaging.",
+    "trump": "Doubled down: named Stephen Miller chief of staff (Nov 6), said he'll keep Hegseth, displayed a VETO hat, staying out of House leader race. Called Vance's diagnosis largely true. Nov 8: Vance's comments didn't hurt their relationship, but \"a lot of people didn't like his comments. But not me.\"",
+    "tariffs": null,
+    "healthcare": null,
+    "immigration": null,
+    "iran_war": "Conceded the war and higher gas prices hurt, but gave an \"emphatic yes\" when asked if he'd do it again.",
+    "stock_trading": null,
+    "ai": null,
+    "corruption": null,
+    "israel": "Election Day (Fox & Friends): said the ~$4B in annual military aid ends this year. Nov 8 (60 Minutes): said a \"great dislike\" of Israel contributed to the losses."
+   },
+   "other_themes": "Called Massie a \"low life\"; blamed Democrats for the post-election stock drop. Nov 9: called the Iran war \"militarily … effectively over\" and suggested without evidence that voting machines were to blame. Endorsed RNC chair Gruters for another term (Nov 6)",
+   "sources": "Truth Social posts and press remarks, Nov 4–8; CBS 60 Minutes, Nov 8; Times of Israel, Nov 4; The Hill via The National Desk, Nov 8–11",
+   "map": {
+    "trump_alignment": {
+     "pre": 2,
+     "post": 2,
+     "shift": 0,
+     "note": "Defines the axis (+2). Doubling down on personnel (Miller, Hegseth) and on the war."
+    },
+    "economic": {
+     "pre": 2,
+     "post": 2,
+     "shift": 0,
+     "note": "Far populist: tariffs and industrial policy are his signature. No change."
+    },
+    "israel": {
+     "pre": 2,
+     "post": 1,
+     "shift": -1,
+     "stance": "Pro-Israel, now hedging: announced the end of aid and named dislike of Israel as a cause of the loss."
+    },
+    "provisional": true
+   }
+  },
+  {
+   "name": "JD Vance",
+   "category": "Presidential Hopefuls",
+   "also_in": [],
+   "role": "Vice President",
+   "posture": "Distancer",
+   "issues": {
+    "midterm_loss": "Nov 4 X post: \"The reason we lost is the war.\" Said 2024 Trump/Vance voters switched to Democrats; not a turnout problem.",
+    "trump": "No direct criticism of Trump, but blamed the signature policy of his second term.",
+    "tariffs": "Listed cost of living as one of four reasons voters defected.",
+    "healthcare": null,
+    "immigration": "Listed \"America First\" drift as a defection reason.",
+    "iran_war": "Named the war as the main cause; wants it ended.",
+    "stock_trading": null,
+    "ai": null,
+    "corruption": null,
+    "israel": "Listed \"change our relationship to Israel\" as one of four reasons Trump voters defected. Drew fire from CUFI, Rep. Randy Fine and others; his spokesperson said he did not blame Jews."
+   },
+   "other_themes": "Don Jr. endorsed the post; Axios read it as a 2028 pitch to MAGA's anti-interventionist wing.",
+   "sources": "Vance X post, Nov 4; JNS; Axios, Nov 5; JTA, Nov 6",
+   "map": {
+    "trump_alignment": {
+     "pre": 2,
+     "post": -1,
+     "shift": -3,
+     "note": "Was the heir (+2). Now blames Trump's war while sparing Trump personally, so he moves to Distancer (−1)."
+    },
+    "economic": {
+     "pre": 2,
+     "post": 2,
+     "shift": 0,
+     "note": "Populist: pro-tariff, pro-worker America First economics; led with cost of living. No change."
+    },
+    "israel": {
+     "pre": 0,
+     "post": -1,
+     "shift": -1,
+     "stance": "Skeptic/realist: wants a \"normal relationship with a normal country\"; post-election made it a stated reason for the loss."
+    },
+    "provisional": true
+   }
+  },
+  {
+   "name": "Marco Rubio",
+   "category": "Presidential Hopefuls",
+   "also_in": [],
+   "role": "Secretary of State",
+   "posture": "Defender",
+   "issues": {
+    "midterm_loss": "No public comment on the loss found (Nov 3–10).",
+    "trump": "Defended Trump's Iran decision days after the loss; Trump praised him and floated a Vance-Rubio ticket. Separate reports say he is weighing leaving for a 2028 run (White House denies).",
+    "tariffs": null,
+    "healthcare": null,
+    "immigration": null,
+    "iran_war": "Defended the war at the CPAC gala at Mar-a-Lago (Nov 6): Trump wasn't elected to let threats linger. Reportedly favors tighter sanctions over Vance-style diplomacy.",
+    "stock_trading": null,
+    "ai": null,
+    "corruption": null,
+    "israel": "Pre-election: the administration's leading Iran hawk; pro-Israel donors see him as the alternative to Vance."
+   },
+   "other_themes": "Some pro-Israel donors and Rep. Randy Fine prefer him to Vance for 2028.",
+   "sources": "JFeed/CPAC remarks, Nov 6; Daily Wire; The Independent; Bloomberg",
+   "map": {
+    "trump_alignment": {
+     "pre": 2,
+     "post": 2,
+     "shift": 0,
+     "note": "Stayed loyal (+2): defended the war days after the loss. The one hopeful moving with Trump, not away."
+    },
+    "economic": {
+     "pre": 1,
+     "post": 1,
+     "shift": 0,
+     "note": "Moderately populist from his Senate industrial-policy record; silent on economics. No change."
+    },
+    "israel": {
+     "pre": 2,
+     "post": 2,
+     "shift": 0,
+     "stance": "Strong pro-Israel hawk; the donor class's Vance alternative."
+    },
+    "provisional": true
+   }
+  },
+  {
+   "name": "Josh Hawley",
+   "category": "Presidential Hopefuls",
+   "also_in": [
+    "New Right"
+   ],
+   "role": "U.S. Senator (MO)",
+   "posture": "Distancer",
+   "issues": {
+    "midterm_loss": "Said a defeat of this magnitude \"demands change\"; blamed abandoning pro-lifers and working people.",
+    "trump": "Aimed at Senate leadership, not Trump; declined to commit to re-electing Thune (Nov 9). Nov 10: said he'd vote to delay the leadership election, hadn't heard from Thune, and wants \"a different direction.\"",
+    "tariffs": "Cited fertilizer and gas costs (not tariffs by name).",
+    "healthcare": "Said healthcare costs are \"through the roof\"; attacked Medicaid and rural-hospital cuts.",
+    "immigration": null,
+    "iran_war": null,
+    "stock_trading": null,
+    "ai": "Attacked funding data centers while cutting Medicaid.",
+    "corruption": null,
+    "israel": null
+   },
+   "other_themes": "Pro-life base; Planned Parenthood funding; leadership revolt.",
+   "sources": "Hawley remarks, Nov 9; The Hill, Nov 9; Axios and CBS News, Nov 10",
+   "map": {
+    "trump_alignment": {
+     "pre": 1,
+     "post": -1,
+     "shift": -2,
+     "note": "Started semi-independent (+1); now aims at leadership rather than Trump. Distancer (−1)."
+    },
+    "economic": {
+     "pre": 2,
+     "post": 2,
+     "shift": 0,
+     "note": "Far populist: attacks corporate subsidies and data centers and defends Medicaid. Holding, louder."
+    },
+    "israel": {
+     "pre": 1,
+     "post": 1,
+     "shift": 0,
+     "stance": "Pro-Israel on record; no post-election comment."
+    },
+    "provisional": true
+   }
+  },
+  {
+   "name": "Ron DeSantis",
+   "category": "Presidential Hopefuls",
+   "also_in": [
+    "New Right"
+   ],
+   "role": "Governor (FL), term-limited",
+   "posture": "Distancer",
+   "issues": {
+    "midterm_loss": "Called it \"close to an extinction-level event\"; GOP not viable nationally without TX/KS/IA.",
+    "trump": "No direct criticism of Trump; blamed Senate GOP inaction.",
+    "tariffs": null,
+    "healthcare": null,
+    "immigration": "Asked why the Senate hasn't shut off H-1B visas or codified Trump's immigration orders; criticized Ramaswamy on foreign-worker visas; wary of street conflict from federal operations.",
+    "iran_war": null,
+    "stock_trading": "Backs a congressional stock-trading ban.",
+    "ai": "Warned about technology and privacy concerns.",
+    "corruption": "Slammed Republicans who voted against releasing the Epstein files.",
+    "israel": "Pre-election: long record as a strongly pro-Israel governor."
+   },
+   "other_themes": "\"No saviors\"; urged Senate to confirm judges in the lame duck.",
+   "sources": "Fox News (Ingraham), Nov; other remarks",
+   "map": {
+    "trump_alignment": {
+     "pre": 1,
+     "post": -1,
+     "shift": -2,
+     "note": "Started semi-independent (+1); blames Senate GOP rather than Trump. Distancer (−1)."
+    },
+    "economic": {
+     "pre": 0,
+     "post": 1,
+     "shift": 1,
+     "note": "Was center (0); H-1B cuts, a stock-trading ban and tech-privacy worries push him populist (+1)."
+    },
+    "israel": {
+     "pre": 2,
+     "post": 2,
+     "shift": 0,
+     "stance": "Strongly pro-Israel on record; silent on Vance's post."
+    },
+    "provisional": true
+   }
+  },
+  {
+   "name": "Ted Budd",
+   "category": "Trump Loyalists",
+   "also_in": [],
+   "role": "U.S. Senator (NC)",
+   "posture": "Hedger",
+   "issues": {
+    "midterm_loss": "Co-signed the Nov 9 letter calling the result \"a stunning defeat\" with \"multiple reasons\" and demanding \"serious discussions\" on improving the outcome in 2028; said electing leaders first would be \"political malpractice.\" Wanted candidates to lay out a \"collaborative conference governing model\" and a strategy \"to counter the emboldened Democrats.\"",
+    "trump": null,
+    "tariffs": null,
+    "healthcare": null,
+    "immigration": null,
+    "iran_war": null,
+    "stock_trading": null,
+    "ai": null,
+    "corruption": null,
+    "israel": null
+   },
+   "other_themes": "Whatley lost the NC Senate race to Cooper. The delay push failed Nov 10; the conference voted to proceed and re-elected Thune.",
+   "sources": "Fox News Digital and The Hill, Nov 9–10; AP and CBS News, Nov 10; co-signed letter to Chairman Cotton, Nov 9",
+   "map": {
+    "trump_alignment": {
+     "pre": 2,
+     "post": 1,
+     "shift": -1,
+     "note": "Loyal (+2) before; signing the debrief-first letter is a mild break with leadership. Hedger (+1)."
+    },
+    "economic": {
+     "pre": 0,
+     "post": 0,
+     "shift": 0,
+     "note": "Conventional conservative; no signal."
+    },
+    "israel": {
+     "pre": 1,
+     "post": 1,
+     "shift": 0,
+     "stance": "No position found."
+    },
+    "provisional": true
+   }
+  },
+  {
+   "name": "Jim Jordan",
+   "category": "Trump Loyalists",
+   "also_in": [],
+   "role": "U.S. Rep. (OH); running for House minority leader",
+   "posture": "Defender",
+   "issues": {
+    "midterm_loss": "Leadership letter (Nov 4): \"a staggering day for our Conference\"; \"offense, not defense, wins elections.\" Casting himself as the change candidate (Axios, Nov 10). Won the House GOP leader race over Scalise, 106–73 (Nov 10); said Republicans \"will fight for American families.\"",
+    "trump": "Pitches himself as battle-tested on oversight; running against Scalise.",
+    "tariffs": null,
+    "healthcare": null,
+    "immigration": null,
+    "iran_war": null,
+    "stock_trading": null,
+    "ai": null,
+    "corruption": null,
+    "israel": null
+   },
+   "other_themes": null,
+   "sources": "Jordan leadership letter, Nov 4; Axios, Nov 10; CBS News, Nov 10; CNN, Nov 11",
+   "map": {
+    "trump_alignment": {
+     "pre": 2,
+     "post": 2,
+     "shift": 0,
+     "note": "Loyal (+2) and pitching offense over introspection. Holds."
+    },
+    "economic": {
+     "pre": 0,
+     "post": 0,
+     "shift": 0,
+     "note": "Conventional; economics secondary to oversight fights."
+    },
+    "israel": {
+     "pre": 2,
+     "post": 2,
+     "shift": 0,
+     "stance": "Pro-Israel on record (RJC speaker)."
+    },
+    "provisional": true
+   }
+  },
+  {
+   "name": "Tate Reeves",
+   "category": "Trump Loyalists",
+   "also_in": [],
+   "role": "Governor (MS)",
+   "posture": "Hedger",
+   "issues": {
+    "midterm_loss": "Called it a difficult environment for Republicans.",
+    "trump": null,
+    "tariffs": null,
+    "healthcare": null,
+    "immigration": null,
+    "iran_war": null,
+    "stock_trading": null,
+    "ai": null,
+    "corruption": null,
+    "israel": null
+   },
+   "other_themes": "Confident Hyde-Smith holds the uncalled MS Senate seat.",
+   "sources": "Reeves remarks (news coverage)",
+   "map": {
+    "trump_alignment": {
+     "pre": 2,
+     "post": 1,
+     "shift": -1,
+     "note": "Loyal (+2); concedes a tough environment without blaming Trump. Hedger (+1)."
+    },
+    "economic": {
+     "pre": 0,
+     "post": 0,
+     "shift": 0,
+     "note": "Conventional pro-business governor."
+    },
+    "israel": {
+     "pre": 1,
+     "post": 1,
+     "shift": 0,
+     "stance": "No position found."
+    },
+    "provisional": true
+   }
+  },
+  {
+   "name": "Stephen Miller",
+   "category": "Trump Loyalists",
+   "also_in": [],
+   "role": "Incoming White House chief of staff (from Nov 9)",
+   "posture": "Defender",
+   "issues": {
+    "midterm_loss": "X post: \"Fight with all of our soul to support our President.\"",
+    "trump": "Promotion over Wiles read as Trump doubling down.",
+    "tariffs": null,
+    "healthcare": null,
+    "immigration": null,
+    "iran_war": null,
+    "stock_trading": null,
+    "ai": null,
+    "corruption": null,
+    "israel": null
+   },
+   "other_themes": null,
+   "sources": "Miller X post, Nov 6",
+   "map": {
+    "trump_alignment": {
+     "pre": 2,
+     "post": 2,
+     "shift": 0,
+     "note": "Loyal (+2). Now running the White House, so he is the baseline."
+    },
+    "economic": {
+     "pre": 1,
+     "post": 1,
+     "shift": 0,
+     "note": "Economic nationalism through an immigration and labor lens."
+    },
+    "israel": {
+     "pre": 1,
+     "post": 1,
+     "shift": 0,
+     "stance": "No position found."
+    },
+    "provisional": true
+   }
+  },
+  {
+   "name": "Pete Hegseth",
+   "category": "Trump Loyalists",
+   "also_in": [],
+   "role": "Secretary of Defense",
+   "posture": "Defender",
+   "issues": {
+    "midterm_loss": null,
+    "trump": "Celebrated Miller's promotion.",
+    "tariffs": null,
+    "healthcare": null,
+    "immigration": null,
+    "iran_war": "Defended the war as courageous and historic; \"we don't back down.\"",
+    "stock_trading": null,
+    "ai": null,
+    "corruption": "Called the impeachment push a sham; called Massie disgruntled and defeated.",
+    "israel": "Pre-election: strongly pro-Israel; ran the joint U.S.-Israel campaign against Iran."
+   },
+   "other_themes": "Faces Massie's impeachment articles. On Nov 10 declined to say whether he agrees with Vance that the war cost Republicans the midterms. Called Massie's impeachment push a \"political spectacle\" and a \"farce\" as the House killed it, 211–204 (Nov 10).",
+   "sources": "Hegseth posts/remarks, Nov 5–8 (news coverage); CBS News, Nov 10",
+   "map": {
+    "trump_alignment": {
+     "pre": 2,
+     "post": 2,
+     "shift": 0,
+     "note": "Loyal (+2); defends the war outright."
+    },
+    "economic": {
+     "pre": 0,
+     "post": 0,
+     "shift": 0,
+     "note": "Not an economic actor; scored neutral."
+    },
+    "israel": {
+     "pre": 2,
+     "post": 2,
+     "shift": 0,
+     "stance": "Strongly pro-Israel; ran the joint campaign."
+    },
+    "provisional": true
+   }
+  },
+  {
+   "name": "Byron Donalds",
+   "category": "Trump Loyalists",
+   "also_in": [],
+   "role": "Governor-elect (FL)",
+   "posture": "Hedger",
+   "issues": {
+    "midterm_loss": "Said voter frustration over gas and diesel prices boiled over.",
+    "trump": "Thanked Trump.",
+    "tariffs": null,
+    "healthcare": null,
+    "immigration": null,
+    "iran_war": null,
+    "stock_trading": null,
+    "ai": null,
+    "corruption": null,
+    "israel": null
+   },
+   "other_themes": "Plans to focus on affordability, housing and insurance.",
+   "sources": "Donalds remarks (news coverage)",
+   "map": {
+    "trump_alignment": {
+     "pre": 2,
+     "post": 1,
+     "shift": -1,
+     "note": "Loyal (+2); acknowledges fuel-price anger and thanks Trump. Hedger (+1)."
+    },
+    "economic": {
+     "pre": 0,
+     "post": 0,
+     "shift": 0,
+     "note": "Conventional; affordability focus (housing, insurance) with no new direction."
+    },
+    "israel": {
+     "pre": 2,
+     "post": 2,
+     "shift": 0,
+     "stance": "Pro-Israel on record."
+    },
+    "provisional": true
+   }
+  },
+  {
+   "name": "Joe Gruters",
+   "category": "Trump Loyalists",
+   "also_in": [],
+   "role": "RNC chair; Trump-backed for new term vs. KC Crosbie (Jan.)",
+   "posture": "Silent",
+   "issues": {
+    "midterm_loss": "No post-election statement found (Nov 3–10). On Election Day he predicted Republicans would \"surprise a lot of people.\"",
+    "trump": "Trump endorsed him for another term.",
+    "tariffs": null,
+    "healthcare": null,
+    "immigration": null,
+    "iran_war": null,
+    "stock_trading": null,
+    "ai": null,
+    "corruption": null,
+    "israel": null
+   },
+   "other_themes": "RNC co-chair KC Crosbie announced a challenge, calling for a review of the party's performance",
+   "sources": "Breitbart, Nov 3; Washington Examiner and Just the News, Nov 6–8",
+   "map": {
+    "trump_alignment": {
+     "pre": 2,
+     "post": 2,
+     "shift": 0,
+     "note": "Loyal (+2); Trump-endorsed for another term. Silent."
+    },
+    "economic": {
+     "pre": 1,
+     "post": 1,
+     "shift": 0,
+     "note": "Follows the White House line."
+    },
+    "israel": {
+     "pre": 1,
+     "post": 1,
+     "shift": 0,
+     "stance": "No position found."
+    },
+    "provisional": true
+   }
+  },
+  {
+   "name": "Jeff Landry",
+   "category": "Trump Loyalists",
+   "also_in": [],
+   "role": "Governor (LA)",
+   "posture": "Hedger",
+   "issues": {
+    "midterm_loss": "X post (Nov 5): called Louisiana's Senate hold and a failed recall drive a \"bright spot\" amid national losses; said voters want conservative leadership.",
+    "trump": null,
+    "tariffs": null,
+    "healthcare": null,
+    "immigration": null,
+    "iran_war": null,
+    "stock_trading": null,
+    "ai": null,
+    "corruption": null,
+    "israel": null
+   },
+   "other_themes": "Letlow narrowly held the LA Senate seat.",
+   "sources": "Louisiana Illuminator via Yahoo News, Nov 6",
+   "map": {
+    "trump_alignment": {
+     "pre": 2,
+     "post": 1,
+     "shift": -1,
+     "note": "Loyal (+2); acknowledged the national losses without assigning blame. Hedger (+1)."
+    },
+    "economic": {
+     "pre": 0,
+     "post": 0,
+     "shift": 0,
+     "note": "Conventional pro-business."
+    },
+    "israel": {
+     "pre": 1,
+     "post": 1,
+     "shift": 0,
+     "stance": "No position found."
+    },
+    "provisional": true
+   }
+  },
+  {
+   "name": "Sarah Huckabee Sanders",
+   "category": "Trump Loyalists",
+   "also_in": [],
+   "role": "Governor (AR)",
+   "posture": "Defender",
+   "issues": {
+    "midterm_loss": "Said the economy was the leading factor.",
+    "trump": "Defended Trump: his name wasn't on the ballot. Called Vance the 2028 frontrunner.",
+    "tariffs": null,
+    "healthcare": null,
+    "immigration": null,
+    "iran_war": "Said she's thankful for Trump's Iran decision.",
+    "stock_trading": null,
+    "ai": null,
+    "corruption": null,
+    "israel": "Pre-election: strongly pro-Israel record (her father is U.S. ambassador to Israel and rejected Vance's claim)."
+   },
+   "other_themes": null,
+   "sources": "Sanders remarks (news coverage)",
+   "map": {
+    "trump_alignment": {
+     "pre": 2,
+     "post": 2,
+     "shift": 0,
+     "note": "Loyal (+2); defends Trump and the Iran decision."
+    },
+    "economic": {
+     "pre": 0,
+     "post": 0,
+     "shift": 0,
+     "note": "Conventional; blames the economy but defends policy."
+    },
+    "israel": {
+     "pre": 2,
+     "post": 2,
+     "shift": 0,
+     "stance": "Strongly pro-Israel."
+    },
+    "provisional": true
+   }
+  },
+  {
+   "name": "Eric Schmitt",
+   "category": "New Right",
+   "also_in": [],
+   "role": "U.S. Senator (MO)",
+   "posture": "Silent",
+   "issues": {
+    "midterm_loss": "No comment on the losses found (Nov 3–10).",
+    "trump": null,
+    "tariffs": null,
+    "healthcare": null,
+    "immigration": null,
+    "iran_war": null,
+    "stock_trading": null,
+    "ai": null,
+    "corruption": null,
+    "israel": null
+   },
+   "other_themes": "Nov 6: called Democrats' plans to probe the Supreme Court \"retribution and lawfare\" and said Democrats \"don't care about lowering prices\".",
+   "sources": "Daily Signal, Nov 6",
+   "map": {
+    "trump_alignment": {
+     "pre": 2,
+     "post": 2,
+     "shift": 0,
+     "note": "Loyal (+2); silent."
+    },
+    "economic": {
+     "pre": 1,
+     "post": 1,
+     "shift": 0,
+     "note": "New Right, populist-leaning; silent."
+    },
+    "israel": {
+     "pre": 1,
+     "post": 1,
+     "shift": 0,
+     "stance": "No position found."
+    },
+    "provisional": true
+   }
+  },
+  {
+   "name": "Bernie Moreno",
+   "category": "New Right",
+   "also_in": [],
+   "role": "U.S. Senator (OH)",
+   "posture": "Hedger",
+   "issues": {
+    "midterm_loss": "Pushed a \"Last Supper\" lame-duck package, working weekends and through the holidays (Washington Sun, Nov 5); said the lame duck is a \"closet\" stuffed full that has to be emptied (Fox News Digital, Nov 9).",
+    "trump": "No criticism of Trump; wants to pass as much of the agenda as possible before January.",
+    "tariffs": null,
+    "healthcare": null,
+    "immigration": null,
+    "iran_war": null,
+    "stock_trading": null,
+    "ai": null,
+    "corruption": null,
+    "israel": null
+   },
+   "other_themes": "Husted lost the other OH seat to Sherrod Brown; Ramaswamy lost governor.",
+   "sources": "Washington Sun, Nov 5; Fox News Digital, Nov 9",
+   "map": {
+    "trump_alignment": {
+     "pre": 2,
+     "post": 1,
+     "shift": -1,
+     "note": "Loyal (+2); conceded the loss and pivoted to a lame-duck sprint, no diagnosis. Hedger (+1)."
+    },
+    "economic": {
+     "pre": 1,
+     "post": 1,
+     "shift": 0,
+     "note": "Populist-leaning and pro-tariff; silent."
+    },
+    "israel": {
+     "pre": 2,
+     "post": 2,
+     "shift": 0,
+     "stance": "Strongly pro-Israel on record."
+    },
+    "provisional": true
+   }
+  },
+  {
+   "name": "Jim Banks",
+   "category": "New Right",
+   "also_in": [],
+   "role": "U.S. Senator (IN)",
+   "posture": "Hedger",
+   "issues": {
+    "midterm_loss": "\"There's no way to spin it\" (WIBC, Nov 6): a bad night; voters sent a message on gas, grocery and housing costs; Democrats \"outworked us\" and turnout hurt. Nov 9: \"tomorrow is too soon\" for leadership elections; wants a frank talk about \"where we fell short.\"",
+    "trump": null,
+    "tariffs": null,
+    "healthcare": null,
+    "immigration": "Pre-election: pushed an H-1B and immigration-codification package.",
+    "iran_war": null,
+    "stock_trading": null,
+    "ai": null,
+    "corruption": null,
+    "israel": null
+   },
+   "other_themes": null,
+   "sources": "WIBC, Nov 6; WOWO, Nov 4; statement reported by Bloomberg and Fox News, Nov 9",
+   "map": {
+    "trump_alignment": {
+     "pre": 2,
+     "post": 1,
+     "shift": -1,
+     "note": "Loyal (+2); blamed prices and party execution, not Trump, and backed delaying leadership votes. Hedger (+1)."
+    },
+    "economic": {
+     "pre": 1,
+     "post": 1,
+     "shift": 0,
+     "note": "Populist-leaning on visas and labor; silent."
+    },
+    "israel": {
+     "pre": 2,
+     "post": 2,
+     "shift": 0,
+     "stance": "Pro-Israel on record."
+    },
+    "provisional": true
+   }
+  },
+  {
+   "name": "Tom Cotton",
+   "category": "Hawks",
+   "also_in": [],
+   "role": "U.S. Senator (AR)",
+   "posture": "Silent",
+   "issues": {
+    "midterm_loss": "No comment on the national losses found (Nov 3–10); his victory remarks thanked Arkansans and said he's ready to get back to work.",
+    "trump": null,
+    "tariffs": null,
+    "healthcare": null,
+    "immigration": null,
+    "iran_war": "Pre-election: urged Trump to finish the job in Iran.",
+    "stock_trading": null,
+    "ai": null,
+    "corruption": null,
+    "israel": "Pre-election: longtime pro-Israel hawk (\"back Israel to the hilt,\" June 2025)."
+   },
+   "other_themes": "As conference chair, received Ron Johnson's letter forcing a debrief meeting. Re-elected conference chair, Nov 10.",
+   "sources": "KY3, Nov 4; CBS News, Nov 10",
+   "map": {
+    "trump_alignment": {
+     "pre": 1,
+     "post": 1,
+     "shift": 0,
+     "note": "Mostly aligned (+1); silent since the loss."
+    },
+    "economic": {
+     "pre": 0,
+     "post": 0,
+     "shift": 0,
+     "note": "Center; national security first."
+    },
+    "israel": {
+     "pre": 2,
+     "post": 2,
+     "shift": 0,
+     "stance": "Strong pro-Israel hawk."
+    },
+    "provisional": true
+   }
+  },
+  {
+   "name": "Nikki Haley",
+   "category": "Hawks",
+   "also_in": [],
+   "role": "Former UN ambassador",
+   "posture": "Critic",
+   "issues": {
+    "midterm_loss": "\"Not the time to whine\"; said Republicans didn't listen to voters.",
+    "trump": null,
+    "tariffs": null,
+    "healthcare": "Cited high healthcare costs alongside groceries and gas.",
+    "immigration": null,
+    "iran_war": null,
+    "stock_trading": null,
+    "ai": null,
+    "corruption": "Said Washington showed self-dealing, corruption and celebrating.",
+    "israel": "Pre-election (Sept.): demanded Vance \"choose a side\" between Israel and its critics."
+   },
+   "other_themes": null,
+   "sources": "NBC Today show",
+   "map": {
+    "trump_alignment": {
+     "pre": -1,
+     "post": -2,
+     "shift": -1,
+     "note": "Independent (−1) and now an open critic (−2): calls it self-dealing and corruption."
+    },
+    "economic": {
+     "pre": -1,
+     "post": -1,
+     "shift": 0,
+     "note": "Free-market; criticizes execution, not direction."
+    },
+    "israel": {
+     "pre": 2,
+     "post": 2,
+     "shift": 0,
+     "stance": "Strong pro-Israel hawk; pressing Vance to pick a side."
+    },
+    "provisional": true
+   }
+  },
+  {
+   "name": "Ted Cruz",
+   "category": "Hawks",
+   "also_in": [],
+   "role": "U.S. Senator (TX)",
+   "posture": "Distancer",
+   "issues": {
+    "midterm_loss": "Called it a Watergate-level repudiation; said Texas is now blue.",
+    "trump": "Expects Democrats to impeach Trump and Hegseth.",
+    "tariffs": "Said tariffs have made everything too expensive.",
+    "healthcare": "Said insurance costs are too high.",
+    "immigration": null,
+    "iran_war": "Said the war has dragged on too long.",
+    "stock_trading": null,
+    "ai": "Warned Democrats would cut AI investment.",
+    "corruption": null,
+    "israel": "Pre-election: the Senate's loudest pro-Israel voice; public feud with Carlson; Fine and RJC figures cite him as a model."
+   },
+   "other_themes": "Electricity bills up ~30%; wants to rebuild as a blue-collar party.",
+   "sources": "Cruz podcast/remarks, Nov 4–7 (news coverage)",
+   "map": {
+    "trump_alignment": {
+     "pre": 1,
+     "post": -1,
+     "shift": -2,
+     "note": "Mostly aligned (+1); blames tariffs and the war's length. Distancer (−1)."
+    },
+    "economic": {
+     "pre": -1,
+     "post": 0,
+     "shift": 1,
+     "note": "Was free-market (−1); now attacks tariffs but calls for a blue-collar party, so he moves to center (0)."
+    },
+    "israel": {
+     "pre": 2,
+     "post": 2,
+     "shift": 0,
+     "stance": "Strongly pro-Israel; the hawk Vance is positioned against."
+    },
+    "provisional": true
+   }
+  },
+  {
+   "name": "Roger Wicker",
+   "category": "Hawks",
+   "also_in": [],
+   "role": "U.S. Senator (MS); Armed Services",
+   "posture": "Silent",
+   "issues": {
+    "midterm_loss": "No public statement found (Nov 3–10).",
+    "trump": null,
+    "tariffs": null,
+    "healthcare": null,
+    "immigration": null,
+    "iran_war": "Pre-election: wanted to finish what the U.S. started.",
+    "stock_trading": null,
+    "ai": null,
+    "corruption": null,
+    "israel": null
+   },
+   "other_themes": null,
+   "sources": null,
+   "map": {
+    "trump_alignment": {
+     "pre": 1,
+     "post": 1,
+     "shift": 0,
+     "note": "Mostly aligned (+1); silent."
+    },
+    "economic": {
+     "pre": -1,
+     "post": -1,
+     "shift": 0,
+     "note": "Free-market defense hawk."
+    },
+    "israel": {
+     "pre": 2,
+     "post": 2,
+     "shift": 0,
+     "stance": "Strong pro-Israel hawk."
+    },
+    "provisional": true
+   }
+  },
+  {
+   "name": "Mike Lee",
+   "category": "Tea Party/Freedom Caucus",
+   "also_in": [],
+   "role": "U.S. Senator (UT)",
+   "posture": "Hedger",
+   "issues": {
+    "midterm_loss": "Posted an AI video of the Titanic sinking captioned \"Current vibes.\" Co-signed the Nov 9 letter calling the result \"a stunning defeat\" with \"multiple reasons,\" and rushing leadership votes \"political malpractice\"; said the conference has \"no business\" electing leaders before discussing the results and before Alaska and Mississippi are called.",
+    "trump": null,
+    "tariffs": null,
+    "healthcare": null,
+    "immigration": null,
+    "iran_war": null,
+    "stock_trading": null,
+    "ai": null,
+    "corruption": null,
+    "israel": null
+   },
+   "other_themes": "A Fox source floated him as a Thune alternative. The delay push failed Nov 10; the conference voted to proceed and re-elected Thune.",
+   "sources": "Salt Lake Tribune; Fox News; Political.org, Nov 6; AP, Nov 10; AP and CBS News, Nov 10; co-signed letter to Chairman Cotton, Nov 9",
+   "map": {
+    "trump_alignment": {
+     "pre": 1,
+     "post": 1,
+     "shift": 0,
+     "note": "Mostly aligned (+1); gallows humor (the Titanic video) without blame. Hedger (+1)."
+    },
+    "economic": {
+     "pre": -2,
+     "post": -2,
+     "shift": 0,
+     "note": "Far free-market libertarian."
+    },
+    "israel": {
+     "pre": 1,
+     "post": 1,
+     "shift": 0,
+     "stance": "Pro-Israel on record."
+    },
+    "provisional": true
+   }
+  },
+  {
+   "name": "Ron Johnson",
+   "category": "Tea Party/Freedom Caucus",
+   "also_in": [],
+   "role": "U.S. Senator (WI)",
+   "posture": "Hedger",
+   "issues": {
+    "midterm_loss": "Blamed high prices (NPR, Nov 4). Led the letter (sent Nov 9) forcing a conference meeting on the \"stunning defeat\"; called rushing leadership votes \"political malpractice\" and asked candidates for a \"collaborative conference governing model\" and a strategy \"to counter the emboldened Democrats.\" Posted that \"an election defeat of this magnitude demands change.\" Nov 10: \"just can't continue on business as usual\"; wanted \"a plan\" first, with \"55 days until the Democrats take over.\" The conference voted to proceed and re-elected Thune.",
+    "trump": null,
+    "tariffs": null,
+    "healthcare": null,
+    "immigration": null,
+    "iran_war": null,
+    "stock_trading": null,
+    "ai": null,
+    "corruption": null,
+    "israel": null
+   },
+   "other_themes": "Said he'd leave the room if the leadership election went ahead",
+   "sources": "NPR Here & Now, Nov 4; Political.org, Nov 6; Daily Signal and Daily Caller, Nov 9; The Hill and CBS News, Nov 10; AP, Nov 10; co-signed letter to Chairman Cotton, Nov 9",
+   "map": {
+    "trump_alignment": {
+     "pre": 1,
+     "post": 1,
+     "shift": 0,
+     "note": "Mostly aligned (+1); Hedger."
+    },
+    "economic": {
+     "pre": -1,
+     "post": -1,
+     "shift": 0,
+     "note": "Free-market deficit hawk; blames prices."
+    },
+    "israel": {
+     "pre": 1,
+     "post": 1,
+     "shift": 0,
+     "stance": "Pro-Israel on record."
+    },
+    "provisional": true
+   }
+  },
+  {
+   "name": "Chip Roy",
+   "category": "Tea Party/Freedom Caucus",
+   "also_in": [],
+   "role": "U.S. Rep. (TX), leaving Congress",
+   "posture": "Hedger",
+   "issues": {
+    "midterm_loss": "On Fox (Nov 4): \"We dropped the ball\"; Republicans forgot to put people first. Told Ingraham the party has about 60 days to finish the job; urged a reconciliation bill in the next eight weeks.",
+    "trump": null,
+    "tariffs": null,
+    "healthcare": null,
+    "immigration": "Newsmax (Nov 9): border enforcement \"helped Republicans to the extent that we got any votes at all\"; Trump shouldn't retreat or offer legal status.",
+    "iran_war": null,
+    "stock_trading": null,
+    "ai": null,
+    "corruption": "Said the losses reflected economic frustration and perceived corruption, not border enforcement.",
+    "israel": null
+   },
+   "other_themes": null,
+   "sources": "Fox News, Nov 4; Primetimer, Nov 5; Newsmax via Yahoo News, Nov 9",
+   "map": {
+    "trump_alignment": {
+     "pre": 0,
+     "post": 0,
+     "shift": 0,
+     "note": "Independent (0); blamed the party's performance, prices and perceived corruption while urging Trump not to retreat on immigration, so no net movement. Hedger."
+    },
+    "economic": {
+     "pre": -2,
+     "post": -2,
+     "shift": 0,
+     "note": "Far free-market fiscal hawk."
+    },
+    "israel": {
+     "pre": 1,
+     "post": 1,
+     "shift": 0,
+     "stance": "Pro-Israel on record."
+    },
+    "provisional": true
+   }
+  },
+  {
+   "name": "Rand Paul",
+   "category": "Tea Party/Freedom Caucus",
+   "also_in": [],
+   "role": "U.S. Senator (KY)",
+   "posture": "Critic",
+   "issues": {
+    "midterm_loss": "Blamed deficit-driven inflation (pay eroded ~27%), the Iran war and tariffs. Nov 10: said about a dozen senators spoke in the closed-door meeting and it was \"mostly dissent.\"",
+    "trump": null,
+    "tariffs": "Wants the trade wars ended.",
+    "healthcare": null,
+    "immigration": null,
+    "iran_war": "Cited gas, diesel and fertilizer costs; wants the war ended.",
+    "stock_trading": null,
+    "ai": null,
+    "corruption": null,
+    "israel": null
+   },
+   "other_themes": "Balanced budgets.",
+   "sources": "Daily Caller, Nov 6; CBS News, Nov 10",
+   "map": {
+    "trump_alignment": {
+     "pre": -1,
+     "post": -2,
+     "shift": -1,
+     "note": "Independent (−1); now an open critic (−2) on war, tariffs and deficits."
+    },
+    "economic": {
+     "pre": -2,
+     "post": -2,
+     "shift": 0,
+     "note": "Far free-market: balanced budgets, end the trade wars."
+    },
+    "israel": {
+     "pre": -1,
+     "post": -1,
+     "shift": 0,
+     "stance": "Skeptical of aid; restraint-minded."
+    },
+    "provisional": true
+   }
+  },
+  {
+   "name": "Rick Scott",
+   "category": "Tea Party/Freedom Caucus",
+   "also_in": [],
+   "role": "U.S. Senator (FL)",
+   "posture": "Hedger",
+   "issues": {
+    "midterm_loss": "Fox's Saturday in America (Nov 7): \"We have to change something\"; decide what to do differently before choosing leaders. Voters back home only care whether \"we make their lives better.\" Co-signed the Nov 9 letter calling the result \"a stunning defeat\" and rushed leadership votes \"political malpractice.\" Nov 10: as Steering Committee chair, demanded a clear roadmap from Thune for the lame duck and for 2027 before re-electing him.",
+    "trump": "Wants Trump's nominees confirmed and the Senate in session through the holidays; no criticism of Trump.",
+    "tariffs": null,
+    "healthcare": null,
+    "immigration": null,
+    "iran_war": null,
+    "stock_trading": "Wants a congressional stock-trading ban passed in the lame duck, along with a balanced budget, permitting reform, the NDAA and the SAVE America Act (Fox News Digital, Nov 10).",
+    "ai": null,
+    "corruption": null,
+    "israel": "Pre-election: rebuked Vance earlier this year, calling Israel America's greatest ally in the region."
+   },
+   "other_themes": "Won't run for leader but won't commit to Thune without a plan; wants a \"collaborative conference governing model\" (per the letter)",
+   "sources": "Fox News Saturday in America, Nov 7; Fox News Digital and The Hill, Nov 9–10; Florida Politics, Nov 9; The Hill, Nov 10; co-signed letter to Chairman Cotton, Nov 9",
+   "map": {
+    "trump_alignment": {
+     "pre": 1,
+     "post": 1,
+     "shift": 0,
+     "note": "Mostly aligned (+1); blamed Senate GOP performance, not Trump. Hedger (+1)."
+    },
+    "economic": {
+     "pre": -1,
+     "post": -1,
+     "shift": 0,
+     "note": "Free-market fiscal conservative."
+    },
+    "israel": {
+     "pre": 2,
+     "post": 2,
+     "shift": 0,
+     "stance": "Strongly pro-Israel; rebuked Vance earlier this year."
+    },
+    "provisional": true
+   }
+  },
+  {
+   "name": "Andy Harris",
+   "category": "Tea Party/Freedom Caucus",
+   "also_in": [],
+   "role": "U.S. Rep. (MD); Freedom Caucus chair, term-limited",
+   "posture": "Hedger",
+   "issues": {
+    "midterm_loss": "Called it \"a drubbing\" and said leadership positions will change (Newsmax, Nov 5); predicted the Freedom Caucus \"will come back probably bigger than ever.\"",
+    "trump": "Backed Jim Jordan for minority leader: \"you need to change the team\" and an \"excellent communicator.\"",
+    "tariffs": null,
+    "healthcare": null,
+    "immigration": null,
+    "iran_war": null,
+    "stock_trading": null,
+    "ai": null,
+    "corruption": null,
+    "israel": null
+   },
+   "other_themes": null,
+   "sources": "Just the News (Newsmax), Nov 5; Maryland Matters, Nov 7; AP, Nov 10",
+   "map": {
+    "trump_alignment": {
+     "pre": 1,
+     "post": 1,
+     "shift": 0,
+     "note": "Mostly aligned (+1); wants a new House leadership team, no blame on Trump. Hedger (+1)."
+    },
+    "economic": {
+     "pre": -1,
+     "post": -1,
+     "shift": 0,
+     "note": "Fiscal hawk."
+    },
+    "israel": {
+     "pre": 1,
+     "post": 1,
+     "shift": 0,
+     "stance": "No position found."
+    },
+    "provisional": true
+   }
+  },
+  {
+   "name": "Thomas Massie",
+   "category": "Tea Party/Freedom Caucus",
+   "also_in": [],
+   "role": "U.S. Rep. (KY); lost his 2026 primary, leaves Jan. 3",
+   "posture": "Critic",
+   "issues": {
+    "midterm_loss": "Said voters held Republicans accountable for betraying promises.",
+    "trump": "Urged Trump to replace Cabinet appointees before Jan. 3; Trump called him a \"low life.\"",
+    "tariffs": null,
+    "healthcare": null,
+    "immigration": null,
+    "iran_war": "Reintroducing eight impeachment articles against Hegseth.",
+    "stock_trading": null,
+    "ai": null,
+    "corruption": "Leads Epstein Files Transparency Act II with Ro Khanna.",
+    "israel": "Pre-election: his signature issue; his amendment to eliminate aid to Israel got zero GOP votes (June)."
+   },
+   "other_themes": "Nov 10: House referred his Hegseth impeachment to committee, 211–204, killing it; he was the only Republican opposed. \"I wasn't surprised, but I was disappointed\"; Republicans \"just can't bring themselves to do it.\"",
+   "sources": "Massie posts/remarks (news coverage); Axios, Nov 5; CBS News, Nov 10",
+   "map": {
+    "trump_alignment": {
+     "pre": -2,
+     "post": -2,
+     "shift": 0,
+     "note": "Open critic (−2) before and after; lost his primary to Trump-backed forces."
+    },
+    "economic": {
+     "pre": -2,
+     "post": -2,
+     "shift": 0,
+     "note": "Far free-market libertarian."
+    },
+    "israel": {
+     "pre": -2,
+     "post": -2,
+     "shift": 0,
+     "stance": "Leading GOP skeptic of aid to Israel."
+    },
+    "provisional": true
+   }
+  },
+  {
+   "name": "John Thune",
+   "category": "Institutionalists",
+   "also_in": [],
+   "role": "Senate GOP leader; unopposed for minority leader (Nov 10)",
+   "posture": "Defender",
+   "issues": {
+    "midterm_loss": "Defended the record (taxes, border, Cabinet, judges); named no causes. Called it a \"tough night\" in his first floor remarks (Nov 9). Re-elected leader unopposed Nov 10; promised to \"finish this legislative session strong\" and extend the calendar.",
+    "trump": "Praised Trump.",
+    "tariffs": null,
+    "healthcare": null,
+    "immigration": null,
+    "iran_war": null,
+    "stock_trading": null,
+    "ai": null,
+    "corruption": null,
+    "israel": null
+   },
+   "other_themes": "Vowed not to stand idly by against Democratic extremism.",
+   "sources": "Thune X post, Nov 4; AP, Nov 10; CBS News and AP, Nov 10",
+   "map": {
+    "trump_alignment": {
+     "pre": 1,
+     "post": 2,
+     "shift": 1,
+     "note": "Mostly aligned (+1); defends the record and Trump. Defender (+2)."
+    },
+    "economic": {
+     "pre": -1,
+     "post": -1,
+     "shift": 0,
+     "note": "Free-market establishment; defends the tax cuts."
+    },
+    "israel": {
+     "pre": 2,
+     "post": 2,
+     "shift": 0,
+     "stance": "Pro-Israel on record."
+    },
+    "provisional": true
+   }
+  },
+  {
+   "name": "John Barrasso",
+   "category": "Institutionalists",
+   "also_in": [],
+   "role": "U.S. Senator (WY); running again for whip",
+   "posture": "Hedger",
+   "issues": {
+    "midterm_loss": "X post (Nov 4): \"Republicans had a tough night\"; \"clear lessons to be learned\"; voters' priorities must come first. Pledged to focus on affordability and lowering prices.",
+    "trump": null,
+    "tariffs": null,
+    "healthcare": null,
+    "immigration": null,
+    "iran_war": null,
+    "stock_trading": null,
+    "ai": null,
+    "corruption": null,
+    "israel": null
+   },
+   "other_themes": "Running for minority whip; vows to \"aggressively oppose\" what he calls Democrats' socialism. Re-elected whip, Nov 10.",
+   "sources": "CBS News live updates, Nov 4; Wyoming Tribune Eagle, Nov 8; Cowboy State Daily, Nov 9; CBS News, Nov 10",
+   "map": {
+    "trump_alignment": {
+     "pre": 1,
+     "post": 1,
+     "shift": 0,
+     "note": "Mostly aligned (+1); conceded the loss and pointed to affordability. Hedger (+1)."
+    },
+    "economic": {
+     "pre": -1,
+     "post": -1,
+     "shift": 0,
+     "note": "Free-market establishment."
+    },
+    "israel": {
+     "pre": 2,
+     "post": 2,
+     "shift": 0,
+     "stance": "Pro-Israel on record."
+    },
+    "provisional": true
+   }
+  },
+  {
+   "name": "Steve Scalise",
+   "category": "Institutionalists",
+   "also_in": [],
+   "role": "House Majority Leader; running for minority leader",
+   "posture": "Hedger",
+   "issues": {
+    "midterm_loss": "Called it \"far worse than any of us expected\"; said the party must be honest with itself. Pitching \"a new set of expectations\" and \"accountability\" for members (Punchbowl, Nov 9). Lost the leader race to Jordan, 106–73 (Nov 10), after arguing \"I've got a proven record.\"",
+    "trump": null,
+    "tariffs": null,
+    "healthcare": null,
+    "immigration": null,
+    "iran_war": null,
+    "stock_trading": null,
+    "ai": null,
+    "corruption": null,
+    "israel": null
+   },
+   "other_themes": "Promises consensus-driven leadership; warns about socialists.",
+   "sources": "Scalise leadership letter, Nov 4; Punchbowl News, Nov 9; CBS News, Nov 10",
+   "map": {
+    "trump_alignment": {
+     "pre": 1,
+     "post": 1,
+     "shift": 0,
+     "note": "Mostly aligned (+1); wants honesty and consensus. Hedger (+1)."
+    },
+    "economic": {
+     "pre": -1,
+     "post": -1,
+     "shift": 0,
+     "note": "Free-market establishment."
+    },
+    "israel": {
+     "pre": 2,
+     "post": 2,
+     "shift": 0,
+     "stance": "Pro-Israel on record."
+    },
+    "provisional": true
+   }
+  },
+  {
+   "name": "James Lankford",
+   "category": "Institutionalists",
+   "also_in": [],
+   "role": "U.S. Senator (OK)",
+   "posture": "Distancer",
+   "issues": {
+    "midterm_loss": "Called it a referendum on the economy and on Trump; also low turnout.",
+    "trump": null,
+    "tariffs": "Opposes tariffs as a free-marketer.",
+    "healthcare": null,
+    "immigration": "Cited frustration over ICE conduct.",
+    "iran_war": "Said Americans don't want the Iran war.",
+    "stock_trading": null,
+    "ai": null,
+    "corruption": "Cited frustration over buildings renamed for Trump.",
+    "israel": null
+   },
+   "other_themes": "Gas, diesel and inflation; wants a return to principles. Nov 10: backed holding leadership elections that day since GOP freshmen were in town; called leading the conference \"a pretty complicated role.\"",
+   "sources": "News9 (Oklahoma City); AP, Nov 10",
+   "map": {
+    "trump_alignment": {
+     "pre": 1,
+     "post": -1,
+     "shift": -2,
+     "note": "Mostly aligned (+1); calls it a referendum on Trump and faults ICE conduct and the war. Distancer (−1)."
+    },
+    "economic": {
+     "pre": -1,
+     "post": -2,
+     "shift": -1,
+     "note": "Was free-market (−1); explicitly anti-tariff and wants a return to principles, so further free-market (−2)."
+    },
+    "israel": {
+     "pre": 2,
+     "post": 2,
+     "shift": 0,
+     "stance": "Pro-Israel on record."
+    },
+    "provisional": true
+   }
+  },
+  {
+   "name": "Jerry Moran",
+   "category": "Institutionalists",
+   "also_in": [],
+   "role": "U.S. Senator (KS)",
+   "posture": "Hedger",
+   "issues": {
+    "midterm_loss": "Called Senator-elect Adam Hamilton to congratulate him (Nov 4): \"We have the responsibility to listen to our constituents, work together and deliver results.\"",
+    "trump": null,
+    "tariffs": null,
+    "healthcare": null,
+    "immigration": null,
+    "iran_war": null,
+    "stock_trading": null,
+    "ai": null,
+    "corruption": null,
+    "israel": null
+   },
+   "other_themes": "Marshall lost the other KS seat to Hamilton.",
+   "sources": "KWCH, Nov 4–5",
+   "map": {
+    "trump_alignment": {
+     "pre": 0,
+     "post": 0,
+     "shift": 0,
+     "note": "Independent (0); a gracious concession with no diagnosis, so no movement. Hedger."
+    },
+    "economic": {
+     "pre": -1,
+     "post": -1,
+     "shift": 0,
+     "note": "Free-market; farm-trade focus."
+    },
+    "israel": {
+     "pre": 1,
+     "post": 1,
+     "shift": 0,
+     "stance": "No position found."
+    },
+    "provisional": true
+   }
+  },
+  {
+   "name": "Tim Scott",
+   "category": "Institutionalists",
+   "also_in": [],
+   "role": "U.S. Senator (SC); NRSC chair",
+   "posture": "Silent",
+   "issues": {
+    "midterm_loss": "No post-election statement found (Nov 3–10). On Nov 1 he said Republicans would \"absolutely, positively, unequivocally\" hold the Senate.",
+    "trump": "Has said his relationship with Trump matters most.",
+    "tariffs": null,
+    "healthcare": null,
+    "immigration": null,
+    "iran_war": null,
+    "stock_trading": null,
+    "ai": null,
+    "corruption": null,
+    "israel": null
+   },
+   "other_themes": "An NRSC fundraising email Nov 4 didn't acknowledge the losses",
+   "sources": "NBC Meet the Press, Nov 1; Washington Sun, Nov 4; People For (NRSC email), Nov 4",
+   "map": {
+    "trump_alignment": {
+     "pre": 2,
+     "post": 2,
+     "shift": 0,
+     "note": "Loyal (+2); silent after predicting a Senate hold."
+    },
+    "economic": {
+     "pre": -1,
+     "post": -1,
+     "shift": 0,
+     "note": "Free-market, opportunity agenda."
+    },
+    "israel": {
+     "pre": 2,
+     "post": 2,
+     "shift": 0,
+     "stance": "Pro-Israel on record."
+    },
+    "provisional": true
+   }
+  },
+  {
+   "name": "Greg Gianforte",
+   "category": "Institutionalists",
+   "also_in": [],
+   "role": "Governor (MT)",
+   "posture": "Silent",
+   "issues": {
+    "midterm_loss": "No public statement found (Nov 3–10).",
+    "trump": null,
+    "tariffs": null,
+    "healthcare": null,
+    "immigration": null,
+    "iran_war": null,
+    "stock_trading": null,
+    "ai": null,
+    "corruption": null,
+    "israel": null
+   },
+   "other_themes": null,
+   "sources": null,
+   "map": {
+    "trump_alignment": {
+     "pre": 1,
+     "post": 1,
+     "shift": 0,
+     "note": "Mostly aligned (+1); silent."
+    },
+    "economic": {
+     "pre": -1,
+     "post": -1,
+     "shift": 0,
+     "note": "Free-market businessman governor."
+    },
+    "israel": {
+     "pre": 1,
+     "post": 1,
+     "shift": 0,
+     "stance": "No position found."
+    },
+    "provisional": true
+   }
+  },
+  {
+   "name": "Brian Kemp",
+   "category": "Institutionalists",
+   "also_in": [],
+   "role": "Governor (GA), term-limited",
+   "posture": "Hedger",
+   "issues": {
+    "midterm_loss": "Congratulated Bottoms and Ossoff; said Republicans need to learn from the results and \"get back to\" conservative principles.",
+    "trump": null,
+    "tariffs": null,
+    "healthcare": null,
+    "immigration": null,
+    "iran_war": null,
+    "stock_trading": null,
+    "ai": null,
+    "corruption": null,
+    "israel": null
+   },
+   "other_themes": "Refused a special session on redistricting or curbing the incoming governor's powers.",
+   "sources": "Kemp statement, Nov 4 (WSB-TV, WJCL, AJC)",
+   "map": {
+    "trump_alignment": {
+     "pre": 0,
+     "post": 1,
+     "shift": 1,
+     "note": "Semi-independent (0); gracious to Democrats, wants lessons learned. Hedger (+1), a slight move toward the party line."
+    },
+    "economic": {
+     "pre": -1,
+     "post": -1,
+     "shift": 0,
+     "note": "Free-market, pro-business."
+    },
+    "israel": {
+     "pre": 1,
+     "post": 1,
+     "shift": 0,
+     "stance": "No position found."
+    },
+    "provisional": true
+   }
+  },
+  {
+   "name": "Glenn Youngkin",
+   "category": "Institutionalists",
+   "also_in": [],
+   "role": "Former governor (VA)",
+   "posture": "Hedger",
+   "issues": {
+    "midterm_loss": "Called it an \"incredibly rough\" night; voters angry about gas, power and grocery prices.",
+    "trump": null,
+    "tariffs": null,
+    "healthcare": null,
+    "immigration": null,
+    "iran_war": null,
+    "stock_trading": null,
+    "ai": null,
+    "corruption": null,
+    "israel": null
+   },
+   "other_themes": "Warned Democrats not to read it as a far-left mandate.",
+   "sources": "CNBC, Nov 6",
+   "map": {
+    "trump_alignment": {
+     "pre": 1,
+     "post": 1,
+     "shift": 0,
+     "note": "Mostly aligned (+1); Hedger."
+    },
+    "economic": {
+     "pre": -1,
+     "post": -1,
+     "shift": 0,
+     "note": "Free-market; frames it as prices."
+    },
+    "israel": {
+     "pre": 1,
+     "post": 1,
+     "shift": 0,
+     "stance": "No position found."
+    },
+    "provisional": true
+   }
+  },
+  {
+   "name": "Lisa Murkowski",
+   "category": "Pragmatists and Dissenters",
+   "also_in": [],
+   "role": "U.S. Senator (AK)",
+   "posture": "Critic",
+   "issues": {
+    "midterm_loss": "Surprised by the Senate loss; hopes Democrats don't treat it as a mandate to retaliate.",
+    "trump": null,
+    "tariffs": null,
+    "healthcare": null,
+    "immigration": "Was the lone GOP vote against the ICE funding bill (pre-election).",
+    "iran_war": "Wants the war brought to a responsible end, with Congress's role respected.",
+    "stock_trading": null,
+    "ai": null,
+    "corruption": null,
+    "israel": null
+   },
+   "other_themes": "Next in line as top Republican on Appropriations.",
+   "sources": "KNOM, Nov 5",
+   "map": {
+    "trump_alignment": {
+     "pre": -2,
+     "post": -2,
+     "shift": 0,
+     "note": "Open critic (−2) before and after; wants Congress's war powers back."
+    },
+    "economic": {
+     "pre": -1,
+     "post": -1,
+     "shift": 0,
+     "note": "Center-right appropriator."
+    },
+    "israel": {
+     "pre": 1,
+     "post": 1,
+     "shift": 0,
+     "stance": "Pro-Israel but wants the war ended."
+    },
+    "provisional": true
+   }
+  },
+  {
+   "name": "Chris Christie",
+   "category": "Pragmatists and Dissenters",
+   "also_in": [],
+   "role": "Former governor (NJ)",
+   "posture": "Critic",
+   "issues": {
+    "midterm_loss": "On ABC News (election night): \"The Trump era is over. It is over. You cannot lose at this level.\"",
+    "trump": "Called the scale of losses, including Texas statewide, a verdict on Trump's dominance.",
+    "tariffs": null,
+    "healthcare": null,
+    "immigration": null,
+    "iran_war": null,
+    "stock_trading": null,
+    "ai": null,
+    "corruption": null,
+    "israel": null
+   },
+   "other_themes": null,
+   "sources": "ABC News via IBTimes, Nov 4",
+   "map": {
+    "trump_alignment": {
+     "pre": -2,
+     "post": -2,
+     "shift": 0,
+     "note": "Open critic (−2) before and after."
+    },
+    "economic": {
+     "pre": -1,
+     "post": -1,
+     "shift": 0,
+     "note": "Free-market establishment."
+    },
+    "israel": {
+     "pre": 2,
+     "post": 2,
+     "shift": 0,
+     "stance": "Pro-Israel on record."
+    },
+    "provisional": true
+   }
+  },
+  {
+   "name": "Chris Sununu",
+   "category": "Pragmatists and Dissenters",
+   "also_in": [],
+   "role": "Former governor (NH)",
+   "posture": "Silent",
+   "issues": {
+    "midterm_loss": "No post-election statement found.",
+    "trump": null,
+    "tariffs": null,
+    "healthcare": null,
+    "immigration": null,
+    "iran_war": null,
+    "stock_trading": null,
+    "ai": null,
+    "corruption": null,
+    "israel": null
+   },
+   "other_themes": "His brother John E. Sununu lost the NH Senate race and blamed Trump and his family's business dealings.",
+   "sources": "News coverage",
+   "map": {
+    "trump_alignment": {
+     "pre": -1,
+     "post": -1,
+     "shift": 0,
+     "note": "Independent (−1); silent. His brother blamed Trump's family dealings."
+    },
+    "economic": {
+     "pre": -1,
+     "post": -1,
+     "shift": 0,
+     "note": "Free-market, anti-tariff."
+    },
+    "israel": {
+     "pre": 1,
+     "post": 1,
+     "shift": 0,
+     "stance": "No position found."
+    },
+    "provisional": true
+   }
+  },
+  {
+   "name": "Kelly Ayotte",
+   "category": "Pragmatists and Dissenters",
+   "also_in": [],
+   "role": "Governor (NH), reelected",
+   "posture": "Distancer",
+   "issues": {
+    "midterm_loss": "Won while keeping her distance from Trump, framing it as standing with New Hampshire.",
+    "trump": "No remarks on Trump.",
+    "tariffs": null,
+    "healthcare": null,
+    "immigration": null,
+    "iran_war": null,
+    "stock_trading": null,
+    "ai": null,
+    "corruption": null,
+    "israel": null
+   },
+   "other_themes": "Victory message on housing, childcare and energy prices.",
+   "sources": "Ayotte victory post",
+   "map": {
+    "trump_alignment": {
+     "pre": 0,
+     "post": -1,
+     "shift": -1,
+     "note": "Semi-independent (0); won by keeping her distance. Distancer (−1)."
+    },
+    "economic": {
+     "pre": -1,
+     "post": -1,
+     "shift": 0,
+     "note": "Free-market; affordability framing."
+    },
+    "israel": {
+     "pre": 1,
+     "post": 1,
+     "shift": 0,
+     "stance": "No position found."
+    },
+    "provisional": true
+   }
+  },
+  {
+   "name": "Tucker Carlson",
+   "category": "Media voices",
+   "also_in": [],
+   "role": "Host; left GOP in June",
+   "posture": "Critic",
+   "issues": {
+    "midterm_loss": "Called it the end of the Trump era and of the Fox News era.",
+    "trump": "Said Trump abandoned America First.",
+    "tariffs": null,
+    "healthcare": null,
+    "immigration": null,
+    "iran_war": "Blamed Fox and Mark Levin for the war.",
+    "stock_trading": null,
+    "ai": null,
+    "corruption": "Raised the Epstein files.",
+    "israel": "Pre-election: calls Iran \"Israel's war\" and opposes U.S. aid; post-election blamed pro-Israel hawks at Fox for the war."
+   },
+   "other_themes": "Israel.",
+   "sources": "Carlson show (news coverage)",
+   "map": {
+    "trump_alignment": {
+     "pre": -1,
+     "post": -2,
+     "shift": -1,
+     "note": "Already broke (−1); now declares the Trump era over (−2)."
+    },
+    "economic": {
+     "pre": 2,
+     "post": 2,
+     "shift": 0,
+     "note": "Far populist, anti-corporate."
+    },
+    "israel": {
+     "pre": -2,
+     "post": -2,
+     "shift": 0,
+     "stance": "Leading skeptic of Israel on the right."
+    },
+    "provisional": true
+   }
+  },
+  {
+   "name": "Kevin Roberts",
+   "category": "Media voices",
+   "also_in": [],
+   "role": "President, Heritage Foundation",
+   "posture": "Hedger",
+   "issues": {
+    "midterm_loss": "Said affordability and the war were major factors, not an ideological rejection.",
+    "trump": null,
+    "tariffs": null,
+    "healthcare": null,
+    "immigration": null,
+    "iran_war": "Cited the war as a major factor.",
+    "stock_trading": null,
+    "ai": null,
+    "corruption": null,
+    "israel": "Pre-election: Heritage's defense of Carlson drew condemnation from Cruz and others."
+   },
+   "other_themes": "Hosting \"The Forum,\" Nov 10–12.",
+   "sources": "Daily Signal, Nov 6",
+   "map": {
+    "trump_alignment": {
+     "pre": 1,
+     "post": 1,
+     "shift": 0,
+     "note": "Aligned (+1); not an ideological rejection. Hedger (+1)."
+    },
+    "economic": {
+     "pre": 1,
+     "post": 1,
+     "shift": 0,
+     "note": "Has steered Heritage populist; frames it as affordability."
+    },
+    "israel": {
+     "pre": 0,
+     "post": 0,
+     "shift": 0,
+     "stance": "Conditional; Heritage defended Carlson."
+    },
+    "provisional": true
+   }
+  },
+  {
+   "name": "Erika Kirk",
+   "category": "Media voices",
+   "also_in": [],
+   "role": "CEO, Turning Point USA",
+   "posture": "Hedger",
+   "issues": {
+    "midterm_loss": "Long X post (Nov 4): exit polls show voters worried about the economy and the war in Iran; candidates won on gas, grocery and housing costs. Warned against \"finger-pointing, in-fighting\"; said voters \"don't subscribe to unquestioned party loyalty anymore.\"",
+    "trump": null,
+    "tariffs": null,
+    "healthcare": null,
+    "immigration": null,
+    "iran_war": "Named the Iran war as a voter concern alongside the economy, without calling for it to end.",
+    "stock_trading": null,
+    "ai": null,
+    "corruption": null,
+    "israel": null
+   },
+   "other_themes": "Rejected socialism as the answer; Turning Point will study the results and prepare for 2028. Some Republicans blamed Turning Point's primary operation for the losses",
+   "sources": "Fox News, Nov 4; Boston Globe/NYT, Nov 7",
+   "map": {
+    "trump_alignment": {
+     "pre": 2,
+     "post": 1,
+     "shift": -1,
+     "note": "Loyal (+2); conceded the economy and war hurt, without blaming Trump. Hedger (+1)."
+    },
+    "economic": {
+     "pre": 1,
+     "post": 1,
+     "shift": 0,
+     "note": "TPUSA, populist-leaning; silent."
+    },
+    "israel": {
+     "pre": 1,
+     "post": 1,
+     "shift": 0,
+     "stance": "No position found."
+    },
+    "provisional": true
+   }
+  },
+  {
+   "name": "Ben Shapiro",
+   "category": "Media voices",
+   "also_in": [],
+   "role": "Host, Daily Wire",
+   "posture": "Critic",
+   "issues": {
+    "midterm_loss": "Election night: \"It's a wipeout.\" Next day called it a repudiation of Trump.",
+    "trump": "Cited unaffordability, chaos and corruption.",
+    "tariffs": null,
+    "healthcare": null,
+    "immigration": null,
+    "iran_war": null,
+    "stock_trading": null,
+    "ai": null,
+    "corruption": "Cited corruption as a cause.",
+    "israel": "Pre-election: called Vance's Iran deal a \"disaster.\" Post-election, he and Levin are blamed by MAGA influencers for the war and in turn blame Vance's deal for prolonging it (per Axios and Daily Caller)."
+   },
+   "other_themes": null,
+   "sources": "Shapiro show (news coverage)",
+   "map": {
+    "trump_alignment": {
+     "pre": 1,
+     "post": -2,
+     "shift": -3,
+     "note": "Aligned (+1); now calls it a repudiation of Trump (−2), while keeping blame on Vance's diplomacy for the war."
+    },
+    "economic": {
+     "pre": -1,
+     "post": -1,
+     "shift": 0,
+     "note": "Free-market."
+    },
+    "israel": {
+     "pre": 2,
+     "post": 2,
+     "shift": 0,
+     "stance": "Strongly pro-Israel; at the center of the hawk-vs-restraint fight."
+    },
+    "provisional": true
+   }
+  },
+  {
+   "name": "Megyn Kelly",
+   "category": "Media voices",
+   "also_in": [],
+   "role": "Host",
+   "posture": "Critic",
+   "issues": {
+    "midterm_loss": "Said the party is \"in ruins\" and must learn to win without Trump on the ballot.",
+    "trump": "Called it a referendum on Trump and his policies.",
+    "tariffs": null,
+    "healthcare": null,
+    "immigration": null,
+    "iran_war": "Broke with Trump over Iran in March.",
+    "stock_trading": null,
+    "ai": null,
+    "corruption": null,
+    "israel": "Pre-election: argued Israel manipulated the administration into war (per Shapiro)."
+   },
+   "other_themes": null,
+   "sources": "Kelly show (news coverage)",
+   "map": {
+    "trump_alignment": {
+     "pre": 0,
+     "post": -2,
+     "shift": -2,
+     "note": "Already broke over Iran (0); now says the party is in ruins (−2)."
+    },
+    "economic": {
+     "pre": 0,
+     "post": 0,
+     "shift": 0,
+     "note": "Mixed or centrist on economics."
+    },
+    "israel": {
+     "pre": -1,
+     "post": -1,
+     "shift": 0,
+     "stance": "Skeptic."
+    },
+    "provisional": true
+   }
+  },
+  {
+   "name": "Laura Loomer",
+   "category": "Media voices",
+   "also_in": [],
+   "role": "Activist/podcaster",
+   "posture": "Defender",
+   "issues": {
+    "midterm_loss": "Blamed TikTok, podcasts, immigrants, and Johnson and Thune for not codifying Trump's orders.",
+    "trump": null,
+    "tariffs": null,
+    "healthcare": null,
+    "immigration": "Blamed foreigners and immigrants.",
+    "iran_war": null,
+    "stock_trading": null,
+    "ai": null,
+    "corruption": null,
+    "israel": "Pre-election: warned the right's antisemitism and \"obsessively talking about Israel\" would cost the midterms; now a target of MAGA influencers for backing the war."
+   },
+   "other_themes": "Announced a podcast hiatus Nov 6.",
+   "sources": "Loomer X posts (news coverage)",
+   "map": {
+    "trump_alignment": {
+     "pre": 2,
+     "post": 2,
+     "shift": 0,
+     "note": "Loyal (+2); blames everyone but Trump."
+    },
+    "economic": {
+     "pre": 1,
+     "post": 1,
+     "shift": 0,
+     "note": "Follows Trump."
+    },
+    "israel": {
+     "pre": 2,
+     "post": 2,
+     "shift": 0,
+     "stance": "Strongly pro-Israel."
+    },
+    "provisional": true
+   }
+  },
+  {
+   "name": "Laura Ingraham",
+   "category": "Media voices",
+   "also_in": [],
+   "role": "Host, Fox News",
+   "posture": "Distancer",
+   "issues": {
+    "midterm_loss": "\"Voters are not happy\"; suggested Iran backlash doomed the GOP; Chris Wallace rebuked her framing.",
+    "trump": null,
+    "tariffs": null,
+    "healthcare": null,
+    "immigration": "Hosted DeSantis on H-1B and codifying Trump's orders.",
+    "iran_war": "Suggested war backlash cost the GOP.",
+    "stock_trading": null,
+    "ai": null,
+    "corruption": null,
+    "israel": null
+   },
+   "other_themes": null,
+   "sources": "Fox News, Nov 4–6 (news coverage)",
+   "map": {
+    "trump_alignment": {
+     "pre": 1,
+     "post": -1,
+     "shift": -2,
+     "note": "Aligned (+1); suggests the war backlash cost the GOP. Distancer (−1)."
+    },
+    "economic": {
+     "pre": 1,
+     "post": 1,
+     "shift": 0,
+     "note": "Populist-leaning (anti-H-1B, \"Permanent DC\")."
+    },
+    "israel": {
+     "pre": 1,
+     "post": 1,
+     "shift": 0,
+     "stance": "Conditional; increasingly restraint-minded on Iran."
+    },
+    "provisional": true
+   }
+  },
+  {
+   "name": "Candace Owens",
+   "category": "Media voices",
+   "also_in": [],
+   "role": "Podcaster",
+   "posture": "Silent",
+   "issues": {
+    "midterm_loss": "No remarks from Owens herself verified. Her show's Nov 4 episode (\"What Caused The MAGA Midterm Meltdown?\", guest-hosted per one episode summary) blamed the Iran war, Israel policy and broken promises.",
+    "trump": null,
+    "tariffs": null,
+    "healthcare": null,
+    "immigration": null,
+    "iran_war": null,
+    "stock_trading": null,
+    "ai": null,
+    "corruption": null,
+    "israel": "Pre-election: among the right's harshest critics of Israel."
+   },
+   "other_themes": null,
+   "sources": "Candace podcast, Ep. 410 (Nov 4) episode listings",
+   "map": {
+    "trump_alignment": {
+     "pre": -1,
+     "post": -1,
+     "shift": 0,
+     "note": "Already alienated (−1); silent."
+    },
+    "economic": {
+     "pre": 1,
+     "post": 1,
+     "shift": 0,
+     "note": "Populist-leaning; silent."
+    },
+    "israel": {
+     "pre": -2,
+     "post": -2,
+     "shift": 0,
+     "stance": "Hostile to Israel."
+    },
+    "provisional": true
+   }
+  },
+  {
+   "name": "Joe Rogan",
+   "category": "Media voices",
+   "also_in": [],
+   "role": "Podcaster",
+   "posture": "Critic",
+   "issues": {
+    "midterm_loss": "Said Trump bears responsibility.",
+    "trump": null,
+    "tariffs": null,
+    "healthcare": null,
+    "immigration": null,
+    "iran_war": "Said Trump made deeply unpopular moves, especially Iran.",
+    "stock_trading": null,
+    "ai": null,
+    "corruption": null,
+    "israel": "Pre-election: called the Gaza war a genocide (per Jerusalem Post)."
+   },
+   "other_themes": null,
+   "sources": "Joe Rogan Experience (news coverage)",
+   "map": {
+    "trump_alignment": {
+     "pre": 0,
+     "post": -2,
+     "shift": -2,
+     "note": "Swing voice (0); says Trump bears responsibility (−2)."
+    },
+    "economic": {
+     "pre": 0,
+     "post": 0,
+     "shift": 0,
+     "note": "Heterodox; not strongly placed."
+    },
+    "israel": {
+     "pre": -1,
+     "post": -1,
+     "shift": 0,
+     "stance": "Skeptic."
+    },
+    "provisional": true
+   }
+  },
+  {
+   "name": "Sean Hannity",
+   "category": "Media voices",
+   "also_in": [],
+   "role": "Host, Fox News",
+   "posture": "Defender",
+   "issues": {
+    "midterm_loss": "Said the war \"100 percent\" made the difference; urged an end to the blame game.",
+    "trump": "Defended Trump against unprecedented hatred.",
+    "tariffs": null,
+    "healthcare": null,
+    "immigration": null,
+    "iran_war": "Acknowledged the war cost the GOP.",
+    "stock_trading": null,
+    "ai": null,
+    "corruption": null,
+    "israel": null
+   },
+   "other_themes": null,
+   "sources": "Hannity, Fox News (news coverage)",
+   "map": {
+    "trump_alignment": {
+     "pre": 2,
+     "post": 2,
+     "shift": 0,
+     "note": "Loyal (+2); concedes the war cost the GOP but defends Trump."
+    },
+    "economic": {
+     "pre": 0,
+     "post": 0,
+     "shift": 0,
+     "note": "Conventional; follows Trump."
+    },
+    "israel": {
+     "pre": 2,
+     "post": 2,
+     "shift": 0,
+     "stance": "Strongly pro-Israel."
+    },
+    "provisional": true
+   }
+  }
+ ]
+}

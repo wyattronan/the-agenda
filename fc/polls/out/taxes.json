@@ -1,0 +1,509 @@
+[
+ {
+  "keys": [
+   "gov:millionaire",
+   "sen:toptax"
+  ],
+  "match": "bill",
+  "pollster": "DHM Research",
+  "sponsor": "",
+  "tier": 2,
+  "type": "state",
+  "fielded": "2025-11",
+  "n": 500,
+  "question": "Support a 9.9% Washington income tax on individuals earning over $1 million a year",
+  "url": "https://www.cpapracticeadvisor.com/2026/01/14/guess-who-supports-a-millionaires-tax-in-washington-state-republicans-poll-finds/176337/",
+  "states": {
+   "WA": {
+    "sup": 61,
+    "opp": 29
+   }
+  },
+  "national": null,
+  "note": "Unsponsored DHM regular WA survey (republished Seattle Times story); n=500 per DHM blog https://www.dhmresearch.com/are-washingtonians-finally-ready-for-a-state-income-tax/ Tagged sen:toptax as concept match (tax on the wealthiest)."
+ },
+ {
+  "keys": [
+   "gov:millionaire",
+   "sen:toptax"
+  ],
+  "match": "bill",
+  "pollster": "DHM Research",
+  "sponsor": "",
+  "tier": 2,
+  "type": "state",
+  "fielded": "2026-09",
+  "n": 400,
+  "question": "Vote on I-645 to repeal WA's tax on income over $1M (ballot summary without budget-impact language)",
+  "url": "https://www.cpapracticeadvisor.com/2026/09/30/poll-support-for-repealing-washington-millionaires-tax-drops-with-budget-impact/190794/",
+  "states": {
+   "WA": {
+    "sup": 44,
+    "opp": 40
+   }
+  },
+  "national": null,
+  "note": "Reverse-direction question: sup = % voting NO on repeal (keep tax), opp = % voting yes on repeal. Split sample of 800; half-sample with budget-impact language gave 57% keep / 35% repeal. Tagged sen:toptax as concept match (tax on the wealthiest)."
+ },
+ {
+  "keys": [
+   "gov:millionaire",
+   "sen:toptax"
+  ],
+  "match": "bill",
+  "pollster": "Public Policy Polling",
+  "sponsor": "Progress Michigan",
+  "tier": 3,
+  "type": "state",
+  "fielded": "2025-11",
+  "n": 796,
+  "question": "Support the Invest in MI Kids proposal: a small tax on the wealthiest Michiganders to fund schools",
+  "url": "https://progressmichigan.org/wp-content/uploads/2025/12/michiganresultsnov2025.pdf",
+  "states": {
+   "MI": {
+    "sup": 63,
+    "opp": 29
+   }
+  },
+  "national": null,
+  "note": "Advocacy-sponsored (Progress Michigan). Question does not state threshold; the initiative itself is a 5% surtax on income over $500K single / $1M joint. Tagged sen:toptax as concept match (tax on the wealthiest)."
+ },
+ {
+  "keys": [
+   "gov:millionaire",
+   "sen:toptax"
+  ],
+  "match": "bill",
+  "pollster": "UMass Amherst",
+  "sponsor": "WCVB",
+  "tier": 1,
+  "type": "state",
+  "fielded": "2022-10",
+  "n": 700,
+  "question": "Vote on MA Question 1 (Fair Share Amendment: 4% surtax on income over $1M for education/transportation)",
+  "url": "https://en.wikipedia.org/wiki/2022_Massachusetts_Question_1",
+  "states": {
+   "MA": {
+    "sup": 59,
+    "opp": 33
+   }
+  },
+  "national": null,
+  "note": "Pre-election poll (Oct 20-26, 2022, RV); figure from Wikipedia polling table. Tagged sen:toptax as concept match (tax on the wealthiest)."
+ },
+ {
+  "keys": [
+   "gov:millionaire",
+   "sen:toptax"
+  ],
+  "match": "bill",
+  "pollster": "UMass Lowell",
+  "sponsor": "",
+  "tier": 1,
+  "type": "state",
+  "fielded": "2022-10",
+  "n": 1000,
+  "question": "Vote on MA Question 1 (Fair Share Amendment: 4% surtax on income over $1M)",
+  "url": "https://en.wikipedia.org/wiki/2022_Massachusetts_Question_1",
+  "states": {
+   "MA": {
+    "sup": 61,
+    "opp": 34
+   }
+  },
+  "national": null,
+  "note": "Pre-election poll (Oct 18-25, 2022, LV); figure from Wikipedia polling table. Tagged sen:toptax as concept match (tax on the wealthiest)."
+ },
+ {
+  "keys": [
+   "gov:millionaire",
+   "sen:toptax"
+  ],
+  "match": "bill",
+  "pollster": "Suffolk University",
+  "sponsor": "Boston Globe/NBC10 Boston/Telemundo",
+  "tier": 1,
+  "type": "state",
+  "fielded": "2022-10",
+  "n": 500,
+  "question": "Vote on MA Question 1 (Fair Share Amendment: 4% surtax on income over $1M)",
+  "url": "https://en.wikipedia.org/wiki/2022_Massachusetts_Question_1",
+  "states": {
+   "MA": {
+    "sup": 58.4,
+    "opp": 37.4
+   }
+  },
+  "national": null,
+  "note": "Pre-election poll (Oct 13-16, 2022, LV); figure from Wikipedia polling table. UMass Amherst/WCVB Feb 2025 poll reportedly found continued support for the Millionaire Tax but toplines were not accessible. Tagged sen:toptax as concept match (tax on the wealthiest)."
+ },
+ {
+  "keys": [
+   "gov:millionaire",
+   "sen:toptax"
+  ],
+  "match": "concept",
+  "pollster": "Siena Research Institute",
+  "sponsor": "",
+  "tier": 1,
+  "type": "state",
+  "fielded": "2026-02",
+  "n": 805,
+  "question": "Should the state let New York City raise income taxes on its residents earning at least $1 million",
+  "url": "https://sri.siena.edu/wp-content/uploads/2026/03/SNY-February-2026-Poll-Release-3-4-26-FINAL.pdf",
+  "states": {
+   "NY": {
+    "sup": 54,
+    "opp": 29
+   }
+  },
+  "national": null,
+  "note": "Statewide RV sample; question is about a NYC-only millionaire income tax, not a statewide surtax. Tagged sen:toptax as concept match (tax on the wealthiest)."
+ },
+ {
+  "keys": [
+   "gov:millionaire",
+   "sen:toptax"
+  ],
+  "match": "concept",
+  "pollster": "Public Policy Institute of California",
+  "sponsor": "",
+  "tier": 1,
+  "type": "state",
+  "fielded": "2026-10",
+  "n": 1086,
+  "question": "Vote on Prop 40, a one-time 5% tax on the wealth of Californians worth $1 billion or more",
+  "url": "https://sfstandard.com/2026/10/27/billionaire-tax-prop-40-ppic-poll-october/",
+  "states": {
+   "CA": {
+    "sup": 46,
+    "opp": 52
+   }
+  },
+  "national": null,
+  "note": "Likely voters, Oct 16-22, 2026. Billionaire wealth tax, not an income surtax; concept match for both keys."
+ },
+ {
+  "keys": [
+   "gov:millionaire",
+   "sen:toptax"
+  ],
+  "match": "concept",
+  "pollster": "Public Policy Institute of California",
+  "sponsor": "",
+  "tier": 1,
+  "type": "state",
+  "fielded": "2026-09",
+  "n": 1103,
+  "question": "Vote on Prop 40, a one-time 5% tax on billionaires' wealth",
+  "url": "https://www.cpapracticeadvisor.com/2026/09/23/california-voters-back-billionaire-tax-and-measures-that-could-block-it-new-poll-finds/190410/",
+  "states": {
+   "CA": {
+    "sup": 52,
+    "opp": 42
+   }
+  },
+  "national": null,
+  "note": "Likely voters, Sept 4-10, 2026. Billionaire wealth tax; concept match."
+ },
+ {
+  "keys": [
+   "gov:millionaire",
+   "sen:toptax"
+  ],
+  "match": "bill",
+  "pollster": "Hart Research",
+  "sponsor": "Maine Center for Economic Policy",
+  "tier": 3,
+  "type": "state",
+  "fielded": "2025-12",
+  "n": 901,
+  "question": "Should Maine add a 2% tax surcharge on incomes over $1 million",
+  "url": "https://www.mecep.org/wp-content/uploads/2026/03/Maine-Voices-Survey-Hart-Economic-Policy-Poll.pdf",
+  "states": {
+   "ME": {
+    "sup": 70,
+    "opp": 27
+   }
+  },
+  "national": null,
+  "note": "Progressive think-tank sponsored (MECEP 'Maine Voices' survey); pollster attributed by file name. Likely voters Dec 5-9, 2025. Same poll: 67% say $1M+ earners should pay more. sen:toptax is a concept match."
+ },
+ {
+  "keys": [
+   "sen:toptax"
+  ],
+  "match": "concept",
+  "pollster": "University of Maryland Program for Public Consultation",
+  "sponsor": "",
+  "tier": 2,
+  "type": "national",
+  "fielded": "2026-02",
+  "n": 2509,
+  "question": "Favor an annual wealth tax of 2% on wealth above $50M and 3% above $1B",
+  "url": "https://publicconsultation.org/wp-content/uploads/2026/09/Common-Ground-National-Questionnaire-2026.pdf",
+  "states": {},
+  "national": {
+   "sup": 80,
+   "opp": 20
+  },
+  "note": "Policy-briefing survey (Q69, subsample ~2,000). Same survey: tax capital gains as ordinary income for $1M+ households 76% favor/23% oppose. Battleground state results (Jul-Aug 2026, 11 states) exist at vop.org but state PDFs show only party breakdowns, so no overall state figure was recorded; left to cross-cutting agent."
+ },
+ {
+  "keys": [
+   "sen:ctc"
+  ],
+  "match": "bill",
+  "pollster": "University of Maryland Program for Public Consultation",
+  "sponsor": "",
+  "tier": 2,
+  "type": "national",
+  "fielded": "2026-02",
+  "n": 2509,
+  "question": "Favor raising the Child Tax Credit to $3,600 per child and making it fully refundable",
+  "url": "https://publicconsultation.org/wp-content/uploads/2026/09/Common-Ground-National-Questionnaire-2026.pdf",
+  "states": {},
+  "national": {
+   "sup": 78,
+   "opp": 22
+  },
+  "note": "Policy-briefing survey (Q11, subsample ~2,000). State-level CTC results in vop.org state PDFs report only party breakdowns (e.g., MI R 73%, D 82%)."
+ },
+ {
+  "keys": [
+   "sen:toptax"
+  ],
+  "match": "concept",
+  "pollster": "Gallup",
+  "sponsor": "",
+  "tier": 1,
+  "type": "national",
+  "fielded": "2025-03",
+  "n": null,
+  "question": "Do upper-income people pay their fair share in federal taxes (% saying too little)",
+  "url": "https://news.gallup.com/poll/1714/taxes.aspx",
+  "states": {},
+  "national": {
+   "sup": 58,
+   "opp": null
+  },
+  "note": "sup = % saying upper-income people pay too little; 28% fair share, 12% too much. Same poll: 70% say corporations pay too little."
+ },
+ {
+  "keys": [
+   "sen:toptax"
+  ],
+  "match": "concept",
+  "pollster": "YouGov",
+  "sponsor": "The Economist",
+  "tier": 1,
+  "type": "national",
+  "fielded": "2026-01",
+  "n": null,
+  "question": "Are billionaires taxed too little, about right, or too much (% too little)",
+  "url": "https://yougov.com/en-us/articles/53821-majorities-americans-say-wealth-inequality-is-problem-want-government-intervention-january-2-5-2026-economist-yougov-poll",
+  "states": {},
+  "national": {
+   "sup": 62,
+   "opp": null
+  },
+  "note": "sup = % saying billionaires taxed too little; 16% about right, 7% too high."
+ },
+ {
+  "keys": [
+   "gov:ctc"
+  ],
+  "match": "bill",
+  "pollster": "Impact Research",
+  "sponsor": "Michigan Future",
+  "tier": 3,
+  "type": "state",
+  "fielded": "2024-04",
+  "n": 500,
+  "question": "Support a $1B fully refundable Michigan tax credit for working parents ($5,000 per child under 3, $2,500 ages 3-6)",
+  "url": "https://whmi.com/news/article/45285",
+  "states": {
+   "MI": {
+    "sup": 76,
+    "opp": null
+   }
+  },
+  "national": null,
+  "note": "Advocacy-sponsored (Michigan Future). Article published Apr 12, 2024; exact field dates not given; fielded month approximated by publication. Opposition not reported. Toplines: https://martinwaymire.app.box.com/s/to4288ndsu86cx1sd3a1btb4w7i53b31"
+ },
+ {
+  "keys": [
+   "gov:ptax"
+  ],
+  "match": "concept",
+  "pollster": "University of North Florida Public Opinion Research Lab",
+  "sponsor": "",
+  "tier": 1,
+  "type": "state",
+  "fielded": "2026-07",
+  "n": 848,
+  "question": "Support FL Amendment 3 phasing out most non-school property taxes on homesteaded homes (before hearing fiscal estimate)",
+  "url": "https://thecapitolist.com/unf-porl-poll-property-tax-amendment-support-sinks-when-voters-hear-fiscal-estimate/",
+  "states": {
+   "FL": {
+    "sup": 61,
+    "opp": 32
+   }
+  },
+  "national": null,
+  "note": "Likely voters Jul 8-17, 2026. After hearing ~$11.8B local budget shortfall estimate: 45% support / 47% oppose. Homestead-only relief, broader than a targeted credit; concept match."
+ },
+ {
+  "keys": [
+   "gov:ptax"
+  ],
+  "match": "concept",
+  "pollster": "Targoz Market Research",
+  "sponsor": "James Madison Institute",
+  "tier": 3,
+  "type": "state",
+  "fielded": "2025-04",
+  "n": 1200,
+  "question": "Support eliminating property taxes on primary residences by expanding Florida's homestead exemption",
+  "url": "https://www.wlrn.org/government-politics/2025-05-10/survey-shows-more-floridians-support-a-property-tax-cut-vs-sales-tax-cut",
+  "states": {
+   "FL": {
+    "sup": 65,
+    "opp": 24
+   }
+  },
+  "national": null,
+  "note": "Sponsored by conservative think tank James Madison Institute. 60% concerned elimination would cut local services."
+ },
+ {
+  "keys": [
+   "gov:sstax"
+  ],
+  "match": "bill",
+  "pollster": "Alan Newman Research",
+  "sponsor": "AARP Utah",
+  "tier": 3,
+  "type": "state",
+  "fielded": "2022-11",
+  "n": 1000,
+  "question": "Should Utah eliminate its state income tax on Social Security benefits",
+  "url": "https://blog.aarp.org/fighting-for-you/utah-poll-social-security",
+  "states": {
+   "UT": {
+    "sup": 66,
+    "opp": null
+   }
+  },
+  "national": null,
+  "note": "Advocacy-sponsored (AARP Utah, which backs elimination). Phone survey of Utah adults 18+, n 'more than 1,000'; field month November, year inferred as 2022 from companion Fox13 story dated Dec 8, 2022 (https://fox13now.com/news/politics/survey-says-take-the-tax-off-social-security-benefits). Opposition not reported."
+ },
+ {
+  "keys": [
+   "sen:ctc"
+  ],
+  "match": "bill",
+  "pollster": "University of Maryland Program for Public Consultation",
+  "sponsor": "",
+  "tier": 2,
+  "type": "multistate",
+  "fielded": "2024-08",
+  "n": 4624,
+  "question": "Favor reinstating the expanded Child Tax Credit ($3,600 per child, fully refundable), after briefing on costs and poverty effects",
+  "url": "https://publicconsultation.org/swing-six-fc/fc/",
+  "states": {
+   "AZ": {
+    "sup": 75,
+    "opp": null
+   },
+   "GA": {
+    "sup": 77,
+    "opp": null
+   },
+   "MI": {
+    "sup": 74,
+    "opp": null
+   },
+   "NV": {
+    "sup": 73,
+    "opp": null
+   },
+   "PA": {
+    "sup": 71,
+    "opp": null
+   },
+   "WI": {
+    "sup": 69,
+    "opp": null
+   }
+  },
+  "national": {
+   "sup": 74,
+   "opp": null
+  },
+  "note": "Policy-briefing survey with real state samples (~600 each; national n=1,197). Opposition not reported on page. Same survey: $6,000 credit for parents of infants favored 65% nationally (AZ 65, GA 71, MI 66, NV 63, PA 58, WI 57). Newer 2026 battleground wave exists at vop.org but overall state toplines were not on the pages fetched. Cross-cutting agent may also capture this source."
+ },
+ {
+  "keys": [
+   "gov:mctax"
+  ],
+  "match": "concept",
+  "pollster": "Emerson College Polling",
+  "sponsor": "The Hill/8 News Now",
+  "tier": 1,
+  "type": "state",
+  "fielded": "2024-08",
+  "n": 1168,
+  "question": "Should taxes on tips be eliminated, or should tips remain taxable",
+  "url": "https://digital-release.newsnationnow.com/?p=3070093",
+  "states": {
+   "NV": {
+    "sup": 71.4,
+    "opp": 16.5
+   }
+  },
+  "national": null,
+  "note": "Very likely Nevada voters, Aug 26-28, 2024. Asked in the context of the federal no-tax-on-tips proposal, not a state tax cut; concept match for the 'no tax on tips' part of gov:mctax."
+ },
+ {
+  "keys": [
+   "gov:mctax"
+  ],
+  "match": "concept",
+  "pollster": "Emerson College Polling",
+  "sponsor": "The Hill/Nexstar",
+  "tier": 1,
+  "type": "multistate",
+  "fielded": "2024-08",
+  "n": 4895,
+  "question": "Should taxes on tips be eliminated, or should tips remain taxable",
+  "url": "https://emersoncollegepolling.com/august-2024-swing-state-polls-toss-up-presidential-election-in-swing-states/",
+  "states": {
+   "AZ": {
+    "sup": 74,
+    "opp": 14
+   },
+   "GA": {
+    "sup": 74,
+    "opp": 12
+   },
+   "MI": {
+    "sup": 65,
+    "opp": 17
+   },
+   "NC": {
+    "sup": 70,
+    "opp": 18
+   },
+   "PA": {
+    "sup": 68,
+    "opp": 17
+   },
+   "WI": {
+    "sup": 66,
+    "opp": 20
+   }
+  },
+  "national": null,
+  "note": "Likely voters, Aug 25-28, 2024 (AZ n=720, GA 800, MI 800, NC 775, PA 950, WI 850). Nevada from the same survey (71/17) is recorded as its own entry, so it is omitted here to avoid double counting. Asked about the federal no-tax-on-tips proposal; concept match for gov:mctax."
+ }
+]

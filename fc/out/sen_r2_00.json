@@ -1,0 +1,68 @@
+[
+ {
+  "who": "Katie Britt",
+  "state": "AL",
+  "key": "ai",
+  "old_stance": "Lean support",
+  "new_stance": "Lean support",
+  "evidence": "Original cosponsor, GUARD Act S.3062, setting federal safety rules and penalties for AI chatbots used by minors (Oct 2025); also voted to strip the state AI law moratorium (Jul 2025); a narrower bill than broad AI guardrails.",
+  "url": "https://policyrisk.com/legislation/S3062",
+  "confirmed": false,
+  "changed": true
+ },
+ {
+  "who": "Barry Moore",
+  "state": "AL",
+  "key": "fil",
+  "old_stance": "Unclear",
+  "new_stance": "Lean support",
+  "evidence": "Said ending or reforming the filibuster may be needed to stop Schumer blocking GOP priorities (May 2026 radio interview).",
+  "url": "https://www.alabamagazette.com/story/2026/01/01/podcasts/barry-moore-talks-senate-power-trump-agenda-greenland-strategy-and-alabama-priorities-in-wideranging-podcast-interview/9685.html",
+  "confirmed": false,
+  "changed": true
+ },
+ {
+  "who": "Barry Moore",
+  "state": "AL",
+  "key": "aca",
+  "old_stance": "Unclear",
+  "new_stance": "Lean oppose",
+  "evidence": "Said he would probably never vote to extend the enhanced ACA subsidies, calling them a boon to insurers, unless paired with major reforms (Dec 2025).",
+  "url": "https://yellowhammernews.com/barry-moore-says-its-unlikely-he-would-ever-vote-for-an-extension-of-obamacare-subsides-unless-the-reforms-are-pretty-incredible",
+  "confirmed": false,
+  "changed": true
+ },
+ {
+  "who": "Barry Moore",
+  "state": "AL",
+  "key": "tariff",
+  "old_stance": "Unclear",
+  "new_stance": "Lean oppose",
+  "evidence": "Praised Trump's use of tariffs as leverage and said they could help lower inflation (May 2026); earlier said tariffs will be better for Americans long run (Apr 2025).",
+  "url": "https://www.alabamagazette.com/story/2026/01/01/podcasts/barry-moore-talks-senate-power-trump-agenda-greenland-strategy-and-alabama-priorities-in-wideranging-podcast-interview/9685.html",
+  "confirmed": false,
+  "changed": true
+ },
+ {
+  "who": "Mark Kelly",
+  "state": "AZ",
+  "key": "ai",
+  "old_stance": "Lean support",
+  "new_stance": "Lean support",
+  "evidence": "Original cosponsor, GUARD Act S.3062, setting federal safety rules and penalties for AI chatbots used by minors (Oct 2025); also voted to strip the state AI law moratorium (Jul 2025); a narrower bill than broad AI guardrails.",
+  "url": "https://policyrisk.com/legislation/S3062",
+  "confirmed": false,
+  "changed": true
+ },
+ {
+  "who": "Ruben Gallego",
+  "state": "AZ",
+  "key": "ai",
+  "old_stance": "Lean support",
+  "new_stance": "Lean support",
+  "evidence": "Cosponsor, GUARD Act S.3062, setting federal safety rules and penalties for AI chatbots used by minors (Oct 29 2025); also voted to strip the state AI law moratorium (Jul 2025); a narrower bill than broad AI guardrails.",
+  "url": "https://policyrisk.com/legislation/S3062",
+  "confirmed": false,
+  "changed": true
+ }
+]

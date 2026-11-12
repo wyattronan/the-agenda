@@ -1,0 +1,304 @@
+[
+ {
+  "keys": [
+   "sen:stock"
+  ],
+  "match": "bill",
+  "pollster": "Program for Public Consultation, University of Maryland",
+  "sponsor": "",
+  "tier": 2,
+  "type": "multistate",
+  "fielded": "2024-07",
+  "n": 4647,
+  "question": "Final recommendation: prohibit members of Congress (and their families) from trading individual stocks",
+  "url": "https://publicconsultation.org/wp-content/uploads/2024/07/Stock-Trading-Questionnaire-National-Swing-Six.docx.pdf",
+  "states": {
+   "AZ": {
+    "sup": 75,
+    "opp": 23
+   },
+   "GA": {
+    "sup": 75,
+    "opp": 25
+   },
+   "MI": {
+    "sup": 75,
+    "opp": 24
+   },
+   "NV": {
+    "sup": 71,
+    "opp": 28
+   },
+   "PA": {
+    "sup": 74,
+    "opp": 26
+   },
+   "WI": {
+    "sup": 76,
+    "opp": 24
+   }
+  },
+  "national": {
+   "sup": 72,
+   "opp": 27
+  },
+  "note": "Policymaking-simulation survey with opt-in online panels (~600/state, 1,195 national). Q30. A follow-up extending the ban to President, VP and Supreme Court justices (Q32): natl 74/25, AZ 75/25, GA 72/28, MI 74/25, NV 73/26, PA 74/25, WI 77/22."
+ },
+ {
+  "keys": [
+   "sen:stock"
+  ],
+  "match": "concept",
+  "pollster": "YouGov",
+  "sponsor": "The Economist",
+  "tier": 1,
+  "type": "national",
+  "fielded": "2026-05",
+  "n": 1520,
+  "question": "Should members of Congress be banned from trading individual stocks",
+  "url": "https://yougovamerica.substack.com/p/what-americans-think-about-congress",
+  "states": {},
+  "national": {
+   "sup": 71,
+   "opp": null
+  },
+  "note": "Split-sample wording test: 71% say 'banned'; an alternate 'should be allowed' version found 76% not allowed vs 6% allowed. Opposition for the 'banned' version not reported in write-up."
+ },
+ {
+  "keys": [
+   "sen:pacs"
+  ],
+  "match": "concept",
+  "pollster": "YouGov",
+  "sponsor": "Issue One (campaign finance reform group)",
+  "tier": 3,
+  "type": "state",
+  "fielded": "2025-10",
+  "n": 410,
+  "question": "Vote on proposed 2026 Montana initiative to eliminate corporate and dark money spending in elections",
+  "url": "https://issueone.org/wp-content/uploads/2025/10/Issue-One-YouGov-Montana-Campaign-Finance-October-2025-memo.pdf",
+  "states": {
+   "MT": {
+    "sup": 74,
+    "opp": 11
+   }
+  },
+  "national": null,
+  "note": "Registered MT voters, online. Same poll: 63% disagree with Citizens United premise that corporations/unions have a right to unlimited election spending. Advocacy-sponsored."
+ },
+ {
+  "keys": [
+   "sen:pacs"
+  ],
+  "match": "concept",
+  "pollster": "YouGov",
+  "sponsor": "Issue One (campaign finance reform group)",
+  "tier": 3,
+  "type": "national",
+  "fielded": "2025-10",
+  "n": null,
+  "question": "Support a measure in your state (like Montana's) to eliminate corporate and dark money election spending, after hearing arguments",
+  "url": "https://issueone.org/press/new-polling-citizens-united-money-in-politics-reforms/",
+  "states": {},
+  "national": {
+   "sup": 72,
+   "opp": 12
+  },
+  "note": "Same national survey: 63% disagree with Citizens United premise; 75% say unlimited spending weakens democracy vs 13% strengthens. Sample size not stated in release."
+ },
+ {
+  "keys": [
+   "sen:pacs"
+  ],
+  "match": "concept",
+  "pollster": "Glengariff Group",
+  "sponsor": "WDIV-TV / The Detroit News",
+  "tier": 1,
+  "type": "state",
+  "fielded": "2026-09",
+  "n": 600,
+  "question": "Vote on Michigan Proposal 2 initiated law: bar campaign contributions from regulated utilities and large state contractors, expand disclosure of political ads",
+  "url": "https://www.clickondetroit.com/news/local/2026/09/09/poll-do-michigan-voters-support-stricter-political-campaign-finance-rules/",
+  "states": {
+   "MI": {
+    "sup": 72,
+    "opp": 16
+   }
+  },
+  "national": null,
+  "note": "Likely voters, live phone; 71.5% yes / 15.6% no / 12.8% DK. Loose concept match: limits corporate money (utilities/contractors), not a full corporate PAC/super PAC ban."
+ },
+ {
+  "keys": [
+   "sen:pacs"
+  ],
+  "match": "concept",
+  "pollster": "Brennan Center for Justice (Verasight panel)",
+  "sponsor": "",
+  "tier": 2,
+  "type": "national",
+  "fielded": "2026-05",
+  "n": 2000,
+  "question": "Constitutional amendment to overturn Supreme Court rulings that struck down limits on money in elections",
+  "url": "https://www.brennancenter.org/media/15709/download/corruption-survey-toplines-2026-06-01-final.pdf",
+  "states": {},
+  "national": {
+   "sup": 79,
+   "opp": 11
+  },
+  "note": "Registered voters, Verasight web panel matched to voter file, Apr 28-May 6, 2026. Amendment letting Congress/states limit contributions and spending, with greater limits on corporations. Regional: West 82, South 78, Northeast 81, Midwest 76."
+ },
+ {
+  "keys": [
+   "sen:stock"
+  ],
+  "match": "concept",
+  "pollster": "Brennan Center for Justice (Verasight panel)",
+  "sponsor": "",
+  "tier": 2,
+  "type": "national",
+  "fielded": "2026-05",
+  "n": 2000,
+  "question": "Ban members of Congress from trading stocks",
+  "url": "https://www.brennancenter.org/media/15709/download/corruption-survey-toplines-2026-06-01-final.pdf",
+  "states": {},
+  "national": {
+   "sup": 81,
+   "opp": 10
+  },
+  "note": "Registered voters, Verasight web panel, Apr 28-May 6, 2026. Ban includes crypto and similar assets."
+ },
+ {
+  "keys": [
+   "sen:termlim"
+  ],
+  "match": "concept",
+  "pollster": "Marist",
+  "sponsor": "NPR / PBS News",
+  "tier": 1,
+  "type": "national",
+  "fielded": "2026-04",
+  "n": 1322,
+  "question": "Favor or oppose term limits for members of Congress",
+  "url": "https://maristpoll.marist.edu/polls/president-trump-while-at-war-may-2026/",
+  "states": {},
+  "national": {
+   "sup": 83,
+   "opp": 17
+  },
+  "note": "Same poll: maximum age limit for House/Senate candidates 80% favor / 20% oppose. Population (adults vs RV) not confirmed from release page."
+ },
+ {
+  "keys": [
+   "sen:termlim"
+  ],
+  "match": "concept",
+  "pollster": "Ipsos",
+  "sponsor": "Reuters",
+  "tier": 1,
+  "type": "national",
+  "fielded": "2026-02",
+  "n": 4638,
+  "question": "Agree members of Congress should have term limits",
+  "url": "https://www.ipsos.com/sites/default/files/ct/news/documents/2026-03/Reuters%20Ipsos%20Large%20Issue%20Topline%20Feb%202026.pdf",
+  "states": {},
+  "national": {
+   "sup": 89,
+   "opp": 8
+  },
+  "note": "US adults, KnowledgePanel. Same poll: mandatory retirement age for members of Congress 85% agree / 12% disagree."
+ },
+ {
+  "keys": [
+   "sen:sch"
+  ],
+  "match": "bill",
+  "pollster": "Emerson College Polling",
+  "sponsor": "Consensus Strategies",
+  "tier": 3,
+  "type": "multistate",
+  "fielded": "2025-11",
+  "n": 9000,
+  "question": "Given his shutdown actions, should Schumer continue as Senate Democratic leader, step down after 2026, or step down now (all likely voters)",
+  "url": "https://emersoncollegepolling.com/8-state-national-surveys/",
+  "states": {
+   "CA": {
+    "sup": 33,
+    "opp": 67
+   },
+   "GA": {
+    "sup": 28,
+    "opp": 72
+   },
+   "MA": {
+    "sup": 29,
+    "opp": 71
+   },
+   "NH": {
+    "sup": 24,
+    "opp": 76
+   },
+   "NJ": {
+    "sup": 27,
+    "opp": 74
+   },
+   "NY": {
+    "sup": 34,
+    "opp": 66
+   },
+   "TX": {
+    "sup": 26,
+    "opp": 74
+   },
+   "VA": {
+    "sup": 26,
+    "opp": 74
+   }
+  },
+  "national": {
+   "sup": 24,
+   "opp": 76
+  },
+  "note": "Nov 18-21, 2025; ~1,000 LV nationally and in each of 8 states. sup = continue as leader; opp = step down now + step down after 2026 (both reported). Exact: Natl 24.2/41.0 after/34.8 now; CA 33.4/34.5/32.0; GA 27.7/36.4/35.9; MA 28.7/43.7/27.5; NH 23.9/36.4/39.7; NJ 26.5/38.9/34.6; NY 33.9/35.5/30.6; TX 25.6/36.8/37.6; VA 26.2/38.0/35.8. All voters, not Democrats only; nationally 39% of Democrats said continue, 61% step down. Sponsored by Consensus Strategies (political consulting firm). Full results Google Sheet linked from the Emerson page."
+ },
+ {
+  "keys": [
+   "sen:sch"
+  ],
+  "match": "bill",
+  "pollster": "YouGov",
+  "sponsor": "",
+  "tier": 1,
+  "type": "national",
+  "fielded": "2025-03",
+  "n": 8125,
+  "question": "Should Schumer remain Senate Democratic leader or be replaced by another Democrat (all adults)",
+  "url": "https://yougov.com/en-us/daily-results/20250320-1cedf-1",
+  "states": {},
+  "national": {
+   "sup": 19,
+   "opp": 36
+  },
+  "note": "YouGov Daily one-question survey, Mar 20, 2025, after the CR vote; 45% not sure."
+ },
+ {
+  "keys": [
+   "sen:fil"
+  ],
+  "match": "concept",
+  "pollster": "Monmouth University",
+  "sponsor": "",
+  "tier": 1,
+  "type": "national",
+  "fielded": "2021-04",
+  "n": 800,
+  "question": "Should the Senate get rid of the filibuster entirely, keep it with reforms, or keep it as is",
+  "url": "https://www.monmouth.edu/polling-institute/wp-json/wp/v2/poll/40802248856",
+  "states": {},
+  "national": {
+   "sup": 19,
+   "opp": 76
+  },
+  "note": "US adults. sup = get rid of entirely (19%); opp = keep with reforms (38%) + keep with no changes (38%); 6% DK. Older poll; no newer tier-1 filibuster topline opened."
+ }
+]

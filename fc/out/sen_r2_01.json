@@ -1,0 +1,134 @@
+[
+ {
+  "who": "John Boozman",
+  "state": "AR",
+  "key": "fil",
+  "old_stance": "Unclear",
+  "new_stance": "Oppose",
+  "evidence": "Issued a statement defending the Senate filibuster and denouncing Democrats' push to change the rules to silence the minority (Jan 2022).",
+  "url": "https://www.boozman.senate.gov/public/index.cfm/2022/1/boozman-denounces-democrats-attempts-to-silence-the-minority",
+  "confirmed": false,
+  "changed": true
+ },
+ {
+  "who": "Tom Cotton",
+  "state": "AR",
+  "key": "fil",
+  "old_stance": "Unclear",
+  "new_stance": "Oppose",
+  "evidence": "Gave a Senate floor speech defending the legislative filibuster, built from Schumer's past remarks against the nuclear option (Jan 2022).",
+  "url": "https://theblaze.com/news/sen-tom-cotton-passionately-defends-filibuster-in-speech-written-entirely-from-chuck-schumers-past-statements",
+  "confirmed": false,
+  "changed": true
+ },
+ {
+  "who": "Tom Cotton",
+  "state": "AR",
+  "key": "dcpr",
+  "old_stance": "Unclear",
+  "new_stance": "Oppose",
+  "evidence": "Gave a Senate floor speech opposing DC statehood, calling the push a Democratic power grab (Jun 2020).",
+  "url": "https://m.washingtontimes.com/news/2020/jun/26/tom-cotton-opposes-statehood-for-dc-says-power-gra/",
+  "confirmed": false,
+  "changed": true
+ },
+ {
+  "who": "Tom Cotton",
+  "state": "AR",
+  "key": "gastax",
+  "old_stance": "Unclear",
+  "new_stance": "Mixed",
+  "evidence": "Welcomed Trump's gas tax holiday idea (May 2026), then said a suspension isn't a durable fix and would cut Arkansas highway funds (Jun 2026).",
+  "url": "https://arkadelphian.com/2026/06/03/lawmakers-hit-brakes-on-gas-tax-suspension/",
+  "confirmed": false,
+  "changed": true
+ },
+ {
+  "who": "Michael Bennet",
+  "state": "CO",
+  "key": "priorauth",
+  "old_stance": "Unclear",
+  "new_stance": "Support",
+  "evidence": "Cosponsor, Improving Seniors' Timely Access to Care Act, S.1816 (joined Sep 2025).",
+  "url": "https://policyrisk.com/research/legislation/S1816",
+  "confirmed": false,
+  "changed": true
+ },
+ {
+  "who": "Michael Bennet",
+  "state": "CO",
+  "key": "pro",
+  "old_stance": "Lean support",
+  "new_stance": "Support",
+  "evidence": "Original cosponsor, Richard L. Trumka PRO Act of 2025, S.852 (Mar 2025).",
+  "url": "https://policyrisk.com/research/legislation/S852",
+  "confirmed": false,
+  "changed": true
+ },
+ {
+  "who": "Michael Bennet",
+  "state": "CO",
+  "key": "pfl",
+  "old_stance": "Lean support",
+  "new_stance": "Support",
+  "evidence": "Cosponsor, FAMILY Act, S.2823, creating national paid family and medical leave (joined Sep 2025).",
+  "url": "https://policyrisk.com/research/legislation/S2823",
+  "confirmed": false,
+  "changed": true
+ },
+ {
+  "who": "John Hickenlooper",
+  "state": "CO",
+  "key": "pro",
+  "old_stance": "Unclear",
+  "new_stance": "Support",
+  "evidence": "Original cosponsor, Richard L. Trumka PRO Act of 2025, S.852 (Mar 2025).",
+  "url": "https://policyrisk.com/research/legislation/S852",
+  "confirmed": false,
+  "changed": true
+ },
+ {
+  "who": "Alex Padilla",
+  "state": "CA",
+  "key": "ice",
+  "old_stance": "Lean support",
+  "new_stance": "Support",
+  "evidence": "Sponsor, VISIBLE Act, S.2212, requiring immigration agents to show visible ID and limiting face coverings (Jul 2025); covers part of the ICE package.",
+  "url": "https://policyrisk.com/research/legislation/S2212",
+  "confirmed": false,
+  "changed": true
+ },
+ {
+  "who": "Adam Schiff",
+  "state": "CA",
+  "key": "ice",
+  "old_stance": "Lean support",
+  "new_stance": "Support",
+  "evidence": "Cosponsor, Padilla's VISIBLE Act, S.2212, requiring immigration agents to show visible ID and limiting face coverings (Jul 2025); covers part of the ICE package.",
+  "url": "https://policyrisk.com/research/legislation/S2212",
+  "confirmed": false,
+  "changed": true
+ },
+ {
+  "who": "Adam Schiff",
+  "state": "CA",
+  "key": "iran",
+  "old_stance": "Support",
+  "new_stance": "Support",
+  "evidence": "Original cosponsor, Duckworth's Iran war powers resolution S.J.Res.123 (Mar 2026); voted for Kaine's Iran war powers resolution (Apr 2026).",
+  "url": "https://policyrisk.com/research/legislation/SJRES123",
+  "confirmed": false,
+  "changed": true
+ },
+ {
+  "who": "John Hickenlooper",
+  "state": "CO",
+  "key": "stock",
+  "old_stance": "Unclear",
+  "new_stance": "Lean support",
+  "evidence": "Cosponsor, Ossoff's Ban Congressional Stock Trading Act, S.1879 (joined Dec 2025), a narrower bill that does not cover the President and VP.",
+  "url": "https://policyrisk.com/research/legislation/S1879",
+  "confirmed": false,
+  "changed": true
+ }
+]

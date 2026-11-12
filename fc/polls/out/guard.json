@@ -1,0 +1,132 @@
+[
+ {
+  "keys": [
+   "gov:guard"
+  ],
+  "match": "concept",
+  "pollster": "PPIC Statewide Survey",
+  "sponsor": "",
+  "tier": 1,
+  "type": "state",
+  "fielded": "2025-11",
+  "n": null,
+  "question": "Deploying National Guard troops for law enforcement in a city in California (support/oppose); figure shown is the share opposed",
+  "url": "https://www.ppic.org/publication/ppic-statewide-survey-californians-and-their-government-december-2025/",
+  "states": {
+   "CA": {
+    "sup": 66,
+    "opp": null
+   }
+  },
+  "national": null,
+  "note": "Likely voters; 66% oppose deploying the Guard to a California city for law enforcement (68% of adults). Released Dec 2025. Support here = opposition to the deployment."
+ },
+ {
+  "keys": [
+   "gov:guard"
+  ],
+  "match": "concept",
+  "pollster": "Public Policy Polling",
+  "sponsor": "Democratic Governors Association",
+  "tier": 3,
+  "type": "state",
+  "fielded": "2025-11",
+  "n": 736,
+  "question": "Do you support or oppose President Trump deploying the National Guard to Portland?",
+  "url": "https://democraticgovernors.org/wp-content/uploads/2025/11/oregonresults1-1.pdf",
+  "states": {
+   "OR": {
+    "sup": 59,
+    "opp": 39
+   }
+  },
+  "national": null,
+  "note": "Party-sponsored (DGA). Oregon voters, Nov 5-6 2025: 59% oppose, 39% support. Support here = opposition to the deployment."
+ },
+ {
+  "keys": [
+   "gov:guard"
+  ],
+  "match": "concept",
+  "pollster": "Texas Politics Project (UT Austin)",
+  "sponsor": "",
+  "tier": 1,
+  "type": "state",
+  "fielded": "2025-10",
+  "n": 1200,
+  "question": "Deploying the Texas National Guard for law enforcement in cities in other states",
+  "url": "https://www.tpr.org/news/2025-10-29/majority-of-texans-oppose-national-guard-deployment-to-cities-out-of-state-poll-finds",
+  "states": {
+   "TX": {
+    "sup": 51,
+    "opp": 41
+   }
+  },
+  "national": null,
+  "note": "Registered voters, Oct 10-20 2025: 51% oppose, 41% support sending Texas troops into other states' cities, the mirror image of this policy."
+ },
+ {
+  "keys": [
+   "gov:guard"
+  ],
+  "match": "concept",
+  "pollster": "Vanderbilt Poll",
+  "sponsor": "",
+  "tier": 1,
+  "type": "state",
+  "fielded": "2025-11",
+  "n": 1046,
+  "question": "The Tennessee National Guard's deployment to Memphis (support/oppose)",
+  "url": "https://www.yahoo.com/news/articles/tennesseans-want-lawmakers-focus-economy-120237779.html",
+  "states": {
+   "TN": {
+    "sup": 31,
+    "opp": 58
+   }
+  },
+  "national": null,
+  "note": "Registered voters, Nov 12-19 2025: 58% support the Memphis deployment, 31% oppose. The governor requested this one. Support here = opposition to the deployment."
+ },
+ {
+  "keys": [
+   "gov:guard"
+  ],
+  "match": "concept",
+  "pollster": "Targoz Market Research",
+  "sponsor": "Beacon Center of Tennessee",
+  "tier": 2,
+  "type": "state",
+  "fielded": "2025-10",
+  "n": 1200,
+  "question": "Do you approve or disapprove of President Trump's decision to send the National Guard to Memphis?",
+  "url": "https://www.beacontn.org/november-2025-beacon-poll/",
+  "states": {
+   "TN": {
+    "sup": 33,
+    "opp": 63
+   }
+  },
+  "national": null,
+  "note": "Sponsored by a conservative think tank. Registered voters, Oct 26-29 2025: 63% approve, 33% disapprove. Support here = disapproval."
+ },
+ {
+  "keys": [
+   "gov:guard"
+  ],
+  "match": "concept",
+  "pollster": "Reuters/Ipsos",
+  "sponsor": "",
+  "tier": 1,
+  "type": "national",
+  "fielded": "2025-10",
+  "n": 1154,
+  "question": "Should the president have the authority to send troops to a state even when its governor objects?",
+  "url": "https://www.aol.com/articles/almost-6-10-armed-troops-141418560.html",
+  "states": {},
+  "national": {
+   "sup": 48,
+   "opp": 37
+  },
+  "note": "U.S. adults, Oct 3-7 2025: 48% against that authority, 37% for, 15% unsure. Support here = against the authority."
+ }
+]

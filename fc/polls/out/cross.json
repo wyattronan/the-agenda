@@ -1,0 +1,1740 @@
+[
+ {
+  "keys": [
+   "sen:stock"
+  ],
+  "match": "bill",
+  "pollster": "Program for Public Consultation (UMD) / Voice of the People",
+  "sponsor": "",
+  "tier": 2,
+  "type": "multistate",
+  "fielded": "2024-07",
+  "n": 4843,
+  "question": "After policymaking simulation: prohibit members of Congress (and live-in family) from trading individual stocks",
+  "url": "https://publicconsultation.org/wp-content/uploads/2024/07/Stock-Trading-Questionnaire-National-Swing-Six.docx.pdf",
+  "states": {
+   "AZ": {
+    "sup": 75.3,
+    "opp": 23.3
+   },
+   "GA": {
+    "sup": 74.9,
+    "opp": 24.8
+   },
+   "MI": {
+    "sup": 75.3,
+    "opp": 24.4
+   },
+   "NV": {
+    "sup": 71.2,
+    "opp": 27.7
+   },
+   "PA": {
+    "sup": 73.5,
+    "opp": 25.9
+   },
+   "WI": {
+    "sup": 75.8,
+    "opp": 23.8
+   }
+  },
+  "national": {
+   "sup": 72.4,
+   "opp": 26.7
+  },
+  "note": "Q30. State samples ~600 each (AZ 610, GA 617, MI 627, NV 594, PA 603, WI 597), national n=1195. Separate Q32 for President/VP/Justices recorded as separate entry."
+ },
+ {
+  "keys": [
+   "sen:stock"
+  ],
+  "match": "bill",
+  "pollster": "Program for Public Consultation (UMD) / Voice of the People",
+  "sponsor": "",
+  "tier": 2,
+  "type": "multistate",
+  "fielded": "2024-07",
+  "n": 4843,
+  "question": "After policymaking simulation: prohibit the President, VP and Supreme Court justices from trading individual stocks",
+  "url": "https://publicconsultation.org/wp-content/uploads/2024/07/Stock-Trading-Questionnaire-National-Swing-Six.docx.pdf",
+  "states": {
+   "AZ": {
+    "sup": 75.1,
+    "opp": 24.5
+   },
+   "GA": {
+    "sup": 71.9,
+    "opp": 28.0
+   },
+   "MI": {
+    "sup": 73.5,
+    "opp": 25.4
+   },
+   "NV": {
+    "sup": 72.8,
+    "opp": 26.4
+   },
+   "PA": {
+    "sup": 74.3,
+    "opp": 25.2
+   },
+   "WI": {
+    "sup": 77.3,
+    "opp": 22.3
+   }
+  },
+  "national": {
+   "sup": 74.0,
+   "opp": 25.3
+  },
+  "note": "Q32; companion to Q30 (Congress). Covers President/VP part of the measure. Same survey as Congress entry - do not double-average if site averages per pollster."
+ },
+ {
+  "keys": [
+   "sen:aca"
+  ],
+  "match": "bill",
+  "question": "Renew the expanded ACA premium subsidies so low/middle-income enrollees avoid big premium increases",
+  "url": "https://publicconsultation.org/wp-content/uploads/2026/07/CG-Questionnaire-Michigan-Healthcare-Costs-2026.pdf",
+  "states": {
+   "MI": {
+    "sup": 81,
+    "opp": 19
+   },
+   "TX": {
+    "sup": 81,
+    "opp": 19
+   },
+   "OH": {
+    "sup": 79,
+    "opp": 20
+   },
+   "GA": {
+    "sup": 80,
+    "opp": 19
+   },
+   "NC": {
+    "sup": 83,
+    "opp": 17
+   },
+   "IA": {
+    "sup": 82,
+    "opp": 17
+   },
+   "ME": {
+    "sup": 83,
+    "opp": 16
+   },
+   "AK": {
+    "sup": 80,
+    "opp": 18
+   },
+   "MN": {
+    "sup": 81,
+    "opp": 19
+   },
+   "MT": {
+    "sup": 77,
+    "opp": 22
+   },
+   "NE": {
+    "sup": 78,
+    "opp": 21
+   },
+   "NH": {
+    "sup": 82,
+    "opp": 17
+   }
+  },
+  "national": null,
+  "note": "Q8. Common Ground in the Battlegrounds 2026, state samples 600-2000, fielded May 27-Jul 1 2026, after policymaking simulation. One PDF per state; URL is Michigan's, others follow same pattern: https://publicconsultation.org/wp-content/uploads/2026/07/CG-Questionnaire-Michigan-Healthcare-Costs-2026.pdf; https://publicconsultation.org/wp-content/uploads/2026/07/CG-Questionnaire-Texas-Healthcare-Costs-2026.pdf; https://publicconsultation.org/wp-content/uploads/2026/07/CG-Questionnaire-Ohio-Healthcare-Costs-2026.pdf; https://publicconsultation.org/wp-content/uploads/2026/07/CG-Questionnaire-Georgia-Healthcare-Costs-2026.pdf; https://publicconsultation.org/wp-content/uploads/2026/07/CG-Questionnaire-North-Carolina-Healthcare-Costs-2026.pdf; https://publicconsultation.org/wp-content/uploads/2026/07/CG-Questionnaire-Iowa-Healthcare-Costs-2026.pdf; https://publicconsultation.org/wp-content/uploads/2026/07/CG-Questionnaire-Maine-Healthcare-Costs-2026.pdf; https://publicconsultation.org/wp-content/uploads/2026/07/CG-Questionnaire-Alaska-Healthcare-Costs-2026.pdf; https://publicconsultation.org/wp-content/uploads/2026/07/CG-Questionnaire-Minnesota-Healthcare-Costs-2026.pdf; https://publicconsultation.org/wp-content/uploads/2026/07/CG-Questionnaire-Montana-Healthcare-Costs-2026.pdf; https://publicconsultation.org/wp-content/uploads/2026/07/CG-Questionnaire-Nebraska-Healthcare-Costs-2026.pdf; https://publicconsultation.org/wp-content/uploads/2026/07/CG-Questionnaire-New-Hampshire-Healthcare-Costs-2026.pdf",
+  "pollster": "Program for Public Consultation (UMD) / Voice of the People",
+  "sponsor": "",
+  "tier": 2,
+  "type": "multistate",
+  "fielded": "2026-06",
+  "n": 9262
+ },
+ {
+  "keys": [
+   "gov:pubopt"
+  ],
+  "match": "concept",
+  "question": "Create a government-run public option health plan (like Medicare) anyone can buy into",
+  "url": "https://publicconsultation.org/wp-content/uploads/2026/07/CG-Questionnaire-Michigan-Healthcare-Costs-2026.pdf",
+  "states": {
+   "MI": {
+    "sup": 81,
+    "opp": 19
+   },
+   "TX": {
+    "sup": 79,
+    "opp": 21
+   },
+   "OH": {
+    "sup": 75,
+    "opp": 24
+   },
+   "GA": {
+    "sup": 80,
+    "opp": 18
+   },
+   "NC": {
+    "sup": 79,
+    "opp": 20
+   },
+   "IA": {
+    "sup": 80,
+    "opp": 20
+   },
+   "ME": {
+    "sup": 82,
+    "opp": 18
+   },
+   "AK": {
+    "sup": 80,
+    "opp": 19
+   },
+   "MN": {
+    "sup": 81,
+    "opp": 19
+   },
+   "MT": {
+    "sup": 75,
+    "opp": 25
+   },
+   "NE": {
+    "sup": 75,
+    "opp": 24
+   },
+   "NH": {
+    "sup": 79,
+    "opp": 20
+   }
+  },
+  "national": null,
+  "note": "Q5; federal public option, not state. Common Ground in the Battlegrounds 2026, state samples 600-2000, fielded May 27-Jul 1 2026, after policymaking simulation. One PDF per state; URL is Michigan's, others follow same pattern: https://publicconsultation.org/wp-content/uploads/2026/07/CG-Questionnaire-Michigan-Healthcare-Costs-2026.pdf; https://publicconsultation.org/wp-content/uploads/2026/07/CG-Questionnaire-Texas-Healthcare-Costs-2026.pdf; https://publicconsultation.org/wp-content/uploads/2026/07/CG-Questionnaire-Ohio-Healthcare-Costs-2026.pdf; https://publicconsultation.org/wp-content/uploads/2026/07/CG-Questionnaire-Georgia-Healthcare-Costs-2026.pdf; https://publicconsultation.org/wp-content/uploads/2026/07/CG-Questionnaire-North-Carolina-Healthcare-Costs-2026.pdf; https://publicconsultation.org/wp-content/uploads/2026/07/CG-Questionnaire-Iowa-Healthcare-Costs-2026.pdf; https://publicconsultation.org/wp-content/uploads/2026/07/CG-Questionnaire-Maine-Healthcare-Costs-2026.pdf; https://publicconsultation.org/wp-content/uploads/2026/07/CG-Questionnaire-Alaska-Healthcare-Costs-2026.pdf; https://publicconsultation.org/wp-content/uploads/2026/07/CG-Questionnaire-Minnesota-Healthcare-Costs-2026.pdf; https://publicconsultation.org/wp-content/uploads/2026/07/CG-Questionnaire-Montana-Healthcare-Costs-2026.pdf; https://publicconsultation.org/wp-content/uploads/2026/07/CG-Questionnaire-Nebraska-Healthcare-Costs-2026.pdf; https://publicconsultation.org/wp-content/uploads/2026/07/CG-Questionnaire-New-Hampshire-Healthcare-Costs-2026.pdf",
+  "pollster": "Program for Public Consultation (UMD) / Voice of the People",
+  "sponsor": "",
+  "tier": 2,
+  "type": "multistate",
+  "fielded": "2026-06",
+  "n": 9262
+ },
+ {
+  "keys": [
+   "sen:drugneg",
+   "gov:drugbd"
+  ],
+  "match": "concept",
+  "question": "Federal government sets maximum drug prices based on prices in other developed countries",
+  "url": "https://publicconsultation.org/wp-content/uploads/2026/07/CG-Questionnaire-Michigan-Healthcare-Costs-2026.pdf",
+  "states": {
+   "MI": {
+    "sup": 88,
+    "opp": 11
+   },
+   "TX": {
+    "sup": 88,
+    "opp": 12
+   },
+   "OH": {
+    "sup": 86,
+    "opp": 13
+   },
+   "GA": {
+    "sup": 84,
+    "opp": 16
+   },
+   "NC": {
+    "sup": 88,
+    "opp": 12
+   },
+   "IA": {
+    "sup": 87,
+    "opp": 13
+   },
+   "ME": {
+    "sup": 87,
+    "opp": 12
+   },
+   "AK": {
+    "sup": 85,
+    "opp": 13
+   },
+   "MN": {
+    "sup": 88,
+    "opp": 11
+   },
+   "MT": {
+    "sup": 87,
+    "opp": 12
+   },
+   "NE": {
+    "sup": 83,
+    "opp": 15
+   },
+   "NH": {
+    "sup": 87,
+    "opp": 12
+   }
+  },
+  "national": null,
+  "note": "Q1; international reference pricing, not Medicare negotiation per se. Common Ground in the Battlegrounds 2026, state samples 600-2000, fielded May 27-Jul 1 2026, after policymaking simulation. One PDF per state; URL is Michigan's, others follow same pattern: https://publicconsultation.org/wp-content/uploads/2026/07/CG-Questionnaire-Michigan-Healthcare-Costs-2026.pdf; https://publicconsultation.org/wp-content/uploads/2026/07/CG-Questionnaire-Texas-Healthcare-Costs-2026.pdf; https://publicconsultation.org/wp-content/uploads/2026/07/CG-Questionnaire-Ohio-Healthcare-Costs-2026.pdf; https://publicconsultation.org/wp-content/uploads/2026/07/CG-Questionnaire-Georgia-Healthcare-Costs-2026.pdf; https://publicconsultation.org/wp-content/uploads/2026/07/CG-Questionnaire-North-Carolina-Healthcare-Costs-2026.pdf; https://publicconsultation.org/wp-content/uploads/2026/07/CG-Questionnaire-Iowa-Healthcare-Costs-2026.pdf; https://publicconsultation.org/wp-content/uploads/2026/07/CG-Questionnaire-Maine-Healthcare-Costs-2026.pdf; https://publicconsultation.org/wp-content/uploads/2026/07/CG-Questionnaire-Alaska-Healthcare-Costs-2026.pdf; https://publicconsultation.org/wp-content/uploads/2026/07/CG-Questionnaire-Minnesota-Healthcare-Costs-2026.pdf; https://publicconsultation.org/wp-content/uploads/2026/07/CG-Questionnaire-Montana-Healthcare-Costs-2026.pdf; https://publicconsultation.org/wp-content/uploads/2026/07/CG-Questionnaire-Nebraska-Healthcare-Costs-2026.pdf; https://publicconsultation.org/wp-content/uploads/2026/07/CG-Questionnaire-New-Hampshire-Healthcare-Costs-2026.pdf",
+  "pollster": "Program for Public Consultation (UMD) / Voice of the People",
+  "sponsor": "",
+  "tier": 2,
+  "type": "multistate",
+  "fielded": "2026-06",
+  "n": 9262
+ },
+ {
+  "keys": [
+   "sen:medicaid",
+   "gov:medicaid"
+  ],
+  "match": "concept",
+  "question": "Should federal Medicaid spending be increased (cover more people), kept the same, or reduced",
+  "url": "https://publicconsultation.org/wp-content/uploads/2026/07/CG-Questionnaire-Michigan-Healthcare-Costs-2026.pdf",
+  "states": {
+   "MI": {
+    "sup": 77,
+    "opp": 9
+   },
+   "TX": {
+    "sup": 71,
+    "opp": 9
+   },
+   "OH": {
+    "sup": 66,
+    "opp": 12
+   },
+   "GA": {
+    "sup": 76,
+    "opp": 10
+   },
+   "NC": {
+    "sup": 70,
+    "opp": 11
+   },
+   "IA": {
+    "sup": 73,
+    "opp": 9
+   },
+   "ME": {
+    "sup": 74,
+    "opp": 8
+   },
+   "AK": {
+    "sup": 80,
+    "opp": 6
+   },
+   "MN": {
+    "sup": 80,
+    "opp": 8
+   },
+   "MT": {
+    "sup": 75,
+    "opp": 8
+   },
+   "NE": {
+    "sup": 66,
+    "opp": 13
+   },
+   "NH": {
+    "sup": 75,
+    "opp": 8
+   }
+  },
+  "national": null,
+  "note": "Q25 three-way: sup = % increase, opp = % reduce; remainder 'keep the same' (MI 14, TX 19, OH 21, GA 14, NC 18, IA 18, ME 18, AK 13, MN 12, MT 16, NE 21, NH 16). Common Ground in the Battlegrounds 2026, state samples 600-2000, fielded May 27-Jul 1 2026, after policymaking simulation. One PDF per state; URL is Michigan's, others follow same pattern: https://publicconsultation.org/wp-content/uploads/2026/07/CG-Questionnaire-Michigan-Healthcare-Costs-2026.pdf; https://publicconsultation.org/wp-content/uploads/2026/07/CG-Questionnaire-Texas-Healthcare-Costs-2026.pdf; https://publicconsultation.org/wp-content/uploads/2026/07/CG-Questionnaire-Ohio-Healthcare-Costs-2026.pdf; https://publicconsultation.org/wp-content/uploads/2026/07/CG-Questionnaire-Georgia-Healthcare-Costs-2026.pdf; https://publicconsultation.org/wp-content/uploads/2026/07/CG-Questionnaire-North-Carolina-Healthcare-Costs-2026.pdf; https://publicconsultation.org/wp-content/uploads/2026/07/CG-Questionnaire-Iowa-Healthcare-Costs-2026.pdf; https://publicconsultation.org/wp-content/uploads/2026/07/CG-Questionnaire-Maine-Healthcare-Costs-2026.pdf; https://publicconsultation.org/wp-content/uploads/2026/07/CG-Questionnaire-Alaska-Healthcare-Costs-2026.pdf; https://publicconsultation.org/wp-content/uploads/2026/07/CG-Questionnaire-Minnesota-Healthcare-Costs-2026.pdf; https://publicconsultation.org/wp-content/uploads/2026/07/CG-Questionnaire-Montana-Healthcare-Costs-2026.pdf; https://publicconsultation.org/wp-content/uploads/2026/07/CG-Questionnaire-Nebraska-Healthcare-Costs-2026.pdf; https://publicconsultation.org/wp-content/uploads/2026/07/CG-Questionnaire-New-Hampshire-Healthcare-Costs-2026.pdf",
+  "pollster": "Program for Public Consultation (UMD) / Voice of the People",
+  "sponsor": "",
+  "tier": 2,
+  "type": "multistate",
+  "fielded": "2026-06",
+  "n": 9262
+ },
+ {
+  "keys": [
+   "sen:wage"
+  ],
+  "match": "concept",
+  "question": "What should the federal minimum wage ($7.25) be? % choosing a higher wage",
+  "url": "https://publicconsultation.org/wp-content/uploads/2026/07/CG-Questionnaire-Michigan-Low-Income-Assistance-2026.pdf",
+  "states": {
+   "MI": {
+    "sup": 95,
+    "opp": null
+   },
+   "TX": {
+    "sup": 95,
+    "opp": null
+   },
+   "OH": {
+    "sup": 94,
+    "opp": null
+   },
+   "GA": {
+    "sup": 94,
+    "opp": null
+   },
+   "NC": {
+    "sup": 95,
+    "opp": null
+   },
+   "IA": {
+    "sup": 93,
+    "opp": null
+   },
+   "ME": {
+    "sup": 93,
+    "opp": null
+   },
+   "AK": {
+    "sup": 90,
+    "opp": null
+   },
+   "MN": {
+    "sup": 94,
+    "opp": null
+   },
+   "NH": {
+    "sup": 89,
+    "opp": null
+   }
+  },
+  "note": "Q24 open-ended wage level; sup = % choosing an increase above $7.25, not specifically $15. Median preferred wage: MI $14, TX $14, OH $13, GA $13, NC $15, IA $13, ME $15. Common Ground in the Battlegrounds 2026 (fielded May 27-Jun 25 2026). Only 7 of 12 states fetched (AK, MN, MT, NE, NH not retrieved - session limit). Per-state PDFs: https://publicconsultation.org/wp-content/uploads/2026/07/CG-Questionnaire-Michigan-Low-Income-Assistance-2026.pdf; https://publicconsultation.org/wp-content/uploads/2026/07/CG-Questionnaire-Texas-Low-Income-Assistance-2026.pdf; https://publicconsultation.org/wp-content/uploads/2026/07/CG-Questionnaire-Ohio-Low-Income-Assistance-2026.pdf; https://publicconsultation.org/wp-content/uploads/2026/07/CG-Questionnaire-Georgia-Low-Income-Assistance-2026.pdf; https://publicconsultation.org/wp-content/uploads/2026/07/CG-Questionnaire-North-Carolina-Low-Income-Assistance-2026.pdf; https://publicconsultation.org/wp-content/uploads/2026/07/CG-Questionnaire-Iowa-Low-Income-Assistance-2026.pdf; https://publicconsultation.org/wp-content/uploads/2026/07/CG-Questionnaire-Maine-Low-Income-Assistance-2026.pdf UPDATE: added AK (n600, median $14), MN (n600, median $15), NH (n601, median $13); MT and NE PDFs failed to load (client_error).",
+  "pollster": "Program for Public Consultation (UMD) / Voice of the People",
+  "sponsor": "",
+  "tier": 2,
+  "type": "multistate",
+  "fielded": "2026-06",
+  "n": 5860,
+  "national": null
+ },
+ {
+  "keys": [
+   "gov:ctc"
+  ],
+  "match": "concept",
+  "question": "Raise the federal EITC maximum for workers without children from $630 to $1,300",
+  "url": "https://publicconsultation.org/wp-content/uploads/2026/07/CG-Questionnaire-Michigan-Low-Income-Assistance-2026.pdf",
+  "states": {
+   "MI": {
+    "sup": 78,
+    "opp": 21
+   },
+   "TX": {
+    "sup": 78,
+    "opp": 21
+   },
+   "OH": {
+    "sup": 77,
+    "opp": 23
+   },
+   "GA": {
+    "sup": 81,
+    "opp": 18
+   },
+   "NC": {
+    "sup": 76,
+    "opp": 23
+   },
+   "IA": {
+    "sup": 78,
+    "opp": 21
+   },
+   "ME": {
+    "sup": 80,
+    "opp": 20
+   },
+   "AK": {
+    "sup": 83,
+    "opp": 16
+   },
+   "MN": {
+    "sup": 79,
+    "opp": 20
+   },
+   "NH": {
+    "sup": 76,
+    "opp": 23
+   }
+  },
+  "note": "Q21; federal childless-worker EITC, used as concept proxy for working-family tax credits. Common Ground in the Battlegrounds 2026 (fielded May 27-Jun 25 2026). Only 7 of 12 states fetched (AK, MN, MT, NE, NH not retrieved - session limit). Per-state PDFs: https://publicconsultation.org/wp-content/uploads/2026/07/CG-Questionnaire-Michigan-Low-Income-Assistance-2026.pdf; https://publicconsultation.org/wp-content/uploads/2026/07/CG-Questionnaire-Texas-Low-Income-Assistance-2026.pdf; https://publicconsultation.org/wp-content/uploads/2026/07/CG-Questionnaire-Ohio-Low-Income-Assistance-2026.pdf; https://publicconsultation.org/wp-content/uploads/2026/07/CG-Questionnaire-Georgia-Low-Income-Assistance-2026.pdf; https://publicconsultation.org/wp-content/uploads/2026/07/CG-Questionnaire-North-Carolina-Low-Income-Assistance-2026.pdf; https://publicconsultation.org/wp-content/uploads/2026/07/CG-Questionnaire-Iowa-Low-Income-Assistance-2026.pdf; https://publicconsultation.org/wp-content/uploads/2026/07/CG-Questionnaire-Maine-Low-Income-Assistance-2026.pdf UPDATE: added AK, MN, NH; MT and NE PDFs failed to load.",
+  "pollster": "Program for Public Consultation (UMD) / Voice of the People",
+  "sponsor": "",
+  "tier": 2,
+  "type": "multistate",
+  "fielded": "2026-06",
+  "n": 5860,
+  "national": null
+ },
+ {
+  "keys": [
+   "sen:road",
+   "gov:trust"
+  ],
+  "match": "concept",
+  "question": "$25B federal grants to local governments to increase affordable high-density housing for low/middle-income households",
+  "states": {
+   "MI": {
+    "sup": 74,
+    "opp": 25
+   },
+   "TX": {
+    "sup": 77,
+    "opp": 22
+   },
+   "OH": {
+    "sup": 71,
+    "opp": 29
+   },
+   "GA": {
+    "sup": 77,
+    "opp": 22
+   },
+   "NC": {
+    "sup": 75,
+    "opp": 25
+   },
+   "IA": {
+    "sup": 73,
+    "opp": 27
+   },
+   "ME": {
+    "sup": 75,
+    "opp": 25
+   },
+   "AK": {
+    "sup": 79,
+    "opp": 20
+   },
+   "MN": {
+    "sup": 75,
+    "opp": 24
+   },
+   "NH": {
+    "sup": 72,
+    "opp": 26
+   }
+  },
+  "note": "Q13; housing-supply funding, not permitting/zoning reform. Common Ground in the Battlegrounds 2026, state samples 600-2000, fielded May 27-Jul 1 2026. One PDF per state, same URL pattern with state name (e.g. North-Carolina, New-Hampshire). MT and NE PDFs failed to load.",
+  "pollster": "Program for Public Consultation (UMD) / Voice of the People",
+  "sponsor": "",
+  "tier": 2,
+  "type": "multistate",
+  "fielded": "2026-06",
+  "n": 7661,
+  "national": null,
+  "url": "https://publicconsultation.org/wp-content/uploads/2026/07/CG-Questionnaire-Michigan-Housing-2026.pdf"
+ },
+ {
+  "keys": [
+   "gov:corphome"
+  ],
+  "match": "concept",
+  "question": "Bar large corporations from buying new single-family homes and require them to sell existing holdings within 10 years",
+  "states": {
+   "MI": {
+    "sup": 79,
+    "opp": 21
+   },
+   "TX": {
+    "sup": 80,
+    "opp": 20
+   },
+   "OH": {
+    "sup": 77,
+    "opp": 22
+   },
+   "GA": {
+    "sup": 82,
+    "opp": 16
+   },
+   "NC": {
+    "sup": 78,
+    "opp": 21
+   },
+   "IA": {
+    "sup": 79,
+    "opp": 20
+   },
+   "ME": {
+    "sup": 81,
+    "opp": 18
+   },
+   "AK": {
+    "sup": 81,
+    "opp": 18
+   },
+   "MN": {
+    "sup": 80,
+    "opp": 19
+   },
+   "NH": {
+    "sup": 76,
+    "opp": 22
+   }
+  },
+  "note": "Q17; federal proposal. Common Ground in the Battlegrounds 2026, state samples 600-2000, fielded May 27-Jul 1 2026. One PDF per state, same URL pattern with state name (e.g. North-Carolina, New-Hampshire). MT and NE PDFs failed to load.",
+  "pollster": "Program for Public Consultation (UMD) / Voice of the People",
+  "sponsor": "",
+  "tier": 2,
+  "type": "multistate",
+  "fielded": "2026-06",
+  "n": 7661,
+  "national": null,
+  "url": "https://publicconsultation.org/wp-content/uploads/2026/07/CG-Questionnaire-Michigan-Housing-2026.pdf"
+ },
+ {
+  "keys": [
+   "sen:ai"
+  ],
+  "match": "concept",
+  "pollster": "Program for Public Consultation (UMD) / Voice of the People",
+  "sponsor": "",
+  "tier": 2,
+  "type": "multistate",
+  "fielded": "2026-06",
+  "n": 7661,
+  "question": "Require new AI programs that make significant decisions to pass a government-designed safety/bias test before use",
+  "url": "https://publicconsultation.org/wp-content/uploads/2026/07/CG-Questionnaire-Ohio-Artificial-Intelligence-2026.pdf",
+  "states": {
+   "OH": {
+    "sup": 76,
+    "opp": 23
+   },
+   "MI": {
+    "sup": 76,
+    "opp": 23
+   },
+   "TX": {
+    "sup": 77,
+    "opp": 23
+   },
+   "GA": {
+    "sup": 80,
+    "opp": 19
+   },
+   "NC": {
+    "sup": 77,
+    "opp": 22
+   },
+   "IA": {
+    "sup": 80,
+    "opp": 19
+   },
+   "ME": {
+    "sup": 80,
+    "opp": 19
+   },
+   "AK": {
+    "sup": 82,
+    "opp": 17
+   },
+   "MN": {
+    "sup": 81,
+    "opp": 19
+   },
+   "NH": {
+    "sup": 79,
+    "opp": 20
+   }
+  },
+  "national": null,
+  "note": "Q37. Companion Q41 (create a federal AI agency) favor/oppose: OH 81/18, MI 77/22, TX 80/19, GA 80/20, NC 78/21, IA 80/18, ME 82/17, AK 76/22, MN 80/19, NH 77/21. Common Ground in the Battlegrounds 2026, fielded May 27-Jul 1 2026; weighted online panel samples. One PDF per state, same URL pattern. MT and NE PDFs failed to load. Does not address state preemption."
+ },
+ {
+  "keys": [
+   "gov:prek"
+  ],
+  "match": "concept",
+  "pollster": "Program for Public Consultation (UMD) / Voice of the People",
+  "sponsor": "",
+  "tier": 2,
+  "type": "multistate",
+  "fielded": "2024-08",
+  "n": 4837,
+  "question": "Q8: $25B federal funding to states/cities for free universal preschool for 3- and 4-year-olds",
+  "url": "https://publicconsultation.org/wp-content/uploads/2024/09/SS-FC-Quaire-Full-0924.pdf",
+  "states": {
+   "AZ": {
+    "sup": 78,
+    "opp": 22
+   },
+   "GA": {
+    "sup": 83,
+    "opp": 17
+   },
+   "MI": {
+    "sup": 83,
+    "opp": 17
+   },
+   "NV": {
+    "sup": 80,
+    "opp": 20
+   },
+   "PA": {
+    "sup": 76,
+    "opp": 24
+   },
+   "WI": {
+    "sup": 76,
+    "opp": 24
+   }
+  },
+  "national": {
+   "sup": 82,
+   "opp": 18
+  },
+  "note": "Swing Six 2024 Families & Children survey, fielded Aug 17-29 2024, after policymaking simulation; ~600/state (AZ617 GA605 MI618 NV601 PA612 WI587), national 1197. gov:ctc tag is concept (federal credit). Report page: https://publicconsultation.org/swing-six-fc/fc/"
+ },
+ {
+  "keys": [
+   "sen:childcare",
+   "gov:childcare"
+  ],
+  "match": "bill",
+  "pollster": "Program for Public Consultation (UMD) / Voice of the People",
+  "sponsor": "",
+  "tier": 2,
+  "type": "multistate",
+  "fielded": "2024-08",
+  "n": 4837,
+  "question": "Q14: Federal childcare subsidies so low/middle-income families pay no more than 7% of income",
+  "url": "https://publicconsultation.org/wp-content/uploads/2024/09/SS-FC-Quaire-Full-0924.pdf",
+  "states": {
+   "AZ": {
+    "sup": 76,
+    "opp": 23
+   },
+   "GA": {
+    "sup": 80,
+    "opp": 20
+   },
+   "MI": {
+    "sup": 79,
+    "opp": 21
+   },
+   "NV": {
+    "sup": 77,
+    "opp": 23
+   },
+   "PA": {
+    "sup": 76,
+    "opp": 24
+   },
+   "WI": {
+    "sup": 74,
+    "opp": 26
+   }
+  },
+  "national": {
+   "sup": 76,
+   "opp": 24
+  },
+  "note": "Swing Six 2024 Families & Children survey, fielded Aug 17-29 2024, after policymaking simulation; ~600/state (AZ617 GA605 MI618 NV601 PA612 WI587), national 1197. gov:ctc tag is concept (federal credit). Report page: https://publicconsultation.org/swing-six-fc/fc/"
+ },
+ {
+  "keys": [
+   "sen:ctc",
+   "gov:ctc"
+  ],
+  "match": "concept",
+  "pollster": "Program for Public Consultation (UMD) / Voice of the People",
+  "sponsor": "",
+  "tier": 2,
+  "type": "multistate",
+  "fielded": "2024-08",
+  "n": 4837,
+  "question": "Q20: Reinstate the expanded pandemic-era Child Tax Credit",
+  "url": "https://publicconsultation.org/wp-content/uploads/2024/09/SS-FC-Quaire-Full-0924.pdf",
+  "states": {
+   "AZ": {
+    "sup": 75,
+    "opp": 25
+   },
+   "GA": {
+    "sup": 77,
+    "opp": 23
+   },
+   "MI": {
+    "sup": 74,
+    "opp": 26
+   },
+   "NV": {
+    "sup": 73,
+    "opp": 27
+   },
+   "PA": {
+    "sup": 71,
+    "opp": 29
+   },
+   "WI": {
+    "sup": 69,
+    "opp": 31
+   }
+  },
+  "national": {
+   "sup": 74,
+   "opp": 26
+  },
+  "note": "Swing Six 2024 Families & Children survey, fielded Aug 17-29 2024, after policymaking simulation; ~600/state (AZ617 GA605 MI618 NV601 PA612 WI587), national 1197. gov:ctc tag is concept (federal credit). Report page: https://publicconsultation.org/swing-six-fc/fc/"
+ },
+ {
+  "keys": [
+   "sen:pfl",
+   "gov:pfml"
+  ],
+  "match": "bill",
+  "pollster": "Program for Public Consultation (UMD) / Voice of the People",
+  "sponsor": "",
+  "tier": 2,
+  "type": "multistate",
+  "fielded": "2024-08",
+  "n": 4837,
+  "question": "Q28: National 12-week paid family and medical leave funded by 0.2% payroll tax",
+  "url": "https://publicconsultation.org/wp-content/uploads/2024/09/SS-FC-Quaire-Full-0924.pdf",
+  "states": {
+   "AZ": {
+    "sup": 74,
+    "opp": 26
+   },
+   "GA": {
+    "sup": 73,
+    "opp": 27
+   },
+   "MI": {
+    "sup": 75,
+    "opp": 25
+   },
+   "NV": {
+    "sup": 69,
+    "opp": 31
+   },
+   "PA": {
+    "sup": 68,
+    "opp": 32
+   },
+   "WI": {
+    "sup": 72,
+    "opp": 28
+   }
+  },
+  "national": {
+   "sup": 72,
+   "opp": 28
+  },
+  "note": "Swing Six 2024 Families & Children survey, fielded Aug 17-29 2024, after policymaking simulation; ~600/state (AZ617 GA605 MI618 NV601 PA612 WI587), national 1197. gov:ctc tag is concept (federal credit). Report page: https://publicconsultation.org/swing-six-fc/fc/"
+ },
+ {
+  "keys": [
+   "gov:prek"
+  ],
+  "match": "concept",
+  "pollster": "Program for Public Consultation (UMD) / Voice of the People",
+  "sponsor": "",
+  "tier": 2,
+  "type": "multistate",
+  "fielded": "2026-06",
+  "n": 7661,
+  "question": "Q9: $25B federal funding to states/cities for free universal preschool for 3- and 4-year-olds",
+  "url": "https://publicconsultation.org/wp-content/uploads/2026/08/CG-Questionnaire-Iowa-Families-w-Children-2026.pdf",
+  "states": {
+   "IA": {
+    "sup": 77,
+    "opp": 23
+   },
+   "OH": {
+    "sup": 75,
+    "opp": 24
+   },
+   "MI": {
+    "sup": 77,
+    "opp": 22
+   },
+   "TX": {
+    "sup": 77,
+    "opp": 22
+   },
+   "GA": {
+    "sup": 78,
+    "opp": 21
+   },
+   "NC": {
+    "sup": 78,
+    "opp": 21
+   },
+   "ME": {
+    "sup": 77,
+    "opp": 22
+   },
+   "AK": {
+    "sup": 78,
+    "opp": 20
+   },
+   "MN": {
+    "sup": 76,
+    "opp": 23
+   },
+   "NH": {
+    "sup": 72,
+    "opp": 27
+   }
+  },
+  "national": null,
+  "note": "Federal program; concept match for state pre-K.  Common Ground in the Battlegrounds 2026, fielded May 27-Jul 1 2026, after policymaking simulation. One PDF per state: .../2026/08/CG-Questionnaire-<State>-Families-w-Children-2026.pdf (e.g. North-Carolina, New-Hampshire). MT and NE PDFs failed to load."
+ },
+ {
+  "keys": [
+   "sen:childcare",
+   "gov:childcare"
+  ],
+  "match": "bill",
+  "pollster": "Program for Public Consultation (UMD) / Voice of the People",
+  "sponsor": "",
+  "tier": 2,
+  "type": "multistate",
+  "fielded": "2026-06",
+  "n": 7661,
+  "question": "Q10: Federal funds so low/middle-income families pay no more than 7% of income for child care",
+  "url": "https://publicconsultation.org/wp-content/uploads/2026/08/CG-Questionnaire-Iowa-Families-w-Children-2026.pdf",
+  "states": {
+   "IA": {
+    "sup": 81,
+    "opp": 19
+   },
+   "OH": {
+    "sup": 78,
+    "opp": 21
+   },
+   "MI": {
+    "sup": 82,
+    "opp": 18
+   },
+   "TX": {
+    "sup": 79,
+    "opp": 20
+   },
+   "GA": {
+    "sup": 80,
+    "opp": 20
+   },
+   "NC": {
+    "sup": 82,
+    "opp": 17
+   },
+   "ME": {
+    "sup": 80,
+    "opp": 19
+   },
+   "AK": {
+    "sup": 85,
+    "opp": 14
+   },
+   "MN": {
+    "sup": 77,
+    "opp": 23
+   },
+   "NH": {
+    "sup": 76,
+    "opp": 23
+   }
+  },
+  "national": null,
+  "note": "gov:* tags are concept matches (federal program).  Common Ground in the Battlegrounds 2026, fielded May 27-Jul 1 2026, after policymaking simulation. One PDF per state: .../2026/08/CG-Questionnaire-<State>-Families-w-Children-2026.pdf (e.g. North-Carolina, New-Hampshire). MT and NE PDFs failed to load."
+ },
+ {
+  "keys": [
+   "sen:ctc",
+   "gov:ctc"
+  ],
+  "match": "bill",
+  "pollster": "Program for Public Consultation (UMD) / Voice of the People",
+  "sponsor": "",
+  "tier": 2,
+  "type": "multistate",
+  "fielded": "2026-06",
+  "n": 7661,
+  "question": "Q11: Raise the Child Tax Credit from $2,000 to $3,600 per child and make it fully refundable",
+  "url": "https://publicconsultation.org/wp-content/uploads/2026/08/CG-Questionnaire-Iowa-Families-w-Children-2026.pdf",
+  "states": {
+   "IA": {
+    "sup": 77,
+    "opp": 22
+   },
+   "OH": {
+    "sup": 73,
+    "opp": 26
+   },
+   "MI": {
+    "sup": 78,
+    "opp": 22
+   },
+   "TX": {
+    "sup": 80,
+    "opp": 20
+   },
+   "GA": {
+    "sup": 81,
+    "opp": 19
+   },
+   "NC": {
+    "sup": 77,
+    "opp": 22
+   },
+   "ME": {
+    "sup": 76,
+    "opp": 24
+   },
+   "AK": {
+    "sup": 84,
+    "opp": 15
+   },
+   "MN": {
+    "sup": 76,
+    "opp": 23
+   },
+   "NH": {
+    "sup": 78,
+    "opp": 21
+   }
+  },
+  "national": null,
+  "note": "gov:* tags are concept matches (federal program).  Common Ground in the Battlegrounds 2026, fielded May 27-Jul 1 2026, after policymaking simulation. One PDF per state: .../2026/08/CG-Questionnaire-<State>-Families-w-Children-2026.pdf (e.g. North-Carolina, New-Hampshire). MT and NE PDFs failed to load."
+ },
+ {
+  "keys": [
+   "sen:pfl",
+   "gov:pfml"
+  ],
+  "match": "bill",
+  "pollster": "Program for Public Consultation (UMD) / Voice of the People",
+  "sponsor": "",
+  "tier": 2,
+  "type": "multistate",
+  "fielded": "2026-06",
+  "n": 7661,
+  "question": "Q12: National 12-week paid family/medical leave at 2/3 wages (max $4,000/mo) funded by 0.2% payroll tax",
+  "url": "https://publicconsultation.org/wp-content/uploads/2026/08/CG-Questionnaire-Iowa-Families-w-Children-2026.pdf",
+  "states": {
+   "IA": {
+    "sup": 74,
+    "opp": 25
+   },
+   "OH": {
+    "sup": 71,
+    "opp": 28
+   },
+   "MI": {
+    "sup": 76,
+    "opp": 23
+   },
+   "TX": {
+    "sup": 76,
+    "opp": 23
+   },
+   "GA": {
+    "sup": 75,
+    "opp": 24
+   },
+   "NC": {
+    "sup": 77,
+    "opp": 23
+   },
+   "ME": {
+    "sup": 73,
+    "opp": 27
+   },
+   "AK": {
+    "sup": 80,
+    "opp": 18
+   },
+   "MN": {
+    "sup": 77,
+    "opp": 23
+   },
+   "NH": {
+    "sup": 74,
+    "opp": 24
+   }
+  },
+  "national": null,
+  "note": "gov:* tags are concept matches (federal program).  Common Ground in the Battlegrounds 2026, fielded May 27-Jul 1 2026, after policymaking simulation. One PDF per state: .../2026/08/CG-Questionnaire-<State>-Families-w-Children-2026.pdf (e.g. North-Carolina, New-Hampshire). MT and NE PDFs failed to load."
+ },
+ {
+  "keys": [
+   "sen:roe",
+   "gov:roe"
+  ],
+  "match": "concept",
+  "fielded": "2024-06",
+  "n": 3743,
+  "question": "Abortion should not be made a crime before viability (chose no criminalization or only after viability)",
+  "url": "https://publicconsultation.org/swing-six-abortion/abortion/",
+  "states": {
+   "AZ": {
+    "sup": 80,
+    "opp": 12
+   },
+   "GA": {
+    "sup": 73,
+    "opp": 13
+   },
+   "MI": {
+    "sup": 78,
+    "opp": 10
+   },
+   "NV": {
+    "sup": 80,
+    "opp": 7
+   },
+   "PA": {
+    "sup": 80,
+    "opp": 9
+   },
+   "WI": {
+    "sup": 78,
+    "opp": 13
+   }
+  },
+  "national": null,
+  "note": "Swing Six 2024 abortion survey, fielded Jun 18-Jul 3 2024. sup = % opposing criminalizing abortion before viability; opp = % favoring criminalizing abortion at all stages (others preferred e.g. a 15-week limit, so sup+opp<100). Figures from the report page; per-state PDFs linked there (e.g. .../2024/08/Abortion-Questionnaire-Michigan.pdf). Same survey: favor a federal law (vs state-by-state) on whatever policy chosen MI 71.2% - not directional, not recorded.",
+  "pollster": "Program for Public Consultation (UMD) / Voice of the People",
+  "sponsor": "",
+  "tier": 2,
+  "type": "multistate"
+ },
+ {
+  "keys": [
+   "sen:imm"
+  ],
+  "match": "concept",
+  "fielded": "2024-09",
+  "n": null,
+  "question": "Prefer a path to citizenship for long-time undocumented immigrants over mass deportation",
+  "url": "https://publicconsultation.org/ss-immigration/ss-im-im/",
+  "states": {
+   "AZ": {
+    "sup": 60,
+    "opp": 29
+   },
+   "GA": {
+    "sup": 57,
+    "opp": 30
+   },
+   "MI": {
+    "sup": 63,
+    "opp": 24
+   },
+   "NV": {
+    "sup": 65,
+    "opp": 24
+   },
+   "PA": {
+    "sup": 55,
+    "opp": 28
+   },
+   "WI": {
+    "sup": 63,
+    "opp": 25
+   }
+  },
+  "national": {
+   "sup": 58,
+   "opp": 26
+  },
+  "note": "Swing Six 2024 immigration survey, fielded Sep 23-Oct 1 2024. Forced choice: sup = path to citizenship, opp = mass deportation; remainder 'neither' (AZ11 GA13 MI12 NV9 PA15 WI11; national 15). Full questionnaire: https://publicconsultation.org/wp-content/uploads/2024/10/Immigration_Quaire_Full_1024.pdf",
+  "pollster": "Program for Public Consultation (UMD) / Voice of the People",
+  "sponsor": "",
+  "tier": 2,
+  "type": "multistate"
+ },
+ {
+  "keys": [
+   "sen:tariff"
+  ],
+  "match": "concept",
+  "fielded": "2024-09",
+  "n": null,
+  "question": "Prefer continuing low mutual tariffs with rule-abiding countries over raising tariffs on all imports to 10-20%",
+  "url": "https://publicconsultation.org/swing-six-it/it/",
+  "states": {
+   "AZ": {
+    "sup": 67,
+    "opp": 32
+   },
+   "GA": {
+    "sup": 64,
+    "opp": 35
+   },
+   "MI": {
+    "sup": 71,
+    "opp": 28
+   },
+   "NV": {
+    "sup": 69,
+    "opp": 28
+   },
+   "PA": {
+    "sup": 65,
+    "opp": 33
+   },
+   "WI": {
+    "sup": 68,
+    "opp": 32
+   }
+  },
+  "national": null,
+  "note": "Swing Six 2024 international trade survey, fielded Sep 9-22 2024 (pre-Trump second term). Choice between two policies: sup = keep low tariffs, opp = raise all tariffs to 10-20%. Same survey found 69-78% support keeping high tariffs on China (not recorded). Full PDF: https://publicconsultation.org/wp-content/uploads/2024/10/IntlTrade_Quaire_Full_0924.pdf",
+  "pollster": "Program for Public Consultation (UMD) / Voice of the People",
+  "sponsor": "",
+  "tier": 2,
+  "type": "multistate"
+ },
+ {
+  "keys": [
+   "sen:aca"
+  ],
+  "match": "bill",
+  "fielded": "2024-07",
+  "n": null,
+  "question": "Make the higher ACA premium subsidies permanent",
+  "url": "https://publicconsultation.org/swing-six/healthcare-drugpricing/",
+  "states": {
+   "AZ": {
+    "sup": 66,
+    "opp": null
+   },
+   "GA": {
+    "sup": 66,
+    "opp": null
+   },
+   "MI": {
+    "sup": 65,
+    "opp": null
+   },
+   "NV": {
+    "sup": 62,
+    "opp": null
+   },
+   "PA": {
+    "sup": 68,
+    "opp": null
+   },
+   "WI": {
+    "sup": 66,
+    "opp": null
+   }
+  },
+  "national": {
+   "sup": 67,
+   "opp": null
+  },
+  "note": "Swing Six 2024 health care survey, state samples ~600 fielded Jun 28-Jul 8 2024. Report page gives % favor only; opp not recorded. State PDFs linked on page (e.g. .../2024/07/Swing-Six-Healthcare-0724-AZ.pdf).",
+  "pollster": "Program for Public Consultation (UMD) / Voice of the People",
+  "sponsor": "",
+  "tier": 2,
+  "type": "multistate"
+ },
+ {
+  "keys": [
+   "sen:drugneg",
+   "gov:drugbd"
+  ],
+  "match": "concept",
+  "fielded": "2024-07",
+  "n": null,
+  "question": "Federal government caps drug prices at what other developed countries pay",
+  "url": "https://publicconsultation.org/swing-six/healthcare-drugpricing/",
+  "states": {
+   "AZ": {
+    "sup": 77,
+    "opp": null
+   },
+   "GA": {
+    "sup": 81,
+    "opp": null
+   },
+   "MI": {
+    "sup": 81,
+    "opp": null
+   },
+   "NV": {
+    "sup": 77,
+    "opp": null
+   },
+   "PA": {
+    "sup": 79,
+    "opp": null
+   },
+   "WI": {
+    "sup": 78,
+    "opp": null
+   }
+  },
+  "national": {
+   "sup": 78,
+   "opp": null
+  },
+  "note": "Swing Six 2024 health care survey, fielded Jun 28-Jul 8 2024; % favor only from report page. International reference pricing, concept match.",
+  "pollster": "Program for Public Consultation (UMD) / Voice of the People",
+  "sponsor": "",
+  "tier": 2,
+  "type": "multistate"
+ },
+ {
+  "keys": [
+   "sen:roe",
+   "gov:roe"
+  ],
+  "match": "concept",
+  "pollster": "PRRI American Values Atlas",
+  "sponsor": "",
+  "tier": 2,
+  "type": "modeled",
+  "fielded": "2024",
+  "n": 22260,
+  "question": "Abortion should be legal in all or most cases",
+  "url": "https://prri.org/wp-content/uploads/2025/03/PRRI-April-2025-abortion-report.pdf",
+  "states": {
+   "AL": {
+    "sup": 60,
+    "opp": null
+   },
+   "AK": {
+    "sup": 64,
+    "opp": null
+   },
+   "AZ": {
+    "sup": 61,
+    "opp": null
+   },
+   "AR": {
+    "sup": 49,
+    "opp": null
+   },
+   "CA": {
+    "sup": 67,
+    "opp": null
+   },
+   "CO": {
+    "sup": 63,
+    "opp": null
+   },
+   "CT": {
+    "sup": 72,
+    "opp": null
+   },
+   "DE": {
+    "sup": 67,
+    "opp": null
+   },
+   "FL": {
+    "sup": 60,
+    "opp": null
+   },
+   "GA": {
+    "sup": 60,
+    "opp": null
+   },
+   "HI": {
+    "sup": 72,
+    "opp": null
+   },
+   "ID": {
+    "sup": 48,
+    "opp": null
+   },
+   "IL": {
+    "sup": 72,
+    "opp": null
+   },
+   "IN": {
+    "sup": 57,
+    "opp": null
+   },
+   "IA": {
+    "sup": 61,
+    "opp": null
+   },
+   "KS": {
+    "sup": 61,
+    "opp": null
+   },
+   "KY": {
+    "sup": 50,
+    "opp": null
+   },
+   "LA": {
+    "sup": 42,
+    "opp": null
+   },
+   "ME": {
+    "sup": 67,
+    "opp": null
+   },
+   "MD": {
+    "sup": 71,
+    "opp": null
+   },
+   "MA": {
+    "sup": 83,
+    "opp": null
+   },
+   "MI": {
+    "sup": 64,
+    "opp": null
+   },
+   "MN": {
+    "sup": 66,
+    "opp": null
+   },
+   "MS": {
+    "sup": 52,
+    "opp": null
+   },
+   "MO": {
+    "sup": 54,
+    "opp": null
+   },
+   "MT": {
+    "sup": 60,
+    "opp": null
+   },
+   "NE": {
+    "sup": 51,
+    "opp": null
+   },
+   "NV": {
+    "sup": 72,
+    "opp": null
+   },
+   "NH": {
+    "sup": 75,
+    "opp": null
+   },
+   "NJ": {
+    "sup": 69,
+    "opp": null
+   },
+   "NM": {
+    "sup": 58,
+    "opp": null
+   },
+   "NY": {
+    "sup": 72,
+    "opp": null
+   },
+   "NC": {
+    "sup": 62,
+    "opp": null
+   },
+   "ND": {
+    "sup": 53,
+    "opp": null
+   },
+   "OH": {
+    "sup": 63,
+    "opp": null
+   },
+   "OK": {
+    "sup": 46,
+    "opp": null
+   },
+   "OR": {
+    "sup": 69,
+    "opp": null
+   },
+   "PA": {
+    "sup": 60,
+    "opp": null
+   },
+   "RI": {
+    "sup": 77,
+    "opp": null
+   },
+   "SC": {
+    "sup": 53,
+    "opp": null
+   },
+   "SD": {
+    "sup": 53,
+    "opp": null
+   },
+   "TN": {
+    "sup": 47,
+    "opp": null
+   },
+   "TX": {
+    "sup": 59,
+    "opp": null
+   },
+   "UT": {
+    "sup": 44,
+    "opp": null
+   },
+   "VT": {
+    "sup": 80,
+    "opp": null
+   },
+   "VA": {
+    "sup": 69,
+    "opp": null
+   },
+   "WA": {
+    "sup": 73,
+    "opp": null
+   },
+   "WV": {
+    "sup": 41,
+    "opp": null
+   },
+   "WI": {
+    "sup": 67,
+    "opp": null
+   },
+   "WY": {
+    "sup": 53,
+    "opp": null
+   },
+   "DC": {
+    "sup": 79,
+    "opp": null
+   }
+  },
+  "national": {
+   "sup": 63,
+   "opp": 34
+  },
+  "note": "2024 AVA, fielded Mar 13-Dec 2 2024, n=22,260; state estimates from pooled national survey. opp (illegal in all/most) not given by state; report gives % illegal in ALL cases: AL 10, AK 6, AZ 8, AR 11, CA 8, CO 8, CT 4, DE 6, FL 9, GA 8, HI 8, ID 11, IL 6, IN 8, IA 9, KS 11, KY 11, LA 13, ME 9, MD 6, MA 5, MI 10, MN 7, MS 14, MO 9, MT 8, NE 17, NV 4, NH 8, NJ 6, NM 7, NY 6, NC 8, ND 12, OH 7, OK 11, OR 8, PA 7, RI 2, SC 12, SD 14, TN 9, TX 11, UT 4, VT 4, VA 8, WA 5, WV 12, WI 5, WY 11, DC 7. Spot-checked AL 60, UT 44, LA 42, WV 41, MA 83, NE illegal-all 17 against https://prri.org/research/abortion-views-across-all-50-states-key-insights-from-prris-2024-american-values-atlas/"
+ },
+ {
+  "keys": [
+   "sen:roe",
+   "gov:roe"
+  ],
+  "match": "concept",
+  "pollster": "Pew Research Center (Religious Landscape Study)",
+  "sponsor": "",
+  "tier": 1,
+  "type": "multistate",
+  "fielded": "2023-07",
+  "n": 36908,
+  "question": "Abortion should be legal in all or most cases",
+  "url": "https://www.pewresearch.org/chart/288514/",
+  "states": {
+   "AL": {
+    "sup": 46,
+    "opp": 52
+   },
+   "AK": {
+    "sup": 62,
+    "opp": 37
+   },
+   "AZ": {
+    "sup": 64,
+    "opp": 36
+   },
+   "AR": {
+    "sup": 41,
+    "opp": 57
+   },
+   "CA": {
+    "sup": 72,
+    "opp": 27
+   },
+   "CO": {
+    "sup": 69,
+    "opp": 29
+   },
+   "CT": {
+    "sup": 76,
+    "opp": 22
+   },
+   "DE": {
+    "sup": 73,
+    "opp": 26
+   },
+   "FL": {
+    "sup": 62,
+    "opp": 36
+   },
+   "GA": {
+    "sup": 62,
+    "opp": 37
+   },
+   "HI": {
+    "sup": 71,
+    "opp": 27
+   },
+   "ID": {
+    "sup": 48,
+    "opp": 52
+   },
+   "IL": {
+    "sup": 71,
+    "opp": 29
+   },
+   "IN": {
+    "sup": 52,
+    "opp": 46
+   },
+   "IA": {
+    "sup": 68,
+    "opp": 32
+   },
+   "KS": {
+    "sup": 55,
+    "opp": 42
+   },
+   "KY": {
+    "sup": 54,
+    "opp": 45
+   },
+   "LA": {
+    "sup": 54,
+    "opp": 45
+   },
+   "ME": {
+    "sup": 72,
+    "opp": 26
+   },
+   "MD": {
+    "sup": 71,
+    "opp": 28
+   },
+   "MA": {
+    "sup": 78,
+    "opp": 19
+   },
+   "MI": {
+    "sup": 61,
+    "opp": 38
+   },
+   "MN": {
+    "sup": 69,
+    "opp": 31
+   },
+   "MS": {
+    "sup": 44,
+    "opp": 54
+   },
+   "MO": {
+    "sup": 55,
+    "opp": 43
+   },
+   "MT": {
+    "sup": 63,
+    "opp": 37
+   },
+   "NE": {
+    "sup": 51,
+    "opp": 49
+   },
+   "NV": {
+    "sup": 73,
+    "opp": 26
+   },
+   "NH": {
+    "sup": 77,
+    "opp": 23
+   },
+   "NJ": {
+    "sup": 71,
+    "opp": 28
+   },
+   "NM": {
+    "sup": 59,
+    "opp": 39
+   },
+   "NY": {
+    "sup": 74,
+    "opp": 25
+   },
+   "NC": {
+    "sup": 59,
+    "opp": 39
+   },
+   "ND": {
+    "sup": 54,
+    "opp": 46
+   },
+   "OH": {
+    "sup": 62,
+    "opp": 37
+   },
+   "OK": {
+    "sup": 53,
+    "opp": 47
+   },
+   "OR": {
+    "sup": 72,
+    "opp": 27
+   },
+   "PA": {
+    "sup": 68,
+    "opp": 31
+   },
+   "RI": {
+    "sup": 78,
+    "opp": 21
+   },
+   "SC": {
+    "sup": 53,
+    "opp": 45
+   },
+   "SD": {
+    "sup": 43,
+    "opp": 55
+   },
+   "TN": {
+    "sup": 46,
+    "opp": 52
+   },
+   "TX": {
+    "sup": 56,
+    "opp": 42
+   },
+   "UT": {
+    "sup": 50,
+    "opp": 49
+   },
+   "VT": {
+    "sup": 79,
+    "opp": 20
+   },
+   "VA": {
+    "sup": 63,
+    "opp": 36
+   },
+   "WA": {
+    "sup": 69,
+    "opp": 31
+   },
+   "WV": {
+    "sup": 54,
+    "opp": 46
+   },
+   "WI": {
+    "sup": 67,
+    "opp": 32
+   },
+   "WY": {
+    "sup": 54,
+    "opp": 45
+   },
+   "DC": {
+    "sup": 81,
+    "opp": 17
+   }
+  },
+  "national": {
+   "sup": 64,
+   "opp": 35
+  },
+  "note": "2023-24 RLS, fielded Jul 17 2023-Mar 4 2024, n=36,908 with samples in every state (state MOEs larger). Write-up: https://www.pewresearch.org/short-reads/2025/06/12/americans-views-on-abortion-differ-by-state/ (spot-checked AR, WY, KY, LA, SD, DC)."
+ }
+]

@@ -1,0 +1,211 @@
+[
+ {
+  "who": "Raphael Warnock",
+  "state": "GA",
+  "key": "pro",
+  "old_stance": "Unclear",
+  "new_stance": "Support",
+  "evidence": "Original cosponsor, Richard L. Trumka PRO Act of 2025 (S.852), Mar 2025.",
+  "url": "https://policyrisk.com/research/legislation/S852",
+  "confirmed": false,
+  "changed": true
+ },
+ {
+  "who": "Jon Ossoff",
+  "state": "GA",
+  "key": "pro",
+  "old_stance": "Unclear",
+  "new_stance": "Support",
+  "evidence": "Original cosponsor, Richard L. Trumka PRO Act of 2025 (S.852), Mar 2025.",
+  "url": "https://policyrisk.com/research/legislation/S852",
+  "confirmed": false,
+  "changed": true
+ },
+ {
+  "who": "Brian Schatz",
+  "state": "HI",
+  "key": "pro",
+  "old_stance": "Unclear",
+  "new_stance": "Support",
+  "evidence": "Original cosponsor, Richard L. Trumka PRO Act of 2025 (S.852), Mar 2025.",
+  "url": "https://policyrisk.com/research/legislation/S852",
+  "confirmed": false,
+  "changed": true
+ },
+ {
+  "who": "Mazie Hirono",
+  "state": "HI",
+  "key": "pro",
+  "old_stance": "Unclear",
+  "new_stance": "Support",
+  "evidence": "Original cosponsor, Richard L. Trumka PRO Act of 2025 (S.852), Mar 2025.",
+  "url": "https://policyrisk.com/research/legislation/S852",
+  "confirmed": false,
+  "changed": true
+ },
+ {
+  "who": "Raphael Warnock",
+  "state": "GA",
+  "key": "pfl",
+  "old_stance": "Unclear",
+  "new_stance": "Support",
+  "evidence": "Original cosponsor, FAMILY Act (S.2823) creating national paid family and medical leave insurance, Sep 2025.",
+  "url": "https://policyrisk.com/research/legislation/S2823",
+  "confirmed": false,
+  "changed": true
+ },
+ {
+  "who": "Brian Schatz",
+  "state": "HI",
+  "key": "pfl",
+  "old_stance": "Unclear",
+  "new_stance": "Support",
+  "evidence": "Original cosponsor, FAMILY Act (S.2823) creating national paid family and medical leave insurance, Sep 2025.",
+  "url": "https://policyrisk.com/research/legislation/S2823",
+  "confirmed": false,
+  "changed": true
+ },
+ {
+  "who": "Mazie Hirono",
+  "state": "HI",
+  "key": "pfl",
+  "old_stance": "Unclear",
+  "new_stance": "Support",
+  "evidence": "Original cosponsor, FAMILY Act (S.2823) creating national paid family and medical leave insurance, Sep 2025.",
+  "url": "https://policyrisk.com/research/legislation/S2823",
+  "confirmed": false,
+  "changed": true
+ },
+ {
+  "who": "Raphael Warnock",
+  "state": "GA",
+  "key": "iran",
+  "old_stance": "Support",
+  "new_stance": "Support",
+  "evidence": "Sponsor, S.J.Res.172 to remove U.S. forces from unauthorized hostilities against Iran (introduced Apr 2026); also voted for Iran war powers resolution Apr 15 2026.",
+  "url": "https://policyrisk.com/research/legislation/SJRES172",
+  "confirmed": false,
+  "changed": true
+ },
+ {
+  "who": "Jon Ossoff",
+  "state": "GA",
+  "key": "pacs",
+  "old_stance": "Lean support",
+  "new_stance": "Lean support",
+  "evidence": "Sponsor, Ban Corporate PACs Act with Sen. Kelly (Jan 2024), ending for-profit corporate PACs; no super PAC ban addressed, so narrower than the measure.",
+  "url": "https://www.ossoff.senate.gov/press-releases/sen-ossoff-introduces-legislation-to-get-corporate-money-out-of-politics/",
+  "confirmed": false,
+  "changed": true
+ },
+ {
+  "who": "Raphael Warnock",
+  "state": "GA",
+  "key": "ctc",
+  "old_stance": "Lean support",
+  "new_stance": "Support",
+  "evidence": "Original cosponsor, co-led with Sen. Bennet the American Family Act (Apr 2025), which would nearly double the Child Tax Credit and make it fully refundable.",
+  "url": "https://www.warnock.senate.gov/newsroom/press-releases/senator-reverend-warnocks-new-legislation-to-support-working-families-with-most-ambitious-expansion-of-child-tax-credit-to-date/",
+  "confirmed": false,
+  "changed": true
+ },
+ {
+  "who": "Raphael Warnock",
+  "state": "GA",
+  "key": "imm",
+  "old_stance": "Unclear",
+  "new_stance": "Lean support",
+  "evidence": "Urged passing comprehensive immigration reform to permanently protect Dreamers, on DACA's 10th anniversary (Jun 2022); no specific bill or 2025-26 commitment found.",
+  "url": "https://www.warnock.senate.gov/newsroom/press-releases/on-10th-anniversary-of-daca-senator-reverend-warnock-affirms-his-unwavering-support-for-georgias-dreamers-highlights-importance-of-passing-comprehensive-immigration-reform/",
+  "confirmed": false,
+  "changed": true
+ },
+ {
+  "who": "Jon Ossoff",
+  "state": "GA",
+  "key": "downpay",
+  "old_stance": "Unclear",
+  "new_stance": "Lean support",
+  "evidence": "Sponsor, HELPER Act with Sen. Rubio (Oct 2021), an FHA loan program cutting upfront purchase costs for first responders and teachers; narrower than broad first-time buyer aid.",
+  "url": "https://www.ossoff.senate.gov/press-releases/sens-ossoff-rubio-introduce-bipartisan-bill-to-make-homeownership-more-affordable-for-first-responders-teachers/",
+  "confirmed": false,
+  "changed": true
+ },
+ {
+  "who": "Jon Ossoff",
+  "state": "GA",
+  "key": "wage",
+  "old_stance": "Lean support",
+  "new_stance": "Support",
+  "evidence": "Original cosponsor, Raise the Wage Act of 2021 to lift the federal minimum wage to $15 (Jan 2021); not a cosponsor of the 2025 $17 bill.",
+  "url": "https://www.ossoff.senate.gov/press-releases/georgia-sens-jon-ossoff-and-rev-raphael-warnock-join-fellow-senators-to-introduce-legislation-to-raise-minimum-wage-to-15-2/",
+  "confirmed": false,
+  "changed": true
+ },
+ {
+  "who": "Jon Ossoff",
+  "state": "GA",
+  "key": "gerry",
+  "old_stance": "Lean support",
+  "new_stance": "Support",
+  "evidence": "Cosponsor, Freedom to Vote Act S.2747 (Dec 2021), which bans partisan gerrymandering of congressional maps; also voted to advance it in Jan 2022.",
+  "url": "https://policyrisk.com/legislation/117-s-2747",
+  "confirmed": false,
+  "changed": true
+ },
+ {
+  "who": "Brian Schatz",
+  "state": "HI",
+  "key": "gerry",
+  "old_stance": "Lean support",
+  "new_stance": "Support",
+  "evidence": "Cosponsor, Freedom to Vote Act S.2747 (Dec 2021), which bans partisan gerrymandering of congressional maps; also voted to advance it in Jan 2022.",
+  "url": "https://policyrisk.com/legislation/117-s-2747",
+  "confirmed": false,
+  "changed": true
+ },
+ {
+  "who": "Mazie Hirono",
+  "state": "HI",
+  "key": "gerry",
+  "old_stance": "Lean support",
+  "new_stance": "Support",
+  "evidence": "Cosponsor, Freedom to Vote Act S.2747 (Dec 2021), which bans partisan gerrymandering of congressional maps; also voted to advance it in Jan 2022.",
+  "url": "https://policyrisk.com/legislation/117-s-2747",
+  "confirmed": false,
+  "changed": true
+ },
+ {
+  "who": "Jon Ossoff",
+  "state": "GA",
+  "key": "dcpr",
+  "old_stance": "Unclear",
+  "new_stance": "Lean support",
+  "evidence": "Cosponsor, Washington, D.C. Admission Act S.51 in 2021 and again Jan 2023; no Puerto Rico statehood position found.",
+  "url": "https://policyrisk.com/legislation/118-s-51",
+  "confirmed": false,
+  "changed": true
+ },
+ {
+  "who": "Brian Schatz",
+  "state": "HI",
+  "key": "childcare",
+  "old_stance": "Unclear",
+  "new_stance": "Support",
+  "evidence": "Cosponsor, Child Care for Working Families Act S.1354 (Apr 2023; also S.1360 in 2021), which caps family child care costs at 7% of income.",
+  "url": "https://policyrisk.com/legislation/118-s-1354",
+  "confirmed": false,
+  "changed": true
+ },
+ {
+  "who": "Raphael Warnock",
+  "state": "GA",
+  "key": "childcare",
+  "old_stance": "Lean support",
+  "new_stance": "Support",
+  "evidence": "Cosponsor, Child Care for Working Families Act S.1354 (May 2023), which caps family child care costs at 7% of income.",
+  "url": "https://policyrisk.com/legislation/118-s-1354",
+  "confirmed": false,
+  "changed": true
+ }
+]

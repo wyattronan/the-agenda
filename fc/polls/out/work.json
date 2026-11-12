@@ -1,0 +1,642 @@
+[
+ {
+  "keys": [
+   "sen:wage",
+   "gov:wage"
+  ],
+  "match": "bill",
+  "pollster": "Glengariff Group",
+  "sponsor": "WDIV Local 4 / The Detroit News",
+  "tier": 1,
+  "type": "state",
+  "fielded": "2024-08",
+  "n": 600,
+  "question": "Support Michigan Supreme Court decision raising minimum wage to $12.50, then $15, indexed to inflation",
+  "url": "https://clickondetroit.com/decision-2024/2024/09/05/new-polling-shows-where-michigan-voters-stand-on-minimum-wage-ruling-tipping-habits",
+  "states": {
+   "MI": {
+    "sup": 66.5,
+    "opp": 30.0
+   }
+  },
+  "national": null,
+  "note": "Likely voters; framed as support for court ruling that phases in $15."
+ },
+ {
+  "keys": [
+   "sen:wage",
+   "gov:wage"
+  ],
+  "match": "concept",
+  "pollster": "Siena College",
+  "sponsor": "New York Times / Philadelphia Inquirer",
+  "tier": 1,
+  "type": "state",
+  "fielded": "2024-10",
+  "n": 792,
+  "question": "Increase Pennsylvania's minimum wage from its current $7.25 rate (no dollar target given)",
+  "url": "https://www.inquirer.com/politics/election/pennsylvania-minimum-wage-support-poll-20241012.html",
+  "states": {
+   "PA": {
+    "sup": 82,
+    "opp": 14
+   }
+  },
+  "national": null,
+  "note": "Likely voters; n=792 answered this item. No specific $15 amount in question, so concept match."
+ },
+ {
+  "keys": [
+   "sen:wage",
+   "gov:wage"
+  ],
+  "match": "bill",
+  "pollster": "Wason Center, Christopher Newport University",
+  "sponsor": "",
+  "tier": 1,
+  "type": "state",
+  "fielded": "2026-01",
+  "n": 807,
+  "question": "Raise Virginia's minimum wage to $15 an hour by 2028",
+  "url": "https://cnu.edu/wason/surveys/archive/2026-01-28.html",
+  "states": {
+   "VA": {
+    "sup": 78,
+    "opp": null
+   }
+  },
+  "national": null,
+  "note": "Registered voters. Overall oppose not reported on the page."
+ },
+ {
+  "keys": [
+   "sen:wage",
+   "gov:wage"
+  ],
+  "match": "bill",
+  "pollster": "Wason Center, Christopher Newport University",
+  "sponsor": "",
+  "tier": 1,
+  "type": "state",
+  "fielded": "2024-01",
+  "n": 1000,
+  "question": "Raise Virginia's minimum wage to $15 an hour by 2026",
+  "url": "https://cnu.edu/wason/surveys/archive/2024-01-24.html",
+  "states": {
+   "VA": {
+    "sup": 68,
+    "opp": 30
+   }
+  },
+  "national": null,
+  "note": "Registered voters."
+ },
+ {
+  "keys": [
+   "sen:wage",
+   "gov:wage"
+  ],
+  "match": "bill",
+  "pollster": "YouGov",
+  "sponsor": "Saint Louis University (SLU/YouGov Poll)",
+  "tier": 1,
+  "type": "state",
+  "fielded": "2024-08",
+  "n": 900,
+  "question": "Prop A: raise Missouri minimum wage to $13.75 in 2025 and $15 in 2026, plus paid sick leave",
+  "url": "https://www.slu.edu/news/2024/august/slu-poll.php",
+  "states": {
+   "MO": {
+    "sup": 57,
+    "opp": 30
+   }
+  },
+  "national": null,
+  "note": "Likely voters; ballot-measure vote intention (14% not sure). Measure bundles paid sick leave."
+ },
+ {
+  "keys": [
+   "gov:pfml"
+  ],
+  "match": "bill",
+  "pollster": "Wason Center, Christopher Newport University",
+  "sponsor": "",
+  "tier": 1,
+  "type": "state",
+  "fielded": "2026-01",
+  "n": 807,
+  "question": "Require Virginia to establish a paid family and medical leave program (up to 12 weeks)",
+  "url": "https://cnu.edu/wason/surveys/archive/2026-01-28.html",
+  "states": {
+   "VA": {
+    "sup": 84,
+    "opp": null
+   }
+  },
+  "national": null,
+  "note": "Registered voters. Oppose not reported on page."
+ },
+ {
+  "keys": [
+   "gov:pfml"
+  ],
+  "match": "bill",
+  "pollster": "SurveyUSA",
+  "sponsor": "Colorado Politics / 9News",
+  "tier": 1,
+  "type": "state",
+  "fielded": "2020-10",
+  "n": 1021,
+  "question": "Proposition 118: payroll-tax-funded state paid family and medical leave insurance, up to 12 weeks",
+  "url": "https://www.denvergazette.com/?p=96079",
+  "states": {
+   "CO": {
+    "sup": 57,
+    "opp": 21
+   }
+  },
+  "national": null,
+  "note": "Likely voters; ballot-measure vote intention, 22% unsure. Pre-2023 (Oct 2020)."
+ },
+ {
+  "keys": [
+   "gov:pfml"
+  ],
+  "match": "bill",
+  "pollster": "OpinionWorks",
+  "sponsor": "Maryland Rise",
+  "tier": 3,
+  "type": "state",
+  "fielded": "2025-03",
+  "n": 869,
+  "question": "Support Maryland's FAMLI paid family and medical leave program",
+  "url": "https://marylandmatters.org/2025/03/19/poll-most-want-paid-family-medical-leave-plan-now-not-delayed-further/",
+  "states": {
+   "MD": {
+    "sup": 82,
+    "opp": 12
+   }
+  },
+  "national": null,
+  "note": "Advocacy-released poll. With $3-6/week cost stated: 69% support, 21% oppose."
+ },
+ {
+  "keys": [
+   "gov:pfml"
+  ],
+  "match": "concept",
+  "pollster": "Mitchell Research & Communications",
+  "sponsor": "Michigan Paid Leave for All Coalition",
+  "tier": 3,
+  "type": "state",
+  "fielded": "2024-05",
+  "n": 697,
+  "question": "Legislation guaranteeing all Michigan workers at least 15 weeks of paid family/medical leave",
+  "url": "https://mlpp.org/?p=354660",
+  "states": {
+   "MI": {
+    "sup": 63,
+    "opp": null
+   }
+  },
+  "national": null,
+  "note": "Advocacy-sponsored; SMS-web, likely voters. Oppose not reported."
+ },
+ {
+  "keys": [
+   "gov:pfml"
+  ],
+  "match": "concept",
+  "pollster": "Anthology / FINN Partners",
+  "sponsor": "HCAN Speaks!",
+  "tier": 3,
+  "type": "state",
+  "fielded": "2024-11",
+  "n": 440,
+  "question": "Favor a paid family and medical leave program in Hawaii",
+  "url": "https://mauinow.com/2025/02/13/survey-finds-overwhelming-support-for-paid-family-and-medical-leave-in-hawaii/",
+  "states": {
+   "HI": {
+    "sup": 90,
+    "opp": null
+   }
+  },
+  "national": null,
+  "note": "Advocacy-sponsored online survey of residents (not voters). Oppose not reported."
+ },
+ {
+  "keys": [
+   "sen:pfl"
+  ],
+  "match": "concept",
+  "pollster": "GQR",
+  "sponsor": "",
+  "tier": 3,
+  "type": "state",
+  "fielded": "2022-09",
+  "n": 499,
+  "question": "Federal policy guaranteeing all U.S. workers access to paid family, parental and medical leave",
+  "url": "https://www.gqrr.com/strong-support-in-new-hampshire-for-guaranteed-access-to-paid-leave-for-all-u-s-workers",
+  "states": {
+   "NH": {
+    "sup": 71,
+    "opp": 24
+   }
+  },
+  "national": null,
+  "note": "Democratic pollster, sponsor not named (likely paid-leave advocates). After info on NH's state plan: 58-37."
+ },
+ {
+  "keys": [
+   "gov:pfml"
+  ],
+  "match": "bill",
+  "pollster": "SurveyUSA",
+  "sponsor": "KSTP-TV",
+  "tier": 1,
+  "type": "state",
+  "fielded": "2023-05",
+  "n": 681,
+  "question": "Support the paid family and medical leave framework in the Minnesota House and Senate bills",
+  "url": "https://kstp.com/kstp-news/top-news/kstp-surveyusa-poll-minnesotans-support-paid-family-leave-bigger-rebates-eliminating-social-security-tax/",
+  "states": {
+   "MN": {
+    "sup": 64,
+    "opp": 30
+   }
+  },
+  "national": null,
+  "note": "Registered voters; 6% unsure."
+ },
+ {
+  "keys": [
+   "gov:childcare",
+   "sen:childcare",
+   "gov:prek"
+  ],
+  "match": "concept",
+  "pollster": "Siena College Research Institute",
+  "sponsor": "",
+  "tier": 1,
+  "type": "state",
+  "fielded": "2025-12",
+  "n": 801,
+  "question": "Universal free child care (infants through pre-K) statewide, paid for by higher taxes on those earning over $1 million",
+  "url": "https://sri.siena.edu/wp-content/uploads/2025/12/SNY-December-2025-Poll-Release-12-16-25-FINAL.pdf",
+  "states": {
+   "NY": {
+    "sup": 65,
+    "opp": 27
+   }
+  },
+  "national": null,
+  "note": "Registered voters. Question ties program to a millionaire tax. Covers pre-K as part of birth-to-5 care."
+ },
+ {
+  "keys": [
+   "gov:childcare",
+   "sen:childcare"
+  ],
+  "match": "concept",
+  "pollster": "Cornell University ILR School (Empire State Poll)",
+  "sponsor": "",
+  "tier": 1,
+  "type": "state",
+  "fielded": "2024",
+  "n": null,
+  "question": "Public funding for a free universal child care program in New York, like K-12",
+  "url": "https://nystateofpolitics.com/state-of-politics/new-york/politics/2024/08/23/poll-favors-universal-child-care-",
+  "states": {
+   "NY": {
+    "sup": 74,
+    "opp": null
+   }
+  },
+  "national": null,
+  "note": "Residents (not only voters). Article (Aug 2024) gives no field dates, sample size or oppose figure."
+ },
+ {
+  "keys": [
+   "gov:childcare"
+  ],
+  "match": "concept",
+  "pollster": "Susquehanna Polling and Research",
+  "sponsor": "Early Learning PA Coalition",
+  "tier": 3,
+  "type": "state",
+  "fielded": "2025-03",
+  "n": 700,
+  "question": "Increase state funding to help more low-income working families afford quality child care",
+  "url": "https://mackerel-aqua-ec4t.squarespace.com/news-op-eds-releases/2025/6/24/new-poll-reveals-dramatic-bipartisan-voter-support-for-increased-state-funding-for-child-care-amp-pre-k-programs",
+  "states": {
+   "PA": {
+    "sup": 73,
+    "opp": null
+   }
+  },
+  "national": null,
+  "note": "Advocacy-sponsored; likely voters. Funding expansion, not universal care; oppose not reported. Page is Start Strong PA/Early Learning PA release."
+ },
+ {
+  "keys": [
+   "gov:prek"
+  ],
+  "match": "concept",
+  "pollster": "Susquehanna Polling and Research",
+  "sponsor": "Early Learning PA Coalition",
+  "tier": 3,
+  "type": "state",
+  "fielded": "2025-03",
+  "n": 700,
+  "question": "Increase state funding to serve more eligible children in pre-K",
+  "url": "https://mackerel-aqua-ec4t.squarespace.com/news-op-eds-releases/2025/6/24/new-poll-reveals-dramatic-bipartisan-voter-support-for-increased-state-funding-for-child-care-amp-pre-k-programs",
+  "states": {
+   "PA": {
+    "sup": 73,
+    "opp": null
+   }
+  },
+  "national": null,
+  "note": "Advocacy-sponsored; likely voters. Expansion of pre-K funding, not universal; oppose not reported."
+ },
+ {
+  "keys": [
+   "sen:childcare",
+   "gov:childcare"
+  ],
+  "match": "concept",
+  "pollster": "RMG Research",
+  "sponsor": "Napolitan News Service",
+  "tier": 1,
+  "type": "national",
+  "fielded": "2025-11",
+  "n": 1000,
+  "question": "Provide universal child care for all Americans (about $100B/year cost)",
+  "url": "https://napolitannews.org/posts/universal-child-care-54-percent-favor-that-proposal",
+  "states": {},
+  "national": {
+   "sup": 54,
+   "opp": 38
+  },
+  "note": "Registered voters, national. Cost was stated in question."
+ },
+ {
+  "keys": [
+   "gov:prek"
+  ],
+  "match": "concept",
+  "pollster": "YouGov",
+  "sponsor": "",
+  "tier": 1,
+  "type": "national",
+  "fielded": "2025-08",
+  "n": 1127,
+  "question": "Expand publicly funded pre-kindergarten programs",
+  "url": "https://d3nkl3psvxxpe9.cloudfront.net/documents/Family_Policy_and_Child_Care_poll_results.pdf",
+  "states": {},
+  "national": {
+   "sup": 73,
+   "opp": 18
+  },
+  "note": "U.S. adult citizens. Separate item: 41% say all 3-5 year-olds should have entirely government-funded preschool, 29% partially, 20% no."
+ },
+ {
+  "keys": [
+   "sen:pfl"
+  ],
+  "match": "concept",
+  "pollster": "YouGov",
+  "sponsor": "",
+  "tier": 1,
+  "type": "national",
+  "fielded": "2025-08",
+  "n": 1127,
+  "question": "Require employers to offer paid parental leave for all working parents",
+  "url": "https://d3nkl3psvxxpe9.cloudfront.net/documents/Family_Policy_and_Child_Care_poll_results.pdf",
+  "states": {},
+  "national": {
+   "sup": 71,
+   "opp": 19
+  },
+  "note": "U.S. adult citizens. Parental leave employer mandate only (no medical leave, no insurance fund)."
+ },
+ {
+  "keys": [
+   "sen:pro"
+  ],
+  "match": "bill",
+  "pollster": "Hart Research Associates",
+  "sponsor": "Worker Power Coalition",
+  "tier": 3,
+  "type": "state",
+  "fielded": null,
+  "n": null,
+  "question": "Approve of the PRO Act after hearing its key provisions",
+  "url": "https://united4respect.org/media/new-polling-finds-virginia-voters-strongly-support-the-pro-acts-worker-protections/",
+  "states": {
+   "VA": {
+    "sup": 65,
+    "opp": 22
+   }
+  },
+  "national": null,
+  "note": "Advocacy-sponsored; informed-ballot question. Page undated (appears to be Aug 2021); no field dates or n given."
+ },
+ {
+  "keys": [
+   "sen:pro"
+  ],
+  "match": "concept",
+  "pollster": "Wason Center, Christopher Newport University",
+  "sponsor": "",
+  "tier": 1,
+  "type": "state",
+  "fielded": "2026-01",
+  "n": 807,
+  "question": "Fully repeal Virginia's right-to-work law",
+  "url": "https://cnu.edu/wason/surveys/archive/2026-01-28.html",
+  "states": {
+   "VA": {
+    "sup": 50,
+    "opp": null
+   }
+  },
+  "national": null,
+  "note": "Concept proxy: PRO Act would override state right-to-work fee bans. Page reports 'narrowly supporting a full repeal (50% to 42%)' but the 42% is not explicitly labeled oppose, so opp left null. Same poll found 58-33 support for keeping right-to-work as-is, so voters are cross-pressured; treat as doubtful."
+ },
+ {
+  "keys": [
+   "sen:pro"
+  ],
+  "match": "bill",
+  "pollster": "Data for Progress",
+  "sponsor": "Vox",
+  "tier": 3,
+  "type": "national",
+  "fielded": "2021-06",
+  "n": 1000,
+  "question": "Support the PRO Act",
+  "url": "https://democrats-edworkforce.house.gov/media/news/poll-a-majority-of-voters-support-the-pro-act",
+  "states": {},
+  "national": {
+   "sup": 59,
+   "opp": null
+  },
+  "note": "Likely voters; progressive pollster. Oppose not reported on page (House Ed & Workforce Democrats release)."
+ },
+ {
+  "keys": [
+   "sen:pro"
+  ],
+  "match": "bill",
+  "pollster": "Data for Progress",
+  "sponsor": "",
+  "tier": 3,
+  "type": "national",
+  "fielded": "2023-07",
+  "n": 1276,
+  "question": "Support the PRO Act",
+  "url": "https://dataforprogress.org/blog/2023/7/18/labor-reforms-proposed-by-senate-help-committee-command-broad-popular-support",
+  "states": {},
+  "national": {
+   "sup": 70,
+   "opp": null
+  },
+  "note": "Likely voters, web panel; progressive pollster. Oppose not reported."
+ },
+ {
+  "keys": [
+   "sen:wage"
+  ],
+  "match": "bill",
+  "pollster": "Pew Research Center",
+  "sponsor": "",
+  "tier": 1,
+  "type": "national",
+  "fielded": "2021-04",
+  "n": 5109,
+  "question": "Raise the federal minimum wage to $15 an hour",
+  "url": "https://www.pewresearch.org/short-reads/2021/04/22/most-americans-support-a-15-federal-minimum-wage/",
+  "states": {},
+  "national": {
+   "sup": 62,
+   "opp": 38
+  },
+  "note": "U.S. adults, American Trends Panel."
+ },
+ {
+  "keys": [
+   "sen:wage",
+   "gov:wage"
+  ],
+  "match": "bill",
+  "pollster": "Breakthrough Campaigns",
+  "sponsor": "Pro-initiative (labor-backed) Ballot Measure 1 campaign",
+  "tier": 3,
+  "type": "state",
+  "fielded": "2024-05",
+  "n": 907,
+  "question": "Alaska initiative: raise minimum wage to $15 by 2027, index to inflation, plus paid sick leave",
+  "url": "https://thealaskacurrent.com/2024/06/28/poll-minimum-wage-initiative/",
+  "states": {
+   "AK": {
+    "sup": 64,
+    "opp": 32
+   }
+  },
+  "national": null,
+  "note": "Campaign poll, likely voters. Bundles paid sick leave and captive-audience meeting ban."
+ },
+ {
+  "keys": [
+   "sen:wage",
+   "gov:wage"
+  ],
+  "match": "bill",
+  "pollster": "Lake Research Partners",
+  "sponsor": "One Fair Wage",
+  "tier": 3,
+  "type": "state",
+  "fielded": "2023-05",
+  "n": null,
+  "question": "Raise Idaho's minimum wage to $15 by 2028",
+  "url": "https://www.onefairwage.org/s/memoOFWv4f20240423.pdf",
+  "states": {
+   "ID": {
+    "sup": 56,
+    "opp": null
+   }
+  },
+  "national": null,
+  "note": "Advocacy memo summarizing its own polling; likely voters; no n or oppose given. $18 by 2029 version: 54%."
+ },
+ {
+  "keys": [
+   "sen:wage",
+   "gov:wage"
+  ],
+  "match": "bill",
+  "pollster": "Lake Research Partners",
+  "sponsor": "One Fair Wage",
+  "tier": 3,
+  "type": "state",
+  "fielded": "2022-03",
+  "n": null,
+  "question": "Raise Michigan's minimum wage to $15 by 2027",
+  "url": "https://www.onefairwage.org/s/memoOFWv4f20240423.pdf",
+  "states": {
+   "MI": {
+    "sup": 56,
+    "opp": null
+   }
+  },
+  "national": null,
+  "note": "Advocacy memo summarizing its own polling; likely voters; no n or oppose given. Tier-1 Glengariff 2024 MI poll also recorded."
+ },
+ {
+  "keys": [
+   "sen:wage",
+   "gov:wage"
+  ],
+  "match": "bill",
+  "pollster": "Lake Research Partners",
+  "sponsor": "One Fair Wage",
+  "tier": 3,
+  "type": "state",
+  "fielded": "2022-02",
+  "n": null,
+  "question": "Raise Maine's minimum wage to $15 by 2024",
+  "url": "https://www.onefairwage.org/s/memoOFWv4f20240423.pdf",
+  "states": {
+   "ME": {
+    "sup": 54,
+    "opp": null
+   }
+  },
+  "national": null,
+  "note": "Advocacy memo summarizing its own polling; likely voters; no n or oppose given."
+ },
+ {
+  "keys": [
+   "sen:wage",
+   "gov:wage"
+  ],
+  "match": "concept",
+  "pollster": "Public Policy Institute of California",
+  "sponsor": "",
+  "tier": 1,
+  "type": "state",
+  "fielded": "2024-09",
+  "n": 1071,
+  "question": "Proposition 32: raise California's state minimum wage (ballot vote intention)",
+  "url": "https://www.ppic.org/publication/ppic-statewide-survey-californians-and-their-government-september-2024/",
+  "states": {
+   "CA": {
+    "sup": 50,
+    "opp": 49
+   }
+  },
+  "national": null,
+  "note": "Likely voters. Prop 32 would have lifted CA's existing $16 minimum to $18; since CA is already above $15, this measures appetite for a further raise, not $15 itself. Measure failed in Nov 2024 (result not used)."
+ }
+]

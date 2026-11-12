@@ -1,0 +1,22 @@
+[
+ {
+  "url": "https://uh.edu/hobby/texas2026/centers.pdf",
+  "why": "TX share excludes unsure (99/1)"
+ },
+ {
+  "url": "https://www.repair.org/blog/2022/4/25/release-survey-shows-vast-majority-of-minnesotans-support-right-to-repair-as-floor-vote-nears",
+  "why": "advocacy release, unnamed pollster, n=200"
+ },
+ {
+  "url": "https://www.texastribune.org/2025/09/09/texas-redistricting-poll-trump-megabill-thc-senate-race",
+  "why": "proxy: disapproval of 2025 redraw, not support for a ban"
+ },
+ {
+  "url": "https://ballotpedia.org/Missouri_Amendment_3,_Prohibit_Abortion_and_Gender_Transition_Procedures_for_Minors_Amendment_%282026%29",
+  "why": "MO 2026 Amendment 3 bundles abortion ban with minors' transition-care ban"
+ },
+ {
+  "url": "https://prri.org/wp-content/uploads/2025/03/PRRI-April-2025-abortion-report.pdf",
+  "why": "state values read from a map's text layer; labels don't align reliably with states (e.g., AL 60%)"
+ }
+]

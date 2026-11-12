@@ -1,0 +1,68 @@
+[
+ {
+  "who": "Patty Murray",
+  "state": "WA",
+  "key": "pfl",
+  "old_stance": "Unclear",
+  "new_stance": "Support",
+  "evidence": "Original cosponsor, FAMILY Act (S. 2823), creating national paid family and medical leave insurance (Sep 2025).",
+  "url": "https://policyrisk.com/research/legislation/S2823",
+  "confirmed": false,
+  "changed": true
+ },
+ {
+  "who": "Tammy Baldwin",
+  "state": "WI",
+  "key": "pfl",
+  "old_stance": "Unclear",
+  "new_stance": "Support",
+  "evidence": "Original cosponsor, FAMILY Act (S. 2823), creating national paid family and medical leave insurance (Sep 2025).",
+  "url": "https://policyrisk.com/research/legislation/S2823",
+  "confirmed": false,
+  "changed": true
+ },
+ {
+  "who": "Patty Murray",
+  "state": "WA",
+  "key": "ctc",
+  "old_stance": "Lean support",
+  "new_stance": "Support",
+  "evidence": "Original cosponsor, American Family Act (S. 1393), expanding the Child Tax Credit and making it fully refundable (Apr 2025).",
+  "url": "https://policyrisk.com/research/legislation/S1393",
+  "confirmed": false,
+  "changed": true
+ },
+ {
+  "who": "Maria Cantwell",
+  "state": "WA",
+  "key": "ctc",
+  "old_stance": "Lean support",
+  "new_stance": "Support",
+  "evidence": "Original cosponsor, American Family Act (S. 1393), expanding the Child Tax Credit and making it fully refundable (Apr 2025).",
+  "url": "https://policyrisk.com/research/legislation/S1393",
+  "confirmed": false,
+  "changed": true
+ },
+ {
+  "who": "Tammy Baldwin",
+  "state": "WI",
+  "key": "ctc",
+  "old_stance": "Lean support",
+  "new_stance": "Support",
+  "evidence": "Original cosponsor, American Family Act (S. 1393), expanding the Child Tax Credit and making it fully refundable (Apr 2025).",
+  "url": "https://policyrisk.com/research/legislation/S1393",
+  "confirmed": false,
+  "changed": true
+ },
+ {
+  "who": "Jim Justice",
+  "state": "WV",
+  "key": "gastax",
+  "old_stance": "Unclear",
+  "new_stance": "Lean support",
+  "evidence": "Backed Trump's proposal to suspend the federal gas tax as Iran-war fuel prices spiked (May 2026), per E&E News.",
+  "url": "https://eenews.net/articles/trumps-gas-tax-holiday-pitch-faces-early-capitol-hill-headwinds",
+  "confirmed": false,
+  "changed": true
+ }
+]

@@ -1,0 +1,270 @@
+{
+ "sen": {
+  "roe": {
+   "url": "https://www.congress.gov/bill/119th-congress/senate-bill/2150",
+   "label": "S.2150 on Congress.gov"
+  },
+  "m4a": {
+   "url": "https://www.congress.gov/bill/119th-congress/senate-bill/1506",
+   "label": "S.1506 on Congress.gov"
+  },
+  "priorauth": {
+   "url": "https://www.congress.gov/bill/119th-congress/senate-bill/1816",
+   "label": "S.1816 on Congress.gov"
+  },
+  "meat": {
+   "url": "https://www.congress.gov/bill/119th-congress/senate-bill/4007",
+   "label": "S.4007 on Congress.gov"
+  },
+  "wage": {
+   "url": "https://www.congress.gov/bill/119th-congress/senate-bill/1332",
+   "label": "S.1332 on Congress.gov"
+  },
+  "tariff": {
+   "url": "https://www.congress.gov/bill/119th-congress/senate-bill/1272",
+   "label": "S.1272 on Congress.gov"
+  },
+  "dcpr": {
+   "url": "https://www.congress.gov/bill/119th-congress/senate-bill/51",
+   "label": "S.51 on Congress.gov"
+  },
+  "pro": {
+   "url": "https://www.congress.gov/bill/119th-congress/senate-bill/852",
+   "label": "S.852 on Congress.gov"
+  },
+  "childcare": {
+   "url": "https://www.congress.gov/bill/119th-congress/senate-bill/2295",
+   "label": "S.2295 on Congress.gov"
+  },
+  "downpay": {
+   "url": "https://www.congress.gov/bill/119th-congress/senate-bill/967",
+   "label": "S.967 on Congress.gov"
+  },
+  "drugneg": {
+   "url": "https://www.congress.gov/bill/119th-congress/senate-bill/1836",
+   "label": "S.1836 on Congress.gov"
+  },
+  "termlim": {
+   "url": "https://www.congress.gov/bill/119th-congress/senate-joint-resolution/1",
+   "label": "S.J.Res.1 on Congress.gov"
+  },
+  "gerry": {
+   "url": "https://www.congress.gov/bill/119th-congress/senate-bill/2885",
+   "label": "S.2885 on Congress.gov"
+  },
+  "stock": {
+   "url": "https://www.congress.gov/bill/119th-congress/senate-bill/1498",
+   "label": "S.1498 on Congress.gov"
+  },
+  "gastax": {
+   "url": "https://www.congress.gov/bill/119th-congress/senate-bill/4485",
+   "label": "S.4485 on Congress.gov"
+  },
+  "pfl": {
+   "url": "https://www.congress.gov/bill/119th-congress/senate-bill/2823",
+   "label": "S.2823 on Congress.gov"
+  },
+  "pacs": {
+   "url": "https://www.congress.gov/bill/119th-congress/senate-bill/2515",
+   "label": "S.2515 on Congress.gov"
+  },
+  "gouge": {
+   "url": "https://www.congress.gov/bill/119th-congress/senate-bill/3892",
+   "label": "S.3892 on Congress.gov"
+  },
+  "road": {
+   "url": "https://www.congress.gov/bill/119th-congress/senate-bill/2651",
+   "label": "S.2651 on Congress.gov"
+  },
+  "aca": {
+   "url": "https://www.congress.gov/bill/119th-congress/senate-bill/46",
+   "label": "S.46 on Congress.gov"
+  },
+  "medicaid": {
+   "url": "https://www.congress.gov/bill/119th-congress/senate-bill/2556",
+   "label": "S.2556 on Congress.gov"
+  },
+  "iran": {
+   "url": "https://www.congress.gov/bill/119th-congress/house-concurrent-resolution/86",
+   "label": "H.Con.Res.86 on Congress.gov"
+  },
+  "ctc": {
+   "url": "https://www.congress.gov/bill/119th-congress/senate-bill/1393",
+   "label": "S.1393 on Congress.gov"
+  },
+  "toptax": {
+   "url": "https://www.congress.gov/bill/119th-congress/senate-bill/2845",
+   "label": "S.2845 on Congress.gov"
+  },
+  "repair": {
+   "url": "https://www.congress.gov/bill/119th-congress/senate-bill/3068",
+   "label": "S.3068 on Congress.gov"
+  },
+  "fil": {
+   "url": "https://ballotpedia.org/Filibuster",
+   "label": "Ballotpedia filibuster page"
+  },
+  "isr": {
+   "url": "https://www.congress.gov/crs-product/RL33222",
+   "label": "CRS report on Israel aid"
+  },
+  "ice": {
+   "url": "https://www.congress.gov/bill/119th-congress/senate-bill/2212",
+   "label": "S.2212 on Congress.gov"
+  },
+  "imm": {
+   "url": "https://www.congress.gov/bill/119th-congress/house-bill/4393",
+   "label": "H.R.4393 on Congress.gov"
+  },
+  "sch": {
+   "url": "https://www.wcax.com/2026/10/12/chuck-schumer-has-broad-support-his-caucus-midterms-could-decide-his-future-leader/",
+   "label": "AP on Schumer's future"
+  },
+  "datactr": {
+   "url": "https://www.opb.org/article/2026/02/13/as-electricity-costs-rise-everyone-wants-data-centers-to-pick-up-their-tab-but-how",
+   "label": "AP explainer (via OPB)"
+  },
+  "ai": {
+   "url": "https://www.congress.gov/crs-product/R48555",
+   "label": "CRS report on AI rules"
+  }
+ },
+ "gov": {
+  "medicaid": {
+   "url": "https://www.kff.org/medicaid/issue-brief/status-of-state-medicaid-expansion-decisions/",
+   "label": "KFF expansion tracker"
+  },
+  "wage": {
+   "url": "https://www.ncsl.org/labor-and-employment/state-minimum-wages",
+   "label": "NCSL minimum wage table"
+  },
+  "avr": {
+   "url": "https://www.ncsl.org/elections-and-campaigns/automatic-voter-registration",
+   "label": "NCSL AVR explainer"
+  },
+  "npv": {
+   "url": "https://ballotpedia.org/National_Popular_Vote_Interstate_Compact",
+   "label": "Ballotpedia NPVIC page"
+  },
+  "ctc": {
+   "url": "https://itep.org/state-child-tax-credits-2025/",
+   "label": "ITEP state CTC brief"
+  },
+  "roe": {
+   "url": "https://ballotpedia.org/Abortion_on_the_ballot",
+   "label": "Ballotpedia abortion measures"
+  },
+  "ptax": {
+   "url": "https://taxpolicycenter.org/briefing-book/how-do-state-and-local-property-taxes-work",
+   "label": "TPC property tax explainer"
+  },
+  "vouchers": {
+   "url": "https://ballotpedia.org/School_choice_in_the_United_States",
+   "label": "Ballotpedia school choice"
+  },
+  "aca": {
+   "url": "https://www.kff.org/affordable-care-act/state-based-efforts-will-provide-limited-relief-from-enhanced-tax-credit-expiration/",
+   "label": "KFF on state subsidies"
+  },
+  "datactr": {
+   "url": "https://www.route-fifty.com/artificial-intelligence/2026/02/electricity-bills-rising-some-states-consider-new-data-center-laws/411212",
+   "label": "Stateline (via Route Fifty)"
+  },
+  "pricecap": {
+   "url": "https://www.spotlightpa.org/news/2026/01/shapiro-trump-electricity-prices-data-centers-pjm-federal-government/",
+   "label": "Spotlight PA on PJM cap"
+  },
+  "corphome": {
+   "url": "https://www.newsweek.com/map-shows-us-states-pushing-to-crack-down-on-corporate-landlords-12224284",
+   "label": "Newsweek state map"
+  },
+  "pfml": {
+   "url": "https://www.kff.org/womens-health-policy/fact-sheet/paid-family-leave-and-sick-days-in-the-u-s/",
+   "label": "KFF paid leave fact sheet"
+  },
+  "millionaire": {
+   "url": "https://taxfoundation.org/data/all/state/state-income-tax-rates-2026/",
+   "label": "Tax Foundation 2026 rates"
+  },
+  "house": {
+   "url": "https://www.governing.com/urban/states-are-rewriting-the-rules-to-make-housing-easier-to-build",
+   "label": "Governing on zoning laws"
+  },
+  "meddebt": {
+   "url": "https://www.commonwealthfund.org/blog/2026/federal-protections-stall-states-move-front-lines-alleviate-medical-debt",
+   "label": "Commonwealth Fund blog"
+  },
+  "priorauth": {
+   "url": "https://unitedstatesofcare.org/pr-statepolicytrends-2026/",
+   "label": "USofCare 2026 state trends"
+  },
+  "drugbd": {
+   "url": "https://nashp.org/tracking-state-efforts-to-improve-health-care-affordability/",
+   "label": "NASHP affordability tracker"
+  },
+  "teacher": {
+   "url": "https://www.nea.org/resource-library/educator-pay-and-student-spending-how-does-your-state-rank",
+   "label": "NEA 2026 educator pay"
+  },
+  "trust": {
+   "url": "https://housingtrustfundproject.org/housing-trust-funds/state-housing-trust-funds/",
+   "label": "HTF Project (advocacy)"
+  },
+  "prek": {
+   "url": "https://nieer.org/yearbook/2025",
+   "label": "NIEER State of Preschool"
+  },
+  "pubopt": {
+   "url": "https://insurancenewsnet.com/oarticle/states-try-public-option-obamacare-plans-to-reduce-coverage-costs-2",
+   "label": "Stateline (syndicated)"
+  },
+  "ratefreeze": {
+   "url": "https://newjerseyglobe.com/fr/sherrill-signs-energy-package-announces-utility-bill-credits-for-3-6-million-customers/",
+   "label": "NJ Globe on bill credits"
+  },
+  "gastax": {
+   "url": "https://feeds.ajc.com/news/2026/03/georgia-suspends-fuel-tax-but-other-states-may-not-follow",
+   "label": "AP on state gas tax cuts"
+  },
+  "renter": {
+   "url": "https://www.route-fifty.com/management/2025/03/cities-lead-bans-algorithmic-rent-hikes-states-lag-behind/404160",
+   "label": "Stateline (via Route Fifty)"
+  },
+  "childcare": {
+   "url": "https://19thnews.org/2025/09/new-mexico-first-state-free-child-care",
+   "label": "The 19th on New Mexico"
+  },
+  "sstax": {
+   "url": "https://www.kiplinger.com/slideshow/retirement/T051-S001-states-that-tax-social-security-benefits/index.html",
+   "label": "Kiplinger 2026 state list"
+  },
+  "mctax": {
+   "url": "https://www.newstribune.com/news/2025/dec/20/states-faces-choice-on-whether-to-embrace-trumps/",
+   "label": "AP on state tax cuts"
+  },
+  "ice": {
+   "url": "https://www.smdailyjournal.com/news/national/proposals-on-immigration-enforcement-flood-into-state-legislatures-heightened-by-minnesota-action/article_176a38a7-7927-52be-969c-79372d507622.html",
+   "label": "AP on state ICE limits"
+  },
+  "fraud": {
+   "url": "https://www.kttc.com/2026/09/01/one-year-out-roadmap-minnesotas-inspector-general-being-fully-operational/",
+   "label": "KTTC on Minnesota's IG"
+  },
+  "eohousing": {
+   "url": "https://www.housingwire.com/articles/maryland-housing-affordability-crisis-targeted-in-executive-order/",
+   "label": "HousingWire on Md. order"
+  },
+  "utility": {
+   "url": "https://www.canarymedia.com/articles/utilities/hot-trend-states-banning-utilities-from-charging-you-for-their-lobbying",
+   "label": "Canary Media (2023)"
+  },
+  "downpay": {
+   "url": "https://www.ncsl.org/resources/details/cant-afford-a-home-your-state-might-help-you-out",
+   "label": "NCSL explainer"
+  },
+  "ptaxcorp": {
+   "url": "https://itep.org/8-things-to-know-about-state-taxes-2023/state-rundown-2-20-tools-to-address-corporate-tax-avoidance-and-property-tax-affordability",
+   "label": "ITEP explainer"
+  }
+ }
+}

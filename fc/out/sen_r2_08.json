@@ -1,0 +1,200 @@
+[
+ {
+  "who": "Catherine Cortez Masto",
+  "state": "NV",
+  "key": "medicaid",
+  "old_stance": "Lean support",
+  "new_stance": "Support",
+  "evidence": "On the floor she blasted the GOP law's near-$1 trillion Medicaid cuts and pledged to restore the health funding Republicans cut (Jul 2025).",
+  "url": "https://www.cortezmasto.senate.gov/?p=48557",
+  "confirmed": false,
+  "changed": true
+ },
+ {
+  "who": "Catherine Cortez Masto",
+  "state": "NV",
+  "key": "ice",
+  "old_stance": "Lean support",
+  "new_stance": "Support",
+  "evidence": "Called for ICE guardrails incl. judicial warrants, a mask ban, visible ID, body cameras and letting states sue DHS (Feb 2026).",
+  "url": "https://www.cortezmasto.senate.gov/news/press-releases/cortez-masto-las-vegas-community-leaders-call-for-guardrails-on-ice-abuses-of-power/",
+  "confirmed": false,
+  "changed": true
+ },
+ {
+  "who": "Catherine Cortez Masto",
+  "state": "NV",
+  "key": "ctc",
+  "old_stance": "Lean support",
+  "new_stance": "Support",
+  "evidence": "Cosponsor, American Family Act (S.1393), expanding the Child Tax Credit (Apr 2025); also cosponsored S.3596 to make it refundable from the first dollar (Mar 2026).",
+  "url": "https://policyrisk.com/research/legislation/S1393",
+  "confirmed": false,
+  "changed": true
+ },
+ {
+  "who": "Eric Schmitt",
+  "state": "MO",
+  "key": "priorauth",
+  "old_stance": "Unclear",
+  "new_stance": "Support",
+  "evidence": "Cosponsor, Improving Seniors' Timely Access to Care Act of 2025 (S.1816), joining Sep 2025.",
+  "url": "https://policyrisk.com/research/legislation/S1816",
+  "confirmed": false,
+  "changed": true
+ },
+ {
+  "who": "Eric Schmitt",
+  "state": "MO",
+  "key": "roe",
+  "old_stance": "Unclear",
+  "new_stance": "Lean oppose",
+  "evidence": "As Missouri AG he moved minutes after Dobbs to enforce the state's near-total abortion ban (Jun 2022); related action, not a vote on WHPA.",
+  "url": "https://en.wikipedia.org/wiki/Eric_Schmitt",
+  "confirmed": false,
+  "changed": true
+ },
+ {
+  "who": "Eric Schmitt",
+  "state": "MO",
+  "key": "imm",
+  "old_stance": "Unclear",
+  "new_stance": "Lean oppose",
+  "evidence": "In a NatCon speech he criticized both legal and illegal immigration and said the U.S. is not a universal nation (Sep 2025); no stance on a legalization bill.",
+  "url": "https://en.wikipedia.org/wiki/Eric_Schmitt",
+  "confirmed": false,
+  "changed": true
+ },
+ {
+  "who": "Pete Ricketts",
+  "state": "NE",
+  "key": "roe",
+  "old_stance": "Unclear",
+  "new_stance": "Lean oppose",
+  "evidence": "As governor pledged a total abortion ban if Roe fell (May 2022) and in 2023 cosponsored federal abortion-restriction bills; related, not a WHPA vote.",
+  "url": "https://en.wikipedia.org/wiki/Pete_Ricketts",
+  "confirmed": false,
+  "changed": true
+ },
+ {
+  "who": "Pete Ricketts",
+  "state": "NE",
+  "key": "wage",
+  "old_stance": "Unclear",
+  "new_stance": "Lean oppose",
+  "evidence": "As a 2014 governor candidate he opposed raising Nebraska's minimum wage; a state-level stance, no federal statement found.",
+  "url": "https://en.wikipedia.org/wiki/Pete_Ricketts",
+  "confirmed": false,
+  "changed": true
+ },
+ {
+  "who": "Pete Ricketts",
+  "state": "NE",
+  "key": "gerry",
+  "old_stance": "Unclear",
+  "new_stance": "Lean oppose",
+  "evidence": "As governor vetoed LB580, which would have created an independent redistricting commission, calling it unaccountable (Apr 2016); state-level, related.",
+  "url": "https://en.wikipedia.org/wiki/Pete_Ricketts",
+  "confirmed": false,
+  "changed": true
+ },
+ {
+  "who": "Pete Ricketts",
+  "state": "NE",
+  "key": "imm",
+  "old_stance": "Unclear",
+  "new_stance": "Lean oppose",
+  "evidence": "As governor vetoed bills giving DACA recipients driver's and professional licenses (2015, 2016); related state action, no stance on federal legalization found.",
+  "url": "https://en.wikipedia.org/wiki/Pete_Ricketts",
+  "confirmed": false,
+  "changed": true
+ },
+ {
+  "who": "Catherine Cortez Masto",
+  "state": "NV",
+  "key": "imm",
+  "old_stance": "Unclear",
+  "new_stance": "Support",
+  "evidence": "Sponsor, Fairness for Immigrant Families Act (S.5138, Jul 2026), creating a citizenship path for long-settled immigrants; urged balanced policy incl. border security.",
+  "url": "https://www.cortezmasto.senate.gov/?p=50227",
+  "confirmed": false,
+  "changed": true
+ },
+ {
+  "who": "Catherine Cortez Masto",
+  "state": "NV",
+  "key": "datactr",
+  "old_stance": "Unclear",
+  "new_stance": "Support",
+  "evidence": "Cosponsor, GRID Savings Act of 2026 (S.5199), assigning 150MW+ loads like data centers their grid interconnection costs to shield other customers (Sep 2026).",
+  "url": "https://policyrisk.com/research/legislation/S5199",
+  "confirmed": false,
+  "changed": true
+ },
+ {
+  "who": "Catherine Cortez Masto",
+  "state": "NV",
+  "key": "pacs",
+  "old_stance": "Unclear",
+  "new_stance": "Lean support",
+  "evidence": "Cosponsor, DISCLOSE Act of 2026 (S.3991), expanding political-spending disclosure (Mar 2026); a narrower measure that does not ban corporate PACs or super PACs.",
+  "url": "https://policyrisk.com/research/legislation/S3991",
+  "confirmed": false,
+  "changed": true
+ },
+ {
+  "who": "Catherine Cortez Masto",
+  "state": "NV",
+  "key": "ai",
+  "old_stance": "Lean support",
+  "new_stance": "Lean support",
+  "evidence": "Cosponsor, GUARD Act (S.3062), setting federal AI chatbot safety rules with criminal and civil penalties (Jan 2026); also voted to strip the state AI-law moratorium (Jul 2025); a narrower bill than broad AI guardrails.",
+  "url": "https://policyrisk.com/research/legislation/S3062",
+  "confirmed": false,
+  "changed": true
+ },
+ {
+  "who": "Pete Ricketts",
+  "state": "NE",
+  "key": "ai",
+  "old_stance": "Lean support",
+  "new_stance": "Lean support",
+  "evidence": "Cosponsor, GUARD Act (S.3062), setting federal AI chatbot safety rules with criminal and civil penalties (Mar 2026); also voted to strip the state AI-law moratorium (Jul 2025); a narrower bill than broad AI guardrails.",
+  "url": "https://policyrisk.com/research/legislation/S3062",
+  "confirmed": false,
+  "changed": true
+ },
+ {
+  "who": "Pete Ricketts",
+  "state": "NE",
+  "key": "stock",
+  "old_stance": "Lean support",
+  "new_stance": "Lean support",
+  "evidence": "Sponsor, Senate Stop Insider Trading Act, barring members from buying stocks (Sep 2026); narrower than the target bill, no President/VP coverage.",
+  "url": "https://www.fischer.senate.gov/public/index.cfm/press-releases?ID=F009CCC4-54CB-4E3E-AFA9-CF591BD66562",
+  "confirmed": false,
+  "changed": true
+ },
+ {
+  "who": "Deb Fischer",
+  "state": "NE",
+  "key": "stock",
+  "old_stance": "Lean support",
+  "new_stance": "Lean support",
+  "evidence": "Cosponsor, Ricketts' Stop Insider Trading Act, barring members from buying stocks, and voted for it (Sep 2026); narrower, no President/VP coverage.",
+  "url": "https://www.fischer.senate.gov/public/index.cfm/press-releases?ID=F009CCC4-54CB-4E3E-AFA9-CF591BD66562",
+  "confirmed": false,
+  "changed": true
+ },
+ {
+  "who": "Deb Fischer",
+  "state": "NE",
+  "key": "datactr",
+  "old_stance": "Lean support",
+  "new_stance": "Lean support",
+  "evidence": "Cosponsor, Husted's Ratepayer Protection Act, a voluntary standard for states to make big data centers pay full grid costs (Sep 2026); narrower, no mandate or rate cap.",
+  "url": "https://www.fischer.senate.gov/public/index.cfm/news?ID=A1EB5405-40F1-49AE-851F-5003A62FE92B",
+  "confirmed": false,
+  "changed": true
+ }
+]

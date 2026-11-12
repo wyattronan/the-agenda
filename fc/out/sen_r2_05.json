@@ -1,0 +1,189 @@
+[
+ {
+  "who": "Adam Hamilton",
+  "state": "KS",
+  "key": "gastax",
+  "old_stance": "Unclear",
+  "new_stance": "Support",
+  "evidence": "In the Oct 21 2026 debate he defended his ad's call to suspend the federal fuel tax until the Iran war ends, calling it a short-term stopgap for farmers.",
+  "url": "https://www.wichitaliberty.org/?p=41300",
+  "confirmed": false,
+  "changed": true
+ },
+ {
+  "who": "Adam Hamilton",
+  "state": "KS",
+  "key": "iran",
+  "old_stance": "Lean support",
+  "new_stance": "Support",
+  "evidence": "Called the Iran war an illegal offensive war and pledged to bring a bill in January forcing the president to end it quickly (debate, Oct 21 2026).",
+  "url": "https://www.wichitaliberty.org/?p=41300",
+  "confirmed": false,
+  "changed": true
+ },
+ {
+  "who": "Rand Paul",
+  "state": "KY",
+  "key": "termlim",
+  "old_stance": "Unclear",
+  "new_stance": "Support",
+  "evidence": "Original cosponsor, S.J.Res.1, Cruz's constitutional amendment to limit congressional terms (Jan 2025).",
+  "url": "https://policyrisk.com/research/legislation/SJRes1",
+  "confirmed": false,
+  "changed": true
+ },
+ {
+  "who": "Rand Paul",
+  "state": "KY",
+  "key": "pro",
+  "old_stance": "Unclear",
+  "new_stance": "Lean oppose",
+  "evidence": "Sponsor, National Right to Work Act (reintroduced Feb 2025), which would bar union-dues requirements; the PRO Act does the opposite, so a related but different policy.",
+  "url": "https://www.paul.senate.gov/dr-rand-paul-reintroduces-national-right-to-work-act-2/",
+  "confirmed": false,
+  "changed": true
+ },
+ {
+  "who": "Andy Barr",
+  "state": "KY",
+  "key": "isr",
+  "old_stance": "Unclear",
+  "new_stance": "Oppose",
+  "evidence": "Voted for H.R.8369, the Israel Security Assistance Support Act, which barred withholding U.S. weapons from Israel (May 16 2024, 224-187).",
+  "url": "https://clerk.house.gov/Votes/2024217",
+  "confirmed": false,
+  "changed": true
+ },
+ {
+  "who": "John Kennedy",
+  "state": "LA",
+  "key": "fil",
+  "old_stance": "Unclear",
+  "new_stance": "Oppose",
+  "evidence": "In a Jan 2022 floor speech opposed Democrats' push to end the 60-vote rule, saying a 51% win shouldn't mean getting everything; voted to keep it (Jan 19 2022).",
+  "url": "https://www.kennedy.senate.gov/2022/01/11/2022-1-kennedy-if-you-get-51-percent-of-the-vote-you-do-not-get-your-way-100-percent-of-the-time/",
+  "confirmed": false,
+  "changed": true
+ },
+ {
+  "who": "Jerry Moran",
+  "state": "KS",
+  "key": "fil",
+  "old_stance": "Unclear",
+  "new_stance": "Lean oppose",
+  "evidence": "Voted to sustain the chair and block Democrats' talking-filibuster carve-out for voting rights, a narrower change than abolition (Jan 19 2022, 52-48).",
+  "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1172/vote_117_2_00010.htm",
+  "confirmed": false,
+  "changed": true
+ },
+ {
+  "who": "Rand Paul",
+  "state": "KY",
+  "key": "fil",
+  "old_stance": "Lean support",
+  "new_stance": "Mixed",
+  "evidence": "Voted to block Democrats' talking-filibuster carve-out (Jan 19 2022, 52-48), but was later named among GOP senators urging weakening the 60-vote rule (May 2026).",
+  "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1172/vote_117_2_00010.htm",
+  "confirmed": false,
+  "changed": true
+ },
+ {
+  "who": "John Kennedy",
+  "state": "LA",
+  "key": "termlim",
+  "old_stance": "Unclear",
+  "new_stance": "Support",
+  "evidence": "Cosponsor, S.J.Res.2 (115th), Cruz's term-limits amendment (3 House terms, 2 Senate), saying limits keep politicians honest (Feb 2017); not on the 2025 version.",
+  "url": "https://www.kennedy.senate.gov/2017/02/08/2017-2-us-sen-kennedy-helps-deliver-reform/",
+  "confirmed": false,
+  "changed": true
+ },
+ {
+  "who": "John Kennedy",
+  "state": "LA",
+  "key": "ai",
+  "old_stance": "Lean support",
+  "new_stance": "Lean support",
+  "evidence": "Sponsor, AI Emergency Button Act, requiring advanced AI models to have an emergency kill switch; sought unanimous passage Sep 2026 (blocked by Paul); a narrower bill than broad AI guardrails.",
+  "url": "https://www.kennedy.senate.gov/2026/09/16/senate-blocks-kennedy-bill-to-require-ai-developers-to-install-an-emergency-kill-switch/",
+  "confirmed": false,
+  "changed": true
+ },
+ {
+  "who": "John Kennedy",
+  "state": "LA",
+  "key": "childcare",
+  "old_stance": "Unclear",
+  "new_stance": "Lean support",
+  "evidence": "Sponsor, Dependent Care FSA Expansion Act, raising the limit on pre-tax dependent care accounts (Dec 2024); a narrower, related approach, not a 7% cap.",
+  "url": "https://www.kennedy.senate.gov/2024/12/03/2024-12-kennedy-introduces-bill-to-help-families-afford-dependent-care/",
+  "confirmed": false,
+  "changed": true
+ },
+ {
+  "who": "John Kennedy",
+  "state": "LA",
+  "key": "imm",
+  "old_stance": "Unclear",
+  "new_stance": "Lean oppose",
+  "evidence": "Signed a letter with Lankford objecting to Biden's plan to grant legal status to undocumented spouses, calling it amnesty (Jun 2024); a related executive action.",
+  "url": "https://www.kennedy.senate.gov/2024/06/24/2024-6-kennedy-lankford-oppose-biden-amnesty-for-illegal-aliens/",
+  "confirmed": false,
+  "changed": true
+ },
+ {
+  "who": "Jerry Moran",
+  "state": "KS",
+  "key": "pro",
+  "old_stance": "Unclear",
+  "new_stance": "Lean oppose",
+  "evidence": "As a House member voted against H.R.800, the Employee Free Choice Act, an earlier union-organizing bill (Mar 1 2007, 241-185); not the PRO Act itself.",
+  "url": "https://clerk.house.gov/Votes/2007118",
+  "confirmed": false,
+  "changed": true
+ },
+ {
+  "who": "Jerry Moran",
+  "state": "KS",
+  "key": "dcpr",
+  "old_stance": "Unclear",
+  "new_stance": "Lean oppose",
+  "evidence": "As a House member voted against H.R.1905, giving DC a voting House seat, a narrower step than statehood (Apr 19 2007, 241-177).",
+  "url": "https://clerk.house.gov/Votes/2007231",
+  "confirmed": false,
+  "changed": true
+ },
+ {
+  "who": "Jerry Moran",
+  "state": "KS",
+  "key": "pfl",
+  "old_stance": "Unclear",
+  "new_stance": "Lean oppose",
+  "evidence": "As a House member voted against H.R.626, four weeks of paid parental leave for federal workers, a narrower policy (Jun 4 2009, 258-154).",
+  "url": "https://clerk.house.gov/Votes/2009310",
+  "confirmed": false,
+  "changed": true
+ },
+ {
+  "who": "Rand Paul",
+  "state": "KY",
+  "key": "m4a",
+  "old_stance": "Unclear",
+  "new_stance": "Oppose",
+  "evidence": "In an Aug 2015 GOP debate said he had been fighting single-payer for a decade; strongly opposes government-run health care.",
+  "url": "https://ontheissues.org/Senate/Rand_Paul.htm",
+  "confirmed": false,
+  "changed": true
+ },
+ {
+  "who": "Rand Paul",
+  "state": "KY",
+  "key": "toptax",
+  "old_stance": "Unclear",
+  "new_stance": "Lean oppose",
+  "evidence": "Has argued punishing the rich costs the poor jobs (Aug 2012) and backs a flat tax and repealing capital gains and estate tax hikes; no OBBBA-specific statement.",
+  "url": "https://ontheissues.org/Senate/Rand_Paul.htm",
+  "confirmed": false,
+  "changed": true
+ }
+]

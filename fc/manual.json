@@ -1,0 +1,346 @@
+[
+ {
+  "who": "Julia Letlow",
+  "key": "isr",
+  "new_stance": "Lean oppose",
+  "note": "Voted for a different bill (H.R. 8369 barring withholding of weapons); related-policy rule caps at Lean."
+ },
+ {
+  "who": "Jim Risch",
+  "key": "childcare",
+  "new_stance": "Unclear",
+  "note": "Bill content taken from title only; not verified."
+ },
+ {
+  "who": "Marsha Blackburn",
+  "key": "roe",
+  "new_stance": "Lean oppose",
+  "why": "federal Senate vote on a related federal bill caps at a Lean"
+ },
+ {
+  "who": "Marsha Blackburn",
+  "key": "wage",
+  "new_stance": "Lean oppose",
+  "why": "federal Senate vote on a related federal bill caps at a Lean"
+ },
+ {
+  "who": "Juliana Stratton",
+  "key": "sch",
+  "new_stance": "Oppose",
+  "evidence": "Won't back him as caucus leader. (Public statements as of Nov 8 2026, via CNN, Roll Call, POLITICO, The Hill, Al Jazeera, Drop Site News.)",
+  "url": null,
+  "why": "Schumer leadership count graphic, Nov 8 2026"
+ },
+ {
+  "who": "Adam Hamilton",
+  "key": "sch",
+  "new_stance": "Oppose",
+  "evidence": "'I'm not supporting Schumer for leader.' (Public statements as of Nov 8 2026, via CNN, Roll Call, POLITICO, The Hill, Al Jazeera, Drop Site News.)",
+  "url": null,
+  "why": "Schumer leadership count graphic, Nov 8 2026"
+ },
+ {
+  "who": "Troy Jackson",
+  "key": "sch",
+  "new_stance": "Oppose",
+  "evidence": "Will 'support somebody else.' (Public statements as of Nov 8 2026, via CNN, Roll Call, POLITICO, The Hill, Al Jazeera, Drop Site News.)",
+  "url": null,
+  "why": "Schumer leadership count graphic, Nov 8 2026"
+ },
+ {
+  "who": "Peggy Flanagan",
+  "key": "sch",
+  "new_stance": "Oppose",
+  "evidence": "'It is time for new leadership.' (Public statements as of Nov 8 2026, via CNN, Roll Call, POLITICO, The Hill, Al Jazeera, Drop Site News.)",
+  "url": null,
+  "why": "Schumer leadership count graphic, Nov 8 2026"
+ },
+ {
+  "who": "Abdul El-Sayed",
+  "key": "sch",
+  "new_stance": "Oppose",
+  "evidence": "Backs Chris Van Hollen for leader. (Public statements as of Nov 8 2026, via CNN, Roll Call, POLITICO, The Hill, Al Jazeera, Drop Site News.)",
+  "url": null,
+  "why": "Schumer leadership count graphic, Nov 8 2026"
+ },
+ {
+  "who": "Elissa Slotkin",
+  "key": "sch",
+  "new_stance": "Lean oppose",
+  "evidence": "Wants new leadership; no vote 'until I see a plan.' (Public statements as of Nov 8 2026, via CNN, Roll Call, POLITICO, The Hill, Al Jazeera, Drop Site News.)",
+  "url": null,
+  "why": "Schumer leadership count graphic, Nov 8 2026"
+ },
+ {
+  "who": "Annie Andrews",
+  "key": "sch",
+  "new_stance": "Lean oppose",
+  "evidence": "Wants new leadership: 'It's time for a generational change.' (Public statements as of Nov 8 2026, via CNN, Roll Call, POLITICO, The Hill, Al Jazeera, Drop Site News.)",
+  "url": null,
+  "why": "Schumer leadership count graphic, Nov 8 2026"
+ },
+ {
+  "who": "Chris Pappas",
+  "key": "sch",
+  "new_stance": "Lean oppose",
+  "evidence": "Wants 'a new generation of leadership.' (Public statements as of Nov 8 2026, via CNN, Roll Call, POLITICO, The Hill, Al Jazeera, Drop Site News.)",
+  "url": null,
+  "why": "Schumer leadership count graphic, Nov 8 2026"
+ },
+ {
+  "who": "Chris Van Hollen",
+  "key": "sch",
+  "new_stance": "Unclear",
+  "evidence": "Withholding support: 'Nobody should get a blank check.' (Public statements as of Nov 8 2026, via CNN, Roll Call, POLITICO, The Hill, Al Jazeera, Drop Site News.)",
+  "url": null,
+  "why": "Schumer leadership count graphic, Nov 8 2026"
+ },
+ {
+  "who": "James Talarico",
+  "key": "sch",
+  "new_stance": "Unclear",
+  "evidence": "Withholding support; wants to hear Schumer's vision first. (Public statements as of Nov 8 2026, via CNN, Roll Call, POLITICO, The Hill, Al Jazeera, Drop Site News.)",
+  "url": null,
+  "why": "Schumer leadership count graphic, Nov 8 2026"
+ },
+ {
+  "who": "Josh Turek",
+  "key": "sch",
+  "new_stance": "Unclear",
+  "evidence": "Withholding support; declined to commit when asked. (Public statements as of Nov 8 2026, via CNN, Roll Call, POLITICO, The Hill, Al Jazeera, Drop Site News.)",
+  "url": null,
+  "why": "Schumer leadership count graphic, Nov 8 2026"
+ },
+ {
+  "who": "Roy Cooper",
+  "key": "sch",
+  "new_stance": "Unclear",
+  "evidence": "Withholding support; declined to commit when asked. (Public statements as of Nov 8 2026, via CNN, Roll Call, POLITICO, The Hill, Al Jazeera, Drop Site News.)",
+  "url": null,
+  "why": "Schumer leadership count graphic, Nov 8 2026"
+ },
+ {
+  "who": "Sherrod Brown",
+  "key": "sch",
+  "new_stance": "Unclear",
+  "evidence": "Withholding support; declined to commit when asked. (Public statements as of Nov 8 2026, via CNN, Roll Call, POLITICO, The Hill, Al Jazeera, Drop Site News.)",
+  "url": null,
+  "why": "Schumer leadership count graphic, Nov 8 2026"
+ },
+ {
+  "who": "Scott Colom",
+  "key": "sch",
+  "new_stance": "Unclear",
+  "evidence": "Withholding support; wants leaders 'from beyond one borough.' Race not yet called. (Public statements as of Nov 8 2026, via CNN, Roll Call, POLITICO, The Hill, Al Jazeera, Drop Site News.)",
+  "url": null,
+  "why": "Schumer leadership count graphic, Nov 8 2026"
+ },
+ {
+  "who": "Chris Murphy",
+  "key": "sch",
+  "new_stance": "Unclear",
+  "evidence": "No stated position on the leader vote; founding member of the 'Fight Club' formed in 2025 to challenge Schumer's strategy (NYT). (Public statements as of Nov 8 2026, via CNN, Roll Call, POLITICO, The Hill, Al Jazeera, Drop Site News.)",
+  "url": null,
+  "why": "Schumer leadership count graphic, Nov 8 2026"
+ },
+ {
+  "who": "Elizabeth Warren",
+  "key": "sch",
+  "new_stance": "Unclear",
+  "evidence": "No stated position on the leader vote; founding member of the 'Fight Club' formed in 2025 to challenge Schumer's strategy (NYT). (Public statements as of Nov 8 2026, via CNN, Roll Call, POLITICO, The Hill, Al Jazeera, Drop Site News.)",
+  "url": null,
+  "why": "Schumer leadership count graphic, Nov 8 2026"
+ },
+ {
+  "who": "Bernie Sanders",
+  "key": "sch",
+  "new_stance": "Unclear",
+  "evidence": "No stated position on the leader vote; founding member of the 'Fight Club' formed in 2025 to challenge Schumer's strategy (NYT). (Public statements as of Nov 8 2026, via CNN, Roll Call, POLITICO, The Hill, Al Jazeera, Drop Site News.)",
+  "url": null,
+  "why": "Schumer leadership count graphic, Nov 8 2026"
+ },
+ {
+  "who": "Ed Markey",
+  "key": "sch",
+  "new_stance": "Unclear",
+  "evidence": "No stated position on the leader vote; joined 'Fight Club' actions challenging Schumer's strategy (NYT). (Public statements as of Nov 8 2026, via CNN, Roll Call, POLITICO, The Hill, Al Jazeera, Drop Site News.)",
+  "url": null,
+  "why": "Schumer leadership count graphic, Nov 8 2026"
+ },
+ {
+  "who": "Jeff Merkley",
+  "key": "sch",
+  "new_stance": "Unclear",
+  "evidence": "No stated position on the leader vote; joined 'Fight Club' actions challenging Schumer's strategy (NYT). (Public statements as of Nov 8 2026, via CNN, Roll Call, POLITICO, The Hill, Al Jazeera, Drop Site News.)",
+  "url": null,
+  "why": "Schumer leadership count graphic, Nov 8 2026"
+ },
+ {
+  "who": "Martin Heinrich",
+  "key": "sch",
+  "new_stance": "Unclear",
+  "evidence": "No stated position on the leader vote; joined 'Fight Club' actions challenging Schumer's strategy (NYT). (Public statements as of Nov 8 2026, via CNN, Roll Call, POLITICO, The Hill, Al Jazeera, Drop Site News.)",
+  "url": null,
+  "why": "Schumer leadership count graphic, Nov 8 2026"
+ },
+ {
+  "who": "Mark Kelly",
+  "key": "sch",
+  "new_stance": "Support",
+  "evidence": "'My plan is to support him.' (Public statements as of Nov 8 2026, via CNN, Roll Call, POLITICO, The Hill, Al Jazeera, Drop Site News.)",
+  "url": null,
+  "why": "Schumer leadership count graphic, Nov 8 2026"
+ },
+ {
+  "who": "Sheldon Whitehouse",
+  "key": "sch",
+  "new_stance": "Support",
+  "evidence": "Says the majority 'justifies another term.' (Public statements as of Nov 8 2026, via CNN, Roll Call, POLITICO, The Hill, Al Jazeera, Drop Site News.)",
+  "url": null,
+  "why": "Schumer leadership count graphic, Nov 8 2026"
+ },
+ {
+  "who": "Angela Alsobrooks",
+  "key": "sch",
+  "new_stance": "Support",
+  "evidence": "Told POLITICO she backs him. (Public statements as of Nov 8 2026, via CNN, Roll Call, POLITICO, The Hill, Al Jazeera, Drop Site News.)",
+  "url": null,
+  "why": "Schumer leadership count graphic, Nov 8 2026"
+ },
+ {
+  "who": "Cory Booker",
+  "key": "sch",
+  "new_stance": "Unclear",
+  "evidence": "No public commitment either way on the leader vote. (Public statements as of Nov 8 2026, via CNN, Roll Call, POLITICO, The Hill, Al Jazeera, Drop Site News.)",
+  "url": null,
+  "why": "Schumer leadership count graphic, Nov 8 2026"
+ },
+ {
+  "who": "Mark Warner",
+  "key": "sch",
+  "new_stance": "Unclear",
+  "evidence": "No public commitment either way on the leader vote. (Public statements as of Nov 8 2026, via CNN, Roll Call, POLITICO, The Hill, Al Jazeera, Drop Site News.)",
+  "url": null,
+  "why": "Schumer leadership count graphic, Nov 8 2026"
+ },
+ {
+  "who": "Ben Ray Luj\u00e1n",
+  "key": "sch",
+  "new_stance": "Unclear",
+  "evidence": "No public commitment either way on the leader vote. (Public statements as of Nov 8 2026, via CNN, Roll Call, POLITICO, The Hill, Al Jazeera, Drop Site News.)",
+  "url": null,
+  "why": "Schumer leadership count graphic, Nov 8 2026"
+ },
+ {
+  "who": "Mary Peltola",
+  "key": "sch",
+  "new_stance": "Unclear",
+  "evidence": "No public commitment either way on the leader vote. Race not yet called. (Public statements as of Nov 8 2026, via CNN, Roll Call, POLITICO, The Hill, Al Jazeera, Drop Site News.)",
+  "url": null,
+  "why": "Schumer leadership count graphic, Nov 8 2026"
+ },
+ {
+  "who": "Bernie Sanders",
+  "key": "sch",
+  "new_stance": "Oppose",
+  "evidence": "'I will not be supporting Chuck to be reelected as the Democratic leader' (Nov 10, 2026, Capitol news conference).",
+  "url": "https://www.cbsnews.com/news/bernie-sanders-chuck-schumer-democratic-leader-senate/",
+  "why": "Schumer leadership update, Nov 10 2026"
+ },
+ {
+  "who": "Elissa Slotkin",
+  "key": "sch",
+  "new_stance": "Oppose",
+  "evidence": "'I'm a no until and unless I see' a concrete plan that's definitively different (Nov 10, 2026, with Sanders); says she isn't seeking the job and had a 'productive conversation' with Van Hollen about his potential candidacy.",
+  "url": "https://thehill.com/homenews/senate/6211705-sanders-slotkin-oppose-schumer/",
+  "why": "Schumer leadership update, Nov 10 2026"
+ },
+ {
+  "who": "Chris Van Hollen",
+  "key": "sch",
+  "new_stance": "Lean oppose",
+  "evidence": "'There should be no coronation of the next Democratic leader' (Nov 7, 2026); declined to back Schumer and urged colleagues to withhold commitments. AP reports he is considering a run (Nov 10).",
+  "url": "https://wtop.com/us-politics/2026/11/bernie-sanders-wont-support-schumer-for-senate-democratic-leader-saying-its-time-for-change",
+  "why": "Schumer leadership update, Nov 10 2026"
+ },
+ {
+  "who": "Elizabeth Warren",
+  "key": "sch",
+  "new_stance": "Unclear",
+  "evidence": "Hasn't committed to backing Schumer (Washington Times, Nov 9, 2026); member of the eight-senator 'Fight Club' that has challenged his strategy.",
+  "url": "https://www.washingtontimes.com/news/2026/nov/9/could-democrats-give-chuck-schumer-boot/",
+  "why": "Schumer leadership update, Nov 10 2026"
+ },
+ {
+  "who": "Ed Markey",
+  "key": "sch",
+  "new_stance": "Lean oppose",
+  "evidence": "Didn't endorse Schumer in his primary, saying 'We need a big debate about new leadership in the Senate' (Aug 2026); demurred again after the election (Nov 5, 2026).",
+  "url": "https://www.newsweek.com/full-list-democrats-rallying-against-chuck-schumer-senate-12315442",
+  "why": "Schumer leadership update, Nov 10 2026"
+ },
+ {
+  "who": "James Talarico",
+  "key": "sch",
+  "new_stance": "Lean oppose",
+  "evidence": "Called for 'new blood'; since winning, wants to 'hear about [Schumer's] vision' before committing (Nov 2026). The Washington Times lists him as a no; other outlets don't, so he's counted as a soft no.",
+  "url": "https://www.aljazeera.com/news/2026/11/5/division-among-us-democrats-over-schumers-leadership-role",
+  "why": "Schumer leadership update, Nov 10 2026"
+ },
+ {
+  "who": "Juliana Stratton",
+  "key": "sch",
+  "new_stance": "Oppose",
+  "evidence": "Won't support Schumer, per a spokesperson (Nov 2026); the first primary winner to rule him out, in January 2026.",
+  "url": "https://www.aljazeera.com/news/2026/11/5/division-among-us-democrats-over-schumers-leadership-role",
+  "why": "Schumer leadership update, Nov 10 2026"
+ },
+ {
+  "who": "Annie Andrews",
+  "key": "sch",
+  "new_stance": "Oppose",
+  "evidence": "Won't back Schumer for majority leader: 'It is time for a generational change' (Nov 2026); pledged during the campaign not to support him.",
+  "url": "https://kutv.com/news/nation-world/generational-change-sen-elect-annie-andrews-wont-back-chuck-schumer-for-majority-leader-south-carolina-politics",
+  "why": "Schumer leadership update, Nov 10 2026"
+ },
+ {
+  "who": "Adam Hamilton",
+  "key": "sch",
+  "new_stance": "Oppose",
+  "evidence": "'I'm not supporting Schumer' (CNN, Sept 2026).",
+  "url": "https://www.aljazeera.com/news/2026/11/5/division-among-us-democrats-over-schumers-leadership-role",
+  "why": "Schumer leadership update, Nov 10 2026"
+ },
+ {
+  "who": "Troy Jackson",
+  "key": "sch",
+  "new_stance": "Oppose",
+  "evidence": "Told Schumer he will 'support somebody else' (Nov 2026).",
+  "url": "https://www.aljazeera.com/news/2026/11/5/division-among-us-democrats-over-schumers-leadership-role",
+  "why": "Schumer leadership update, Nov 10 2026"
+ },
+ {
+  "who": "Abdul El-Sayed",
+  "key": "sch",
+  "new_stance": "Oppose",
+  "evidence": "Will support Chris Van Hollen for leader (CNN, Nov 2026).",
+  "url": "https://www.aljazeera.com/news/2026/11/5/division-among-us-democrats-over-schumers-leadership-role",
+  "why": "Schumer leadership update, Nov 10 2026"
+ },
+ {
+  "who": "Peggy Flanagan",
+  "key": "sch",
+  "new_stance": "Oppose",
+  "evidence": "'It is time for new leadership' (Nov 4, 2026).",
+  "url": "https://www.aljazeera.com/news/2026/11/5/division-among-us-democrats-over-schumers-leadership-role",
+  "why": "Schumer leadership update, Nov 10 2026"
+ },
+ {
+  "who": "Chris Pappas",
+  "key": "sch",
+  "new_stance": "Lean oppose",
+  "evidence": "'Voters are hungry for ... a new generation of leadership in the Senate' (Nov 2026).",
+  "url": "https://www.aljazeera.com/news/2026/11/5/division-among-us-democrats-over-schumers-leadership-role",
+  "why": "Schumer leadership update, Nov 10 2026"
+ }
+]

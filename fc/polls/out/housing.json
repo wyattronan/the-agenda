@@ -1,0 +1,695 @@
+[
+ {
+  "keys": [
+   "sen:road",
+   "gov:house"
+  ],
+  "match": "concept",
+  "pollster": "PPIC Statewide Survey",
+  "sponsor": "",
+  "tier": 1,
+  "type": "state",
+  "fielded": "2025-10",
+  "n": 2306,
+  "question": "Favor easing permits and allowing more housing to be built so lower- and middle-income Californians can afford to buy a home",
+  "url": "https://www.ppic.org/publication/ppic-statewide-survey-californians-and-their-economic-well-being-november-2025/",
+  "states": {
+   "CA": {
+    "sup": 76
+   }
+  },
+  "national": null,
+  "note": "All adults; likely voters 74%. Oppose not shown on page. Companion item: allow more apartment construction to keep rents affordable, 72% adults / 70% LV favor."
+ },
+ {
+  "keys": [
+   "gov:renter"
+  ],
+  "match": "concept",
+  "pollster": "Emerson College Polling",
+  "sponsor": "",
+  "tier": 1,
+  "type": "state",
+  "fielded": "2026-05",
+  "n": 1000,
+  "question": "Support a ballot measure limiting annual rent increases in Massachusetts to no more than 5%",
+  "url": "https://emersoncollegepolling.com/massachusetts-2026-poll/",
+  "states": {
+   "MA": {
+    "sup": 60,
+    "opp": 26
+   }
+  },
+  "national": null,
+  "note": "Massachusetts voters; 14% not sure. Statewide rent-cap initiative later removed from the 2026 ballot by the SJC (June 23, 2026)."
+ },
+ {
+  "keys": [
+   "gov:renter"
+  ],
+  "match": "concept",
+  "pollster": "Suffolk University Political Research Center",
+  "sponsor": "The Boston Globe",
+  "tier": 1,
+  "type": "state",
+  "fielded": "2025-11",
+  "n": 500,
+  "question": "Support a proposal capping annual rent increases in most rental units at 5% statewide",
+  "url": "https://www.suffolk.edu/-/media/suffolk/documents/academics/research-at-suffolk/suprc/polls/massachusetts2/2025/11_25_2025_massachusetts_marginals_embargoed.pdf?la=en&hash=7A268DEC6084E7409420F65AE409AF2E4031A313",
+  "states": {
+   "MA": {
+    "sup": 62.6,
+    "opp": 30.6
+   }
+  },
+  "national": null,
+  "note": "Registered voters, Q42; 6.8% undecided."
+ },
+ {
+  "keys": [
+   "gov:renter"
+  ],
+  "match": "concept",
+  "pollster": "Rutgers-Eagleton Poll (Eagleton Center for Public Interest Polling)",
+  "sponsor": "Housing and Community Development Network of New Jersey",
+  "tier": 3,
+  "type": "state",
+  "fielded": "2025-04",
+  "n": 1058,
+  "question": "Support New Jersey adopting statewide rent control",
+  "url": "https://eagletonpoll.rutgers.edu/wp-content/uploads/2025/05/Rutgers-Eagleton-Poll-Housing-and-Community-Development-Network-of-NJ-5.20.25-FINAL-PDF.pdf",
+  "states": {
+   "NJ": {
+    "sup": 61,
+    "opp": 24
+   }
+  },
+  "national": null,
+  "note": "NJ adults, probability-based Garden State Panel; academic pollster but sponsored by a housing advocacy group (hence tier 3). 15% don't know."
+ },
+ {
+  "keys": [
+   "sen:downpay",
+   "gov:downpay"
+  ],
+  "match": "concept",
+  "pollster": "Rutgers-Eagleton Poll (Eagleton Center for Public Interest Polling)",
+  "sponsor": "Housing and Community Development Network of New Jersey",
+  "tier": 3,
+  "type": "state",
+  "fielded": "2025-04",
+  "n": 1058,
+  "question": "Support offering first-generation homebuyers down payment assistance",
+  "url": "https://eagletonpoll.rutgers.edu/wp-content/uploads/2025/05/Rutgers-Eagleton-Poll-Housing-and-Community-Development-Network-of-NJ-5.20.25-FINAL-PDF.pdf",
+  "states": {
+   "NJ": {
+    "sup": 69,
+    "opp": 21
+   }
+  },
+  "national": null,
+  "note": "NJ adults; advocacy-sponsored, conducted by Rutgers-Eagleton. 10% don't know."
+ },
+ {
+  "keys": [
+   "sen:road",
+   "gov:house"
+  ],
+  "match": "concept",
+  "pollster": "Rutgers-Eagleton Poll (Eagleton Center for Public Interest Polling)",
+  "sponsor": "Housing and Community Development Network of New Jersey",
+  "tier": 3,
+  "type": "state",
+  "fielded": "2025-04",
+  "n": 1058,
+  "question": "Support encouraging the building of more apartments in New Jersey",
+  "url": "https://eagletonpoll.rutgers.edu/wp-content/uploads/2025/05/Rutgers-Eagleton-Poll-Housing-and-Community-Development-Network-of-NJ-5.20.25-FINAL-PDF.pdf",
+  "states": {
+   "NJ": {
+    "sup": 45,
+    "opp": 34
+   }
+  },
+  "national": null,
+  "note": "NJ adults; advocacy-sponsored, conducted by Rutgers-Eagleton. 21% don't know. Loose match (supply, not zoning per se)."
+ },
+ {
+  "keys": [
+   "gov:renter"
+  ],
+  "match": "bill",
+  "pollster": "EMC Research",
+  "sponsor": "Washington Low Income Housing Alliance",
+  "tier": 3,
+  "type": "state",
+  "fielded": "2025-01",
+  "n": 1100,
+  "question": "Support a Washington rent stabilization bill limiting excessive rent increases and move-in/late fees",
+  "url": "https://wliha.org/sites/default/files/2025-03/EMC_25_9588_Report___3_3_Presentation.pdf",
+  "states": {
+   "WA": {
+    "sup": 72,
+    "opp": 27
+   }
+  },
+  "national": null,
+  "note": "Registered voters, initial ask (Q9), before messaging. Sponsored by advocacy group backing the bill (HB 1217, later enacted)."
+ },
+ {
+  "keys": [
+   "gov:corphome"
+  ],
+  "match": "concept",
+  "question": "Bar large companies from buying new single-family homes and require current large-company owners to sell them within ten years",
+  "states": {
+   "IA": {
+    "sup": 79,
+    "opp": 20
+   },
+   "ME": {
+    "sup": 81,
+    "opp": 18
+   },
+   "GA": {
+    "sup": 82,
+    "opp": 16
+   },
+   "MI": {
+    "sup": 79,
+    "opp": 21
+   },
+   "TX": {
+    "sup": 80,
+    "opp": 20
+   },
+   "OH": {
+    "sup": 77,
+    "opp": 22
+   },
+   "NC": {
+    "sup": 78,
+    "opp": 21
+   },
+   "MN": {
+    "sup": 80,
+    "opp": 19
+   },
+   "NH": {
+    "sup": 76,
+    "opp": 22
+   },
+   "AK": {
+    "sup": 81,
+    "opp": 18
+   }
+  },
+  "national": {
+   "sup": 80,
+   "opp": 20
+  },
+  "note": "Real state samples (n=600-2,000 per state; IA 2,000, ME 800, TX/NC 630) from online opt-in panels, fielded May 27-July 1, 2026; national survey Mar 11-19, 2026 n=1,200. Federal proposal (Q17). Montana and Nebraska housing PDFs did not load. May overlap with cross-cutting agent's UMD PPC pull. Per-state URLs: https://publicconsultation.org/wp-content/uploads/2026/07/CG-Questionnaire-Iowa-Housing-2026.pdf; https://publicconsultation.org/wp-content/uploads/2026/07/CG-Questionnaire-Maine-Housing-2026.pdf; https://publicconsultation.org/wp-content/uploads/2026/07/CG-Questionnaire-Georgia-Housing-2026.pdf; https://publicconsultation.org/wp-content/uploads/2026/07/CG-Questionnaire-Michigan-Housing-2026.pdf; https://publicconsultation.org/wp-content/uploads/2026/07/CG-Questionnaire-Texas-Housing-2026.pdf; https://publicconsultation.org/wp-content/uploads/2026/07/CG-Questionnaire-Ohio-Housing-2026.pdf; https://publicconsultation.org/wp-content/uploads/2026/07/CG-Questionnaire-North-Carolina-Housing-2026.pdf; https://publicconsultation.org/wp-content/uploads/2026/07/CG-Questionnaire-Minnesota-Housing-2026.pdf; https://publicconsultation.org/wp-content/uploads/2026/07/CG-Questionnaire-New-Hampshire-Housing-2026.pdf; https://publicconsultation.org/wp-content/uploads/2026/07/CG-Questionnaire-Alaska-Housing-2026.pdf",
+  "pollster": "Program for Public Consultation, University of Maryland",
+  "sponsor": "Voice of the People / UMD CivIC (Common Ground in the Battlegrounds 2026)",
+  "tier": 2,
+  "type": "multistate",
+  "fielded": "2026-06",
+  "n": null,
+  "url": "https://publicconsultation.org/wp-content/uploads/2026/07/CG-Questionnaire-Iowa-Housing-2026.pdf"
+ },
+ {
+  "keys": [
+   "gov:trust"
+  ],
+  "match": "concept",
+  "question": "Give $25 billion to local governments to expand high-density housing affordable to low- and middle-income households",
+  "states": {
+   "IA": {
+    "sup": 73,
+    "opp": 27
+   },
+   "ME": {
+    "sup": 75,
+    "opp": 25
+   },
+   "GA": {
+    "sup": 77,
+    "opp": 22
+   },
+   "MI": {
+    "sup": 74,
+    "opp": 25
+   },
+   "TX": {
+    "sup": 77,
+    "opp": 22
+   },
+   "OH": {
+    "sup": 71,
+    "opp": 29
+   },
+   "NC": {
+    "sup": 75,
+    "opp": 25
+   },
+   "MN": {
+    "sup": 75,
+    "opp": 24
+   },
+   "NH": {
+    "sup": 72,
+    "opp": 26
+   },
+   "AK": {
+    "sup": 79,
+    "opp": 20
+   }
+  },
+  "national": {
+   "sup": 74,
+   "opp": 26
+  },
+  "note": "Federal funding for affordable-housing construction (Q13), loose match to housing trust funds/bonds. Companion Q14 (up to $40B for low/very-low-income high-density housing): IA 69/30, ME 76/24, GA 74/26, MI 71/28, TX 71/27, OH 66/33, NC 72/26, MN 74/25, NH 69/30, AK 75/23; national 74/26. Opt-in panels; same fielding as gov:corphome entry. May overlap with cross-cutting agent. Per-state URLs: https://publicconsultation.org/wp-content/uploads/2026/07/CG-Questionnaire-Iowa-Housing-2026.pdf; https://publicconsultation.org/wp-content/uploads/2026/07/CG-Questionnaire-Maine-Housing-2026.pdf; https://publicconsultation.org/wp-content/uploads/2026/07/CG-Questionnaire-Georgia-Housing-2026.pdf; https://publicconsultation.org/wp-content/uploads/2026/07/CG-Questionnaire-Michigan-Housing-2026.pdf; https://publicconsultation.org/wp-content/uploads/2026/07/CG-Questionnaire-Texas-Housing-2026.pdf; https://publicconsultation.org/wp-content/uploads/2026/07/CG-Questionnaire-Ohio-Housing-2026.pdf; https://publicconsultation.org/wp-content/uploads/2026/07/CG-Questionnaire-North-Carolina-Housing-2026.pdf; https://publicconsultation.org/wp-content/uploads/2026/07/CG-Questionnaire-Minnesota-Housing-2026.pdf; https://publicconsultation.org/wp-content/uploads/2026/07/CG-Questionnaire-New-Hampshire-Housing-2026.pdf; https://publicconsultation.org/wp-content/uploads/2026/07/CG-Questionnaire-Alaska-Housing-2026.pdf",
+  "pollster": "Program for Public Consultation, University of Maryland",
+  "sponsor": "Voice of the People / UMD CivIC (Common Ground in the Battlegrounds 2026)",
+  "tier": 2,
+  "type": "multistate",
+  "fielded": "2026-06",
+  "n": null,
+  "url": "https://publicconsultation.org/wp-content/uploads/2026/07/CG-Questionnaire-Iowa-Housing-2026.pdf"
+ },
+ {
+  "keys": [
+   "gov:corphome"
+  ],
+  "match": "concept",
+  "pollster": "Advocus Partners",
+  "sponsor": "Bipartisan Policy Center",
+  "tier": 2,
+  "type": "national",
+  "fielded": "2026-04",
+  "n": 1000,
+  "question": "Bar corporations and funds that own 350+ single-family homes from buying more",
+  "url": "https://bipartisanpolicy.org/wp-content/uploads/2026/05/April-2026-poll-questions-and-data.pdf",
+  "states": {},
+  "national": {
+   "sup": 70,
+   "opp": 12
+  },
+  "note": "Registered voters nationwide, Apr 28-30, 2026; 19% unsure."
+ },
+ {
+  "keys": [
+   "sen:road",
+   "gov:house"
+  ],
+  "match": "concept",
+  "pollster": "Advocus Partners",
+  "sponsor": "Bipartisan Policy Center",
+  "tier": 2,
+  "type": "national",
+  "fielded": "2026-04",
+  "n": 1000,
+  "question": "Federal incentives for state and local governments to change zoning to allow new housing",
+  "url": "https://bipartisanpolicy.org/wp-content/uploads/2026/05/April-2026-poll-questions-and-data.pdf",
+  "states": {},
+  "national": {
+   "sup": 66,
+   "opp": 13
+  },
+  "note": "Registered voters; 22% unsure. Companion item: streamline federal regulations to cut costs/delays in building homes, 75% support / 7% oppose."
+ },
+ {
+  "keys": [
+   "sen:downpay",
+   "gov:downpay"
+  ],
+  "match": "bill",
+  "question": "Federal down payment assistance of up to $25,000 for first-time homebuyers",
+  "states": {
+   "AZ": {
+    "sup": 66
+   },
+   "GA": {
+    "sup": 68
+   },
+   "MI": {
+    "sup": 64
+   },
+   "NV": {
+    "sup": 66
+   },
+   "PA": {
+    "sup": 64
+   },
+   "WI": {
+    "sup": 63
+   }
+  },
+  "national": {
+   "sup": 67
+  },
+  "note": "Six-state swing survey Oct 4-14, 2024, ~600 adults per state (opt-in online panels), plus national n=1,190. Favor only reported on summary page; per-state toplines at publicconsultation.org/wp-content/uploads/2024/10/Housing_Quaire_1024_<ST>.pdf. May overlap with cross-cutting agent's UMD PPC pull.",
+  "pollster": "Program for Public Consultation, University of Maryland",
+  "sponsor": "",
+  "tier": 2,
+  "type": "multistate",
+  "fielded": "2024-10",
+  "n": 4638,
+  "url": "https://publicconsultation.org/ss-housing/"
+ },
+ {
+  "keys": [
+   "gov:corphome"
+  ],
+  "match": "concept",
+  "question": "Require corporations with over $50M in assets to sell their single-family homes within ten years",
+  "states": {
+   "AZ": {
+    "sup": 67
+   },
+   "GA": {
+    "sup": 66
+   },
+   "MI": {
+    "sup": 68
+   },
+   "NV": {
+    "sup": 71
+   },
+   "PA": {
+    "sup": 67
+   },
+   "WI": {
+    "sup": 66
+   }
+  },
+  "national": {
+   "sup": 67
+  },
+  "note": "Six-state swing survey Oct 4-14, 2024, ~600 adults per state (opt-in online panels), plus national n=1,190. Favor only reported on summary page; per-state toplines at publicconsultation.org/wp-content/uploads/2024/10/Housing_Quaire_1024_<ST>.pdf. May overlap with cross-cutting agent's UMD PPC pull. Companion: deny tax deductions to corporations owning 50+ such homes, 67-71% across states, 71% national.",
+  "pollster": "Program for Public Consultation, University of Maryland",
+  "sponsor": "",
+  "tier": 2,
+  "type": "multistate",
+  "fielded": "2024-10",
+  "n": 4638,
+  "url": "https://publicconsultation.org/ss-housing/"
+ },
+ {
+  "keys": [
+   "sen:road",
+   "gov:house"
+  ],
+  "match": "concept",
+  "question": "Favor one's own local government allowing more dense housing",
+  "states": {
+   "AZ": {
+    "sup": 61
+   },
+   "GA": {
+    "sup": 67
+   },
+   "MI": {
+    "sup": 67
+   },
+   "NV": {
+    "sup": 67
+   },
+   "PA": {
+    "sup": 65
+   },
+   "WI": {
+    "sup": 70
+   }
+  },
+  "national": {
+   "sup": 68
+  },
+  "note": "Six-state swing survey Oct 4-14, 2024, ~600 adults per state (opt-in online panels), plus national n=1,190. Favor only reported on summary page; per-state toplines at publicconsultation.org/wp-content/uploads/2024/10/Housing_Quaire_1024_<ST>.pdf. May overlap with cross-cutting agent's UMD PPC pull. Separate item on keeping federal infrastructure-funding preferences tied to denser zoning: 55-61% in states, 64% national.",
+  "pollster": "Program for Public Consultation, University of Maryland",
+  "sponsor": "",
+  "tier": 2,
+  "type": "multistate",
+  "fielded": "2024-10",
+  "n": 4638,
+  "url": "https://publicconsultation.org/ss-housing/"
+ },
+ {
+  "keys": [
+   "gov:trust"
+  ],
+  "match": "concept",
+  "question": "$25 billion in federal grants for housing affordable to low- and middle-income households",
+  "states": {
+   "AZ": {
+    "sup": 66
+   },
+   "GA": {
+    "sup": 73
+   },
+   "MI": {
+    "sup": 70
+   },
+   "NV": {
+    "sup": 68
+   },
+   "PA": {
+    "sup": 72
+   },
+   "WI": {
+    "sup": 69
+   }
+  },
+  "national": {
+   "sup": 71
+  },
+  "note": "Six-state swing survey Oct 4-14, 2024, ~600 adults per state (opt-in online panels), plus national n=1,190. Favor only reported on summary page; per-state toplines at publicconsultation.org/wp-content/uploads/2024/10/Housing_Quaire_1024_<ST>.pdf. May overlap with cross-cutting agent's UMD PPC pull. Loose match to trust funds/bonds. Companion $40B for very-low/low-income housing: AZ 71, GA 70, MI 73, NV 69, PA 71, WI 73; national 74.",
+  "pollster": "Program for Public Consultation, University of Maryland",
+  "sponsor": "",
+  "tier": 2,
+  "type": "multistate",
+  "fielded": "2024-10",
+  "n": 4638,
+  "url": "https://publicconsultation.org/ss-housing/"
+ },
+ {
+  "keys": [
+   "sen:downpay",
+   "gov:downpay"
+  ],
+  "match": "bill",
+  "pollster": "RMG Research / Napolitan News Service (Scott Rasmussen)",
+  "sponsor": "",
+  "tier": 2,
+  "type": "national",
+  "fielded": "2024-08",
+  "n": 1000,
+  "question": "Favor giving first-time home buyers a $25,000 grant toward a home purchase (Harris proposal), first ask",
+  "url": "https://napolitannews.org/assets/pdfs/GCM24-0821-Mini-Toplines-First-Time-Home-Buyer-Grants.pdf",
+  "states": {},
+  "national": {
+   "sup": 58,
+   "opp": 31
+  },
+  "note": "Registered voters, Aug 21-22, 2024. sup = strongly 32 + somewhat 26; opp = somewhat 13 + strongly 18; 10% not sure."
+ },
+ {
+  "keys": [
+   "gov:trust"
+  ],
+  "match": "bill",
+  "pollster": "PPIC Statewide Survey",
+  "sponsor": "",
+  "tier": 1,
+  "type": "state",
+  "fielded": "2026-10",
+  "n": 1086,
+  "question": "Vote on Prop 1, an $11.25 billion state housing affordability bond",
+  "url": "https://www.ppic.org/pdf/ppic-statewide-survey-californians-and-their-government-october-2026.pdf",
+  "states": {
+   "CA": {
+    "sup": 60,
+    "opp": 38
+   }
+  },
+  "national": null,
+  "note": "Likely voters, Oct 16-22, 2026 (pre-election ballot poll, not the result); 2% don't know."
+ },
+ {
+  "keys": [
+   "gov:downpay",
+   "sen:downpay"
+  ],
+  "match": "concept",
+  "pollster": "PPIC Statewide Survey",
+  "sponsor": "",
+  "tier": 1,
+  "type": "state",
+  "fielded": "2026-10",
+  "n": 1086,
+  "question": "Vote on Prop 37, a $25 billion state loan program to help middle-income Californians buy homes",
+  "url": "https://www.ppic.org/pdf/ppic-statewide-survey-californians-and-their-government-october-2026.pdf",
+  "states": {
+   "CA": {
+    "sup": 65,
+    "opp": 32
+   }
+  },
+  "national": null,
+  "note": "Likely voters; 4% don't know. Homebuyer financing assistance (loan program), loose match to down payment aid."
+ },
+ {
+  "keys": [
+   "gov:house",
+   "sen:road"
+  ],
+  "match": "concept",
+  "pollster": "PPIC Statewide Survey",
+  "sponsor": "",
+  "tier": 1,
+  "type": "state",
+  "fielded": "2026-10",
+  "n": 1086,
+  "question": "Vote on Prop 45, expedited CEQA environmental review for certain projects including most housing",
+  "url": "https://www.ppic.org/pdf/ppic-statewide-survey-californians-and-their-government-october-2026.pdf",
+  "states": {
+   "CA": {
+    "sup": 46,
+    "opp": 50
+   }
+  },
+  "national": null,
+  "note": "Likely voters; 4% don't know. Permitting/streamlining ballot measure that covers more than housing, so a loose match."
+ },
+ {
+  "keys": [
+   "gov:renter"
+  ],
+  "match": "concept",
+  "pollster": "University of Rhode Island (Rhode Island Survey Initiative) / YouGov",
+  "sponsor": "",
+  "tier": 1,
+  "type": "state",
+  "fielded": "2025-08",
+  "n": 500,
+  "question": "Support rent stabilization limiting annual rent increases (e.g., 2-3%)",
+  "url": "https://web.uri.edu/harrington/wp-content/uploads/sites/2164/2025-Survey-Report.pdf",
+  "states": {
+   "RI": {
+    "sup": 72,
+    "opp": 10
+   }
+  },
+  "national": null,
+  "note": "RI adults, YouGov online panel, MoE +/-6. Large neutral/unsure share. Stricter rent control (fixed caps): 59/15."
+ },
+ {
+  "keys": [
+   "gov:house",
+   "sen:road"
+  ],
+  "match": "concept",
+  "pollster": "University of Rhode Island (Rhode Island Survey Initiative) / YouGov",
+  "sponsor": "",
+  "tier": 1,
+  "type": "state",
+  "fielded": "2025-08",
+  "n": 500,
+  "question": "Support state legislation requiring multifamily housing be allowed on lots zoned single-family",
+  "url": "https://web.uri.edu/harrington/wp-content/uploads/sites/2164/2025-Survey-Report.pdf",
+  "states": {
+   "RI": {
+    "sup": 45,
+    "opp": 24
+   }
+  },
+  "national": null,
+  "note": "RI adults; large neutral share. Related: zoning to allow smaller lots near transit 50/18; 65% want the state to penalize towns that block affordable housing (37% withhold funds + 28% require contributions elsewhere; 11% do nothing, 24% unsure)."
+ },
+ {
+  "keys": [
+   "gov:house",
+   "sen:road"
+  ],
+  "match": "bill",
+  "pollster": "YouGov",
+  "sponsor": "Regional Plan Association",
+  "tier": 3,
+  "type": "state",
+  "fielded": "2025-10",
+  "n": null,
+  "question": "Support requiring each Connecticut city or town to allow a set number of homes, including for lower- and moderate-income residents (HB 5002 provision)",
+  "url": "https://rpa.org/news/news-release/rpa-releases-new-poll-findings-housing-is-the-top-voter-concern-in-connecticut-voters-want-governor-lamont-to-take-action-on-policies-to-address-the-housing-crisis",
+  "states": {
+   "CT": {
+    "sup": 73
+   }
+  },
+  "national": null,
+  "note": "CT registered voters; sponsored by a pro-housing planning nonprofit backing HB 5002. Release says each item drew under 30% opposition but gives no exact opp. Related: incentives for homes near transit 72%; convert vacant offices/strip malls to homes 86%."
+ },
+ {
+  "keys": [
+   "gov:corphome"
+  ],
+  "match": "concept",
+  "pollster": "RMG Research / Napolitan News Service (Scott Rasmussen)",
+  "sponsor": "",
+  "tier": 2,
+  "type": "national",
+  "fielded": "2026-02",
+  "n": 1000,
+  "question": "Favor banning large Wall Street investment firms from buying single-family homes",
+  "url": "https://napolitannews.org/posts/58-percent-favor-banning-wall-street-from-buying-homes-just-18-want-feds-to-make-that-call",
+  "states": {},
+  "national": {
+   "sup": 58,
+   "opp": 22
+  },
+  "note": "Registered voters, online, Feb 17, 2026; 20% not sure. Only 18% wanted the federal government (vs. states/localities) to make that call, per headline."
+ },
+ {
+  "keys": [
+   "gov:renter"
+  ],
+  "match": "concept",
+  "pollster": "PPIC Statewide Survey",
+  "sponsor": "",
+  "tier": 1,
+  "type": "state",
+  "fielded": "2024-10",
+  "n": 1137,
+  "question": "Vote on Prop 33, letting local governments expand rent control",
+  "url": "https://www.ppic.org/pdf/ppic-statewide-survey-californians-and-their-government-october-2024.pdf",
+  "states": {
+   "CA": {
+    "sup": 42,
+    "opp": 54
+   }
+  },
+  "national": null,
+  "note": "Likely voters, Oct 7-15, 2024 (pre-election poll, not the result); 4% don't know. Local-option rent control, not a statewide cap."
+ },
+ {
+  "keys": [
+   "gov:trust"
+  ],
+  "match": "concept",
+  "pollster": "PPIC Statewide Survey",
+  "sponsor": "",
+  "tier": 1,
+  "type": "state",
+  "fielded": "2024-10",
+  "n": 1137,
+  "question": "Vote on Prop 5, lowering the voter threshold to 55% for local affordable-housing and infrastructure bonds",
+  "url": "https://www.ppic.org/pdf/ppic-statewide-survey-californians-and-their-government-october-2024.pdf",
+  "states": {
+   "CA": {
+    "sup": 48,
+    "opp": 50
+   }
+  },
+  "national": null,
+  "note": "Likely voters; 3% don't know. Loose match: makes housing bonds easier to pass rather than creating one."
+ }
+]

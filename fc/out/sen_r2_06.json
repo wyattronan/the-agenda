@@ -1,0 +1,79 @@
+[
+ {
+  "who": "Angus King",
+  "state": "ME",
+  "key": "priorauth",
+  "old_stance": "Unclear",
+  "new_stance": "Support",
+  "evidence": "Cosponsor, Improving Seniors' Timely Access to Care Act, S.1816 (signed on May 2026).",
+  "url": "https://policyrisk.com/research/legislation/S1816",
+  "confirmed": false,
+  "changed": true
+ },
+ {
+  "who": "Chris Van Hollen",
+  "state": "MD",
+  "key": "priorauth",
+  "old_stance": "Unclear",
+  "new_stance": "Support",
+  "evidence": "Cosponsor, Improving Seniors' Timely Access to Care Act, S.1816 (signed on Feb 2026).",
+  "url": "https://policyrisk.com/research/legislation/S1816",
+  "confirmed": false,
+  "changed": true
+ },
+ {
+  "who": "Chris Van Hollen",
+  "state": "MD",
+  "key": "iran",
+  "old_stance": "Support",
+  "new_stance": "Support",
+  "evidence": "Sponsor, S.J.Res.180 to remove U.S. forces from unauthorized hostilities against Iran (Apr 2026); also cosponsored Coons' S.J.Res.191.",
+  "url": "https://www.govinfo.gov/content/pkg/BILLS-119sjres180is/html/BILLS-119sjres180is.htm",
+  "confirmed": false,
+  "changed": true
+ },
+ {
+  "who": "Angela Alsobrooks",
+  "state": "MD",
+  "key": "priorauth",
+  "old_stance": "Unclear",
+  "new_stance": "Support",
+  "evidence": "Cosponsor, Improving Seniors' Timely Access to Care Act, S.1816 (signed on Sep 2026).",
+  "url": "https://policyrisk.com/research/legislation/S1816",
+  "confirmed": false,
+  "changed": true
+ },
+ {
+  "who": "Elizabeth Warren",
+  "state": "MA",
+  "key": "iran",
+  "old_stance": "Support",
+  "new_stance": "Support",
+  "evidence": "Original cosponsor, No War Against Iran Act, S.2087, barring funds for unauthorized force against Iran (Jun 2025); voted to discharge S.J.Res.123 (Apr 2026).",
+  "url": "https://policyrisk.com/research/legislation/S2087",
+  "confirmed": false,
+  "changed": true
+ },
+ {
+  "who": "Ed Markey",
+  "state": "MA",
+  "key": "iran",
+  "old_stance": "Support",
+  "new_stance": "Support",
+  "evidence": "Original cosponsor, No War Against Iran Act, S.2087, barring funds for unauthorized force against Iran (Jun 2025); voted to discharge S.J.Res.123 (Apr 2026).",
+  "url": "https://policyrisk.com/research/legislation/S2087",
+  "confirmed": false,
+  "changed": true
+ },
+ {
+  "who": "Chris Van Hollen",
+  "state": "MD",
+  "key": "isr",
+  "old_stance": "Support",
+  "new_stance": "Support",
+  "evidence": "Cosponsor, S.J.Res.138 disapproving a proposed arms sale to Israel (Mar 2026); voted to block bulldozer and bomb sales (Apr 2026).",
+  "url": "https://policyrisk.com/research/legislation/SJRES138",
+  "confirmed": false,
+  "changed": true
+ }
+]

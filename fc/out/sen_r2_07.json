@@ -1,0 +1,123 @@
+[
+ {
+  "who": "Elissa Slotkin",
+  "state": "MI",
+  "key": "m4a",
+  "old_stance": "Unclear",
+  "new_stance": "Oppose",
+  "evidence": "Has long rejected single-payer Medicare for All, routinely criticizing it and backing a Medicare buy-in and ACA fixes instead (PolitiFact, Sep 2018).",
+  "url": "https://politifact.com/factchecks/2018/sep/26/mike-bishop/no-elissa-slotkin-does-not-support-plan-would-take/",
+  "confirmed": false,
+  "changed": true
+ },
+ {
+  "who": "Elissa Slotkin",
+  "state": "MI",
+  "key": "medicaid",
+  "old_stance": "Lean support",
+  "new_stance": "Support",
+  "evidence": "Cosponsor, Protecting Health Care and Lowering Costs Act, S.2556 (Jul 2025), which would reverse the OBBBA's health care cuts including Medicaid.",
+  "url": "https://policyrisk.com/research/legislation/S2556",
+  "confirmed": false,
+  "changed": true
+ },
+ {
+  "who": "Elissa Slotkin",
+  "state": "MI",
+  "key": "priorauth",
+  "old_stance": "Unclear",
+  "new_stance": "Support",
+  "evidence": "Cosponsor, Improving Seniors' Timely Access to Care Act of 2025, S.1816 (joined Dec 2025).",
+  "url": "https://policyrisk.com/research/legislation/S1816",
+  "confirmed": false,
+  "changed": true
+ },
+ {
+  "who": "Elissa Slotkin",
+  "state": "MI",
+  "key": "ctc",
+  "old_stance": "Unclear",
+  "new_stance": "Support",
+  "evidence": "Original cosponsor, American Family Act, S.1393 (Apr 2025), expanding the Child Tax Credit and making it fully refundable.",
+  "url": "https://policyrisk.com/research/legislation/S1393",
+  "confirmed": false,
+  "changed": true
+ },
+ {
+  "who": "Elissa Slotkin",
+  "state": "MI",
+  "key": "childcare",
+  "old_stance": "Unclear",
+  "new_stance": "Support",
+  "evidence": "Cosponsor, Child Care for Working Families Act, S.2295 (joined Sep 2025), which caps family child care costs at 7% of income.",
+  "url": "https://policyrisk.com/research/legislation/S2295",
+  "confirmed": false,
+  "changed": true
+ },
+ {
+  "who": "Abdul El-Sayed",
+  "state": "MI",
+  "key": "imm",
+  "old_stance": "Lean support",
+  "new_stance": "Support",
+  "evidence": "2026 platform calls for replacing the immigration system with a comprehensive one, a clear pathway to citizenship, and a secure border.",
+  "url": "https://abdulforsenate.com/priority/money-out-of-politics/",
+  "confirmed": false,
+  "changed": true
+ },
+ {
+  "who": "Abdul El-Sayed",
+  "state": "MI",
+  "key": "tariff",
+  "old_stance": "Unclear",
+  "new_stance": "Lean support",
+  "evidence": "2026 platform criticizes broad tariffs but backs targeted, sunsetting tariffs for Michigan manufacturing; no stance on the emergency tariffs or Trade Review Act.",
+  "url": "https://abdulforsenate.com/priority/money-in-your-pocket/",
+  "confirmed": false,
+  "changed": true
+ },
+ {
+  "who": "Abdul El-Sayed",
+  "state": "MI",
+  "key": "road",
+  "old_stance": "Unclear",
+  "new_stance": "Lean support",
+  "evidence": "2026 platform calls for a federally funded housing building boom and streamlined local rules; related to, not an endorsement of, the ROAD to Housing Act.",
+  "url": "https://abdulforsenate.com/priority/money-in-your-pocket/",
+  "confirmed": false,
+  "changed": true
+ },
+ {
+  "who": "Josh Hawley",
+  "state": "MO",
+  "key": "termlim",
+  "old_stance": "Unclear",
+  "new_stance": "Support",
+  "evidence": "Cosponsor, Cruz's S.J.Res.1 constitutional amendment limiting congressional terms (Jan 2025).",
+  "url": "https://policyrisk.com/research/legislation/SJRES1",
+  "confirmed": false,
+  "changed": true
+ },
+ {
+  "who": "Josh Hawley",
+  "state": "MO",
+  "key": "pro",
+  "old_stance": "Unclear",
+  "new_stance": "Lean support",
+  "evidence": "Sponsor, Faster Labor Contracts Act, S.844 (Mar 2025), forcing quick first-contract bargaining and arbitration; narrower than the PRO Act, which he has not cosponsored.",
+  "url": "https://policyrisk.com/research/legislation/S844",
+  "confirmed": false,
+  "changed": true
+ },
+ {
+  "who": "Josh Hawley",
+  "state": "MO",
+  "key": "ai",
+  "old_stance": "Support",
+  "new_stance": "Support",
+  "evidence": "Sponsor, GUARD Act, S.3062, on AI chatbots and minors (2025); also cosponsor of the AI LEAD Act, S.2937, creating AI product liability (Sep 2025).",
+  "url": "https://policyrisk.com/research/legislation/S3062",
+  "confirmed": false,
+  "changed": true
+ }
+]

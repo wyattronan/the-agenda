@@ -1,0 +1,959 @@
+[
+ {
+  "keys": [
+   "gov:ice",
+   "sen:ice"
+  ],
+  "match": "bill",
+  "pollster": "YouGov",
+  "sponsor": "ACLU / ACLU of Michigan",
+  "tier": 3,
+  "type": "state",
+  "fielded": "2026-01",
+  "n": 833,
+  "question": "Require a judicial warrant before immigration enforcement at schools, hospitals and places of worship (MI SB 508)",
+  "url": "https://www.aclumich.org/app/uploads/2026/02/MI-Immigration-Legislation-Analytics-Memo-2.19.26.pdf",
+  "states": {
+   "MI": {
+    "sup": 70,
+    "opp": null
+   }
+  },
+  "national": null,
+  "note": "Advocacy-sponsored (ACLU). Registered voters, Jan 28-Feb 3 2026. Oppose not reported. Same poll: 65% support SB 510 mask ban + uniform/ID requirement; 65% support SB 509 data-sharing limits. Primary for gov:ice."
+ },
+ {
+  "keys": [
+   "sen:ice"
+  ],
+  "match": "concept",
+  "pollster": "YouGov",
+  "sponsor": "ACLU / ACLU of Michigan",
+  "tier": 3,
+  "type": "state",
+  "fielded": "2026-01",
+  "n": 833,
+  "question": "Ban law enforcement masks/face coverings and require identifying uniforms (MI SB 510)",
+  "url": "https://www.aclumich.org/app/uploads/2026/02/MI-Immigration-Legislation-Analytics-Memo-2.19.26.pdf",
+  "states": {
+   "MI": {
+    "sup": 65,
+    "opp": null
+   }
+  },
+  "national": null,
+  "note": "Advocacy-sponsored (ACLU). Same survey as the SB 508 entry; use one or the other per state average to avoid double counting. Oppose not reported."
+ },
+ {
+  "keys": [
+   "gov:ice",
+   "sen:ice"
+  ],
+  "match": "bill",
+  "pollster": "University of New Hampshire Survey Center",
+  "sponsor": "",
+  "tier": 1,
+  "type": "state",
+  "fielded": "2026-02",
+  "n": 1162,
+  "question": "Ban immigration agents from churches and schools",
+  "url": "https://www.centralmaine.com/?p=3322329",
+  "states": {
+   "ME": {
+    "sup": 69,
+    "opp": null
+   }
+  },
+  "national": null,
+  "note": "Maine residents, Feb 12-16 2026, via Central Maine (Kennebec Journal) write-up; oppose not given. Same poll: 57% back banning agents' face coverings, 57% back requiring judicial warrants for arrests."
+ },
+ {
+  "keys": [
+   "sen:ice"
+  ],
+  "match": "concept",
+  "pollster": "University of New Hampshire Survey Center",
+  "sponsor": "",
+  "tier": 1,
+  "type": "state",
+  "fielded": "2026-02",
+  "n": 1162,
+  "question": "Ban immigration agents from wearing face coverings",
+  "url": "https://www.centralmaine.com/?p=3322329",
+  "states": {
+   "ME": {
+    "sup": 57,
+    "opp": null
+   }
+  },
+  "national": null,
+  "note": "Same survey as the sensitive-locations entry; judicial-warrant requirement also 57%. Avoid double counting."
+ },
+ {
+  "keys": [
+   "sen:ice"
+  ],
+  "match": "concept",
+  "pollster": "NBC News Decision Desk / SurveyMonkey",
+  "sponsor": "KARE 11 / Minnesota Star Tribune",
+  "tier": 1,
+  "type": "state",
+  "fielded": "2026-02",
+  "n": 1229,
+  "question": "Approve or disapprove of federal immigration agents wearing masks",
+  "url": "https://www.kttc.com/2026/02/12/disapproval-common-theme-public-opinion-polling-immigration-enforcement/?outputType=amp",
+  "states": {
+   "MN": {
+    "sup": 62,
+    "opp": 38
+   }
+  },
+  "national": null,
+  "note": "sup = % disapproving of agents wearing masks; opp = % approving. MN adults, Jan 27-Feb 6 2026, online SurveyMonkey panel. Also: 66% say ICE tactics have gone too far."
+ },
+ {
+  "keys": [
+   "sen:ice"
+  ],
+  "match": "concept",
+  "pollster": "UC Berkeley Citrin Center / POLITICO (fielded by TrueDot, Verasight sample)",
+  "sponsor": "POLITICO",
+  "tier": 1,
+  "type": "state",
+  "fielded": "2026-03",
+  "n": 1220,
+  "question": "Ban federal agents from wearing masks",
+  "url": "https://www.yahoo.com/news/articles/poll-california-democrats-want-disband-202311599.html",
+  "states": {
+   "CA": {
+    "sup": 49,
+    "opp": null
+   }
+  },
+  "national": null,
+  "note": "CA registered voters, Feb 25-Mar 3 2026, via POLITICO article (syndicated on Yahoo); original PDF https://www.politico.com/f/?id=0000019c-e3b4-d7a9-adbd-efbeef4d0000 could not be opened. Oppose not given in article. Same poll: 62% support requiring ICE body cameras, 56% a code of conduct like local police."
+ },
+ {
+  "keys": [
+   "sen:ice"
+  ],
+  "match": "concept",
+  "pollster": "Pew Research Center",
+  "sponsor": "",
+  "tier": 1,
+  "type": "national",
+  "fielded": "2026-01",
+  "n": null,
+  "question": "Is it acceptable for immigration officers to wear face coverings that hide their identities",
+  "url": "https://www.fox6now.com/news/most-americans-say-its-unacceptable-immigration-officers-hide-faces-poll-finds",
+  "states": {},
+  "national": {
+   "sup": 61,
+   "opp": null
+  },
+  "note": "sup = % saying masks are unacceptable. Jan 20-26 2026; via Fox6 write-up, acceptable share not given."
+ },
+ {
+  "keys": [
+   "sen:ice"
+  ],
+  "match": "concept",
+  "pollster": "YouGov / The Economist",
+  "sponsor": "",
+  "tier": 1,
+  "type": "national",
+  "fielded": "2026-01",
+  "n": 1124,
+  "question": "Require ICE agents to wear body cameras",
+  "url": "https://yougov.com/en-us/articles/53972-what-americans-think-about-immigration-enforcement-and-the-death-of-alex-pretti",
+  "states": {},
+  "national": {
+   "sup": 90,
+   "opp": 5
+  },
+  "note": "US adult citizens, Jan 26-28 2026. Same poll: 80% disapprove of agents entering homes without a judicial warrant."
+ },
+ {
+  "keys": [
+   "sen:imm"
+  ],
+  "match": "concept",
+  "pollster": "NBC News Decision Desk / SurveyMonkey",
+  "sponsor": "KARE 11 / Minnesota Star Tribune",
+  "tier": 1,
+  "type": "state",
+  "fielded": "2026-02",
+  "n": 1229,
+  "question": "Undocumented immigrants should have a chance to apply for legal status vs. be deported",
+  "url": "https://www.kttc.com/2026/02/12/disapproval-common-theme-public-opinion-polling-immigration-enforcement/?outputType=amp",
+  "states": {
+   "MN": {
+    "sup": 67,
+    "opp": 33
+   }
+  },
+  "national": null,
+  "note": "MN adults, Jan 27-Feb 6 2026. Article says the national companion sample (n=21,995) was also 67% legal status / 33% deport."
+ },
+ {
+  "keys": [
+   "sen:imm"
+  ],
+  "match": "concept",
+  "pollster": "NBC News Decision Desk / SurveyMonkey",
+  "sponsor": "",
+  "tier": 1,
+  "type": "national",
+  "fielded": "2026-02",
+  "n": 21995,
+  "question": "Undocumented immigrants should have a chance to apply for legal status vs. be deported",
+  "url": "https://www.kttc.com/2026/02/12/disapproval-common-theme-public-opinion-polling-immigration-enforcement/?outputType=amp",
+  "states": {},
+  "national": {
+   "sup": 67,
+   "opp": 33
+  },
+  "note": "National companion to the MN poll, early 2026."
+ },
+ {
+  "keys": [
+   "sen:imm"
+  ],
+  "match": "concept",
+  "pollster": "UC Berkeley Citrin Center / POLITICO (fielded by TrueDot, Verasight sample)",
+  "sponsor": "POLITICO",
+  "tier": 1,
+  "type": "state",
+  "fielded": "2026-03",
+  "n": 1220,
+  "question": "Path to citizenship or permanent residency for undocumented immigrants",
+  "url": "https://www.yahoo.com/news/articles/poll-california-democrats-want-disband-202311599.html",
+  "states": {
+   "CA": {
+    "sup": 62,
+    "opp": null
+   }
+  },
+  "national": null,
+  "note": "CA registered voters, Feb 25-Mar 3 2026, via POLITICO article; oppose not given."
+ },
+ {
+  "keys": [
+   "sen:ice"
+  ],
+  "match": "concept",
+  "pollster": "Emerson College Polling",
+  "sponsor": "RealClear Opinion Research",
+  "tier": 1,
+  "type": "state",
+  "fielded": "2026-02",
+  "n": 2000,
+  "question": "Ban ICE agents from wearing masks while operating",
+  "url": "https://emersoncollegepolling.com/pennsylvania-immigration-survey",
+  "states": {
+   "PA": {
+    "sup": 53,
+    "opp": 37
+   }
+  },
+  "national": null,
+  "note": "PA adults, Feb 2026 (page gives Feb 9-12 and Feb 10-13); online panel with credibility interval. Same poll: 86% support / 9% oppose requiring ICE body cameras."
+ },
+ {
+  "keys": [
+   "gov:ice"
+  ],
+  "match": "concept",
+  "pollster": "Emerson College Polling",
+  "sponsor": "RealClear Opinion Research",
+  "tier": 1,
+  "type": "state",
+  "fielded": "2026-02",
+  "n": 2000,
+  "question": "Prohibit ICE arrests on state property (RealClear write-up: state property, courthouses and schools)",
+  "url": "https://emersoncollegepolling.com/pennsylvania-immigration-survey",
+  "states": {
+   "PA": {
+    "sup": 58,
+    "opp": 32
+   }
+  },
+  "national": null,
+  "note": "Emerson release describes it as state property; RealClear write-up (https://www.realclearpolling.com/stories/analysis/new-poll-shows-pa-voters-balance-on-ice-immigration) says state property, courthouses and schools. Loose fit for sensitive-locations measure."
+ },
+ {
+  "keys": [
+   "sen:roe",
+   "gov:roe"
+  ],
+  "match": "concept",
+  "pollster": "AP-NORC Center for Public Affairs Research",
+  "sponsor": "",
+  "tier": 1,
+  "type": "national",
+  "fielded": "2025-07",
+  "n": 1437,
+  "question": "Abortion should be legal in all or most cases",
+  "url": "https://apnorc.org/projects/support-for-legal-abortion-remains-strong/",
+  "states": {},
+  "national": {
+   "sup": 64,
+   "opp": 36
+  },
+  "note": "US adults, July 10-14 2025; opp = illegal in all/most cases."
+ },
+ {
+  "keys": [
+   "sen:roe",
+   "gov:roe"
+  ],
+  "match": "concept",
+  "pollster": "Pew Research Center",
+  "sponsor": "",
+  "tier": 1,
+  "type": "national",
+  "fielded": "2026-01",
+  "n": null,
+  "question": "Abortion should be legal in all or most cases",
+  "url": "https://www.pewresearch.org/religion/fact-sheet/public-opinion-on-abortion/",
+  "states": {},
+  "national": {
+   "sup": 60,
+   "opp": 38
+  },
+  "note": "US adults, Jan 20-26 2026; opp = illegal in all/most cases. n not shown on fact sheet."
+ },
+ {
+  "keys": [
+   "gov:roe",
+   "sen:roe"
+  ],
+  "match": "bill",
+  "pollster": "University of North Florida Public Opinion Research Lab",
+  "sponsor": "",
+  "tier": 1,
+  "type": "state",
+  "fielded": "2024-10",
+  "n": 977,
+  "question": "Vote on Amendment 4, putting abortion rights in the Florida constitution",
+  "url": "https://floridapolitics.com/archives/702749-unf-poll-shows-florida-abortion-rights-initiative-right-on-the-line-of-passage",
+  "states": {
+   "FL": {
+    "sup": 60,
+    "opp": 32
+   }
+  },
+  "national": null,
+  "note": "Pre-election poll of likely voters, Oct 7-18 2024 (not the election result; Amendment 4 got 57% but needed 60%). Via Florida Politics write-up; 8% undecided, oppose 'about 32'. Also 56% pro-choice / 34% pro-life. Match is 'bill' for gov:roe (state constitutional amendment), concept for sen:roe."
+ },
+ {
+  "keys": [
+   "gov:roe",
+   "sen:roe"
+  ],
+  "match": "bill",
+  "pollster": "Saint Louis University / YouGov",
+  "sponsor": "",
+  "tier": 1,
+  "type": "state",
+  "fielded": "2024-08",
+  "n": 900,
+  "question": "Support Amendment 3, establishing a right to reproductive freedom in the Missouri constitution",
+  "url": "https://www.slu.edu/news/2024/august/slu-poll.php",
+  "states": {
+   "MO": {
+    "sup": 52,
+    "opp": 34
+   }
+  },
+  "national": null,
+  "note": "Likely voters, Aug 8-16 2024; 14% not sure. Pre-election poll, not the result. Bill match for gov:roe, concept for sen:roe."
+ },
+ {
+  "keys": [
+   "gov:roe",
+   "sen:roe"
+  ],
+  "match": "bill",
+  "pollster": "Noble Predictive Insights",
+  "sponsor": "",
+  "tier": 1,
+  "type": "state",
+  "fielded": "2024-09",
+  "n": 700,
+  "question": "Vote on Prop 139, the Arizona abortion rights constitutional amendment",
+  "url": "https://ohpredictive.com/press-releases/arizona-prop-139-abortion-rights-poll",
+  "states": {
+   "AZ": {
+    "sup": 58,
+    "opp": 34
+   }
+  },
+  "national": null,
+  "note": "Likely voters, Sept 7-9 2024; 8% undecided. Pre-election poll, not the result. Bill match for gov:roe, concept for sen:roe."
+ },
+ {
+  "keys": [
+   "gov:roe",
+   "sen:roe"
+  ],
+  "match": "bill",
+  "pollster": "Wason Center for Civic Leadership, Christopher Newport University",
+  "sponsor": "",
+  "tier": 1,
+  "type": "state",
+  "fielded": "2026-01",
+  "n": 807,
+  "question": "Support the reproductive freedom amendment to the Virginia constitution",
+  "url": "https://cnu.edu/wason/surveys/archive/2026-01-28.html",
+  "states": {
+   "VA": {
+    "sup": 66,
+    "opp": 28
+   }
+  },
+  "national": null,
+  "note": "Registered voters, Jan 13-20 2026. Support from Wason release; oppose 28 / undecided 6 from Ballotpedia poll table (https://ballotpedia.org/Virginia_Right_to_Reproductive_Freedom_Amendment_(2026)). Pre-election poll, not the Nov 2026 result."
+ },
+ {
+  "keys": [
+   "gov:roe",
+   "sen:roe"
+  ],
+  "match": "bill",
+  "pollster": "VCU Wilder School Commonwealth Poll",
+  "sponsor": "",
+  "tier": 1,
+  "type": "state",
+  "fielded": "2025-01",
+  "n": 806,
+  "question": "Would vote for a constitutional amendment protecting abortion rights in Virginia",
+  "url": "https://news.vcu.edu/article/2025/02/62-of-virginians-support-abortion-rights-constitutional-amendment",
+  "states": {
+   "VA": {
+    "sup": 62,
+    "opp": 30
+   }
+  },
+  "national": null,
+  "note": "Virginia adults, Dec 18 2024-Jan 15 2025. Figures per VCU headline and Ballotpedia poll table (62/30/9)."
+ },
+ {
+  "keys": [
+   "gov:roe",
+   "sen:roe"
+  ],
+  "match": "bill",
+  "pollster": "Wason Center for Civic Leadership, Christopher Newport University",
+  "sponsor": "",
+  "tier": 1,
+  "type": "state",
+  "fielded": "2025-01",
+  "n": 806,
+  "question": "Support the reproductive freedom amendment to the Virginia constitution",
+  "url": "https://ballotpedia.org/Virginia_Right_to_Reproductive_Freedom_Amendment_(2026)",
+  "states": {
+   "VA": {
+    "sup": 61,
+    "opp": 32
+   }
+  },
+  "national": null,
+  "note": "Registered voters, Jan 6-13 2025; figures from Ballotpedia poll table (original Wason release not opened)."
+ },
+ {
+  "keys": [
+   "gov:roe",
+   "sen:roe"
+  ],
+  "match": "bill",
+  "pollster": "New York Times / Siena College",
+  "sponsor": "",
+  "tier": 1,
+  "type": "state",
+  "fielded": "2024-10",
+  "n": 622,
+  "question": "Vote on Florida Amendment 4 (abortion rights)",
+  "url": "https://ballotpedia.org/Florida_Amendment_4,_Right_to_Abortion_Initiative_(2024)",
+  "states": {
+   "FL": {
+    "sup": 46,
+    "opp": 38
+   }
+  },
+  "national": null,
+  "note": "Likely voters, Aug 29-Oct 6 2024 (as listed); 16% undecided. Figures from Ballotpedia poll table."
+ },
+ {
+  "keys": [
+   "gov:roe",
+   "sen:roe"
+  ],
+  "match": "bill",
+  "pollster": "Emerson College Polling",
+  "sponsor": "The Hill",
+  "tier": 1,
+  "type": "state",
+  "fielded": "2024-09",
+  "n": 815,
+  "question": "Vote on Florida Amendment 4 (abortion rights)",
+  "url": "https://ballotpedia.org/Florida_Amendment_4,_Right_to_Abortion_Initiative_(2024)",
+  "states": {
+   "FL": {
+    "sup": 55,
+    "opp": 26
+   }
+  },
+  "national": null,
+  "note": "Likely voters, Sept 3-5 2024; 20% undecided. Figures from Ballotpedia poll table."
+ },
+ {
+  "keys": [
+   "gov:roe",
+   "sen:roe"
+  ],
+  "match": "bill",
+  "pollster": "Emerson College Polling",
+  "sponsor": "",
+  "tier": 1,
+  "type": "state",
+  "fielded": "2024-10",
+  "n": 1000,
+  "question": "Support a state constitutional right to abortion before fetal viability (Nebraska Initiative 439)",
+  "url": "https://ballotpedia.org/Nebraska_Initiative_439,_Right_to_Abortion_Initiative_(2024)",
+  "states": {
+   "NE": {
+    "sup": 44,
+    "opp": 40
+   }
+  },
+  "national": null,
+  "note": "Registered voters, Sept 26-Oct 2 2024; 16% undecided. Figures from Ballotpedia poll table. Pre-election poll, not the result."
+ },
+ {
+  "keys": [
+   "gov:roe",
+   "sen:roe"
+  ],
+  "match": "bill",
+  "pollster": "South Dakota News Watch",
+  "sponsor": "",
+  "tier": 1,
+  "type": "state",
+  "fielded": "2024-10",
+  "n": 500,
+  "question": "Vote on South Dakota Amendment G (abortion rights)",
+  "url": "https://ballotpedia.org/South_Dakota_Constitutional_Amendment_G,_Right_to_Abortion_Initiative_(2024)",
+  "states": {
+   "SD": {
+    "sup": 49.8,
+    "opp": 46.8
+   }
+  },
+  "national": null,
+  "note": "Registered voters, Oct 12-26 2024. Figures from Ballotpedia poll table. Amendment G used a trimester framework."
+ },
+ {
+  "keys": [
+   "gov:roe",
+   "sen:roe"
+  ],
+  "match": "bill",
+  "pollster": "Emerson College Polling",
+  "sponsor": "KELO-TV / The Hill",
+  "tier": 1,
+  "type": "state",
+  "fielded": "2024-10",
+  "n": 825,
+  "question": "Vote on South Dakota Amendment G (abortion rights)",
+  "url": "https://ballotpedia.org/South_Dakota_Constitutional_Amendment_G,_Right_to_Abortion_Initiative_(2024)",
+  "states": {
+   "SD": {
+    "sup": 45,
+    "opp": 48.4
+   }
+  },
+  "national": null,
+  "note": "Likely voters, Oct 19-22 2024. Figures from Ballotpedia poll table."
+ },
+ {
+  "keys": [
+   "gov:roe",
+   "sen:roe"
+  ],
+  "match": "bill",
+  "pollster": "Fox News Poll (Beacon Research / Shaw & Co.)",
+  "sponsor": "",
+  "tier": 1,
+  "type": "state",
+  "fielded": "2024-08",
+  "n": 1026,
+  "question": "Vote on Nevada Question 6 (right to abortion)",
+  "url": "https://ballotpedia.org/Nevada_Question_6,_Right_to_Abortion_Initiative_(2024)",
+  "states": {
+   "NV": {
+    "sup": 75,
+    "opp": 21
+   }
+  },
+  "national": null,
+  "note": "Registered voters, Aug 23-26 2024. Figures from Ballotpedia poll table (listed as Fox News)."
+ },
+ {
+  "keys": [
+   "gov:roe",
+   "sen:roe"
+  ],
+  "match": "bill",
+  "pollster": "Noble Predictive Insights",
+  "sponsor": "",
+  "tier": 1,
+  "type": "state",
+  "fielded": "2024-10",
+  "n": 755,
+  "question": "Vote on Prop 139, the Arizona abortion rights constitutional amendment",
+  "url": "https://ballotpedia.org/Arizona_Proposition_139,_Right_to_Abortion_Initiative_(2024)",
+  "states": {
+   "AZ": {
+    "sup": 57,
+    "opp": 33
+   }
+  },
+  "national": null,
+  "note": "Likely voters, Oct 28-30 2024; 7% undecided. From Ballotpedia poll table. Newer than the Sept Noble entry; prefer this one."
+ },
+ {
+  "keys": [
+   "gov:roe",
+   "sen:roe"
+  ],
+  "match": "bill",
+  "pollster": "New York Times / Siena College",
+  "sponsor": "",
+  "tier": 1,
+  "type": "state",
+  "fielded": "2024-09",
+  "n": 713,
+  "question": "Vote on Prop 139, the Arizona abortion rights constitutional amendment",
+  "url": "https://ballotpedia.org/Arizona_Proposition_139,_Right_to_Abortion_Initiative_(2024)",
+  "states": {
+   "AZ": {
+    "sup": 58,
+    "opp": 35
+   }
+  },
+  "national": null,
+  "note": "Registered voters, Sept 17-21 2024. From Ballotpedia poll table."
+ },
+ {
+  "keys": [
+   "gov:roe",
+   "sen:roe"
+  ],
+  "match": "bill",
+  "pollster": "Suffolk University",
+  "sponsor": "USA Today",
+  "tier": 1,
+  "type": "state",
+  "fielded": "2024-09",
+  "n": 500,
+  "question": "Vote on Prop 139, the Arizona abortion rights constitutional amendment",
+  "url": "https://ballotpedia.org/Arizona_Proposition_139,_Right_to_Abortion_Initiative_(2024)",
+  "states": {
+   "AZ": {
+    "sup": 58,
+    "opp": 32
+   }
+  },
+  "national": null,
+  "note": "Likely voters, Sept 21-24 2024. From Ballotpedia poll table."
+ },
+ {
+  "keys": [
+   "gov:roe",
+   "sen:roe"
+  ],
+  "match": "bill",
+  "pollster": "Emerson College Polling",
+  "sponsor": "",
+  "tier": 1,
+  "type": "state",
+  "fielded": "2024-09",
+  "n": 850,
+  "question": "Vote on Missouri Amendment 3 (right to reproductive freedom)",
+  "url": "https://ballotpedia.org/Missouri_Amendment_3,_Right_to_Reproductive_Freedom_Initiative_(2024)",
+  "states": {
+   "MO": {
+    "sup": 57.7,
+    "opp": 30
+   }
+  },
+  "national": null,
+  "note": "Likely voters, Sept 12-13 2024; 12.3% undecided. From Ballotpedia poll table."
+ },
+ {
+  "keys": [
+   "gov:roe",
+   "sen:roe"
+  ],
+  "match": "bill",
+  "pollster": "UMBC Institute of Politics",
+  "sponsor": "",
+  "tier": 1,
+  "type": "state",
+  "fielded": "2024-09",
+  "n": 863,
+  "question": "Vote on Maryland Question 1 (right to reproductive freedom amendment)",
+  "url": "https://ballotpedia.org/Maryland_Question_1,_Right_to_Reproductive_Freedom_Amendment_(2024)",
+  "states": {
+   "MD": {
+    "sup": 69,
+    "opp": 21
+   }
+  },
+  "national": null,
+  "note": "Likely voters, Sept 23-28 2024; 9% undecided. From Ballotpedia poll table."
+ },
+ {
+  "keys": [
+   "gov:ice",
+   "sen:ice"
+  ],
+  "match": "concept",
+  "pollster": "University of Texas / Texas Politics Project",
+  "sponsor": "",
+  "tier": 1,
+  "type": "state",
+  "fielded": "2025-06",
+  "n": 1200,
+  "question": "Support or oppose immigration agents arresting people in the country illegally while at a hospital",
+  "url": "https://texaspolitics.utexas.edu/files/202506-poll-topline-oyMS.pdf",
+  "states": {
+   "TX": {
+    "sup": 63,
+    "opp": 31
+   }
+  },
+  "national": null,
+  "note": "Reverse-worded: sup = % OPPOSING hospital arrests, opp = % supporting. TX registered voters, June 6-16 2025. Same battery (oppose/support): arrests at church 62/30, children at school 69/24, at immigration-court hearings 59/31. Feb 2025 wave: hospital 61/30, church 60/31, school 68/24."
+ },
+ {
+  "keys": [
+   "sen:imm"
+  ],
+  "match": "concept",
+  "pollster": "Gallup",
+  "sponsor": "",
+  "tier": 1,
+  "type": "national",
+  "fielded": "2025-06",
+  "n": 1402,
+  "question": "Favor a path to citizenship for immigrants living in the US illegally, if they meet requirements",
+  "url": "https://news.gallup.com/poll/692522/surge-concern-immigration-abated.aspx",
+  "states": {},
+  "national": {
+   "sup": 78,
+   "opp": null
+  },
+  "note": "US adults, June 2-26 2025; oppose not reported in article."
+ },
+ {
+  "keys": [
+   "sen:imm"
+  ],
+  "match": "concept",
+  "pollster": "Quinnipiac University",
+  "sponsor": "",
+  "tier": 1,
+  "type": "national",
+  "fielded": "2025-06",
+  "n": 979,
+  "question": "Give most undocumented immigrants a pathway to legal status vs. deport them",
+  "url": "https://poll.qu.edu/poll-release?releaseid=3926",
+  "states": {},
+  "national": {
+   "sup": 64,
+   "opp": 31
+  },
+  "note": "Registered voters, June 22-24 2025; opp = prefer deportation."
+ },
+ {
+  "keys": [
+   "sen:imm"
+  ],
+  "match": "concept",
+  "pollster": "Stockton University William J. Hughes Center for Public Policy",
+  "sponsor": "",
+  "tier": 1,
+  "type": "state",
+  "fielded": "2026-02",
+  "n": 700,
+  "question": "Undocumented immigrants should be allowed to stay legally if they meet certain requirements",
+  "url": "https://njbiz.com/stockton-poll-nj-voters-ice-goes-too-far/",
+  "states": {
+   "NJ": {
+    "sup": 58,
+    "opp": 22
+   }
+  },
+  "national": null,
+  "note": "NJ registered voters, Feb 6-16 2026. sup = stay legally with requirements (the comprehensive-reform option); a further 16% say stay legally with no conditions (not counted in sup); opp = should not be allowed to stay legally. 'Stay legally', not citizenship."
+ },
+ {
+  "keys": [
+   "sen:ice"
+  ],
+  "match": "concept",
+  "pollster": "Noble Predictive Insights",
+  "sponsor": "The Center Square (Voters' Voice poll)",
+  "tier": 1,
+  "type": "national",
+  "fielded": "2026-03",
+  "n": 2659,
+  "question": "Support or oppose ICE agents wearing face coverings during operations",
+  "url": "https://www.power107radio.com/?p=19982",
+  "states": {},
+  "national": {
+   "sup": 54,
+   "opp": 37
+  },
+  "note": "Reverse-worded: sup = % opposing agent masks. March 2-5 2026. Same poll: 84% support / 9% oppose requiring ICE body cameras."
+ },
+ {
+  "keys": [
+   "gov:roe",
+   "sen:roe"
+  ],
+  "match": "bill",
+  "pollster": "Ohio Northern University",
+  "sponsor": "",
+  "tier": 1,
+  "type": "state",
+  "fielded": "2023-10",
+  "n": 668,
+  "question": "Vote on Ohio Issue 1 (right to make reproductive decisions, including abortion)",
+  "url": "https://ballotpedia.org/Ohio_Issue_1,_Right_to_Make_Reproductive_Decisions_Including_Abortion_Initiative_(2023)",
+  "states": {
+   "OH": {
+    "sup": 52,
+    "opp": 36
+   }
+  },
+  "national": null,
+  "note": "Registered voters, Oct 16-19 2023; 12% undecided. From Ballotpedia poll table. Pre-election poll, not the result."
+ },
+ {
+  "keys": [
+   "gov:roe",
+   "sen:roe"
+  ],
+  "match": "bill",
+  "pollster": "Baldwin Wallace University Community Research Institute",
+  "sponsor": "",
+  "tier": 1,
+  "type": "state",
+  "fielded": "2023-10",
+  "n": 850,
+  "question": "Vote on Ohio Issue 1 (right to make reproductive decisions, including abortion)",
+  "url": "https://ballotpedia.org/Ohio_Issue_1,_Right_to_Make_Reproductive_Decisions_Including_Abortion_Initiative_(2023)",
+  "states": {
+   "OH": {
+    "sup": 58.2,
+    "opp": 33.5
+   }
+  },
+  "national": null,
+  "note": "Registered voters, Oct 9-11 2023. From Ballotpedia poll table."
+ },
+ {
+  "keys": [
+   "gov:roe",
+   "sen:roe"
+  ],
+  "match": "bill",
+  "pollster": "Suffolk University",
+  "sponsor": "USA Today",
+  "tier": 1,
+  "type": "state",
+  "fielded": "2023-07",
+  "n": 500,
+  "question": "Vote on Ohio Issue 1 (right to make reproductive decisions, including abortion)",
+  "url": "https://ballotpedia.org/Ohio_Issue_1,_Right_to_Make_Reproductive_Decisions_Including_Abortion_Initiative_(2023)",
+  "states": {
+   "OH": {
+    "sup": 58,
+    "opp": 32
+   }
+  },
+  "national": null,
+  "note": "Likely voters, July 9-12 2023. From Ballotpedia poll table."
+ },
+ {
+  "keys": [
+   "gov:roe",
+   "sen:roe"
+  ],
+  "match": "bill",
+  "pollster": "Saint Louis University / YouGov",
+  "sponsor": "",
+  "tier": 1,
+  "type": "state",
+  "fielded": "2026-08",
+  "n": 900,
+  "question": "Vote on Missouri Amendment 3 (2026), which would ban most abortions and gender-transition care for minors",
+  "url": "https://ballotpedia.org/Missouri_Amendment_3,_Prohibit_Abortion_and_Gender_Transition_Procedures_for_Minors_Amendment_%282026%29",
+  "states": {
+   "MO": {
+    "sup": 44,
+    "opp": 43
+   }
+  },
+  "national": null,
+  "note": "Reverse-worded: sup = % OPPOSING the 2026 abortion-ban amendment (pro-abortion-rights side), opp = % supporting it. Likely voters, Aug 13-24 2026; 13% undecided. Measure also bundles a ban on gender-transition procedures for minors, so it is a noisy abortion proxy. From Ballotpedia poll table. Earlier SLU Feb 2026: 40 oppose / 47 support (revised 39/50). Remington/Missouri Scout Oct 2026 (GOP-aligned): 43/43."
+ },
+ {
+  "keys": [
+   "gov:ice",
+   "sen:ice"
+  ],
+  "match": "bill",
+  "pollster": "Siena College Research Institute",
+  "sponsor": "",
+  "tier": 1,
+  "type": "state",
+  "fielded": "2026-01",
+  "n": 802,
+  "question": "Bar immigration enforcement at schools, hospitals and places of worship without a judicial warrant (Hochul proposal)",
+  "url": "https://sri.siena.edu/wp-content/uploads/2026/02/SNY-January-2026-Poll-Release-FINAL.pdf",
+  "states": {
+   "NY": {
+    "sup": 67,
+    "opp": 21
+   }
+  },
+  "national": null,
+  "note": "NY registered voters, Jan 26-28 2026; 8% in the middle. Bill match for gov:ice. Primary for gov:ice."
+ },
+ {
+  "keys": [
+   "sen:ice"
+  ],
+  "match": "concept",
+  "pollster": "Siena College Research Institute",
+  "sponsor": "",
+  "tier": 1,
+  "type": "state",
+  "fielded": "2026-01",
+  "n": 802,
+  "question": "Let New Yorkers sue federal officers in state court for violating their constitutional rights (Hochul proposal)",
+  "url": "https://sri.siena.edu/wp-content/uploads/2026/02/SNY-January-2026-Poll-Release-FINAL.pdf",
+  "states": {
+   "NY": {
+    "sup": 65,
+    "opp": 22
+   }
+  },
+  "national": null,
+  "note": "Same survey as the sensitive-locations entry (avoid double counting). Matches the 'right to sue' piece of sen:ice. Also: 61% oppose how ICE is arresting people (Mar 2026 wave: 62% oppose, 27% support)."
+ }
+]

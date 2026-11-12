@@ -1,0 +1,178 @@
+[
+ {
+  "who": "Byron Donalds",
+  "state": "FL",
+  "key": "medicaid",
+  "old_stance": "Unclear",
+  "new_stance": "Oppose",
+  "evidence": "Said flatly he will not expand Medicaid to able-bodied working-age adults (Oct 2026).",
+  "url": "https://www.fox13news.com/news/election-2026-where-byron-donalds-stands-data-centers-schools-home-insurance-medicaid",
+  "confirmed": false,
+  "changed": true
+ },
+ {
+  "who": "Byron Donalds",
+  "state": "FL",
+  "key": "vouchers",
+  "old_stance": "Unclear",
+  "new_stance": "Oppose",
+  "evidence": "Longtime school-choice champion who backed the 2023 HB 1 universal ESA expansion and would keep parents choosing private options (Oct 2026).",
+  "url": "https://www.fox13news.com/news/election-2026-where-byron-donalds-stands-data-centers-schools-home-insurance-medicaid",
+  "confirmed": false,
+  "changed": true
+ },
+ {
+  "who": "Byron Donalds",
+  "state": "FL",
+  "key": "teacher",
+  "old_stance": "Unclear",
+  "new_stance": "Lean support",
+  "evidence": "Says low pay hurts recruiting and would loosen categorical funding rules in exchange for districts raising teacher pay; no figure set (Oct 2026).",
+  "url": "https://www.fox13news.com/news/election-2026-where-byron-donalds-stands-data-centers-schools-home-insurance-medicaid",
+  "confirmed": false,
+  "changed": true
+ },
+ {
+  "who": "Byron Donalds",
+  "state": "FL",
+  "key": "house",
+  "old_stance": "Unclear",
+  "new_stance": "Lean support",
+  "evidence": "Wants to cut permitting costs and shrink approval timelines to lower home prices; no zoning or preemption plan (Aug 2026).",
+  "url": "https://www.wlrn.org/government-politics/2026-08-21/byron-donalds-promotes-his-economic-plans-for-florida-defends-trumps-record",
+  "confirmed": false,
+  "changed": true
+ },
+ {
+  "who": "Byron Donalds",
+  "state": "FL",
+  "key": "fraud",
+  "old_stance": "Unclear",
+  "new_stance": "Lean support",
+  "evidence": "Backed continuing the CFO's DOGE-style budget reviews of local governments; no inspector general plan (Sept 2025).",
+  "url": "https://floridaphoenix.com/2025/09/20/byron-donalds-gets-specific-on-education-property-taxes-in-tampa-campaign-stop/",
+  "confirmed": false,
+  "changed": true
+ },
+ {
+  "who": "Byron Donalds",
+  "state": "FL",
+  "key": "roe",
+  "old_stance": "Noted",
+  "new_stance": "Oppose",
+  "evidence": "Called Florida's six-week abortion ban the right move and left room for further restrictions later (Oct 2026).",
+  "url": "https://www.wusf.org/politics-issues/2026-10-30/what-florida-governor-attorney-general-candidates-say-about-abortion",
+  "confirmed": false,
+  "changed": true
+ },
+ {
+  "who": "Byron Donalds",
+  "state": "FL",
+  "key": "ice",
+  "old_stance": "Unclear",
+  "new_stance": "Lean oppose",
+  "evidence": "Vows to remove local officials who obstruct federal immigration enforcement (Aug 2026); related stance, nothing specific on sensitive locations.",
+  "url": "https://www.newsfromthestates.com/article/byron-donalds-says-hell-remove-local-officials-who-indulge-sanctuary-policies",
+  "confirmed": false,
+  "changed": true
+ },
+ {
+  "who": "Byron Donalds",
+  "state": "FL",
+  "key": "wage",
+  "old_stance": "Unclear",
+  "new_stance": "Lean oppose",
+  "evidence": "Opposed the federal $15 minimum wage push, claiming it would cost 1.4 million low-wage jobs (Feb 2021); federal, not state, measure.",
+  "url": "https://floridianpress.com/2021/02/donalds-raising-minimum-wage-is-not-covid-relief/",
+  "confirmed": false,
+  "changed": true
+ },
+ {
+  "who": "Byron Donalds",
+  "state": "FL",
+  "key": "mctax",
+  "old_stance": "Unclear",
+  "new_stance": "Lean support",
+  "evidence": "Touts his congressional support for no tax on tips (Aug 2026); a federal cut, Florida has no state income tax.",
+  "url": "https://www.wlrn.org/government-politics/2026-08-21/byron-donalds-promotes-his-economic-plans-for-florida-defends-trumps-record",
+  "confirmed": false,
+  "changed": true
+ },
+ {
+  "who": "Keisha Lance Bottoms",
+  "state": "GA",
+  "key": "priorauth",
+  "old_stance": "Unclear",
+  "new_stance": "Lean support",
+  "evidence": "Her CARE health plan would streamline prior authorization and cut paperwork burdens; no ban or insulin cap (Apr 2026).",
+  "url": "https://www.keishaforgovernor.com/news/keisha-lance-bottoms-announces-plan-to-lower-health-care-costs-for-georgia-families",
+  "confirmed": false,
+  "changed": true
+ },
+ {
+  "who": "Keisha Lance Bottoms",
+  "state": "GA",
+  "key": "aca",
+  "old_stance": "Lean support",
+  "new_stance": "Lean support",
+  "evidence": "CARE plan pledges targeted state premium support and other backstops for ACA enrollees after federal subsidies lapsed; no dollar figure (Apr 2026).",
+  "url": "https://www.keishaforgovernor.com/news/keisha-lance-bottoms-announces-plan-to-lower-health-care-costs-for-georgia-families",
+  "confirmed": false,
+  "changed": true
+ },
+ {
+  "who": "Keisha Lance Bottoms",
+  "state": "GA",
+  "key": "mctax",
+  "old_stance": "Unclear",
+  "new_stance": "Lean support",
+  "evidence": "Would exempt teachers from state income tax and offer veteran/military retiree relief; narrower than a broad middle-class cut (Apr 2026).",
+  "url": "https://www.ajc.com/politics/2026/04/keisha-lance-bottoms-a-look-at-the-ajcs-coverage/",
+  "confirmed": false,
+  "changed": true
+ },
+ {
+  "who": "Keisha Lance Bottoms",
+  "state": "GA",
+  "key": "ice",
+  "old_stance": "Unclear",
+  "new_stance": "Lean support",
+  "evidence": "Opposes Trump immigration tactics and as mayor ended the city jail's ICE detention contract (2018, noted Apr 2026); related, nothing on sensitive locations.",
+  "url": "https://www.ajc.com/politics/2026/04/keisha-lance-bottoms-a-look-at-the-ajcs-coverage/",
+  "confirmed": false,
+  "changed": true
+ },
+ {
+  "who": "Brad Little",
+  "state": "ID",
+  "key": "medicaid",
+  "old_stance": "Mixed",
+  "new_stance": "Mixed",
+  "evidence": "Keeps voter-approved expansion (no repeal proposed) but budget keeps a 4% provider rate cut plus HB 345 work rules and managed care (Jan 2026).",
+  "url": "https://gov.idaho.gov/wp-content/uploads/2026/01/fy27-budget-highlights.pdf",
+  "confirmed": false,
+  "changed": true
+ },
+ {
+  "who": "Brad Little",
+  "state": "ID",
+  "key": "sstax",
+  "old_stance": "Unclear",
+  "new_stance": "Lean support",
+  "evidence": "Proposed conforming Idaho's tax code to federal cuts including reduced taxes for seniors (Jan 2026); a narrower senior break, not a retirement-income exemption.",
+  "url": "https://gov.idaho.gov/wp-content/uploads/2026/01/fy27-budget-highlights.pdf",
+  "confirmed": false,
+  "changed": true
+ },
+ {
+  "who": "Brad Little",
+  "state": "ID",
+  "key": "fraud",
+  "old_stance": "Unclear",
+  "new_stance": "Lean support",
+  "evidence": "Budget has agencies working with the legislative DOGE Committee and an efficiency review of virtual-school funding (Jan 2026); efficiency, not a fraud overhaul.",
+  "url": "https://gov.idaho.gov/wp-content/uploads/2026/01/fy27-budget-highlights.pdf",
+  "confirmed": false,
+  "changed": true
+ }
+]

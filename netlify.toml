@@ -1,0 +1,4 @@
+# The site is prebuilt by build.sh and committed in site/, so Netlify only serves files.
+[build]
+  publish = "site"
+  command = ""

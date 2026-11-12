@@ -1,0 +1,433 @@
+{
+ "read": {
+  "Donald Trump": "Held vs. Trump; cooler on Israel",
+  "JD Vance": "Away from Trump; cooler on Israel",
+  "Marco Rubio": "Held vs. Trump",
+  "Josh Hawley": "Away from Trump",
+  "Ron DeSantis": "Away from Trump; more populist",
+  "Ted Budd": "Away from Trump",
+  "Jim Jordan": "Held vs. Trump",
+  "Tate Reeves": "Away from Trump",
+  "Stephen Miller": "Held vs. Trump",
+  "Pete Hegseth": "Held vs. Trump",
+  "Byron Donalds": "Away from Trump",
+  "Joe Gruters": "No movement on record",
+  "Jeff Landry": "Away from Trump",
+  "Sarah Huckabee Sanders": "Held vs. Trump",
+  "Eric Schmitt": "No movement on record",
+  "Bernie Moreno": "Away from Trump",
+  "Jim Banks": "Away from Trump",
+  "Tom Cotton": "No movement on record",
+  "Nikki Haley": "Away from Trump",
+  "Ted Cruz": "Away from Trump; more populist",
+  "Roger Wicker": "No movement on record",
+  "Mike Lee": "Held vs. Trump",
+  "Ron Johnson": "Held vs. Trump",
+  "Chip Roy": "Held vs. Trump",
+  "Rand Paul": "Away from Trump",
+  "Rick Scott": "Held vs. Trump",
+  "Andy Harris": "Held vs. Trump",
+  "Thomas Massie": "Held vs. Trump",
+  "John Thune": "Toward Trump",
+  "John Barrasso": "Held vs. Trump",
+  "Steve Scalise": "Held vs. Trump",
+  "James Lankford": "Away from Trump; more free-market",
+  "Jerry Moran": "Held vs. Trump",
+  "Tim Scott": "No movement on record",
+  "Greg Gianforte": "No movement on record",
+  "Brian Kemp": "Toward Trump",
+  "Glenn Youngkin": "Held vs. Trump",
+  "Lisa Murkowski": "Held vs. Trump",
+  "Chris Christie": "Held vs. Trump",
+  "Chris Sununu": "No movement on record",
+  "Kelly Ayotte": "Away from Trump",
+  "Tucker Carlson": "Away from Trump",
+  "Kevin Roberts": "Held vs. Trump",
+  "Erika Kirk": "Away from Trump",
+  "Ben Shapiro": "Away from Trump",
+  "Megyn Kelly": "Away from Trump",
+  "Laura Loomer": "Held vs. Trump",
+  "Laura Ingraham": "Away from Trump",
+  "Candace Owens": "No movement on record",
+  "Joe Rogan": "Away from Trump",
+  "Sean Hannity": "Held vs. Trump"
+ },
+ "themes": [
+  {
+   "t": "Israel",
+   "who": "Vance (\"change our relationship\"), Trump (aid ending; \"great dislike\"), Carlson. Pushback from CUFI, Rep. Randy Fine, Amb. Huckabee and pro-Israel media",
+   "why": "The sharpest new fault line, and it splits Trump's own coalition: restraint populists vs. pro-Israel hawks. Now an issue column and an optional map axis."
+  },
+  {
+   "t": "Epstein files",
+   "who": "Massie (Transparency Act II with Khanna), DeSantis, Carlson; Axios Nov 5",
+   "why": "Fused with corruption; a cheap way for 2028 hopefuls to separate from Trump world."
+  },
+  {
+   "t": "H-1B and legal immigration",
+   "who": "DeSantis, Banks (pre), Ingraham, Loomer",
+   "why": "The immigration debate is shifting from the border to work visas, which splits the tech right from nationalists."
+  },
+  {
+   "t": "Data centers and ratepayers",
+   "who": "Hawley; Cruz (power bills, AI investment)",
+   "why": "Where AI actually shows up: electricity prices and subsidies."
+  },
+  {
+   "t": "Medicaid cuts / healthcare costs",
+   "who": "Hawley, Haley, Cruz",
+   "why": "Opens a populist critique of the party's own budget votes."
+  },
+  {
+   "t": "ICE conduct",
+   "who": "Lankford, Murkowski; Malliotakis (not on list)",
+   "why": "Dissent is about enforcement tactics, not enforcement itself."
+  },
+  {
+   "t": "Hegseth impeachment",
+   "who": "Massie; Hegseth's response; Cruz expects Democrats to try",
+   "why": "A loyalty test in the minority."
+  },
+  {
+   "t": "Leadership revolt",
+   "who": "Hawley (won't pledge his vote), Jordan vs. Scalise, Pfluger vs. Emmer, Lee floated vs. Thune",
+   "why": "The fight-vs.-govern split, made concrete in the Nov–Jan leadership votes."
+  },
+  {
+   "t": "Trump family self-dealing",
+   "who": "Haley, Shapiro, John E. Sununu; Lankford (renamed buildings)",
+   "why": "Corruption in practice; raised mostly by critics."
+  },
+  {
+   "t": "Fox News's role",
+   "who": "Trump, Carlson",
+   "why": "Media-ecosystem split: Fox vs. the podcast right."
+  },
+  {
+   "t": "Miller promotion = doubling down",
+   "who": "Trump, Miller, Hegseth",
+   "why": "Sets the White House baseline everyone else is measured against."
+  },
+  {
+   "t": "2028 positioning",
+   "who": "Vance vs. Rubio and Cruz on Iran and Israel; Stitt's open primary; Fine's \"anyone but Vance\"",
+   "why": "Much of the week's distancing is 2028 positioning, and Israel is the wedge."
+  }
+ ],
+ "others": [
+  {
+   "n": "Kevin Stitt",
+   "role": "Governor (OK)",
+   "said": "Called the result shocking; wants a big open 2028 primary; said voters want stability."
+  },
+  {
+   "n": "John E. Sununu",
+   "role": "NH Senate nominee (lost to Pappas)",
+   "said": "Blamed Trump and his family's business dealings."
+  },
+  {
+   "n": "Mike Huckabee",
+   "role": "U.S. ambassador to Israel",
+   "said": "Said Vance is wrong that GOP voters want to change the Israel relationship (Israeli Channel 12)."
+  },
+  {
+   "n": "Randy Fine",
+   "role": "U.S. Rep. (FL)",
+   "said": "Won't endorse Vance in 2028; accused him of scapegoating Israel and Jews; prefers Rubio or Cruz (Jerusalem Post)."
+  },
+  {
+   "n": "Nicole Malliotakis",
+   "role": "U.S. Rep. (NY)",
+   "said": "Cited DOGE cuts and ICE tactics."
+  },
+  {
+   "n": "Pat Toomey",
+   "role": "Former U.S. Senator (PA)",
+   "said": "Blamed tariffs."
+  },
+  {
+   "n": "John Cornyn",
+   "role": "U.S. Senator (TX)",
+   "said": "Described the last two years as miserable."
+  },
+  {
+   "n": "August Pfluger",
+   "role": "U.S. Rep. (TX); running for whip vs. Emmer",
+   "said": "Pitched fresh ideas for leadership."
+  },
+  {
+   "n": "Donald Trump Jr.",
+   "role": "—",
+   "said": "Endorsed Vance's post (\"Every word of this\")."
+  },
+  {
+   "n": "Mark Levin",
+   "role": "Host",
+   "said": "Blamed by MAGA influencers for the war; blames Vance's Iran deal for prolonging it (per Daily Caller)."
+  },
+  {
+   "n": "Clay Travis",
+   "role": "Host, OutKick",
+   "said": "Said the Trump era is over."
+  }
+ ],
+ "factions": {
+  "Presidential Hopefuls": "The 2028 draft class, and they're already running their own sets. Three of the four put distance between themselves and Trump within days of the loss (Vance flatly blamed the war; Hawley and DeSantis went after Senate leadership), while Rubio is the lone guy still setting screens for the boss.",
+  "Media voices": "The podcast-and-cable ecosystem that actually sets the movement's agenda, and it's splitting the fastest. Carlson declared the Trump era over and Shapiro called it a repudiation, Turning Point's Erika Kirk pointed to prices and the war but warned against infighting, and Hannity and Loomer stayed firmly in Trump's corner.",
+  "Hawks": "Peace-through-strength traditionalists, the wing most tied to the Iran war. Cruz called the night a Watergate-level repudiation and says the war has dragged on too long, Haley went full critic, and on Israel nobody here is giving an inch.",
+  "Pragmatists and Dissenters": "The told-you-so caucus of Republicans who kept Trump at arm's length all along. Christie declared \"the Trump era is over,\" Murkowski wants Congress's war powers back, and Ayotte just showed you can survive a blue wave by running as yourself.",
+  "Trump Loyalists": "The franchise and its lifers. Their answer to a wipeout was promoting Stephen Miller and keeping Hegseth; even Trump's admission that the war and gas prices hurt came with an \"emphatic yes\" that he'd do it again. Budd, Landry and Reeves conceded the damage without blaming him.",
+  "Tea Party/Freedom Caucus": "The deficit hawks and libertarian gadflies, now leading the revolt against a quick leadership vote: Ron Johnson forced a debrief meeting with Lee and Rick Scott, and Chip Roy says Republicans \"dropped the ball.\" Rand Paul blames deficits, tariffs and the war, and Massie is pushing Hegseth impeachment articles.",
+  "New Right": "The post-liberal, pro-worker, anti-H-1B wing that was supposed to inherit MAGA. Banks says there's \"no way to spin\" the loss and wants a frank reckoning before leaders are chosen, Moreno wants a \"Last Supper\" lame-duck sprint, and Schmitt has stayed on offense against Democrats instead of talking about the loss.",
+  "Institutionalists": "The leadership class and the governors who keep the lights on. Mostly they're hedging and lining up for minority-leadership jobs (Barrasso sees \"clear lessons\" but names no culprit); Lankford is the outlier, calling it a referendum on Trump and ICE, while Thune and Kemp actually moved closer to the party line."
+ },
+ "codes": {
+  "tariffs": {
+   "JD Vance": "C",
+   "Josh Hawley": "C",
+   "Ted Cruz": "B",
+   "Rand Paul": "B",
+   "James Lankford": "B"
+  },
+  "healthcare": {
+   "Josh Hawley": "B",
+   "Nikki Haley": "C",
+   "Ted Cruz": "C"
+  },
+  "immigration": {
+   "JD Vance": "U",
+   "Ron DeSantis": "R",
+   "James Lankford": "B",
+   "Laura Loomer": "R",
+   "Laura Ingraham": "R",
+   "Chip Roy": "D"
+  },
+  "iran_war": {
+   "Donald Trump": "D",
+   "JD Vance": "B",
+   "Marco Rubio": "D",
+   "Pete Hegseth": "D",
+   "Sarah Huckabee Sanders": "D",
+   "Ted Cruz": "B",
+   "Rand Paul": "B",
+   "Thomas Massie": "B",
+   "James Lankford": "B",
+   "Lisa Murkowski": "B",
+   "Tucker Carlson": "B",
+   "Kevin Roberts": "C",
+   "Megyn Kelly": "B",
+   "Laura Ingraham": "C",
+   "Joe Rogan": "B",
+   "Sean Hannity": "C",
+   "Erika Kirk": "C"
+  },
+  "stock_trading": {
+   "Ron DeSantis": "B",
+   "Rick Scott": "B"
+  },
+  "ai": {
+   "Josh Hawley": "B",
+   "Ron DeSantis": "B",
+   "Ted Cruz": "D"
+  },
+  "corruption": {
+   "Ron DeSantis": "B",
+   "Pete Hegseth": "D",
+   "Nikki Haley": "B",
+   "Thomas Massie": "B",
+   "James Lankford": "B",
+   "Tucker Carlson": "B",
+   "Ben Shapiro": "B",
+   "Chip Roy": "C"
+  },
+  "israel": {
+   "Donald Trump": "B",
+   "JD Vance": "B"
+  }
+ },
+ "blame": {
+  "Donald Trump": [
+   "war",
+   "prices",
+   "outside"
+  ],
+  "JD Vance": [
+   "war",
+   "prices",
+   "israel"
+  ],
+  "Josh Hawley": [
+   "party",
+   "prices"
+  ],
+  "Ron DeSantis": [
+   "party"
+  ],
+  "Tate Reeves": [
+   "environment"
+  ],
+  "Byron Donalds": [
+   "prices"
+  ],
+  "Sarah Huckabee Sanders": [
+   "prices"
+  ],
+  "Nikki Haley": [
+   "prices",
+   "corruption"
+  ],
+  "Ted Cruz": [
+   "trump",
+   "prices",
+   "war"
+  ],
+  "Ron Johnson": [
+   "prices",
+   "party"
+  ],
+  "Rand Paul": [
+   "prices",
+   "war"
+  ],
+  "Thomas Massie": [
+   "party"
+  ],
+  "James Lankford": [
+   "trump",
+   "prices",
+   "war"
+  ],
+  "Glenn Youngkin": [
+   "prices"
+  ],
+  "Tucker Carlson": [
+   "trump",
+   "war"
+  ],
+  "Kevin Roberts": [
+   "prices",
+   "war"
+  ],
+  "Ben Shapiro": [
+   "trump",
+   "prices",
+   "corruption"
+  ],
+  "Megyn Kelly": [
+   "trump"
+  ],
+  "Laura Loomer": [
+   "outside",
+   "party"
+  ],
+  "Laura Ingraham": [
+   "war"
+  ],
+  "Joe Rogan": [
+   "trump",
+   "war"
+  ],
+  "Sean Hannity": [
+   "war"
+  ],
+  "Steve Scalise": [
+   "party"
+  ],
+  "Brian Kemp": [
+   "environment"
+  ],
+  "Ted Budd": [
+   "party"
+  ],
+  "Jim Banks": [
+   "prices",
+   "party"
+  ],
+  "Rick Scott": [
+   "party"
+  ],
+  "Chip Roy": [
+   "party",
+   "prices",
+   "corruption"
+  ],
+  "Andy Harris": [
+   "party"
+  ],
+  "John Barrasso": [
+   "prices"
+  ],
+  "Chris Christie": [
+   "trump"
+  ],
+  "Erika Kirk": [
+   "prices",
+   "war"
+  ],
+  "Mike Lee": [
+   "party"
+  ]
+ },
+ "boast": {
+  "John Thune": "Defended the record: taxes, border, Cabinet, judges."
+ },
+ "toplines": {
+  "field": {
+   "h": "The 2028 field is breaking. The Cabinet isn't.",
+   "b": "Vance (−6.3), Cruz (−4.2), Hawley (−3.9) and DeSantis (−3.3) all moved away from Trump within days. Rubio, still in the Cabinet, is the only hopeful holding with him."
+  },
+  "iran": {
+   "h": "The Iran war is the position they're abandoning.",
+   "b": "Nine Republicans from six factions broke with the war. The only four still defending it are Trump and his inner circle: Rubio, Hegseth and Sanders."
+  },
+  "romney": {
+   "h": "Immigration fails the Romney test.",
+   "b": "Three are going harder, mostly on H-1B visas, and Chip Roy is doubling down on enforcement; only Lankford is pushing back, and only on ICE tactics. Like 2012's promised pivot, the leftward move isn't coming."
+  },
+  "middle": {
+   "h": "The loyal core is shrinking.",
+   "b": "Republicans scoring 8 or above on the Trump scale fell from 19 to 12, while those at 3 or below jumped from 5 to 13. The party is sorting away from Trump, not abandoning him."
+  },
+  "prices": {
+   "h": "They blame prices, not Trump.",
+   "b": "17 of the 33 who gave a reason pointed to prices and cost of living; only 7 blamed Trump himself. Expect an affordability pivot, not a break with him."
+  },
+  "tariffs": {
+   "h": "Nobody is defending the tariffs.",
+   "b": "Three free-marketers from three factions (Cruz, Paul, Lankford) broke on tariffs, and not one Republican doubled down on them."
+  },
+  "voices": {
+   "h": "The voices are outrunning the officials.",
+   "b": "Hosts and outside voices moved about twice as far from Trump as elected and appointed officials did, on average. The ideas tend to lead the votes."
+  },
+  "senate": {
+   "h": "The Senate GOP is turning on its own leadership.",
+   "b": "Only 4 of the 18 Republican senators on the list have said nothing. Five pushed to delay the leadership vote, and 8 moved away from Trump; leader Thune moved toward him."
+  },
+  "israel": {
+   "h": "Israel is a top-down rift.",
+   "b": "Only Trump and Vance have shifted on Israel. The Hawks and Loyalists haven't budged from strongly pro-Israel, so the fight is at the top, not the base."
+  },
+  "partners": {
+   "h": "Iran war powers is the biggest bipartisan opening.",
+   "b": "Nine Republicans who broke on the war map onto the Iran war powers measure, the most for any Agenda item. Tariff emergencies is next, with three."
+  },
+  "field2": {
+   "h": "The 2028 field is breaking with Trump, except Rubio.",
+   "b": "Vance (−6.3), Cruz (−4.2), Hawley (−3.9) and DeSantis (−3.3) moved away, mostly by blaming his policies rather than him: Vance the Iran war, Cruz tariffs and the war, Hawley costs, DeSantis a do-nothing Senate. Rubio, still in the Cabinet, defended the war and holds at 10."
+  },
+  "senate2": {
+   "h": "Senate Republicans want a reckoning first.",
+   "b": "14 of the 18 GOP senators on the list have now spoken, and 8 moved away from Trump, led by Lankford, Cruz and Hawley. Johnson, Lee, Rick Scott, Budd and Banks want a debrief before leaders are chosen. Only Thune moved toward Trump; Cotton, Schmitt, Wicker and Tim Scott are still silent."
+  },
+  "bipart": {
+   "h": "Iran, corruption and tariffs are bipartisan openings.",
+   "b": "The widest GOP breaks: the Iran war (9 Republicans across 6 factions), corruption and the Epstein files (6 across 5), and tariffs (3, with no defenders). The likeliest places for early deals."
+  }
+ },
+ "topline_pick": [
+  "field2",
+  "senate2",
+  "bipart"
+ ]
+}

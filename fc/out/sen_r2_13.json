@@ -1,0 +1,24 @@
+[
+ {
+  "who": "Annie Andrews",
+  "state": "SC",
+  "key": "gastax",
+  "old_stance": "Unclear",
+  "new_stance": "Support",
+  "evidence": "In the Oct 2026 debate said she had proposed weeks earlier to suspend the federal gas and diesel tax to cut costs.",
+  "url": "https://abcnews4.com/news/local/whatever-washington-tells-her-looking-ahead-on-sc-senate-race-after-testy-first-debate",
+  "confirmed": false,
+  "changed": true
+ },
+ {
+  "who": "Annie Andrews",
+  "state": "SC",
+  "key": "datactr",
+  "old_stance": "Unclear",
+  "new_stance": "Lean support",
+  "evidence": "Called for a two-year moratorium on new SC data centers, citing their tax breaks and family costs (Sep 2026); a related but different policy from making them pay grid costs.",
+  "url": "https://www.live5news.com/2026/09/28/senate-candidate-dr-annie-andrews-calls-moratorium-data-centers/",
+  "confirmed": false,
+  "changed": true
+ }
+]

@@ -1,0 +1,57 @@
+[
+ {
+  "who": "John Barrasso",
+  "state": "WY",
+  "key": "fil",
+  "old_stance": "Unclear",
+  "new_stance": "Oppose",
+  "evidence": "Rejected scrapping the filibuster on Fox & Friends, saying Republicans would not back it and warning Democrats would add DC/PR states (Oct 2025).",
+  "url": "https://cowboystatedaily.com/2025/11/06/barrasso-lummis-oppose-bypassing-dems-with-nuclear-option-to-end-shutdown",
+  "confirmed": false,
+  "changed": true
+ },
+ {
+  "who": "John Barrasso",
+  "state": "WY",
+  "key": "m4a",
+  "old_stance": "Unclear",
+  "new_stance": "Oppose",
+  "evidence": "On CNBC, called Warren-style Medicare for All a complete government takeover of health care with higher taxes and longer waits (Nov 2019).",
+  "url": "https://www.cnbc.com/2019/11/06/sen-john-barrasso-even-democrats-panic-over-warren-medicare-for-all.html",
+  "confirmed": false,
+  "changed": true
+ },
+ {
+  "who": "John Barrasso",
+  "state": "WY",
+  "key": "dcpr",
+  "old_stance": "Unclear",
+  "new_stance": "Oppose",
+  "evidence": "Said DC statehood runs against the Founders intent and is a Democratic bid to add two liberal senators (Apr 2021); again warned against DC/PR states (Oct 2025).",
+  "url": "https://newslj.com/delegation-opposes-dc-statehood",
+  "confirmed": false,
+  "changed": true
+ },
+ {
+  "who": "John Barrasso",
+  "state": "WY",
+  "key": "gastax",
+  "old_stance": "Unclear",
+  "new_stance": "Lean oppose",
+  "evidence": "Dismissed Biden's federal gas tax holiday as a political gimmick, saying the country needs a holiday from Biden energy policies instead (Jun 2022).",
+  "url": "https://www.energy.senate.gov/2022/6/barrasso-we-need-a-holiday-from-president-biden-s-energy-policies",
+  "confirmed": false,
+  "changed": true
+ },
+ {
+  "who": "Harriet Hageman",
+  "state": "WY",
+  "key": "ctc",
+  "old_stance": "Unclear",
+  "new_stance": "Lean support",
+  "evidence": "Voted for the Tax Relief for American Families and Workers Act (H.R. 7024), a narrower CTC expansion raising the refundable portion (Jan 2024, 357-70).",
+  "url": "https://ballotpedia.org/Harriet_Hageman",
+  "confirmed": false,
+  "changed": true
+ }
+]

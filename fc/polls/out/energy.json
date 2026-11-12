@@ -1,0 +1,352 @@
+[
+ {
+  "keys": [
+   "sen:datactr",
+   "gov:datactr"
+  ],
+  "match": "concept",
+  "pollster": "VCU Wilder School (Commonwealth Poll)",
+  "sponsor": "",
+  "tier": 1,
+  "type": "state",
+  "fielded": "2026-06",
+  "n": 804,
+  "question": "Require data centers to pay additional fees to offset their electricity demand",
+  "url": "https://wilder.vcu.edu/news-and-events/news-posts/voters-question-virginias-direction-and-oppose-sales-tax-exemption-for-data-centers-new-commonwealth-poll-finds.html",
+  "states": {
+   "VA": {
+    "sup": 81,
+    "opp": null
+   }
+  },
+  "national": null,
+  "note": "Registered-voter subset of 804 VA adults, fielded Jun 22-Jul 6 2026. Oppose share not reported. Same poll: 72% of RVs oppose the data center sales tax exemption."
+ },
+ {
+  "keys": [
+   "gov:datactr"
+  ],
+  "match": "concept",
+  "pollster": "Washington Post-Schar School",
+  "sponsor": "",
+  "tier": 1,
+  "type": "state",
+  "fielded": "2026-03",
+  "n": 1101,
+  "question": "Continue the sales-tax exemption for data centers vs. end the incentives",
+  "url": "https://www.adn.com/nation-world/2026/04/15/in-this-us-hot-spot-for-data-centers-voters-have-turned-against-them/",
+  "states": {
+   "VA": {
+    "sup": 67,
+    "opp": 26
+   }
+  },
+  "national": null,
+  "note": "Reverse-worded: sup = % who want to end data center tax incentives (67%), opp = % supporting continuing the exemption (26%). Registered voters, Mar 26-31 2026; Washington Post story reprinted by Anchorage Daily News."
+ },
+ {
+  "keys": [
+   "sen:datactr",
+   "gov:datactr"
+  ],
+  "match": "concept",
+  "pollster": "Blue Rose Research",
+  "sponsor": "Center for American Progress",
+  "tier": 3,
+  "type": "national",
+  "fielded": "2026-04",
+  "n": null,
+  "question": "Mandatory fair share: require AI companies/data centers to pay the full cost of the power they use",
+  "url": "https://www.americanprogress.org/wp-content/uploads/sites/2/2026/05/VERSION-2-Memo_CAPs-Utilities-Polling_4.15.26-259-JOL.pdf",
+  "states": {},
+  "national": {
+   "sup": 70,
+   "opp": null
+  },
+  "note": "Partisan/advocacy (CAP). Spring 2026; memo gives no sample size or oppose shares. Voluntary fair-share version: 56%."
+ },
+ {
+  "keys": [
+   "gov:utility"
+  ],
+  "match": "concept",
+  "pollster": "Blue Rose Research",
+  "sponsor": "Center for American Progress",
+  "tier": 3,
+  "type": "national",
+  "fielded": "2026-04",
+  "n": null,
+  "question": "Ban utility 'junk fees' (charging customers for lobbying, PR, trade association dues)",
+  "url": "https://www.americanprogress.org/wp-content/uploads/sites/2/2026/05/VERSION-2-Memo_CAPs-Utilities-Polling_4.15.26-259-JOL.pdf",
+  "states": {},
+  "national": {
+   "sup": 62,
+   "opp": null
+  },
+  "note": "Partisan/advocacy (CAP). Spring 2026; no sample size or oppose shares. Ban on fuel surcharges: 61%."
+ },
+ {
+  "keys": [
+   "gov:ratefreeze"
+  ],
+  "match": "concept",
+  "pollster": "Blue Rose Research",
+  "sponsor": "Center for American Progress",
+  "tier": 3,
+  "type": "national",
+  "fielded": "2026-04",
+  "n": null,
+  "question": "Federally funded freeze on electricity rates",
+  "url": "https://www.americanprogress.org/wp-content/uploads/sites/2/2026/05/VERSION-2-Memo_CAPs-Utilities-Polling_4.15.26-259-JOL.pdf",
+  "states": {},
+  "national": {
+   "sup": 57,
+   "opp": null
+  },
+  "note": "Partisan/advocacy (CAP). Federal (not state) rate freeze; spring 2026; no sample size or oppose shares."
+ },
+ {
+  "keys": [
+   "sen:datactr",
+   "gov:datactr"
+  ],
+  "match": "concept",
+  "pollster": "Global Strategy Group",
+  "sponsor": "Illinois Clean Jobs Coalition",
+  "tier": 3,
+  "type": "state",
+  "fielded": "2026-03",
+  "n": 800,
+  "question": "Bar shifting data center energy costs onto consumers' utility bills",
+  "url": "https://capitolfax.com/2026/04/20/poll-illinoisans-overwhelmingly-want-to-impose-strict-rules-on-data-centers/",
+  "states": {
+   "IL": {
+    "sup": 91,
+    "opp": null
+   }
+  },
+  "national": null,
+  "note": "Advocacy-sponsored (coalition backing the POWER Act); likely voters, Mar 16-19 2026; agree share only (84% strongly). Overall POWER Act regulation: 68% support, 21% oppose."
+ },
+ {
+  "keys": [
+   "sen:datactr",
+   "gov:datactr"
+  ],
+  "match": "concept",
+  "pollster": "Emerson College Polling",
+  "sponsor": "RealClearPolitics Institute of News & Information",
+  "tier": 1,
+  "type": "state",
+  "fielded": "2025-11",
+  "n": 2000,
+  "question": "Require data centers to supply their own energy rather than draw from the public grid",
+  "url": "https://emersoncollegepolling.com/pennsylvania-survey-on-data-centers-artificial-intelligence/",
+  "states": {
+   "PA": {
+    "sup": 70,
+    "opp": 5
+   }
+  },
+  "national": null,
+  "note": "PA adults, Nov 19-23 2025; 24% neutral. Proxy for making data centers bear their own power costs (own generation, not cost allocation)."
+ },
+ {
+  "keys": [
+   "sen:datactr",
+   "gov:datactr"
+  ],
+  "match": "concept",
+  "pollster": "Glengariff Group",
+  "sponsor": "Detroit Regional Chamber",
+  "tier": 1,
+  "type": "state",
+  "fielded": "2026-04",
+  "n": 600,
+  "question": "Importance of a safeguard requiring data centers to pay for grid upgrades, new generation and their full electricity costs so other customers see no rate hikes",
+  "url": "https://www.detroitchamber.com/wp-content/uploads/2026/05/Detroit-Regional-Chamber_Glengariff-Group_Michigan-Voter-Poll_May-2026.pdf",
+  "states": {
+   "MI": {
+    "sup": 87.0,
+    "opp": 10.7
+   }
+  },
+  "national": null,
+  "note": "Importance scale, not support/oppose: sup = very+somewhat important (74.2% very), opp = not very/not at all important. Likely voters, Apr 28-May 1 2026. Same poll: no extra tax incentives/NDAs for data centers 85.5% important, 11.5% not."
+ },
+ {
+  "keys": [
+   "sen:datactr",
+   "gov:datactr"
+  ],
+  "match": "concept",
+  "pollster": "Global Strategy Group",
+  "sponsor": "America Is All In",
+  "tier": 3,
+  "type": "national",
+  "fielded": "2026-04",
+  "n": 1003,
+  "question": "Require data centers to pay the full cost of the energy and grid infrastructure they need",
+  "url": "https://www.americaisallin.com/sites/default/files/2026-07/AIAI%20Data%20Center%20Survey%20Memo%20FINAL.pdf",
+  "states": {},
+  "national": {
+   "sup": 76,
+   "opp": null
+  },
+  "note": "Advocacy-sponsored (climate coalition). RVs nationwide, Apr 9-19 2026; support only reported. Requiring data centers to fund transmission/grid upgrades: 71%."
+ },
+ {
+  "keys": [
+   "sen:gastax"
+  ],
+  "match": "bill",
+  "pollster": "RMG Research (Napolitan News Service)",
+  "sponsor": "",
+  "tier": 1,
+  "type": "national",
+  "fielded": "2026-05",
+  "n": 1000,
+  "question": "Suspend the federal gas tax to reduce gas prices",
+  "url": "https://napolitannews.org/assets/pdfs/6a04d161da223-gcm26-0511-toplines-federal-gas-tax.pdf",
+  "states": {},
+  "national": {
+   "sup": 68,
+   "opp": 20
+  },
+  "note": "RVs, May 11-12 2026, online. After being told the tax raises ~$36B/yr: 58% favor, 28% oppose."
+ },
+ {
+  "keys": [
+   "gov:gastax"
+  ],
+  "match": "concept",
+  "pollster": "UMass Amherst Poll (YouGov)",
+  "sponsor": "",
+  "tier": 1,
+  "type": "state",
+  "fielded": "2022-06",
+  "n": 1000,
+  "question": "Temporarily suspend the Massachusetts state gas tax",
+  "url": "https://www.umass.edu/news/article/concerns-about-state-national-economies-growing-massachusetts-according-new-umass",
+  "states": {
+   "MA": {
+    "sup": 71,
+    "opp": null
+   }
+  },
+  "national": null,
+  "note": "MA residents, Jun 15-21 2022; oppose share not given in release. Older poll; a 69% 'UMass poll' figure cited by Rep. Smola in Oct 2026 (NBC Boston) could not be traced to a release, so not used."
+ },
+ {
+  "keys": [
+   "sen:datactr",
+   "gov:datactr"
+  ],
+  "match": "concept",
+  "pollster": "Fairleigh Dickinson University (FDU Poll)",
+  "sponsor": "",
+  "tier": 1,
+  "type": "state",
+  "fielded": "2025-10",
+  "n": 814,
+  "question": "Make data centers pay more for their electricity",
+  "url": "https://www.fdu.edu/news/fdu-poll-finds-nj-voters-say-data-centers-should-pay-more/",
+  "states": {
+   "NJ": {
+    "sup": 68,
+    "opp": null
+   }
+  },
+  "national": null,
+  "note": "NJ RVs/likely voters, Oct 9-15 2025; oppose share not reported in release (D 77, I 73, R 56)."
+ },
+ {
+  "keys": [
+   "gov:utility"
+  ],
+  "match": "concept",
+  "pollster": "Fairleigh Dickinson University (FDU Poll)",
+  "sponsor": "",
+  "tier": 1,
+  "type": "state",
+  "fielded": "2025-10",
+  "n": 814,
+  "question": "Tighter regulation of power producers and distributors to bring down energy costs",
+  "url": "https://njbia.org/fdu-poll-partisanship-affects-voters-views-on-fixing-high-nj-energy-costs/",
+  "states": {
+   "NJ": {
+    "sup": 61,
+    "opp": null
+   }
+  },
+  "national": null,
+  "note": "Loose proxy for utility accountability (general tighter regulation, not specifically fee caps or lobbying limits). Oppose not reported. Same poll as the FDU data-center item."
+ },
+ {
+  "keys": [
+   "sen:datactr",
+   "gov:datactr"
+  ],
+  "match": "concept",
+  "pollster": "University of Houston Hobby School of Public Affairs",
+  "sponsor": "",
+  "tier": 1,
+  "type": "state",
+  "fielded": "2026-10",
+  "n": 2000,
+  "question": "Require data center companies to pay for the grid upgrades needed to serve their facilities",
+  "url": "https://uh.edu/hobby/texas2026/centers.pdf",
+  "states": {
+   "TX": {
+    "sup": 99,
+    "opp": 1
+   }
+  },
+  "national": null,
+  "note": "Likely voters, Oct 10-14 2026. Report EXCLUDES 'unsure' responses, so shares are of those with an opinion (cannot re-derive all-respondent shares); likely overstates support vs. other polls."
+ },
+ {
+  "keys": [
+   "gov:datactr"
+  ],
+  "match": "concept",
+  "pollster": "SurveyUSA / Ohio Northern University Institute for Civics and Public Policy",
+  "sponsor": "",
+  "tier": 1,
+  "type": "state",
+  "fielded": "2026-10",
+  "n": 1650,
+  "question": "Tax breaks for data centers (support vs. oppose)",
+  "url": "https://spectrumnews1.com/oh/cincinnati/news/2026/10/22/study--public-disapproval-of-data-centers",
+  "states": {
+   "OH": {
+    "sup": 65,
+    "opp": 15
+   }
+  },
+  "national": null,
+  "note": "Reverse-worded: sup = % opposing data center tax breaks, opp = % supporting them. Ohio adults; field dates not stated (article published Oct 22 2026)."
+ },
+ {
+  "keys": [
+   "gov:datactr"
+  ],
+  "match": "concept",
+  "pollster": "SurveyUSA",
+  "sponsor": "KSTP-TV",
+  "tier": 1,
+  "type": "state",
+  "fielded": "2026-07",
+  "n": null,
+  "question": "Subsidies for local data centers (support vs. oppose)",
+  "url": "https://kstp.com/?p=3982247",
+  "states": {
+   "MN": {
+    "sup": 69,
+    "opp": 20
+   }
+  },
+  "national": null,
+  "note": "Reverse-worded: sup = % opposing local data center subsidies, opp = % supporting; 12% unsure. Field dates not stated (article published Jul 23 2026); toplines at https://kstp.com/wp-content/uploads/2026/07/PollData.pdf (not opened)."
+ }
+]

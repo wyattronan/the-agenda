@@ -1,0 +1,200 @@
+[
+ {
+  "who": "Tommy Tuberville",
+  "state": "AL",
+  "key": "aca",
+  "old_stance": "Unclear",
+  "new_stance": "Lean oppose",
+  "evidence": "Voted against advancing S.3385, a three-year federal extension of enhanced ACA subsidies (Dec 2025); a federal extension, not state backfill.",
+  "url": "https://www.govinfo.gov/link/crec/171/s/8654",
+  "confirmed": false,
+  "changed": true
+ },
+ {
+  "who": "Tommy Tuberville",
+  "state": "AL",
+  "key": "corphome",
+  "old_stance": "Unclear",
+  "new_stance": "Lean oppose",
+  "evidence": "Voted against the federal ROAD to Housing Act, which limits big investors' single-family purchases, citing federal control of housing (June 2026); federal bill, not state law.",
+  "url": "https://www.newsweek.com/full-list-republicans-vote-against-housing-reform-bill-12113151",
+  "confirmed": false,
+  "changed": true
+ },
+ {
+  "who": "Tommy Tuberville",
+  "state": "AL",
+  "key": "wage",
+  "old_stance": "Unclear",
+  "new_stance": "Lean oppose",
+  "evidence": "Rated likely no on raising the federal minimum wage, saying government shouldn't guarantee a livable income (Oct 2020 Senate race survey).",
+  "url": "https://ontheissues.org/Domestic/Tommy_Tuberville_Jobs.htm",
+  "confirmed": false,
+  "changed": true
+ },
+ {
+  "who": "Katie Hobbs",
+  "state": "AZ",
+  "key": "drugbd",
+  "old_stance": "Unclear",
+  "new_stance": "Lean support",
+  "evidence": "Touted her AZRx state drug discount card, run through the multistate ArrayRx pool, saving $249 per prescription (Oct 2026); a discount card, not a price-setting board.",
+  "url": "https://azgovernor.gov/office-arizona-governor/news/2026/10/new-governor-hobbs-prescription-drug-discount-program-azrx",
+  "confirmed": false,
+  "changed": true
+ },
+ {
+  "who": "Katie Hobbs",
+  "state": "AZ",
+  "key": "childcare",
+  "old_stance": "Unclear",
+  "new_stance": "Lean support",
+  "evidence": "Budget proposal kept $44.8M to preserve the 40% high-quality rate boost in state child care aid (Jan 2026); targeted subsidy funding, not a universal system.",
+  "url": "https://azgovernor.gov/office-arizona-governor/news/2026/01/governor-katie-hobbs-releases-fy2027-executive-budget-proposal",
+  "confirmed": false,
+  "changed": true
+ },
+ {
+  "who": "Katie Hobbs",
+  "state": "AZ",
+  "key": "ctc",
+  "old_stance": "Unclear",
+  "new_stance": "Lean support",
+  "evidence": "Lists one-time family tax rebates of up to $750 for 750,000 working families among her accomplishments (2023 budget); a one-time rebate, not a lasting credit.",
+  "url": "https://azgovernor.gov/accomplishments",
+  "confirmed": false,
+  "changed": true
+ },
+ {
+  "who": "Katie Hobbs",
+  "state": "AZ",
+  "key": "eohousing",
+  "old_stance": "Unclear",
+  "new_stance": "Lean support",
+  "evidence": "Launched infrastructure districts, created by HB 2999 she signed in June, letting bonds finance roads and pipes to revive stalled housing (Sept 2026); law, not executive order.",
+  "url": "https://azgovernor.gov/office-arizona-governor/news/2026/09/governor-katie-hobbs-launches-program-cut-red-tape-and-lower",
+  "confirmed": false,
+  "changed": true
+ },
+ {
+  "who": "Katie Hobbs",
+  "state": "AZ",
+  "key": "utility",
+  "old_stance": "Unclear",
+  "new_stance": "Lean support",
+  "evidence": "Touted her consumer utility office winning $321M in savings by challenging rate hikes at the Corporation Commission (July 2026); no fee caps or lobbying limits.",
+  "url": "https://azgovernor.gov/office-arizona-governor/news/2026/07/hobbs-administration-helps-secure-321-million-utility-bill",
+  "confirmed": false,
+  "changed": true
+ },
+ {
+  "who": "Sarah Huckabee Sanders",
+  "state": "AR",
+  "key": "prek",
+  "old_stance": "Unclear",
+  "new_stance": "Lean support",
+  "evidence": "Budget proposal adds $20M for early childhood education, including expanded access to early learning (Nov 2026); no universal pre-K pledge.",
+  "url": "https://governor.arkansas.gov/news_post/governor-sanders-delivers-her-balanced-budget-2/",
+  "confirmed": false,
+  "changed": true
+ },
+ {
+  "who": "Sarah Huckabee Sanders",
+  "state": "AR",
+  "key": "pfml",
+  "old_stance": "Unclear",
+  "new_stance": "Lean support",
+  "evidence": "State of the State touted making Arkansas one of two states giving teachers 12 weeks paid maternity leave (Apr 2026); public workers only, not a state insurance program.",
+  "url": "https://governor.arkansas.gov/news_post/governor-sanders-delivers-state-of-the-state-address-3/",
+  "confirmed": false,
+  "changed": true
+ },
+ {
+  "who": "Sarah Huckabee Sanders",
+  "state": "AR",
+  "key": "fraud",
+  "old_stance": "Unclear",
+  "new_stance": "Lean support",
+  "evidence": "Touted her Arkansas Forward review finding $300M+ in savings by cutting waste and renegotiating contracts (Apr 2026); efficiency drive, not fraud audits or an inspector general.",
+  "url": "https://governor.arkansas.gov/news_post/governor-sanders-delivers-state-of-the-state-address-3/",
+  "confirmed": false,
+  "changed": true
+ },
+ {
+  "who": "Sarah Huckabee Sanders",
+  "state": "AR",
+  "key": "roe",
+  "old_stance": "Noted",
+  "new_stance": "Oppose",
+  "evidence": "Celebrated Arkansas' most-pro-life-state ranking, citing abortion limits she signed such as Act 973 and Act 485 of 2025 (Oct 2026).",
+  "url": "https://governor.arkansas.gov/news_post/arkansas-named-most-pro-life-state-in-america-for-seventh-year-in-a-row/",
+  "confirmed": false,
+  "changed": true
+ },
+ {
+  "who": "Jonathan Kreiss-Tomkins",
+  "state": "AK",
+  "key": "teacher",
+  "old_stance": "Lean support",
+  "new_stance": "Support",
+  "evidence": "Platform pledges to raise teacher pay to attract top educators and to create a defined-benefit retirement system (2026).",
+  "url": "https://www.jktforak.com/platform",
+  "confirmed": false,
+  "changed": true
+ },
+ {
+  "who": "Jonathan Kreiss-Tomkins",
+  "state": "AK",
+  "key": "datactr",
+  "old_stance": "Lean support",
+  "new_stance": "Support",
+  "evidence": "Platform would pause new data centers until rules pass and make data centers cover their own electricity costs, with local approval required (2026).",
+  "url": "https://www.jktforak.com/platform",
+  "confirmed": false,
+  "changed": true
+ },
+ {
+  "who": "Jonathan Kreiss-Tomkins",
+  "state": "AK",
+  "key": "drugbd",
+  "old_stance": "Unclear",
+  "new_stance": "Lean support",
+  "evidence": "Platform would ban excessive drug markups and require hospitals and drug makers to disclose prices (2026); no state price-setting board.",
+  "url": "https://www.jktforak.com/platform",
+  "confirmed": false,
+  "changed": true
+ },
+ {
+  "who": "Jonathan Kreiss-Tomkins",
+  "state": "AK",
+  "key": "eohousing",
+  "old_stance": "Unclear",
+  "new_stance": "Lean support",
+  "evidence": "Platform would create a governor's housing task force modeled on Atlanta's and an expedited permitting system (2026); no executive order named.",
+  "url": "https://www.jktforak.com/platform",
+  "confirmed": false,
+  "changed": true
+ },
+ {
+  "who": "Jonathan Kreiss-Tomkins",
+  "state": "AK",
+  "key": "corphome",
+  "old_stance": "Unclear",
+  "new_stance": "Lean support",
+  "evidence": "Platform would tax 'dark homes' owned by nonresidents (2026); targets absentee owners, not limits on large investors.",
+  "url": "https://www.jktforak.com/platform",
+  "confirmed": false,
+  "changed": true
+ },
+ {
+  "who": "Jonathan Kreiss-Tomkins",
+  "state": "AK",
+  "key": "roe",
+  "old_stance": "Unclear",
+  "new_stance": "Lean support",
+  "evidence": "Platform pledges to defend the right to choose and contraception access (2026); no specific plan to write abortion rights into law.",
+  "url": "https://www.jktforak.com/platform",
+  "confirmed": false,
+  "changed": true
+ }
+]
