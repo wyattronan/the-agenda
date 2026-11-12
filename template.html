@@ -2873,7 +2873,8 @@ function renderGsdTop(){
   const signedR=G.filter(r=>r.p==='R'&&r.lad.n.Deliver>=3).sort((a,b)=>b.lad.n.Deliver-a.lad.n.Deliver).slice(0,3);
   const hTop=H[0], hSen=H.find(o=>o.kind==='sen'), hSenRk=hSen?tieRank(HROWS,hSen):null, execAbove=hSen?H.filter(o=>o.tot>hSen.tot).length:0;
   // three things to know: the governors' biggest talk-vs-action gap, what governors actually sign, and the Senate's biggest talk-vs-action gap
-  const gDel={}; GROWS.forEach(r=>(r.lad.keys.Deliver||[]).forEach(k=>gDel[k]=(gDel[k]||0)+1));
+  // a signed law counts as delivering a priority only when it fully matches it (a 'lean' record, like a broad tax cut filed under middle-class cuts, doesn't)
+  const gDel={}; GROWS.forEach(r=>(r.lad.keys.Deliver||[]).forEach(k=>{ if(govStance(k,r.s)==='Support') gDel[k]=(gDel[k]||0)+1; }));
   const gSup=k=>D.gov.filter(g=>g.p==='D'&&govStance(k,g.st)==='Support').length;
   const gGap=GK.map(k=>({k, s:gSup(k), d:gDel[k]||0})).filter(o=>o.s>=10);
   const gA=gGap.slice().sort((a,b)=>(b.s-b.d)/b.s-(a.s-a.d)/a.s || b.s-a.s)[0], gB=gGap.filter(o=>o!==gA).sort((a,b)=>(b.s-b.d)-(a.s-a.d))[0];
@@ -2882,7 +2883,8 @@ function renderGsdTop(){
   const sA=sRow[0], sB=sRow[1], sNm=k=>FULL(k).split(' (')[0].split(':')[0];
   const T=[
     [`${GI[gA.k].s} is the governors' biggest gap between talk and action.`, `${gA.s} Democratic governors back it and ${gA.d?`only ${gA.d} ${gA.d===1?'has':'have'}`:'none has'} signed it. “${GI[gB.k].s}” comes next: ${gB.s} back it, ${gB.d} ${gB.d===1?'has':'have'} signed it.`],
-    [`${gTop[0]?GI[gTop[0][0]].s:''} and ${gTop[1]?GI[gTop[1][0]].s.toLowerCase():''} are what governors actually sign.`, `“${GI[gTop[0][0]].s}” is the most-delivered priority, at ${gTop[0][1]} governors, followed by “${GI[gTop[1][0]].s}” at ${gTop[1][1]}, then “${GI[gTop[2][0]].s}” and “${GI[gTop[3][0]].s}” at ${gTop[2][1]===gTop[3][1]?`${gTop[2][1]} each`:`${gTop[2][1]} and ${gTop[3][1]}`}.`],
+    [`“${GI[gTop[0][0]].s}” leads what governors actually sign.`, (()=>{ const grp=[]; gTop.forEach(([k,v])=>{ const g=grp.find(x=>x.v===v); g?g.ks.push(k):grp.push({v,ks:[k]}); }); const q=k=>`“${GI[k].s}”`, and=a=>a.length<2?a.join(''):a.slice(0,-1).join(', ')+' and '+a.slice(-1);
+      return grp.map((g,gi)=>`${gi===0?'':gi===1?'followed by ':'then '}${and(g.ks.map(q))} ${gi===0?(g.ks.length>1?'are the most-delivered priorities':'is the most-delivered priority')+', ':''}at ${g.v}${gi===0?' governors':''}${g.ks.length>1&&gi>0?' each':''}`).join(', ')+'. Only signed laws that fully match the priority count.'; })()],
     [`In the Senate, “${sNm(sA.k)}” is the biggest gap between talk and action.`, `${sA.n} senators are on record for it${sA.n>=sA.need?`, more than the ${sA.need} it needs`:''}, but ${sA.t} of them have only cosponsored it or spoken up, and none has forced a vote. “${sNm(sB.k)}” is next: ${sB.t} of its ${sB.n} backers are talk only.`],
   ];
   if(!(gA && gB && gTop.length>=4 && sA && sB)) console.warn('GSD TTK no longer matches the data');
