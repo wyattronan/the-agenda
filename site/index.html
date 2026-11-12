@@ -1465,6 +1465,15 @@ dialog.gtodlg{max-width:640px}
 .pmore[open]>summary{margin-bottom:6px}
 @media (max-width:1100px){.t10 .gsdsplit{grid-template-columns:repeat(2,1fr)}.t10 .gsdsplit button:nth-child(3){border-left:0}.t10 .gsdsplit button:nth-child(n+3){border-top:3px solid var(--ink)}}
 @media (max-width:820px){.t10 .gsdsplit{grid-template-columns:1fr}.t10 .gsdsplit button{border-left:0!important}.t10 .gsdsplit button+button{border-top:3px solid var(--ink)}}
+.pgroups{display:flex;flex-wrap:wrap;gap:8px;align-items:flex-start}
+.pgroups .pmore{flex-basis:auto;margin:0}
+.pgroups .pmore[open]{flex-basis:100%}
+.pgroups .pmore>summary{gap:6px;align-items:center}
+.pgroups .pmore>summary i{font-style:normal;font-size:10px;transition:transform .2s}
+.pgroups .pmore[open]>summary i{transform:rotate(180deg)}
+.pgroups .pmore.cpg>summary{background:#d6e4fc;border-color:#5b86e8;color:#0f1c3f}
+.pgroups .pmore>summary .pc{font-weight:900}
+.pgroups .pchips{margin-top:2px}
 </style>
 </head>
 <body>
@@ -3274,7 +3283,7 @@ document.addEventListener('mouseover',e=>{ if(TOUCH) return; const el=e.target.c
 if(TOUCH) document.addEventListener('click',e=>{
   const el=e.target.closest&&e.target.closest('[data-tip],[data-tiph]');
   if(!el){ tipHide(); return; }
-  if(el.matches('button,a,[data-stk],[data-champs],[data-poll],[data-gto],.gnm')){ tipHide(); return; }  // these open their own details
+  if(el.matches('button,a,summary,[data-stk],[data-champs],[data-poll],[data-gto],.gnm')){ tipHide(); return; }  // these open their own details
   if(el===tipEl && Date.now()-tipT>350){ tipHide(); return; }
   tipShow(el);
 },true);
@@ -3362,9 +3371,15 @@ function prioCard(it,i){
     const kind = b.c ? (b.c.t==='top'?'top':'ch') : 'sup', lbl = (b.cp?'Campaigned on it · ':'')+(kind==='top'?'Top champion':kind==='ch'?'Champion':'Supports');
     return `<span class="pchip ${kind}${b.cp?' cp':''}" tabindex="0" data-tip="${esc(b.x.n+(b.x.new?' (newly elected)':'')+' · '+lbl+': '+(b.ev||''))}">${nm}</span>`; };
   const lead = it.backers.filter(b=>b.cp), rest = it.backers.filter(b=>!b.cp);
+  const nm = b => esc(b.x.n)+' ('+b.x.st+')', cap = (a,n)=>[...a.slice(0,n).map(nm), ...(a.length>n?[`+${a.length-n} more`]:[])];
+  const tip = (title, list) => { const top=list.filter(b=>b.c&&b.c.t==='top'), ch=list.filter(b=>b.c&&b.c.t!=='top'), sup=list.filter(b=>!b.c);
+    return TT(title, top.length?`<b class="tch-h top">Top champions · ${top.length}</b><span class="tch top">${cap(top,8).map(x=>`<i>${x}</i>`).join('')}</span>`:'',
+      ch.length?`<b class="tch-h">Champions · ${ch.length}</b><span class="tch ch">${cap(ch,10).map(x=>`<i>${x}</i>`).join('')}</span>`:'',
+      sup.length?`<b class="tch-h">Supports · ${sup.length}</b>${TCH(cap(sup,12))}`:'', TFT('Click to list them with their records')); };
+  const grp = (cls, label, list, title) => list.length ? `<details class="pmore ${cls}"><summary data-tiph="${esc(tip(title, list))}">${label} <span class="pc">· ${list.length}</span><i aria-hidden="true">▾</i></summary><div class="pchips">${list.map(chip).join('')}</div></details>` : '';
   const counts = `<b>${it.nc}</b> of ${it.of} Democratic ${race} winners in 2026 campaigned on it. <b>${it.n}</b> of ${it.ofAll} Democratic ${it.side==='sen'?'senators':'governors'} back it in all.`;
   return `<li style="--i:${i-1}"><span class="t10n">${i}</span><h3><button data-t10="${it.side}:${it.k}" title="Open this ${it.side==='sen'?'measure':'priority'}">${esc(it.title)}</button><span class="t10k ${it.side==='sen'?'sen':'st'}">${it.side==='sen'?'Senate':'Governors'}</span></h3><p>${counts}</p>
-    <div class="pchips"><span class="plbl">Campaigned on it</span>${lead.map(chip).join('')}${rest.length?`<details class="pmore"><summary>+ ${rest.length} other backer${rest.length===1?'':'s'}</summary><div class="pchips">${rest.map(chip).join('')}</div></details>`:''}</div></li>`;
+    <div class="pgroups">${grp('cpg','Campaigned on it',lead,`Campaigned on it in 2026 · ${lead.length}`)}${grp('', 'Other backers',rest,`Other Democratic backers · ${rest.length}`)}</div></li>`;
 }
 function t10Card(it,i){ return `<li style="--i:${i-1}"><span class="t10n">${i}</span><h3><button data-t10="${it.side}:${it.k}" title="Open this measure">${esc(it.title)}</button><span class="t10k ${it.side==='sen'?'sen':'st'}">${it.tag}</span>${topTag(it.side,it.k)}</h3><p>${it.body}</p>${it.extra}</li>`; }
 function renderTop10(){
