@@ -1475,6 +1475,9 @@ dialog.gtodlg{max-width:640px}
 .pgroups .pmore.cpg>summary{background:#d6e4fc;border-color:#5b86e8;color:#0f1c3f}
 .pgroups .pmore>summary .pc{font-weight:900}
 .pgroups .pchips{margin-top:2px}
+.top10[data-t10go]{cursor:pointer}.top10[data-t10go]:hover{background:var(--hl);color:var(--ink);outline:1.5px solid var(--ink)}
+.plist>li.pflash{animation:pflash 1.8s ease .3s}
+@keyframes pflash{0%,100%{box-shadow:var(--shadow,4px 4px 0 var(--ink))}25%,60%{box-shadow:0 0 0 4px var(--hl),6px 6px 0 var(--ink)}}
 </style>
 </head>
 <body>
@@ -2760,7 +2763,7 @@ const HROWS = (()=>{
   });
   rows.mB = mB; return rows;
 })();
-function topTag(side,k){ return ((D.top10||{})[side]||[]).includes(k) ? `<span class="top10" tabindex="0" data-tip="One of the 10 ${side==='sen'?'Senate measures':'governor priorities'} the most 2026 Democratic ${side==='sen'?'Senate':'governor'} winners campaigned on.">Top 10</span>` : ''; }
+function topTag(side,k){ return ((D.top10||{})[side]||[]).includes(k) ? `<span class="top10" role="link" tabindex="0" data-t10go="${side}:${k}" data-tip="One of the 10 ${side==='sen'?'Senate measures':'governor priorities'} the most 2026 Democratic ${side==='sen'?'Senate':'governor'} winners campaigned on. Click to see the list.">Top 10</span>` : ''; }
 let gsdSide='gov', gsdAll=false, gsdP='all', gsdOpen=null;
 const gsdSorts={gov:{k:'tot',dir:-1}, sen:{k:'tot',dir:-1}, hope:{k:'tot',dir:-1}};
 const pName = pl=> pl==='D'?'Democrat':pl==='R'?'Republican':/^I/.test(pl)?'Independent':pl;
@@ -3284,7 +3287,7 @@ document.addEventListener('mouseover',e=>{ if(TOUCH) return; const el=e.target.c
 if(TOUCH) document.addEventListener('click',e=>{
   const el=e.target.closest&&e.target.closest('[data-tip],[data-tiph]');
   if(!el){ tipHide(); return; }
-  if(el.matches('button,a,summary,[data-stk],[data-champs],[data-poll],[data-gto],.gnm')){ tipHide(); return; }  // these open their own details
+  if(el.matches('button,a,summary,[data-t10go],[data-stk],[data-champs],[data-poll],[data-gto],.gnm')){ tipHide(); return; }  // these open their own details
   if(el===tipEl && Date.now()-tipT>350){ tipHide(); return; }
   tipShow(el);
 },true);
@@ -3407,6 +3410,15 @@ $('t10box').addEventListener('click',e=>{
   window.scrollTo({top:0,behavior:'smooth'});
 });
 window.t10Ready=true; renderTop10();
+// "Top 10" tags anywhere on the site open the Dem Top 10 Priorities view and point at that item
+function gotoPrio(key){
+  t10Side='prio'; location.hash='top10'; show('top10'); renderTop10();
+  setTimeout(()=>{ const b=document.querySelector(`#t10box .plist [data-t10="${key}"]`), li=b&&b.closest('li');
+    if(li){ li.scrollIntoView({block:'center',behavior:'smooth'}); li.classList.remove('pflash'); void li.offsetWidth; li.classList.add('pflash'); } }, 150);
+}
+document.addEventListener('click', e=>{ const t=e.target.closest('[data-t10go]'); if(!t) return; e.preventDefault(); e.stopPropagation(); tipHide&&tipHide(); gotoPrio(t.dataset.t10go); }, true);
+document.addEventListener('keydown', e=>{ if((e.key==='Enter'||e.key===' ') && e.target.matches&&e.target.matches('[data-t10go]')){ e.preventDefault(); gotoPrio(e.target.dataset.t10go); } });
+
 const TABS=['senate','governors','top10','gsd','proj','gop'];
 function show(name){
   setTimeout(()=>typeof updateMini==='function'&&updateMini(),0);
