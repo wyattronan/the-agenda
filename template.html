@@ -2046,6 +2046,9 @@ const gcode = (p,k) => (GCODE[k]||{})[p.name] || null;
 const gbreaks = p => GISS.filter(([k])=>gcode(p,k)==='B').length;
 // a faction's listed members: its own people plus anyone cross-listed into it (hopefuls and media voices also sit in an ideological faction)
 const galso = f => GP.filter(p=>p.category!==f && (p.also_in||[]).includes(f)), gmem = f => [...GP.filter(p=>p.category===f), ...galso(f)];
+// factions in order of average movement away from Trump, most first (ties: bigger faction first); used by the lanes, the filter, and the table's faction sort
+const gFacD = f => { const ms=gmem(f); return ms.length?ms.reduce((t,p)=>t+gScore(p).post-gScore(p).pre,0)/ms.length:0; };
+let GFORD=null; const gFord = () => GFORD || (GFORD=[...GFAC].sort((a,b)=>gFacD(a)-gFacD(b)||gmem(b).length-gmem(a).length));
 const GMONS=['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
 const gpd = d => { const m=/^(\d{4})-(\d{2})-(\d{2})$/.exec(d||''); return m ? `${GMONS[+m[2]-1]} ${+m[3]}, ${m[1]}` : (d||''); };
 const [gw0,gw1] = (G.window||'').split('/'); const gpWin = gw0&&gw1 ? `${gpd(gw0).replace(/, \d{4}$/,'')}–${+gw1.slice(8)}, ${gw1.slice(0,4)}` : '';
@@ -2122,7 +2125,7 @@ function gCount(root){
 }
 let gLaneOpen=null;
 function renderGopLanes(){
-  const rows = GFAC.map(f=>{ const ms=gmem(f); return {f, ms, t0:ms.reduce((s,p)=>s+gScore(p).pre,0)/ms.length, t1:ms.reduce((s,p)=>s+gScore(p).post,0)/ms.length}; })
+  const rows = gFord().map(f=>{ const ms=gmem(f); return {f, ms, t0:ms.reduce((s,p)=>s+gScore(p).pre,0)/ms.length, t1:ms.reduce((s,p)=>s+gScore(p).post,0)/ms.length}; })
     .map(r=>({...r, d:r.t1-r.t0})).sort((a,b)=>a.d-b.d || b.ms.length-a.ms.length);
   if(!gLaneOpen) gLaneOpen = new Set([rows[0].f]);
   const X = v => 4 + v/10*92;
@@ -2219,7 +2222,7 @@ function renderGopLedger(){
 let gpSortV='chg', gpChgDir=1, gpFacV='all', gpQ='';
 function renderGopGrid(){
   let list = GP.filter(p=>(gpFacV==='all'||p.category===gpFacV||(p.also_in||[]).includes(gpFacV)) && (!gpQ || (p.name+' '+p.role).toLowerCase().includes(gpQ.toLowerCase())));
-  const cmp = {fac:(a,b)=>GFAC.indexOf(a.category)-GFAC.indexOf(b.category)||gScore(a).d-gScore(b).d||a.name.localeCompare(b.name),
+  const cmp = {fac:(a,b)=>gFord().indexOf(a.category)-gFord().indexOf(b.category)||gScore(a).d-gScore(b).d||a.name.localeCompare(b.name),
     away:(a,b)=>gScore(a).d-gScore(b).d||gbreaks(b)-gbreaks(a), breaks:(a,b)=>gbreaks(b)-gbreaks(a)||gScore(a).d-gScore(b).d,
     name:(a,b)=>a.name.split(' ').slice(-1)[0].localeCompare(b.name.split(' ').slice(-1)[0]),
     chg:(a,b)=>(Math.abs(gScore(b).d)-Math.abs(gScore(a).d))*gpChgDir || gScore(a).d-gScore(b).d || a.name.localeCompare(b.name),
@@ -2273,7 +2276,7 @@ function renderGopTop(){
 }
 function renderGopExtras(){
   renderGopTop();
-  $('gp-fac').innerHTML = '<option value="all">All factions</option>' + GFAC.map(f=>`<option>${esc(f)}</option>`).join('');
+  $('gp-fac').innerHTML = '<option value="all">All factions</option>' + gFord().map(f=>`<option>${esc(f)}</option>`).join('');
   $('gpcodekey').innerHTML = Object.entries(GC).map(([k,c])=>`<span><span class="gcd sm" style="--cc:${c.c}">${c.s}</span> ${c.t}</span>`).join('') + '<span><span class="gcd sm pre">·</span> Pre-election record only</span><span>Hover a symbol for the statement.</span>';
   $('gpnote').innerHTML = `<b>How this works.</b> Research window ${esc(gpWin)}; last statement tracked ${esc(gpd(G.as_of))}. Each person's posture comes from their own post-election statements; people with no statement keep their pre-election score. <b>Trump score (0 open critic to 10 Loyalist):</b> 70% from Trump alignment, 15% from closeness to Trump's economic populism, and 15% from closeness to his pre-election Israel stance, scored before and after the election. After the election, each coded statement nudges the score: doubling down +1, going harder +0.5, conceding −0.4, breaking −1, each multiplied by how much the issue matters to Trump and to voters (both 0–1) and by 0.45, with the issue total capped at ±2. Blaming Trump himself subtracts 0.3 more. Trump defines the scale at 10. The underlying −2 to +2 scales are provisional editorial estimates from the tracker. The issue codes (breaking, conceding, doubling down, going harder) are a read of each post-election statement against the Trump-era position, shown next to the statement so you can judge it yourself. Gray "Pre-election" entries are record context and aren't coded. Hawley and DeSantis sit in two factions (marked *); their primary faction is used for rankings and averages.`;
 }
