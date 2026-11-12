@@ -3420,10 +3420,10 @@ function renderTop10(){
   const col=(h,list,n)=>`<div style="grid-row:1 / span ${n+1}"><h3 class="colh">${h}</h3><ol class="t10list t10roll">${list.map((it,i)=>t10Card(it,i+1)).join('')}</ol></div>`;
   const cols=(a,b)=>{ const n=Math.max(a.length,b.length); return `<div class="t10cols t10even">${col('In the Senate',a,n)}${col('In the statehouses',b,n)}</div>`; };
   box.innerHTML = `<div class="gsdsplit" role="tablist" aria-label="Top 10 view">
+      ${tab('prio','Dem Top 10 Priorities','What the most 2026 Democratic winners campaigned on')}
       ${tab('likely','Most likely to pass','10 reforms with the votes or the trifectas to get done first')}
       ${tab('verge','On the verge','Where advocacy could tip the balance')}
-      ${tab('unlikely','Least likely to pass','Measures without the support yet')}
-      ${tab('prio','Dem Top 10 Priorities','What the most 2026 Democratic winners campaigned on')}</div>
+      ${tab('unlikely','Least likely to pass','Measures without the support yet')}</div>
     ${t10Side==='likely' ? `<ol class="t10list t10one t10roll">${I.likely.map((it,i)=>t10Card(it,i+1)).join('')}</ol>`
       : t10Side==='verge' ? cols(I.verge, I.vergeSt)
       : t10Side==='prio' ? (()=>{ const P=prioItems(), pc=(h,l)=>`<div style="grid-row:1 / span 11"><h3 class="colh">${h}</h3><ol class="t10list t10roll plist">${l.map((it,i)=>prioCard(it,i+1)).join('')}</ol></div>`;
