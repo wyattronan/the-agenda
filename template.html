@@ -1130,7 +1130,7 @@ dialog.gtodlg{max-width:640px}
 @keyframes hbtick{0%,10%{opacity:0}25%,85%{opacity:1}100%{opacity:0}}
 @keyframes hbten{0%,50%{transform:scale(1)}62%{transform:scale(1.25)}74%,100%{transform:scale(1)}}
 .t10{padding:18px 20px 20px}
-.t10 .gsdsplit{grid-template-columns:repeat(3,1fr);margin:0 0 16px}
+.t10 .gsdsplit{grid-template-columns:repeat(4,1fr);margin:0 0 16px}
 .t10 .gsdsplit button{padding:10px 14px}.t10 .gsdsplit button b{font-size:clamp(18px,1.7vw,22px)}.t10 .gsdsplit button span{font-size:11px}
 .t10cols.t10even{row-gap:12px}
 .t10cols.t10even>div{display:grid;grid-template-rows:subgrid;row-gap:12px}
@@ -1447,6 +1447,23 @@ dialog.gtodlg{max-width:640px}
 @media (max-width:1180px){.glsum .glav{display:none!important}}
 @media (max-width:760px){.glsum{grid-template-columns:auto 1fr auto!important}.glsum .glmini{grid-column:2;width:min(150px,100%)}}
 @media (prefers-reduced-motion: reduce){.gmd,.gmt{transition:none!important}}
+/* Dem Top 10 Priorities */
+.pnote{font-size:13px;color:var(--muted);margin:0 0 14px;line-height:1.7}
+.pnote .pchip{cursor:default}
+.pcols{align-items:start}
+.plist>li p{margin:2px 0 8px;font-size:14px}
+.pchips{display:flex;flex-wrap:wrap;gap:5px;align-items:center}
+.pchip{display:inline-flex;align-items:baseline;gap:3px;font-size:12px;font-weight:700;line-height:1.2;padding:3px 9px;border-radius:999px;border:1.5px solid var(--line);background:var(--surface);color:var(--ink);cursor:help;white-space:nowrap}
+.pchip small{font-size:9.5px;font-weight:800;letter-spacing:.04em;opacity:.7}
+.pchip.ch{background:#d6e4fc;border-color:#5b86e8;color:#0f1c3f}
+.pchip.top{background:#2148c8;border-color:#0f1c3f;color:#fff}.pchip.top small{opacity:.85}
+.pchip:focus-visible{outline:2px solid var(--ink);outline-offset:1px}
+.pmore{flex-basis:100%;margin-top:2px}
+.pmore>summary{display:inline-flex;cursor:pointer;font-size:11.5px;font-weight:800;letter-spacing:.04em;text-transform:uppercase;color:var(--dem);list-style:none;padding:3px 10px;border:1.5px solid var(--dem);border-radius:999px}
+.pmore>summary::-webkit-details-marker{display:none}
+.pmore[open]>summary{margin-bottom:6px}
+@media (max-width:1100px){.t10 .gsdsplit{grid-template-columns:repeat(2,1fr)}.t10 .gsdsplit button:nth-child(3){border-left:0}.t10 .gsdsplit button:nth-child(n+3){border-top:3px solid var(--ink)}}
+@media (max-width:820px){.t10 .gsdsplit{grid-template-columns:1fr}.t10 .gsdsplit button{border-left:0!important}.t10 .gsdsplit button+button{border-top:3px solid var(--ink)}}
 </style>
 </head>
 <body>
@@ -3320,6 +3337,36 @@ function t10Items(){
   ];
   return {likely, verge, vergeSt, unlikelySen, unlikelySt};
 }
+// Dem Top 10 Priorities: the agenda items the most Democrats are on record backing (Support, or championed), Senate and governors separately.
+// Backers = Democrats (and independents who caucus with them) whose stance is Support, plus any Democratic champion; champions are highlighted.
+function prioItems(){
+  const lastN = n => n.split(' ').slice(-1)[0];
+  const mk = (side, keys, people, stanceOf, label) => keys.map(k=>{
+    const champs = ((CHAMP[side]||{})[k]||[]).filter(c=>c.p==='D'||c.p==='I'), cmap={}; champs.forEach(c=>cmap[c.n]=c);
+    const backers = people.filter(x=>stanceOf(x,k)[0]==='Support' || cmap[x.n]).map(x=>({x, c:cmap[x.n], ev:(cmap[x.n]||{}).ev || stanceOf(x,k)[1]}));
+    const lean = people.filter(x=>stanceOf(x,k)[0]==='Lean support' && !cmap[x.n]).length;
+    const rank = b => b.c ? (b.c.t==='top'?0:1) : 2;
+    backers.sort((a,b)=>rank(a)-rank(b) || a.x.st.localeCompare(b.x.st));
+    return {side, k, title:label(k), n:backers.length, of:people.length, ch:backers.filter(b=>b.c).length, top:backers.filter(b=>b.c&&b.c.t==='top').length, lean, backers};
+  }).sort((a,b)=>b.n-a.n || b.ch-a.ch || b.top-a.top).slice(0,10);
+  const sen = D.sen.filter(x=>x.p==='D' && !/ppoint/.test(x.id));
+  const gov = D.gov.filter(g=>g.p==='D');
+  const senKeys = D.issues.map(i=>i[0]).filter(k=>!['sch','heg'].includes(k));
+  return {
+    sen: mk('sen', senKeys, sen, (x,k)=>x.r[k]||['Unclear',''], k=>(D.issues.find(i=>i[0]===k)||[k,k])[1]),
+    gov: mk('gov', D.gi.map(g=>g[0]), gov, (g,k)=>g.sp[k]||['Unclear',''], k=>GI[k].f)
+  };
+}
+function prioCard(it,i){
+  const who = it.side==='sen' ? 'Democratic senators' : 'Democratic governors';
+  const chip = b => { const nm = it.side==='sen' ? `${b.x.n.split(' ').slice(-1)[0]} <small>${b.x.st}</small>` : `${esc(b.x.n)} <small>${b.x.st}</small>`;
+    const kind = b.c ? (b.c.t==='top'?'top':'ch') : 'sup', lbl = kind==='top'?'Top champion':kind==='ch'?'Champion':'Supports';
+    return `<span class="pchip ${kind}" tabindex="0" data-tip="${esc(b.x.n+(b.x.new?' (newly elected)':'')+' · '+lbl+': '+(b.ev||''))}">${nm}</span>`; };
+  const lead = it.backers.filter(b=>b.c), rest = it.backers.filter(b=>!b.c);
+  const counts = `<b>${it.n}</b> of ${it.of} ${who} back it${it.ch?`, <b>${it.ch}</b> as champion${it.ch===1?'':'s'}${it.top?` (${it.top} top)`:''}`:''}.${it.lean?` ${it.lean} more lean toward it.`:''}`;
+  return `<li style="--i:${i-1}"><span class="t10n">${i}</span><h3><button data-t10="${it.side}:${it.k}" title="Open this ${it.side==='sen'?'measure':'priority'}">${esc(it.title)}</button><span class="t10k ${it.side==='sen'?'sen':'st'}">${it.side==='sen'?'Senate':'Governors'}</span></h3><p>${counts}</p>
+    <div class="pchips">${lead.map(chip).join('')}${rest.length?`<details class="pmore"${lead.length?'':' open'}><summary>${lead.length?`+ ${rest.length} more backer${rest.length===1?'':'s'}`:`${rest.length} backer${rest.length===1?'':'s'}`}</summary><div class="pchips">${rest.map(chip).join('')}</div></details>`:''}</div></li>`;
+}
 function t10Card(it,i){ return `<li style="--i:${i-1}"><span class="t10n">${i}</span><h3><button data-t10="${it.side}:${it.k}" title="Open this measure">${esc(it.title)}</button><span class="t10k ${it.side==='sen'?'sen':'st'}">${it.tag}</span>${topTag(it.side,it.k)}</h3><p>${it.body}</p>${it.extra}</li>`; }
 function renderTop10(){
   const box=$('t10box'); if(!box) return; const I=t10Items(), tab=(v,b,sub)=>`<button role="tab" data-t10s="${v}" aria-selected="${t10Side===v}"><b>${b}</b><span>${sub}</span></button>`;
@@ -3328,9 +3375,12 @@ function renderTop10(){
   box.innerHTML = `<div class="gsdsplit" role="tablist" aria-label="Top 10 view">
       ${tab('likely','Most likely to pass','10 reforms with the votes or the trifectas to get done first')}
       ${tab('verge','On the verge','Where advocacy could tip the balance')}
-      ${tab('unlikely','Least likely to pass','Measures without the support yet')}</div>
+      ${tab('unlikely','Least likely to pass','Measures without the support yet')}
+      ${tab('prio','Dem Top 10 Priorities','What the most Democrats are on record backing')}</div>
     ${t10Side==='likely' ? `<ol class="t10list t10one t10roll">${I.likely.map((it,i)=>t10Card(it,i+1)).join('')}</ol>`
       : t10Side==='verge' ? cols(I.verge, I.vergeSt)
+      : t10Side==='prio' ? (()=>{ const P=prioItems(), pc=(h,l)=>`<div><h3 class="colh">${h}</h3><ol class="t10list t10roll plist">${l.map((it,i)=>prioCard(it,i+1)).join('')}</ol></div>`;
+          return `<p class="pnote">Ranked by how many Democrats are on record backing each item (sitting and newly elected), most first. <span class="pchip top" aria-hidden="true">Top champion</span> signed, funded, or forced it · <span class="pchip ch" aria-hidden="true">Champion</span> moved it themselves · <span class="pchip sup" aria-hidden="true">Supports</span> on record for it. Hover a name for the record.</p><div class="t10cols pcols">${pc('In the Senate',P.sen)}${pc('In the governors\' mansions',P.gov)}</div>`; })()
       : cols(I.unlikelySen, I.unlikelySt)}
     `;
 }
