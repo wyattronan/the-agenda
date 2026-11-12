@@ -591,7 +591,7 @@ dialog.champdlg,dialog.stancedlg{max-width:640px}
 .gpaxis .row{display:flex;align-items:center;gap:8px;font-size:12.5px;font-weight:700}
 .gpaxis .trk{position:relative;flex:1;height:14px;border-radius:7px;background:var(--bg);border:1px solid var(--line)}
 .gpaxis .trk i{position:absolute;top:50%;width:12px;height:12px;border-radius:50%;transform:translate(-50%,-50%)}
-.gpaxis .trk i.pre{background:transparent;border:2px solid var(--muted);box-sizing:border-box}
+.gpaxis .trk i.pre{background:#fff;z-index:1;border:2px solid var(--muted);box-sizing:border-box}
 .gpaxis .trk i.post{background:var(--ink)}
 .gpaxis .nt{font-size:12.5px;color:var(--muted);line-height:1.35}
 .ppill{display:inline-block;font-size:11px;font-weight:800;text-transform:uppercase;letter-spacing:.05em;padding:2px 7px;border-radius:5px;color:#fff;white-space:nowrap}
@@ -670,10 +670,10 @@ dialog.champdlg,dialog.stancedlg{max-width:640px}
 .glane.go .gmove .gnm{opacity:1}
 .gmove.also .gav{opacity:.75}
 .gmove:hover .gav,.gmove:focus-visible .gav{box-shadow:0 0 0 2.5px var(--pc),0 0 0 5px var(--ink)}
-.gghost{position:absolute;width:26px;height:26px;margin-left:-13px;border-radius:50%;border:2.5px solid var(--fc);box-sizing:border-box;background:transparent;opacity:0;transition:opacity .4s ease 1.2s}
+.gghost{position:absolute;width:26px;height:26px;margin-left:-13px;border-radius:50%;border:2.5px solid var(--fc);box-sizing:border-box;background:#fff;z-index:1;opacity:0;transition:opacity .4s ease 1.2s}
 .gtrail{position:absolute;left:var(--a);width:calc(var(--b) - var(--a));height:2px;background:var(--fc);opacity:0;transition:opacity .5s ease 1.4s}
 .gtrail.l{clip-path:inset(0 13px 0 0)}.gtrail.r{clip-path:inset(0 0 0 13px)}
-.glane.done .gghost{opacity:.55}.glane.done .gtrail{opacity:.35}
+.glane.done .gghost{opacity:1;border-color:color-mix(in srgb,var(--fc) 60%,#fff)}.glane.done .gtrail{opacity:.35}
 .gto{display:grid;gap:6px;font-size:13px}
 .gto>div{display:flex;flex-wrap:wrap;gap:5px;align-items:center}.gto .lbl{margin-right:4px}
 .gchip{display:inline-flex;align-items:center;gap:5px;font-size:12px;font-weight:700;padding:3px 9px;border-radius:999px;border:1.5px solid currentColor;background:var(--surface);line-height:1.2}
@@ -713,7 +713,7 @@ dialog.champdlg,dialog.stancedlg{max-width:640px}
 .gmv .trk{position:relative;width:76px;height:12px;border-radius:6px;background:var(--bg);border:1px solid var(--line)}
 .gmv .trk i{position:absolute;top:50%;transform:translate(-50%,-50%);border-radius:50%}
 .gmv .trk i.post{width:10px;height:10px;background:var(--ink)}
-.gmv .trk i.pre{width:10px;height:10px;border:1.5px solid var(--muted);background:transparent;box-sizing:border-box}
+.gmv .trk i.pre{width:10px;height:10px;border:1.5px solid var(--muted);background:#fff;z-index:1;box-sizing:border-box}
 .gmv .trk i.ln.l{clip-path:inset(0 5px 0 0)}.gmv .trk i.ln.r{clip-path:inset(0 0 0 5px)}
 .gmv .trk i.ln{height:2px;border-radius:0;transform:translateY(-50%);background:var(--muted)}
 .gdh{display:flex;gap:14px;align-items:center}.gdh h2{margin:0}
@@ -731,9 +731,9 @@ dialog.gpdlg{max-width:720px}
 .gcb::after{content:"";position:absolute;top:50%;transform:translateY(-50%);border-top:8px solid transparent;border-bottom:8px solid transparent}
 .gcb.l::after{left:-11px;border-right:12px solid var(--fc)}
 .gcb.r::after{right:-11px;border-left:12px solid var(--fc)}
-.gcpre{position:absolute;top:0;width:13px;height:13px;margin-left:-6.5px;border-radius:50%;border:2.5px solid var(--fc);background:transparent;box-sizing:border-box}
+.gcpre{position:absolute;top:0;width:13px;height:13px;margin-left:-6.5px;border-radius:50%;border:2.5px solid var(--fc);background:#fff;box-sizing:border-box;z-index:1}
 .gcb.l{clip-path:inset(-10px 6.5px -10px -16px)}.gcb.r{clip-path:inset(-10px -16px -10px 6.5px)}
-.gmove{transform:translateX(calc(-15px + var(--dx,0px)))}
+.gmove{transform:translateX(calc(-15px + var(--dx,0px)));z-index:2}
 .gmove.r{flex-direction:row-reverse;transform:translateX(calc(-100% + 15px + var(--dx,0px)))}
 .gmove.nn .gnm{display:none}
 .gcen.still{bottom:-2px}
@@ -757,7 +757,7 @@ button.gtag{cursor:pointer}button.gtag:hover{border-color:var(--dem);color:var(-
 .gscbar .trk{position:relative;flex:1;height:16px;border-radius:8px;background:linear-gradient(90deg,color-mix(in srgb,#1F7A8C 18%,var(--surface)),var(--surface) 50%,color-mix(in srgb,#C3402E 18%,var(--surface)));border:1px solid var(--line)}
 .gscbar .trk i{position:absolute;top:50%;transform:translate(-50%,-50%);border-radius:50%}
 .gscbar .trk i.post{width:16px;height:16px;background:var(--ink);border:2px solid var(--surface)}
-.gscbar .trk i.pre{width:14px;height:14px;border:2px solid var(--muted);background:transparent;box-sizing:border-box}
+.gscbar .trk i.pre{width:14px;height:14px;border:2px solid var(--muted);background:#fff;z-index:1;box-sizing:border-box}
 .gscbar .trk i.ln.l{clip-path:inset(0 7px 0 0)}.gscbar .trk i.ln.r{clip-path:inset(0 0 0 7px)}
 .gscbar .trk i.ln{height:4px;border-radius:2px;transform:translateY(-50%)}
 .gscparts{list-style:none;margin:8px 0 0;padding:0;display:grid;gap:3px;font-size:13px}
@@ -1113,7 +1113,7 @@ dialog.gtodlg{max-width:640px}
 #senate .rulespanel select{font-size:12.5px;flex:none!important}#senate .rulespanel #fp{width:104px}#senate .rulespanel #fv{width:104px}
 #senate .rulespanel .segctl,#senate .rulespanel .thr{flex:none}
 @media (min-width:1100px){#senate .rulespanel input[type=search]{width:130px;min-width:110px;flex:1 1 130px}}
-.newel{display:table;margin-top:3px;font-style:normal;font-size:9px;font-weight:800;letter-spacing:.05em;text-transform:uppercase;color:var(--ink);background:var(--hl);border:1px solid var(--ink);border-radius:999px;padding:1px 10px;line-height:1.5;cursor:help}
+.newel{display:block;width:max-content;border-collapse:separate;margin-top:4px;font-style:normal;font-size:9.5px;font-weight:800;letter-spacing:.05em;text-transform:uppercase;color:var(--ink);background:var(--hl);border:1.5px solid var(--ink);border-radius:999px;padding:3px 11px 2px;line-height:1.3;cursor:help}
 .gsdb{display:inline-flex;align-items:center;gap:4px;vertical-align:middle;margin-left:8px;font:800 12px var(--display);letter-spacing:.02em;background:var(--hl);color:var(--ink);border:1.5px solid var(--ink);border-radius:999px;padding:1px 8px;cursor:help;white-space:nowrap}
 .gsdt td.rk{font-size:17px}
 .a-top .trk{fill:var(--surface);stroke:#D5D8E0;stroke-width:6}
@@ -1400,28 +1400,26 @@ dialog.gtodlg{max-width:640px}
 .gco.bloc b{color:var(--ft,#fff)}
 .gco.half b{background:color-mix(in srgb,var(--fc) 22%,#fff)!important;color:var(--ink);box-shadow:inset 0 0 0 1.5px var(--fc)}
 /* Trump score: one big number, then a 0-10 scale ending at Trump; the dot slides left from an empty Nov 3 circle */
-.gts{display:grid!important;gap:4px;padding:12px 16px 14px!important;border:2px solid var(--ink)!important;background:#FFFCF3!important;cursor:help}
+.gts{display:grid!important;gap:10px;padding:12px 16px 14px!important;border:2px solid var(--ink)!important;background:#FFFCF3!important;cursor:help}
 .gtsh{display:flex;align-items:center;gap:14px}
 .gtsn{font-family:var(--display);font-weight:900;font-size:46px;line-height:1;font-variant-numeric:tabular-nums;color:var(--ink)}
 .gtsd{display:grid;gap:3px}
 .gtst{font:800 12px var(--display);letter-spacing:.07em;text-transform:uppercase;color:var(--muted)}
 .gtsm{font:900 15px var(--display);line-height:1.2}
 .gtsm.away{color:var(--dem)}.gtsm.tow{color:var(--rep)}
-.gtsk{position:relative;height:64px;margin:0 30px 0 12px}
-.gtsrail{position:absolute;left:-12px;right:-6px;top:44px;height:14px;border-radius:7px;background:#DCE4F7;border:1.5px solid var(--ink);transform:translateY(-50%);overflow:hidden}
+.gtsk{position:relative;height:44px;margin:4px 30px 0 12px}
+.gtsrail{position:absolute;left:-12px;right:-6px;top:20px;height:14px;border-radius:7px;background:#DCE4F7;border:1.5px solid var(--ink);transform:translateY(-50%);overflow:hidden}
 .gtsrail::after{content:"";position:absolute;inset:0;background:#F6D9D5;clip-path:polygon(52% 0,100% 0,100% 100%,48% 100%)}
-.gtsend{position:absolute;left:100%;top:44px;transform:translate(-50%,-50%);z-index:1}
+.gtsend{position:absolute;left:100%;top:20px;transform:translate(-50%,-50%);z-index:1}
 .gtsend svg{width:50px;height:50px;border-radius:50%;background:#FFFCF3;border:2.5px solid var(--ink);box-sizing:border-box;padding:4px;display:block}
-.gtsgh{position:absolute;left:calc(var(--v0)*100%);top:44px;width:22px;height:22px;border:3px solid var(--rep);border-radius:50%;transform:translate(-50%,-50%);box-sizing:border-box}
-.gtstr{position:absolute;top:16px;height:5px;background:var(--dem);border-radius:3px;transform:scaleX(0);transition:transform 1.8s cubic-bezier(.3,.7,.2,1) .3s}
-.gtstr.l{left:calc(var(--v1)*100% + 6px);width:calc((var(--v0) - var(--v1))*100% - 17px);transform-origin:right center}
-.gtstr.r{left:calc(var(--v0)*100% + 11px);width:calc((var(--v1) - var(--v0))*100% - 17px);transform-origin:left center}
-.gtstr::before{content:"";position:absolute;top:50%;transform:translateY(-50%);border-top:8px solid transparent;border-bottom:8px solid transparent}
-.gtstr.l::before{left:-11px;border-right:12px solid var(--dem)}.gtstr.r::before{right:-11px;border-left:12px solid var(--dem)}
+.gtsgh{position:absolute;left:calc(var(--v0)*100%);top:20px;width:22px;height:22px;border:3px solid var(--rep);border-radius:50%;background:#fff;transform:translate(-50%,-50%);box-sizing:border-box;z-index:2}
+.gtstr{position:absolute;top:20px;height:6px;margin-top:-3px;background:var(--dem);transform:scaleX(0);transition:transform 1.8s cubic-bezier(.3,.7,.2,1) .3s;z-index:1}
+.gtstr.l{left:calc(var(--v1)*100%);width:calc((var(--v0) - var(--v1))*100% - 11px);transform-origin:right center}
+.gtstr.r{left:calc(var(--v0)*100% + 11px);width:calc((var(--v1) - var(--v0))*100% - 11px);transform-origin:left center}
 .gmets.go .gtstr{transform:scaleX(1)}
-.gtsmk{position:absolute;left:calc(var(--v0)*100%);top:44px;width:26px;height:26px;border-radius:50%;background:var(--dem);border:3px solid var(--ink);box-sizing:border-box;transform:translate(-50%,-50%);transition:left 1.8s cubic-bezier(.3,.7,.2,1) .3s;z-index:2}
+.gtsmk{position:absolute;left:calc(var(--v0)*100%);top:20px;width:26px;height:26px;border-radius:50%;background:var(--dem);border:3px solid var(--ink);box-sizing:border-box;transform:translate(-50%,-50%);transition:left 1.8s cubic-bezier(.3,.7,.2,1) .3s;z-index:3}
 .gmets.go .gtsmk{left:calc(var(--v1)*100%)}
-.gtsl0{position:absolute;left:-12px;top:56px;font-size:11px;font-weight:800;color:var(--muted);letter-spacing:.03em;text-transform:uppercase}
+.gtsl0{position:absolute;left:-12px;top:32px;font-size:11px;font-weight:800;color:var(--muted);letter-spacing:.03em;text-transform:uppercase}
 @media (prefers-reduced-motion: reduce){.gtsmk,.gtstr{transition:none!important}}
 /* what they blamed: chunky slanted bars, icons on cream badges */
 .gpblame{gap:7px}
@@ -1436,10 +1434,10 @@ dialog.gtodlg{max-width:640px}
 .glmini{position:relative;width:170px;height:18px;flex:none;border-radius:9px;border:1.5px solid var(--ink);background:#DCE4F7;overflow:visible;isolation:isolate}
 .glmini::before{content:"";position:absolute;inset:0;border-radius:8px;background:#F6D9D5;clip-path:polygon(54% 0,100% 0,100% 100%,46% 100%);z-index:-1}
 .glmini i{position:absolute;top:50%}
-.gmg{left:calc(8px + (100% - 16px)*var(--v0));width:13px;height:13px;border:2.5px solid var(--fc);border-radius:50%;transform:translate(-50%,-50%);background:transparent;box-sizing:border-box}
+.gmg{left:calc(8px + (100% - 16px)*var(--v0));width:13px;height:13px;border:2.5px solid var(--fc);border-radius:50%;transform:translate(-50%,-50%);background:#fff;z-index:1;box-sizing:border-box}
 .gmt.l{clip-path:inset(0 6.5px 0 0)}.gmt.r{clip-path:inset(0 0 0 6.5px)}
 .gmt{left:calc(8px + (100% - 16px)*var(--va));width:calc((100% - 16px)*(var(--vb) - var(--va)));height:3px;background:var(--fc);transform:translateY(-50%);opacity:0;transition:opacity .5s ease 1.3s}
-.gmd{left:calc(8px + (100% - 16px)*var(--v0));width:15px;height:15px;border-radius:50%;background:var(--fc);border:2px solid var(--ink);box-sizing:border-box;transform:translate(-50%,-50%);transition:left 1.6s cubic-bezier(.3,.7,.2,1) .25s;z-index:1}
+.gmd{left:calc(8px + (100% - 16px)*var(--v0));width:15px;height:15px;border-radius:50%;background:var(--fc);border:2px solid var(--ink);box-sizing:border-box;transform:translate(-50%,-50%);transition:left 1.6s cubic-bezier(.3,.7,.2,1) .25s;z-index:2}
 .glane.go .gmd{left:calc(8px + (100% - 16px)*var(--v1))}
 .glane.go .gmt{opacity:.75}
 .glane.reset .gmd,.glane.reset .gmt{transition:none!important}
