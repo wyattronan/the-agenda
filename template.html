@@ -1486,6 +1486,18 @@ dialog.gtodlg{max-width:640px}
 .t10list .plrow .plike i{width:8px;height:8px;border-radius:50%;background:currentColor;flex:none}
 .t10list .plrow .plike.hi{background:#dff3e6;color:#11603a}.t10list .plrow .plike.mid{background:#fdf1cf;color:#7a5600}.t10list .plrow .plike.lo{background:#f8dedb;color:#8e1f12}
 .t10list .plrow .plike:hover,.t10list .plrow .plike:focus-visible{box-shadow:2px 2px 0 var(--ink);transform:translate(-1px,-1px)}
+/* GSD row actions: Show record + Ran on */
+.gacts{display:flex;flex-wrap:wrap;gap:6px;margin:6px 0 0 48px}
+.gacts .rtog{all:unset;box-sizing:border-box;cursor:pointer;display:inline-flex;align-items:center;gap:4px;font:800 11px var(--display);letter-spacing:.04em;text-transform:uppercase;color:var(--ink);background:var(--surface);border:1.5px solid var(--ink);border-radius:999px;padding:3px 10px 3px 11px;box-shadow:2px 2px 0 var(--ink);transition:transform .12s,box-shadow .12s;white-space:nowrap}
+.gacts .rtog::after{content:"";width:6px;height:6px;border-right:2px solid currentColor;border-bottom:2px solid currentColor;transform:translateY(-2px) rotate(45deg);margin-left:2px}
+.gacts .rtog[aria-expanded="true"]{background:var(--ink);color:#fff}.gacts .rtog[aria-expanded="true"]::after{transform:translateY(1px) rotate(-135deg)}
+.gacts .rtog:hover,.gacts .rtog:focus-visible{background:var(--hl);color:var(--ink);transform:translate(-1px,-1px);box-shadow:3px 3px 0 var(--ink)}
+.gacts .ranbtn{background:#d6e4fc;border-color:#2148c8;color:#0f1c3f;box-shadow:2px 2px 0 #2148c8}
+.gacts .ranbtn[aria-expanded="true"]{background:#2148c8;color:#fff}
+.gacts .ranbtn .pc{font-weight:900}
+.ranrec .rgrp h4 i{background:#cfe0fb}.ranrec .ran0 h4 i{background:#2148c8}.ranrec .ran1 h4 i{background:#5b86e8}.ranrec .ran2 h4 i{background:#a9c3f5}.ranrec .ran3 h4 i{background:#dbe5f8;border:1px solid #a9c3f5}
+.ranrec .rtop{margin-left:6px;font:800 9.5px var(--display);letter-spacing:.06em;text-transform:uppercase;background:var(--ink);color:var(--hl);border-radius:3px;padding:1px 5px;vertical-align:1px}
+@media (max-width:640px){.gacts{margin-left:0}}
 </style>
 </head>
 <body>
@@ -2772,7 +2784,7 @@ const HROWS = (()=>{
   rows.mB = mB; return rows;
 })();
 function topTag(side,k){ return ((D.top10||{})[side]||[]).includes(k) ? `<span class="top10" role="link" tabindex="0" data-t10go="${side}:${k}" data-tip="One of the 10 ${side==='sen'?'Senate measures':'governor priorities'} the most 2026 Democratic ${side==='sen'?'Senate':'governor'} winners campaigned on. Click to see the list.">Top 10</span>` : ''; }
-let gsdSide='gov', gsdAll=false, gsdP='all', gsdOpen=null;
+let gsdSide='gov', gsdAll=false, gsdP='all', gsdOpen=null, gsdRan=null;
 const gsdSorts={gov:{k:'tot',dir:-1}, sen:{k:'tot',dir:-1}, hope:{k:'tot',dir:-1}};
 const pName = pl=> pl==='D'?'Democrat':pl==='R'?'Republican':/^I/.test(pl)?'Independent':pl;
 const rawOf = r=>r.tot==null?-1:(r.raw!=null?r.raw:partAvg(r.parts));
@@ -2884,6 +2896,32 @@ function recEv(r,side,k){
   const c=(h.cells||{})[r.kind==='selfsen'?sKey(k):k]||(h.cells||{})[k];
   const e=c?{st:c[0],note:c[1],url:c[2],flag:c[3]}:{st:'Unclear',note:''}; if(P) e.push=P; return e;
 }
+// ---- "Ran on": what each 2026 Democratic winner campaigned on (D.camp from camp.py), strongest commitment first ----
+const RAN = (()=>{ const o={}; ['sen','gov'].forEach(side=>Object.entries(((D.camp||{}).who||{})[side]||{}).forEach(([k,ns])=>ns.forEach(n=>{ (o[n] ||= {side, ks:[]}).ks.push(k); }))); return o; })();
+const RAN_T = ['Top champion','Champion','Pledged or in their platform','Said it on the trail'];
+const RAN_PLEDGE = /pledg|platform|\bplan\b|campaign (site|website|plan)|website|\bads?\b|debate|promis|vow/i;
+function ranOn(name){
+  const R=RAN[name]; if(!R) return null;
+  const P = R.side==='sen' ? D.sen.find(x=>x.n===name) : D.gov.find(g=>g.n===name); if(!P) return null;
+  const top10 = (D.top10||{})[R.side]||[];
+  const items = R.ks.map(k=>{ const c=((CHAMP[R.side]||{})[k]||[]).find(c=>c.n===name), st=(R.side==='sen'?P.r[k]:P.sp[k])||['',''];
+    const note = (c&&c.ev) || st[1] || '', url = (c&&c.u) || (((D.curl||{})[R.side]||{})[`${R.side==='sen'?P.id:P.st}|${k}`]) || '';
+    const t = c ? (c.t==='top'?0:1) : RAN_PLEDGE.test(note) ? 2 : 3;
+    return {k, t, note, url, top:top10.includes(k)};
+  }).sort((a,b)=>a.t-b.t || (b.top-a.top) || iName(a.k,R.side).localeCompare(iName(b.k,R.side)));
+  return {side:R.side, P, items};
+}
+function gActs(key, name){
+  const R=ranOn(name), rec=gsdOpen===key, ran=gsdRan===key;
+  const tip = R ? TT(`Ran on · ${R.items.length} issue${R.items.length===1?'':'s'}`, TCH(R.items.slice(0,6).map(i=>esc(iName(i.k,R.side)))), R.items.length>6?`+${R.items.length-6} more`:'', TFT('Strongest commitment first · click for quotes and sources')) : '';
+  return `<div class="gacts"><button type="button" class="rtog" data-hrec="${esc(key)}" aria-expanded="${rec}">${rec?'Hide':'Show'} record</button>${R?`<button type="button" class="rtog ranbtn" data-ranon="${esc(key)}" aria-expanded="${ran}" data-tiph="${esc(tip)}">Ran on <span class="pc">· ${R.items.length}</span></button>`:''}</div>`;
+}
+function ranRow(key, name){
+  if(gsdRan!==key) return ''; const R=ranOn(name); if(!R) return '';
+  const groups = RAN_T.map((h,t)=>{ const its=R.items.filter(i=>i.t===t); if(!its.length) return '';
+    return `<section class="rgrp ran${t}"><h4><i></i>${h} <span>· ${its.length}</span></h4><ul class="rlist">${its.map(i=>`<li><b>${esc(iName(i.k,R.side))}${i.top?`<small class="rtop">Top 10</small>`:''}</b><span>${esc(i.note||'No details recorded.')}${i.url?` <a href="${esc(i.url)}" target="_blank" rel="noopener">Source ↗</a>`:''}</span></li>`).join('')}</ul></section>`; }).join('');
+  return `<tr class="hdet"><td></td><td colspan="5"><div class="lrec ranrec"><div class="rhd"><span>Campaigned on ${R.items.length} issue${R.items.length===1?'':'s'} in 2026 ${R.side==='sen'?'Senate':'governor'} race, strongest commitment first</span></div>${groups}</div></td></tr>`;
+}
 function ladRecord(r,side){
   const L=r.lad, sd=side==='hope'?'all':side, keysAll=side==='gov'?GK:side==='sen'?SK:AGK;
   const go = side==='gov' ? {id:r.s,g:'gov',lab:'Open on the Governors map'} : side==='sen' ? {id:r.id,g:'sen',lab:'Open in the Senate Whip'}
@@ -2922,20 +2960,20 @@ function renderGSD(){
   if(side==='gov'){
     who='State / Governor';
     body=rows.map(r=>`<tr${r.s===selSt||gsdOpen==='gov:'+r.s?' class="sel"':''}><td class="rk">${rankCell(r)}</td>
-      <td><button class="gnm" data-hrec="gov:${r.s}" aria-expanded="${gsdOpen==='gov:'+r.s}" title="Show the record behind this score">${stIcon(r.s,r.p,40,32)}<span><b>${STN[r.s]}</b><br><span>${esc(r.n)} (${r.p})</span>${r.isNew?`<em class="newel" tabindex="0" data-tip="${esc(NEWTIP)}">Newly elected</em>`:''}<em class="rtog">${gsdOpen==='gov:'+r.s?'Hide':'Show'} record</em></span></button></td>
-      <td class="tot">${gsdBar(r)}</td>${delCell(r)}${ladCell(r)}${rkCol(r)}</tr>`+(gsdOpen==='gov:'+r.s?`<tr class="hdet"><td></td><td colspan="5">${ladRecord(r,'gov')}</td></tr>`:'')).join('');
+      <td><button class="gnm" data-hrec="gov:${r.s}" aria-expanded="${gsdOpen==='gov:'+r.s}" title="Show the record behind this score">${stIcon(r.s,r.p,40,32)}<span><b>${STN[r.s]}</b><br><span>${esc(r.n)} (${r.p})</span>${r.isNew?`<em class="newel" tabindex="0" data-tip="${esc(NEWTIP)}">Newly elected</em>`:''}</span></button>${gActs('gov:'+r.s, r.n)}</td>
+      <td class="tot">${gsdBar(r)}</td>${delCell(r)}${ladCell(r)}${rkCol(r)}</tr>`+(gsdOpen==='gov:'+r.s?`<tr class="hdet"><td></td><td colspan="5">${ladRecord(r,'gov')}</td></tr>`:'')+ranRow('gov:'+r.s, r.n)).join('');
   } else if(side==='sen'){
     who='Senator';
     body=rows.map(r=>{ const open=gsdOpen==='sen:'+r.id; return `<tr${open?' class="sel"':''}><td class="rk">${rankCell(r)}</td>
-      <td><button class="gnm" data-hrec="sen:${esc(r.id)}" aria-expanded="${open}" title="Show the record behind this score">${stIcon(r.s,r.p,40,32)}<span><b>${esc(r.n)}</b><br><span>${pName(r.pl.slice(0,1)==='I'?'I':r.p)} · ${r.s}</span>${r.isNew?'<em class="newel">Newly elected</em>':''}<em class="rtog">${open?'Hide':'Show'} record</em></span></button></td>
-      <td class="tot">${gsdBar(r)}</td>${delCell(r)}${ladCell(r)}${rkCol(r)}</tr>`+(open?`<tr class="hdet"><td></td><td colspan="5">${ladRecord(r,'sen')}</td></tr>`:''); }).join('');
+      <td><button class="gnm" data-hrec="sen:${esc(r.id)}" aria-expanded="${open}" title="Show the record behind this score">${stIcon(r.s,r.p,40,32)}<span><b>${esc(r.n)}</b><br><span>${pName(r.pl.slice(0,1)==='I'?'I':r.p)} · ${r.s}</span>${r.isNew?'<em class="newel">Newly elected</em>':''}</span></button>${gActs('sen:'+r.id, r.n)}</td>
+      <td class="tot">${gsdBar(r)}</td>${delCell(r)}${ladCell(r)}${rkCol(r)}</tr>`+(open?`<tr class="hdet"><td></td><td colspan="5">${ladRecord(r,'sen')}</td></tr>`:'')+ranRow('sen:'+r.id, r.n); }).join('');
   } else {
     who='Presidential hopeful';
     body=rows.map(r=>{ const open=gsdOpen==='hope:'+r.n;
-      const tag=`<em class="howtag"${r.partial?` tabindex="0" data-tiph="${esc(TT('Partial record','Their state\'s governor row now belongs to their successor, so this grades their own record: signed and funded laws only, so far.',TFT('Treat the score as a floor')))}"`:''}>${esc(r.how)}</em><em class="rtog">${open?'Hide':'Show'} record</em>`;
+      const tag=`<em class="howtag"${r.partial?` tabindex="0" data-tiph="${esc(TT('Partial record','Their state\'s governor row now belongs to their successor, so this grades their own record: signed and funded laws only, so far.',TFT('Treat the score as a floor')))}"`:''}>${esc(r.how)}</em>`;
       const btn = `<button class="gnm" data-hrec="hope:${esc(r.n)}" aria-expanded="${open}" title="Show the record behind this score">${stIcon(r.s,r.p,40,32)}<span><b>${esc(r.n)}</b><br><span>${esc(r.role)}</span>${tag}</span></button>`;
-      return `<tr${open?' class="sel"':''}><td class="rk">${rankCell(r)}</td><td>${btn}</td><td class="tot">${gsdBar(r)}</td>${delCell(r)}${ladCell(r)}${rkCol(r)}</tr>`
-        + (open?`<tr class="hdet"><td></td><td colspan="5">${ladRecord(r,'hope')}</td></tr>`:''); }).join('');
+      return `<tr${open?' class="sel"':''}><td class="rk">${rankCell(r)}</td><td>${btn}${gActs('hope:'+r.n, r.n)}</td><td class="tot">${gsdBar(r)}</td>${delCell(r)}${ladCell(r)}${rkCol(r)}</tr>`
+        + (open?`<tr class="hdet"><td></td><td colspan="5">${ladRecord(r,'hope')}</td></tr>`:'') + ranRow('hope:'+r.n, r.n); }).join('');
   }
   const seg=(v,l)=>`<button data-gsdp="${v}" aria-pressed="${gsdP===v}">${l}</button>`;
   const key5=[...LR,'Steward'].map(R=>[LCOL[R],R==='Steward'?'Steward (home-state rankings)':R]);
@@ -2957,10 +2995,11 @@ function renderGSD(){
       <b>Sources.</b> ${GSDA.map(([a,lab])=>`${esc(lab)}: <a href="${esc(src[a].u)}" target="_blank" rel="noopener">${esc(src[a].name)}</a> (${esc(src[a].note)})`).join(' ')}</p>`;
 }
 $('gsdbox').addEventListener('click',e=>{
-  const sd=e.target.closest('[data-side]'); if(sd){ if(gsdSide!==sd.dataset.side){ gsdSide=sd.dataset.side; gsdAll=false; gsdOpen=null; renderGSD(); const f=document.querySelector(`#gsdbox [data-side="${gsdSide}"]`); if(f) f.focus(); } return; }
+  const sd=e.target.closest('[data-side]'); if(sd){ if(gsdSide!==sd.dataset.side){ gsdSide=sd.dataset.side; gsdAll=false; gsdOpen=null; gsdRan=null; renderGSD(); const f=document.querySelector(`#gsdbox [data-side="${gsdSide}"]`); if(f) f.focus(); } return; }
   const b=e.target.closest('[data-gsort]'); if(b){ const k=b.dataset.gsort, S=gsdSorts[gsdSide]; gsdSorts[gsdSide] = S.k===k ? {k,dir:-S.dir} : {k,dir:+b.dataset.def}; renderGSD(); const f=document.querySelector(`#gsdbox [data-gsort="${k}"]`); if(f) f.focus(); return; }
   const p=e.target.closest('[data-gsdp]'); if(p){ gsdP=p.dataset.gsdp; renderGSD(); return; }
   if(e.target.closest('#gsd-more')){ gsdAll=!gsdAll; renderGSD(); if(!gsdAll) $('gsdbox').scrollIntoView({block:'start'}); return; }
+  const rn=e.target.closest('[data-ranon]'); if(rn){ const nm=rn.dataset.ranon; gsdRan = gsdRan===nm?null:nm; renderGSD(); const f=document.querySelector(`#gsdbox [data-ranon="${CSS.escape(nm)}"]`); if(f) f.focus(); return; }
   const hr=e.target.closest('[data-hrec]'); if(hr){ const nm=hr.dataset.hrec; gsdOpen = gsdOpen===nm?null:nm; renderGSD(); const f=document.querySelector(`#gsdbox [data-hrec="${CSS.escape(nm)}"]`); if(f) f.focus(); return; }
   const g=e.target.closest('[data-go]'); if(!g) return;
   const gside = g.dataset.gside || gsdSide;
