@@ -1395,23 +1395,33 @@ dialog.gtodlg{max-width:640px}
 .gav{color:var(--ft,#fff)}
 .gco.bloc b{color:var(--ft,#fff)}
 .gco.half b{background:color-mix(in srgb,var(--fc) 22%,#fff)!important;color:var(--ink);box-shadow:inset 0 0 0 1.5px var(--fc)}
-/* Trump score: the box is the 0-10 scale; the blue/red seam sits at the average and slides from its Election Day spot */
-@property --sx{syntax:'<percentage>';inherits:true;initial-value:50%}
-.gsc{position:relative;isolation:isolate;height:112px;padding:0!important;border:2px solid var(--ink)!important;background:var(--dem)!important;color:#fff;--sx:var(--x0);transition:--sx 1.8s cubic-bezier(.3,.7,.2,1) .3s;cursor:help;display:block!important}
-.gmets.go .gsc{--sx:var(--x1)}
-.gsc::before{content:"";position:absolute;inset:0;background:var(--rep);clip-path:polygon(calc(var(--sx) + 6%) 0,100% 0,100% 100%,calc(var(--sx) - 6%) 100%);z-index:-1}
-.gsc::after{content:"";position:absolute;inset:0;background:#FFFCF3;clip-path:polygon(calc(var(--sx) + 6% - 2px) 0,calc(var(--sx) + 6% + 2px) 0,calc(var(--sx) - 6% + 2px) 100%,calc(var(--sx) - 6% - 2px) 100%);z-index:-1}
-.gscg{position:absolute;inset:0;width:100%;height:100%;z-index:-1}
-.gscg path{stroke:rgba(255,255,255,.55);stroke-width:2;stroke-dasharray:5 4;fill:none}
-.gscl,.gscr{position:absolute;top:44%;transform:translateY(-50%);display:grid;line-height:1}
-.gscl{left:16px;justify-items:start}.gscr{right:16px;justify-items:end;text-align:right}
-.gscn{font-family:var(--display);font-weight:900;font-size:clamp(32px,4vw,42px);font-variant-numeric:tabular-nums}
-.gscd{font-family:var(--display);font-weight:900;font-size:22px}
-.gscq{font:800 11px var(--display);letter-spacing:.06em;text-transform:uppercase;margin-top:4px;max-width:15ch}
-.gscr .gscq{font-weight:700;letter-spacing:.03em;opacity:.9}
-.gsce{position:absolute;bottom:6px;font-size:10.5px;font-weight:700;letter-spacing:.04em;opacity:.8;text-transform:uppercase}
-.gsce.l{left:16px}.gsce.r{right:16px}
-@media (prefers-reduced-motion: reduce){.gsc{transition:none}}
+/* Trump score: a sliding 0-10 scale that ends at Trump; the average slides left (away) from its Nov 3 spot */
+.gts{display:grid!important;gap:0;padding:10px 14px 12px!important;border:2px solid var(--ink)!important;background:#FFFCF3!important;cursor:help}
+.gtsh{display:flex;justify-content:space-between;align-items:baseline;gap:8px;flex-wrap:wrap}
+.gtst{font:800 11.5px var(--display);letter-spacing:.07em;text-transform:uppercase;color:var(--muted)}
+.gtsm{font:900 13px var(--display);letter-spacing:.02em;white-space:nowrap}
+.gtsm.away{color:var(--dem)}.gtsm.tow{color:var(--rep)}
+.gtsrow{display:grid;grid-template-columns:minmax(0,1fr) auto;align-items:end;gap:6px}
+.gtsend{margin-bottom:14px}
+.gtsk{position:relative;height:80px;margin:0 8px}
+.gtsrail{position:absolute;left:0;right:0;top:56px;height:8px;border-radius:4px;background:#DCE4F7;border:1.5px solid var(--ink);transform:translateY(-50%)}
+.gtsrail::after{content:"";position:absolute;inset:0;border-radius:3px;background:#F6D9D5;clip-path:polygon(52% 0,100% 0,100% 100%,48% 100%)}
+.gtstk{position:absolute;left:calc(var(--t)*100%);top:62px;width:1.5px;height:5px;background:var(--muted)}
+.gtstk.maj{height:8px;background:var(--ink)}
+.gtstl{position:absolute;left:calc(var(--t)*100%);top:69px;font-size:10px;font-weight:700;color:var(--muted);transform:translateX(-50%);white-space:nowrap;letter-spacing:.03em}
+.gtstl[style*="--t:0"]{transform:none;margin-left:-2px}
+.gtsgh{position:absolute;left:calc(var(--v0)*100%);top:56px;width:14px;height:14px;border:2px dashed var(--rep);border-radius:50%;background:#FFFCF3;transform:translate(-50%,-50%)}
+.gtsgh em{position:absolute;top:13px;left:50%;transform:translateX(-50%);font-style:normal;font-size:10px;font-weight:700;color:var(--muted);white-space:nowrap}
+.gtstr{position:absolute;top:56px;height:4px;transform:translateY(-50%);background:var(--dem);border-radius:2px;left:calc(var(--v1)*100%);width:calc((var(--v0) - var(--v1))*100%);transform-origin:right;scale:0 1;transition:scale 1.8s cubic-bezier(.3,.7,.2,1) .3s}
+.gmets.go .gtstr{scale:1 1}
+.gtsmk{position:absolute;left:calc(var(--v0)*100%);top:56px;transform:translate(-50%,-100%);display:grid;justify-items:center;transition:left 1.8s cubic-bezier(.3,.7,.2,1) .3s;z-index:2}
+.gmets.go .gtsmk{left:calc(var(--v1)*100%)}
+.gtsmk b{font-family:var(--display);font-weight:900;font-size:22px;line-height:1;color:#fff;background:var(--ink);padding:4px 9px 5px;border-radius:7px;font-variant-numeric:tabular-nums;box-shadow:2px 2px 0 var(--dem)}
+.gtsmk::after{content:"";width:16px;height:16px;margin-top:3px;border-radius:50%;background:var(--dem);border:2.5px solid var(--ink);box-sizing:border-box;translate:0 50%}
+.gtsend{display:grid;justify-items:center;gap:1px;width:46px}
+.gtsend svg{width:40px;height:40px;border-radius:50%;background:#FFFCF3;border:2px solid var(--ink);box-sizing:border-box;padding:3px}
+.gtsend em{font-style:normal;font-size:10px;font-weight:800;color:var(--rep);letter-spacing:.04em}
+@media (prefers-reduced-motion: reduce){.gtsmk,.gtstr{transition:none!important}}
 /* what they blamed: chunky slanted bars, icons on cream badges */
 .gpblame{gap:7px}
 .gbi svg{width:24px!important;height:24px!important;padding:3.5px;border-radius:50%;background:#FFFCF3;border:1.5px solid var(--ink);color:var(--dem)!important;box-sizing:border-box}
@@ -2090,11 +2100,19 @@ function renderGopScore(){
         <span class="garr r" aria-hidden="true"></span>
         <div class="gdside r"><b class="gdn"><span class="gcnt" data-to="${toward}" data-dur="1400" data-dl="500">0</span></b><span class="gdl">Moved toward</span><span class="gdq">1+ point</span></div>
       </div>
-      <div class="gmet gsc" style="--x0:${a0*10}%;--x1:${a1*10}%" role="img" tabindex="0" aria-label="Average Trump score fell from ${g1(a0)} on Election Day to ${g1(a1)}, on a scale from 0 (open critic) to 10 (loyalist)" data-tiph="${esc(TT('Average Trump score', TKV([['Election Day',g1(a0)],['Now',g1(a1)],['Change',(a1<a0?'−':'+')+g1(Math.abs(a0-a1))]]), 'Each voice is scored 0 (open critic) to 10 (loyalist). The seam sits at the average; the dashed line marks where it was.'))}">
-        <svg class="gscg" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true"><path d="M${(a0*10+6).toFixed(1)} 0L${(a0*10-6).toFixed(1)} 100" vector-effect="non-scaling-stroke"/></svg>
-        <div class="gscl"><b class="gscn"><span class="gcnt" data-from="${g1(a0)}" data-to="${g1(a1)}" data-dec="1" data-dur="1800" data-dl="300">${g1(a0)}</span></b><span class="gscq">avg. Trump score</span></div>
-        <div class="gscr"><b class="gscd">${a1<a0?'▼':'▲'} ${g1(Math.abs(a0-a1))}</b><span class="gscq">from ${g1(a0)} on Election Day</span></div>
-        <span class="gsce l">0 · Critic</span><span class="gsce r">Loyalist · 10</span>
+      <div class="gmet gts" style="--v0:${(a0/10).toFixed(3)};--v1:${(a1/10).toFixed(3)}" role="img" tabindex="0" aria-label="The average Trump score moved ${g1(Math.abs(a0-a1))} points ${a1<a0?'away from':'toward'} Trump, from ${g1(a0)} on Election Day to ${g1(a1)} now, on a scale from 0 (open critic) to 10 (loyalist)" data-tiph="${esc(TT('Average Trump score', TKV([['Election Day',g1(a0)],['Now',g1(a1)],['Change',(a1<a0?'−':'+')+g1(Math.abs(a0-a1))]]), 'Each voice is scored from 0 (open critic) to 10 (loyalist). This is the average across all of them.'))}">
+        <div class="gtsh"><span class="gtst">Average Trump score</span><span class="gtsm ${a1<a0?'away':'tow'}">${a1<a0?'◀':'▶'} ${g1(Math.abs(a0-a1))} points ${a1<a0?'away from':'toward'} Trump</span></div>
+        <div class="gtsrow">
+          <div class="gtsk">
+            <span class="gtsrail"></span>
+            ${[0,1,2,3,4,5,6,7,8,9].map(t=>`<i class="gtstk${t%5?'':' maj'}" style="--t:${t/10}"></i>`).join('')}
+            <span class="gtstl" style="--t:0">0 · Critic</span><span class="gtstl" style="--t:.5">5</span>
+            <span class="gtsgh"><em>Nov 3 · ${g1(a0)}</em></span>
+            <span class="gtstr"></span>
+            <span class="gtsmk"><b><span class="gcnt" data-from="${g1(a0)}" data-to="${g1(a1)}" data-dec="1" data-dur="1800" data-dl="300">${g1(a0)}</span></b></span>
+          </div>
+          <span class="gtsend" title="10 · Trump">${GCAPSVG}<em>10</em></span>
+        </div>
       </div>
     </div>
   </div>
