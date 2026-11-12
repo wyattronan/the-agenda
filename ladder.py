@@ -1,6 +1,6 @@
 """Getting Stuff Done: the five-rung ladder.
 Talk (10) -> Commit (25) -> Spend (50) -> Deliver (100) per issue, at the highest rung the evidence reaches
-(leans earn half). Ladder = average points over the issues counted, scaled so the top scorer in the group is 100.
+(leans earn half). Ladder = average points over the issues counted, on an absolute 0-100 scale (no curve).
 Total = 75% ladder + 25% Steward (home-state rankings). Built from the site's own research notes."""
 import re
 from ladder_own import OWN, DEF_OWN
@@ -120,7 +120,7 @@ def build(d):
                     stew=stew, scored=scored, new=new, stype=stype, dv=dv or [])
 
     def finish(rows):
-        mx = max(r['raw'] for r in rows.values() if r['scored']) or 1
+        mx = 100   # absolute scale: the ladder is the average points per issue, not curved to the group's top scorer
         for r in rows.values():
             r['ladder'] = r['raw'] / mx * 100
             # no Steward measure (no current office): the ladder carries the whole score
