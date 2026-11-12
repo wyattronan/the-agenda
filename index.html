@@ -1387,6 +1387,39 @@ dialog.gtodlg{max-width:640px}
 .gdir .gdq{color:rgba(255,255,255,.85)}.gdir .gdl{white-space:nowrap;font-size:clamp(8.5px,2.75cqi,11px);letter-spacing:clamp(0em,calc(2cqi - 5px),.08em)}.gdir .gdn{font-size:clamp(30px,10.5cqi,42px)}
 .gdir .gdcap{width:clamp(46px,14cqi,58px);height:clamp(46px,14cqi,58px);border-radius:50%;background:#FFFCF3;border:2.5px solid var(--ink);place-items:center;align-self:center}
 .gdir .gdcap svg{width:78%;height:78%}
+/* faction icon badges */
+.gfi{width:46px;height:46px;flex:none;border-radius:50%;background:var(--fc);color:var(--ft,#fff);border:2.5px solid var(--ink);display:grid;place-items:center;box-shadow:2px 2px 0 var(--ink)}
+.gfi svg{width:62%;height:62%;overflow:visible}
+.gfi.sm{width:34px;height:34px;border-width:2px;box-shadow:none}
+.glsum .gfi{align-self:center}
+.gav{color:var(--ft,#fff)}
+.gco.bloc b{color:var(--ft,#fff)}
+.gco.half b{background:color-mix(in srgb,var(--fc) 22%,#fff)!important;color:var(--ink);box-shadow:inset 0 0 0 1.5px var(--fc)}
+/* Trump score: the box is the 0-10 scale; the blue/red seam sits at the average and slides from its Election Day spot */
+@property --sx{syntax:'<percentage>';inherits:true;initial-value:50%}
+.gsc{position:relative;isolation:isolate;height:112px;padding:0!important;border:2px solid var(--ink)!important;background:var(--dem)!important;color:#fff;--sx:var(--x0);transition:--sx 1.8s cubic-bezier(.3,.7,.2,1) .3s;cursor:help;display:block!important}
+.gmets.go .gsc{--sx:var(--x1)}
+.gsc::before{content:"";position:absolute;inset:0;background:var(--rep);clip-path:polygon(calc(var(--sx) + 6%) 0,100% 0,100% 100%,calc(var(--sx) - 6%) 100%);z-index:-1}
+.gsc::after{content:"";position:absolute;inset:0;background:#FFFCF3;clip-path:polygon(calc(var(--sx) + 6% - 2px) 0,calc(var(--sx) + 6% + 2px) 0,calc(var(--sx) - 6% + 2px) 100%,calc(var(--sx) - 6% - 2px) 100%);z-index:-1}
+.gscg{position:absolute;inset:0;width:100%;height:100%;z-index:-1}
+.gscg path{stroke:rgba(255,255,255,.55);stroke-width:2;stroke-dasharray:5 4;fill:none}
+.gscl,.gscr{position:absolute;top:44%;transform:translateY(-50%);display:grid;line-height:1}
+.gscl{left:16px;justify-items:start}.gscr{right:16px;justify-items:end;text-align:right}
+.gscn{font-family:var(--display);font-weight:900;font-size:clamp(32px,4vw,42px);font-variant-numeric:tabular-nums}
+.gscd{font-family:var(--display);font-weight:900;font-size:22px}
+.gscq{font:800 11px var(--display);letter-spacing:.06em;text-transform:uppercase;margin-top:4px;max-width:15ch}
+.gscr .gscq{font-weight:700;letter-spacing:.03em;opacity:.9}
+.gsce{position:absolute;bottom:6px;font-size:10.5px;font-weight:700;letter-spacing:.04em;opacity:.8;text-transform:uppercase}
+.gsce.l{left:16px}.gsce.r{right:16px}
+@media (prefers-reduced-motion: reduce){.gsc{transition:none}}
+/* what they blamed: chunky slanted bars, icons on cream badges */
+.gpblame{gap:7px}
+.gbi svg{width:24px!important;height:24px!important;padding:3.5px;border-radius:50%;background:#FFFCF3;border:1.5px solid var(--ink);color:var(--dem)!important;box-sizing:border-box}
+.gbr.top .gbi svg{color:var(--rep)!important}
+.gbr b{color:var(--dem)}.gbr.top b{color:var(--rep)}
+.gbt{height:16px!important;background:color-mix(in srgb,var(--line) 45%,transparent);border:0;border-radius:3px}
+.gbt i{background:var(--dem)!important;clip-path:polygon(0 0,100% 0,calc(100% - 7px) 100%,0 100%)}
+.gbr.top .gbt i{background:var(--rep)!important}
 </style>
 </head>
 <body>
@@ -1926,7 +1959,20 @@ function defDone(b){ if(!b) return; const t=b.textContent; b.classList.add('done
 /* ================= GOP postmortem ================= */
 const G = D.gop || {people:[]}, GP = G.people, GPHOTO = G.photos||{}, GCODE = G.codes||{}, GBLAME = G.blame||{};
 const GFAC = ['Presidential Hopefuls','Trump Loyalists','New Right','Hawks','Tea Party/Freedom Caucus','Institutionalists','Pragmatists and Dissenters','Media voices'];
-const GFCOL = {'Presidential Hopefuls':'#6D3FC0','Trump Loyalists':'#C3402E','New Right':'#D9731A','Hawks':'#3D4A5C','Tea Party/Freedom Caucus':'#A88400','Institutionalists':'#2F6FA3','Pragmatists and Dissenters':'#2E9A78','Media voices':'#C2417E'};
+// faction colors: media yellow (yellow journalism), pragmatists blue (closest to Democrats), institutionalists purple (bipartisan, faith in institutions),
+// loyalists MAGA red, New Right insurgent orange, hawks olive drab, Tea Party tea brown, hopefuls magenta (red base, courting a purple electorate)
+const GFCOL = {'Presidential Hopefuls':'#B8327A','Trump Loyalists':'#C61F2E','New Right':'#E0661B','Hawks':'#55652A','Tea Party/Freedom Caucus':'#8A5A2B','Institutionalists':'#7048B0','Pragmatists and Dissenters':'#3A86D9','Media voices':'#F2C21B'};
+const GFINK = {'Media voices':'#0F1C3F'}, gft = f => GFINK[f]||'#fff';
+const GFICO = {
+  'Presidential Hopefuls':'<path d="M12 3.2l2.6 5.4 5.9.8-4.3 4.1 1 5.8L12 16.6l-5.2 2.7 1-5.8-4.3-4.1 5.9-.8z" fill="currentColor"/>',
+  'Trump Loyalists':'<path d="M4 15.4C4 10.2 7.4 6.6 11.8 6.6S19.4 10.2 19.4 15.4Z" fill="currentColor"/><path d="M11.8 6.8V15.2" stroke="var(--fcd,rgba(0,0,0,.35))" stroke-width="1.2"/><path d="M14 15.4H22.4C22.7 17 20.6 18.2 17.6 18.2H14Z" fill="currentColor"/><path d="M2.6 15.4H19.6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>',
+  'New Right':'<path d="M13.4 2L5 13.6h6.2L10 22l9.2-12.2H13z" fill="currentColor"/>',
+  'Hawks':'<path d="M12 2.2c.9 0 1.5 1.2 1.5 3v4l7.6 4.4v2.1l-7.6-2.3V18l2.6 1.9v1.3L12 20.2l-4.1 1v-1.3l2.6-1.9v-4.6l-7.6 2.3v-2.1l7.6-4.4v-4c0-1.8.6-3 1.5-3z" fill="currentColor"/>',
+  'Tea Party/Freedom Caucus':'<path d="M4 9.4h12v3.8a5 5 0 0 1-5 5H9a5 5 0 0 1-5-5z" fill="currentColor"/><path d="M16 10.4h1.4a2.6 2.6 0 0 1 0 5.2H16M3 21h14.4M8.2 3c-1 1 1 2 0 3.6M12 3c-1 1 1 2 0 3.6" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>',
+  'Institutionalists':'<path d="M2.8 9.2L12 3.6l9.2 5.6z" fill="currentColor"/><path d="M6 11.6v6.6M10 11.6v6.6M14 11.6v6.6M18 11.6v6.6M3 20.6h18M4 10h16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>',
+  'Pragmatists and Dissenters':'<path d="M2 15h20M3.8 15c2.6-6 13.8-6 16.4 0M8 15v-3.4M12 15v-4.6M16 15v-3.4M4 15v5M20 15v5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>',
+  'Media voices':'<rect x="8.8" y="2.6" width="6.4" height="11.4" rx="3.2" fill="currentColor"/><path d="M5.8 11a6.2 6.2 0 0 0 12.4 0M12 17.2V21M8.4 21h7.2" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>'};
+const gfi = (f,cls) => `<span class="gfi${cls?' '+cls:''}" style="--fc:${GFCOL[f]};--ft:${gft(f)}" title="${esc(f)}" aria-hidden="true"><svg viewBox="0 0 24 24">${GFICO[f]||''}</svg></span>`;
 const GPOST = ['Defender','Hedger','Distancer','Critic','Silent'];
 const GPCOL = {Defender:'#C3402E',Hedger:'#E9A79C',Distancer:'#A8C0EE',Critic:'#1B3A8C',Silent:'#B4B8C3'};
 const GPLT = new Set(['Hedger','Distancer','Silent']);
@@ -1978,7 +2024,7 @@ const [gw0,gw1] = (G.window||'').split('/'); const gpWin = gw0&&gw1 ? `${gpd(gw0
 const gReduce = window.matchMedia && matchMedia('(prefers-reduced-motion: reduce)').matches;
 function gav(p, size, extra){
   const ph = GPHOTO[p.name];
-  return `<span class="gav${extra?' '+extra:''}" style="--fc:${GFCOL[p.category]};--pc:${GPCOL[p.posture]};--sz:${size||32}px" title="${esc(p.name)} · ${p.posture}">${ph?`<img src="${esc(ph)}" alt="">`:`<b>${gini(p.name)}</b>`}</span>`;
+  return `<span class="gav${extra?' '+extra:''}" style="--fc:${GFCOL[p.category]};--ft:${gft(p.category)};--pc:${GPCOL[p.posture]};--sz:${size||32}px" title="${esc(p.name)} · ${p.posture}">${ph?`<img src="${esc(ph)}" alt="">`:`<b>${gini(p.name)}</b>`}</span>`;
 }
 const dlt = v => `<span class="dlt ${v<0?'dn':v>0?'up':'z'}">${v?gsgn(v):'·'}</span>`;
 function gCohesion(f){
@@ -2026,9 +2072,12 @@ function renderGopScore(){
         <span class="garr r" aria-hidden="true"></span>
         <div class="gdside r"><b class="gdn"><span class="gcnt" data-to="${toward}" data-dur="1400" data-dl="500">0</span></b><span class="gdl">Moved toward</span><span class="gdq">1+ point</span></div>
       </div>
-      <div class="gmet gavg"><div class="gmstage"><b class="gmn"><span class="gcnt" data-from="${g1(a0)}" data-to="${g1(a1)}" data-dec="1" data-dur="1800" data-dl="300">${g1(a0)}</span></b><span class="gdown">▼ ${g1(a0-a1)}</span></div>
-        <div class="ggauge" aria-hidden="true"><i class="gpre" style="left:${a0*10}%"></i><i class="gtrk" style="left:${a1*10}%;width:${(a0-a1)*10}%"></i><i class="gpost" style="--x0:${a0*10}%;--x1:${a1*10}%"></i><span>0</span><span>10</span></div>
-        <span class="gml"><b>avg. Trump score</b> (0–10)</span></div>
+      <div class="gmet gsc" style="--x0:${a0*10}%;--x1:${a1*10}%" role="img" tabindex="0" aria-label="Average Trump score fell from ${g1(a0)} on Election Day to ${g1(a1)}, on a scale from 0 (open critic) to 10 (loyalist)" data-tiph="${esc(TT('Average Trump score', TKV([['Election Day',g1(a0)],['Now',g1(a1)],['Change',(a1<a0?'−':'+')+g1(Math.abs(a0-a1))]]), 'Each voice is scored 0 (open critic) to 10 (loyalist). The seam sits at the average; the dashed line marks where it was.'))}">
+        <svg class="gscg" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true"><path d="M${(a0*10+6).toFixed(1)} 0L${(a0*10-6).toFixed(1)} 100" vector-effect="non-scaling-stroke"/></svg>
+        <div class="gscl"><b class="gscn"><span class="gcnt" data-from="${g1(a0)}" data-to="${g1(a1)}" data-dec="1" data-dur="1800" data-dl="300">${g1(a0)}</span></b><span class="gscq">avg. Trump score</span></div>
+        <div class="gscr"><b class="gscd">${a1<a0?'▼':'▲'} ${g1(Math.abs(a0-a1))}</b><span class="gscq">from ${g1(a0)} on Election Day</span></div>
+        <span class="gsce l">0 · Critic</span><span class="gsce r">Loyalist · 10</span>
+      </div>
     </div>
   </div>
   <div class="gpscol">
@@ -2067,9 +2116,9 @@ function renderGopLanes(){
     const grp=(o,c)=>Object.entries(o).sort((a,b)=>b[1].length-a[1].length).map(([k,ns])=>({l:GTOWARD[c][k], ns:[...ns], c:c.toLowerCase()}));
     const mv=[...grp(tw.out.B,'B'),...grp(tw.out.R,'R')], br=grp(tw.out.D,'D'), op=Object.entries(tw.open).map(([m,ns])=>({l:gms(m), ns:[...ns], c:'o', m}));
     const open = gLaneOpen.has(r.f);
-    return `<article class="glane${open?'':' shut'}" style="--fc:${GFCOL[r.f]}" data-f="${esc(r.f)}">
-      <button class="glsum" data-gplane="${esc(r.f)}" aria-expanded="${open}"><span class="rk">${String(ix+1).padStart(2,'0')}</span><span class="glname">${esc(r.f)}</span><span class="gco ${co.cls}"><b>${esc(co.tag)}</b></span><span class="glav">${r.ms.map(p=>gav(p,22)).join('')}</span><span class="glsc">${g1(r.t0)} <span aria-hidden="true">→</span> <b>${g1(r.t1)}</b></span><span class="glchev" aria-hidden="true">${open?'Collapse':'Expand'} <i>▾</i></span></button>
-      <div class="glhd"><span class="rk">${String(ix+1).padStart(2,'0')}</span><div><h4>${esc(r.f)}</h4><p>${esc((G.factions||{})[r.f]||'')}</p></div></div>
+    return `<article class="glane${open?'':' shut'}" style="--fc:${GFCOL[r.f]};--ft:${gft(r.f)}" data-f="${esc(r.f)}">
+      <button class="glsum" data-gplane="${esc(r.f)}" aria-expanded="${open}">${gfi(r.f,'sm')}<span class="glname">${esc(r.f)}</span><span class="gco ${co.cls}"><b>${esc(co.tag)}</b></span><span class="glav">${r.ms.map(p=>gav(p,22)).join('')}</span><span class="glsc">${g1(r.t0)} <span aria-hidden="true">→</span> <b>${g1(r.t1)}</b></span><span class="glchev" aria-hidden="true">${open?'Collapse':'Expand'} <i>▾</i></span></button>
+      <div class="glhd">${gfi(r.f)}<div><h4>${esc(r.f)}</h4><p>${esc((G.factions||{})[r.f]||'')}</p></div></div>
       <div class="glbody">
         <div class="gco ${co.cls}"><b>${esc(co.tag)}</b></div>
         <div class="gtrack" style="height:${H}px">
