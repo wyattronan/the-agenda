@@ -1459,6 +1459,7 @@ dialog.gtodlg{max-width:640px}
 .pchip.top{background:#2148c8;border-color:#0f1c3f;color:#fff}.pchip.top small{opacity:.85}
 .pchip:focus-visible{outline:2px solid var(--ink);outline-offset:1px}
 .pmore{flex-basis:100%;margin-top:2px}
+.plbl{font:800 10.5px var(--display);letter-spacing:.07em;text-transform:uppercase;color:var(--muted);margin-right:2px}
 .pmore>summary{display:inline-flex;cursor:pointer;font-size:11.5px;font-weight:800;letter-spacing:.04em;text-transform:uppercase;color:var(--dem);list-style:none;padding:3px 10px;border:1.5px solid var(--dem);border-radius:999px}
 .pmore>summary::-webkit-details-marker{display:none}
 .pmore[open]>summary{margin-bottom:6px}
@@ -2749,7 +2750,7 @@ const HROWS = (()=>{
   });
   rows.mB = mB; return rows;
 })();
-function topTag(side,k){ return ((D.top10||{})[side]||[]).includes(k) ? `<span class="top10" tabindex="0" data-tip="Among the 10 ${side==='sen'?'Senate measures':'governor priorities'} with the most champions.">Top 10</span>` : ''; }
+function topTag(side,k){ return ((D.top10||{})[side]||[]).includes(k) ? `<span class="top10" tabindex="0" data-tip="One of the 10 ${side==='sen'?'Senate measures':'governor priorities'} the most 2026 Democratic ${side==='sen'?'Senate':'governor'} winners campaigned on.">Top 10</span>` : ''; }
 let gsdSide='gov', gsdAll=false, gsdP='all', gsdOpen=null;
 const gsdSorts={gov:{k:'tot',dir:-1}, sen:{k:'tot',dir:-1}, hope:{k:'tot',dir:-1}};
 const pName = pl=> pl==='D'?'Democrat':pl==='R'?'Republican':/^I/.test(pl)?'Independent':pl;
@@ -3337,35 +3338,33 @@ function t10Items(){
   ];
   return {likely, verge, vergeSt, unlikelySen, unlikelySt};
 }
-// Dem Top 10 Priorities: the agenda items the most Democrats are on record backing (Support, or championed), Senate and governors separately.
-// Backers = Democrats (and independents who caucus with them) whose stance is Support, plus any Democratic champion; champions are highlighted.
+// Dem Top 10 Priorities: ranked by how many 2026 Democratic winners campaigned on each item (D.camp, built in camp.py; same list as the Top 10 tags).
+// Each card also shows every Democrat who backs it (Support or champion), since all electeds get credit for that.
 function prioItems(){
-  const lastN = n => n.split(' ').slice(-1)[0];
-  const mk = (side, keys, people, stanceOf, label) => keys.map(k=>{
+  const mk = (side, people, stanceOf, label) => (D.top10[side]||[]).map(k=>{
+    const camp = new Set(((D.camp||{}).who||{})[side]?.[k]||[]);
     const champs = ((CHAMP[side]||{})[k]||[]).filter(c=>c.p==='D'||c.p==='I'), cmap={}; champs.forEach(c=>cmap[c.n]=c);
-    const backers = people.filter(x=>stanceOf(x,k)[0]==='Support' || cmap[x.n]).map(x=>({x, c:cmap[x.n], ev:(cmap[x.n]||{}).ev || stanceOf(x,k)[1]}));
-    const lean = people.filter(x=>stanceOf(x,k)[0]==='Lean support' && !cmap[x.n]).length;
+    const backers = people.filter(x=>stanceOf(x,k)[0]==='Support' || cmap[x.n] || camp.has(x.n)).map(x=>({x, c:cmap[x.n], cp:camp.has(x.n), ev:(cmap[x.n]||{}).ev || stanceOf(x,k)[1]}));
     const rank = b => b.c ? (b.c.t==='top'?0:1) : 2;
     backers.sort((a,b)=>rank(a)-rank(b) || a.x.st.localeCompare(b.x.st));
-    return {side, k, title:label(k), n:backers.length, of:people.length, ch:backers.filter(b=>b.c).length, top:backers.filter(b=>b.c&&b.c.t==='top').length, lean, backers};
-  }).sort((a,b)=>b.n-a.n || b.ch-a.ch || b.top-a.top).slice(0,10);
+    return {side, k, title:label(k), nc:camp.size, of:((D.camp||{}).n||{})[side]||0, n:backers.length, ofAll:people.length, backers};
+  });
   const sen = D.sen.filter(x=>x.p==='D' && !/ppoint/.test(x.id));
   const gov = D.gov.filter(g=>g.p==='D');
-  const senKeys = D.issues.map(i=>i[0]).filter(k=>!['sch','heg'].includes(k));
   return {
-    sen: mk('sen', senKeys, sen, (x,k)=>x.r[k]||['Unclear',''], k=>(D.issues.find(i=>i[0]===k)||[k,k])[1]),
-    gov: mk('gov', D.gi.map(g=>g[0]), gov, (g,k)=>g.sp[k]||['Unclear',''], k=>GI[k].f)
+    sen: mk('sen', sen, (x,k)=>x.r[k]||['Unclear',''], k=>(D.issues.find(i=>i[0]===k)||[k,k])[1]),
+    gov: mk('gov', gov, (g,k)=>g.sp[k]||['Unclear',''], k=>GI[k].f)
   };
 }
 function prioCard(it,i){
-  const who = it.side==='sen' ? 'Democratic senators' : 'Democratic governors';
-  const chip = b => { const nm = it.side==='sen' ? `${b.x.n.split(' ').slice(-1)[0]} <small>${b.x.st}</small>` : `${esc(b.x.n)} <small>${b.x.st}</small>`;
-    const kind = b.c ? (b.c.t==='top'?'top':'ch') : 'sup', lbl = kind==='top'?'Top champion':kind==='ch'?'Champion':'Supports';
-    return `<span class="pchip ${kind}" tabindex="0" data-tip="${esc(b.x.n+(b.x.new?' (newly elected)':'')+' · '+lbl+': '+(b.ev||''))}">${nm}</span>`; };
-  const lead = it.backers.filter(b=>b.c), rest = it.backers.filter(b=>!b.c);
-  const counts = `<b>${it.n}</b> of ${it.of} ${who} back it${it.ch?`, <b>${it.ch}</b> as champion${it.ch===1?'':'s'}${it.top?` (${it.top} top)`:''}`:''}.${it.lean?` ${it.lean} more lean toward it.`:''}`;
+  const race = it.side==='sen' ? 'Senate' : 'governor';
+  const chip = b => { const nm = it.side==='sen' ? `${esc(b.x.n.split(' ').slice(-1)[0])} <small>${b.x.st}</small>` : `${esc(b.x.n)} <small>${b.x.st}</small>`;
+    const kind = b.c ? (b.c.t==='top'?'top':'ch') : 'sup', lbl = (b.cp?'Campaigned on it · ':'')+(kind==='top'?'Top champion':kind==='ch'?'Champion':'Supports');
+    return `<span class="pchip ${kind}${b.cp?' cp':''}" tabindex="0" data-tip="${esc(b.x.n+(b.x.new?' (newly elected)':'')+' · '+lbl+': '+(b.ev||''))}">${nm}</span>`; };
+  const lead = it.backers.filter(b=>b.cp), rest = it.backers.filter(b=>!b.cp);
+  const counts = `<b>${it.nc}</b> of ${it.of} Democratic ${race} winners in 2026 campaigned on it. <b>${it.n}</b> of ${it.ofAll} Democratic ${it.side==='sen'?'senators':'governors'} back it in all.`;
   return `<li style="--i:${i-1}"><span class="t10n">${i}</span><h3><button data-t10="${it.side}:${it.k}" title="Open this ${it.side==='sen'?'measure':'priority'}">${esc(it.title)}</button><span class="t10k ${it.side==='sen'?'sen':'st'}">${it.side==='sen'?'Senate':'Governors'}</span></h3><p>${counts}</p>
-    <div class="pchips">${lead.map(chip).join('')}${rest.length?`<details class="pmore"${lead.length?'':' open'}><summary>${lead.length?`+ ${rest.length} more backer${rest.length===1?'':'s'}`:`${rest.length} backer${rest.length===1?'':'s'}`}</summary><div class="pchips">${rest.map(chip).join('')}</div></details>`:''}</div></li>`;
+    <div class="pchips"><span class="plbl">Campaigned on it</span>${lead.map(chip).join('')}${rest.length?`<details class="pmore"><summary>+ ${rest.length} other backer${rest.length===1?'':'s'}</summary><div class="pchips">${rest.map(chip).join('')}</div></details>`:''}</div></li>`;
 }
 function t10Card(it,i){ return `<li style="--i:${i-1}"><span class="t10n">${i}</span><h3><button data-t10="${it.side}:${it.k}" title="Open this measure">${esc(it.title)}</button><span class="t10k ${it.side==='sen'?'sen':'st'}">${it.tag}</span>${topTag(it.side,it.k)}</h3><p>${it.body}</p>${it.extra}</li>`; }
 function renderTop10(){
@@ -3376,11 +3375,11 @@ function renderTop10(){
       ${tab('likely','Most likely to pass','10 reforms with the votes or the trifectas to get done first')}
       ${tab('verge','On the verge','Where advocacy could tip the balance')}
       ${tab('unlikely','Least likely to pass','Measures without the support yet')}
-      ${tab('prio','Dem Top 10 Priorities','What the most Democrats are on record backing')}</div>
+      ${tab('prio','Dem Top 10 Priorities','What the most 2026 Democratic winners campaigned on')}</div>
     ${t10Side==='likely' ? `<ol class="t10list t10one t10roll">${I.likely.map((it,i)=>t10Card(it,i+1)).join('')}</ol>`
       : t10Side==='verge' ? cols(I.verge, I.vergeSt)
       : t10Side==='prio' ? (()=>{ const P=prioItems(), pc=(h,l)=>`<div><h3 class="colh">${h}</h3><ol class="t10list t10roll plist">${l.map((it,i)=>prioCard(it,i+1)).join('')}</ol></div>`;
-          return `<p class="pnote">Ranked by how many Democrats are on record backing each item (sitting and newly elected), most first. <span class="pchip top" aria-hidden="true">Top champion</span> signed, funded, or forced it · <span class="pchip ch" aria-hidden="true">Champion</span> moved it themselves · <span class="pchip sup" aria-hidden="true">Supports</span> on record for it. Hover a name for the record.</p><div class="t10cols pcols">${pc('In the Senate',P.sen)}${pc('In the governors\' mansions',P.gov)}</div>`; })()
+          return `<p class="pnote">Ranked by how many Democrats who won in 2026 campaigned on each item (said it, pledged it, or put it in a platform during the 2026 campaign), most first; ties go to the item with more Democratic backers overall. <span class="pchip top" aria-hidden="true">Top champion</span> signed, funded, or forced it · <span class="pchip ch" aria-hidden="true">Champion</span> moved it themselves · <span class="pchip sup" aria-hidden="true">Supports</span> on record for it. Hover a name for the record.</p><div class="t10cols pcols">${pc('In the Senate',P.sen)}${pc('In the governors\' mansions',P.gov)}</div>`; })()
       : cols(I.unlikelySen, I.unlikelySt)}
     `;
 }

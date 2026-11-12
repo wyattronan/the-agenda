@@ -81,8 +81,10 @@ _sk = [i[0] for i in d["issues"] if i[0] not in ("sch", "heg")]
 _ss = {k: (len(d["champ"]["sen"].get(k, [])), sum(x["r"][k][0] == "Support" for x in _sen)) for k in _sk}
 _gk = [x[0] for x in d["gi"]]
 _gs = {k: (len(d["champ"]["gov"].get(k, [])), sum(g["sp"].get(k, ["U"])[0] == "Support" for g in d["gov"])) for k in _gk}
-d["top10"] = {"sen": sorted(_sk, key=lambda k: (-_ss[k][0], -_ss[k][1]))[:10], "gov": sorted(_gk, key=lambda k: (-_gs[k][0], -_gs[k][1]))[:10]}
-d["topcount"] = {"sen": {k: _ss[k][0] for k in d["top10"]["sen"]}, "gov": {k: _gs[k][0] for k in d["top10"]["gov"]}}
+# Top 10 priorities: ranked by how many 2026 Democratic winners campaigned on each item (see camp.py)
+import camp as _camp
+d["camp"] = _camp.build(d)
+d["top10"], d["topcount"] = _camp.rank(d, d["camp"])
 print("top10", d["top10"])
 import oxford as _ox
 d = _ox.walk(d)
