@@ -1451,6 +1451,7 @@ dialog.gtodlg{max-width:640px}
 .pnote{font-size:13px;color:var(--muted);margin:0 0 14px;line-height:1.7}
 .pnote .pchip{cursor:default}
 .pcols{align-items:start}
+.plist>li{align-content:start}
 .plist>li p{margin:2px 0 8px;font-size:14px}
 .pchips{display:flex;flex-wrap:wrap;gap:5px;align-items:center}
 .pchip{display:inline-flex;align-items:baseline;gap:3px;font-size:12px;font-weight:700;line-height:1.2;padding:3px 9px;border-radius:999px;border:1.5px solid var(--line);background:var(--surface);color:var(--ink);cursor:help;white-space:nowrap}
@@ -3393,8 +3394,8 @@ function renderTop10(){
       ${tab('prio','Dem Top 10 Priorities','What the most 2026 Democratic winners campaigned on')}</div>
     ${t10Side==='likely' ? `<ol class="t10list t10one t10roll">${I.likely.map((it,i)=>t10Card(it,i+1)).join('')}</ol>`
       : t10Side==='verge' ? cols(I.verge, I.vergeSt)
-      : t10Side==='prio' ? (()=>{ const P=prioItems(), pc=(h,l)=>`<div><h3 class="colh">${h}</h3><ol class="t10list t10roll plist">${l.map((it,i)=>prioCard(it,i+1)).join('')}</ol></div>`;
-          return `<p class="pnote">Ranked by how many Democrats who won in 2026 campaigned on each item (said it, pledged it, or put it in a platform during the 2026 campaign), most first; ties go to the item with more Democratic backers overall. <span class="pchip top" aria-hidden="true">Top champion</span> signed, funded, or forced it · <span class="pchip ch" aria-hidden="true">Champion</span> moved it themselves · <span class="pchip sup" aria-hidden="true">Supports</span> on record for it. Hover a name for the record.</p><div class="t10cols pcols">${pc('In the Senate',P.sen)}${pc('In the governors\' mansions',P.gov)}</div>`; })()
+      : t10Side==='prio' ? (()=>{ const P=prioItems(), pc=(h,l)=>`<div style="grid-row:1 / span 11"><h3 class="colh">${h}</h3><ol class="t10list t10roll plist">${l.map((it,i)=>prioCard(it,i+1)).join('')}</ol></div>`;
+          return `<p class="pnote">Ranked by how many Democrats who won in 2026 campaigned on each. Hover or open a list to see who.</p><div class="t10cols t10even pcols">${pc('In the Senate',P.sen)}${pc('In the governors\' mansions',P.gov)}</div>`; })()
       : cols(I.unlikelySen, I.unlikelySt)}
     `;
 }
