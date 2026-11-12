@@ -1,12 +1,15 @@
 """Getting Stuff Done: the five-rung ladder.
 Talk (10) -> Commit (25) -> Spend (50) -> Deliver (100) per issue, at the highest rung the evidence reaches
-(leans earn half). Ladder = average points over the issues counted, on an absolute 0-100 scale (no curve).
+(leans earn half). Ladder = average points over the issues counted, scaled so the best record in the group sets 90
+(so nobody reaches 100; the most anyone can total is 92.5).
 Total = 75% ladder + 25% Steward (home-state rankings). Built from the site's own research notes."""
 import re
 from ladder_own import OWN, DEF_OWN
 
 PTS = {'Talk': 10, 'Commit': 25, 'Spend': 50, 'Deliver': 100}
 W_LADDER, W_STEWARD, LEAN = .75, .25, .5
+# the best ladder record in each group sets 90, not 100: high marks for the leaders, room to improve for everyone
+CEIL = 90
 RUNGS = ['Deliver', 'Spend', 'Commit', 'Talk']
 
 DELIVER = (r"(?<!co-)\bsign(ed|s|ing)\b(?![^;]{0,45}\b(statement|letter|pledge|petition|onto|discharge|executive order)s?\b)"
@@ -120,13 +123,13 @@ def build(d):
                     stew=stew, scored=scored, new=new, stype=stype, dv=dv or [])
 
     def finish(rows):
-        mx = 100   # absolute scale: the ladder is the average points per issue, not curved to the group's top scorer
+        mx = max(r['raw'] for r in rows.values() if r['scored']) or 1
         for r in rows.values():
-            r['ladder'] = r['raw'] / mx * 100
+            r['ladder'] = r['raw'] / mx * CEIL
             # no Steward measure (no current office): the ladder carries the whole score
             wl, ws = (W_LADDER, W_STEWARD) if r['stew'] is not None else (1.0, 0.0)
             # each rung's share of the 0-100 total, so the bar adds up to the score
-            r['part'] = {R: wl * (r['per'][R] / r['den'] if r['den'] else 0) / mx * 100 for R in RUNGS}
+            r['part'] = {R: wl * (r['per'][R] / r['den'] if r['den'] else 0) / mx * CEIL for R in RUNGS}
             r['part']['Steward'] = ws * (r['stew'] or 0)
             r['raw_total'] = wl * r['ladder'] + ws * (r['stew'] or 0) if r['scored'] else None
             r['tot'] = round(r['raw_total']) if r['scored'] else None
