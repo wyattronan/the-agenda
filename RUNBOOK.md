@@ -47,3 +47,6 @@ Steps:
 5. Approve by merging the pull request on GitHub. Netlify then deploys to production.
 6. Reject by closing the pull request. Nothing goes live.
 7. To change a single item, comment on the pull request. The next run reads those comments first.
+8. The run's summary is emailed to Wyatt with three links: preview the site, review and approve (merge), and deny (close).
+9. A reminder task runs Tuesdays at 11:43 a.m. Central. It emails only if a weekly/ or daily/ pull request is still open.
+10. If a weekly pull request is still open the next Sunday, the new run folds its changes in and closes the old one, so only one ever waits.
