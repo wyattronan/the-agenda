@@ -243,9 +243,9 @@
   "who": "Bernie Sanders",
   "key": "sch",
   "new_stance": "Oppose",
-  "evidence": "'I will not be supporting Chuck to be reelected as the Democratic leader' (Nov 10, 2026, Capitol news conference).",
-  "url": "https://www.cbsnews.com/news/bernie-sanders-chuck-schumer-democratic-leader-senate/",
-  "why": "Schumer leadership update, Nov 10 2026"
+  "evidence": "'I will not be supporting Chuck to be reelected as the Democratic leader' (Nov 10, 2026); endorsed Chris Van Hollen to lead Senate Democrats (X post, Nov 12, 2026).",
+  "url": "https://www.foxnews.com/politics/sen-bernie-sanders-supports-chris-van-hollen-bid-challenge-schumer-senate-democratic-leader-post",
+  "why": "Daily update, Nov 13 2026"
  },
  {
   "who": "Elissa Slotkin",
@@ -258,10 +258,10 @@
  {
   "who": "Chris Van Hollen",
   "key": "sch",
-  "new_stance": "Lean oppose",
-  "evidence": "'There should be no coronation of the next Democratic leader' (Nov 7, 2026); declined to back Schumer and urged colleagues to withhold commitments. AP reports he is considering a run (Nov 10).",
-  "url": "https://wtop.com/us-politics/2026/11/bernie-sanders-wont-support-schumer-for-senate-democratic-leader-saying-its-time-for-change",
-  "why": "Schumer leadership update, Nov 10 2026"
+  "new_stance": "Oppose",
+  "evidence": "Running against Schumer for majority leader: 'we need new leadership' (statement on X, Nov 12, 2026). Earlier said there should be 'no coronation' (Nov 7).",
+  "url": "https://www.cbsnews.com/news/chris-van-hollen-challenge-chuck-schumer-senate-majority-leader-democrat/",
+  "why": "Daily update, Nov 13 2026"
  },
  {
   "who": "Elizabeth Warren",
@@ -370,9 +370,17 @@
  {
   "who": "Angus King",
   "key": "sch",
-  "new_stance": "Lean support",
-  "evidence": "Dismissed the push to replace Schumer as pressure tactics: 'You don't fire the manager after you've won the World Series' (NY1, Nov 11, 2026). No explicit vote commitment.",
-  "url": "https://ny1.com/nyc/all-boroughs/politics/2026/11/12/schumer-won-big--but-is-his-leadership-role-jeopardy-",
-  "why": "Daily update, Nov 12 2026"
+  "new_stance": "Support",
+  "evidence": "Endorsed Schumer in a statement after Van Hollen launched his challenge, praising his plan for the new majority (CNN, Nov 12, 2026). Earlier: 'You don't fire the manager after you've won the World Series' (Nov 11).",
+  "url": "https://www.cnn.com/2026/11/12/politics/chris-van-hollen-chuck-schumer-senate-democratic-leader",
+  "why": "Daily update, Nov 13 2026"
+ },
+ {
+  "who": "Brian Schatz",
+  "key": "sch",
+  "new_stance": "Support",
+  "evidence": "'I endorse Senator Schumer for leader and will be voting for him in the caucus election' (statement, Nov 12, 2026, after Van Hollen's announcement).",
+  "url": "https://www.foxnews.com/politics/van-hollen-challenges-schumer-senate-leadership-after-democratic-election-sweep",
+  "why": "Daily update, Nov 13 2026"
  }
 ]
