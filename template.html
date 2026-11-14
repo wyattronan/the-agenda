@@ -4962,6 +4962,32 @@ g.usg text.lt tspan.ls{font-size:12px;letter-spacing:0}
 .tab .hb-art.a-gloss text.dxw{display:inline}
 @media (prefers-reduced-motion:reduce){.a-gsd .cvr,.a-gloss *{animation:none!important}}
 </style>
+<style id="home-fit-css">
+/* ===== home: centered blurb, all seven sections above the fold ===== */
+#home .homedek{text-align:center;margin:16px auto 22px;max-width:64ch}
+#home .homegrid{display:grid;grid-template-columns:repeat(8,minmax(0,1fr));gap:14px}
+#home .homegrid>.homebtn{grid-column:span 2;min-height:0}
+#home .homegrid>.homebtn:nth-child(5){grid-column:2/span 2}
+#home .homebtn[href]{padding:13px 40px 14px 16px;row-gap:6px}
+#home .homebtn[href]>span{font-size:13px;line-height:1.42}
+@media (max-width:999px){
+  #home .homebtn[href]>span{display:none}
+  #home .homebtn[href]{grid-template-columns:1fr;justify-items:center;text-align:center;padding:14px 12px 13px;row-gap:8px}
+  #home .homebtn .hb-art{grid-column:1;grid-row:1}
+  #home .homebtn b{grid-column:1;grid-row:2;font-size:13px}
+  #home .homebtn i{top:10px;right:10px;font-size:16px}
+}
+@media (max-width:640px){
+  #home .homedek{font-size:16px;margin:12px auto 16px}
+  #home .homegrid{grid-template-columns:repeat(4,minmax(0,1fr));gap:10px}
+  #home .homegrid>.homebtn:nth-child(5){grid-column:span 2}
+  #home .homegrid>.homebtn:nth-child(7){grid-column:2/span 2}
+  #home .homebtn[href]{padding:11px 8px 10px;row-gap:6px}
+  #home .homebtn .hb-art{width:64px;height:31px}
+  #home .homebtn b{font-size:11.5px;letter-spacing:.1em}
+  #home .homebtn i{display:none}
+}
+</style>
 <style id="lsbar-css">.a-gsd .mb{stroke:var(--ink);stroke-width:2.6;stroke-linecap:round}
 .a-gsd .mg{transform-box:fill-box;transform-origin:bottom;animation:hbmeterIn .42s cubic-bezier(.3,.8,.3,1) both;animation-delay:calc(.25s + var(--i)*.17s)}
 .a-gsd .mg.lt{fill:#CFC4A8}.a-gsd .mg.lc{fill:#D9C56A}.a-gsd .mg.ls{fill:#7FAAB2}.a-gsd .mg.ld{fill:#6E9E80}
