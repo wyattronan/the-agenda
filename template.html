@@ -2237,7 +2237,7 @@ h1 .hl{background-image:linear-gradient(transparent 36%,var(--hl) 36%,var(--hl) 
   <div class="gl-head">
     <div>
       <h2>Glossary</h2>
-      <p>The rules and terms behind the whip counts, maps and projections. Search for a term, or tap a section to show only that section. Hover over a term to see its details and light up the terms connected to it, or click it to open everything in a window.</p>
+      <p>Become an expert in <mark>the mechanics of elections and legislation</mark> so you can be <mark>the best advocate possible</mark>. See how terms are <mark>tied to each other</mark> and how they <mark>unfold throughout the process</mark>.</p>
       <div class="gl-key" aria-label="Key">
         <b>Key</b>
         <span><i class="gl-sw" aria-hidden="true"></i>Connected term</span>
@@ -4901,6 +4901,84 @@ window.GLOSSARY_LINKS = [
   [dlg, flow].forEach(d=>d.addEventListener('close', ()=>{ if(!dlg.open && !flow.open && lastFocus) lastFocus.focus({preventScroll:true}); }));
 })();
 </script>
+<!-- ===== Highlighter: narrow band through the middle of the words; no orphaned words ===== -->
+<style id="hl-css">
+:root{--hlw:17%}
+.hlt,.gph .hlt,mark,.homedek mark,.gpdek mark,.lede mark,dialog.about .theory mark,.gl-pop strong,.gl-dlg strong,h1 .hl{background-image:linear-gradient(transparent calc(var(--hc,60%) - var(--hlw)),var(--hl) calc(var(--hc,60%) - var(--hlw)),var(--hl) calc(var(--hc,60%) + var(--hlw)),transparent calc(var(--hc,60%) + var(--hlw)))!important}
+h1 .hl{--hlw:14%}
+p,li,.gl-def,.homebtn>span,.ttk li span,.gptl li span{text-wrap:pretty}
+h1:has(.hlt),h2:has(.hlt),h3:has(.hlt),h4:has(.hlt){text-wrap:balance}
+</style>
+<script>
+(function(){
+  const SEL = 'mark, .hlt, h1 .hl, .gl-pop strong, .gl-dlg strong';
+  const cv = document.createElement('canvas').getContext('2d'), cache = {};
+  // Where the middle of the letters sits inside the highlighted box, as a % from the top.
+  function center(el) {
+    const cs = getComputedStyle(el);
+    const caps = cs.textTransform === 'uppercase' || !/[a-z]/.test(el.textContent);
+    const key = [cs.fontStyle, cs.fontWeight, cs.fontFamily, caps].join('|');
+    if (cache[key] == null) {
+      cv.font = `${cs.fontStyle} ${cs.fontWeight} 100px ${cs.fontFamily}`;
+      const m = cv.measureText('Hx'), A = m.fontBoundingBoxAscent, D = m.fontBoundingBoxDescent;
+      const H = cv.measureText('H').actualBoundingBoxAscent, x = cv.measureText('x').actualBoundingBoxAscent;
+      const h = caps ? H : x * .4 + H * .6;   // mixed case: centred between the lowercase and capital heights, so the band reads as through the word
+      cache[key] = A && D ? (100 * (A - h / 2) / (A + D)).toFixed(1) + '%' : '';
+    }
+    if (cache[key]) el.style.setProperty('--hc', cache[key]);
+  }
+  // Never let a single word of a highlight wrap alone: short phrases stay whole, longer ones keep 3 words at each end.
+  function glue(el) {
+    if (el.dataset.glued) return; el.dataset.glued = '1';
+    const head = el.matches('.hlt') && !el.closest('p');
+    const tw = document.createTreeWalker(el, NodeFilter.SHOW_TEXT), nodes = [];
+    while (tw.nextNode()) nodes.push(tw.currentNode);
+    const parts = nodes.map(n => n.textContent.split(/([ \t\n\r]+)/));
+    let words = 0; parts.forEach(p => p.forEach(t => { if (t && !/^[ \t\n\r]+$/.test(t)) words++; }));
+    let seen = 0;
+    parts.forEach((p, k) => {
+      const out = p.map(t => {
+        if (!t) return t;
+        if (!/^[ \t\n\r]+$/.test(t)) { seen++; return t; }
+        if (seen === 0 || seen === words) return t;          // leading/trailing space
+        const gap = seen - 1;                                // gap after word number `seen`
+        const keep = head ? gap === words - 2                // headlines: just keep the last two words together
+          : words <= 3 ? true
+          : words === 4 ? gap !== 1                          // 4 words: only an even 2 + 2 split
+          : words === 5 ? (gap === 0 || gap === 3)           // 5 words: 2 + 3 or 3 + 2
+          : (gap < 2 || gap >= words - 3);                   // longer: at least 3 words at each end
+        return keep ? '\u00A0' : t;
+      }).join('');
+      if (out !== nodes[k].textContent) nodes[k].textContent = out;
+    });
+  }
+  // Safety net after layout: if a highlight still leaves one word alone on a line, join that word to its neighbour.
+  const rg = document.createRange();
+  function lone(el) {
+    for (let pass = 0; pass < 3; pass++) {
+      if (el.getClientRects().length < 2) return;
+      const toks = [], tw = document.createTreeWalker(el, NodeFilter.SHOW_TEXT); let n;
+      while ((n = tw.nextNode())) { const re = /[^ \t\n\r ]+/g; let m; while ((m = re.exec(n.data))) {
+        rg.setStart(n, m.index); rg.setEnd(n, m.index + m[0].length); const r = rg.getClientRects();
+        toks.push({ n, end: m.index + m[0].length, top: Math.round((r[r.length - 1] || rg.getBoundingClientRect()).top) }); } }
+      const lines = []; toks.forEach((k, i) => { if (!i || Math.abs(k.top - toks[i - 1].top) > 3) lines.push([]); lines[lines.length - 1].push(i); });
+      const li = lines.findIndex(l => l.length === 1); if (li < 0 || lines.length < 2) return;
+      const i = lines[li][0], j = li < lines.length - 1 ? i : i - 1;   // join with the next word, or the previous one on the last line
+      const k = toks[j]; const tn = k.n, at = k.end;
+      if (tn.data[at] === ' ' || tn.data[at] === '\n') tn.data = tn.data.slice(0, at) + ' ' + tn.data.slice(at + 1);
+      else return;                                                    // the gap is in another text node; leave it
+    }
+  }
+  const fix = root => (root.matches && root.matches(SEL) ? [root] : []).concat([...(root.querySelectorAll ? root.querySelectorAll(SEL) : [])]).forEach(el => { glue(el); center(el); lone(el); });
+  const run = () => fix(document.body);
+  run(); if (document.fonts) document.fonts.ready.then(() => { Object.keys(cache).forEach(k => delete cache[k]); document.querySelectorAll(SEL).forEach(center); });
+  new MutationObserver(ms => ms.forEach(m => m.addedNodes.forEach(n => { if (n.nodeType === 1) fix(n); }))).observe(document.body, { childList: true, subtree: true });
+  window.agendaHighlight = fix;
+  let rt; window.addEventListener('resize', () => { clearTimeout(rt); rt = setTimeout(() => document.querySelectorAll('.view.on ' + SEL.split(', ').join(', .view.on ')).forEach(lone), 200); });
+  if (document.fonts) document.fonts.ready.then(() => document.querySelectorAll(SEL).forEach(lone));
+})();
+</script>
+
 <!-- ===== Explainer pop-up: each tab's intro blurb, shown on a first visit and from the "Show Explainer" button ===== -->
 <style id="explainer-css">
 .xbar{display:flex;justify-content:flex-end;align-items:center;margin:-2px 0 12px}
@@ -4911,25 +4989,25 @@ window.GLOSSARY_LINKS = [
 .xbtn:hover,.xbtn:focus-visible{background:var(--hl-soft);border-color:var(--ink)}
 .xbtn svg{width:14px;height:14px;flex:none}
 .gphead:not(:has(> :not(.sr-only))){display:none}
-#xpl{position:fixed;inset:0;z-index:200;display:grid;place-items:center;padding:8vh 7vw;background:rgba(18,23,36,.8);-webkit-backdrop-filter:blur(3px);backdrop-filter:blur(3px);opacity:0;transition:opacity .35s ease;cursor:pointer}
+#xpl{position:fixed;inset:0;z-index:200;display:grid;grid-template-columns:minmax(0,1000px);justify-content:center;place-items:center;padding:8vh 7vw;background:rgba(18,23,36,.8);-webkit-backdrop-filter:blur(3px);backdrop-filter:blur(3px);opacity:0;transition:opacity .35s ease;cursor:pointer}
 #xpl.on{opacity:1}
 #xpl[hidden]{display:none}
 #xpl .xin{width:100%;max-width:1000px;transform:translateY(18px);transition:transform .6s cubic-bezier(.2,.8,.25,1)}
 #xpl.on .xin{transform:none}
 #xpl .xk{display:flex;align-items:center;gap:14px;font:500 11px var(--caps);letter-spacing:.28em;text-transform:uppercase;color:var(--hl);margin:0 0 22px}
 #xpl .xk::after{content:"";flex:1;height:1px;background:color-mix(in srgb,var(--hl) 40%,transparent)}
-#xpl .xtx{font-family:var(--body);font-weight:500;font-size:clamp(23px,3.2vw,42px);line-height:1.42;color:#F4EFE2;margin:0}
+#xpl .xtx{overflow-wrap:break-word;text-wrap:pretty;font-family:var(--body);font-weight:500;font-size:clamp(23px,3.2vw,42px);line-height:1.42;color:#F4EFE2;margin:0}
 #xpl .xtx b{font-weight:700}
-#xpl .w{display:inline-block;opacity:0;transform:translateY(.4em);transition:opacity .4s ease,transform .5s cubic-bezier(.2,.8,.25,1)}
-#xpl .w.in{opacity:1;transform:none}
-#xpl .xtx mark{color:#F4EFE2;font-weight:700;padding:0 .08em;background:linear-gradient(transparent 36%,color-mix(in srgb,var(--hl) 30%,transparent) 36%,color-mix(in srgb,var(--hl) 30%,transparent) 78%,transparent 78%) no-repeat 0 0/0% 100%!important;animation:none!important;transition:background-size .75s cubic-bezier(.3,.08,.45,1),color .35s ease .15s}
-#xpl .xtx mark.lit{background-size:100% 100%!important;color:var(--hl)}
+#xpl .w{opacity:0;transition:opacity .45s ease}
+#xpl .w.in{opacity:1}
+#xpl .xtx mark{--xb:color-mix(in srgb,var(--hl) 46%,#1C2438);color:inherit;font-weight:700;padding:0 .08em;background:linear-gradient(transparent calc(var(--hc,60%) - var(--hlw)),var(--xb) calc(var(--hc,60%) - var(--hlw)),var(--xb) calc(var(--hc,60%) + var(--hlw)),transparent calc(var(--hc,60%) + var(--hlw))) no-repeat 0 0/0% 100%!important;animation:none!important;transition:background-size .75s cubic-bezier(.3,.08,.45,1)}
+#xpl .xtx mark.lit{background-size:100% 100%!important}
 #xpl .xh{margin-top:30px;font:500 10.5px var(--caps);letter-spacing:.2em;text-transform:uppercase;color:color-mix(in srgb,#F4EFE2 55%,transparent);opacity:0;transition:opacity .5s ease}
 #xpl .xh.in{opacity:1}
 #xpl .xx{position:fixed;top:18px;right:20px;width:42px;height:42px;border-radius:50%;border:1px solid color-mix(in srgb,#F4EFE2 40%,transparent);background:none;color:#F4EFE2;font-size:24px;line-height:1;cursor:pointer}
 #xpl .xx:hover,#xpl .xx:focus-visible{background:color-mix(in srgb,#F4EFE2 12%,transparent)}
 #xpl .xx:focus{outline:none}#xpl .xx:focus-visible{outline:2px solid var(--hl);outline-offset:2px}
-@media (max-width:640px){#xpl{padding:12vh 7vw 8vh;place-items:start center}#xpl .xtx{font-size:clamp(21px,6.2vw,28px)}.gl-head .xbar{position:static;justify-content:flex-start;margin:0 0 8px}}
+@media (max-width:640px){#xpl{padding:11vh 6vw 8vh;place-items:start stretch}#xpl .xtx{font-size:clamp(18px,5vw,24px)}.gl-head .xbar{position:static;justify-content:flex-start;margin:0 0 8px}}
 @media (prefers-reduced-motion:reduce){#xpl,#xpl .xin,#xpl .w,#xpl .xtx mark,#xpl .xh{transition:none!important}}
 </style>
 <script>
@@ -4980,9 +5058,9 @@ window.GLOSSARY_LINKS = [
     const nodes = []; while (walker.nextNode()) nodes.push(walker.currentNode);
     nodes.forEach(n => {
       const frag = document.createDocumentFragment();
-      n.textContent.split(/(\s+)/).forEach(part => {
+      n.textContent.split(/([ \t\n\r]+)/).forEach(part => {
         if (!part) return;
-        if (/^\s+$/.test(part)) { frag.appendChild(document.createTextNode(' ')); return; }
+        if (/^[ \t\n\r]+$/.test(part)) { frag.appendChild(document.createTextNode(' ')); return; }
         const s = document.createElement('span'); s.className = 'w'; s.textContent = part; frag.appendChild(s);
       });
       n.parentNode.replaceChild(frag, n);
@@ -4998,6 +5076,7 @@ window.GLOSSARY_LINKS = [
     ov.querySelector('.xk').textContent = tab ? [...tab.childNodes].filter(n => n.nodeType === 3).map(n => n.textContent).join('').trim() : '';
     tx.innerHTML = X[id];
     tx.querySelectorAll('mark').forEach(m => m.removeAttribute('style'));
+    if (window.agendaHighlight) window.agendaHighlight(tx);
     const ws = words(tx); hint.classList.remove('in');
     lastFocus = document.activeElement;
     ov.hidden = false; document.documentElement.style.overflow = 'hidden';
