@@ -4155,7 +4155,7 @@ function prioCard(it,i){
   const grp = (cls, label, list, title) => list.length ? `<details class="pmore ${cls}"><summary data-tiph="${esc(tip(title, list))}">${label} <span class="pc">· ${list.length}</span><i aria-hidden="true">▾</i></summary><div class="pchips">${list.map(chip).join('')}</div></details>` : '';
   const counts = `<b>${it.nc}</b> of ${it.of} Democratic ${race} winners in 2026 campaigned on it. <b>${it.n}</b> of ${it.ofAll} Democratic ${it.side==='sen'?'senators':'governors'} back it in all.`;
   return `<li style="--i:${i-1}"><span class="t10n">${i}</span><h3><button data-t10="${it.side}:${it.k}" title="Open this ${it.side==='sen'?'measure':'priority'}">${esc(it.title)}</button><span class="t10k ${it.side==='sen'?'sen':'st'}">${it.side==='sen'?'Senate':'Governors'}</span></h3>${(L=>`<div class="plrow"><button type="button" class="plike ${L.lv}" data-t10="${it.side}:${it.k}" data-tiph="${esc(L.tip)}"><i aria-hidden="true"></i>${L.lab}${L.sub?`<small>${L.sub}</small>`:''}</button></div>`)(prioLike(it.side,it.k))}<p>${counts}</p>
-    ${lead.length?`<div class="pran"><span class="pran-h">Ran on it · ${lead.length}</span><div class="pchips">${lead.map(chip).join('')}</div></div>`:''}</li>`;
+    ${lead.length?`<details class="pran"><summary data-tiph="${esc(tip(`Ran on it in 2026 · ${lead.length}`, lead))}">Ran on <span class="pc">· ${lead.length}</span><i aria-hidden="true">▾</i></summary><div class="pchips">${lead.map(chip).join('')}</div></details>`:''}</li>`;
 }
 function t10Card(it,i){ return `<li style="--i:${i-1}"><span class="t10n">${i}</span><h3><button data-t10="${it.side}:${it.k}" title="Open this measure">${esc(it.title)}</button><span class="t10k ${it.side==='sen'?'sen':'st'}">${it.tag}</span>${topTag(it.side,it.k)}</h3><p>${it.body}</p>${it.extra}</li>`; }
 function renderTop10(){
@@ -4170,7 +4170,7 @@ function renderTop10(){
     ${t10Side==='likely' ? `<ol class="t10list t10one t10roll">${I.likely.map((it,i)=>t10Card(it,i+1)).join('')}</ol>`
       : t10Side==='verge' ? cols(I.verge, I.vergeSt)
       : t10Side==='prio' ? (()=>{ const P=prioItems(), pc=(h,l)=>`<div style="grid-row:1 / span 11"><h3 class="colh">${h}</h3><ol class="t10list t10roll plist">${l.map((it,i)=>prioCard(it,i+1)).join('')}</ol></div>`;
-          return `<p class="pnote">Ranked by how many Democrats who won in 2026 campaigned on each. Hover over a name to see what they said.</p><div class="t10cols t10even pcols">${pc('In the Senate',P.sen)}${pc('In the governors\' mansions',P.gov)}</div>`; })()
+          return `<p class="pnote">Ranked by how many Democrats who won in 2026 campaigned on each. Open “Ran on” to see who.</p><div class="t10cols t10even pcols">${pc('In the Senate',P.sen)}${pc('In the governors\' mansions',P.gov)}</div>`; })()
       : cols(I.unlikelySen, I.unlikelySt)}
     `;
 }
@@ -5022,8 +5022,13 @@ g.usg text.lt tspan.ls{font-size:12px;letter-spacing:0}
 .gacts .rtog{font:500 10px var(--caps)!important;letter-spacing:.08em!important;padding:4px 9px 4px 10px!important}
 /* ===== Top 10: who ran on it, shown directly ===== */
 .pran{margin-top:10px}
-.pran-h{display:block;font:500 10px var(--caps);letter-spacing:.16em;text-transform:uppercase;color:var(--muted);margin-bottom:6px}
-.pran .pchips{display:flex;flex-wrap:wrap;gap:5px;margin:0}
+.pran>summary{list-style:none;display:inline-flex;align-items:center;gap:6px;cursor:pointer;font:500 10px var(--caps);letter-spacing:.14em;text-transform:uppercase;color:var(--ink);background:#DCE3F0;border:1px solid #8DA0CC;border-radius:5px;padding:6px 10px 5px;transition:background-color .15s}
+.pran>summary::-webkit-details-marker{display:none}
+.pran>summary:hover,.pran>summary:focus-visible{background:#CAD3E8}
+.pran>summary .pc{font-weight:700}
+.pran>summary i{font-style:normal;font-size:9px;transition:transform .2s}
+.pran[open]>summary i{transform:rotate(180deg)}
+.pran .pchips{display:flex;flex-wrap:wrap;gap:5px;margin:8px 0 0}
 </style>
 <style id="lsbar-css">.a-gsd .mb{stroke:var(--ink);stroke-width:2.6;stroke-linecap:round}
 .a-gsd .mg{transform-box:fill-box;transform-origin:bottom;animation:hbmeterIn .42s cubic-bezier(.3,.8,.3,1) both;animation-delay:calc(.25s + var(--i)*.17s)}
