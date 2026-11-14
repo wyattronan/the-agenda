@@ -2098,8 +2098,9 @@ h1 .hl{background-image:linear-gradient(transparent 36%,var(--hl) 36%,var(--hl) 
 <div class="wrap">
 <header>
   <button class="aboutbtn" id="aboutbtn" aria-haspopup="dialog">About</button>
-  <div class="eyebrow">American Democracy in 2027 and Beyond</div>
+  <div class="eyebrow">Democracy In Action</div>
   <h1><a href="#home" aria-label="The Agenda, home"><span class="star">★</span><span class="hl">The Agenda</span><span class="star">★</span></a></h1>
+  <div class="tagline">Your One-Stop Civic Engagement Tool</div>
 
 </header>
 <nav class="tabs" id="tabs" role="tablist">
@@ -3508,7 +3509,22 @@ function renderLadder(){
   $('gsdlad').innerHTML=`<div class="ladhd"><span class="k">How the score works</span>
     <h3 class="ladh">The ladder: from talk to delivery</h3>
     <p class="ladp">Each issue earns the credit of the <mark>highest rung</mark> it reaches, and the bands grow with their weight. Stewardship tops it off at ${sp}% of the score: state report cards for governors, defense votes for Congress.</p></div>
-    ${ladSvg(500,240,'d')}${ladSvg(340,260,'m')}`;
+    ${ladBar()}`;
+  const bar=$('gsdlad').querySelector('.lsbar');
+  if(bar){ if(!('IntersectionObserver' in window) || matchMedia('(prefers-reduced-motion: reduce)').matches) bar.classList.add('play');
+    else { const io=new IntersectionObserver(es=>es.forEach(e=>{ if(e.isIntersecting){ bar.classList.add('play'); io.disconnect(); } }),{threshold:.4}); io.observe(bar); } }
+}
+// the score as one progress bar: each segment as wide as its rung's share, labels and descriptions underneath
+function ladBar(){
+  const mix=LAD.mix, tot=LR.reduce((a,R)=>a+mix[R],0), pc=R=>Math.round(mix[R]/tot*100), sp=Math.round(LAD.w[1]*100);
+  const st=LSTEPS(), full=st.at(-1)[2], n=st.length;
+  const tip=R=> R==='Steward' ? TT(`Steward · ${sp}% of the score`, TKV([['Governors','State report cards'],['Members of Congress','Votes defending current law']]), 'Report cards: health, cost of living, kids, voting. Defense votes: the 2025 Medicaid cuts and ACA credits.', TFT('No current office, no Steward: ladder only'))
+    : TT(`${R} · ${LPTS[R]}% of an issue's credit`, esc(LEX[R])+'.', TKV([['Positions stopping here',`${pc(R)}%`]]), R==='Deliver'?'':TFT('Half credit for a lean'));
+  const segs=st.map(([R,p0,p1],i)=>`<span class="lsbs ${LCLS[R]}" tabindex="0" style="--w:${(p1-p0)/full*100}%;--i:${i}" data-tiph="${esc(tip(R))}"><span class="sr-only">${R}</span></span>`).join('');
+  const ticks=st.map(([R,p0,p1,big],i)=>`<span class="lsbt" style="--x:${p1/full*100}%;--i:${i}">${big}</span>`).join('');
+  const lead=st.map(([R,p0,p1],i)=>{ const sx=(p0+p1)/2/full*100, cx=(i+.5)*100/n; return `<path class="${LCLS[R]}" style="--i:${i}" d="M${sx.toFixed(2)} 0V7L${cx.toFixed(2)} 24" vector-effect="non-scaling-stroke"/>`; }).join('');
+  const cols=st.map(([R],i)=>`<div class="lsbl ${LCLS[R]}" style="--i:${i}" data-tiph="${esc(tip(R))}"><b>${R}</b><span>${LSHORT[R]}</span></div>`).join('');
+  return `<div class="lsbar" role="img" aria-label="${st.map(([R,,,big])=>`${R} ${big}`).join(', ')}"><div class="lsbticks" aria-hidden="true">${ticks}</div><div class="lsbtrack">${segs}</div><svg class="lsblead" viewBox="0 0 100 24" preserveAspectRatio="none" aria-hidden="true">${lead}</svg><div class="lsbcols">${cols}</div></div>`;
 }
 function renderGsdTop(){
   const scored=rows=>rows.filter(r=>r.tot!=null).sort((a,b)=>b.tot-a.tot||rawOf(b)-rawOf(a));
@@ -4901,6 +4917,54 @@ window.GLOSSARY_LINKS = [
   [dlg, flow].forEach(d=>d.addEventListener('close', ()=>{ if(!dlg.open && !flow.open && lastFocus) lastFocus.focus({preventScroll:true}); }));
 })();
 </script>
+<style id="masthead-css">
+/* ===== centered masthead + sans map labels ===== */
+header{text-align:center;padding-top:30px}
+header .eyebrow{display:block;max-width:none;margin:0 auto;font-size:11px;letter-spacing:.32em}
+header h1{display:block;margin:10px auto 0}
+header .tagline{margin:10px 0 0;font:500 11px var(--caps);letter-spacing:.24em;text-transform:uppercase;color:var(--muted)}
+header::after{margin-top:20px}
+.aboutbtn,.xbtn.xhead{top:18px;height:34px;box-sizing:border-box;display:inline-flex;align-items:center;gap:8px;padding:0 13px;line-height:1;border-radius:5px;border:1px solid var(--rule-bold);background:transparent;font:500 10.5px var(--caps);letter-spacing:.16em;text-transform:uppercase;color:var(--ink);box-shadow:none}
+.xbtn.xhead{right:84px}
+header ~ * , .view{text-align:left}
+@media (max-width:640px){header{padding-top:56px}header .eyebrow{max-width:none;font-size:10px;letter-spacing:.2em;white-space:nowrap}.aboutbtn,.xbtn.xhead{height:30px;padding:0 10px;font-size:10px;letter-spacing:.1em}.xbtn.xhead{right:74px}header .tagline{font-size:9.5px;letter-spacing:.16em}.aboutbtn,.xbtn.xhead{top:8px}}
+header .aboutbtn,header .xbtn.xhead{position:absolute;top:22px!important;margin:0!important;transform:none!important}
+@media (max-width:640px){header .aboutbtn,header .xbtn.xhead{top:10px!important}}
+g.usg text.lt,g.sst text.slt{font-family:var(--caps)!important;font-weight:600!important;letter-spacing:.05em}
+</style>
+<style id="lsbar-css">
+/* ===== Getting Stuff Done: the score as a progress bar ===== */
+.lsbar{--lt:#EEE7D6;--lt-c:#B5A98A;--lc:var(--hl-soft);--lc-c:#C4AD4A;--ls:#D3E6E9;--ls-c:var(--teal);--ld:#D4EADB;--ld-c:var(--law);--lr-c:#5D6FA0;margin:14px 0 2px}
+.lsbticks{position:relative;height:30px}
+.lsbt{position:absolute;left:var(--x);bottom:0;transform:translateX(-100%);padding:0 6px 6px 0;font:600 15px var(--display);line-height:1;white-space:nowrap;opacity:0}
+.lsbt::after{content:"";position:absolute;right:-1px;top:0;height:76px;border-right:1px solid var(--ink)}
+.lsbtrack{display:flex;height:46px;border-bottom:1px solid var(--rule-bold)}
+.lsbs{flex:0 0 var(--w);position:relative;transform-origin:left;transform:scaleX(0);cursor:help;outline:none}
+.lsbs::after{content:"";position:absolute;left:0;right:0;bottom:0;height:4px}
+.lsbs.lt{background:var(--lt)}.lsbs.lt::after{background:var(--lt-c)}
+.lsbs.lc{background:var(--lc)}.lsbs.lc::after{background:var(--lc-c)}
+.lsbs.ls{background:var(--ls)}.lsbs.ls::after{background:var(--ls-c)}
+.lsbs.ld{background:var(--ld)}.lsbs.ld::after{background:var(--ld-c)}
+.lsbs.lr{background:repeating-linear-gradient(45deg,#DFE1E8 0 4px,#C9CEDD 4px 5.5px)}.lsbs.lr::after{background:var(--lr-c)}
+.lsbs:hover,.lsbs:focus-visible{filter:brightness(.96)}
+.lsbs:focus-visible{box-shadow:inset 0 0 0 2px var(--ink)}
+.lsblead{display:block;width:100%;height:26px;overflow:visible}
+.lsblead path{fill:none;stroke-width:1.2;opacity:0}
+.lsblead .lt{stroke:var(--lt-c)}.lsblead .lc{stroke:var(--lc-c)}.lsblead .ls{stroke:var(--ls-c)}.lsblead .ld{stroke:var(--ld-c)}.lsblead .lr{stroke:var(--lr-c)}
+.lsbcols{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:14px}
+.lsbl{border-top:3px solid var(--c,var(--ink));padding-top:8px;text-align:center;opacity:0;cursor:help}
+.lsbl.lt{--c:var(--lt-c)}.lsbl.lc{--c:var(--lc-c)}.lsbl.ls{--c:var(--ls-c)}.lsbl.ld{--c:var(--ld-c)}.lsbl.lr{--c:var(--lr-c)}
+.lsbl b{display:block;font:500 11px var(--caps);letter-spacing:.16em;text-transform:uppercase;color:var(--ink)}
+.lsbl span{display:block;margin-top:4px;font-size:12.5px;line-height:1.4;color:var(--muted);text-wrap:balance}
+.lsbar.play .lsbs{animation:lsbgrow .42s cubic-bezier(.4,.1,.3,1) both;animation-delay:calc(.1s + var(--i)*.32s)}
+.lsbar.play .lsbl,.lsbar.play .lsblead path{animation:lsbfade .45s ease both;animation-delay:calc(.3s + var(--i)*.32s)}
+.lsbar.play .lsbt{animation:lsbfadet .45s ease both;animation-delay:calc(.3s + var(--i)*.32s)}
+@keyframes lsbgrow{from{transform:scaleX(0)}to{transform:none}}
+@keyframes lsbfade{from{opacity:0;transform:translateY(4px)}to{opacity:1;transform:none}}
+@keyframes lsbfadet{from{opacity:0}to{opacity:1}}
+@media (prefers-reduced-motion:reduce){.lsbs{transform:none}.lsbt,.lsbl,.lsblead path{opacity:1}.lsbar.play *{animation:none!important}}
+@media (max-width:640px){.lsbtrack{height:38px}.lsbt{font-size:13px;padding:0 4px 5px 0}.lsbt::after{height:68px}.lsblead{display:none}.lsbcols{grid-template-columns:1fr;gap:10px;margin-top:14px}.lsbl{text-align:left;border-top:0;border-left:3px solid var(--c);padding:1px 0 1px 10px}}
+</style>
 <!-- ===== Three Things to Know: a full-box "3" cover that reveals the takeaways ===== -->
 <style id="ttkcover-css">
 .ttkbox,.gptl{position:relative}
