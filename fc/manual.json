@@ -382,5 +382,61 @@
   "evidence": "'I endorse Senator Schumer for leader and will be voting for him in the caucus election' (statement, Nov 12, 2026, after Van Hollen's announcement).",
   "url": "https://www.foxnews.com/politics/van-hollen-challenges-schumer-senate-leadership-after-democratic-election-sweep",
   "why": "Daily update, Nov 13 2026"
+ },
+ {
+  "who": "Jack Reed",
+  "key": "sch",
+  "new_stance": "Support",
+  "evidence": "Will support Schumer as leader because 'Chuck is incredibly effective at the job' (press release, Nov 12, 2026).",
+  "url": "https://www.reed.senate.gov/news/releases/reed-backs-schumer-for-majority-leader",
+  "why": "Daily update, Nov 14 2026"
+ },
+ {
+  "who": "Tammy Baldwin",
+  "key": "sch",
+  "new_stance": "Support",
+  "evidence": "Backs Schumer for majority leader: he 'earned his position as Majority Leader next Congress' (statement, Nov 12, 2026).",
+  "url": "https://www.baldwin.senate.gov/news/press-releases/-senator-baldwin-statement-on-election-for-senate-leadership",
+  "why": "Daily update, Nov 14 2026"
+ },
+ {
+  "who": "Richard Blumenthal",
+  "key": "sch",
+  "new_stance": "Support",
+  "evidence": "'I continue to support Senator Schumer for Majority Leader' (statement, Nov 12, 2026). Earlier said he planned to back him (Nov 9).",
+  "url": "https://www.blumenthal.senate.gov/newsroom/press/release/blumenthal-statement-on-senate-democratic-leadership",
+  "why": "Daily update, Nov 14 2026"
+ },
+ {
+  "who": "Jacky Rosen",
+  "key": "sch",
+  "new_stance": "Support",
+  "evidence": "Endorsed Schumer after Van Hollen's challenge, saying he has 'the experience and the fight' to keep leading (X post, Nov 12, 2026, via ABC News Nov 13).",
+  "url": "https://abcnews.com/Politics/schumer-van-hollen-facing-off-senate-majority-leader/story?id=138111386",
+  "why": "Daily update, Nov 14 2026"
+ },
+ {
+  "who": "Catherine Cortez Masto",
+  "key": "sch",
+  "new_stance": "Support",
+  "evidence": "'I will be supporting him as our Democratic leader' (post after Van Hollen's challenge, Nov 12, 2026, via ABC News Nov 13).",
+  "url": "https://abcnews.com/Politics/schumer-van-hollen-facing-off-senate-majority-leader/story?id=138111386",
+  "why": "Daily update, Nov 14 2026"
+ },
+ {
+  "who": "Jeff Merkley",
+  "key": "sch",
+  "new_stance": "Oppose",
+  "evidence": "Backs Chris Van Hollen over Schumer: 'He has my full support for Majority Leader' (press release, Nov 13, 2026).",
+  "url": "https://www.merkley.senate.gov/merkley-puts-his-support-behind-van-hollen-for-senate-majority-leader/",
+  "why": "Daily update, Nov 14 2026"
+ },
+ {
+  "who": "Peggy Flanagan",
+  "key": "sch",
+  "new_stance": "Oppose",
+  "evidence": "Endorsed Chris Van Hollen for leader, calling him the 'leader and fighter' needed (X post, Nov 13, 2026). Earlier: 'It is time for new leadership' (Nov 4).",
+  "url": "https://abcnews.com/Politics/schumer-van-hollen-facing-off-senate-majority-leader/story?id=138111386",
+  "why": "Daily update, Nov 14 2026"
  }
 ]
