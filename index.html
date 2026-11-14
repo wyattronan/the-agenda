@@ -2236,7 +2236,7 @@ h1 .hl{background-image:linear-gradient(transparent 36%,var(--hl) 36%,var(--hl) 
 <section class="view gl-wrap" id="gloss" role="tabpanel" aria-labelledby="tab-gloss">
   <div class="gl-head">
     <div>
-      <h2>Glossary</h2>
+      <h2 class="sr-only">Glossary</h2>
       <p>Become an expert in <mark>the mechanics of elections and legislation</mark> so you can be <mark>the best advocate possible</mark>. See how terms are <mark>tied to each other</mark> and how they <mark>unfold throughout the process</mark>.</p>
       <div class="gl-key" aria-label="Key">
         <b>Key</b>
@@ -2350,7 +2350,7 @@ const ST = store.get(LS) || {};
 
 /* ---------- shared: "Three things to know" box ---------- */
 function ttkHtml(items, foot){
-  return `<div class="ttk"><span class="ttk3" aria-hidden="true">3</span><div class="lbl">Three things to know</div><ol>${items.map(([h,b],i)=>`<li style="--d:${i}"><b>${esc(h)}</b><span>${esc(b)}</span></li>`).join('')}</ol>${foot?`<p class="ttkf">${foot}</p>`:''}</div>`;
+  return `<div class="ttkcover"><span class="tc-k">Three things to know</span><svg class="tc-3" viewBox="0 0 100 100" aria-hidden="true"><circle cx="50" cy="50" r="44" pathLength="1"/><text class="tc-n" x="50" y="51">3</text></svg><button type="button" class="ttkreveal">See The 3 Topline Takeaways <span aria-hidden="true">→</span></button></div><div class="ttk"><span class="ttk3" aria-hidden="true">3</span><div class="lbl">Three things to know</div><ol>${items.map(([h,b],i)=>`<li style="--d:${i}"><b>${esc(h)}</b><span>${esc(b)}</span></li>`).join('')}</ol>${foot?`<p class="ttkf">${foot}</p>`:''}</div>`;
 }
 // stamp-and-slide intro: plays the first time a box is drawn and again each time its tab is opened (re-renders after that stay still)
 function ttkAnim(box){ const t=box&&box.querySelector('.ttk'); if(!t || matchMedia('(prefers-reduced-motion: reduce)').matches) return; t.classList.remove('anim'); void t.offsetWidth; t.classList.add('anim'); }
@@ -4901,6 +4901,36 @@ window.GLOSSARY_LINKS = [
   [dlg, flow].forEach(d=>d.addEventListener('close', ()=>{ if(!dlg.open && !flow.open && lastFocus) lastFocus.focus({preventScroll:true}); }));
 })();
 </script>
+<!-- ===== Three Things to Know: a full-box "3" cover that reveals the takeaways ===== -->
+<style id="ttkcover-css">
+.ttkbox,.gptl{position:relative}
+:is(.ttkbox,.gptl,.ttkmode):not(.ttk-open)>.ttk{visibility:hidden}
+:is(.ttkbox,.gptl,.ttkmode).ttk-open>.ttkcover{display:none}
+.ttkcover{position:absolute;inset:0;z-index:2;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:14px;padding:20px 18px 22px;border-radius:inherit;cursor:pointer;text-align:center}
+.ttkcover .tc-k{font:500 10.5px var(--caps);letter-spacing:.26em;text-transform:uppercase;color:var(--hl)}
+.ttkcover .tc-3{flex:1 1 0;min-height:90px;width:100%;max-height:360px;overflow:visible}
+.ttkcover .tc-3 circle{fill:none;stroke:var(--hl);stroke-width:1.4;stroke-dasharray:1.05 1.05;stroke-dashoffset:0;animation:tcdraw 1.2s cubic-bezier(.4,.1,.3,1) .15s both}
+.ttkcover .tc-3 .tc-n{font-family:var(--poster);font-style:italic;font-weight:400;font-size:64px;fill:var(--hl);text-anchor:middle;dominant-baseline:central;transform-box:fill-box;transform-origin:center;animation:tcstamp .55s cubic-bezier(.2,.9,.25,1.15) .7s both;transition:transform .35s cubic-bezier(.2,.9,.25,1.2)}
+.ttkcover:hover .tc-3 .tc-n{transform:rotate(-8deg) scale(1.06)}
+.ttkcover .ttkreveal{display:inline-flex;align-items:center;gap:10px;background:var(--hl-soft);color:var(--ink);border:0;border-radius:5px;padding:11px 18px 10px;font:500 11px var(--caps);letter-spacing:.14em;text-transform:uppercase;cursor:pointer;transition:background-color .15s}
+.ttkcover .ttkreveal span{transition:transform .18s}
+.ttkcover:hover .ttkreveal,.ttkcover .ttkreveal:focus-visible{background:var(--hl)}
+.ttkcover:hover .ttkreveal span{transform:translateX(3px)}
+.ttkcover .ttkreveal:focus-visible{outline:2px solid var(--hl);outline-offset:3px}
+.ttk:focus{outline:none}
+@keyframes tcdraw{from{stroke-dashoffset:1.05}to{stroke-dashoffset:0}}
+@keyframes tcstamp{0%{opacity:0;transform:scale(1.6) rotate(-14deg)}100%{opacity:1;transform:none}}
+@media (prefers-reduced-motion:reduce){.ttkcover *{animation:none!important;transition:none!important}}
+</style>
+<script>
+document.addEventListener('click', e => {
+  const c = e.target.closest('.ttkcover'); if (!c) return;
+  const box = c.parentElement; box.classList.add('ttk-open');
+  if (typeof ttkAnim === 'function') ttkAnim(box);
+  const t = box.querySelector('.ttk'); if (t) { t.tabIndex = -1; t.focus({ preventScroll: true }); }
+});
+</script>
+
 <!-- ===== Highlighter: narrow band through the middle of the words; no orphaned words ===== -->
 <style id="hl-css">
 :root{--hlw:17%}
@@ -5009,6 +5039,10 @@ h1:has(.hlt),h2:has(.hlt),h3:has(.hlt),h4:has(.hlt){text-wrap:balance}
 #xpl .xx:focus{outline:none}#xpl .xx:focus-visible{outline:2px solid var(--hl);outline-offset:2px}
 @media (max-width:640px){#xpl{padding:11vh 6vw 8vh;place-items:start stretch}#xpl .xtx{font-size:clamp(18px,5vw,24px)}.gl-head .xbar{position:static;justify-content:flex-start;margin:0 0 8px}}
 @media (prefers-reduced-motion:reduce){#xpl,#xpl .xin,#xpl .w,#xpl .xtx mark,#xpl .xh{transition:none!important}}
+
+.xbtn.xhead{position:absolute;top:26px;right:96px;padding:8px 13px;font-size:10.5px;background:transparent}
+.xbtn.xhead[hidden]{display:none}
+@media (max-width:640px){.xbtn.xhead{top:8px;right:80px;padding:6px 9px;font-size:10px;letter-spacing:.1em}.xbtn.xhead svg{display:none}header .eyebrow{max-width:calc(100% - 210px)}}
 </style>
 <script>
 (function(){
@@ -5035,14 +5069,12 @@ h1:has(.hlt),h2:has(.hlt),h3:has(.hlt),h4:has(.hlt){text-wrap:balance}
 
   // 2) "Show Explainer" button at the top right of each tab.
   const icon = '<svg viewBox="0 0 16 16" aria-hidden="true"><rect x="1.5" y="2.5" width="13" height="11" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.3"/><path d="M4 6h8M4 8.5h8M4 11h5" stroke="currentColor" stroke-width="1.3" stroke-linecap="round"/></svg>';
-  Object.keys(X).forEach(id => {
-    const v = document.getElementById(id);
-    const bar = document.createElement('div'); bar.className = 'xbar';
-    bar.innerHTML = `<button type="button" class="xbtn" aria-haspopup="dialog">${icon}Show Explainer</button>`;
-    bar.firstChild.addEventListener('click', () => open(id));
-    const glh = v.querySelector('.gl-head > div');
-    if (glh) glh.appendChild(bar); else v.insertBefore(bar, v.firstElementChild);
-  });
+  const hb = document.createElement('button');
+  hb.type = 'button'; hb.className = 'xbtn xhead'; hb.id = 'xplbtn'; hb.setAttribute('aria-haspopup', 'dialog'); hb.hidden = true;
+  hb.innerHTML = `${icon}Show Explainer`;
+  const about = document.getElementById('aboutbtn');
+  if (about) about.parentNode.insertBefore(hb, about); else document.body.prepend(hb);
+  hb.addEventListener('click', () => { const id = current(); if (id) open(id); });
 
   // 3) The pop-up.
   const ov = document.createElement('div');
@@ -5108,9 +5140,10 @@ h1:has(.hlt),h2:has(.hlt),h3:has(.hlt),h4:has(.hlt){text-wrap:balance}
     if (!id || !X[id] || seen[id] || pending) return;
     pending = setTimeout(() => { pending = null; if (current() === id && !seen[id]) open(id); }, 420);
   };
+  const syncBtn = () => { const id = current(); hb.hidden = !(id && X[id]); };
   const orig = window.show;
-  window.show = function (name) { const r = orig.apply(this, arguments); if (!ov.hidden) close(); firstVisit(); return r; };
-  firstVisit();
+  window.show = function (name) { const r = orig.apply(this, arguments); if (!ov.hidden) close(); syncBtn(); firstVisit(); return r; };
+  syncBtn(); firstVisit();
 })();
 </script>
 
