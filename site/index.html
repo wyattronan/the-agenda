@@ -4845,6 +4845,26 @@ window.GLOSSARY_LINKS = [
     show(dlg);
   };
 
+  /* If / Then shows only the 1-2 most relevant terms on each side (hover highlighting still shows every connection) */
+  const FLOW_TOP = {
+    "Cloture":{in:["Motion to Proceed","Whip Count"],out:["Floor Vote (Final Passage)","Filibuster"]},
+    "Discharge Petition":{in:["Hastert Rule","Whip Count"]},
+    "Electoral College":{in:["Floor Fight (Contested Convention)","Governing Trifecta"]},
+    "Filibuster":{in:["Floor Debate","Cloture"]},
+    "Floor Vote (Final Passage)":{in:["Cloture","Legislative Amendment"],out:["Conference Committee","Veto & Veto Override"]},
+    "Gerrymandering & Redistricting":{in:["Governing Trifecta","Ballot Initiative & Referendum"]},
+    "Governing Trifecta":{in:["Special Elections: Senate vs. House","Supermajority"],out:["Reconciliation","Gerrymandering & Redistricting"]},
+    "Legislative Amendment":{in:["Rules Committee (Special Rule)","Floor Debate"]},
+    "Markup":{out:["Rules Committee (Special Rule)","Motion to Proceed"]},
+    "Open/Closed Primary":{in:["Party Registration","Caucus (Nominating)"]},
+    "Reconciliation":{out:["Byrd Rule","Floor Vote (Final Passage)"]},
+    "Right of First Recognition":{out:["Motion to Proceed","Legislative Amendment"]},
+    "Supermajority":{in:["Cloture","Veto & Veto Override"]},
+    "Whip Count":{out:["Cloture","Discharge Petition"]}
+  };
+  const pick = (x, side) => { const want = (FLOW_TOP[x.t]||{})[side], list = side==='in' ? x.ins : x.outs;
+    if (want) return want.map(t => list.find(l => l.o.t === t)).filter(Boolean);
+    return list.slice(0, 2); };
   /* If / Then flow: what leads into this term -> the term -> what it leads to */
   const map = document.getElementById('gl-flow-map');
   let current = null;
@@ -4853,14 +4873,15 @@ window.GLOSSARY_LINKS = [
     document.getElementById('gl-flow-t').textContent = `How ${x.t} connects`;
     let n = 0;
     const node = (l, side) => { n++; return `<button class="gl-node" type="button" data-go="${l.o.i}" data-side="${side}" data-n="${n}"><span class="gl-num">${n}</span><b>${esc(l.o.t)}</b><small>${side==='in'?'':'→ '}${esc(l.lab)}${side==='in'?' →':''}</small></button>`; };
-    const ins = x.ins.map(l=>node(l,'in')).join('');
-    const outs = x.outs.map(l=>node(l,'out')).join('');
+    const xin = pick(x,'in'), xout = pick(x,'out');
+    const ins = xin.map(l=>node(l,'in')).join('');
+    const outs = xout.map(l=>node(l,'out')).join('');
     map.innerHTML = `
       <svg class="gl-arrows" aria-hidden="true"><defs><marker id="gl-ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="currentColor" stroke="none"/></marker></defs></svg>
       <div class="gl-col gl-col-in"><span class="gl-col-h">Leads into it</span>${ins || '<div class="gl-start"><b>Starting point</b><small>Nothing in this glossary has to happen first.</small></div>'}</div>
       <div class="gl-center" id="gl-flow-c"><b>${esc(x.t)}</b><small>${esc(x.pos)}</small><span class="gl-ck">How it plays out</span><p class="gl-cdef">${rich(x.flow || x.d)}</p></div>
       <div class="gl-col gl-col-out"><span class="gl-col-h">What it leads to</span>${outs}${x.end ? `<div class="gl-node gl-end" data-side="out"><b>End of the road</b><small>${esc(x.end)}</small></div>` : ''}${!outs && !x.end ? '<span class="gl-empty">Nothing in this glossary follows directly from it.</span>' : ''}</div>`;
-    const steps = [...x.ins.map(l=>({a:l.o.t, b:x.t, txt:l.txt})), ...x.outs.map(l=>({a:x.t, b:l.o.t, txt:l.txt}))];
+    const steps = [...xin.map(l=>({a:l.o.t, b:x.t, txt:l.txt})), ...xout.map(l=>({a:x.t, b:l.o.t, txt:l.txt}))];
     document.getElementById('gl-flow-steps').innerHTML = steps.map((s,k)=>`<li><i>${k+1}</i><span><b>${esc(s.a)} → ${esc(s.b)}.</b> ${esc(s.txt)}</span></li>`).join('');
     document.getElementById('gl-flow-foot').innerHTML = `<button class="gl-linkbtn" type="button" data-def="${x.i}">Read the full definition of ${esc(x.t)}</button>`;
     show(flow);
