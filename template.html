@@ -1581,7 +1581,7 @@ dialog.gtodlg{max-width:640px}
 .gl-if svg{width:10px;height:8px;flex:none}
 .gl-if:hover,.gl-if:focus-visible{transform:translateY(-1px);box-shadow:0 2px 0 var(--gl-ink)}
 .gl-if:focus-visible{outline:3px solid var(--gl-ink);outline-offset:2px}
-.gl-if::after{content:attr(data-tip);position:absolute;left:50%;margin-left:-60px;bottom:calc(100% + 7px);width:max-content;max-width:200px;white-space:normal;background:var(--gl-ink);color:var(--gl-surface);font-family:var(--gl-body);font-weight:600;font-size:12px;letter-spacing:0;text-transform:none;line-height:1.35;padding:6px 9px;border-radius:7px;opacity:0;visibility:hidden;transform:translateY(3px);transition:opacity .12s,transform .12s,visibility 0s .12s;pointer-events:none}
+.gl-if::after{content:attr(data-gltip);position:absolute;left:50%;margin-left:-60px;bottom:calc(100% + 7px);width:max-content;max-width:200px;white-space:normal;background:var(--gl-ink);color:var(--gl-surface);font-family:var(--gl-body);font-weight:600;font-size:12px;letter-spacing:0;text-transform:none;line-height:1.35;padding:6px 9px;border-radius:7px;opacity:0;visibility:hidden;transform:translateY(3px);transition:opacity .12s,transform .12s,visibility 0s .12s;pointer-events:none}
 .gl-if:hover::after,.gl-if:focus-visible::after{opacity:1;visibility:visible;transform:none;transition:opacity .12s,transform .12s}
 /* hover details */
 .gl-pop{position:absolute;left:0;right:0;top:calc(100% + 6px);z-index:30;background:var(--gl-surface);border:1.5px solid var(--gl-ink);border-radius:10px;padding:12px 14px;box-shadow:0 10px 28px rgba(0,0,0,.16);font-size:13.5px;line-height:1.45;opacity:0;visibility:hidden;transform:translateY(-4px);transition:opacity .14s,transform .14s,visibility 0s .14s;pointer-events:none}
@@ -4683,7 +4683,7 @@ window.GLOSSARY_LINKS = [
     A.outs.push({o:B, lab, txt}); B.ins.push({o:A, lab, txt}); });
   const linked = x => new Set([...x.ins, ...x.outs].map(l=>l.o.i));
   const posLine = x => `<b>${esc(x.pos)}</b>${x.forms?` · ${esc(x.forms)}`:''}`;
-  const ifBtn = (x, extra='') => `<button class="gl-if${extra}" type="button" data-if="${x.i}" data-tip="See how this term is connected to others." aria-label="If / Then: see how ${esc(x.t)} is connected to other terms">If / Then ${arrowIcon}</button>`;
+  const ifBtn = (x, extra='') => `<button class="gl-if${extra}" type="button" data-if="${x.i}" data-gltip="See how this term is connected to others." aria-label="If / Then: see how ${esc(x.t)} is connected to other terms">If / Then ${arrowIcon}</button>`;
   const rowsTable = x => x.rows ? `<table class="gl-rows"><thead><tr>${(x.rowsHead||['','','']).map(h=>`<th>${esc(h)}</th>`).join('')}</tr></thead><tbody>${x.rows.map(r=>`<tr><td>${esc(r[0])}</td><td>${esc(r[1])}</td><td>${esc(r[2])}</td></tr>`).join('')}</tbody></table>` : '';
   const rowsList = x => x.rows ? `<ul class="gl-rowlist">${x.rows.map(r=>`<li><b>${esc(r[0])}:</b> ${esc(r[1])}. ${esc(r[2])}.</li>`).join('')}</ul>` : '';
   const detail = (x, compact) => `${compact ? rowsList(x) : rowsTable(x)}<p><span class="gl-k">In practice</span>${rich(x.p)}</p>${x.c?`<p><span class="gl-k">Can it change?</span>${esc(x.c)}</p>`:''}${x.n?`<p class="gl-note">${esc(x.n)}</p>`:''}`;
