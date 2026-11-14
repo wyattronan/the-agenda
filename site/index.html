@@ -4205,7 +4205,7 @@ function show(name){
   if(name!=='home') $(name).querySelectorAll('.ttk').forEach(t=>ttkAnim(t.parentElement));
   { const tb=$('tab-'+name), nav=tb&&tb.parentElement; if(nav && nav.scrollWidth>nav.clientWidth) nav.scrollLeft = tb.offsetLeft - nav.offsetLeft - 12; }
   if(name==='home'){ window.scrollTo(0,0); return; }
-  requestAnimationFrame(()=>{ const y=$('tabs').getBoundingClientRect().top + window.scrollY - 10; window.scrollTo({top:Math.max(0,y), behavior:'instant'}); });
+  requestAnimationFrame(()=>{ const hd=document.querySelector('.wrap > header'), y=(hd? hd.getBoundingClientRect().bottom : $('tabs').getBoundingClientRect().top) + window.scrollY - 10; window.scrollTo({top:Math.max(0,y), behavior:'instant'}); }); // measured from the masthead: the menu is sticky, so its own position moves with the page
 }
 TABS.forEach(t=>{ $('tab-'+t).onclick=()=>{ location.hash=t; show(t); }; });
 window.addEventListener('hashchange',()=>show(location.hash.slice(1)));
@@ -5027,6 +5027,19 @@ g.usg text.lt tspan.ls{font-size:12px;letter-spacing:0}
 @media (max-width:640px){.lsbtrack{height:38px}.lsbt{font-size:12px;padding:0 3px 5px 0}.lsbt::after{height:66px}.lsbl b{font-size:8.5px;letter-spacing:.03em}
   .lsbl.lt,.lsbl.lc,.lsbl.ls{overflow:visible}.lsbl.lt b{text-align:left}.lsbl.lc b{position:relative;top:14px}}
 </style>
+<script id="scroll-rules">
+/* Scrolling rule: every section change lands on the section menu; the only exception is the home page / title, which goes to the very top. */
+if ('scrollRestoration' in history) history.scrollRestoration = 'manual';
+(function(){
+  const home = document.querySelector('.wrap > header h1 a');
+  if (home) home.addEventListener('click', e => {
+    e.preventDefault();
+    if (location.hash !== '#home') history.pushState(null, '', '#home');
+    if (typeof show === 'function') show('home');
+    window.scrollTo({ top: 0, behavior: 'instant' });
+  });
+})();
+</script>
 <!-- ===== Three Things to Know: a full-box "3" cover that reveals the takeaways ===== -->
 <style id="ttkcover-css">
 .ttkbox,.gptl{position:relative}
