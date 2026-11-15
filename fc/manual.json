@@ -494,5 +494,768 @@
   "evidence": "His In This Together PAC gave $950,000, and his Heckbent nonprofit $400,000, to Kentuckians for Public Education, which defeated the Amendment 2 voucher measure (2024).",
   "url": "https://hoptownchronicle.org/beshears-super-pac-raised-almost-2-6-million-in-first-year-won-some-lost-some/",
   "why": "PAC spending review, Nov 15 2026 (Heckbent $400K: https://lpm.org/news/2024-10-24/spending-on-ky-education-referendum-tops-14m-fueled-by-dark-money-yass-teacher-unions)"
+ },
+ {
+  "who": "Lisa Murkowski",
+  "key": "fil",
+  "new_stance": "Oppose",
+  "evidence": "Told reporters (Aug 2026) she has no interest in blowing up the legislative filibuster, amid Trump's push to end it for the SAVE America Act; on Meadows' 'not yet' list (Mar 2026).",
+  "url": "https://rollcall.com/2026/08/03/the-not-so-secret-filibuster-society/",
+  "why": "Weekly review, Nov 15 2026 (source dated 2026-08-03)"
+ },
+ {
+  "who": "Jim Risch",
+  "key": "fil",
+  "new_stance": "Mixed",
+  "evidence": "Named on Mark Meadows' Mar 2026 list of 25 GOP senators backing a talking/standing filibuster to pass the SAVE America Act; no statement found on full elimination.",
+  "url": "https://www.thegatewaypundit.com/2026/03/heres-list-mark-meadows-reveals-which-senators-back/",
+  "why": "Weekly review, Nov 15 2026 (source dated 2026-03-10)"
+ },
+ {
+  "who": "Jim Banks",
+  "key": "fil",
+  "new_stance": "Lean support",
+  "evidence": "Agreed with Trump's call to end the filibuster on Newsmax (Nov 2025), saying he backs reform 'under certain circumstances'; on Meadows' talking-filibuster list for the SAVE America Act (Mar 2026).",
+  "url": "https://www.banks.senate.gov/?p=11093",
+  "why": "Weekly review, Nov 15 2026 (source dated 2025-11-06)"
+ },
+ {
+  "who": "Josh Hawley",
+  "key": "fil",
+  "new_stance": "Mixed",
+  "evidence": "On Meadows' talking-filibuster list (Mar 2026), Hawley urged making Democrats hold the floor on the SAVE America Act (Mar 2026); in Nov 2025 he said he'd drop it to restore SNAP.",
+  "url": "https://heartlandernews.com/2026/03/12/put-them-to-it-gop-should-force-dems-to-talk-themselves-out-on-senate-floor-to-pass-save-america-act-hawley-argues/",
+  "why": "Weekly review, Nov 15 2026 (source dated 2026-03-12)"
+ },
+ {
+  "who": "Eric Schmitt",
+  "key": "fil",
+  "new_stance": "Mixed",
+  "evidence": "Named on Mark Meadows' Mar 2026 list of 25 GOP senators backing a talking/standing filibuster to pass the SAVE America Act; noncommittal on full elimination (Nov 2025).",
+  "url": "https://www.thegatewaypundit.com/2026/03/heres-list-mark-meadows-reveals-which-senators-back/",
+  "why": "Weekly review, Nov 15 2026 (source dated 2026-03-10)"
+ },
+ {
+  "who": "Ted Budd",
+  "key": "fil",
+  "new_stance": "Mixed",
+  "evidence": "Named on Mark Meadows' Mar 2026 list of 25 GOP senators backing a talking/standing filibuster to pass the SAVE America Act; noncommittal on ending it outright (Nov 2025).",
+  "url": "https://www.thegatewaypundit.com/2026/03/heres-list-mark-meadows-reveals-which-senators-back/",
+  "why": "Weekly review, Nov 15 2026 (source dated 2026-03-10)"
+ },
+ {
+  "who": "Dave McCormick",
+  "key": "fil",
+  "new_stance": "Oppose",
+  "evidence": "Said he'd oppose ending the filibuster except for something 'really big', citing fears of DC/PR statehood and Court-stacking (Jul 2026); had earlier backed a talking filibuster (Mar 2026).",
+  "url": "https://justthenews.com/nation/states/center-square/fetterman-says-he-was-wrong-filibuster-supports-keeping-it-intact",
+  "why": "Weekly review, Nov 15 2026 (source dated 2026-07-27)"
+ },
+ {
+  "who": "Lisa Murkowski",
+  "key": "medicaid",
+  "new_stance": "Mixed",
+  "evidence": "Voted for Wyden's amendment to strike the $880B Medicaid-cut instruction (Apr 2025, failed 49–50), then cast the deciding vote for the OBBBA (Jul 1 2025).",
+  "url": "https://www.aha.org/news/headline/2025-04-04-senate-expected-vote-revised-budget-resolution-over-weekend",
+  "why": "Weekly review, Nov 15 2026 (source dated 2025-04-05)"
+ },
+ {
+  "who": "Lisa Murkowski",
+  "key": "roe",
+  "new_stance": "Mixed",
+  "evidence": "Not a WHPA cosponsor; co-led the bipartisan Reproductive Freedom for All Act with Collins, Kaine and Sinema to codify Roe's core protections (Feb 2023).",
+  "url": "https://www.murkowski.senate.gov/press/release/kaine-murkowski-sinema-and-collins-reintroduce-legislation-to-protect-reproductive-freedom-",
+  "why": "Weekly review, Nov 15 2026 (source dated 2023-02-17)"
+ },
+ {
+  "who": "Lisa Murkowski",
+  "key": "wage",
+  "new_stance": "Oppose",
+  "evidence": "Voted against waiving the budget point of order on Sanders' $15 minimum-wage amendment (Mar 5 2021, failed 42–58; every Republican voted no).",
+  "url": "https://www.democrats.senate.gov/2021/03/09/roll-call-vote-motion-to-waive-the-budget-re-sanders-amdt-972",
+  "why": "Weekly review, Nov 15 2026 (source dated 2021-03-05)"
+ },
+ {
+  "who": "Lisa Murkowski",
+  "key": "gerry",
+  "new_stance": "Lean oppose",
+  "evidence": "Voted against cloture on the Freedom to Vote: John R. Lewis Act (H.R. 5746), which included a partisan-gerrymandering ban, and against the rules change (Jan 19 2022).",
+  "url": "https://www.murkowski.senate.gov/press/release/murkowski-urges-bipartisan-approach_for-voting-rights-election-reforms-senate-rule-changes",
+  "why": "Weekly review, Nov 15 2026 (source dated 2022-01-20)"
+ },
+ {
+  "who": "Lisa Murkowski",
+  "key": "imm",
+  "new_stance": "Lean support",
+  "evidence": "One of 14 Republicans voting for the 2013 Gang of Eight comprehensive immigration bill, S.744 (Jun 27 2013, 68–32).",
+  "url": "https://www.murkowski.senate.gov/press/release/murkowski-votes-for-immigration-reform",
+  "why": "Weekly review, Nov 15 2026 (source dated 2013-06-27)"
+ },
+ {
+  "who": "Mark Kelly",
+  "key": "fil",
+  "new_stance": "Lean support",
+  "evidence": "Voted Jan 19 2022 for the rules change to pass voting-rights legislation by simple majority, breaking with Sinema; no 2025-26 statement found.",
+  "url": "https://www.washingtontimes.com/news/2022/jan/19/sen-mark-kelly-backs-doomed-vote-to-change-filibus/",
+  "why": "Weekly review, Nov 15 2026 (source dated 2022-01-19)"
+ },
+ {
+  "who": "Mark Kelly",
+  "key": "priorauth",
+  "new_stance": "Support",
+  "evidence": "Cosponsor, Improving Seniors' Timely Access to Care Act S.1816 (May 20 2025), streamlining Medicare Advantage prior authorization.",
+  "url": "https://www.congress.gov/119/bills/s1816/BILLS-119s1816is.htm",
+  "why": "Weekly review, Nov 15 2026 (source dated 2025-05-20)"
+ },
+ {
+  "who": "Mark Kelly",
+  "key": "wage",
+  "new_stance": "Support",
+  "evidence": "Original cosponsor, Sanders' Raise the Wage Act of 2025, S.1332, raising the minimum to $17 over five years (Apr 8 2025).",
+  "url": "https://www.govinfo.gov/content/pkg/BILLS-119s1332is/html/BILLS-119s1332is.htm",
+  "why": "Weekly review, Nov 15 2026 (source dated 2025-04-08)"
+ },
+ {
+  "who": "Mark Kelly",
+  "key": "gerry",
+  "new_stance": "Lean support",
+  "evidence": "Voted to advance the Freedom to Vote: John R. Lewis Act, which included a ban on partisan gerrymandering (Jan 19 2022, failed 49–51).",
+  "url": "https://www.opb.org/article/2022/01/19/voting-bill-blocked-by-gop-filibuster-dems-try-rules-change/",
+  "why": "Weekly review, Nov 15 2026 (source dated 2022-01-19)"
+ },
+ {
+  "who": "Elissa Slotkin",
+  "key": "wage",
+  "new_stance": "Support",
+  "evidence": "Added as a cosponsor of the Raise the Wage Act of 2025, S.1332 ($17 minimum wage), after its Apr 2025 introduction.",
+  "url": "https://fastdemocracy.com/bill-search/us/119/bills/USB00094080",
+  "why": "Weekly review, Nov 15 2026 (source dated 2025)"
+ },
+ {
+  "who": "Josh Hawley",
+  "key": "medicaid",
+  "new_stance": "Mixed",
+  "evidence": "Voted for the OBBBA (Jul 1 2025), pledging to keep working to reverse future Medicaid cuts; two weeks later filed a bill to repeal its hospital Medicaid funding cuts (Jul 2025).",
+  "url": "https://www.kcur.org/health/2025-07-01/big-beautiful-bill-medicaid-cuts-hawley-schmitt-missouri",
+  "why": "Weekly review, Nov 15 2026 (source dated 2025-07-01)"
+ },
+ {
+  "who": "Josh Hawley",
+  "key": "priorauth",
+  "new_stance": "Support",
+  "evidence": "Cosponsor, Improving Seniors' Timely Access to Care Act S.1816 (May 20 2025), streamlining Medicare Advantage prior authorization.",
+  "url": "https://www.congress.gov/119/bills/s1816/BILLS-119s1816is.htm",
+  "why": "Weekly review, Nov 15 2026 (source dated 2025-05-20)"
+ },
+ {
+  "who": "Josh Hawley",
+  "key": "datactr",
+  "new_stance": "Support",
+  "evidence": "Introduced the bipartisan GRID Act with Blumenthal, requiring new data centers to bring their own power (Feb 2026); voted with all Republicans to advance the Ratepayer Protection Act (Sep 30 2026).",
+  "url": "https://www.hawley.senate.gov/hawley-blumenthal-introduce-bill-to-prevent-data-centers-from-increasing-electricity-costs-for-americans",
+  "why": "Weekly review, Nov 15 2026 (source dated 2026-02-11)"
+ },
+ {
+  "who": "Josh Hawley",
+  "key": "wage",
+  "new_stance": "Support",
+  "evidence": "Sponsor, Higher Wages for American Workers Act S.2013 with Welch: $15 minimum wage, then indexed to inflation (Jun 10 2025).",
+  "url": "https://www.govinfo.gov/content/pkg/BILLS-119s2013is/html/BILLS-119s2013is.htm",
+  "why": "Weekly review, Nov 15 2026 (source dated 2025-06-10)"
+ },
+ {
+  "who": "Josh Hawley",
+  "key": "stock",
+  "new_stance": "Support",
+  "evidence": "Sponsor, HONEST Act S.1498, banning stock trading by members of Congress, the President and VP; Homeland Security committee advanced it 8–7 (Jul 30 2025).",
+  "url": "https://www.hsgac.senate.gov/media/reps/homeland-security-and-governmental-affairs-committee-advances-legislation-and-nominations",
+  "why": "Weekly review, Nov 15 2026 (source dated 2025-07-30)"
+ },
+ {
+  "who": "Mark Kelly",
+  "key": "roe",
+  "new_stance": "Support",
+  "evidence": "Original cosponsor of Baldwin's Women's Health Protection Act of 2025, S.2150, introduced Jun 24 2025 with 47 senators, the whole Democratic caucus.",
+  "url": "https://www.govinfo.gov/content/pkg/BILLS-119s2150is/html/BILLS-119s2150is.htm",
+  "why": "Weekly review, Nov 15 2026 (source dated 2025-06-24)"
+ },
+ {
+  "who": "Mark Kelly",
+  "key": "imm",
+  "new_stance": "Support",
+  "evidence": "Spoke at Rep. Salazar's Apr 22 2026 Dignity Act event, urging bipartisan reform with work permits and legal status for long-term, law-abiding immigrants.",
+  "url": "https://www.kgun9.com/news/local-news/mark-kelly-urges-bipartisan-immigration-fix-pushes-work-permits-and-legal-status-for-long-term-immigrants",
+  "why": "Weekly review, Nov 15 2026 (source dated 2026-04-22)"
+ },
+ {
+  "who": "Brian Schatz",
+  "key": "ice",
+  "new_stance": "Support",
+  "evidence": "Backed caucus ICE-reform demands ('masks off, body cameras on', judicial warrants) during the 2026 DHS shutdown; voted NO on $70B ICE/CBP reconciliation (Jun 5 2026).",
+  "url": "https://www.schatz.senate.gov/news/press-releases/schatz-instead-of-making-life-more-affordable-for-americans-republicans-are-spending-70-billion-on-rogue-agency",
+  "why": "Weekly review, Nov 15 2026 (source dated 2026-04-22)"
+ },
+ {
+  "who": "Mazie Hirono",
+  "key": "childcare",
+  "new_stance": "Support",
+  "evidence": "Original cosponsor of Murray's Child Care for Working Families Act, S.2295 (Jul 15 2025), which caps family child-care costs at 7% of income.",
+  "url": "https://www.govinfo.gov/app/details/BILLS-119s2295is",
+  "why": "Weekly review, Nov 15 2026 (source dated 2025-07-15)"
+ },
+ {
+  "who": "Tammy Duckworth",
+  "key": "drugneg",
+  "new_stance": "Support",
+  "evidence": "Cosponsor, SMART Prices Act S.1836 (May 2025), requiring Medicare to negotiate prices on at least 50 drugs a year, up from 15-20 under the IRA.",
+  "url": "https://www.duckworth.senate.gov/news/press-releases/duckworth-durbin-help-introduce-legislation-to-expand-medicare-drug-price-negotiation-and-lower-costs-for-americans",
+  "why": "Weekly review, Nov 15 2026 (source dated 2025-05-23)"
+ },
+ {
+  "who": "Chris Van Hollen",
+  "key": "m4a",
+  "new_stance": "Support",
+  "evidence": "Cosponsor of Sanders' Medicare for All Act S.1506 (Nov 2025); said in Oct 2026 the country needs a Medicare-for-All-type solution (Politico, via Common Dreams).",
+  "url": "https://www.commondreams.org/news/van-hollen-medicare-for-all",
+  "why": "Weekly review, Nov 15 2026 (source dated 2025-12-02)"
+ },
+ {
+  "who": "Chris Van Hollen",
+  "key": "datactr",
+  "new_stance": "Support",
+  "evidence": "Sponsor, Power for the People Act S.3682 (Jan 15 2026): assigns data-center-driven grid upgrade costs to data centers and prioritizes those bringing their own clean power.",
+  "url": "https://www.govinfo.gov/content/pkg/BILLS-119s3682is/html/BILLS-119s3682is.htm",
+  "why": "Weekly review, Nov 15 2026 (source dated 2026-01-15)"
+ },
+ {
+  "who": "Adam Hamilton",
+  "key": "imm",
+  "new_stance": "Mixed",
+  "evidence": "Named immigration reform a priority as senator-elect (Nov 2026); wants a legal pathway and secure borders, denies backing amnesty, and called Biden border policy a disaster (Oct 2026 debate).",
+  "url": "https://fox4kc.com/politics/your-local-election-headquarters/live-updates-sen-roger-marshall-debates-adam-hamilton-in-us-senate-race/amp/",
+  "why": "Weekly review, Nov 15 2026 (source dated 2026-10-21)"
+ },
+ {
+  "who": "Adam Hamilton",
+  "key": "ice",
+  "new_stance": "Lean support",
+  "evidence": "Said ICE raids left Kansas workers terrified to show up at work, hurting meatpacking and other industries (Oct 2026 debate).",
+  "url": "https://fox4kc.com/politics/your-local-election-headquarters/live-updates-sen-roger-marshall-debates-adam-hamilton-in-us-senate-race/amp/",
+  "why": "Weekly review, Nov 15 2026 (source dated 2026-10-21)"
+ },
+ {
+  "who": "Ben Ray Luján",
+  "key": "ice",
+  "new_stance": "Support",
+  "evidence": "Said he won't fund DHS without legally binding ICE accountability reforms (Jan 30 2026); voted NO on the $70B ICE/CBP reconciliation bill S.2 (Jun 5 2026).",
+  "url": "https://www.lujan.senate.gov/newsroom/press-releases/lujan-statement-on-dhs-funding-no-vote-announces-over-50-million-for-new-mexico-projects/",
+  "why": "Weekly review, Nov 15 2026 (source dated 2026-01-30)"
+ },
+ {
+  "who": "Chuck Schumer",
+  "key": "drugneg",
+  "new_stance": "Lean support",
+  "evidence": "Voted for the Inflation Reduction Act, which created Medicare drug-price negotiation and a $35 Medicare insulin cap (passed Aug 7 2022, 51-50 with VP tiebreak).",
+  "url": "https://ballotpedia.org/Inflation_Reduction_Act_of_2022",
+  "why": "Weekly review, Nov 15 2026 (source dated 2022-08-07)"
+ },
+ {
+  "who": "Chuck Schumer",
+  "key": "datactr",
+  "new_stance": "Support",
+  "evidence": "'Senate Democrats want to make it mandatory for data centers to cover their own costs, by law' (Sep 30 2026); voted against the voluntary GOP bill.",
+  "url": "https://wjla.com/news/nation-world/senates-top-party-leaders-chuck-schumer-john-thune-point-fingers-after-house-data-center-ai-bill-fails-congress",
+  "why": "Weekly review, Nov 15 2026 (source dated 2026-09-30)"
+ },
+ {
+  "who": "Chuck Schumer",
+  "key": "ice",
+  "new_stance": "Support",
+  "evidence": "Demanded ICE agents be unmasked and wear body cameras, saying 'masks off, body cameras on' (Jan 28 2026); pledged 'no blank check for reckless ICE' (Apr 1 2026); voted NO on S.2 (Jun 2026).",
+  "url": "https://www.axios.com/2026/01/28/senate-democrats-ice-demands-masks-shutdown",
+  "why": "Weekly review, Nov 15 2026 (source dated 2026-01-28)"
+ },
+ {
+  "who": "Ron Wyden",
+  "key": "roe",
+  "new_stance": "Support",
+  "evidence": "Cosponsor, Women's Health Protection Act S.2150 (Jun 24 2025) — introduced by the entire Dem caucus.",
+  "url": "https://www.merkley.senate.gov/on-3rd-anniversary-of-roe-being-overturned-merkley-and-wyden-join-bill-to-restore-abortion-access-nationwide",
+  "why": "Weekly review, Nov 15 2026 (source dated 2025-06-25)"
+ },
+ {
+  "who": "Ron Wyden",
+  "key": "wage",
+  "new_stance": "Support",
+  "evidence": "Original cosponsor, Raise the Wage Act S.1332, which lifts the federal minimum to $17 over five years (Apr 8 2025).",
+  "url": "https://www.govinfo.gov/content/pkg/BILLS-119s1332is/html/BILLS-119s1332is.htm",
+  "why": "Weekly review, Nov 15 2026 (source dated 2025-04-08)"
+ },
+ {
+  "who": "Ron Wyden",
+  "key": "dcpr",
+  "new_stance": "Support",
+  "evidence": "Original cosponsor, Washington, D.C. Admission Act S.51 (Jan 9 2025).",
+  "url": "https://www.govinfo.gov/app/details/BILLS-119s51is",
+  "why": "Weekly review, Nov 15 2026 (source dated 2025-01-09)"
+ },
+ {
+  "who": "Ron Wyden",
+  "key": "imm",
+  "new_stance": "Lean support",
+  "evidence": "Joined the June 2025 SECURE Act, which gives TPS and DED holders a path to permanent residency, a narrower reform; he also voted for the 2013 comprehensive bill S.744 (68-32).",
+  "url": "https://www.wyden.senate.gov/news/press-releases/wyden-reintroduces-legislation-to-protect-tps-and-ded-recipients",
+  "why": "Weekly review, Nov 15 2026 (source dated 2025-06-23)"
+ },
+ {
+  "who": "Jeff Merkley",
+  "key": "m4a",
+  "new_stance": "Support",
+  "evidence": "Cosponsor, Medicare for All Act S.1506 (Apr 29 2025).",
+  "url": "https://legiscan.com/US/bill/SB1506/",
+  "why": "Weekly review, Nov 15 2026 (source dated 2025-04-29)"
+ },
+ {
+  "who": "Jeff Merkley",
+  "key": "drugneg",
+  "new_stance": "Support",
+  "evidence": "Original cosponsor, SMART Prices Act S.1836 (May 21 2025), raising Medicare-negotiated drugs from 15 to 50 a year.",
+  "url": "https://www.congress.gov/119/bills/s1836/BILLS-119s1836is.htm",
+  "why": "Weekly review, Nov 15 2026 (source dated 2025-05-21)"
+ },
+ {
+  "who": "Jeff Merkley",
+  "key": "roe",
+  "new_stance": "Support",
+  "evidence": "Cosponsor, Women's Health Protection Act S.2150 (Jun 24 2025) — introduced by the entire Dem caucus.",
+  "url": "https://www.merkley.senate.gov/on-3rd-anniversary-of-roe-being-overturned-merkley-and-wyden-join-bill-to-restore-abortion-access-nationwide",
+  "why": "Weekly review, Nov 15 2026 (source dated 2025-06-25)"
+ },
+ {
+  "who": "Jeff Merkley",
+  "key": "wage",
+  "new_stance": "Support",
+  "evidence": "Original cosponsor, Raise the Wage Act S.1332, which lifts the federal minimum to $17 over five years (Apr 8 2025).",
+  "url": "https://www.govinfo.gov/content/pkg/BILLS-119s1332is/html/BILLS-119s1332is.htm",
+  "why": "Weekly review, Nov 15 2026 (source dated 2025-04-08)"
+ },
+ {
+  "who": "Jeff Merkley",
+  "key": "dcpr",
+  "new_stance": "Support",
+  "evidence": "Original cosponsor, Washington, D.C. Admission Act S.51 (Jan 9 2025).",
+  "url": "https://www.govinfo.gov/app/details/BILLS-119s51is",
+  "why": "Weekly review, Nov 15 2026 (source dated 2025-01-09)"
+ },
+ {
+  "who": "Jeff Merkley",
+  "key": "imm",
+  "new_stance": "Lean support",
+  "evidence": "Pledged in Jan 2025 to champion proposals to 'fix America's broken immigration system' without naming a bill; he also voted for the 2013 comprehensive bill S.744 (68-32).",
+  "url": "https://www.merkley.senate.gov/merkley-laken-riley-act-fails-to-keep-our-communities-safe-fix-broken-immigration-system/",
+  "why": "Weekly review, Nov 15 2026 (source dated 2025-01-20)"
+ },
+ {
+  "who": "Jeff Merkley",
+  "key": "ice",
+  "new_stance": "Support",
+  "evidence": "With Wyden, pressed DHS in Jul 2026 to require body cameras and officer ID and to codify ICE reforms in law; voted NO on the $70B ICE/CBP bill S.2 (Jun 5 2026).",
+  "url": "https://www.merkley.senate.gov/wyden-merkley-demand-civilian-protections-greater-transparency-for-ice-officers/",
+  "why": "Weekly review, Nov 15 2026 (source dated 2026-07-20)"
+ },
+ {
+  "who": "John Fetterman",
+  "key": "fil",
+  "new_stance": "Oppose",
+  "evidence": "In a Washington Post op-ed (Jul 27 2026) he said he 'now recognize[s] how important the filibuster is' and praised Manchin's and Sinema's 'courageous efforts'.",
+  "url": "https://www.fetterman.senate.gov/opinion-why-i-changed-my-mind-about-the-filibuster/",
+  "why": "Weekly review, Nov 15 2026 (source dated 2026-07-27)"
+ },
+ {
+  "who": "John Fetterman",
+  "key": "drugneg",
+  "new_stance": "Support",
+  "evidence": "Original cosponsor, SMART Prices Act S.1836 (May 21 2025), raising Medicare-negotiated drugs from 15 to 50 a year.",
+  "url": "https://www.congress.gov/119/bills/s1836/BILLS-119s1836is.htm",
+  "why": "Weekly review, Nov 15 2026 (source dated 2025-05-21)"
+ },
+ {
+  "who": "John Fetterman",
+  "key": "roe",
+  "new_stance": "Support",
+  "evidence": "Cosponsor, Women's Health Protection Act S.2150 (Jun 24 2025) — introduced by the entire Dem caucus.",
+  "url": "https://www.govinfo.gov/content/pkg/BILLS-119s2150is/html/BILLS-119s2150is.htm",
+  "why": "Weekly review, Nov 15 2026 (source dated 2025-06-24)"
+ },
+ {
+  "who": "John Fetterman",
+  "key": "wage",
+  "new_stance": "Support",
+  "evidence": "Original cosponsor, Raise the Wage Act S.1332, which lifts the federal minimum to $17 over five years (Apr 8 2025).",
+  "url": "https://www.govinfo.gov/content/pkg/BILLS-119s1332is/html/BILLS-119s1332is.htm",
+  "why": "Weekly review, Nov 15 2026 (source dated 2025-04-08)"
+ },
+ {
+  "who": "John Fetterman",
+  "key": "dcpr",
+  "new_stance": "Lean support",
+  "evidence": "Added as S.51 (DC) cosponsor after introduction (2025). No PR statement found.",
+  "url": "https://open.pluralpolicy.com/us/bills/119/S51",
+  "why": "Weekly review, Nov 15 2026 (source dated 2025)"
+ },
+ {
+  "who": "John Fetterman",
+  "key": "ice",
+  "new_stance": "Mixed",
+  "evidence": "Called ICE's Minneapolis tactics wrong but refused to risk a shutdown to block ICE funding (Jan 2026); voted NO on the $70B ICE/CBP reconciliation bill S.2 (Jun 5 2026).",
+  "url": "https://wjla.com/news/nation-world/pennsylvania-democratic-senator-john-fetterman-says-he-wont-risk-partial-government-shutdown-to-block-ice-homeland-security-funding",
+  "why": "Weekly review, Nov 15 2026 (source dated 2026-01-26)"
+ },
+ {
+  "who": "Annie Andrews",
+  "key": "ctc",
+  "new_stance": "Support",
+  "evidence": "Named passing an 'expanded, permanent, fully-refundable child tax credit' as day-one legislation (Oct 2026 interview).",
+  "url": "https://www.newberryobserver.com/news/81904/we-sat-down-with-u-s-senate-candidate-dr-annie-andrews",
+  "why": "Weekly review, Nov 15 2026 (source dated 2026-10-31)"
+ },
+ {
+  "who": "Annie Andrews",
+  "key": "ice",
+  "new_stance": "Lean support",
+  "evidence": "At a Marion campaign stop she called 'masked ICE agents ripping families apart' deeply un-American, while backing a secure border and enforcing the law (Sep 12 2026).",
+  "url": "https://abcnews4.com/news/state/annie-andrews-discusses-affordability-immigration-and-abortion-during-marion-stop-race-senator-us-campaign-priorities-november-election",
+  "why": "Weekly review, Nov 15 2026 (source dated 2026-09-12)"
+ },
+ {
+  "who": "Bernie Sanders",
+  "key": "m4a",
+  "new_stance": "Support",
+  "evidence": "Sponsor, Medicare for All Act S.1506 (Apr 29 2025).",
+  "url": "https://legiscan.com/US/bill/SB1506/",
+  "why": "Weekly review, Nov 15 2026 (source dated 2025-04-29)"
+ },
+ {
+  "who": "Bernie Sanders",
+  "key": "wage",
+  "new_stance": "Support",
+  "evidence": "Sponsor, Raise the Wage Act S.1332, which lifts the federal minimum to $17 over five years (Apr 8 2025).",
+  "url": "https://www.govinfo.gov/content/pkg/BILLS-119s1332is/html/BILLS-119s1332is.htm",
+  "why": "Weekly review, Nov 15 2026 (source dated 2025-04-08)"
+ },
+ {
+  "who": "Bernie Sanders",
+  "key": "dcpr",
+  "new_stance": "Support",
+  "evidence": "Original cosponsor, Washington, D.C. Admission Act S.51 (Jan 9 2025).",
+  "url": "https://www.govinfo.gov/app/details/BILLS-119s51is",
+  "why": "Weekly review, Nov 15 2026 (source dated 2025-01-09)"
+ },
+ {
+  "who": "Peter Welch",
+  "key": "m4a",
+  "new_stance": "Support",
+  "evidence": "Cosponsor, Medicare for All Act S.1506 (Apr 29 2025).",
+  "url": "https://legiscan.com/US/bill/SB1506/",
+  "why": "Weekly review, Nov 15 2026 (source dated 2025-04-29)"
+ },
+ {
+  "who": "Peter Welch",
+  "key": "drugneg",
+  "new_stance": "Support",
+  "evidence": "Original cosponsor (first listed), SMART Prices Act S.1836 (May 21 2025), raising Medicare-negotiated drugs from 15 to 50 a year.",
+  "url": "https://www.congress.gov/119/bills/s1836/BILLS-119s1836is.htm",
+  "why": "Weekly review, Nov 15 2026 (source dated 2025-05-21)"
+ },
+ {
+  "who": "Peter Welch",
+  "key": "priorauth",
+  "new_stance": "Support",
+  "evidence": "Original cosponsor, Improving Seniors' Timely Access to Care Act S.1816 (May 20 2025), streamlining Medicare Advantage prior authorization.",
+  "url": "https://www.congress.gov/119/bills/s1816/BILLS-119s1816is.htm",
+  "why": "Weekly review, Nov 15 2026 (source dated 2025-05-20)"
+ },
+ {
+  "who": "Peter Welch",
+  "key": "roe",
+  "new_stance": "Support",
+  "evidence": "Cosponsor, Women's Health Protection Act S.2150 (Jun 24 2025) — introduced by the entire Dem caucus.",
+  "url": "https://www.govinfo.gov/content/pkg/BILLS-119s2150is/html/BILLS-119s2150is.htm",
+  "why": "Weekly review, Nov 15 2026 (source dated 2025-06-24)"
+ },
+ {
+  "who": "Peter Welch",
+  "key": "wage",
+  "new_stance": "Support",
+  "evidence": "Original cosponsor of S.1332 ($17) and co-lead with Hawley of the $15 Higher Wages for American Workers Act S.2013 (Jun 10 2025).",
+  "url": "https://www.hawley.senate.gov/hawley-welch-introduce-legislation-to-increase-federal-minimum-wage-to-15-per-hour",
+  "why": "Weekly review, Nov 15 2026 (source dated 2025-06-10)"
+ },
+ {
+  "who": "Peter Welch",
+  "key": "dcpr",
+  "new_stance": "Support",
+  "evidence": "Original cosponsor, Washington, D.C. Admission Act S.51 (Jan 9 2025).",
+  "url": "https://www.govinfo.gov/app/details/BILLS-119s51is",
+  "why": "Weekly review, Nov 15 2026 (source dated 2025-01-09)"
+ },
+ {
+  "who": "Kathy Hochul",
+  "key": "priorauth",
+  "new_stance": "Lean support",
+  "evidence": "Proposed (Jan 2026) and secured in the FY2027 budget (May 2026) prior-auth reforms: longer validity for chronic-condition approvals and denial reporting; narrower than ending it.",
+  "url": "https://www.governor.ny.gov/news/governor-hochul-secures-historic-investments-bolster-new-yorks-healthcare-system-and-protect",
+  "why": "Weekly review, Nov 15 2026 (source dated 2026-05-28)"
+ },
+ {
+  "who": "Xavier Becerra",
+  "key": "roe",
+  "new_stance": "Lean support",
+  "evidence": "In a May 2026 debate said he would refuse extradition of California doctors who prescribe abortion pills, citing his AG record; no new codification plan (reported Jul 2026).",
+  "url": "https://kffhealthnews.org/courts/shield-laws-abortion-pills-extradition-doctors-governor-california-newsom-hilton-becerra/",
+  "why": "Weekly review, Nov 15 2026 (source dated 2026-07-14)"
+ },
+ {
+  "who": "Rob Sand",
+  "key": "roe",
+  "new_stance": "Lean support",
+  "evidence": "In an Oct 2026 debate called the six-week ban incredibly restrictive and said he would veto further restrictions; no pledge to restore abortion rights in law.",
+  "url": "https://www.foxnews.com/politics/democrat-stop-iowas-red-drift-5-moments-governors-debate",
+  "why": "Weekly review, Nov 15 2026 (source dated 2026-10-28)"
+ },
+ {
+  "who": "Jocelyn Benson",
+  "key": "roe",
+  "new_stance": "Support",
+  "evidence": "Backed 2022 Prop 3, which put abortion rights in Michigan constitution, and pledges to make those rights accessible statewide as governor (Feb 2026).",
+  "url": "https://reproductivefreedomforall.org/news/reproductive-freedom-for-all-endorses-jocelyn-benson-for-michigan-governor/",
+  "why": "Weekly review, Nov 15 2026 (source dated 2026-02-11)"
+ },
+ {
+  "who": "Amy Klobuchar",
+  "key": "npv",
+  "new_stance": "Support",
+  "evidence": "Backed the push for states to award electoral votes to the national popular vote winner, and said she would love to abolish the Electoral College (May 2019).",
+  "url": "https://thenevadaindependent.com/article/klobuchar-voices-support-for-national-popular-vote-hours-after-sisolak-veto",
+  "why": "Weekly review, Nov 15 2026 (source dated 2019-05-30)"
+ },
+ {
+  "who": "Tate Reeves",
+  "key": "roe",
+  "new_stance": "Oppose",
+  "evidence": "Signed the Life Equality Act banning abortions based on sex, race or genetic abnormality, with felony penalties for doctors (Jul 2020).",
+  "url": "https://www.ewtnnews.com/world/us/mississippi-bans-abortion-on-sex-race-genetic-disability",
+  "why": "Weekly review, Nov 15 2026 (source dated 2020-07-02)"
+ },
+ {
+  "who": "Josh Stein",
+  "key": "roe",
+  "new_stance": "Lean support",
+  "evidence": "Signed an executive order shielding patients and providers from prosecution (Jan 2025) and vowed to veto any further abortion restrictions (Jan 2026); executive action, not state law.",
+  "url": "https://governor.nc.gov/news/press-releases/2026/01/22/statement-governor-josh-stein-53rd-anniversary-roe-v-wade",
+  "why": "Weekly review, Nov 15 2026 (source dated 2026-01-22)"
+ },
+ {
+  "who": "Amy Acton",
+  "key": "wage",
+  "new_stance": "Unclear",
+  "evidence": "Affordability agenda (Aug 2026) targets wage theft by EO, not a minimum-wage hike; no statement backing a higher minimum wage found.",
+  "url": "https://actonforgovernor.com/issue/acton-lowering-costs-affordability-agenda/",
+  "why": "Weekly review, Nov 15 2026 (source dated 2026-08)"
+ },
+ {
+  "who": "Amy Acton",
+  "key": "house",
+  "new_stance": "Unclear",
+  "evidence": "Housing proposals found are property-tax relief (Jul 2026) and unspecified day-one EOs (Oct 2026); no plan to build more homes or ease zoning or permitting found.",
+  "url": "https://www.cleveland19.com/2026/10/20/acton-outlines-affordability-plan-defends-refusal-debate-ramaswamy/",
+  "why": "Weekly review, Nov 15 2026 (source dated 2026-10-20)"
+ },
+ {
+  "who": "Gina Hinojosa",
+  "key": "house",
+  "new_stance": "Lean support",
+  "evidence": "Pledged to expand the supply of homes Texans can afford and lower housing costs (Feb 2026 release); no zoning or permitting plan given.",
+  "url": "https://www.yahoo.com/news/articles/gina-hinojosa-takes-aim-rising-215705577.html",
+  "why": "Weekly review, Nov 15 2026 (source dated 2026-02)"
+ },
+ {
+  "who": "Keisha Lance Bottoms",
+  "key": "wage",
+  "new_stance": "Lean support",
+  "evidence": "As governor-elect said a minimum-wage hike could move forward if it wins bipartisan support, or may wait for a Democratic Senate (Nov 2026); no $15 figure given.",
+  "url": "https://www.pbs.org/newshour/show/georgia-gov-elect-bottoms-reflects-on-historic-victory-and-the-path-forward-for-democrats",
+  "why": "Weekly review, Nov 15 2026 (source dated 2026-11-06)"
+ },
+ {
+  "who": "Josh Shapiro",
+  "key": "npv",
+  "new_stance": "Lean support",
+  "evidence": "Said the national popular vote makes sense and he would like lawmakers to move toward making the Electoral College obsolete; stopped short of backing the compact itself (Nov 2026).",
+  "url": "https://bostonglobe.com/2026/11/10/nation/democrats-electoral-college-popular-vote",
+  "why": "Weekly review, Nov 15 2026 (source dated 2026-11-10)"
+ },
+ {
+  "who": "David Crowley",
+  "key": "npv",
+  "new_stance": "Lean support",
+  "evidence": "Said of the Electoral College that we can do away with it and he is interested in talks with lawmakers; stopped short of backing the compact itself (Nov 2026).",
+  "url": "https://bostonglobe.com/2026/11/10/nation/democrats-electoral-college-popular-vote",
+  "why": "Weekly review, Nov 15 2026 (source dated 2026-11-10)"
+ },
+ {
+  "who": "Katie Hobbs",
+  "key": "npv",
+  "new_stance": "Unclear",
+  "evidence": "Declined to say whether she favors Arizona joining the National Popular Vote compact (Nov 2026).",
+  "url": "https://bostonglobe.com/2026/11/10/nation/democrats-electoral-college-popular-vote",
+  "why": "Weekly review, Nov 15 2026 (source dated 2026-11-10)"
+ },
+ {
+  "who": "Andy Kim",
+  "key": "fil",
+  "new_stance": "Mixed",
+  "evidence": "Called ending the filibuster a 'double-edged sword' and urged trying other routes first, though he said he didn't want to deter Democrats (Nov 2026).",
+  "url": "https://www.foxnews.com/politics/democrats-eye-killing-senate-filibuster-lawmaker-warns-move-could-double-edged-sword",
+  "why": "Weekly review, Nov 15 2026 (source dated 2026-11-14)"
+ },
+ {
+  "who": "Ed Markey",
+  "key": "fil",
+  "new_stance": "Lean support",
+  "evidence": "Ending the filibuster 'has to be on the table,' but will hear colleagues on strategy (Fox News Digital, Nov 14 2026); voted Jan 2022 to change rules.",
+  "url": "https://www.foxnews.com/politics/democrats-eye-killing-senate-filibuster-lawmaker-warns-move-could-double-edged-sword",
+  "why": "Weekly review, Nov 15 2026 (source dated 2026-11-14)"
+ },
+ {
+  "who": "Chuck Schumer",
+  "key": "fil",
+  "new_stance": "Unclear",
+  "evidence": "Sidestepped ending it twice on Nov 4 2026 and stayed silent when asked again (Nov 13-14 2026); planned voting-rights/abortion carve-outs in Aug 2024.",
+  "url": "https://www.foxnews.com/politics/democrats-eye-killing-senate-filibuster-lawmaker-warns-move-could-double-edged-sword",
+  "why": "Weekly review, Nov 15 2026 (source dated 2026-11-14)"
+ },
+ {
+  "who": "Roy Cooper",
+  "key": "fil",
+  "new_stance": "Lean oppose",
+  "evidence": "Said he supports the filibuster 'right now because it protects us from bad legislation' (Nov 2026); not definitive on future changes.",
+  "url": "https://www.washingtonexaminer.com/news/senate/4795084/john-fetterman-filibuster-backup-new-senate-democrats/",
+  "why": "Weekly review, Nov 15 2026 (source dated 2026-11-07)"
+ },
+ {
+  "who": "James Talarico",
+  "key": "fil",
+  "new_stance": "Support",
+  "evidence": "Told NBC News the night after his win he would vote to end the filibuster, calling it a 'Jim Crow relic' (Nov 4 2026).",
+  "url": "https://www.dailywire.com/news/jim-crow-relic-talarico-calls-for-ending-senate-filibuster",
+  "why": "Weekly review, Nov 15 2026 (source dated 2026-11-04)"
+ },
+ {
+  "who": "Chuck Schumer",
+  "key": "stock",
+  "new_stance": "Support",
+  "evidence": "Pledged on X that Senate Democrats will ban stock trading for all members of Congress and White House officials (Nov 12 2026).",
+  "url": "https://ifttt.itbehere.com/2026/11/15/schumer-jeffries-pledge-to-ban-stock-trading-by-members-of-congress/",
+  "why": "Weekly review, Nov 15 2026 (source dated 2026-11-12)"
+ },
+ {
+  "who": "Tammy Baldwin",
+  "key": "pubopt",
+  "new_stance": "Support",
+  "evidence": "Co-lead, Medicare at 50 Act S.5700, letting people aged 50-64 buy into Medicare (Nov 13 2026).",
+  "url": "https://www.reed.senate.gov/news/releases/reed-renews-push-to-expand-buy-in-for-medicare-eligibility-to-age-50",
+  "why": "Weekly review, Nov 15 2026 (source dated 2026-11-13)"
+ },
+ {
+  "who": "Richard Blumenthal",
+  "key": "pubopt",
+  "new_stance": "Support",
+  "evidence": "Cosponsor, Medicare at 50 Act S.5700, letting people aged 50-64 buy into Medicare (Nov 13 2026).",
+  "url": "https://www.reed.senate.gov/news/releases/reed-renews-push-to-expand-buy-in-for-medicare-eligibility-to-age-50",
+  "why": "Weekly review, Nov 15 2026 (source dated 2026-11-13)"
+ },
+ {
+  "who": "Cory Booker",
+  "key": "pubopt",
+  "new_stance": "Support",
+  "evidence": "Cosponsor, Medicare at 50 Act S.5700, letting people aged 50-64 buy into Medicare (Nov 13 2026).",
+  "url": "https://www.reed.senate.gov/news/releases/reed-renews-push-to-expand-buy-in-for-medicare-eligibility-to-age-50",
+  "why": "Weekly review, Nov 15 2026 (source dated 2026-11-13)"
+ },
+ {
+  "who": "Tammy Duckworth",
+  "key": "pubopt",
+  "new_stance": "Support",
+  "evidence": "Cosponsor, Medicare at 50 Act S.5700, letting people aged 50-64 buy into Medicare (Nov 13 2026).",
+  "url": "https://www.reed.senate.gov/news/releases/reed-renews-push-to-expand-buy-in-for-medicare-eligibility-to-age-50",
+  "why": "Weekly review, Nov 15 2026 (source dated 2026-11-13)"
+ },
+ {
+  "who": "Kirsten Gillibrand",
+  "key": "pubopt",
+  "new_stance": "Support",
+  "evidence": "Cosponsor, Medicare at 50 Act S.5700, letting people aged 50-64 buy into Medicare (Nov 13 2026).",
+  "url": "https://www.reed.senate.gov/news/releases/reed-renews-push-to-expand-buy-in-for-medicare-eligibility-to-age-50",
+  "why": "Weekly review, Nov 15 2026 (source dated 2026-11-13)"
+ },
+ {
+  "who": "Andy Kim",
+  "key": "pubopt",
+  "new_stance": "Support",
+  "evidence": "Cosponsor, Medicare at 50 Act S.5700, letting people aged 50-64 buy into Medicare (Nov 13 2026).",
+  "url": "https://www.reed.senate.gov/news/releases/reed-renews-push-to-expand-buy-in-for-medicare-eligibility-to-age-50",
+  "why": "Weekly review, Nov 15 2026 (source dated 2026-11-13)"
+ },
+ {
+  "who": "Ed Markey",
+  "key": "pubopt",
+  "new_stance": "Support",
+  "evidence": "Cosponsor, Medicare at 50 Act S.5700, letting people aged 50-64 buy into Medicare (Nov 13 2026).",
+  "url": "https://www.reed.senate.gov/news/releases/reed-renews-push-to-expand-buy-in-for-medicare-eligibility-to-age-50",
+  "why": "Weekly review, Nov 15 2026 (source dated 2026-11-13)"
+ },
+ {
+  "who": "Chris Van Hollen",
+  "key": "pubopt",
+  "new_stance": "Support",
+  "evidence": "Cosponsor, Medicare at 50 Act S.5700, letting people aged 50-64 buy into Medicare (Nov 13 2026).",
+  "url": "https://www.reed.senate.gov/news/releases/reed-renews-push-to-expand-buy-in-for-medicare-eligibility-to-age-50",
+  "why": "Weekly review, Nov 15 2026 (source dated 2026-11-13)"
+ },
+ {
+  "who": "Katie Hobbs",
+  "key": "tariff",
+  "new_stance": "Lean support",
+  "evidence": "Said small businesses are 'being hit really hard' by the tariffs (Jul 2026); criticism only, no legal challenge or relief package.",
+  "why": "Weekly review, Nov 15 2026: wording only, so the ladder doesn't read a negated 'lawsuit'/'ordered' as a Spend rung; source unchanged."
+ },
+ {
+  "who": "Xavier Becerra",
+  "key": "tariff",
+  "new_stance": "Lean support",
+  "evidence": "Said Trump 'increased the cost of food' through his tariffs and Washington should help, not hurt (Oct 2026); no legal challenge or relief package named.",
+  "why": "Weekly review, Nov 15 2026: wording only, so the ladder doesn't read a negated 'lawsuit'/'ordered' as a Spend rung; source unchanged."
+ },
+ {
+  "who": "Kelly Ayotte",
+  "key": "tariff",
+  "new_stance": "Lean support",
+  "evidence": "Hoped Trump's Canada tariffs would not take effect, saying she didn't want anything hurting NH competitiveness (Feb 2025); no legal challenge or relief package.",
+  "why": "Weekly review, Nov 15 2026: wording only, so the ladder doesn't read a negated 'lawsuit'/'ordered' as a Spend rung; source unchanged."
+ },
+ {
+  "who": "Josh Shapiro",
+  "key": "tariff",
+  "new_stance": "Lean support",
+  "evidence": "Budget address blames \"tariffs imposed on our farmers\" for rising costs (Feb 2026); criticism only, no legal challenge or relief package.",
+  "why": "Weekly review, Nov 15 2026: wording only, so the ladder doesn't read a negated 'lawsuit'/'ordered' as a Spend rung; source unchanged."
+ },
+ {
+  "who": "Xavier Becerra",
+  "key": "safety",
+  "new_stance": "Support",
+  "evidence": "Would 'fully fund' Prop 36, including court-mandated drug treatment for defendants (2026 voter guide).",
+  "why": "Weekly review, Nov 15 2026: wording only, so the ladder doesn't read a negated 'lawsuit'/'ordered' as a Spend rung; source unchanged."
  }
 ]
