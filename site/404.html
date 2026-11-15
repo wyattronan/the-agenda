@@ -2346,7 +2346,7 @@ const esc = s=>String(s).replace(/[&<>"]/g,ch=>({'&':'&amp;','<':'&lt;','>':'&gt
 const tc = s=>String(s).replace(/(^|[\s(\/\-])([a-z])/g,(m,p,c)=>p+c.toUpperCase());
 const icon = (a,cls='ico')=>`<svg class="${cls}" aria-hidden="true"><use href="#i-${a}"/></svg>`;
 const tagCls = s=>s.replace(' ','-').replace('/','');
-const persist = ()=>{ const a=store.get(LS)||{}; a.votes=votes; a.cur=cur; a.fmode=fmode; a.sv2=sview; a.smSel=smSel; a.g={pol,asm,sel:selSt}; a.ss={asm:sAsm,votes:sVotes}; store.set(LS,a); };
+const persist = ()=>{ const a=store.get(LS)||{}; a.votes=votes; a.vdef=vDefs; a.cur=cur; a.fmode=fmode; a.sv2=sview; a.smSel=smSel; a.g={pol,asm,sel:selSt}; a.ss={asm:sAsm,votes:sVotes,vdef:sDefs||{}}; store.set(LS,a); };
 const ST = store.get(LS) || {};
 
 /* ---------- shared: "Three things to know" box ---------- */
@@ -2437,7 +2437,9 @@ function defVote(stance, k, p, power){ if(p==='R' && power && power.has(k)) retu
 const sDef = (s,k)=>defVote(s.r[k][0], k, s.p, POWER);
 function research(){ const v={}; SEN.forEach(s=>{ v[s.id]={}; KEYS.forEach(k=>{ v[s.id][k]=sDef(s,k); }); }); return v; }
 let votes = ST.votes || research();
-SEN.forEach(s=>{ if(!votes[s.id]) votes[s.id]={}; KEYS.forEach(k=>{ if(!votes[s.id][k]) votes[s.id][k]=sDef(s,k); }); });
+// A cell follows its default (from the stance) whenever that default changes; a visitor's own pick holds only while the stance is unchanged.
+var vDefs = {}, oldDefs = ST.vdef || {};
+SEN.forEach(s=>{ if(!votes[s.id]) votes[s.id]={}; vDefs[s.id]={}; KEYS.forEach(k=>{ const d=sDef(s,k); vDefs[s.id][k]=d; if(!votes[s.id][k] || (oldDefs[s.id]||{})[k]!==d) votes[s.id][k]=d; }); });
 let cur = KEYS.includes(ST.cur) ? ST.cur : 'sch';
 let fmode = ST.fmode || 'auto';
 let sview = ST.sv2==='list' ? 'list' : 'map';
@@ -3737,8 +3739,9 @@ renderGsdTop(); renderGSD();
 const SPOWER = new Set(D.spower);
 const ssa = ST.ss || {};
 let sAsm = Object.assign({nc24:'lead', ga37:'lead', txvac:'vacant', txrule:'59'}, ssa.asm||{});
+var sDefs = {}, sOld = ssa.vdef || {};
 function sSeed(v){ SS.forEach(S=>S.members.forEach(m=>{
-  [[m.id,m.r,m.p],...(m.alt?[[m.id+'a',m.alt.r,m.alt.p]]:[])].forEach(([id,r,p])=>{ if(!v[id]) v[id]={}; GK.forEach(k=>{ if(!v[id][k]) v[id][k]=defVote(r[k][0],k,p,SPOWER); }); });
+  [[m.id,m.r,m.p],...(m.alt?[[m.id+'a',m.alt.r,m.alt.p]]:[])].forEach(([id,r,p])=>{ if(!v[id]) v[id]={}; sDefs[id]={}; GK.forEach(k=>{ const d=defVote(r[k][0],k,p,SPOWER); sDefs[id][k]=d; if(!v[id][k] || (sOld[id]||{})[k]!==d) v[id][k]=d; }); });
 })); return v; }
 let sVotes = sSeed(ssa.votes || {});
 function useAlt(S,m){ return !!m.alt && ((S.st==='NC'&&sAsm.nc24==='alt')||(S.st==='GA'&&sAsm.ga37==='alt')); }
