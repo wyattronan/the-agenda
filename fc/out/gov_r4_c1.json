@@ -1,0 +1,266 @@
+[
+ {
+  "who": "Mike Mazzei",
+  "key": "schools",
+  "new_stance": "Lean support",
+  "evidence": "Wants Oklahoma teacher pay among the top in the region and a statewide literacy director with a 3rd-grade reading gate (Oct 2026); no funding-formula plan.",
+  "url": "https://www.news9.com/oklahoma-elections/oklahoma-mazzei-munson-governor-election-education",
+  "changed": true
+ },
+ {
+  "who": "Mike Mazzei",
+  "key": "workforce",
+  "new_stance": "Support",
+  "evidence": "Would expand career-tech programs for jobs without a 4-year degree, citing a 7,500-student waitlist for nursing and welding (Sep 2026).",
+  "url": "https://www.news9.com/oklahoma-elections/mike-mazzei-priorities-governor-oklahoma",
+  "changed": true
+ },
+ {
+  "who": "Mike Mazzei",
+  "key": "rural",
+  "new_stance": "Lean support",
+  "evidence": "Wants SoonerCare savings redirected to support rural hospitals and an income-tax exemption for new doctors (Sep 2026); no set funding.",
+  "url": "https://www.news9.com/oklahoma-elections/mike-mazzei-priorities-governor-oklahoma",
+  "changed": true
+ },
+ {
+  "who": "Mike Mazzei",
+  "key": "ice",
+  "new_stance": "Lean oppose",
+  "evidence": "Pledged cooperation with federal authorities: 'I will do whatever is necessary to support border security' (Sep 2026); no sensitive-location stance.",
+  "url": "https://www.news9.com/oklahoma-elections/mike-mazzei-priorities-governor-oklahoma",
+  "changed": true
+ },
+ {
+  "who": "Mike Mazzei",
+  "key": "clean",
+  "new_stance": "Lean oppose",
+  "evidence": "As a state senator, filed bills to phase down and cap wind tax credits, calling them 'handouts to wind developers' (Jan 2015).",
+  "url": "https://www.capitolbeatok.com/reports/sen-mazzei-and-rep-sears-draft-legislation-to-limit-new-wind-farm-subsidies/",
+  "changed": true
+ },
+ {
+  "who": "Mike Mazzei",
+  "key": "safety",
+  "new_stance": "Lean support",
+  "evidence": "Named 'supporting Oklahoma law enforcement, keeping our communities safe' among his priorities as governor-elect (Nov 2026); no funding plan.",
+  "url": "https://www.news9.com/oklahoma-governor-mike-mazzei-priorities",
+  "changed": true
+ },
+ {
+  "who": "Kelly Ayotte",
+  "key": "gun",
+  "new_stance": "Oppose",
+  "evidence": "Signed HB 1365, dropping references, job and medical-history questions from carry-license applications, and HB 1279 on deadly-force defense (Jul 2026).",
+  "url": "https://www.nraila.org/articles/20260721/new-hampshire-governor-ayotte-signs-pro-gun-reforms-into-law",
+  "changed": true
+ },
+ {
+  "who": "Kelly Ayotte",
+  "key": "ai",
+  "new_stance": "Support",
+  "evidence": "Signed HB 143, making it a crime for AI chatbots to steer kids toward sex, drugs or self-harm, with a right to sue (Aug 2025, Ch. 270).",
+  "url": "https://bills.nhliberty.org/bills/2025/HB143",
+  "changed": true
+ },
+ {
+  "who": "Kelly Ayotte",
+  "key": "mental",
+  "new_stance": "Support",
+  "evidence": "Cited budget she signed that fully funded community mental health centers and sustained 988 crisis line funding (Mar 2026).",
+  "url": "https://news.rochesternh.gov/governor-ayotte-highlights-progress-and-opportunities-in-strengthening-mental-health-system/",
+  "changed": true
+ },
+ {
+  "who": "Kelly Ayotte",
+  "key": "rural",
+  "new_stance": "Lean support",
+  "evidence": "Created GO-NORTH office to steer about $500M in federal rural health funds to expand rural care (Nov 2025); no hospital-specific state funding named.",
+  "url": "https://www.concordmonitor.com/2025/11/06/governor-ayotte-rural-health-initiative/",
+  "changed": true
+ },
+ {
+  "who": "Kelly Ayotte",
+  "key": "clean",
+  "new_stance": "Lean support",
+  "evidence": "Executive order directs a state nuclear roadmap, saying nuclear could cut regional emissions and lower rates more than renewables (Mar 2026); vetoed HB 221 (May 2026).",
+  "url": "https://www.nhpr.org/nh-news/2026-03-26/nuclear-newhampshire-ayotte-roadmap-energy-development",
+  "changed": true
+ },
+ {
+  "who": "Kelly Ayotte",
+  "key": "tariff",
+  "new_stance": "Lean support",
+  "evidence": "Hoped Trump's Canada tariffs would not take effect, saying she didn't want anything hurting NH competitiveness (Feb 2025); no lawsuit or relief plan.",
+  "url": "https://www.nhpr.org/nh-news/2025-02-06/ayotte-hopes-trump-tariffs-on-canada-wont-happen",
+  "changed": true
+ },
+ {
+  "who": "Kelly Ayotte",
+  "key": "workforce",
+  "new_stance": "Lean support",
+  "evidence": "2026 State of the State pledged to prioritize workforce training programs matched to business needs (Feb 2026); no apprenticeship expansion named.",
+  "url": "https://indepthnh.org/2026/02/05/state-of-state-ayotte-aims-to-make-nh-more-affordable-healthier-increase-nuclear-power/",
+  "changed": true
+ },
+ {
+  "who": "Kelly Ayotte",
+  "key": "college",
+  "new_stance": "Lean support",
+  "evidence": "2026 State of the State proposed easier credit transfer between community colleges and universities (Feb 2026); no tuition cut or cap.",
+  "url": "https://indepthnh.org/2026/02/05/state-of-state-ayotte-aims-to-make-nh-more-affordable-healthier-increase-nuclear-power/",
+  "changed": true
+ },
+ {
+  "who": "Byron Donalds",
+  "key": "gun",
+  "new_stance": "Oppose",
+  "evidence": "Said repealing Florida's red-flag law and under-21 purchase ban would be 'job one' and he'd push to legalize open carry (May 2025).",
+  "url": "https://www.newsfromthestates.com/article/byron-donalds-says-he-supports-repealing-floridas-red-flag-law",
+  "changed": true
+ },
+ {
+  "who": "Byron Donalds",
+  "key": "tariff",
+  "new_stance": "Oppose",
+  "evidence": "Backed Trump's tariff regime: 'continue to go down the line with President Trump' (Apr 2025).",
+  "url": "https://floridapolitics.com/archives/731114-donalds-trump-tariff",
+  "changed": true
+ },
+ {
+  "who": "Byron Donalds",
+  "key": "safety",
+  "new_stance": "Support",
+  "evidence": "Campaign plan offers hiring bonuses and competitive pay to recruit police officers, plus firm sentences for violent offenders (Nov 2026).",
+  "url": "https://www.news4jax.com/news/2026/11/06/here-are-all-the-policies-byron-donalds-wants-as-floridas-next-governor/",
+  "changed": true
+ },
+ {
+  "who": "Byron Donalds",
+  "key": "workforce",
+  "new_stance": "Support",
+  "evidence": "LaunchPad Florida plan would link high schools, community colleges and employers for paid apprenticeships in construction, manufacturing, defense (Nov 2026).",
+  "url": "https://www.news4jax.com/news/2026/11/06/here-are-all-the-policies-byron-donalds-wants-as-floridas-next-governor/",
+  "changed": true
+ },
+ {
+  "who": "Byron Donalds",
+  "key": "drugbd",
+  "new_stance": "Lean support",
+  "evidence": "Campaign plan would 'expose pharmacy middleman markups' so discounts reach patients (Nov 2026); transparency, not a price board or PBM limits.",
+  "url": "https://www.news4jax.com/news/2026/11/06/here-are-all-the-policies-byron-donalds-wants-as-floridas-next-governor/",
+  "changed": true
+ },
+ {
+  "who": "Byron Donalds",
+  "key": "utility",
+  "new_stance": "Lean support",
+  "evidence": "Plan would require utilities to harden power lines and water plants against hurricanes and keep data-center costs off household bills (Nov 2026); no rate freeze or cap.",
+  "url": "https://www.news4jax.com/news/2026/11/06/here-are-all-the-policies-byron-donalds-wants-as-floridas-next-governor/",
+  "changed": true
+ },
+ {
+  "who": "Byron Donalds",
+  "key": "pubopt",
+  "new_stance": "Lean oppose",
+  "evidence": "'We're not going to expand Medicaid,' saying it would crowd out other priorities (Oct 2026).",
+  "url": "https://www.fox13news.com/news/election-2026-where-byron-donalds-stands-data-centers-schools-home-insurance-medicaid",
+  "changed": true
+ },
+ {
+  "who": "Byron Donalds",
+  "key": "schools",
+  "new_stance": "Lean support",
+  "evidence": "Wants to loosen categorical K-12 funds so districts can 'pay teachers more' (Oct 2026); ties new money to growth and backs funding following students, no formula boost.",
+  "url": "https://www.fox13news.com/news/election-2026-where-byron-donalds-stands-data-centers-schools-home-insurance-medicaid",
+  "changed": true
+ },
+ {
+  "who": "Byron Donalds",
+  "key": "clean",
+  "new_stance": "Lean oppose",
+  "evidence": "Wants nuclear and natural gas as the base for affordable power and says humans aren't driving climate change (Oct 2026); no clean-power standard.",
+  "url": "https://www.fox13news.com/news/election-2026-where-byron-donalds-stands-data-centers-schools-home-insurance-medicaid",
+  "changed": true
+ },
+ {
+  "who": "Byron Donalds",
+  "key": "ai",
+  "new_stance": "Lean support",
+  "evidence": "Broke with Trump: 'the states do need to lead' on an AI regulatory framework, calling Congress too slow (Jun 2026); no specific kids' rules.",
+  "url": "https://www.inkl.com/news/trumps-pick-for-florida-governor-byron-donalds-breaks-with-him-on-ai-as-state-sues-openai",
+  "changed": true
+ },
+ {
+  "who": "Alan Wilson",
+  "key": "schools",
+  "new_stance": "Lean support",
+  "evidence": "Priorities page pledges to 'fully fund public schools'; wants teacher pay to keep pace with inflation (Nov 2026); also expands school choice, no formula plan.",
+  "url": "https://www.wtoc.com/2026/11/06/interview-gov-elect-alan-wilson-his-priorities-goals-after-election-win/?outputType=amp",
+  "changed": true
+ },
+ {
+  "who": "Alan Wilson",
+  "key": "clean",
+  "new_stance": "Mixed",
+  "evidence": "Wants V.C. Summer nuclear finished (Nov 2026) but as AG backed EPA repeal of greenhouse-gas reporting and coal-plant water rules (Nov 2025).",
+  "url": "https://www.scag.gov/about-the-office/news/attorney-general-alan-wilson-continues-fight-against-government-overreach-and-for-affordable-electricity/",
+  "changed": true
+ },
+ {
+  "who": "Alan Wilson",
+  "key": "datactr",
+  "new_stance": "Support",
+  "evidence": "Says data centers should 'pay their own way,' with rules scaled to project size, local input and resource-use disclosure (Oct-Nov 2026).",
+  "url": "https://www.wtoc.com/2026/11/06/interview-gov-elect-alan-wilson-his-priorities-goals-after-election-win/?outputType=amp",
+  "changed": true
+ },
+ {
+  "who": "Alan Wilson",
+  "key": "safety",
+  "new_stance": "Support",
+  "evidence": "Education plan would keep expanding School Resource Officer programs; priorities pledge to work with law enforcement and toughen violent-crime penalties (Aug 2026).",
+  "url": "https://www.foxcarolina.com/2026/08/04/gop-gubernatorial-nominee-alan-wilson-shares-education-agenda/",
+  "changed": true
+ },
+ {
+  "who": "Alan Wilson",
+  "key": "ai",
+  "new_stance": "Support",
+  "evidence": "As AG, led 44 attorneys general warning AI firms they'll be held accountable if chatbots harm kids: no 'lab rats' (Aug 2025).",
+  "url": "https://www.scag.gov/about-the-office/news/attorney-general-alan-wilson-leads-44-ags-demanding-big-tech-end-predatory-ai-targeting-of-kids/",
+  "changed": true
+ },
+ {
+  "who": "Alan Wilson",
+  "key": "gun",
+  "new_stance": "Lean oppose",
+  "evidence": "As AG, urged Congress to pass the Constitutional Concealed Carry Reciprocity Act H.R.38, a federal loosening (May 2025).",
+  "url": "https://www.scag.gov/about-the-office/news/attorney-general-alan-wilson-asks-congress-to-pass-concealed-carry-reciprocity-resolution/",
+  "changed": true
+ },
+ {
+  "who": "Alan Wilson",
+  "key": "rural",
+  "new_stance": "Lean support",
+  "evidence": "Wants to ease limits on rural doctors, expand telehealth and seek federal grants for rural care (Nov 2026); opposes Medicaid expansion; no hospital funding plan.",
+  "url": "https://www.wtoc.com/2026/11/06/interview-gov-elect-alan-wilson-his-priorities-goals-after-election-win/?outputType=amp",
+  "changed": true
+ },
+ {
+  "who": "Alan Wilson",
+  "key": "workforce",
+  "new_stance": "Lean support",
+  "evidence": "Education plan would tie schools, technical colleges and employers together so students are job-ready (Aug 2026); no apprenticeship expansion named.",
+  "url": "https://www.foxcarolina.com/2026/08/04/gop-gubernatorial-nominee-alan-wilson-shares-education-agenda/",
+  "changed": true
+ },
+ {
+  "who": "Alan Wilson",
+  "key": "pubopt",
+  "new_stance": "Lean oppose",
+  "evidence": "Opposes Medicaid expansion, saying it 'cost a lot more down the road' (Nov 2026).",
+  "url": "https://www.wtoc.com/2026/11/06/interview-gov-elect-alan-wilson-his-priorities-goals-after-election-win/?outputType=amp",
+  "changed": true
+ }
+]

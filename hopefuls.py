@@ -112,3 +112,174 @@ R3 = {
 for _h in HOPE:
     for _k, _v in R3.get(_h['n'], {}).items():
         if 'cells' in _h: _h['cells'].setdefault(_k, _v)
+
+# Nov 15 2026, second pass.
+R3B = {
+ "Pete Buttigieg": {
+  "clean": [
+   "Lean support",
+   "2019 climate plan: double clean electricity by 2025, zero-emission power by 2035, solar subsidies; no stance on restoring the OBBBA-cut credits.",
+   "https://en.wikipedia.org/wiki/Political_positions_of_Pete_Buttigieg",
+   ""
+  ],
+  "snap": [
+   "Lean support",
+   "Said the OBBBA would 'cut food' for veterans and children as it passed the House (Jul 2025); no restoration bill named.",
+   "https://www.advocate.com/politics/pete-buttigieg-one-big-beautiful-bill",
+   ""
+  ],
+  "ssm": [
+   "Support",
+   "Proposed raising the Social Security payroll-tax cap from $132,900 to $250,000 for solvency (2019 campaign).",
+   "https://www.fa-mag.com/news/buttigieg-unveils-social-security-proposal-50667.html",
+   ""
+  ],
+  "vra": [
+   "Lean support",
+   "2019 Douglass Plan proposed a federal 'New Voting Rights Act' to widen access (Jul 2019); did not name the John Lewis Act.",
+   "https://en.wikipedia.org/wiki/Political_positions_of_Pete_Buttigieg",
+   ""
+  ],
+  "equality": [
+   "Support",
+   "Platform backs passing the federal Equality Act to give LGBTQ Americans nondiscrimination protections (2019-20 campaign).",
+   "https://en.wikipedia.org/wiki/Political_positions_of_Pete_Buttigieg",
+   ""
+  ],
+  "ivf": [
+   "Lean support",
+   "Called Trump's broken IVF promise 'cruel'; pro-family means ensuring access and cost of care (Aug 2025); no bill named.",
+   "https://gayexpress.co.nz/2025/08/pete-buttigieg-slams-trump-for-breaking-ivf-promise-its-cruel-not-pro-family/",
+   ""
+  ],
+  "gun": [
+   "Support",
+   "2020 campaign backed universal background checks, an assault weapons ban, red-flag laws and national gun licensing.",
+   "https://en.wikipedia.org/wiki/Political_positions_of_Pete_Buttigieg",
+   ""
+  ],
+  "rural": [
+   "Lean support",
+   "Said the OBBBA would 'shut down rural hospitals' (Jul 2025); no rural hospital bill named.",
+   "https://www.advocate.com/politics/pete-buttigieg-one-big-beautiful-bill",
+   ""
+  ],
+  "mental": [
+   "Support",
+   "Released a $300 billion plan to expand mental health care and fight addiction (Aug 2019).",
+   "https://en.wikipedia.org/wiki/Political_positions_of_Pete_Buttigieg",
+   ""
+  ],
+  "schools": [
+   "Support",
+   "2019 education plan would triple federal Title I funding for schools.",
+   "https://en.wikipedia.org/wiki/Political_positions_of_Pete_Buttigieg",
+   ""
+  ],
+  "college": [
+   "Support",
+   "2019 plan: free public college for the bottom 80% of students, sliding-scale tuition above; opposes free college for all.",
+   "https://en.wikipedia.org/wiki/Political_positions_of_Pete_Buttigieg",
+   ""
+  ],
+  "tariff": [
+   "Support",
+   "Publicly criticized Trump's tariffs as feeding his concentration of arbitrary power, with Jon Stewart (Apr 2025).",
+   "https://petebuttigieg.substack.com/p/talking-trumps-tariffs-billionaire",
+   ""
+  ]
+ },
+ "Rahm Emanuel": {
+  "schools": [
+   "Lean support",
+   "As mayor, ended Chicago's shortest-in-nation school day, a change that sparked the 2012 teachers strike; not a funding change.",
+   "https://chicago.suntimes.com/news/what-is-mayor-rahm-emanuel-legacy-public-schools-police-shooting-property-tax-pension/",
+   "done"
+  ],
+  "college": [
+   "Support",
+   "As mayor, launched the Star Scholarship: free tuition and books at City Colleges for qualifying CPS graduates (mayor 2011-19; year not on page).",
+   "https://movingforward.chicago.gov/education",
+   "done"
+  ],
+  "workforce": [
+   "Support",
+   "As mayor, launched College to Careers, aligning City Colleges with in-demand industries for job training (2011).",
+   "https://movingforward.chicago.gov/education",
+   "done"
+  ],
+  "safety": [
+   "Support",
+   "As mayor, pledged to hire 1,000 new police officers in two years (2016); net gain of about 600 by May 2018.",
+   "https://chicago.suntimes.com/news/what-is-mayor-rahm-emanuel-legacy-public-schools-police-shooting-property-tax-pension/",
+   "done"
+  ],
+  "ai": [
+   "Support",
+   "Urged a U.S. ban on social media for kids under 16, like Australia's (Dec 2025).",
+   "https://www.wptv.com/science-and-tech/social-media/prominent-democrat-calls-for-us-to-restrict-social-media-for-kids-16-and-younger",
+   ""
+  ],
+  "tariff": [
+   "Support",
+   "Called Trump's tariffs 'the largest tax increase in memory' and a blunder (Apr 2025); backs high tariffs on China.",
+   "https://rahmemanuel.substack.com/p/trumps-folly-is-piling-up-and-america",
+   ""
+  ],
+  "equality": [
+   "Lean support",
+   "Backed same-sex marriage with a 100% HRC score in Congress; as mayor added transgender protections; no Equality Act statement.",
+   "https://www.wikiwand.com/en/articles/Rahm_Emanuel",
+   ""
+  ],
+  "gun": [
+   "Lean support",
+   "Backed banning many rifles under 'sporting purposes' rules (1998); NRA rated him F (Dec 2003); no background-check vote found.",
+   "https://www.wikiwand.com/en/articles/Rahm_Emanuel",
+   ""
+  ]
+ },
+ "Kamala Harris": {
+  "schools": [
+   "Lean support",
+   "2024 plan touted 'the largest investment in public education' (federal aid) but proposed no new K-12 funding (Sep 2024).",
+   "https://kamalaharris.com/a-new-way-forward",
+   ""
+  ],
+  "college": [
+   "Lean support",
+   "2024 plan cited a $900 Pell Grant increase and vowed to make college more affordable; no free or capped tuition (Sep 2024).",
+   "https://kamalaharris.com/a-new-way-forward",
+   ""
+  ],
+  "rural": [
+   "Support",
+   "2024 plan: 'helping increase funding for rural hospitals' and $130M for rural health infrastructure (Sep 2024).",
+   "https://kamalaharris.com/a-new-way-forward",
+   ""
+  ],
+  "mental": [
+   "Support",
+   "VP statement backed the final mental health parity rule barring stricter limits on mental health care (Sep 2024).",
+   "https://www.presidency.ucsb.edu/documents/fact-sheet-biden-harris-administration-lowers-mental-health-care-costs-improving-access",
+   ""
+  ],
+  "safety": [
+   "Support",
+   "As VP announced $285M for school mental health counselors plus $6M for community violence intervention (Jan 2024).",
+   "https://www.presidency.ucsb.edu/documents/press-release-vice-president-harris-announces-285-million-increase-mental-health",
+   ""
+  ]
+ },
+ "Alexandria Ocasio-Cortez": {
+  "ivf": [
+   "Support",
+   "Original cosponsor, Right to IVF Act of 2026 H.R.9941 (Jul 2026).",
+   "https://www.govinfo.gov/app/details/BILLS-119hr9941ih",
+   "spons"
+  ]
+ }
+}
+for _h in HOPE:
+    for _k, _v in R3B.get(_h['n'], {}).items():
+        if 'cells' in _h: _h['cells'].setdefault(_k, _v)

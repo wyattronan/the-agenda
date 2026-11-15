@@ -77,7 +77,7 @@ SEN.update({
  "pubopt": "Lets people buy into a government-run health plan or Medicare alongside private insurance, adding a lower-cost choice without ending private coverage.",
  "ssm": "Rules out cuts to Social Security and Medicare benefits and has high earners pay more into them, usually by lifting the cap on wages subject to the payroll tax, to keep both funded for decades.",
  "rural": "Sends more money to rural hospitals and undoes the hit they take from the 2025 Medicaid cuts, aimed at keeping emergency rooms and maternity wards from closing.",
- "mental": "Expands mental health care through stronger insurance parity enforcement, more money for the 988 crisis line and more school counselors.",
+ "mental": "Raises Medicare pay for counselors, therapists and clinical social workers from 75% to 85% of what doctors get (S.4202, bipartisan), aimed at easing shortages, especially in rural areas, alongside stronger coverage parity.",
  "ivf": "Creates a federal right to IVF and other fertility treatment and requires many insurers to cover it, protecting access after state court rulings put clinics at risk.",
  "mctax": "Cuts federal income taxes for middle-class families, for example by exempting the first $75,000 of a couple's income, paid for by taxes on the wealthy.",
  "snap": "Reverses the 2025 OBBBA cuts to SNAP food assistance, including its new work rules and the cost shift to states, restoring benefits for millions of people.",

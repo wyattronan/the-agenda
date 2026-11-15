@@ -1,0 +1,170 @@
+[
+ {
+  "who": "John Barrasso",
+  "key": "mental",
+  "new_stance": "Support",
+  "evidence": "Sponsor, Mental Health Access and Provider Support Act S.4202 (Mar 2026), raising Medicare pay for mental-health counselors and therapists to 85% of physician rates.",
+  "url": "https://www.govinfo.gov/app/details/BILLS-119s4202is",
+  "changed": true
+ },
+ {
+  "who": "Chris Coons",
+  "key": "mental",
+  "new_stance": "Support",
+  "evidence": "Original cosponsor, Mental Health Access and Provider Support Act S.4202 (Mar 25 2026). Co-led the bill with Barrasso.",
+  "url": "https://www.govinfo.gov/app/details/BILLS-119s4202is",
+  "changed": true
+ },
+ {
+  "who": "Shelley Moore Capito",
+  "key": "mental",
+  "new_stance": "Support",
+  "evidence": "Original cosponsor, Mental Health Access and Provider Support Act S.4202 (Mar 25 2026).",
+  "url": "https://www.govinfo.gov/app/details/BILLS-119s4202is",
+  "changed": true
+ },
+ {
+  "who": "Catherine Cortez Masto",
+  "key": "mental",
+  "new_stance": "Support",
+  "evidence": "Original cosponsor, Mental Health Access and Provider Support Act S.4202 (Mar 25 2026). Also co-leads the CCBHC bill S.3402 (Dec 2025).",
+  "url": "https://www.govinfo.gov/app/details/BILLS-119s4202is",
+  "changed": true
+ },
+ {
+  "who": "Maggie Hassan",
+  "key": "mental",
+  "new_stance": "Support",
+  "evidence": "Original cosponsor, Mental Health Access and Provider Support Act S.4202 (Mar 25 2026). Also sponsors S.2847 (Sep 2025).",
+  "url": "https://www.govinfo.gov/app/details/BILLS-119s4202is",
+  "changed": true
+ },
+ {
+  "who": "Jeff Merkley",
+  "key": "mental",
+  "new_stance": "Support",
+  "evidence": "Cosponsor, Mental Health Access and Provider Support Act S.4202 (joined Jun 16 2026).",
+  "url": "https://policyrisk.com/legislation/S4202",
+  "changed": true
+ },
+ {
+  "who": "John Boozman",
+  "key": "mental",
+  "new_stance": "Support",
+  "evidence": "Cosponsor, Mental Health Access and Provider Support Act S.4202 (joined Jul 13 2026).",
+  "url": "https://policyrisk.com/legislation/S4202",
+  "changed": true
+ },
+ {
+  "who": "Tammy Duckworth",
+  "key": "mental",
+  "new_stance": "Lean support",
+  "evidence": "Cosponsor, Mental Health and MAMA Act S.3698 (Jan 2026), ending cost-sharing for perinatal mental health care; related bill, not S.4202.",
+  "url": "https://www.billsponsor.com/bills/822526/senate-bill-3698-congress-119",
+  "changed": true
+ },
+ {
+  "who": "Martin Heinrich",
+  "key": "mental",
+  "new_stance": "Lean support",
+  "evidence": "Cosponsor, Mental Health and MAMA Act S.3698 (Jan 2026), ending cost-sharing for perinatal mental health care; related bill, not S.4202.",
+  "url": "https://www.billsponsor.com/bills/822526/senate-bill-3698-congress-119",
+  "changed": true
+ },
+ {
+  "who": "Tammy Baldwin",
+  "key": "mental",
+  "new_stance": "Lean support",
+  "evidence": "Co-led Mental Health and MAMA Act S.3698 (Jan 2026) on no-cost perinatal mental health care; sponsor, 988 LGBTQ+ Youth Access Act S.2826 (Sep 2025). Related bills.",
+  "url": "https://www.baldwin.senate.gov/news/press-releases/baldwin-shaheen-moore-lead-effort-to-support-pregnant-and-postpartum-mothers",
+  "changed": true
+ },
+ {
+  "who": "Lisa Murkowski",
+  "key": "mental",
+  "new_stance": "Lean support",
+  "evidence": "Cosponsor, 988 LGBTQ+ Youth Access Act S.2826 (Sep 2025), a related crisis-line bill, not S.4202.",
+  "url": "https://www.congress.gov/119/bills/s2826/BILLS-119s2826is.htm",
+  "changed": true
+ },
+ {
+  "who": "Tim Scott",
+  "key": "mental",
+  "new_stance": "Lean support",
+  "evidence": "Cosponsor, Occupational Therapy Mental Health Parity Act S.2847 (Sep 2025), a narrower Medicare outreach bill; related, not S.4202.",
+  "url": "https://www.thelobbynews.com/congress/bills/119/senate-bill/2847",
+  "changed": true
+ },
+ {
+  "who": "John Kennedy",
+  "key": "mental",
+  "new_stance": "Lean support",
+  "evidence": "Sponsor, Improving Mental Health Access for Students Act S.1924 (Jun 2025), a related, narrower bill.",
+  "url": "https://wtfvote.us/bill/119-s1924",
+  "changed": true
+ },
+ {
+  "who": "Michael Bennet",
+  "key": "mental",
+  "new_stance": "Lean support",
+  "evidence": "Sponsor, Mental and Physical Health Care Comorbidities Act S.1264 (Apr 2025), a related mental-health care bill.",
+  "url": "https://policysoup.com/bills/s1264-119/activities",
+  "changed": true
+ },
+ {
+  "who": "Alex Padilla",
+  "key": "mental",
+  "new_stance": "Lean support",
+  "evidence": "Co-led 9-8-8 Lifeline Cybersecurity Responsibility Act (Apr 2025, later enacted), a related crisis-line bill.",
+  "url": "https://www.padilla.senate.gov/?p=84280",
+  "changed": true
+ },
+ {
+  "who": "Juliana Stratton",
+  "key": "mental",
+  "new_stance": "Support",
+  "evidence": "Proposed expanding federal parity laws so more mental-health treatments are covered like physical care (Oct 2025).",
+  "url": "https://capitolnewsillinois.com/news/stratton-aims-to-bring-pritzker-administration-policies-to-national-stage/",
+  "changed": true
+ },
+ {
+  "who": "Josh Turek",
+  "key": "mental",
+  "new_stance": "Support",
+  "evidence": "Campaign platform pledges to \"invest in mental health care, particularly in rural communities\" (2026).",
+  "url": "https://turek4iowa.com/platform/",
+  "changed": true
+ },
+ {
+  "who": "Ed Markey",
+  "key": "mental",
+  "new_stance": "Support",
+  "evidence": "Campaign site pledges to strengthen community mental health; sponsor, Community Mental Wellness and Resilience Act S.2445 (2025).",
+  "url": "https://www.edmarkey.com/issues-priorities/affordable-care-for-all/",
+  "changed": true
+ },
+ {
+  "who": "Peggy Flanagan",
+  "key": "mental",
+  "new_stance": "Support",
+  "evidence": "Campaign site backs \"payment and coverage parity\" so insurers cover mental health like physical care (2026).",
+  "url": "https://peggyflanagan.com/priorities/",
+  "changed": true
+ },
+ {
+  "who": "Annie Andrews",
+  "key": "mental",
+  "new_stance": "Support",
+  "evidence": "Campaign site pledges to make mental health care \"easier to find and afford\" (2026).",
+  "url": "https://drannieandrews.com/issue/healthcare-is-a-right-not-a-privilege/",
+  "changed": true
+ },
+ {
+  "who": "Mary Peltola",
+  "key": "mental",
+  "new_stance": "Lean support",
+  "evidence": "Voter-guide answer backs \"increased investment in mental health resources,\" given as a gun-violence response (2026 campaign).",
+  "url": "https://alaskabeacon.com/voter-guides/contests/2026-alaska-congress-u-s-senate/",
+  "changed": true
+ }
+]

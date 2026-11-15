@@ -134,7 +134,7 @@ FULL.update({
  "pubopt":"Create a public health insurance option or Medicare buy-in",
  "ssm":"Protect and expand Social Security and Medicare: no benefit cuts, and the wealthy pay in (lift the payroll-tax cap)",
  "rural":"Protect rural hospitals: more funding, and undo the hit from the Medicaid cuts",
- "mental":"Expand mental health care: parity enforcement, crisis lines and school counselors",
+ "mental":"Expand mental health care: pay counselors and therapists closer to doctors in Medicare (Mental Health Access and Provider Support Act) and enforce coverage parity",
  "ivf":"Right to IVF Act",
  "mctax":"A middle-class income tax cut (Keep Your Pay Act / Working Americans' Tax Cut Act)",
  "snap":"Reverse the OBBBA's SNAP (food assistance) cuts",
