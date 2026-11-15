@@ -394,6 +394,16 @@ h1 a{color:inherit;text-decoration:none}
 footer{border-top:3px solid var(--ink);padding-top:12px}
 /* one-line vote bar */
 .vbar-wrap{position:relative}
+.vbar .vhit{position:absolute;inset:0;display:grid;z-index:2}
+.vbar .vhit .vs{cursor:help;min-width:0}
+.vbar .vhit .vs:hover,.seats .seat[data-tiph]:hover,.seats .seat[data-tiph]:focus-visible{box-shadow:inset 0 0 0 2px var(--ink);outline:none}
+.seats .seat[data-tiph]{cursor:help}
+.tipbox .vtsub{font-weight:500;color:var(--muted);margin-left:6px;font-size:.88em}
+.tipbox .vty{color:var(--yes);font-weight:700}.tipbox .vtn{color:var(--no);font-weight:700}.tipbox .vtu{color:var(--muted);font-weight:700}
+.tipbox .smrows{display:grid;gap:6px}
+.tipbox .smrow{display:block;padding-left:8px;border-left:3px solid transparent}
+.tipbox .smrow.on{border-left-color:var(--ink)}
+.tipbox .smrow .smv{display:block;font-size:.92em}
 .vbar{display:flex;height:22px;border:2px solid var(--ink);border-radius:6px;overflow:hidden;background:var(--neutral);position:relative}
 .vbar::after{content:"";position:absolute;inset:0;background:repeating-linear-gradient(90deg,transparent 0 calc(100% / var(--n) - 1px),color-mix(in srgb,var(--surface) 70%,transparent) calc(100% / var(--n) - 1px) calc(100% / var(--n)));pointer-events:none}
 .vbar i{display:block;height:100%;transition:width .45s cubic-bezier(.3,1.4,.5,1)}
@@ -2491,11 +2501,23 @@ function renderRules(){
   document.querySelectorAll('#fmode button').forEach(b=>b.setAttribute('aria-pressed', b.dataset.m===fmode));
   const fc=counts('fil').y;
 }
-function seatStrip(vals, N, marks){
+function seatStrip(vals, N, marks, tips){
   const order=['y','u','n'];
-  const sorted = vals.slice().sort((a,b)=>order.indexOf(a)-order.indexOf(b));
+  const idx = vals.map((v,i)=>i).sort((a,b)=>order.indexOf(vals[a])-order.indexOf(vals[b]));   // stable: keeps seat order inside each group
   const tall = marks.some(m=>m.includes('mark lo')) ? ' tall' : '';
-  return `<div class="seats" style="grid-template-columns:repeat(${N},minmax(0,1fr))">${sorted.map(x=>`<span class="seat ${x==='x'?'u':x}"></span>`).join('')}</div><div class="marks${tall}">${marks.join('')}</div>`;
+  return `<div class="seats" style="grid-template-columns:repeat(${N},minmax(0,1fr))">${idx.map(i=>{ const x=vals[i], t=tips&&tips[i]; return `<span class="seat ${x==='x'?'u':x}"${t?` data-tiph="${esc(t)}" tabindex="0"`:''}></span>`; }).join('')}</div><div class="marks${tall}">${marks.join('')}</div>`;
+}
+// Tooltip for one voter: who they are, how they're counted, and their researched position.
+const VNAME = {y:'Yes', n:'No', u:'Undecided', x:'Undecided'};
+function voterTip(name, sub, v, stance, ev){
+  const e = ev ? String(ev) : '';
+  return TT(`${esc(name)}<span class="vtsub">${esc(sub)}</span>`, TKV([['Counted as', `<span class="vt${v==='x'?'u':v}">${VNAME[v]||v}</span>`], stance?['Position', esc(stance)]:null]), e ? esc(e.length>190 ? e.slice(0,187).replace(/\s+\S*$/,'')+'…' : e) : null);
+}
+// Senate vote meter: the senators behind each seat, in the order the bar fills (yes, undecided, no; Democrats first inside each group).
+function senSeatTips(k){
+  const order={y:0,u:1,n:2}, pty=s=>s.p==='R'?2:(s.pl||'').startsWith('I')?1:0;
+  return eligible(k).slice().sort((a,b)=>(order[votes[a.id][k]]??1)-(order[votes[b.id][k]]??1) || pty(a)-pty(b) || a.st.localeCompare(b.st))
+    .map(s=>{ const v=votes[s.id][k], p=s.p==='D'&&(s.pl||'').startsWith('I')?'I':s.p, [st,ev]=s.r[k]||['','']; return `<span class="vs ${v}" data-tiph="${esc(voterTip(s.n, `${p}-${s.st}${s.new?' · new':''}`, v, st, ev))}"></span>`; }).join('');
 }
 
 /* ---------- Senate-chamber hemicycle: seats fill left to right (yes, undecided, no), with threshold spokes ---------- */
@@ -2550,13 +2572,14 @@ function renderDetail(){
     box.innerHTML = `
       <div class="dhead"><div class="ttl"><h2 class="dttl"><span class="dico" title="${esc(tc(a[1]))}">${icon(a[0])}</span><span>${mtitle('sen',k,FULL(k))}${topTag('sen',k)}${lawTag(k)}</span></h2>${descHtml('sen',k)}${dBtns('sen',k)}</div></div>
       <div class="vrow"><div class="nums3"><div><div class="big y" id="d-y"></div><div class="small">yes</div></div><div><div class="big u" id="d-u"></div><div class="small">undecided</div></div><div><div class="big n" id="d-n"></div><div class="small">no</div></div></div><span class="pill" id="d-pill"></span></div>
-      <div class="vbar-wrap"><div class="vbar" id="d-bar" style="--n:${N}"><i class="sy" id="d-sy"></i><i class="su" id="d-su"></i><i class="sn" id="d-sn"></i></div><div class="marks">${marks.join('')}</div></div>
+      <div class="vbar-wrap"><div class="vbar" id="d-bar" style="--n:${N}"><i class="sy" id="d-sy"></i><i class="su" id="d-su"></i><i class="sn" id="d-sn"></i><span class="vhit" id="d-hit" style="grid-template-columns:repeat(${N},minmax(0,1fr))"></span></div><div class="marks">${marks.join('')}</div></div>
 `;
   }
   $('d-y').textContent=c.y; $('d-u').textContent=c.u; $('d-n').textContent=c.n;
   const pill=$('d-pill'); pill.className='pill '+v.cls; pill.textContent=v.txt;
   $('d-sy').style.width=pct(c.y); $('d-su').style.width=pct(c.u); $('d-sn').style.width=pct(c.n);
   $('d-bar').setAttribute('aria-label', `${c.y} yes, ${c.u} undecided, ${c.n} no; ${v.t} needed`);
+  $('d-hit').innerHTML = senSeatTips(k);
   const pass = v.cls==='pass';
   updateMini();
   if(lastPass.k===k && lastPass.t===v.t && !lastPass.pass && pass){
@@ -2697,10 +2720,26 @@ function renderSMap(){
 function setSV(id,v){ votes[id][cur]=v; sNav.draw(); renderRules(); renderDetail(); renderList(); persist(); }
 $('smtiles').addEventListener('click',e=>{
   const h=e.target.closest('.sh'); const tile=e.target.closest('.sst'); if(!tile) return;
-  smSel=tile.dataset.st;
-  if(h && votes[h.dataset.sid] && (cur!=='sch'||SEN.find(x=>x.id===h.dataset.sid).p==='D')){ const id=h.dataset.sid; setSV(id, CYCLE[votes[id][cur]]||'y'); return; }
-  renderList(); persist();
+  // First click on a state opens its senators' cards; once it's selected, a click changes the vote of the half under the cursor.
+  if(tile.dataset.st!==smSel){ smSel=tile.dataset.st; renderList(); persist(); smTip(e); return; }
+  if(h && votes[h.dataset.sid] && (cur!=='sch'||SEN.find(x=>x.id===h.dataset.sid).p==='D')){ const id=h.dataset.sid; setSV(id, CYCLE[votes[id][cur]]||'y'); smTip(e); return; }
 });
+// Hover: who each half of a state is, how they're counted, and their researched position (follows the cursor).
+function smTip(e){
+  if(TOUCH) return;
+  const h=e.target.closest&&e.target.closest('#smtiles .sh'), tile=h&&h.closest('.sst');
+  if(!h||!tile){ if(!tipEl && TIPBOX.dataset.sm){ TIPBOX.hidden=true; delete TIPBOX.dataset.sm; } return; }
+  const k=cur, st=tile.dataset.st, sel=st===smSel, mine=SEN.filter(s=>s.st===st);
+  const row=s=>{ const v=(k==='sch'&&s.p!=='D')?'x':votes[s.id][k], p=s.p==='D'&&(s.pl||'').startsWith('I')?'I':s.p, [stc]=s.r[k]||['',''];
+    return `<span class="smrow${s.id===h.dataset.sid?' on':''}"><b>${esc(s.n)}</b> <span class="vtsub">${p}-${s.st}</span><span class="smv"><span class="vt${v==='x'?'u':v}">${v==='x'?'Not eligible':VNAME[v]}</span>${stc&&v!=='x'?` · ${esc(stc)}`:''}</span></span>`; };
+  TIPBOX.innerHTML = `<span class="tt">${esc(STN[st]||st)}</span><span class="tl smrows">${mine.map(row).join('')}</span><span class="tl small">${sel?'Click a half to change that senator\'s vote':'Click to open these senators'}</span>`;
+  TIPBOX.hidden=false; TIPBOX.dataset.sm='1';
+  const w=TIPBOX.offsetWidth, hg=TIPBOX.offsetHeight; let x=e.clientX+16, y=e.clientY+18;
+  if(x+w>innerWidth-8) x=e.clientX-w-16; if(y+hg>innerHeight-8) y=e.clientY-hg-14;
+  TIPBOX.style.left=(Math.max(8,x)+scrollX)+'px'; TIPBOX.style.top=(Math.max(8,y)+scrollY)+'px';
+}
+$('smtiles').addEventListener('mousemove', smTip);
+$('smtiles').addEventListener('mouseleave', ()=>{ if(TIPBOX.dataset.sm){ TIPBOX.hidden=true; delete TIPBOX.dataset.sm; } });
 $('smside').addEventListener('click',e=>{
   const a=e.target.closest('[data-all]');
   if(a){ SEN.filter(s=>s.st===smSel && (cur!=='sch'||s.p==='D')).forEach(s=>votes[s.id][cur]= a.dataset.all==='r' ? sDef(s,cur) : a.dataset.all); setSV(SEN.find(s=>s.st===smSel).id, votes[SEN.find(s=>s.st===smSel).id][cur]); return; }
@@ -3828,7 +3867,7 @@ function renderSS(){
   box.innerHTML = `<div class="panel detail">
     <div class="sswhead"><div class="ttl"><div class="areatag">${icon(GI[k].a)}${esc(S.name)} Senate whip · ${r} R · ${d} D${R.ms.length<S.seats?` · ${S.seats-R.ms.length} vacant`:''}</div><h2>${esc(GI[k].f)}</h2></div>
       <div class="nums3"><div><div class="big y">${c.y}</div><div class="small">yes</div></div><div><div class="big u">${c.u}</div><div class="small">undecided</div></div><div><div class="big n">${c.n}</div><div class="small">no</div></div><span class="pill ${v.cls}" style="align-self:center">${v.txt}</span></div></div>
-    <div>${seatStrip(R.ms.map(m=>sVotes[m.vid][k]), R.N, marks)}</div>
+    <div>${seatStrip(R.ms.map(m=>sVotes[m.vid][k]), R.N, marks, R.ms.map(m=>{ const [st,ev]=m.r[k]||['','']; return voterTip(m.n, `${m.p} · District ${m.d}`, sVotes[m.vid][k], st, ev); }))}</div>
     <p class="explain">${esc(S.rule)} With every Democrat voting yes, this needs <b>${v.repsNeeded} Republican vote${v.repsNeeded===1?'':'s'}</b>. ${esc(path)}${SPOWER.has(k)?' Per our rule for power measures, every Republican starts as No.':''}</p>
     <p class="explain"><b>${esc(S.gov)}:</b> ${gst!=='Noted'?`<span class="tag ${tagCls(gst)}">${esc(gst)}</span>`:''}${esc(gev)}</p>
     <div class="ssasm"><b>Assumptions</b>${asmHtml}<span class="small">Presiding: ${esc(S.pres)}${S.tb?', breaks ties':', no tie vote'}</span></div>
