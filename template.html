@@ -4217,11 +4217,35 @@ function show(name){
   requestAnimationFrame(()=>{ const hd=document.querySelector('.wrap > header'), y=(hd? hd.getBoundingClientRect().bottom : $('tabs').getBoundingClientRect().top) + window.scrollY - 10; window.scrollTo({top:Math.max(0,y), behavior:'instant'}); }); // measured from the masthead: the menu is sticky, so its own position moves with the page
 }
 TABS.forEach(t=>{ $('tab-'+t).onclick=()=>{ location.hash=t; show(t); }; });
-window.addEventListener('hashchange',()=>show(location.hash.slice(1)));
+/* Deep links: #tab/part/part opens a tab on one exact view, e.g. #senate/sch, #governors/wage/NC/senate,
+   #top10/prio, #gsd/sen, #proj/sen, #gop/ledger, #gloss/filibuster. Used by the Substack cards. */
+const DEEP = {
+  senate:(a,b,c)=>{ if(KEYS.includes(a)) cur=a; if(b==='map'||b==='list') sview=b; const st=(c||'').toUpperCase(); if(SEN.some(s=>s.st===st)) smSel=st; renderSenate(); return st&&sview==='map' ? '#smap' : null; },
+  governors:(a,b,c)=>{ if(a==='ctl'||GI[a]) pol=a; const st=(b||'').toUpperCase(); if(STS.includes(st)) selSt=st; ssOpen = c==='senate' && SSTATES.has(selSt); renderGovernors(); return ssOpen ? '#ssw' : st ? '#governors .mapbox' : null; },
+  top10:a=>{ if(['prio','likely','verge','unlikely'].includes(a)){ t10Side=a; if(window.t10Ready) renderTop10(); } return null; },
+  gsd:a=>{ if(['gov','sen','hope'].includes(a)){ gsdSide=a; gsdAll=false; gsdOpen=null; gsdRan=null; renderGSD(); return '#gsdbox'; } return null; },
+  proj:a=>{ if(['ec','sen','gov'].includes(a)){ pmode=a; pTouched=true; pSel=null; renderPMap(); } return null; },
+  gop:a=>({loss:'#gptl', factions:'#gplanes', ledger:'#gpledger', table:'#gpgrid'})[a]||null,
+  gloss:(a,b)=>{ if(a) setTimeout(()=>window.agendaGloss&&window.agendaGloss(a,b),350); return null; }
+};
+function route(h){
+  const p=(h||'').split('/').map(s=>{ try{ return decodeURIComponent(s); }catch(e){ return s; } });
+  const tab = p[0]==='statesenates' ? 'governors' : p[0];
+  if(p.length>1 && p[1] && DEEP[tab]){
+    window.agendaDeepTab = tab;   // the first-visit explainer stays closed when someone arrives on an exact view
+    show(tab);
+    const tgt = DEEP[tab](p[1],p[2],p[3]);
+    if(tgt) setTimeout(()=>{ const el=document.querySelector(tgt), tb=$('tabs'); if(el) window.scrollTo({top:el.getBoundingClientRect().top+window.scrollY-(tb?tb.getBoundingClientRect().height:0)-14, behavior:'instant'}); },140);
+    return;
+  }
+  show(p[0]);
+}
+window.addEventListener('hashchange',()=>route(location.hash.slice(1)));
 
-show(location.hash.slice(1)||'home');
+show(location.hash.slice(1).split('/')[0]||'home');
 $('aboutbtn').onclick=()=>$('about').showModal();
 renderSenate(); renderGovernors(); renderPMap();
+if(location.hash.includes('/')) route(location.hash.slice(1));
 
 // home-card and tab graphics: intro plays once, then rests (hover loops via CSS)
 document.querySelectorAll('.hb-art').forEach(svg=>svg.addEventListener('animationstart',e=>{ if(/In$/.test(e.animationName) && !svg._t) svg._t=setTimeout(()=>svg.classList.add('done'),2400); }));
@@ -4877,6 +4901,12 @@ window.GLOSSARY_LINKS = [
   /* If / Then flow: what leads into this term -> the term -> what it leads to */
   const map = document.getElementById('gl-flow-map');
   let current = null;
+  window.agendaGloss = (slug, mode) => {
+    const sl = s => String(s).toLowerCase().replace(/&/g,'and').replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'');
+    const q = sl(slug), x = all.find(o=>sl(o.t)===q) || all.find(o=>sl(o.t).startsWith(q));
+    if(!x) return;
+    if(mode==='def') openTerm(x); else openFlow(x);
+  };
   const openFlow = x => {
     hide(dlg); current = x;
     document.getElementById('gl-flow-t').textContent = `How ${x.t} connects`;
@@ -5335,7 +5365,7 @@ h1:has(.hlt),h2:has(.hlt),h3:has(.hlt),h4:has(.hlt){text-wrap:balance}
   let pending = null;
   const firstVisit = () => {
     const id = current();
-    if (!id || !X[id] || seen[id] || pending) return;
+    if (!id || !X[id] || seen[id] || pending || id === window.agendaDeepTab) return;
     pending = setTimeout(() => { pending = null; if (current() === id && !seen[id]) open(id); }, 420);
   };
   const syncBtn = () => { const id = current(); hb.hidden = !(id && X[id]); };
