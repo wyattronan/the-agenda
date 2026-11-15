@@ -24,6 +24,7 @@ Steps:
 4. Run `./build.sh`. If `checks.py` fails, stop and change nothing.
 5. Safety cap: if a run would change more than 15 positions, don't push to `main`. Open a pull request instead, as in the weekly flow.
 6. Commit as "Daily update YYYY-MM-DD: N changes", with one line per change. Push to `main`, and Netlify deploys.
+   Include `fc/stance_log.json` in the commit. The build stamps each stance change with the build date (Chicago time), and the site tags those cells "New stance" for 7 days. Never edit the log by hand.
 7. Send a short notification listing the changes.
 
 ## Weekly thorough scrape (needs approval)

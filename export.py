@@ -100,6 +100,9 @@ d["top10"], d["topcount"] = _camp.rank(d, d["camp"])
 print("top10", d["top10"])
 import oxford as _ox
 d = _ox.walk(d)
+# date each stance change; the site tags cells changed in the last 7 days "NEW STANCE"
+import newstance as _ns
+d["newst"] = _ns.update(d)
 json.dump(d, open("data.json", "w"), ensure_ascii=False)
 tpl = open("template.html").read()
 blob = json.dumps(d, ensure_ascii=False).replace("</", "<\\/")

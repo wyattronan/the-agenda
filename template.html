@@ -113,6 +113,8 @@ input[type=search]{min-width:200px}
 .newtag,.closetag,.asmtag{font-size:10px;font-weight:700;border-radius:4px;padding:0 4px;flex:none}
 .newtag{color:var(--ink)!important;background:var(--hl)!important;border:1px solid var(--ink)!important;padding:1px 8px!important;border-radius:999px!important}
 .closetag{color:var(--teal);border:1px solid var(--teal)}
+.mc .ev .nstag{margin-left:8px;vertical-align:middle}
+.nstag{flex:none;display:inline-block;font-family:var(--caps);font-size:9px;font-weight:700;line-height:1.6;letter-spacing:.07em;text-transform:uppercase;color:var(--no);border:1px solid color-mix(in srgb,var(--no) 40%,transparent);background:color-mix(in srgb,var(--no) 6%,transparent);border-radius:999px;padding:0 6px;white-space:nowrap}
 .asmtag{color:var(--no);border:1px dashed var(--no)}
 .vote{margin-left:auto;display:inline-grid;grid-template-columns:repeat(3,1fr);border:1px solid var(--line);border-radius:7px;overflow:hidden;width:108px;flex:none}
 .vote button{border:0;background:none;padding:4px 0;font-size:12px;font-weight:700;cursor:pointer;color:var(--muted)}
@@ -2334,6 +2336,10 @@ h1 .hl{background-image:linear-gradient(transparent 36%,var(--hl) 36%,var(--hl) 
 <script id="data" type="application/json">__DATA__</script>
 <script>
 const D = JSON.parse(document.getElementById('data').textContent);
+// Stances published in the last 7 days get a NEW STANCE tag (dates from fc/stance_log.json, checked against today's date too)
+const NEWST = D.newst || {};
+const newSince = key=>{ const d=NEWST[key]; if(!d) return ''; const age=(Date.now()-new Date(d+'T12:00:00').getTime())/864e5; return age<7 ? d : ''; };
+const nsTag = key=>{ const d=newSince(key); if(!d) return ''; const t=new Date(d+'T12:00:00').toLocaleDateString('en-US',{month:'short',day:'numeric'}); return `<span class="nstag" title="Stance updated ${t}">New stance</span>`; };
 const LS = 'whip2027-v3';
 const DW26 = new Set(["AK", "AZ", "CA", "CO", "CT", "DE", "GA", "HI", "IA", "IL", "KS", "MA", "MD", "ME", "MI", "MN", "MS", "NC", "NH", "NJ", "NM", "NV", "NY", "OH", "OR", "PA", "RI", "SC", "TX", "VA", "WI"]); // states Democrats won statewide (Senate or Governor) in 2026
 // every senator whose seat is up in 2028 (Class III, incl. the 2026 specials in FL and OH, which run to Jan. 2029)
@@ -2571,14 +2577,14 @@ const TCH = list=>`<span class="tch">${list.map(x=>`<i>${x}</i>`).join('')}</spa
 const TFT = t=>`<span class="tft">${t}</span>`;
 let POP = '';
 const STK = {};
-function card({id, vid, top, stance, ev, note, v, asm, dw, src, nm, iss}){
+function card({id, vid, top, stance, ev, note, v, asm, dw, src, nm, iss, nk}){
   const b=(val,lab)=>`<button class="${v===val&&POP===vid+'|'+val?'pop':''}" data-id="${vid}" data-v="${val}" aria-pressed="${v===val}" aria-label="${lab}" title="${lab}">${VICON[val]}</button>`;
   const key = vid+'|'+(iss||''); STK[key] = {nm:nm||'', stance, ev, note, src, iss, asm};
   const empty = !ev || /^No position on record yet\.?$/.test(ev);
   const tip = TT(`${esc(nm||'')} · ${esc(stance)}`, esc(empty?'No statement on record yet.':ev.length>150?ev.slice(0,147).replace(/\s+\S*$/,'')+'…':ev), note?esc(note):'', asm?'Assumed No: a measure that could add to Democratic power.':'', TFT(`Click for the full record${src?' and source':''}`));
   return `<div class="mc v${v==='x'?'u':v}${dw?' dw':''}" data-card="${id}"${dw?` title="${DWTIP}"`:''}>
     <div class="mtop">${top}${asm?'<span class="asmtag" title="Starts as No under our rule for power measures">Assumed No</span>':''}<span class="vote" role="group">${b('n','No')}${b('u','?')}${b('y','Yes')}</span></div>
-    <div class="ev"><button type="button" class="tag stbtn ${tagCls(stance)}" data-stk="${esc(key)}" data-tiph="${esc(tip)}" aria-haspopup="dialog">${esc(stance)}<span class="stmore" aria-hidden="true">›</span></button></div></div>`;
+    <div class="ev"><button type="button" class="tag stbtn ${tagCls(stance)}" data-stk="${esc(key)}" data-tiph="${esc(tip)}" aria-haspopup="dialog">${esc(stance)}<span class="stmore" aria-hidden="true">›</span></button>${nk?nsTag(nk):''}</div></div>`;
 }
 function openStance(key){
   const r = STK[key]; if(!r) return;
@@ -2614,7 +2620,7 @@ function renderList(){
   $('list').innerHTML = rows.map(s=>{
     const [stance,ev]=s.r[k];
     const top = `<span class="stc">${s.st}</span><b data-tiph="${esc(gsdTip('sen',s.id,s.n))}" tabindex="0">${esc(s.n)}</b><span class="pty ${s.p}">${s.p==='D'&&s.pl.startsWith('I')?'I':s.p}</span>${s.new?'<span class="newtag">NEW</span>':''}`;
-    return card({id:s.id, vid:s.id, top, stance, ev, v:votes[s.id][k], asm: s.p==='R' && POWER.has(k), dw: isDW(s), src: CURL.sen[s.id+'|'+k], nm:s.n, iss:FULL(k)});
+    return card({id:s.id, vid:s.id, top, stance, ev, v:votes[s.id][k], asm: s.p==='R' && POWER.has(k), dw: isDW(s), src: CURL.sen[s.id+'|'+k], nm:s.n, iss:FULL(k), nk:'sen:'+s.id+'|'+k});
   }).join('');
 }
 
@@ -2673,7 +2679,7 @@ function renderSMap(){
     <div class="wsb"><span class="small">Whole state</span><div><button class="btn" data-all="y">Yes</button><button class="btn" data-all="n">No</button><button class="btn" data-all="u">Undecided</button><button class="btn" data-all="r">Research</button></div></div>
     ${ss.map(s=>{ const [stance,ev]=s.r[k]; const top=`<b data-tiph="${esc(gsdTip('sen',s.id,s.n))}" tabindex="0">${esc(s.n)}</b><span class="pty ${s.p}">${s.p==='D'&&s.pl.startsWith('I')?'I':s.p}</span>${s.new?'<span class="newtag">NEW</span>':''}`;
       return (k==='sch'&&s.p!=='D') ? `<div class="mc vu"><div class="mtop">${top}</div><div class="ev">Republicans don't vote in the Democratic leadership election.</div></div>`
-        : card({id:s.id, vid:s.id, top, stance, ev, v:votes[s.id][k], asm: s.p==='R' && POWER.has(k), dw: isDW(s), src: CURL.sen[s.id+'|'+k], nm:s.n, iss:FULL(k)}).replace('class="mc ','class="mc open '); }).join('')}`;
+        : card({id:s.id, vid:s.id, top, stance, ev, v:votes[s.id][k], asm: s.p==='R' && POWER.has(k), dw: isDW(s), src: CURL.sen[s.id+'|'+k], nm:s.n, iss:FULL(k), nk:'sen:'+s.id+'|'+k}).replace('class="mc ','class="mc open '); }).join('')}`;
 }
 function setSV(id,v){ votes[id][cur]=v; sNav.draw(); renderRules(); renderDetail(); renderList(); persist(); }
 $('smtiles').addEventListener('click',e=>{
@@ -3819,7 +3825,7 @@ function renderSS(){
   <div class="cgrid" id="x-list">${rows.length ? rows.map(m=>{
     const [stance,ev]=m.r[k];
     const top=`<span class="stc">SD${m.d}</span><b title="${esc(m.n)}">${esc(m.n)}</b><span class="pty ${m.p}">${m.p}</span>${m.f.includes('new')?'<span class="newtag">NEW</span>':''}${m.f.includes('narrow')?'<span class="closetag">CLOSE</span>':''}`;
-    return card({id:m.vid, vid:m.vid, top, stance, ev, note:m.note, v:sVotes[m.vid][k], asm: m.p==='R' && SPOWER.has(k), nm:`${m.n} (SD${m.d})`, iss:GI[k]?GI[k].f:k});
+    return card({id:m.vid, vid:m.vid, top, stance, ev, note:m.note, v:sVotes[m.vid][k], asm: m.p==='R' && SPOWER.has(k), nm:`${m.n} (SD${m.d})`, iss:GI[k]?GI[k].f:k, nk:'ss:'+m.vid+'|'+k});
   }).join('') : '<div class="empty">No senators match these filters.</div>'}</div>`;
   $('x-fp').value=sfp; $('x-fv').value=sfv;
   const bind=(id,key)=>{ const el=$(id); if(!el) return; el.value=sAsm[key]; el.addEventListener('change',e=>{ sAsm[key]=e.target.value; renderSS(); persist(); }); };
