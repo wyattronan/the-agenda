@@ -24,364 +24,28 @@
   "why": "federal Senate vote on a related federal bill caps at a Lean"
  },
  {
-  "who": "Juliana Stratton",
-  "key": "sch",
-  "new_stance": "Oppose",
-  "evidence": "Won't back him as caucus leader. (Public statements as of Nov 8 2026, via CNN, Roll Call, POLITICO, The Hill, Al Jazeera, Drop Site News.)",
-  "url": null,
-  "why": "Schumer leadership count graphic, Nov 8 2026"
- },
- {
-  "who": "Adam Hamilton",
-  "key": "sch",
-  "new_stance": "Oppose",
-  "evidence": "'I'm not supporting Schumer for leader.' (Public statements as of Nov 8 2026, via CNN, Roll Call, POLITICO, The Hill, Al Jazeera, Drop Site News.)",
-  "url": null,
-  "why": "Schumer leadership count graphic, Nov 8 2026"
- },
- {
-  "who": "Troy Jackson",
-  "key": "sch",
-  "new_stance": "Oppose",
-  "evidence": "Will 'support somebody else.' (Public statements as of Nov 8 2026, via CNN, Roll Call, POLITICO, The Hill, Al Jazeera, Drop Site News.)",
-  "url": null,
-  "why": "Schumer leadership count graphic, Nov 8 2026"
- },
- {
-  "who": "Peggy Flanagan",
-  "key": "sch",
-  "new_stance": "Oppose",
-  "evidence": "'It is time for new leadership.' (Public statements as of Nov 8 2026, via CNN, Roll Call, POLITICO, The Hill, Al Jazeera, Drop Site News.)",
-  "url": null,
-  "why": "Schumer leadership count graphic, Nov 8 2026"
- },
- {
-  "who": "Abdul El-Sayed",
-  "key": "sch",
-  "new_stance": "Oppose",
-  "evidence": "Backs Chris Van Hollen for leader. (Public statements as of Nov 8 2026, via CNN, Roll Call, POLITICO, The Hill, Al Jazeera, Drop Site News.)",
-  "url": null,
-  "why": "Schumer leadership count graphic, Nov 8 2026"
- },
- {
-  "who": "Elissa Slotkin",
-  "key": "sch",
-  "new_stance": "Lean oppose",
-  "evidence": "Wants new leadership; no vote 'until I see a plan.' (Public statements as of Nov 8 2026, via CNN, Roll Call, POLITICO, The Hill, Al Jazeera, Drop Site News.)",
-  "url": null,
-  "why": "Schumer leadership count graphic, Nov 8 2026"
- },
- {
-  "who": "Annie Andrews",
-  "key": "sch",
-  "new_stance": "Lean oppose",
-  "evidence": "Wants new leadership: 'It's time for a generational change.' (Public statements as of Nov 8 2026, via CNN, Roll Call, POLITICO, The Hill, Al Jazeera, Drop Site News.)",
-  "url": null,
-  "why": "Schumer leadership count graphic, Nov 8 2026"
- },
- {
-  "who": "Chris Pappas",
-  "key": "sch",
-  "new_stance": "Lean oppose",
-  "evidence": "Wants 'a new generation of leadership.' (Public statements as of Nov 8 2026, via CNN, Roll Call, POLITICO, The Hill, Al Jazeera, Drop Site News.)",
-  "url": null,
-  "why": "Schumer leadership count graphic, Nov 8 2026"
- },
- {
-  "who": "Chris Van Hollen",
-  "key": "sch",
-  "new_stance": "Unclear",
-  "evidence": "Withholding support: 'Nobody should get a blank check.' (Public statements as of Nov 8 2026, via CNN, Roll Call, POLITICO, The Hill, Al Jazeera, Drop Site News.)",
-  "url": null,
-  "why": "Schumer leadership count graphic, Nov 8 2026"
- },
- {
-  "who": "James Talarico",
-  "key": "sch",
-  "new_stance": "Unclear",
-  "evidence": "Withholding support; wants to hear Schumer's vision first. (Public statements as of Nov 8 2026, via CNN, Roll Call, POLITICO, The Hill, Al Jazeera, Drop Site News.)",
-  "url": null,
-  "why": "Schumer leadership count graphic, Nov 8 2026"
- },
- {
-  "who": "Josh Turek",
-  "key": "sch",
-  "new_stance": "Unclear",
-  "evidence": "Withholding support; declined to commit when asked. (Public statements as of Nov 8 2026, via CNN, Roll Call, POLITICO, The Hill, Al Jazeera, Drop Site News.)",
-  "url": null,
-  "why": "Schumer leadership count graphic, Nov 8 2026"
- },
- {
-  "who": "Roy Cooper",
-  "key": "sch",
-  "new_stance": "Unclear",
-  "evidence": "Withholding support; declined to commit when asked. (Public statements as of Nov 8 2026, via CNN, Roll Call, POLITICO, The Hill, Al Jazeera, Drop Site News.)",
-  "url": null,
-  "why": "Schumer leadership count graphic, Nov 8 2026"
- },
- {
-  "who": "Sherrod Brown",
-  "key": "sch",
-  "new_stance": "Unclear",
-  "evidence": "Withholding support; declined to commit when asked. (Public statements as of Nov 8 2026, via CNN, Roll Call, POLITICO, The Hill, Al Jazeera, Drop Site News.)",
-  "url": null,
-  "why": "Schumer leadership count graphic, Nov 8 2026"
- },
- {
-  "who": "Scott Colom",
-  "key": "sch",
-  "new_stance": "Unclear",
-  "evidence": "Withholding support; wants leaders 'from beyond one borough.' Won the race (AP call, Nov 11 2026). (Public statements as of Nov 8 2026, via CNN, Roll Call, POLITICO, The Hill, Al Jazeera, Drop Site News.)",
-  "url": null,
-  "why": "Schumer leadership count graphic, Nov 8 2026"
- },
- {
-  "who": "Chris Murphy",
-  "key": "sch",
-  "new_stance": "Unclear",
-  "evidence": "No stated position on the leader vote; founding member of the 'Fight Club' formed in 2025 to challenge Schumer's strategy (NYT). (Public statements as of Nov 8 2026, via CNN, Roll Call, POLITICO, The Hill, Al Jazeera, Drop Site News.)",
-  "url": null,
-  "why": "Schumer leadership count graphic, Nov 8 2026"
- },
- {
-  "who": "Elizabeth Warren",
-  "key": "sch",
-  "new_stance": "Unclear",
-  "evidence": "No stated position on the leader vote; founding member of the 'Fight Club' formed in 2025 to challenge Schumer's strategy (NYT). (Public statements as of Nov 8 2026, via CNN, Roll Call, POLITICO, The Hill, Al Jazeera, Drop Site News.)",
-  "url": null,
-  "why": "Schumer leadership count graphic, Nov 8 2026"
- },
- {
-  "who": "Bernie Sanders",
-  "key": "sch",
-  "new_stance": "Unclear",
-  "evidence": "No stated position on the leader vote; founding member of the 'Fight Club' formed in 2025 to challenge Schumer's strategy (NYT). (Public statements as of Nov 8 2026, via CNN, Roll Call, POLITICO, The Hill, Al Jazeera, Drop Site News.)",
-  "url": null,
-  "why": "Schumer leadership count graphic, Nov 8 2026"
- },
- {
-  "who": "Ed Markey",
-  "key": "sch",
-  "new_stance": "Unclear",
-  "evidence": "No stated position on the leader vote; joined 'Fight Club' actions challenging Schumer's strategy (NYT). (Public statements as of Nov 8 2026, via CNN, Roll Call, POLITICO, The Hill, Al Jazeera, Drop Site News.)",
-  "url": null,
-  "why": "Schumer leadership count graphic, Nov 8 2026"
- },
- {
-  "who": "Jeff Merkley",
-  "key": "sch",
-  "new_stance": "Unclear",
-  "evidence": "No stated position on the leader vote; joined 'Fight Club' actions challenging Schumer's strategy (NYT). (Public statements as of Nov 8 2026, via CNN, Roll Call, POLITICO, The Hill, Al Jazeera, Drop Site News.)",
-  "url": null,
-  "why": "Schumer leadership count graphic, Nov 8 2026"
- },
- {
-  "who": "Martin Heinrich",
-  "key": "sch",
-  "new_stance": "Unclear",
-  "evidence": "No stated position on the leader vote; joined 'Fight Club' actions challenging Schumer's strategy (NYT). (Public statements as of Nov 8 2026, via CNN, Roll Call, POLITICO, The Hill, Al Jazeera, Drop Site News.)",
-  "url": null,
-  "why": "Schumer leadership count graphic, Nov 8 2026"
- },
- {
-  "who": "Mark Kelly",
+  "who": "Chuck Schumer",
   "key": "sch",
   "new_stance": "Support",
-  "evidence": "'My plan is to support him.' (Public statements as of Nov 8 2026, via CNN, Roll Call, POLITICO, The Hill, Al Jazeera, Drop Site News.)",
-  "url": null,
-  "why": "Schumer leadership count graphic, Nov 8 2026"
- },
- {
-  "who": "Sheldon Whitehouse",
-  "key": "sch",
-  "new_stance": "Support",
-  "evidence": "Says the majority 'justifies another term.' (Public statements as of Nov 8 2026, via CNN, Roll Call, POLITICO, The Hill, Al Jazeera, Drop Site News.)",
-  "url": null,
-  "why": "Schumer leadership count graphic, Nov 8 2026"
- },
- {
-  "who": "Angela Alsobrooks",
-  "key": "sch",
-  "new_stance": "Support",
-  "evidence": "Told POLITICO she backs him. (Public statements as of Nov 8 2026, via CNN, Roll Call, POLITICO, The Hill, Al Jazeera, Drop Site News.)",
-  "url": null,
-  "why": "Schumer leadership count graphic, Nov 8 2026"
- },
- {
-  "who": "Cory Booker",
-  "key": "sch",
-  "new_stance": "Unclear",
-  "evidence": "No public commitment either way on the leader vote. (Public statements as of Nov 8 2026, via CNN, Roll Call, POLITICO, The Hill, Al Jazeera, Drop Site News.)",
-  "url": null,
-  "why": "Schumer leadership count graphic, Nov 8 2026"
- },
- {
-  "who": "Mark Warner",
-  "key": "sch",
-  "new_stance": "Unclear",
-  "evidence": "No public commitment either way on the leader vote. (Public statements as of Nov 8 2026, via CNN, Roll Call, POLITICO, The Hill, Al Jazeera, Drop Site News.)",
-  "url": null,
-  "why": "Schumer leadership count graphic, Nov 8 2026"
- },
- {
-  "who": "Ben Ray Luj\u00e1n",
-  "key": "sch",
-  "new_stance": "Unclear",
-  "evidence": "No public commitment either way on the leader vote. (Public statements as of Nov 8 2026, via CNN, Roll Call, POLITICO, The Hill, Al Jazeera, Drop Site News.)",
-  "url": null,
-  "why": "Schumer leadership count graphic, Nov 8 2026"
- },
- {
-  "who": "Mary Peltola",
-  "key": "sch",
-  "new_stance": "Unclear",
-  "evidence": "No public commitment either way on the leader vote. Race not yet called. (Public statements as of Nov 8 2026, via CNN, Roll Call, POLITICO, The Hill, Al Jazeera, Drop Site News.)",
-  "url": null,
-  "why": "Schumer leadership count graphic, Nov 8 2026"
- },
- {
-  "who": "Bernie Sanders",
-  "key": "sch",
-  "new_stance": "Oppose",
-  "evidence": "'I will not be supporting Chuck to be reelected as the Democratic leader' (Nov 10, 2026); endorsed Chris Van Hollen to lead Senate Democrats (X post, Nov 12, 2026).",
-  "url": "https://www.foxnews.com/politics/sen-bernie-sanders-supports-chris-van-hollen-bid-challenge-schumer-senate-democratic-leader-post",
-  "why": "Daily update, Nov 13 2026"
- },
- {
-  "who": "Elissa Slotkin",
-  "key": "sch",
-  "new_stance": "Oppose",
-  "evidence": "'I'm a no until and unless I see' a concrete plan that's definitively different (Nov 10, 2026, with Sanders); says she isn't seeking the job and had a 'productive conversation' with Van Hollen about his potential candidacy.",
-  "url": "https://thehill.com/homenews/senate/6211705-sanders-slotkin-oppose-schumer/",
-  "why": "Schumer leadership update, Nov 10 2026"
- },
- {
-  "who": "Chris Van Hollen",
-  "key": "sch",
-  "new_stance": "Oppose",
-  "evidence": "Running against Schumer for majority leader: 'we need new leadership' (statement on X, Nov 12, 2026). Earlier said there should be 'no coronation' (Nov 7).",
-  "url": "https://www.cbsnews.com/news/chris-van-hollen-challenge-chuck-schumer-senate-majority-leader-democrat/",
-  "why": "Daily update, Nov 13 2026"
- },
- {
-  "who": "Elizabeth Warren",
-  "key": "sch",
-  "new_stance": "Unclear",
-  "evidence": "Hasn't committed to backing Schumer (Washington Times, Nov 9, 2026); member of the eight-senator 'Fight Club' that has challenged his strategy.",
-  "url": "https://www.washingtontimes.com/news/2026/nov/9/could-democrats-give-chuck-schumer-boot/",
-  "why": "Schumer leadership update, Nov 10 2026"
- },
- {
-  "who": "Ed Markey",
-  "key": "sch",
-  "new_stance": "Lean oppose",
-  "evidence": "Didn't endorse Schumer in his primary, saying 'We need a big debate about new leadership in the Senate' (Aug 2026); demurred again after the election (Nov 5, 2026).",
-  "url": "https://www.newsweek.com/full-list-democrats-rallying-against-chuck-schumer-senate-12315442",
-  "why": "Schumer leadership update, Nov 10 2026"
- },
- {
-  "who": "James Talarico",
-  "key": "sch",
-  "new_stance": "Lean oppose",
-  "evidence": "Called for 'new blood'; since winning, wants to 'hear about [Schumer's] vision' before committing (Nov 2026). The Washington Times lists him as a no; other outlets don't, so he's counted as a soft no.",
-  "url": "https://www.aljazeera.com/news/2026/11/5/division-among-us-democrats-over-schumers-leadership-role",
-  "why": "Schumer leadership update, Nov 10 2026"
- },
- {
-  "who": "Juliana Stratton",
-  "key": "sch",
-  "new_stance": "Oppose",
-  "evidence": "Won't support Schumer, per a spokesperson (Nov 2026); the first primary winner to rule him out, in January 2026.",
-  "url": "https://www.aljazeera.com/news/2026/11/5/division-among-us-democrats-over-schumers-leadership-role",
-  "why": "Schumer leadership update, Nov 10 2026"
- },
- {
-  "who": "Annie Andrews",
-  "key": "sch",
-  "new_stance": "Oppose",
-  "evidence": "Won't back Schumer for majority leader: 'It is time for a generational change' (Nov 2026); pledged during the campaign not to support him.",
-  "url": "https://kutv.com/news/nation-world/generational-change-sen-elect-annie-andrews-wont-back-chuck-schumer-for-majority-leader-south-carolina-politics",
-  "why": "Schumer leadership update, Nov 10 2026"
- },
- {
-  "who": "Adam Hamilton",
-  "key": "sch",
-  "new_stance": "Oppose",
-  "evidence": "'I'm not supporting Schumer' (CNN, Sept 2026).",
-  "url": "https://www.aljazeera.com/news/2026/11/5/division-among-us-democrats-over-schumers-leadership-role",
-  "why": "Schumer leadership update, Nov 10 2026"
- },
- {
-  "who": "Troy Jackson",
-  "key": "sch",
-  "new_stance": "Oppose",
-  "evidence": "Told Schumer he will 'support somebody else' (Nov 2026).",
-  "url": "https://www.aljazeera.com/news/2026/11/5/division-among-us-democrats-over-schumers-leadership-role",
-  "why": "Schumer leadership update, Nov 10 2026"
- },
- {
-  "who": "Abdul El-Sayed",
-  "key": "sch",
-  "new_stance": "Oppose",
-  "evidence": "Will support Chris Van Hollen for leader (CNN, Nov 2026).",
-  "url": "https://www.aljazeera.com/news/2026/11/5/division-among-us-democrats-over-schumers-leadership-role",
-  "why": "Schumer leadership update, Nov 10 2026"
- },
- {
-  "who": "Peggy Flanagan",
-  "key": "sch",
-  "new_stance": "Oppose",
-  "evidence": "'It is time for new leadership' (Nov 4, 2026).",
-  "url": "https://www.aljazeera.com/news/2026/11/5/division-among-us-democrats-over-schumers-leadership-role",
-  "why": "Schumer leadership update, Nov 10 2026"
- },
- {
-  "who": "Chris Pappas",
-  "key": "sch",
-  "new_stance": "Lean oppose",
-  "evidence": "'Voters are hungry for ... a new generation of leadership in the Senate' (Nov 2026).",
-  "url": "https://www.aljazeera.com/news/2026/11/5/division-among-us-democrats-over-schumers-leadership-role",
-  "why": "Schumer leadership update, Nov 10 2026"
- },
- {
-  "who": "John Fetterman",
-  "key": "sch",
-  "new_stance": "Support",
-  "evidence": "Asked whether he'd back Schumer for majority leader, said he would vote for him (Nov 11, 2026, new-member orientation); his office had confirmed his support Nov 9.",
-  "url": "https://www.wgal.com/article/senator-fetterman-shares-optimism-during-new-member-orientation-in-washington/74403736",
-  "why": "Daily update, Nov 12 2026"
- },
- {
-  "who": "Kirsten Gillibrand",
-  "key": "sch",
-  "new_stance": "Support",
-  "evidence": "Publicly backs Schumer (Newsweek, Nov 11, 2026); as DSCC chair she credited him with winning the majority at the Nov 10 caucus press conference.",
-  "url": "https://www.newsweek.com/chuck-schumer-senate-majority-leadership-democrats-12700175",
-  "why": "Daily update, Nov 12 2026"
- },
- {
-  "who": "Ruben Gallego",
-  "key": "sch",
-  "new_stance": "Lean support",
-  "evidence": "'It's time for us to unify' (Nov 10, 2026); Roll Call reads it as backing Schumer despite past differences. No explicit vote commitment yet.",
-  "url": "https://rollcall.com/2026/11/10/rift-grows-among-senate-democrats-over-who-will-lead-in-majority/",
-  "why": "Daily update, Nov 12 2026"
- },
- {
-  "who": "Angus King",
-  "key": "sch",
-  "new_stance": "Support",
-  "evidence": "Endorsed Schumer in a statement after Van Hollen launched his challenge, praising his plan for the new majority (CNN, Nov 12, 2026). Earlier: 'You don't fire the manager after you've won the World Series' (Nov 11).",
-  "url": "https://www.cnn.com/2026/11/12/politics/chris-van-hollen-chuck-schumer-senate-democratic-leader",
-  "why": "Daily update, Nov 13 2026"
+  "evidence": "Running again: 'I'll be reelected as majority leader... The issue is not me' (Nov 4, 2026); says he has the votes locked up (Nov 2026). Secret-ballot vote set for Dec 1; Schumer allies want it moved up.",
+  "url": "https://www.newsnationnow.com/politics/2026-midterm-elections/schumer-majority-leader-democrat/amp/",
+  "why": "Schumer leader re-check, Nov 14 2026"
  },
  {
   "who": "Brian Schatz",
   "key": "sch",
   "new_stance": "Support",
-  "evidence": "'I endorse Senator Schumer for leader and will be voting for him in the caucus election' (statement, Nov 12, 2026, after Van Hollen's announcement).",
+  "evidence": "'I endorse Senator Schumer for leader and will be voting for him in the caucus election' (statement, Nov 12, 2026). Running unopposed for whip.",
   "url": "https://www.foxnews.com/politics/van-hollen-challenges-schumer-senate-leadership-after-democratic-election-sweep",
-  "why": "Daily update, Nov 13 2026"
+  "why": "Schumer leader re-check, Nov 14 2026"
+ },
+ {
+  "who": "Angus King",
+  "key": "sch",
+  "new_stance": "Support",
+  "evidence": "Endorsed Schumer in a statement after Van Hollen's challenge (Nov 12, 2026); earlier: 'You don't fire the manager after you've won the World Series' (Nov 11).",
+  "url": "https://www.cnn.com/2026/11/12/politics/chris-van-hollen-chuck-schumer-senate-democratic-leader",
+  "why": "Schumer leader re-check, Nov 14 2026"
  },
  {
   "who": "Jack Reed",
@@ -389,54 +53,422 @@
   "new_stance": "Support",
   "evidence": "Will support Schumer as leader because 'Chuck is incredibly effective at the job' (press release, Nov 12, 2026).",
   "url": "https://www.reed.senate.gov/news/releases/reed-backs-schumer-for-majority-leader",
-  "why": "Daily update, Nov 14 2026"
+  "why": "Schumer leader re-check, Nov 14 2026"
  },
  {
   "who": "Tammy Baldwin",
   "key": "sch",
   "new_stance": "Support",
-  "evidence": "Backs Schumer for majority leader: he 'earned his position as Majority Leader next Congress' (statement, Nov 12, 2026).",
+  "evidence": "Backs Schumer: he 'earned his position as Majority Leader next Congress' (statement, Nov 12, 2026).",
   "url": "https://www.baldwin.senate.gov/news/press-releases/-senator-baldwin-statement-on-election-for-senate-leadership",
-  "why": "Daily update, Nov 14 2026"
+  "why": "Schumer leader re-check, Nov 14 2026"
  },
  {
   "who": "Richard Blumenthal",
   "key": "sch",
   "new_stance": "Support",
-  "evidence": "'I continue to support Senator Schumer for Majority Leader' (statement, Nov 12, 2026). Earlier said he planned to back him (Nov 9).",
+  "evidence": "'I continue to support Senator Schumer for Majority Leader' (statement, Nov 12, 2026); said he planned to back him Nov 9.",
   "url": "https://www.blumenthal.senate.gov/newsroom/press/release/blumenthal-statement-on-senate-democratic-leadership",
-  "why": "Daily update, Nov 14 2026"
+  "why": "Schumer leader re-check, Nov 14 2026"
  },
  {
   "who": "Jacky Rosen",
   "key": "sch",
   "new_stance": "Support",
-  "evidence": "Endorsed Schumer after Van Hollen's challenge, saying he has 'the experience and the fight' to keep leading (X post, Nov 12, 2026, via ABC News Nov 13).",
+  "evidence": "Endorsed Schumer after Van Hollen's challenge: he has 'the experience and the fight' to keep leading (X post, Nov 12, 2026).",
   "url": "https://abcnews.com/Politics/schumer-van-hollen-facing-off-senate-majority-leader/story?id=138111386",
-  "why": "Daily update, Nov 14 2026"
+  "why": "Schumer leader re-check, Nov 14 2026"
  },
  {
   "who": "Catherine Cortez Masto",
   "key": "sch",
   "new_stance": "Support",
-  "evidence": "'I will be supporting him as our Democratic leader' (post after Van Hollen's challenge, Nov 12, 2026, via ABC News Nov 13).",
+  "evidence": "'I will be supporting him as our Democratic leader' (post after Van Hollen's challenge, Nov 12, 2026).",
   "url": "https://abcnews.com/Politics/schumer-van-hollen-facing-off-senate-majority-leader/story?id=138111386",
-  "why": "Daily update, Nov 14 2026"
+  "why": "Schumer leader re-check, Nov 14 2026"
+ },
+ {
+  "who": "Kirsten Gillibrand",
+  "key": "sch",
+  "new_stance": "Support",
+  "evidence": "Publicly backs Schumer and defended him against Van Hollen's challenge (Nov 10–12, 2026); as DSCC chair credits him with winning the majority.",
+  "url": "https://www.newsweek.com/chuck-schumer-senate-majority-leadership-democrats-12700175",
+  "why": "Schumer leader re-check, Nov 14 2026"
+ },
+ {
+  "who": "Sheldon Whitehouse",
+  "key": "sch",
+  "new_stance": "Support",
+  "evidence": "Delivering a Democratic Senate 'certainly justifies another term as leader' (Nov 2026).",
+  "url": "https://www.newsweek.com/chuck-schumer-senate-majority-leadership-democrats-12700175",
+  "why": "Schumer leader re-check, Nov 14 2026"
+ },
+ {
+  "who": "Mark Kelly",
+  "key": "sch",
+  "new_stance": "Support",
+  "evidence": "'Chuck worked really hard to get this majority, so my plan is to support him' (Nov 7, 2026), while urging a new plan.",
+  "url": "https://abc17news.com/?p=1663243",
+  "why": "Schumer leader re-check, Nov 14 2026"
+ },
+ {
+  "who": "John Fetterman",
+  "key": "sch",
+  "new_stance": "Support",
+  "evidence": "Asked if he'd back Schumer for majority leader, said he would vote for him (Nov 11, 2026); his office confirmed support Nov 9.",
+  "url": "https://www.wgal.com/article/senator-fetterman-shares-optimism-during-new-member-orientation-in-washington/74403736",
+  "why": "Schumer leader re-check, Nov 14 2026"
+ },
+ {
+  "who": "Angela Alsobrooks",
+  "key": "sch",
+  "new_stance": "Support",
+  "evidence": "Publicly backs Schumer for leader (NPR, Nov 12, 2026; POLITICO, Nov 2026).",
+  "url": "https://whipcount.dropsitenews.com/",
+  "why": "Schumer leader re-check, Nov 14 2026"
+ },
+ {
+  "who": "Sherrod Brown",
+  "key": "sch",
+  "new_stance": "Support",
+  "evidence": "Asked whether he's supporting Schumer for majority leader, replied: 'Yes.' (Nov 10, 2026). Senator-elect, Ohio.",
+  "url": "https://www.nbcnews.com/politics/congress/bernie-sanders-wont-support-chuck-schumer-senate-democrats-leader-rcna608633",
+  "why": "Schumer leader re-check, Nov 14 2026"
+ },
+ {
+  "who": "Ruben Gallego",
+  "key": "sch",
+  "new_stance": "Support",
+  "evidence": "'When the manager takes you to the World Series, you give them another contract... it's time to unify' (Nov 10, 2026). Listed among Schumer's public backers (The Hill, Nov 14).",
+  "url": "https://www.nbcnews.com/politics/congress/bernie-sanders-wont-support-chuck-schumer-senate-democrats-leader-rcna608633",
+  "why": "Schumer leader re-check, Nov 14 2026"
+ },
+ {
+  "who": "Tim Kaine",
+  "key": "sch",
+  "new_stance": "Lean support",
+  "evidence": "Asked in June if he'd keep backing Schumer as leader: 'Yes... one of the best majority leaders we've had' (CBS, Jun 28, 2026). Hasn't restated it since Van Hollen's Nov 12 challenge. Secret-ballot vote set for Dec 1; Schumer allies want it moved up.",
+  "url": "https://www.cbsnews.com/news/face-the-nation-full-transcript-06-28-2026/",
+  "why": "Schumer leader re-check, Nov 14 2026"
+ },
+ {
+  "who": "Chris Van Hollen",
+  "key": "sch",
+  "new_stance": "Oppose",
+  "evidence": "Running against Schumer for majority leader: 'we need new leadership' (Nov 12, 2026); calls himself the underdog (Nov 14). Secret-ballot vote set for Dec 1; Schumer allies want it moved up.",
+  "url": "https://www.cbsnews.com/news/chris-van-hollen-challenge-chuck-schumer-senate-majority-leader-democrat/",
+  "why": "Schumer leader re-check, Nov 14 2026"
+ },
+ {
+  "who": "Bernie Sanders",
+  "key": "sch",
+  "new_stance": "Oppose",
+  "evidence": "'I will not be supporting Chuck to be reelected as the Democratic leader' (Nov 10, 2026); endorsed Van Hollen (Nov 12). Secret-ballot vote set for Dec 1; Schumer allies want it moved up.",
+  "url": "https://www.nbcnews.com/politics/congress/bernie-sanders-wont-support-chuck-schumer-senate-democrats-leader-rcna608633",
+  "why": "Schumer leader re-check, Nov 14 2026"
  },
  {
   "who": "Jeff Merkley",
   "key": "sch",
   "new_stance": "Oppose",
-  "evidence": "Backs Chris Van Hollen over Schumer: 'He has my full support for Majority Leader' (press release, Nov 13, 2026).",
+  "evidence": "Backs Van Hollen: 'He has my full support for Majority Leader' (press release, Nov 13, 2026). Secret-ballot vote set for Dec 1; Schumer allies want it moved up.",
   "url": "https://www.merkley.senate.gov/merkley-puts-his-support-behind-van-hollen-for-senate-majority-leader/",
-  "why": "Daily update, Nov 14 2026"
+  "why": "Schumer leader re-check, Nov 14 2026"
+ },
+ {
+  "who": "Elissa Slotkin",
+  "key": "sch",
+  "new_stance": "Oppose",
+  "evidence": "Says she is 'not voting for Sen. Schumer' (Nov 13, 2026); hasn't endorsed Van Hollen. On Nov 10 said she's a no without a concrete new plan. Secret-ballot vote set for Dec 1; Schumer allies want it moved up.",
+  "url": "https://thehill.com/homenews/senate/6220115-senate-democrats-leadership-election-update/",
+  "why": "Schumer leader re-check, Nov 14 2026"
+ },
+ {
+  "who": "Abdul El-Sayed",
+  "key": "sch",
+  "new_stance": "Oppose",
+  "evidence": "Formally endorsed Van Hollen for leader (Nov 12, 2026); had backed him by name since the campaign. Secret-ballot vote set for Dec 1; Schumer allies want it moved up.",
+  "url": "https://thehill.com/homenews/senate/6220115-senate-democrats-leadership-election-update/",
+  "why": "Schumer leader re-check, Nov 14 2026"
  },
  {
   "who": "Peggy Flanagan",
   "key": "sch",
   "new_stance": "Oppose",
-  "evidence": "Endorsed Chris Van Hollen for leader, calling him the 'leader and fighter' needed (X post, Nov 13, 2026). Earlier: 'It is time for new leadership' (Nov 4).",
-  "url": "https://abcnews.com/Politics/schumer-van-hollen-facing-off-senate-majority-leader/story?id=138111386",
-  "why": "Daily update, Nov 14 2026"
+  "evidence": "Endorsed Van Hollen as the 'leader and fighter' Democrats need (X post, Nov 13, 2026). Earlier: 'It is time for new leadership' (Nov 4). Secret-ballot vote set for Dec 1; Schumer allies want it moved up.",
+  "url": "https://thehill.com/homenews/senate/6220115-senate-democrats-leadership-election-update/",
+  "why": "Schumer leader re-check, Nov 14 2026"
+ },
+ {
+  "who": "Juliana Stratton",
+  "key": "sch",
+  "new_stance": "Oppose",
+  "evidence": "Won't support Schumer as leader: 'My position hasn't changed' (2026); first primary winner to rule him out (Jan 2026). Senator-elect, Illinois. Secret-ballot vote set for Dec 1; Schumer allies want it moved up.",
+  "url": "https://whipcount.dropsitenews.com/",
+  "why": "Schumer leader re-check, Nov 14 2026"
+ },
+ {
+  "who": "Troy Jackson",
+  "key": "sch",
+  "new_stance": "Oppose",
+  "evidence": "'I've told Senator Schumer I'm going to support somebody else' (Nov 2026). Senator-elect, Maine. Secret-ballot vote set for Dec 1; Schumer allies want it moved up.",
+  "url": "https://whipcount.dropsitenews.com/",
+  "why": "Schumer leader re-check, Nov 14 2026"
+ },
+ {
+  "who": "Adam Hamilton",
+  "key": "sch",
+  "new_stance": "Oppose",
+  "evidence": "'I mean no disrespect for Chuck Schumer, but we need new leadership' (Nov 4, 2026); pledged in the campaign not to back him. Senator-elect, Kansas. Secret-ballot vote set for Dec 1; Schumer allies want it moved up.",
+  "url": "https://whipcount.dropsitenews.com/",
+  "why": "Schumer leader re-check, Nov 14 2026"
+ },
+ {
+  "who": "Annie Andrews",
+  "key": "sch",
+  "new_stance": "Oppose",
+  "evidence": "Won't back Schumer: 'It is time for a generational change on both sides of the aisle' (Nov 5, 2026); pledged in the campaign not to support him. Secret-ballot vote set for Dec 1; Schumer allies want it moved up.",
+  "url": "https://whipcount.dropsitenews.com/",
+  "why": "Schumer leader re-check, Nov 14 2026"
+ },
+ {
+  "who": "Ed Markey",
+  "key": "sch",
+  "new_stance": "Lean oppose",
+  "evidence": "Didn't endorse Schumer in his primary ('We need a big debate about new leadership in the Senate,' Aug 2026) and declined again after the election (Nov 5). Secret-ballot vote set for Dec 1; Schumer allies want it moved up.",
+  "url": "https://whipcount.dropsitenews.com/",
+  "why": "Schumer leader re-check, Nov 14 2026"
+ },
+ {
+  "who": "James Talarico",
+  "key": "sch",
+  "new_stance": "Lean oppose",
+  "evidence": "Called for 'new blood'; since winning wants to 'hear about [Schumer's] vision' before committing (Nov 4, 2026). Still uncommitted (The Hill, Nov 14). Secret-ballot vote set for Dec 1; Schumer allies want it moved up.",
+  "url": "https://thehill.com/homenews/senate/6220115-senate-democrats-leadership-election-update/",
+  "why": "Schumer leader re-check, Nov 14 2026"
+ },
+ {
+  "who": "Chris Pappas",
+  "key": "sch",
+  "new_stance": "Lean oppose",
+  "evidence": "'Voters are hungry for... a new generation of leadership in the Senate' (Nov 4, 2026); asked if he'd back Schumer: 'we'll see who's running' (Nov 2026). Uncommitted. Secret-ballot vote set for Dec 1; Schumer allies want it moved up.",
+  "url": "https://thehill.com/homenews/senate/6214626-schumer-democratic-senate-leadership-rebellion/",
+  "why": "Schumer leader re-check, Nov 14 2026"
+ },
+ {
+  "who": "Elizabeth Warren",
+  "key": "sch",
+  "new_stance": "Unclear",
+  "evidence": "Hasn't committed either way; member of the 'Fight Club' that challenged Schumer's strategy. The Hill (Nov 14) says she may endorse Van Hollen. Secret-ballot vote set for Dec 1; Schumer allies want it moved up.",
+  "url": "https://thehill.com/homenews/senate/6220115-senate-democrats-leadership-election-update/",
+  "why": "Schumer leader re-check, Nov 14 2026"
+ },
+ {
+  "who": "Mark Warner",
+  "key": "sch",
+  "new_stance": "Unclear",
+  "evidence": "Declined to back Schumer when asked (Nov 10, 2026), while praising his fundraising. Secret-ballot vote set for Dec 1; Schumer allies want it moved up.",
+  "url": "https://www.newsweek.com/chuck-schumer-senate-majority-leadership-democrats-12700175",
+  "why": "Schumer leader re-check, Nov 14 2026"
+ },
+ {
+  "who": "Raphael Warnock",
+  "key": "sch",
+  "new_stance": "Unclear",
+  "evidence": "Withheld support: 'We're going through that process' (Nov 10, 2026). Secret-ballot vote set for Dec 1; Schumer allies want it moved up.",
+  "url": "https://www.newsweek.com/chuck-schumer-senate-majority-leadership-democrats-12700175",
+  "why": "Schumer leader re-check, Nov 14 2026"
+ },
+ {
+  "who": "Cory Booker",
+  "key": "sch",
+  "new_stance": "Unclear",
+  "evidence": "No commitment; said Schumer will be 'the last baby boomer head of our party' (Aug 2026) and stayed neutral after Van Hollen's challenge (Nov 13). Secret-ballot vote set for Dec 1; Schumer allies want it moved up.",
+  "url": "https://whipcount.dropsitenews.com/",
+  "why": "Schumer leader re-check, Nov 14 2026"
+ },
+ {
+  "who": "Andy Kim",
+  "key": "sch",
+  "new_stance": "Unclear",
+  "evidence": "No public commitment; stayed neutral after Van Hollen's challenge (Nov 13, 2026). Secret-ballot vote set for Dec 1; Schumer allies want it moved up.",
+  "url": "https://whipcount.dropsitenews.com/",
+  "why": "Schumer leader re-check, Nov 14 2026"
+ },
+ {
+  "who": "Chris Coons",
+  "key": "sch",
+  "new_stance": "Unclear",
+  "evidence": "Said his support remains open and called for a caucus discussion (Nov 9, 2026); praised Schumer's campaign work (Nov 11) without committing. Secret-ballot vote set for Dec 1; Schumer allies want it moved up.",
+  "url": "https://whipcount.dropsitenews.com/",
+  "why": "Schumer leader re-check, Nov 14 2026"
+ },
+ {
+  "who": "Patty Murray",
+  "key": "sch",
+  "new_stance": "Unclear",
+  "evidence": "Did not commit either way (Nov 12, 2026). Secret-ballot vote set for Dec 1; Schumer allies want it moved up.",
+  "url": "https://whipcount.dropsitenews.com/",
+  "why": "Schumer leader re-check, Nov 14 2026"
+ },
+ {
+  "who": "Peter Welch",
+  "key": "sch",
+  "new_stance": "Unclear",
+  "evidence": "Left the choice open (Nov 11, 2026). Secret-ballot vote set for Dec 1; Schumer allies want it moved up.",
+  "url": "https://whipcount.dropsitenews.com/",
+  "why": "Schumer leader re-check, Nov 14 2026"
+ },
+ {
+  "who": "Maria Cantwell",
+  "key": "sch",
+  "new_stance": "Unclear",
+  "evidence": "'I'll certainly listen to the debate' (Nov 4, 2026). Secret-ballot vote set for Dec 1; Schumer allies want it moved up.",
+  "url": "https://whipcount.dropsitenews.com/",
+  "why": "Schumer leader re-check, Nov 14 2026"
+ },
+ {
+  "who": "Alex Padilla",
+  "key": "sch",
+  "new_stance": "Unclear",
+  "evidence": "No public commitment (Nov 10, 2026). Secret-ballot vote set for Dec 1; Schumer allies want it moved up.",
+  "url": "https://whipcount.dropsitenews.com/",
+  "why": "Schumer leader re-check, Nov 14 2026"
+ },
+ {
+  "who": "Ron Wyden",
+  "key": "sch",
+  "new_stance": "Unclear",
+  "evidence": "Praised the midterm results ('You can't argue with results') but has taken no position on the leader race. Secret-ballot vote set for Dec 1; Schumer allies want it moved up.",
+  "url": "https://whipcount.dropsitenews.com/",
+  "why": "Schumer leader re-check, Nov 14 2026"
+ },
+ {
+  "who": "Ben Ray Luján",
+  "key": "sch",
+  "new_stance": "Unclear",
+  "evidence": "No public commitment either way. Secret-ballot vote set for Dec 1; Schumer allies want it moved up.",
+  "url": "https://whipcount.dropsitenews.com/",
+  "why": "Schumer leader re-check, Nov 14 2026"
+ },
+ {
+  "who": "Martin Heinrich",
+  "key": "sch",
+  "new_stance": "Unclear",
+  "evidence": "No stated position; joined 'Fight Club' actions challenging Schumer's strategy. Secret-ballot vote set for Dec 1; Schumer allies want it moved up.",
+  "url": "https://whipcount.dropsitenews.com/",
+  "why": "Schumer leader re-check, Nov 14 2026"
+ },
+ {
+  "who": "Chris Murphy",
+  "key": "sch",
+  "new_stance": "Unclear",
+  "evidence": "No stated position; founding member of the 2025 'Fight Club' that challenged Schumer's strategy. Secret-ballot vote set for Dec 1; Schumer allies want it moved up.",
+  "url": "https://whipcount.dropsitenews.com/",
+  "why": "Schumer leader re-check, Nov 14 2026"
+ },
+ {
+  "who": "Jon Ossoff",
+  "key": "sch",
+  "new_stance": "Unclear",
+  "evidence": "Campaign would not say whether he backs Schumer (Nov 5, 2026). Secret-ballot vote set for Dec 1; Schumer allies want it moved up.",
+  "url": "https://whipcount.dropsitenews.com/",
+  "why": "Schumer leader re-check, Nov 14 2026"
+ },
+ {
+  "who": "Josh Turek",
+  "key": "sch",
+  "new_stance": "Unclear",
+  "evidence": "Declined to commit when asked (Nov 9, 2026). Senator-elect, Iowa. Secret-ballot vote set for Dec 1; Schumer allies want it moved up.",
+  "url": "https://whipcount.dropsitenews.com/",
+  "why": "Schumer leader re-check, Nov 14 2026"
+ },
+ {
+  "who": "Roy Cooper",
+  "key": "sch",
+  "new_stance": "Unclear",
+  "evidence": "Has not said publicly. Senator-elect, North Carolina. Secret-ballot vote set for Dec 1; Schumer allies want it moved up.",
+  "url": "https://whipcount.dropsitenews.com/",
+  "why": "Schumer leader re-check, Nov 14 2026"
+ },
+ {
+  "who": "Scott Colom",
+  "key": "sch",
+  "new_stance": "Unclear",
+  "evidence": "Said he didn't yet know his options (Nov 12, 2026); earlier wanted leaders 'from beyond one borough.' Won his race (AP call, Nov 11). Secret-ballot vote set for Dec 1; Schumer allies want it moved up.",
+  "url": "https://whipcount.dropsitenews.com/",
+  "why": "Schumer leader re-check, Nov 14 2026"
+ },
+ {
+  "who": "Mary Peltola",
+  "key": "sch",
+  "new_stance": "Unclear",
+  "evidence": "No public commitment either way. Race not yet called (ranked-choice count Nov 18). Secret-ballot vote set for Dec 1; Schumer allies want it moved up.",
+  "url": "https://whipcount.dropsitenews.com/",
+  "why": "Schumer leader re-check, Nov 14 2026"
+ },
+ {
+  "who": "Adam Schiff",
+  "key": "sch",
+  "new_stance": "Unclear",
+  "evidence": "No public statement found. Secret-ballot vote set for Dec 1; Schumer allies want it moved up.",
+  "url": "https://whipcount.dropsitenews.com/",
+  "why": "Schumer leader re-check, Nov 14 2026"
+ },
+ {
+  "who": "John Hickenlooper",
+  "key": "sch",
+  "new_stance": "Unclear",
+  "evidence": "No public statement found. Secret-ballot vote set for Dec 1; Schumer allies want it moved up.",
+  "url": "https://whipcount.dropsitenews.com/",
+  "why": "Schumer leader re-check, Nov 14 2026"
+ },
+ {
+  "who": "Michael Bennet",
+  "key": "sch",
+  "new_stance": "Unclear",
+  "evidence": "No public statement found. Secret-ballot vote set for Dec 1; Schumer allies want it moved up.",
+  "url": "https://whipcount.dropsitenews.com/",
+  "why": "Schumer leader re-check, Nov 14 2026"
+ },
+ {
+  "who": "Lisa Blunt Rochester",
+  "key": "sch",
+  "new_stance": "Unclear",
+  "evidence": "No public statement found (worked with Schumer as DSCC vice chair this cycle). Secret-ballot vote set for Dec 1; Schumer allies want it moved up.",
+  "url": "https://whipcount.dropsitenews.com/",
+  "why": "Schumer leader re-check, Nov 14 2026"
+ },
+ {
+  "who": "Maggie Hassan",
+  "key": "sch",
+  "new_stance": "Unclear",
+  "evidence": "No public statement found. Secret-ballot vote set for Dec 1; Schumer allies want it moved up.",
+  "url": "https://whipcount.dropsitenews.com/",
+  "why": "Schumer leader re-check, Nov 14 2026"
+ },
+ {
+  "who": "Mazie Hirono",
+  "key": "sch",
+  "new_stance": "Unclear",
+  "evidence": "No public statement found. Secret-ballot vote set for Dec 1; Schumer allies want it moved up.",
+  "url": "https://whipcount.dropsitenews.com/",
+  "why": "Schumer leader re-check, Nov 14 2026"
+ },
+ {
+  "who": "Tammy Duckworth",
+  "key": "sch",
+  "new_stance": "Unclear",
+  "evidence": "No public statement found. Secret-ballot vote set for Dec 1; Schumer allies want it moved up.",
+  "url": "https://whipcount.dropsitenews.com/",
+  "why": "Schumer leader re-check, Nov 14 2026"
+ },
+ {
+  "who": "TBD — Klobuchar appointee",
+  "key": "sch",
+  "new_stance": "Unclear",
+  "evidence": "Not yet named. Secret-ballot vote set for Dec 1; Schumer allies want it moved up.",
+  "url": null,
+  "why": "Schumer leader re-check, Nov 14 2026"
  }
 ]

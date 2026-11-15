@@ -15,6 +15,11 @@ d["gareas"] = [list(x) for x in gov2.GAREAS]
 d["gi"] = [list(x) for x in gov2.GI]
 d["gold"] = sorted(gov2.OLD)
 party = {r[1]: r[3] for r in senate_data.ROSTER}
+# office status (e.g. "Senator-elect", race calls) follows the roster files
+_sst = {r[1]: r[4] for r in senate_data.ROSTER}
+for x in d["sen"]: x["s"] = _sst.get(x["id"], x["s"])
+_gst = {r[0]: r[3] for r in gov_data.GOVS}
+for g in d["gov"]: g["s"] = _gst.get(g["st"], g["s"])
 for x in d["sen"]:
     x["r"] = {k: list(v) for k, v in senate_data.senator_record(x["id"], party[x["id"]]).items()}
 import hegseth as _heg

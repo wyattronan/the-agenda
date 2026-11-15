@@ -1,6 +1,6 @@
 # One-sentence descriptions: what each measure does and its likely impact.
 SEN = {
-    "heg": "If the House impeaches Defense Secretary Pete Hegseth, a Senate trial decides whether to remove him; a Republican-led impeachment resolution from Rep. Thomas Massie is pending.",
+    "heg": "If the House impeaches Defense Secretary Pete Hegseth, a Senate trial decides whether to remove him; Rep. Thomas Massie's impeachment resolution was referred to committee 211–204 on Nov 10, 2026, effectively ending it this Congress.",
  "fil": "Changes Senate rules so most bills can pass with a simple majority instead of 60 votes, which would let a Democratic majority move much of this agenda without Republican support.",
  "sch": "Decides whether Chuck Schumer stays as leader of the Senate Democratic caucus, which shapes who sets the floor schedule and the party's strategy for the next two years.",
  "m4a": "Replaces private insurance with a single public plan covering every American, ending premiums and deductibles but requiring large new federal taxes to pay for it.",

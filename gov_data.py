@@ -81,7 +81,7 @@ GOVS = [
  ("IN","Mike Braun","R","Continuing (term to 2029)", gp(roe="Opposes abortion rights.")),
  ("IA","Rob Sand","D","Governor-elect (flip)", gp(wage="Proposes raising to $12 (Aug 2026); earlier said $15 (2025).",
    roe="Will veto new abortion restrictions; opposes Dobbs.", house="Simplify permitting/fees; rural housing task force (Aug 2026).")),
- ("KS","Cindy Holscher","D","Presumed winner (uncalled)", gp(roe="Abortion-rights supporter (2022 amendment fight).")),
+ ("KS","Cindy Holscher","D","Governor-elect (AP call Nov 12, 2026)", gp(roe="Abortion-rights supporter (2022 amendment fight).")),
  ("KY","Andy Beshear","D","Continuing (term to 2027)", gp(roe="Supports abortion rights; vetoes overridden.")),
  ("LA","Jeff Landry","R","Continuing (term to 2028)", gp(roe="Opposes abortion rights.")),
  ("ME","Hannah Pingree","D","Governor-elect (new)", gp()),

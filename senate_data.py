@@ -51,7 +51,7 @@ def dem_defaults(n):
         d["fil"] = ("Lean support", "Voted Jan 19 2022 to change Senate rules to pass voting-rights bill by simple majority; no 2025-26 statement found.")
     else:
         d["fil"] = ("Unclear", "Joined Senate after the 2022 rules vote; no 2025-26 statement found.")
-    d["sch"] = ("Unclear", "No public statement found. Leadership vote is a secret ballot, expected early Dec 2026.")
+    d["sch"] = ("Unclear", "No public statement found. Leadership vote is a secret ballot set for Dec 1, 2026.")
     d["m4a"] = ("Support", "Cosponsor, Medicare for All Act S.1506 (Apr 29 2025).") if n in M4A else \
                ("Unclear", "Not a cosponsor of S.1506; no endorsement found.")
     d["roe"] = ("Support", "Cosponsor, Women's Health Protection Act S.2150 (Jun 24 2025) — introduced by the entire Dem caucus.")
@@ -165,7 +165,7 @@ ROSTER = [
  ("MN","MN appointee","TBD — Klobuchar appointee","D (expected)","Gov.-elect Klobuchar will appoint her own successor (Jan 2027)"),
  ("MN","Flanagan","Peggy Flanagan","D","Senator-elect (succeeds Tina Smith)"),
  ("MS","Wicker","Roger Wicker","R","Continuing"),
- ("MS","Colom","Scott Colom","D","Presumed winner (uncalled; led by ~65 votes)"),
+ ("MS","Colom","Scott Colom","D","Senator-elect (flip; AP call Nov 11, 2026)"),
  ("MO","Hawley","Josh Hawley","R","Continuing"),
  ("MO","Schmitt","Eric Schmitt","R","Continuing"),
  ("MT","Sheehy","Tim Sheehy","R","Continuing"),
