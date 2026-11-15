@@ -1,5 +1,7 @@
 """Getting Stuff Done: the five-rung ladder.
-Talk (10) -> Commit (25) -> Spend (50) -> Deliver (100) per issue, at the highest rung the evidence reaches
+Talk (10) -> Commit (25) -> Spend (50) -> Deliver (100) per issue, at the highest rung the evidence reaches.
+Spend includes money from a PAC, issue group or nonprofit the leader founded, leads or controls (or their own campaign
+committee) put behind the measure itself or behind candidates in ads built around it
 (leans earn half). Ladder = average points over the issues counted, scaled so the best record in the group sets 90
 (so nobody reaches 100; the most anyone can total is 92.5).
 Total = 75% ladder + 25% Steward (home-state rankings). Built from the site's own research notes."""
@@ -21,7 +23,11 @@ SPEND = (r"(^|; |, and |\band |\b(he|she) )vetoe?[ds]?\b|\bveto(ed|es)? (of )?(a
          r"|\b(gave|spent|spending|put|invested|committed|secured|directed|proposed|budget(ed)?|funded|allocat\w*|adds?)\b[^.;]{0,60}\$[0-9]"
          r"|\bproposed\b[^.;]{0,50}\bfunding\b|\bbudget (proposal|includes|adds)|\bdirected\b|\bordered\b"
          r"|\b(signed|issued) (an |a )?executive (order|action)s?|ballot (measure|initiative)[^.;]{0,30}\b(led|championed|bankrolled)"
-         r"|campaigned (for|in)\b[^.;]{0,60}(states|nationally|across)")
+         r"|campaigned (for|in)\b[^.;]{0,60}(states|nationally|across)"
+         # money from the leader's own PAC, issue group, nonprofit or campaign committee, for the measure itself
+         # or for candidates in ads built around it
+         r"|\b(PAC|super PAC|501\(c\)\(4\)|nonprofit|issue group|advocacy group|campaign committee)\b[^.;]{0,80}\b(spent|gave|ran|funded|bankrolled|paid for|bought)\b"
+         r"|\bspent (a |an )?(five|six|seven|eight)-figure")
 COMMIT = (r"(?<!co)(?<!co-)\bsponsor(s|ed)?\b|\bintroduc|\bco-led\b|\bvot(ed|es|e|ing)\b|\byea\b|pledg|promis|\bvow"
           r"|platform|\bplans?\b|agenda|campaign site|propos|^would\b|\b(he|she) would\b|calls for"
           r"|\b(will|would) (push|fight|sign|expand|create|pass|cut|ban|veto|make|require|bring)\b|co-?wrote|\bauthored\b"

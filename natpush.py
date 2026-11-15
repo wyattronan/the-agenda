@@ -4,6 +4,8 @@ Used two ways:
   * Governors get credit for backing a measure that is ALREADY LAW at home only if it appears here
     (they campaigned for it elsewhere or pushed it federally in 2026 or after the election).
   * Presidential hopefuls get credit for backing Senate measures (governors) here, on top of their own record.
+Also counts money from a PAC, issue group or nonprofit the leader founded, leads or controls (or their own campaign
+committee) spent on the measure or on candidates in ads built around it, from 2022 on.
 Keys can be Senate keys or governor keys. Stance is "Support" or "Lean support". Never inferred: each row needs a source.
 """
 CNI_P = "https://capitolnewsillinois.com/news/on-1st-day-since-winning-3rd-term-as-governor-pritzker-releases-200-point-national-agenda/"
@@ -19,6 +21,9 @@ PUSH = {
    "roe": ["Support", "Day One Agenda calls on Congress to codify abortion rights nationally (Nov 2026).", CNI_P],
    "imm": ["Support", "Day One Agenda calls for comprehensive immigration reform and an end to mass-deportation round-ups (Nov 2026).", NBC_P],
    "tariff": ["Lean support", "Day One Agenda would refund consumers for tariff costs (Nov 2026); doesn't name the Trade Review Act.", CNI_P],
+ },
+ "gov:MD": {
+   "roe": ["Support", "His Unity First PAC, launched by Moore and his allies, spent a six-figure sum on digital ads hitting Larry Hogan's abortion record in the Senate race (Sep 2024).", "https://marylandmatters.org/2024/09/06/moores-pac-launches-first-attack-on-hogan/"],
  },
  "hope:Pete Buttigieg": {
    "gerry": ["Support", "Day after the midterms, urged a rapid-fire Democratic bill limiting gerrymandering (Nov 2026).", CNN_B],
