@@ -1,0 +1,330 @@
+[
+ {
+  "who": "Andy Beshear",
+  "key": "schools",
+  "new_stance": "Support",
+  "evidence": "Jan 2026 State of the Commonwealth/budget proposes $159M for mandatory educator raises and higher per-pupil K-12 funding.",
+  "url": "https://governor.ky.gov/attachments/20260107_State-of-the-Commonwealth-Address.pdf",
+  "changed": true
+ },
+ {
+  "who": "Andy Beshear",
+  "key": "rural",
+  "new_stance": "Support",
+  "evidence": "Jan 2026 State of the Commonwealth/budget proposes a $125 million rural hospital fund.",
+  "url": "https://governor.ky.gov/attachments/20260107_State-of-the-Commonwealth-Address.pdf",
+  "changed": true
+ },
+ {
+  "who": "Andy Beshear",
+  "key": "house",
+  "new_stance": "Support",
+  "evidence": "Jan 2026 budget proposes $150 million for the Affordable Housing Trust Fund, which he says would leverage about $1B in new housing.",
+  "url": "https://governor.ky.gov/attachments/20260107_State-of-the-Commonwealth-Address.pdf",
+  "changed": true
+ },
+ {
+  "who": "Andy Beshear",
+  "key": "safety",
+  "new_stance": "Lean support",
+  "evidence": "Jan 2026 State of the Commonwealth calls for hiring more law enforcement and paying them better, plus a reentry campus; no new dollar figure.",
+  "url": "https://governor.ky.gov/attachments/20260107_State-of-the-Commonwealth-Address.pdf",
+  "changed": true
+ },
+ {
+  "who": "Andy Beshear",
+  "key": "pubopt",
+  "new_stance": "Lean support",
+  "evidence": "Jan 2026 budget proposes $100 million to lower the cost of kynect coverage and fully funds Medicaid; related subsidy, not a public option.",
+  "url": "https://governor.ky.gov/attachments/20260107_State-of-the-Commonwealth-Address.pdf",
+  "changed": true
+ },
+ {
+  "who": "Andy Beshear",
+  "key": "workforce",
+  "new_stance": "Lean support",
+  "evidence": "Jan 2026 budget proposes $50M for career and technical education facilities and a prison reentry campus with KCTCS vocational training; no apprenticeship plan.",
+  "url": "https://kypolicy.org/2026-governor-andy-beshear-budget-proposal/",
+  "changed": true
+ },
+ {
+  "who": "Andy Beshear",
+  "key": "drugbd",
+  "new_stance": "Support",
+  "evidence": "Signed HB 95 capping insulin copays at $30 for a 30-day supply (Mar 2021).",
+  "url": "https://www.weku.org/health-and-welfare/2021-03-22/new-kentucky-bill-caps-price-of-insulin",
+  "changed": true
+ },
+ {
+  "who": "Andy Beshear",
+  "key": "gun",
+  "new_stance": "Support",
+  "evidence": "Vetoed HB 312 (concealed carry at 18-20) and HB 78 (gun-seller liability shield) in Apr 2026; both overridden. Backed a red-flag-style law in 2023.",
+  "url": "https://www.wvxu.org/2026-04-06/beshear-vetoes-bills-lowering-concealed-carry-age-protecting-gun-sellers-from-liability",
+  "changed": true
+ },
+ {
+  "who": "Andy Beshear",
+  "key": "childcare",
+  "new_stance": "Support",
+  "evidence": "Proposed $141M over two years to keep higher child care subsidy rates and expand assistance for children 3 and under (Dec 2023); 2026 budget adds Pre-K for All.",
+  "url": "https://hoptownchronicle.org/?p=81745",
+  "changed": true
+ },
+ {
+  "who": "Andy Beshear",
+  "key": "mental",
+  "new_stance": "Support",
+  "evidence": "Touted 988 growth and $40M+ in school mental health grants; signed 2026 HB 169 and HB 178 expanding mental health coverage (May 2026).",
+  "url": "https://nkytribune.com/2026/05/mental-health-awareness-continues-beyond-the-month-of-may-governor-says/",
+  "changed": true
+ },
+ {
+  "who": "Andy Beshear",
+  "key": "clean",
+  "new_stance": "Lean support",
+  "evidence": "Vetoed SB 349, which made it harder to retire fossil plants, citing his all-of-the-above energy policy (Apr 2024); no clean-power standard proposed.",
+  "url": "https://www.eenews.net/articles/kentucky-governor-vetoes-bill-that-would-keep-coal-plants-open/",
+  "changed": true
+ },
+ {
+  "who": "Andy Beshear",
+  "key": "ai",
+  "new_stance": "Support",
+  "evidence": "Signed SB 4 (2025), setting state AI governance rules, disclosure of AI use, and remedies for deepfake election ads (Mar 2025); not kids-specific.",
+  "url": "https://lpm.org/news/2025-04-01/here-are-8-kentucky-bills-going-into-effect-immediately",
+  "changed": true
+ },
+ {
+  "who": "Kelly Armstrong",
+  "key": "house",
+  "new_stance": "Support",
+  "evidence": "Jan 2025 executive budget proposed nearly $105M for housing supply and affordability, including a $50M public-private housing program.",
+  "url": "https://www.governor.nd.gov/news/armstrongs-executive-budget-highlighted-property-tax-relief-infrastructure-and-housing",
+  "changed": true
+ },
+ {
+  "who": "Kelly Armstrong",
+  "key": "mental",
+  "new_stance": "Support",
+  "evidence": "Jan 2025 budget proposed $19.2M for behavioral health, including $7.8M for youth crisis care and $2M for rural crisis supports, plus a new State Hospital.",
+  "url": "https://www.governor.nd.gov/news/armstrongs-executive-budget-highlighted-property-tax-relief-infrastructure-and-housing",
+  "changed": true
+ },
+ {
+  "who": "Kelly Armstrong",
+  "key": "schools",
+  "new_stance": "Support",
+  "evidence": "Jan 2025 budget proposed $60M for 2% annual increases in the K-12 funding formula; a modest raise, alongside a $44.3M ESA proposal.",
+  "url": "https://www.governor.nd.gov/news/armstrongs-executive-budget-highlighted-property-tax-relief-infrastructure-and-housing",
+  "changed": true
+ },
+ {
+  "who": "Kelly Armstrong",
+  "key": "ai",
+  "new_stance": "Lean support",
+  "evidence": "Signed HB 1160 banning personal devices during K-12 instruction, in effect Aug 2025; a related kids-tech step, not an AI or online-safety law.",
+  "url": "https://www.yahoo.com/news/articles/tax-relief-phone-bans-vetoes-153500098.html",
+  "changed": true
+ },
+ {
+  "who": "Kelly Armstrong",
+  "key": "tariff",
+  "new_stance": "Lean oppose",
+  "evidence": "Backed Trump's 145% China tariffs while conceding retaliation will hurt ND farmers (Apr 2025); later said Canada tariffs strained ties (Feb 2026).",
+  "url": "https://am1100theflag.com/?p=99878",
+  "changed": true
+ },
+ {
+  "who": "Kelly Armstrong",
+  "key": "datactr",
+  "new_stance": "Lean support",
+  "evidence": "Signed the White House Ratepayer Protection Pledge that data centers pay full cost of new power and grid upgrades (Jul 2026); voluntary, no state law.",
+  "url": "https://www.whitehouse.gov/wp-content/uploads/2026/07/Ratepayer-Protection-Pledge-Signed.pdf",
+  "changed": true
+ },
+ {
+  "who": "Kelly Armstrong",
+  "key": "childcare",
+  "new_stance": "Lean support",
+  "evidence": "Signed a 2025 law giving employers a 50% tax credit for child care stipends to workers (May 2025); narrower than expanded public subsidies.",
+  "url": "https://kiowacountypress.net/content/north-dakota-set-offer-new-child-care-tax-credit",
+  "changed": true
+ },
+ {
+  "who": "Kelly Armstrong",
+  "key": "gun",
+  "new_stance": "Oppose",
+  "evidence": "Signed HB 1588 loosening concealed-carry rules, incl. dropping the duty to inform police and allowing guns on campuses (Apr 23 2025).",
+  "url": "https://www.nraila.org/articles/20250424/north-dakota-governor-signs-firearm-carry-enhancement-bill-into-law",
+  "changed": true
+ },
+ {
+  "who": "Marsha Blackburn",
+  "key": "house",
+  "new_stance": "Support",
+  "evidence": "Governor-elect plans to simplify housing permitting and regulation and build workforce housing on unused government land via public-private deals (Nov 2026).",
+  "url": "https://www.wsmv.com/2026/11/04/gov-elect-blackburn-lays-out-her-first-priorities-when-her-administration-is-sworn/",
+  "changed": true
+ },
+ {
+  "who": "Marsha Blackburn",
+  "key": "workforce",
+  "new_stance": "Lean support",
+  "evidence": "Governor-elect says her transition will focus on workforce development and job retraining with local mayors; no specific program yet (Nov 2026).",
+  "url": "https://www.wsmv.com/2026/11/04/gov-elect-blackburn-lays-out-her-first-priorities-when-her-administration-is-sworn/",
+  "changed": true
+ },
+ {
+  "who": "Marsha Blackburn",
+  "key": "childcare",
+  "new_stance": "Lean support",
+  "evidence": "Governor-elect cited her work on the federal employer child care tax credit and wants more care options for parents; no state plan (Nov 2026).",
+  "url": "https://www.wsmv.com/2026/11/04/gov-elect-blackburn-lays-out-her-first-priorities-when-her-administration-is-sworn/",
+  "changed": true
+ },
+ {
+  "who": "Marsha Blackburn",
+  "key": "rural",
+  "new_stance": "Mixed",
+  "evidence": "Touts the $1B Rural Health Transformation Fund she worked on (Oct 2026) but voted for the OBBBA Medicaid cuts that created it (Jul 2025).",
+  "url": "https://www.wsmv.com/2026/10/12/tennessee-governor-candidates-talk-rural-healthcare-maternal-mortality-rates/",
+  "changed": true
+ },
+ {
+  "who": "Marsha Blackburn",
+  "key": "ai",
+  "new_stance": "Support",
+  "evidence": "Lead sponsor of the Kids Online Safety Act, S.1748, reintroduced in 2025; pressed Congress to pass it (Dec 2025). Federal bill, not a state plan.",
+  "url": "https://www.blackburn.senate.gov/2025/12/technology/video-blackburn-calls-on-congress-to-pass-senate-version-of-kosa-following-latest-meta-scandal",
+  "changed": true
+ },
+ {
+  "who": "Marsha Blackburn",
+  "key": "gun",
+  "new_stance": "Lean oppose",
+  "evidence": "As senator voted against the Bipartisan Safer Communities Act (Jun 2022), which funded red-flag programs; federal vote, no state gun plan stated.",
+  "url": "https://www.tnfirefly.com/tennessee-governor-race/candidates/marsha-blackburn",
+  "changed": true
+ },
+ {
+  "who": "Marsha Blackburn",
+  "key": "tariff",
+  "new_stance": "Oppose",
+  "evidence": "Backed Trump's tariffs: 'President Trump is right' on his approach, calling the old tariff structure unfair to workers (Apr 2025).",
+  "url": "https://www.breitbart.com/politics/2025/04/10/exclusive-marsha-blackburn-on-tariffs-we-already-have-70-countries-coming-negotiate",
+  "changed": true
+ },
+ {
+  "who": "Patrick Morrisey",
+  "key": "workforce",
+  "new_stance": "Support",
+  "evidence": "Jan 2026 State of the State proposes a Workforce Readiness & Opportunity Act to expand micro-credentials and portable benefits, plus more workforce-training money.",
+  "url": "https://governor.wv.gov/article/governor-morrisey-highlights-major-victories-looks-ahead-cutting-taxes-improving-healthcare",
+  "changed": true
+ },
+ {
+  "who": "Patrick Morrisey",
+  "key": "rural",
+  "new_stance": "Lean support",
+  "evidence": "Jan 2026 State of the State urged lawmakers to quickly authorize the $199M federal Rural Health Transformation plan; no new state money or Medicaid-rate plan.",
+  "url": "https://governor.wv.gov/article/governor-morrisey-highlights-major-victories-looks-ahead-cutting-taxes-improving-healthcare",
+  "changed": true
+ },
+ {
+  "who": "Patrick Morrisey",
+  "key": "ai",
+  "new_stance": "Lean support",
+  "evidence": "Signed HB 2003 restricting student smartphone use during class (Apr 2025); a related kids-tech step, not an AI or online-safety law.",
+  "url": "https://wvpublic.org/story/government/morrisey-signs-school-smartphone-ban-national-motto-bills-into-law/",
+  "changed": true
+ },
+ {
+  "who": "Patrick Morrisey",
+  "key": "datactr",
+  "new_stance": "Mixed",
+  "evidence": "Signed HB 2014 barring local limits on data centers (May 2025), but signed the White House pledge that data centers pay full power and grid costs (Jul 2026).",
+  "url": "https://www.whitehouse.gov/wp-content/uploads/2026/07/Ratepayer-Protection-Pledge-Signed.pdf",
+  "changed": true
+ },
+ {
+  "who": "Patrick Morrisey",
+  "key": "ice",
+  "new_stance": "Oppose",
+  "evidence": "Signed 287(g) agreements with ICE for the National Guard, State Police and Corrections: 'proud to partner with ICE' (Aug 2025).",
+  "url": "https://governor.wv.gov/article/governor-patrick-morrisey-announces-signed-agreements-between-ice-and-west-virginia-law",
+  "changed": true
+ },
+ {
+  "who": "Patrick Morrisey",
+  "key": "gun",
+  "new_stance": "Oppose",
+  "evidence": "Signed HB 4106 extending permitless carry to 18- to 20-year-olds (Apr 1 2026).",
+  "url": "https://www.nraila.org/articles/20260402/west-virginia-governor-morrisey-signs-constitutional-carry-expansion-bill",
+  "changed": true
+ },
+ {
+  "who": "Patrick Morrisey",
+  "key": "clean",
+  "new_stance": "Lean oppose",
+  "evidence": "Seeks $1.44B to keep six coal plants running 20 more years under a coal/gas/nuclear-led energy plan (Nov 2025); no statement on clean mandates found.",
+  "url": "https://www.newsandsentinel.com/news/business/2025/11/stoking-the-fires-morrisey-announces-effort-to-keep-coal-power-plants-alight/",
+  "changed": true
+ },
+ {
+  "who": "Patrick Morrisey",
+  "key": "schools",
+  "new_stance": "Lean support",
+  "evidence": "FY2027 budget he signed gives teachers and other state workers a 3% raise (Mar 2026); no formula overhaul, and $276M goes to HOPE private-school accounts.",
+  "url": "https://governor.wv.gov/article/governor-morrisey-highlights-key-investments-secured-final-budget",
+  "changed": true
+ },
+ {
+  "who": "Eric Barlow",
+  "key": "rural",
+  "new_stance": "Support",
+  "evidence": "Campaign pledged to strengthen rural hospitals and EMS and said yes to championing a state-funded perpetuity fund to sustain rural health gains (Jul 2026).",
+  "url": "https://wyofile.com/heres-where-the-republican-candidates-for-wyoming-governor-diverge-on-policy/",
+  "changed": true
+ },
+ {
+  "who": "Eric Barlow",
+  "key": "mental",
+  "new_stance": "Lean support",
+  "evidence": "Campaign lists expanding behavioral health capacity as a goal of his healthcare strike team; no funding plan given (Jul 2026).",
+  "url": "https://wyofile.com/heres-where-the-republican-candidates-for-wyoming-governor-diverge-on-policy/",
+  "changed": true
+ },
+ {
+  "who": "Eric Barlow",
+  "key": "workforce",
+  "new_stance": "Support",
+  "evidence": "Questionnaire prioritizes strong career and technical education and apprenticeships, with employers, schools and colleges coordinating (Jun 2026).",
+  "url": "https://projects.wyofile.com/election-guide-2026/candidates/barlow-eric/",
+  "changed": true
+ },
+ {
+  "who": "Eric Barlow",
+  "key": "safety",
+  "new_stance": "Lean support",
+  "evidence": "Campaign pledges to strengthen public safety and back officers and first responders with training and resources; no specific funding plan (2026).",
+  "url": "https://www.barlowforwyo.com/positions",
+  "changed": true
+ },
+ {
+  "who": "Eric Barlow",
+  "key": "gun",
+  "new_stance": "Oppose",
+  "evidence": "Campaign says he supported 'stronger concealed carry laws' (expanding carry) and sponsored a bill restoring gun rights to hundreds (2026).",
+  "url": "https://www.barlowforwyo.com/positions",
+  "changed": true
+ },
+ {
+  "who": "Eric Barlow",
+  "key": "schools",
+  "new_stance": "Lean support",
+  "evidence": "Said the legislature 'finally made progress' on the school funding model but more work remains (Apr 2026); no funding pledge.",
+  "url": "https://www.lovellchronicle.com/node/97911",
+  "changed": true
+ }
+]

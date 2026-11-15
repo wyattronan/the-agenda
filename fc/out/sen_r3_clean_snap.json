@@ -1,0 +1,1410 @@
+[
+ {
+  "who": "Katie Britt",
+  "key": "clean",
+  "new_stance": "Oppose",
+  "evidence": "Voted for the One Big Beautiful Bill Act H.R.1, which cut clean-energy tax credits (Jul 1 2025, 51–50).",
+  "url": "https://www.dailypress.senate.gov/?p=148788",
+  "changed": true
+ },
+ {
+  "who": "Katie Britt",
+  "key": "snap",
+  "new_stance": "Oppose",
+  "evidence": "Voted for the One Big Beautiful Bill Act H.R.1, which cut SNAP and shifted costs to states (Jul 1 2025, 51–50).",
+  "url": "https://www.dailypress.senate.gov/?p=148788",
+  "changed": true
+ },
+ {
+  "who": "Barry Moore",
+  "key": "clean",
+  "new_stance": "Oppose",
+  "evidence": "As a House member, voted for the One Big Beautiful Bill Act H.R.1, which cut clean-energy tax credits (Jul 3 2025, 218–214).",
+  "url": "https://clerk.house.gov/evs/2025/roll190",
+  "changed": true
+ },
+ {
+  "who": "Barry Moore",
+  "key": "snap",
+  "new_stance": "Oppose",
+  "evidence": "As a House member, voted for the One Big Beautiful Bill Act H.R.1, which cut SNAP and shifted costs to states (Jul 3 2025, 218–214).",
+  "url": "https://clerk.house.gov/evs/2025/roll190",
+  "changed": true
+ },
+ {
+  "who": "Lisa Murkowski",
+  "key": "clean",
+  "new_stance": "Oppose",
+  "evidence": "Voted for the One Big Beautiful Bill Act H.R.1, which cut clean-energy tax credits (Jul 1 2025, 51–50).",
+  "url": "https://www.dailypress.senate.gov/?p=148788",
+  "changed": true
+ },
+ {
+  "who": "Lisa Murkowski",
+  "key": "snap",
+  "new_stance": "Oppose",
+  "evidence": "Voted for the One Big Beautiful Bill Act H.R.1, which cut SNAP and shifted costs to states (Jul 1 2025, 51–50).",
+  "url": "https://www.dailypress.senate.gov/?p=148788",
+  "changed": true
+ },
+ {
+  "who": "Mark Kelly",
+  "key": "clean",
+  "new_stance": "Support",
+  "evidence": "Original cosponsor, Lowering Electric Bills Act S.2681, restoring clean-energy credits cut by the OBBBA (Aug 2025).",
+  "url": "https://www.congress.gov/119/bills/s2681/BILLS-119s2681is.htm",
+  "changed": true
+ },
+ {
+  "who": "Mark Kelly",
+  "key": "snap",
+  "new_stance": "Support",
+  "evidence": "Cosponsor, Restoring Food Security for American Families and Farmers Act S.3281, repealing the OBBBA SNAP cuts (Nov 2025).",
+  "url": "https://www.murray.senate.gov/murray-lujan-colleagues-introduce-legislation-to-reverse-snap-cuts-and-restore-food-security-for-millions-of-americans/",
+  "changed": true
+ },
+ {
+  "who": "Ruben Gallego",
+  "key": "clean",
+  "new_stance": "Support",
+  "evidence": "Original cosponsor, Lowering Electric Bills Act S.2681, restoring clean-energy credits cut by the OBBBA (Aug 2025).",
+  "url": "https://www.congress.gov/119/bills/s2681/BILLS-119s2681is.htm",
+  "changed": true
+ },
+ {
+  "who": "Ruben Gallego",
+  "key": "snap",
+  "new_stance": "Support",
+  "evidence": "Cosponsor, Restoring Food Security for American Families and Farmers Act S.3281, repealing the OBBBA SNAP cuts (Nov 2025).",
+  "url": "https://www.murray.senate.gov/murray-lujan-colleagues-introduce-legislation-to-reverse-snap-cuts-and-restore-food-security-for-millions-of-americans/",
+  "changed": true
+ },
+ {
+  "who": "John Boozman",
+  "key": "clean",
+  "new_stance": "Oppose",
+  "evidence": "Voted for the One Big Beautiful Bill Act H.R.1, which cut clean-energy tax credits (Jul 1 2025, 51–50).",
+  "url": "https://www.dailypress.senate.gov/?p=148788",
+  "changed": true
+ },
+ {
+  "who": "John Boozman",
+  "key": "snap",
+  "new_stance": "Oppose",
+  "evidence": "Voted for the One Big Beautiful Bill Act H.R.1, which cut SNAP and shifted costs to states (Jul 1 2025, 51–50).",
+  "url": "https://www.dailypress.senate.gov/?p=148788",
+  "changed": true
+ },
+ {
+  "who": "Tom Cotton",
+  "key": "clean",
+  "new_stance": "Oppose",
+  "evidence": "Voted for the One Big Beautiful Bill Act H.R.1, which cut clean-energy tax credits (Jul 1 2025, 51–50).",
+  "url": "https://www.dailypress.senate.gov/?p=148788",
+  "changed": true
+ },
+ {
+  "who": "Tom Cotton",
+  "key": "snap",
+  "new_stance": "Oppose",
+  "evidence": "Voted for the One Big Beautiful Bill Act H.R.1, which cut SNAP and shifted costs to states (Jul 1 2025, 51–50).",
+  "url": "https://www.dailypress.senate.gov/?p=148788",
+  "changed": true
+ },
+ {
+  "who": "Alex Padilla",
+  "key": "clean",
+  "new_stance": "Support",
+  "evidence": "Original cosponsor, Lowering Electric Bills Act S.2681, restoring clean-energy credits cut by the OBBBA (Aug 2025).",
+  "url": "https://www.congress.gov/119/bills/s2681/BILLS-119s2681is.htm",
+  "changed": true
+ },
+ {
+  "who": "Alex Padilla",
+  "key": "snap",
+  "new_stance": "Support",
+  "evidence": "Cosponsor, Restoring Food Security for American Families and Farmers Act S.3281, repealing the OBBBA SNAP cuts (Nov 2025).",
+  "url": "https://www.murray.senate.gov/murray-lujan-colleagues-introduce-legislation-to-reverse-snap-cuts-and-restore-food-security-for-millions-of-americans/",
+  "changed": true
+ },
+ {
+  "who": "Adam Schiff",
+  "key": "clean",
+  "new_stance": "Lean support",
+  "evidence": "Voted against the One Big Beautiful Bill Act H.R.1, which cut clean-energy tax credits (Jul 1 2025, 51–50); not a cosponsor of S.2681.",
+  "url": "https://www.dailypress.senate.gov/?p=148788",
+  "changed": true
+ },
+ {
+  "who": "Adam Schiff",
+  "key": "snap",
+  "new_stance": "Support",
+  "evidence": "Cosponsor, Restoring Food Security for American Families and Farmers Act S.3281, repealing the OBBBA SNAP cuts (Nov 2025).",
+  "url": "https://www.murray.senate.gov/murray-lujan-colleagues-introduce-legislation-to-reverse-snap-cuts-and-restore-food-security-for-millions-of-americans/",
+  "changed": true
+ },
+ {
+  "who": "Michael Bennet",
+  "key": "clean",
+  "new_stance": "Support",
+  "evidence": "Original cosponsor, Lowering Electric Bills Act S.2681, restoring clean-energy credits cut by the OBBBA (Aug 2025).",
+  "url": "https://www.congress.gov/119/bills/s2681/BILLS-119s2681is.htm",
+  "changed": true
+ },
+ {
+  "who": "Michael Bennet",
+  "key": "snap",
+  "new_stance": "Support",
+  "evidence": "Cosponsor, Restoring Food Security for American Families and Farmers Act S.3281, repealing the OBBBA SNAP cuts (Nov 2025).",
+  "url": "https://www.murray.senate.gov/murray-lujan-colleagues-introduce-legislation-to-reverse-snap-cuts-and-restore-food-security-for-millions-of-americans/",
+  "changed": true
+ },
+ {
+  "who": "John Hickenlooper",
+  "key": "clean",
+  "new_stance": "Support",
+  "evidence": "Original cosponsor, Lowering Electric Bills Act S.2681, restoring clean-energy credits cut by the OBBBA (Aug 2025).",
+  "url": "https://www.congress.gov/119/bills/s2681/BILLS-119s2681is.htm",
+  "changed": true
+ },
+ {
+  "who": "John Hickenlooper",
+  "key": "snap",
+  "new_stance": "Support",
+  "evidence": "Cosponsor, Restoring Food Security for American Families and Farmers Act S.3281, repealing the OBBBA SNAP cuts (Nov 2025).",
+  "url": "https://www.murray.senate.gov/murray-lujan-colleagues-introduce-legislation-to-reverse-snap-cuts-and-restore-food-security-for-millions-of-americans/",
+  "changed": true
+ },
+ {
+  "who": "Richard Blumenthal",
+  "key": "clean",
+  "new_stance": "Support",
+  "evidence": "Original cosponsor, Lowering Electric Bills Act S.2681, restoring clean-energy credits cut by the OBBBA (Aug 2025).",
+  "url": "https://www.congress.gov/119/bills/s2681/BILLS-119s2681is.htm",
+  "changed": true
+ },
+ {
+  "who": "Richard Blumenthal",
+  "key": "snap",
+  "new_stance": "Support",
+  "evidence": "Cosponsor, Restoring Food Security for American Families and Farmers Act S.3281, repealing the OBBBA SNAP cuts (Nov 2025).",
+  "url": "https://www.murray.senate.gov/murray-lujan-colleagues-introduce-legislation-to-reverse-snap-cuts-and-restore-food-security-for-millions-of-americans/",
+  "changed": true
+ },
+ {
+  "who": "Chris Murphy",
+  "key": "clean",
+  "new_stance": "Lean support",
+  "evidence": "Voted against the One Big Beautiful Bill Act H.R.1, which cut clean-energy tax credits (Jul 1 2025, 51–50); not a cosponsor of S.2681.",
+  "url": "https://www.dailypress.senate.gov/?p=148788",
+  "changed": true
+ },
+ {
+  "who": "Chris Murphy",
+  "key": "snap",
+  "new_stance": "Support",
+  "evidence": "Cosponsor, Restoring Food Security for American Families and Farmers Act S.3281, repealing the OBBBA SNAP cuts (Nov 2025).",
+  "url": "https://www.murray.senate.gov/murray-lujan-colleagues-introduce-legislation-to-reverse-snap-cuts-and-restore-food-security-for-millions-of-americans/",
+  "changed": true
+ },
+ {
+  "who": "Chris Coons",
+  "key": "clean",
+  "new_stance": "Support",
+  "evidence": "Original cosponsor, Lowering Electric Bills Act S.2681, restoring clean-energy credits cut by the OBBBA (Aug 2025).",
+  "url": "https://www.congress.gov/119/bills/s2681/BILLS-119s2681is.htm",
+  "changed": true
+ },
+ {
+  "who": "Chris Coons",
+  "key": "snap",
+  "new_stance": "Support",
+  "evidence": "Cosponsor, Restoring Food Security for American Families and Farmers Act S.3281, repealing the OBBBA SNAP cuts (Nov 2025).",
+  "url": "https://www.murray.senate.gov/murray-lujan-colleagues-introduce-legislation-to-reverse-snap-cuts-and-restore-food-security-for-millions-of-americans/",
+  "changed": true
+ },
+ {
+  "who": "Lisa Blunt Rochester",
+  "key": "clean",
+  "new_stance": "Support",
+  "evidence": "Original cosponsor, Lowering Electric Bills Act S.2681, restoring clean-energy credits cut by the OBBBA (Aug 2025).",
+  "url": "https://www.congress.gov/119/bills/s2681/BILLS-119s2681is.htm",
+  "changed": true
+ },
+ {
+  "who": "Lisa Blunt Rochester",
+  "key": "snap",
+  "new_stance": "Support",
+  "evidence": "Cosponsor, Restoring Food Security for American Families and Farmers Act S.3281, repealing the OBBBA SNAP cuts (Nov 2025).",
+  "url": "https://www.murray.senate.gov/murray-lujan-colleagues-introduce-legislation-to-reverse-snap-cuts-and-restore-food-security-for-millions-of-americans/",
+  "changed": true
+ },
+ {
+  "who": "Rick Scott",
+  "key": "clean",
+  "new_stance": "Oppose",
+  "evidence": "Voted for the One Big Beautiful Bill Act H.R.1, which cut clean-energy tax credits (Jul 1 2025, 51–50).",
+  "url": "https://www.dailypress.senate.gov/?p=148788",
+  "changed": true
+ },
+ {
+  "who": "Rick Scott",
+  "key": "snap",
+  "new_stance": "Oppose",
+  "evidence": "Voted for the One Big Beautiful Bill Act H.R.1, which cut SNAP and shifted costs to states (Jul 1 2025, 51–50).",
+  "url": "https://www.dailypress.senate.gov/?p=148788",
+  "changed": true
+ },
+ {
+  "who": "Ashley Moody",
+  "key": "clean",
+  "new_stance": "Oppose",
+  "evidence": "Voted for the One Big Beautiful Bill Act H.R.1, which cut clean-energy tax credits (Jul 1 2025, 51–50).",
+  "url": "https://www.dailypress.senate.gov/?p=148788",
+  "changed": true
+ },
+ {
+  "who": "Ashley Moody",
+  "key": "snap",
+  "new_stance": "Oppose",
+  "evidence": "Voted for the One Big Beautiful Bill Act H.R.1, which cut SNAP and shifted costs to states (Jul 1 2025, 51–50).",
+  "url": "https://www.dailypress.senate.gov/?p=148788",
+  "changed": true
+ },
+ {
+  "who": "Raphael Warnock",
+  "key": "clean",
+  "new_stance": "Lean support",
+  "evidence": "Voted against the One Big Beautiful Bill Act H.R.1, which cut clean-energy tax credits (Jul 1 2025, 51–50); not a cosponsor of S.2681.",
+  "url": "https://www.dailypress.senate.gov/?p=148788",
+  "changed": true
+ },
+ {
+  "who": "Raphael Warnock",
+  "key": "snap",
+  "new_stance": "Support",
+  "evidence": "Cosponsor, Restoring Food Security for American Families and Farmers Act S.3281, repealing the OBBBA SNAP cuts (Nov 2025).",
+  "url": "https://www.murray.senate.gov/murray-lujan-colleagues-introduce-legislation-to-reverse-snap-cuts-and-restore-food-security-for-millions-of-americans/",
+  "changed": true
+ },
+ {
+  "who": "Jon Ossoff",
+  "key": "clean",
+  "new_stance": "Support",
+  "evidence": "Original cosponsor, Lowering Electric Bills Act S.2681, restoring clean-energy credits cut by the OBBBA (Aug 2025).",
+  "url": "https://www.congress.gov/119/bills/s2681/BILLS-119s2681is.htm",
+  "changed": true
+ },
+ {
+  "who": "Jon Ossoff",
+  "key": "snap",
+  "new_stance": "Support",
+  "evidence": "Cosponsor, Restoring Food Security for American Families and Farmers Act S.3281, repealing the OBBBA SNAP cuts (Nov 2025).",
+  "url": "https://www.murray.senate.gov/murray-lujan-colleagues-introduce-legislation-to-reverse-snap-cuts-and-restore-food-security-for-millions-of-americans/",
+  "changed": true
+ },
+ {
+  "who": "Brian Schatz",
+  "key": "clean",
+  "new_stance": "Support",
+  "evidence": "Original cosponsor, Lowering Electric Bills Act S.2681, restoring clean-energy credits cut by the OBBBA (Aug 2025).",
+  "url": "https://www.congress.gov/119/bills/s2681/BILLS-119s2681is.htm",
+  "changed": true
+ },
+ {
+  "who": "Brian Schatz",
+  "key": "snap",
+  "new_stance": "Support",
+  "evidence": "Cosponsor, Restoring Food Security for American Families and Farmers Act S.3281, repealing the OBBBA SNAP cuts (Nov 2025).",
+  "url": "https://www.murray.senate.gov/murray-lujan-colleagues-introduce-legislation-to-reverse-snap-cuts-and-restore-food-security-for-millions-of-americans/",
+  "changed": true
+ },
+ {
+  "who": "Mazie Hirono",
+  "key": "clean",
+  "new_stance": "Support",
+  "evidence": "Original cosponsor, Lowering Electric Bills Act S.2681, restoring clean-energy credits cut by the OBBBA (Aug 2025).",
+  "url": "https://www.congress.gov/119/bills/s2681/BILLS-119s2681is.htm",
+  "changed": true
+ },
+ {
+  "who": "Mazie Hirono",
+  "key": "snap",
+  "new_stance": "Support",
+  "evidence": "Cosponsor, Restoring Food Security for American Families and Farmers Act S.3281, repealing the OBBBA SNAP cuts (Nov 2025).",
+  "url": "https://www.murray.senate.gov/murray-lujan-colleagues-introduce-legislation-to-reverse-snap-cuts-and-restore-food-security-for-millions-of-americans/",
+  "changed": true
+ },
+ {
+  "who": "Mike Crapo",
+  "key": "clean",
+  "new_stance": "Oppose",
+  "evidence": "Voted for the One Big Beautiful Bill Act H.R.1, which cut clean-energy tax credits (Jul 1 2025, 51–50).",
+  "url": "https://www.dailypress.senate.gov/?p=148788",
+  "changed": true
+ },
+ {
+  "who": "Mike Crapo",
+  "key": "snap",
+  "new_stance": "Oppose",
+  "evidence": "Voted for the One Big Beautiful Bill Act H.R.1, which cut SNAP and shifted costs to states (Jul 1 2025, 51–50).",
+  "url": "https://www.dailypress.senate.gov/?p=148788",
+  "changed": true
+ },
+ {
+  "who": "Jim Risch",
+  "key": "clean",
+  "new_stance": "Oppose",
+  "evidence": "Voted for the One Big Beautiful Bill Act H.R.1, which cut clean-energy tax credits (Jul 1 2025, 51–50).",
+  "url": "https://www.dailypress.senate.gov/?p=148788",
+  "changed": true
+ },
+ {
+  "who": "Jim Risch",
+  "key": "snap",
+  "new_stance": "Oppose",
+  "evidence": "Voted for the One Big Beautiful Bill Act H.R.1, which cut SNAP and shifted costs to states (Jul 1 2025, 51–50).",
+  "url": "https://www.dailypress.senate.gov/?p=148788",
+  "changed": true
+ },
+ {
+  "who": "Tammy Duckworth",
+  "key": "clean",
+  "new_stance": "Support",
+  "evidence": "Original cosponsor, Lowering Electric Bills Act S.2681, restoring clean-energy credits cut by the OBBBA (Aug 2025).",
+  "url": "https://www.congress.gov/119/bills/s2681/BILLS-119s2681is.htm",
+  "changed": true
+ },
+ {
+  "who": "Tammy Duckworth",
+  "key": "snap",
+  "new_stance": "Support",
+  "evidence": "Cosponsor, Restoring Food Security for American Families and Farmers Act S.3281, repealing the OBBBA SNAP cuts (Nov 2025).",
+  "url": "https://www.murray.senate.gov/murray-lujan-colleagues-introduce-legislation-to-reverse-snap-cuts-and-restore-food-security-for-millions-of-americans/",
+  "changed": true
+ },
+ {
+  "who": "Todd Young",
+  "key": "clean",
+  "new_stance": "Oppose",
+  "evidence": "Voted for the One Big Beautiful Bill Act H.R.1, which cut clean-energy tax credits (Jul 1 2025, 51–50).",
+  "url": "https://www.dailypress.senate.gov/?p=148788",
+  "changed": true
+ },
+ {
+  "who": "Todd Young",
+  "key": "snap",
+  "new_stance": "Oppose",
+  "evidence": "Voted for the One Big Beautiful Bill Act H.R.1, which cut SNAP and shifted costs to states (Jul 1 2025, 51–50).",
+  "url": "https://www.dailypress.senate.gov/?p=148788",
+  "changed": true
+ },
+ {
+  "who": "Jim Banks",
+  "key": "clean",
+  "new_stance": "Oppose",
+  "evidence": "Voted for the One Big Beautiful Bill Act H.R.1, which cut clean-energy tax credits (Jul 1 2025, 51–50).",
+  "url": "https://www.dailypress.senate.gov/?p=148788",
+  "changed": true
+ },
+ {
+  "who": "Jim Banks",
+  "key": "snap",
+  "new_stance": "Oppose",
+  "evidence": "Voted for the One Big Beautiful Bill Act H.R.1, which cut SNAP and shifted costs to states (Jul 1 2025, 51–50).",
+  "url": "https://www.dailypress.senate.gov/?p=148788",
+  "changed": true
+ },
+ {
+  "who": "Chuck Grassley",
+  "key": "clean",
+  "new_stance": "Oppose",
+  "evidence": "Voted for the One Big Beautiful Bill Act H.R.1, which cut clean-energy tax credits (Jul 1 2025, 51–50).",
+  "url": "https://www.dailypress.senate.gov/?p=148788",
+  "changed": true
+ },
+ {
+  "who": "Chuck Grassley",
+  "key": "snap",
+  "new_stance": "Oppose",
+  "evidence": "Voted for the One Big Beautiful Bill Act H.R.1, which cut SNAP and shifted costs to states (Jul 1 2025, 51–50).",
+  "url": "https://www.dailypress.senate.gov/?p=148788",
+  "changed": true
+ },
+ {
+  "who": "Jerry Moran",
+  "key": "clean",
+  "new_stance": "Oppose",
+  "evidence": "Voted for the One Big Beautiful Bill Act H.R.1, which cut clean-energy tax credits (Jul 1 2025, 51–50).",
+  "url": "https://www.dailypress.senate.gov/?p=148788",
+  "changed": true
+ },
+ {
+  "who": "Jerry Moran",
+  "key": "snap",
+  "new_stance": "Oppose",
+  "evidence": "Voted for the One Big Beautiful Bill Act H.R.1, which cut SNAP and shifted costs to states (Jul 1 2025, 51–50).",
+  "url": "https://www.dailypress.senate.gov/?p=148788",
+  "changed": true
+ },
+ {
+  "who": "Andy Barr",
+  "key": "clean",
+  "new_stance": "Oppose",
+  "evidence": "As a House member, voted for the One Big Beautiful Bill Act H.R.1, which cut clean-energy tax credits (Jul 3 2025, 218–214).",
+  "url": "https://clerk.house.gov/evs/2025/roll190",
+  "changed": true
+ },
+ {
+  "who": "Andy Barr",
+  "key": "snap",
+  "new_stance": "Oppose",
+  "evidence": "As a House member, voted for the One Big Beautiful Bill Act H.R.1, which cut SNAP and shifted costs to states (Jul 3 2025, 218–214).",
+  "url": "https://clerk.house.gov/evs/2025/roll190",
+  "changed": true
+ },
+ {
+  "who": "John Kennedy",
+  "key": "clean",
+  "new_stance": "Oppose",
+  "evidence": "Voted for the One Big Beautiful Bill Act H.R.1, which cut clean-energy tax credits (Jul 1 2025, 51–50).",
+  "url": "https://www.dailypress.senate.gov/?p=148788",
+  "changed": true
+ },
+ {
+  "who": "John Kennedy",
+  "key": "snap",
+  "new_stance": "Oppose",
+  "evidence": "Voted for the One Big Beautiful Bill Act H.R.1, which cut SNAP and shifted costs to states (Jul 1 2025, 51–50).",
+  "url": "https://www.dailypress.senate.gov/?p=148788",
+  "changed": true
+ },
+ {
+  "who": "Julia Letlow",
+  "key": "clean",
+  "new_stance": "Oppose",
+  "evidence": "As a House member, voted for the One Big Beautiful Bill Act H.R.1, which cut clean-energy tax credits (Jul 3 2025, 218–214).",
+  "url": "https://clerk.house.gov/evs/2025/roll190",
+  "changed": true
+ },
+ {
+  "who": "Julia Letlow",
+  "key": "snap",
+  "new_stance": "Oppose",
+  "evidence": "As a House member, voted for the One Big Beautiful Bill Act H.R.1, which cut SNAP and shifted costs to states (Jul 3 2025, 218–214).",
+  "url": "https://clerk.house.gov/evs/2025/roll190",
+  "changed": true
+ },
+ {
+  "who": "Angus King",
+  "key": "clean",
+  "new_stance": "Support",
+  "evidence": "Original cosponsor, Lowering Electric Bills Act S.2681, restoring clean-energy credits cut by the OBBBA (Aug 2025).",
+  "url": "https://www.congress.gov/119/bills/s2681/BILLS-119s2681is.htm",
+  "changed": true
+ },
+ {
+  "who": "Angus King",
+  "key": "snap",
+  "new_stance": "Support",
+  "evidence": "Cosponsor, Restoring Food Security for American Families and Farmers Act S.3281, repealing the OBBBA SNAP cuts (Nov 2025).",
+  "url": "https://www.murray.senate.gov/murray-lujan-colleagues-introduce-legislation-to-reverse-snap-cuts-and-restore-food-security-for-millions-of-americans/",
+  "changed": true
+ },
+ {
+  "who": "Chris Van Hollen",
+  "key": "clean",
+  "new_stance": "Support",
+  "evidence": "Original cosponsor, Lowering Electric Bills Act S.2681, restoring clean-energy credits cut by the OBBBA (Aug 2025).",
+  "url": "https://www.congress.gov/119/bills/s2681/BILLS-119s2681is.htm",
+  "changed": true
+ },
+ {
+  "who": "Chris Van Hollen",
+  "key": "snap",
+  "new_stance": "Support",
+  "evidence": "Cosponsor, Restoring Food Security for American Families and Farmers Act S.3281, repealing the OBBBA SNAP cuts (Nov 2025).",
+  "url": "https://www.murray.senate.gov/murray-lujan-colleagues-introduce-legislation-to-reverse-snap-cuts-and-restore-food-security-for-millions-of-americans/",
+  "changed": true
+ },
+ {
+  "who": "Angela Alsobrooks",
+  "key": "clean",
+  "new_stance": "Support",
+  "evidence": "Original cosponsor, Lowering Electric Bills Act S.2681, restoring clean-energy credits cut by the OBBBA (Aug 2025).",
+  "url": "https://www.congress.gov/119/bills/s2681/BILLS-119s2681is.htm",
+  "changed": true
+ },
+ {
+  "who": "Angela Alsobrooks",
+  "key": "snap",
+  "new_stance": "Support",
+  "evidence": "Cosponsor, Restoring Food Security for American Families and Farmers Act S.3281, repealing the OBBBA SNAP cuts (Nov 2025).",
+  "url": "https://www.murray.senate.gov/murray-lujan-colleagues-introduce-legislation-to-reverse-snap-cuts-and-restore-food-security-for-millions-of-americans/",
+  "changed": true
+ },
+ {
+  "who": "Elizabeth Warren",
+  "key": "clean",
+  "new_stance": "Support",
+  "evidence": "Original cosponsor, Lowering Electric Bills Act S.2681, restoring clean-energy credits cut by the OBBBA (Aug 2025).",
+  "url": "https://www.congress.gov/119/bills/s2681/BILLS-119s2681is.htm",
+  "changed": true
+ },
+ {
+  "who": "Elizabeth Warren",
+  "key": "snap",
+  "new_stance": "Support",
+  "evidence": "Cosponsor, Restoring Food Security for American Families and Farmers Act S.3281, repealing the OBBBA SNAP cuts (Nov 2025).",
+  "url": "https://www.murray.senate.gov/murray-lujan-colleagues-introduce-legislation-to-reverse-snap-cuts-and-restore-food-security-for-millions-of-americans/",
+  "changed": true
+ },
+ {
+  "who": "Ed Markey",
+  "key": "clean",
+  "new_stance": "Support",
+  "evidence": "Original cosponsor, Lowering Electric Bills Act S.2681, restoring clean-energy credits cut by the OBBBA (Aug 2025).",
+  "url": "https://www.congress.gov/119/bills/s2681/BILLS-119s2681is.htm",
+  "changed": true
+ },
+ {
+  "who": "Ed Markey",
+  "key": "snap",
+  "new_stance": "Support",
+  "evidence": "Cosponsor, Restoring Food Security for American Families and Farmers Act S.3281, repealing the OBBBA SNAP cuts (Nov 2025).",
+  "url": "https://www.murray.senate.gov/murray-lujan-colleagues-introduce-legislation-to-reverse-snap-cuts-and-restore-food-security-for-millions-of-americans/",
+  "changed": true
+ },
+ {
+  "who": "Elissa Slotkin",
+  "key": "clean",
+  "new_stance": "Support",
+  "evidence": "Original cosponsor, Lowering Electric Bills Act S.2681, restoring clean-energy credits cut by the OBBBA (Aug 2025).",
+  "url": "https://www.congress.gov/119/bills/s2681/BILLS-119s2681is.htm",
+  "changed": true
+ },
+ {
+  "who": "Elissa Slotkin",
+  "key": "snap",
+  "new_stance": "Support",
+  "evidence": "Cosponsor, Restoring Food Security for American Families and Farmers Act S.3281, repealing the OBBBA SNAP cuts (Nov 2025).",
+  "url": "https://www.murray.senate.gov/murray-lujan-colleagues-introduce-legislation-to-reverse-snap-cuts-and-restore-food-security-for-millions-of-americans/",
+  "changed": true
+ },
+ {
+  "who": "Roger Wicker",
+  "key": "clean",
+  "new_stance": "Oppose",
+  "evidence": "Voted for the One Big Beautiful Bill Act H.R.1, which cut clean-energy tax credits (Jul 1 2025, 51–50).",
+  "url": "https://www.dailypress.senate.gov/?p=148788",
+  "changed": true
+ },
+ {
+  "who": "Roger Wicker",
+  "key": "snap",
+  "new_stance": "Oppose",
+  "evidence": "Voted for the One Big Beautiful Bill Act H.R.1, which cut SNAP and shifted costs to states (Jul 1 2025, 51–50).",
+  "url": "https://www.dailypress.senate.gov/?p=148788",
+  "changed": true
+ },
+ {
+  "who": "Josh Hawley",
+  "key": "clean",
+  "new_stance": "Oppose",
+  "evidence": "Voted for the One Big Beautiful Bill Act H.R.1, which cut clean-energy tax credits (Jul 1 2025, 51–50).",
+  "url": "https://www.dailypress.senate.gov/?p=148788",
+  "changed": true
+ },
+ {
+  "who": "Josh Hawley",
+  "key": "snap",
+  "new_stance": "Oppose",
+  "evidence": "Voted for the One Big Beautiful Bill Act H.R.1, which cut SNAP and shifted costs to states (Jul 1 2025, 51–50).",
+  "url": "https://www.dailypress.senate.gov/?p=148788",
+  "changed": true
+ },
+ {
+  "who": "Eric Schmitt",
+  "key": "clean",
+  "new_stance": "Oppose",
+  "evidence": "Voted for the One Big Beautiful Bill Act H.R.1, which cut clean-energy tax credits (Jul 1 2025, 51–50).",
+  "url": "https://www.dailypress.senate.gov/?p=148788",
+  "changed": true
+ },
+ {
+  "who": "Eric Schmitt",
+  "key": "snap",
+  "new_stance": "Oppose",
+  "evidence": "Voted for the One Big Beautiful Bill Act H.R.1, which cut SNAP and shifted costs to states (Jul 1 2025, 51–50).",
+  "url": "https://www.dailypress.senate.gov/?p=148788",
+  "changed": true
+ },
+ {
+  "who": "Tim Sheehy",
+  "key": "clean",
+  "new_stance": "Oppose",
+  "evidence": "Voted for the One Big Beautiful Bill Act H.R.1, which cut clean-energy tax credits (Jul 1 2025, 51–50).",
+  "url": "https://www.dailypress.senate.gov/?p=148788",
+  "changed": true
+ },
+ {
+  "who": "Tim Sheehy",
+  "key": "snap",
+  "new_stance": "Oppose",
+  "evidence": "Voted for the One Big Beautiful Bill Act H.R.1, which cut SNAP and shifted costs to states (Jul 1 2025, 51–50).",
+  "url": "https://www.dailypress.senate.gov/?p=148788",
+  "changed": true
+ },
+ {
+  "who": "Deb Fischer",
+  "key": "clean",
+  "new_stance": "Oppose",
+  "evidence": "Voted for the One Big Beautiful Bill Act H.R.1, which cut clean-energy tax credits (Jul 1 2025, 51–50).",
+  "url": "https://www.dailypress.senate.gov/?p=148788",
+  "changed": true
+ },
+ {
+  "who": "Deb Fischer",
+  "key": "snap",
+  "new_stance": "Oppose",
+  "evidence": "Voted for the One Big Beautiful Bill Act H.R.1, which cut SNAP and shifted costs to states (Jul 1 2025, 51–50).",
+  "url": "https://www.dailypress.senate.gov/?p=148788",
+  "changed": true
+ },
+ {
+  "who": "Pete Ricketts",
+  "key": "clean",
+  "new_stance": "Oppose",
+  "evidence": "Voted for the One Big Beautiful Bill Act H.R.1, which cut clean-energy tax credits (Jul 1 2025, 51–50).",
+  "url": "https://www.dailypress.senate.gov/?p=148788",
+  "changed": true
+ },
+ {
+  "who": "Pete Ricketts",
+  "key": "snap",
+  "new_stance": "Oppose",
+  "evidence": "Voted for the One Big Beautiful Bill Act H.R.1, which cut SNAP and shifted costs to states (Jul 1 2025, 51–50).",
+  "url": "https://www.dailypress.senate.gov/?p=148788",
+  "changed": true
+ },
+ {
+  "who": "Catherine Cortez Masto",
+  "key": "clean",
+  "new_stance": "Lean support",
+  "evidence": "Voted against the One Big Beautiful Bill Act H.R.1, which cut clean-energy tax credits (Jul 1 2025, 51–50); not a cosponsor of S.2681.",
+  "url": "https://www.dailypress.senate.gov/?p=148788",
+  "changed": true
+ },
+ {
+  "who": "Catherine Cortez Masto",
+  "key": "snap",
+  "new_stance": "Support",
+  "evidence": "Cosponsor, Restoring Food Security for American Families and Farmers Act S.3281, repealing the OBBBA SNAP cuts (Nov 2025).",
+  "url": "https://www.murray.senate.gov/murray-lujan-colleagues-introduce-legislation-to-reverse-snap-cuts-and-restore-food-security-for-millions-of-americans/",
+  "changed": true
+ },
+ {
+  "who": "Jacky Rosen",
+  "key": "clean",
+  "new_stance": "Support",
+  "evidence": "Original cosponsor, Lowering Electric Bills Act S.2681, restoring clean-energy credits cut by the OBBBA (Aug 2025).",
+  "url": "https://www.congress.gov/119/bills/s2681/BILLS-119s2681is.htm",
+  "changed": true
+ },
+ {
+  "who": "Jacky Rosen",
+  "key": "snap",
+  "new_stance": "Support",
+  "evidence": "Cosponsor, Restoring Food Security for American Families and Farmers Act S.3281, repealing the OBBBA SNAP cuts (Nov 2025).",
+  "url": "https://www.murray.senate.gov/murray-lujan-colleagues-introduce-legislation-to-reverse-snap-cuts-and-restore-food-security-for-millions-of-americans/",
+  "changed": true
+ },
+ {
+  "who": "Maggie Hassan",
+  "key": "clean",
+  "new_stance": "Lean support",
+  "evidence": "Voted against the One Big Beautiful Bill Act H.R.1, which cut clean-energy tax credits (Jul 1 2025, 51–50); not a cosponsor of S.2681.",
+  "url": "https://www.dailypress.senate.gov/?p=148788",
+  "changed": true
+ },
+ {
+  "who": "Maggie Hassan",
+  "key": "snap",
+  "new_stance": "Support",
+  "evidence": "Cosponsor, Restoring Food Security for American Families and Farmers Act S.3281, repealing the OBBBA SNAP cuts (Nov 2025).",
+  "url": "https://www.murray.senate.gov/murray-lujan-colleagues-introduce-legislation-to-reverse-snap-cuts-and-restore-food-security-for-millions-of-americans/",
+  "changed": true
+ },
+ {
+  "who": "Cory Booker",
+  "key": "clean",
+  "new_stance": "Support",
+  "evidence": "Original cosponsor, Lowering Electric Bills Act S.2681, restoring clean-energy credits cut by the OBBBA (Aug 2025).",
+  "url": "https://www.congress.gov/119/bills/s2681/BILLS-119s2681is.htm",
+  "changed": true
+ },
+ {
+  "who": "Cory Booker",
+  "key": "snap",
+  "new_stance": "Support",
+  "evidence": "Cosponsor, Restoring Food Security for American Families and Farmers Act S.3281, repealing the OBBBA SNAP cuts (Nov 2025).",
+  "url": "https://www.murray.senate.gov/murray-lujan-colleagues-introduce-legislation-to-reverse-snap-cuts-and-restore-food-security-for-millions-of-americans/",
+  "changed": true
+ },
+ {
+  "who": "Andy Kim",
+  "key": "clean",
+  "new_stance": "Support",
+  "evidence": "Original cosponsor, Lowering Electric Bills Act S.2681, restoring clean-energy credits cut by the OBBBA (Aug 2025).",
+  "url": "https://www.congress.gov/119/bills/s2681/BILLS-119s2681is.htm",
+  "changed": true
+ },
+ {
+  "who": "Andy Kim",
+  "key": "snap",
+  "new_stance": "Support",
+  "evidence": "Cosponsor, Restoring Food Security for American Families and Farmers Act S.3281, repealing the OBBBA SNAP cuts (Nov 2025).",
+  "url": "https://www.murray.senate.gov/murray-lujan-colleagues-introduce-legislation-to-reverse-snap-cuts-and-restore-food-security-for-millions-of-americans/",
+  "changed": true
+ },
+ {
+  "who": "Martin Heinrich",
+  "key": "clean",
+  "new_stance": "Lean support",
+  "evidence": "Voted against the One Big Beautiful Bill Act H.R.1, which cut clean-energy tax credits (Jul 1 2025, 51–50); not a cosponsor of S.2681.",
+  "url": "https://www.dailypress.senate.gov/?p=148788",
+  "changed": true
+ },
+ {
+  "who": "Martin Heinrich",
+  "key": "snap",
+  "new_stance": "Support",
+  "evidence": "Cosponsor, Restoring Food Security for American Families and Farmers Act S.3281, repealing the OBBBA SNAP cuts (Nov 2025).",
+  "url": "https://www.murray.senate.gov/murray-lujan-colleagues-introduce-legislation-to-reverse-snap-cuts-and-restore-food-security-for-millions-of-americans/",
+  "changed": true
+ },
+ {
+  "who": "Ben Ray Luján",
+  "key": "clean",
+  "new_stance": "Lean support",
+  "evidence": "Voted against the One Big Beautiful Bill Act H.R.1, which cut clean-energy tax credits (Jul 1 2025, 51–50); not a cosponsor of S.2681.",
+  "url": "https://www.dailypress.senate.gov/?p=148788",
+  "changed": true
+ },
+ {
+  "who": "Ben Ray Luján",
+  "key": "snap",
+  "new_stance": "Support",
+  "evidence": "Sponsor, Restoring Food Security for American Families and Farmers Act S.3281, repealing the OBBBA SNAP cuts (Nov 2025).",
+  "url": "https://www.murray.senate.gov/murray-lujan-colleagues-introduce-legislation-to-reverse-snap-cuts-and-restore-food-security-for-millions-of-americans/",
+  "changed": true
+ },
+ {
+  "who": "Chuck Schumer",
+  "key": "clean",
+  "new_stance": "Support",
+  "evidence": "Sponsor, Lowering Electric Bills Act S.2681, restoring clean-energy credits cut by the OBBBA (Aug 2025).",
+  "url": "https://www.congress.gov/119/bills/s2681/BILLS-119s2681is.htm",
+  "changed": true
+ },
+ {
+  "who": "Chuck Schumer",
+  "key": "snap",
+  "new_stance": "Support",
+  "evidence": "Cosponsor, Restoring Food Security for American Families and Farmers Act S.3281, repealing the OBBBA SNAP cuts (Nov 2025).",
+  "url": "https://www.murray.senate.gov/murray-lujan-colleagues-introduce-legislation-to-reverse-snap-cuts-and-restore-food-security-for-millions-of-americans/",
+  "changed": true
+ },
+ {
+  "who": "Kirsten Gillibrand",
+  "key": "clean",
+  "new_stance": "Support",
+  "evidence": "Original cosponsor, Lowering Electric Bills Act S.2681, restoring clean-energy credits cut by the OBBBA (Aug 2025).",
+  "url": "https://www.congress.gov/119/bills/s2681/BILLS-119s2681is.htm",
+  "changed": true
+ },
+ {
+  "who": "Kirsten Gillibrand",
+  "key": "snap",
+  "new_stance": "Support",
+  "evidence": "Cosponsor, Restoring Food Security for American Families and Farmers Act S.3281, repealing the OBBBA SNAP cuts (Nov 2025).",
+  "url": "https://www.murray.senate.gov/murray-lujan-colleagues-introduce-legislation-to-reverse-snap-cuts-and-restore-food-security-for-millions-of-americans/",
+  "changed": true
+ },
+ {
+  "who": "Ted Budd",
+  "key": "clean",
+  "new_stance": "Oppose",
+  "evidence": "Voted for the One Big Beautiful Bill Act H.R.1, which cut clean-energy tax credits (Jul 1 2025, 51–50).",
+  "url": "https://www.dailypress.senate.gov/?p=148788",
+  "changed": true
+ },
+ {
+  "who": "Ted Budd",
+  "key": "snap",
+  "new_stance": "Oppose",
+  "evidence": "Voted for the One Big Beautiful Bill Act H.R.1, which cut SNAP and shifted costs to states (Jul 1 2025, 51–50).",
+  "url": "https://www.dailypress.senate.gov/?p=148788",
+  "changed": true
+ },
+ {
+  "who": "John Hoeven",
+  "key": "clean",
+  "new_stance": "Oppose",
+  "evidence": "Voted for the One Big Beautiful Bill Act H.R.1, which cut clean-energy tax credits (Jul 1 2025, 51–50).",
+  "url": "https://www.dailypress.senate.gov/?p=148788",
+  "changed": true
+ },
+ {
+  "who": "John Hoeven",
+  "key": "snap",
+  "new_stance": "Oppose",
+  "evidence": "Voted for the One Big Beautiful Bill Act H.R.1, which cut SNAP and shifted costs to states (Jul 1 2025, 51–50).",
+  "url": "https://www.dailypress.senate.gov/?p=148788",
+  "changed": true
+ },
+ {
+  "who": "Kevin Cramer",
+  "key": "clean",
+  "new_stance": "Oppose",
+  "evidence": "Voted for the One Big Beautiful Bill Act H.R.1, which cut clean-energy tax credits (Jul 1 2025, 51–50).",
+  "url": "https://www.dailypress.senate.gov/?p=148788",
+  "changed": true
+ },
+ {
+  "who": "Kevin Cramer",
+  "key": "snap",
+  "new_stance": "Oppose",
+  "evidence": "Voted for the One Big Beautiful Bill Act H.R.1, which cut SNAP and shifted costs to states (Jul 1 2025, 51–50).",
+  "url": "https://www.dailypress.senate.gov/?p=148788",
+  "changed": true
+ },
+ {
+  "who": "Bernie Moreno",
+  "key": "clean",
+  "new_stance": "Oppose",
+  "evidence": "Voted for the One Big Beautiful Bill Act H.R.1, which cut clean-energy tax credits (Jul 1 2025, 51–50).",
+  "url": "https://www.dailypress.senate.gov/?p=148788",
+  "changed": true
+ },
+ {
+  "who": "Bernie Moreno",
+  "key": "snap",
+  "new_stance": "Oppose",
+  "evidence": "Voted for the One Big Beautiful Bill Act H.R.1, which cut SNAP and shifted costs to states (Jul 1 2025, 51–50).",
+  "url": "https://www.dailypress.senate.gov/?p=148788",
+  "changed": true
+ },
+ {
+  "who": "James Lankford",
+  "key": "clean",
+  "new_stance": "Oppose",
+  "evidence": "Voted for the One Big Beautiful Bill Act H.R.1, which cut clean-energy tax credits (Jul 1 2025, 51–50).",
+  "url": "https://www.dailypress.senate.gov/?p=148788",
+  "changed": true
+ },
+ {
+  "who": "James Lankford",
+  "key": "snap",
+  "new_stance": "Oppose",
+  "evidence": "Voted for the One Big Beautiful Bill Act H.R.1, which cut SNAP and shifted costs to states (Jul 1 2025, 51–50).",
+  "url": "https://www.dailypress.senate.gov/?p=148788",
+  "changed": true
+ },
+ {
+  "who": "Kevin Hern",
+  "key": "clean",
+  "new_stance": "Oppose",
+  "evidence": "As a House member, voted for the One Big Beautiful Bill Act H.R.1, which cut clean-energy tax credits (Jul 3 2025, 218–214).",
+  "url": "https://clerk.house.gov/evs/2025/roll190",
+  "changed": true
+ },
+ {
+  "who": "Kevin Hern",
+  "key": "snap",
+  "new_stance": "Oppose",
+  "evidence": "As a House member, voted for the One Big Beautiful Bill Act H.R.1, which cut SNAP and shifted costs to states (Jul 3 2025, 218–214).",
+  "url": "https://clerk.house.gov/evs/2025/roll190",
+  "changed": true
+ },
+ {
+  "who": "Ron Wyden",
+  "key": "clean",
+  "new_stance": "Support",
+  "evidence": "Original cosponsor, Lowering Electric Bills Act S.2681, restoring clean-energy credits cut by the OBBBA (Aug 2025).",
+  "url": "https://www.congress.gov/119/bills/s2681/BILLS-119s2681is.htm",
+  "changed": true
+ },
+ {
+  "who": "Ron Wyden",
+  "key": "snap",
+  "new_stance": "Support",
+  "evidence": "Cosponsor, Restoring Food Security for American Families and Farmers Act S.3281, repealing the OBBBA SNAP cuts (Nov 2025).",
+  "url": "https://www.murray.senate.gov/murray-lujan-colleagues-introduce-legislation-to-reverse-snap-cuts-and-restore-food-security-for-millions-of-americans/",
+  "changed": true
+ },
+ {
+  "who": "Jeff Merkley",
+  "key": "clean",
+  "new_stance": "Support",
+  "evidence": "Original cosponsor, Lowering Electric Bills Act S.2681, restoring clean-energy credits cut by the OBBBA (Aug 2025).",
+  "url": "https://www.congress.gov/119/bills/s2681/BILLS-119s2681is.htm",
+  "changed": true
+ },
+ {
+  "who": "Jeff Merkley",
+  "key": "snap",
+  "new_stance": "Support",
+  "evidence": "Cosponsor, Restoring Food Security for American Families and Farmers Act S.3281, repealing the OBBBA SNAP cuts (Nov 2025).",
+  "url": "https://www.murray.senate.gov/murray-lujan-colleagues-introduce-legislation-to-reverse-snap-cuts-and-restore-food-security-for-millions-of-americans/",
+  "changed": true
+ },
+ {
+  "who": "John Fetterman",
+  "key": "clean",
+  "new_stance": "Lean support",
+  "evidence": "Voted against the One Big Beautiful Bill Act H.R.1, which cut clean-energy tax credits (Jul 1 2025, 51–50); not a cosponsor of S.2681.",
+  "url": "https://www.dailypress.senate.gov/?p=148788",
+  "changed": true
+ },
+ {
+  "who": "John Fetterman",
+  "key": "snap",
+  "new_stance": "Support",
+  "evidence": "Cosponsor, Restoring Food Security for American Families and Farmers Act S.3281, repealing the OBBBA SNAP cuts (Nov 2025).",
+  "url": "https://www.murray.senate.gov/murray-lujan-colleagues-introduce-legislation-to-reverse-snap-cuts-and-restore-food-security-for-millions-of-americans/",
+  "changed": true
+ },
+ {
+  "who": "Dave McCormick",
+  "key": "clean",
+  "new_stance": "Oppose",
+  "evidence": "Voted for the One Big Beautiful Bill Act H.R.1, which cut clean-energy tax credits (Jul 1 2025, 51–50).",
+  "url": "https://www.dailypress.senate.gov/?p=148788",
+  "changed": true
+ },
+ {
+  "who": "Dave McCormick",
+  "key": "snap",
+  "new_stance": "Oppose",
+  "evidence": "Voted for the One Big Beautiful Bill Act H.R.1, which cut SNAP and shifted costs to states (Jul 1 2025, 51–50).",
+  "url": "https://www.dailypress.senate.gov/?p=148788",
+  "changed": true
+ },
+ {
+  "who": "Jack Reed",
+  "key": "clean",
+  "new_stance": "Support",
+  "evidence": "Original cosponsor, Lowering Electric Bills Act S.2681, restoring clean-energy credits cut by the OBBBA (Aug 2025).",
+  "url": "https://www.congress.gov/119/bills/s2681/BILLS-119s2681is.htm",
+  "changed": true
+ },
+ {
+  "who": "Jack Reed",
+  "key": "snap",
+  "new_stance": "Support",
+  "evidence": "Cosponsor, Restoring Food Security for American Families and Farmers Act S.3281, repealing the OBBBA SNAP cuts (Nov 2025).",
+  "url": "https://www.murray.senate.gov/murray-lujan-colleagues-introduce-legislation-to-reverse-snap-cuts-and-restore-food-security-for-millions-of-americans/",
+  "changed": true
+ },
+ {
+  "who": "Sheldon Whitehouse",
+  "key": "clean",
+  "new_stance": "Support",
+  "evidence": "Original cosponsor, Lowering Electric Bills Act S.2681, restoring clean-energy credits cut by the OBBBA (Aug 2025).",
+  "url": "https://www.congress.gov/119/bills/s2681/BILLS-119s2681is.htm",
+  "changed": true
+ },
+ {
+  "who": "Sheldon Whitehouse",
+  "key": "snap",
+  "new_stance": "Support",
+  "evidence": "Cosponsor, Restoring Food Security for American Families and Farmers Act S.3281, repealing the OBBBA SNAP cuts (Nov 2025).",
+  "url": "https://www.murray.senate.gov/murray-lujan-colleagues-introduce-legislation-to-reverse-snap-cuts-and-restore-food-security-for-millions-of-americans/",
+  "changed": true
+ },
+ {
+  "who": "Tim Scott",
+  "key": "clean",
+  "new_stance": "Oppose",
+  "evidence": "Voted for the One Big Beautiful Bill Act H.R.1, which cut clean-energy tax credits (Jul 1 2025, 51–50).",
+  "url": "https://www.dailypress.senate.gov/?p=148788",
+  "changed": true
+ },
+ {
+  "who": "Tim Scott",
+  "key": "snap",
+  "new_stance": "Oppose",
+  "evidence": "Voted for the One Big Beautiful Bill Act H.R.1, which cut SNAP and shifted costs to states (Jul 1 2025, 51–50).",
+  "url": "https://www.dailypress.senate.gov/?p=148788",
+  "changed": true
+ },
+ {
+  "who": "John Thune",
+  "key": "clean",
+  "new_stance": "Oppose",
+  "evidence": "Voted for the One Big Beautiful Bill Act H.R.1, which cut clean-energy tax credits (Jul 1 2025, 51–50).",
+  "url": "https://www.dailypress.senate.gov/?p=148788",
+  "changed": true
+ },
+ {
+  "who": "John Thune",
+  "key": "snap",
+  "new_stance": "Oppose",
+  "evidence": "Voted for the One Big Beautiful Bill Act H.R.1, which cut SNAP and shifted costs to states (Jul 1 2025, 51–50).",
+  "url": "https://www.dailypress.senate.gov/?p=148788",
+  "changed": true
+ },
+ {
+  "who": "Mike Rounds",
+  "key": "clean",
+  "new_stance": "Oppose",
+  "evidence": "Voted for the One Big Beautiful Bill Act H.R.1, which cut clean-energy tax credits (Jul 1 2025, 51–50).",
+  "url": "https://www.dailypress.senate.gov/?p=148788",
+  "changed": true
+ },
+ {
+  "who": "Mike Rounds",
+  "key": "snap",
+  "new_stance": "Oppose",
+  "evidence": "Voted for the One Big Beautiful Bill Act H.R.1, which cut SNAP and shifted costs to states (Jul 1 2025, 51–50).",
+  "url": "https://www.dailypress.senate.gov/?p=148788",
+  "changed": true
+ },
+ {
+  "who": "Bill Hagerty",
+  "key": "clean",
+  "new_stance": "Oppose",
+  "evidence": "Voted for the One Big Beautiful Bill Act H.R.1, which cut clean-energy tax credits (Jul 1 2025, 51–50).",
+  "url": "https://www.dailypress.senate.gov/?p=148788",
+  "changed": true
+ },
+ {
+  "who": "Bill Hagerty",
+  "key": "snap",
+  "new_stance": "Oppose",
+  "evidence": "Voted for the One Big Beautiful Bill Act H.R.1, which cut SNAP and shifted costs to states (Jul 1 2025, 51–50).",
+  "url": "https://www.dailypress.senate.gov/?p=148788",
+  "changed": true
+ },
+ {
+  "who": "Ted Cruz",
+  "key": "clean",
+  "new_stance": "Oppose",
+  "evidence": "Voted for the One Big Beautiful Bill Act H.R.1, which cut clean-energy tax credits (Jul 1 2025, 51–50).",
+  "url": "https://www.dailypress.senate.gov/?p=148788",
+  "changed": true
+ },
+ {
+  "who": "Ted Cruz",
+  "key": "snap",
+  "new_stance": "Oppose",
+  "evidence": "Voted for the One Big Beautiful Bill Act H.R.1, which cut SNAP and shifted costs to states (Jul 1 2025, 51–50).",
+  "url": "https://www.dailypress.senate.gov/?p=148788",
+  "changed": true
+ },
+ {
+  "who": "Mike Lee",
+  "key": "clean",
+  "new_stance": "Oppose",
+  "evidence": "Voted for the One Big Beautiful Bill Act H.R.1, which cut clean-energy tax credits (Jul 1 2025, 51–50).",
+  "url": "https://www.dailypress.senate.gov/?p=148788",
+  "changed": true
+ },
+ {
+  "who": "Mike Lee",
+  "key": "snap",
+  "new_stance": "Oppose",
+  "evidence": "Voted for the One Big Beautiful Bill Act H.R.1, which cut SNAP and shifted costs to states (Jul 1 2025, 51–50).",
+  "url": "https://www.dailypress.senate.gov/?p=148788",
+  "changed": true
+ },
+ {
+  "who": "John Curtis",
+  "key": "clean",
+  "new_stance": "Oppose",
+  "evidence": "Voted for the One Big Beautiful Bill Act H.R.1, which cut clean-energy tax credits (Jul 1 2025, 51–50).",
+  "url": "https://www.dailypress.senate.gov/?p=148788",
+  "changed": true
+ },
+ {
+  "who": "John Curtis",
+  "key": "snap",
+  "new_stance": "Oppose",
+  "evidence": "Voted for the One Big Beautiful Bill Act H.R.1, which cut SNAP and shifted costs to states (Jul 1 2025, 51–50).",
+  "url": "https://www.dailypress.senate.gov/?p=148788",
+  "changed": true
+ },
+ {
+  "who": "Bernie Sanders",
+  "key": "clean",
+  "new_stance": "Lean support",
+  "evidence": "Voted against the One Big Beautiful Bill Act H.R.1, which cut clean-energy tax credits (Jul 1 2025, 51–50); not a cosponsor of S.2681.",
+  "url": "https://www.dailypress.senate.gov/?p=148788",
+  "changed": true
+ },
+ {
+  "who": "Bernie Sanders",
+  "key": "snap",
+  "new_stance": "Support",
+  "evidence": "Cosponsor, Restoring Food Security for American Families and Farmers Act S.3281, repealing the OBBBA SNAP cuts (Nov 2025).",
+  "url": "https://www.murray.senate.gov/murray-lujan-colleagues-introduce-legislation-to-reverse-snap-cuts-and-restore-food-security-for-millions-of-americans/",
+  "changed": true
+ },
+ {
+  "who": "Peter Welch",
+  "key": "clean",
+  "new_stance": "Lean support",
+  "evidence": "Voted against the One Big Beautiful Bill Act H.R.1, which cut clean-energy tax credits (Jul 1 2025, 51–50); not a cosponsor of S.2681.",
+  "url": "https://www.dailypress.senate.gov/?p=148788",
+  "changed": true
+ },
+ {
+  "who": "Peter Welch",
+  "key": "snap",
+  "new_stance": "Support",
+  "evidence": "Cosponsor, Restoring Food Security for American Families and Farmers Act S.3281, repealing the OBBBA SNAP cuts (Nov 2025).",
+  "url": "https://www.murray.senate.gov/murray-lujan-colleagues-introduce-legislation-to-reverse-snap-cuts-and-restore-food-security-for-millions-of-americans/",
+  "changed": true
+ },
+ {
+  "who": "Mark Warner",
+  "key": "clean",
+  "new_stance": "Support",
+  "evidence": "Original cosponsor, Lowering Electric Bills Act S.2681, restoring clean-energy credits cut by the OBBBA (Aug 2025).",
+  "url": "https://www.congress.gov/119/bills/s2681/BILLS-119s2681is.htm",
+  "changed": true
+ },
+ {
+  "who": "Mark Warner",
+  "key": "snap",
+  "new_stance": "Support",
+  "evidence": "Cosponsor, Restoring Food Security for American Families and Farmers Act S.3281, repealing the OBBBA SNAP cuts (Nov 2025).",
+  "url": "https://www.murray.senate.gov/murray-lujan-colleagues-introduce-legislation-to-reverse-snap-cuts-and-restore-food-security-for-millions-of-americans/",
+  "changed": true
+ },
+ {
+  "who": "Tim Kaine",
+  "key": "clean",
+  "new_stance": "Lean support",
+  "evidence": "Voted against the One Big Beautiful Bill Act H.R.1, which cut clean-energy tax credits (Jul 1 2025, 51–50); not a cosponsor of S.2681.",
+  "url": "https://www.dailypress.senate.gov/?p=148788",
+  "changed": true
+ },
+ {
+  "who": "Tim Kaine",
+  "key": "snap",
+  "new_stance": "Support",
+  "evidence": "Cosponsor, Restoring Food Security for American Families and Farmers Act S.3281, repealing the OBBBA SNAP cuts (Nov 2025).",
+  "url": "https://www.murray.senate.gov/murray-lujan-colleagues-introduce-legislation-to-reverse-snap-cuts-and-restore-food-security-for-millions-of-americans/",
+  "changed": true
+ },
+ {
+  "who": "Patty Murray",
+  "key": "clean",
+  "new_stance": "Support",
+  "evidence": "Original cosponsor, Lowering Electric Bills Act S.2681, restoring clean-energy credits cut by the OBBBA (Aug 2025).",
+  "url": "https://www.congress.gov/119/bills/s2681/BILLS-119s2681is.htm",
+  "changed": true
+ },
+ {
+  "who": "Patty Murray",
+  "key": "snap",
+  "new_stance": "Support",
+  "evidence": "Cosponsor, Restoring Food Security for American Families and Farmers Act S.3281, repealing the OBBBA SNAP cuts (Nov 2025).",
+  "url": "https://www.murray.senate.gov/murray-lujan-colleagues-introduce-legislation-to-reverse-snap-cuts-and-restore-food-security-for-millions-of-americans/",
+  "changed": true
+ },
+ {
+  "who": "Maria Cantwell",
+  "key": "clean",
+  "new_stance": "Support",
+  "evidence": "Original cosponsor, Lowering Electric Bills Act S.2681, restoring clean-energy credits cut by the OBBBA (Aug 2025).",
+  "url": "https://www.congress.gov/119/bills/s2681/BILLS-119s2681is.htm",
+  "changed": true
+ },
+ {
+  "who": "Maria Cantwell",
+  "key": "snap",
+  "new_stance": "Support",
+  "evidence": "Cosponsor, Restoring Food Security for American Families and Farmers Act S.3281, repealing the OBBBA SNAP cuts (Nov 2025).",
+  "url": "https://www.murray.senate.gov/murray-lujan-colleagues-introduce-legislation-to-reverse-snap-cuts-and-restore-food-security-for-millions-of-americans/",
+  "changed": true
+ },
+ {
+  "who": "Shelley Moore Capito",
+  "key": "clean",
+  "new_stance": "Oppose",
+  "evidence": "Voted for the One Big Beautiful Bill Act H.R.1, which cut clean-energy tax credits (Jul 1 2025, 51–50).",
+  "url": "https://www.dailypress.senate.gov/?p=148788",
+  "changed": true
+ },
+ {
+  "who": "Shelley Moore Capito",
+  "key": "snap",
+  "new_stance": "Oppose",
+  "evidence": "Voted for the One Big Beautiful Bill Act H.R.1, which cut SNAP and shifted costs to states (Jul 1 2025, 51–50).",
+  "url": "https://www.dailypress.senate.gov/?p=148788",
+  "changed": true
+ },
+ {
+  "who": "Jim Justice",
+  "key": "clean",
+  "new_stance": "Oppose",
+  "evidence": "Voted for the One Big Beautiful Bill Act H.R.1, which cut clean-energy tax credits (Jul 1 2025, 51–50).",
+  "url": "https://www.dailypress.senate.gov/?p=148788",
+  "changed": true
+ },
+ {
+  "who": "Jim Justice",
+  "key": "snap",
+  "new_stance": "Oppose",
+  "evidence": "Voted for the One Big Beautiful Bill Act H.R.1, which cut SNAP and shifted costs to states (Jul 1 2025, 51–50).",
+  "url": "https://www.dailypress.senate.gov/?p=148788",
+  "changed": true
+ },
+ {
+  "who": "Ron Johnson",
+  "key": "clean",
+  "new_stance": "Oppose",
+  "evidence": "Voted for the One Big Beautiful Bill Act H.R.1, which cut clean-energy tax credits (Jul 1 2025, 51–50).",
+  "url": "https://www.dailypress.senate.gov/?p=148788",
+  "changed": true
+ },
+ {
+  "who": "Ron Johnson",
+  "key": "snap",
+  "new_stance": "Oppose",
+  "evidence": "Voted for the One Big Beautiful Bill Act H.R.1, which cut SNAP and shifted costs to states (Jul 1 2025, 51–50).",
+  "url": "https://www.dailypress.senate.gov/?p=148788",
+  "changed": true
+ },
+ {
+  "who": "Tammy Baldwin",
+  "key": "clean",
+  "new_stance": "Lean support",
+  "evidence": "Voted against the One Big Beautiful Bill Act H.R.1, which cut clean-energy tax credits (Jul 1 2025, 51–50); not a cosponsor of S.2681.",
+  "url": "https://www.dailypress.senate.gov/?p=148788",
+  "changed": true
+ },
+ {
+  "who": "Tammy Baldwin",
+  "key": "snap",
+  "new_stance": "Support",
+  "evidence": "Cosponsor, Restoring Food Security for American Families and Farmers Act S.3281, repealing the OBBBA SNAP cuts (Nov 2025).",
+  "url": "https://www.murray.senate.gov/murray-lujan-colleagues-introduce-legislation-to-reverse-snap-cuts-and-restore-food-security-for-millions-of-americans/",
+  "changed": true
+ },
+ {
+  "who": "John Barrasso",
+  "key": "clean",
+  "new_stance": "Oppose",
+  "evidence": "Voted for the One Big Beautiful Bill Act H.R.1, which cut clean-energy tax credits (Jul 1 2025, 51–50).",
+  "url": "https://www.dailypress.senate.gov/?p=148788",
+  "changed": true
+ },
+ {
+  "who": "John Barrasso",
+  "key": "snap",
+  "new_stance": "Oppose",
+  "evidence": "Voted for the One Big Beautiful Bill Act H.R.1, which cut SNAP and shifted costs to states (Jul 1 2025, 51–50).",
+  "url": "https://www.dailypress.senate.gov/?p=148788",
+  "changed": true
+ },
+ {
+  "who": "Harriet Hageman",
+  "key": "clean",
+  "new_stance": "Oppose",
+  "evidence": "As a House member, voted for the One Big Beautiful Bill Act H.R.1, which cut clean-energy tax credits (Jul 3 2025, 218–214).",
+  "url": "https://clerk.house.gov/evs/2025/roll190",
+  "changed": true
+ },
+ {
+  "who": "Harriet Hageman",
+  "key": "snap",
+  "new_stance": "Oppose",
+  "evidence": "As a House member, voted for the One Big Beautiful Bill Act H.R.1, which cut SNAP and shifted costs to states (Jul 3 2025, 218–214).",
+  "url": "https://clerk.house.gov/evs/2025/roll190",
+  "changed": true
+ },
+ {
+  "who": "Chris Pappas",
+  "key": "clean",
+  "new_stance": "Lean support",
+  "evidence": "As a House member, voted against the OBBBA H.R.1, which cut clean-energy credits (Jul 3 2025, 218–214); Jan 2026 hit rollback of IRA energy credits.",
+  "url": "https://clerk.house.gov/evs/2025/roll190",
+  "changed": true
+ },
+ {
+  "who": "Chris Pappas",
+  "key": "snap",
+  "new_stance": "Support",
+  "evidence": "House cosponsor, Restoring Food Security for American Families and Farmers Act, repealing the OBBBA SNAP cuts (Nov 2025).",
+  "url": "https://hayes.house.gov/2025/11/after-republicans-cut-snap-hayes-craig-luj-n-fight-to-restore-187-billion-in-food-assistancce",
+  "changed": true
+ },
+ {
+  "who": "James Talarico",
+  "key": "clean",
+  "new_stance": "Support",
+  "evidence": "2026 campaign site pledges to \"reinstate federal tax credits\" and other tools for energy production, to lower electric bills.",
+  "url": "https://jamestalarico.com/issue/energy-environment/",
+  "changed": true
+ },
+ {
+  "who": "James Talarico",
+  "key": "snap",
+  "new_stance": "Lean support",
+  "evidence": "2026 campaign site: \"stand up to attacks against SNAP and WIC\"; defends the program, no pledge to reverse the cuts.",
+  "url": "https://jamestalarico.com/issue/taxes-cost-of-living/",
+  "changed": true
+ },
+ {
+  "who": "Peggy Flanagan",
+  "key": "snap",
+  "new_stance": "Support",
+  "evidence": "2026 campaign site: will \"fight to reverse the cuts\" made to food assistance and protect and expand SNAP.",
+  "url": "https://peggyflanagan.com/priorities/",
+  "changed": true
+ },
+ {
+  "who": "Peggy Flanagan",
+  "key": "clean",
+  "new_stance": "Lean support",
+  "evidence": "2026 campaign site opposes the rollback of clean-energy investments and backs wind and solar; no tax credits named.",
+  "url": "https://peggyflanagan.com/priorities/",
+  "changed": true
+ },
+ {
+  "who": "Josh Turek",
+  "key": "snap",
+  "new_stance": "Support",
+  "evidence": "2026 platform: \"Repeal cuts to SNAP, because every Iowan deserves access to food.\"",
+  "url": "https://turek4iowa.com/platform/",
+  "changed": true
+ },
+ {
+  "who": "Adam Hamilton",
+  "key": "snap",
+  "new_stance": "Lean support",
+  "evidence": "Has criticized GOP cuts to food assistance and Medicaid, per Sep 2026 profile; no pledge to reverse them reported.",
+  "url": "https://mynorthwest.com/national/no-democrat-has-won-a-kansas-senate-seat-in-a-century-can-a-megachurch-pastor-change-that/4271678",
+  "changed": true
+ },
+ {
+  "who": "Abdul El-Sayed",
+  "key": "clean",
+  "new_stance": "Lean support",
+  "evidence": "2026 campaign site: \"pathway to 100% renewable energy\" with big solar, wind and efficiency investment; related, no credits named.",
+  "url": "https://abdulforsenate.com/priority/money-out-of-politics/",
+  "changed": true
+ },
+ {
+  "who": "Annie Andrews",
+  "key": "clean",
+  "new_stance": "Lean support",
+  "evidence": "2026 campaign site: \"Invest in clean energy and resilient infrastructure\"; a related goal, no tax credits named.",
+  "url": "https://drannieandrews.com/issue/transportation-infrastructure-that-works/",
+  "changed": true
+ }
+]

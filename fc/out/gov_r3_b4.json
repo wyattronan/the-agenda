@@ -1,0 +1,514 @@
+[
+ {
+  "who": "Deb Haaland",
+  "key": "schools",
+  "new_stance": "Lean support",
+  "evidence": "May 2026 plan backs early reading and math via targeted instruction; no K-12 funding increase or formula change named.",
+  "url": "https://debhaaland.com/2026/05/debs-plan-works-for-new-mexicans/",
+  "changed": true
+ },
+ {
+  "who": "Deb Haaland",
+  "key": "clean",
+  "new_stance": "Support",
+  "evidence": "May 2026 plan would lower utility costs by \"doubling down on renewable energy.\"",
+  "url": "https://debhaaland.com/2026/05/debs-plan-works-for-new-mexicans/",
+  "changed": true
+ },
+ {
+  "who": "Deb Haaland",
+  "key": "mental",
+  "new_stance": "Support",
+  "evidence": "May 2026 plan pledges investment in mental health and addiction programs and an Office of Community Safety for behavioral-health crises.",
+  "url": "https://debhaaland.com/2026/05/debs-plan-works-for-new-mexicans/",
+  "changed": true
+ },
+ {
+  "who": "Deb Haaland",
+  "key": "safety",
+  "new_stance": "Support",
+  "evidence": "May 2026 plan: tools and tech for police to arrest violent offenders, plus afterschool and mentorship programs to \"prevent crime.\"",
+  "url": "https://debhaaland.com/2026/05/debs-plan-works-for-new-mexicans/",
+  "changed": true
+ },
+ {
+  "who": "Deb Haaland",
+  "key": "college",
+  "new_stance": "Support",
+  "evidence": "May 2026 plan would expand the Opportunity Scholarship, New Mexico's tuition-free college program, so more residents earn degrees.",
+  "url": "https://debhaaland.com/2026/05/debs-plan-works-for-new-mexicans/",
+  "changed": true
+ },
+ {
+  "who": "Deb Haaland",
+  "key": "gun",
+  "new_stance": "Lean support",
+  "evidence": "May 2026 plan would take guns from people \"who should not have them\"; no specific law (red flag, checks) named.",
+  "url": "https://debhaaland.com/2026/05/debs-plan-works-for-new-mexicans/",
+  "changed": true
+ },
+ {
+  "who": "Deb Haaland",
+  "key": "rural",
+  "new_stance": "Support",
+  "evidence": "May 2026 plan pledges more mobile health clinics in rural areas and to \"protect rural hospitals.\"",
+  "url": "https://debhaaland.com/2026/05/debs-plan-works-for-new-mexicans/",
+  "changed": true
+ },
+ {
+  "who": "Deb Haaland",
+  "key": "workforce",
+  "new_stance": "Lean support",
+  "evidence": "May 2026 plan would bring trades training into middle and high schools; no broader apprenticeship or free-training plan.",
+  "url": "https://debhaaland.com/2026/05/debs-plan-works-for-new-mexicans/",
+  "changed": true
+ },
+ {
+  "who": "Deb Haaland",
+  "key": "utility",
+  "new_stance": "Lean support",
+  "evidence": "On the private-equity buyout of utility PNM, said owners' \"feet need to be held to the fire\" (May 2026 debate); no rate freeze or cap.",
+  "url": "https://www.ksfr.org/government/2026-05-05/nm-democratic-governor-candidates-haaland-bregman-participate-in-only-primary-election-debate",
+  "changed": true
+ },
+ {
+  "who": "Kathy Hochul",
+  "key": "clean",
+  "new_stance": "Support",
+  "evidence": "2026 State of the State raised NY's nuclear goal to five gigawatts and backed home efficiency upgrades; blamed bills on Trump's attack on clean energy (Sep 2026).",
+  "url": "https://www.governor.ny.gov/news/remarks-prepared-governor-hochul-delivers-2026-state-state-address",
+  "changed": true
+ },
+ {
+  "who": "Kathy Hochul",
+  "key": "mental",
+  "new_stance": "Support",
+  "evidence": "Jan 2026 State of the State proposed expanding \"elite mental health units\" for people in crisis and youth online mental-health protections.",
+  "url": "https://www.governor.ny.gov/news/remarks-prepared-governor-hochul-delivers-2026-state-state-address",
+  "changed": true
+ },
+ {
+  "who": "Kathy Hochul",
+  "key": "safety",
+  "new_stance": "Support",
+  "evidence": "FY2027 budget proposes $352 million for gun violence prevention and expands Crime Analysis Centers statewide (Jan 2026).",
+  "url": "https://www.governor.ny.gov/news/governor-hochul-unveils-highlights-fiscal-year-2027-executive-budget-stronger-safer-more",
+  "changed": true
+ },
+ {
+  "who": "Kathy Hochul",
+  "key": "ai",
+  "new_stance": "Support",
+  "evidence": "Jan 2026 State of the State: disable AI chatbots for under-18s, block predators' DMs by default, require labels on AI-generated images and video.",
+  "url": "https://www.governor.ny.gov/news/remarks-prepared-governor-hochul-delivers-2026-state-state-address",
+  "changed": true
+ },
+ {
+  "who": "Kathy Hochul",
+  "key": "college",
+  "new_stance": "Support",
+  "evidence": "Jan 2026 State of the State pledged to expand NY's free community college program \"even further.\"",
+  "url": "https://www.governor.ny.gov/news/remarks-prepared-governor-hochul-delivers-2026-state-state-address",
+  "changed": true
+ },
+ {
+  "who": "Kathy Hochul",
+  "key": "gun",
+  "new_stance": "Support",
+  "evidence": "Jan 2026 State of the State proposed a first-in-nation law making 3-D printers block gun printing; campaign touts tougher gun laws (Aug 2026).",
+  "url": "https://www.governor.ny.gov/news/remarks-prepared-governor-hochul-delivers-2026-state-state-address",
+  "changed": true
+ },
+ {
+  "who": "Kathy Hochul",
+  "key": "tariff",
+  "new_stance": "Support",
+  "evidence": "Jan 2026 State of the State attacked federal tariffs for driving up costs \"from groceries to farm equipment\"; no state relief program named.",
+  "url": "https://www.governor.ny.gov/news/remarks-prepared-governor-hochul-delivers-2026-state-state-address",
+  "changed": true
+ },
+ {
+  "who": "Kathy Hochul",
+  "key": "workforce",
+  "new_stance": "Support",
+  "evidence": "Jan 2026 State of the State would launch a nuclear workforce development program to train clean-energy workers.",
+  "url": "https://www.governor.ny.gov/news/remarks-prepared-governor-hochul-delivers-2026-state-state-address",
+  "changed": true
+ },
+ {
+  "who": "Kathy Hochul",
+  "key": "drugbd",
+  "new_stance": "Support",
+  "evidence": "Campaign touts state bans on insulin and asthma-inhaler copays she signed (Aug 2026); insulin cap, not a price board.",
+  "url": "https://www.fingerlakes1.com/2026/08/24/hochul-campaign-marks-five-years-in-office-with-policy-record-blakeman-contrast/",
+  "changed": true
+ },
+ {
+  "who": "Kathy Hochul",
+  "key": "renter",
+  "new_stance": "Lean support",
+  "evidence": "Jan 2026 State of the State would \"crack down on the worst landlords\" with higher penalties; corporate landlords not named.",
+  "url": "https://www.governor.ny.gov/news/remarks-prepared-governor-hochul-delivers-2026-state-state-address",
+  "changed": true
+ },
+ {
+  "who": "Aaron Ford",
+  "key": "schools",
+  "new_stance": "Support",
+  "evidence": "Education plan would raise per-pupil funding to meet or exceed the national average (~$2B), plus competitive educator pay (2026).",
+  "url": "https://www.fordfornevada.com/issues/education",
+  "changed": true
+ },
+ {
+  "who": "Aaron Ford",
+  "key": "clean",
+  "new_stance": "Support",
+  "evidence": "Pledges to expand residential and utility-scale solar and make Nevada \"a global clean energy leader to lower costs\" (Jun 2026).",
+  "url": "https://www.fordfornevada.com/news/las-vegas-sun-fords-plan-targets-nv-energy-fees-prescription-costs-corporate-landlords",
+  "changed": true
+ },
+ {
+  "who": "Aaron Ford",
+  "key": "mental",
+  "new_stance": "Support",
+  "evidence": "Education plan would prioritize student mental health by adding school counselors statewide (2026).",
+  "url": "https://www.fordfornevada.com/issues/education",
+  "changed": true
+ },
+ {
+  "who": "Aaron Ford",
+  "key": "safety",
+  "new_stance": "Support",
+  "evidence": "Pledged a permanent budget line for domestic-violence victim services and a statewide 911-to-sentencing case-tracking system (Sep 2026).",
+  "url": "https://www.fox5vegas.com/2026/09/15/aaron-ford-pledges-case-tracking-domestic-violence-victims-gubernatorial-race/?outputType=amp",
+  "changed": true
+ },
+ {
+  "who": "Aaron Ford",
+  "key": "ai",
+  "new_stance": "Support",
+  "evidence": "Education plan backs limits on social media's addictive features for kids, stronger platform safety standards for minors and a student-data sale ban (2026).",
+  "url": "https://www.fordfornevada.com/issues/education",
+  "changed": true
+ },
+ {
+  "who": "Aaron Ford",
+  "key": "college",
+  "new_stance": "Support",
+  "evidence": "Education plan would limit tuition increases at Nevada colleges and restore state higher-ed funding to peer-state levels (2026).",
+  "url": "https://www.fordfornevada.com/issues/education",
+  "changed": true
+ },
+ {
+  "who": "Aaron Ford",
+  "key": "tariff",
+  "new_stance": "Support",
+  "evidence": "Pledges to \"stand up to tariffs\" raising housing costs and pursue legal action against them; faults Lombardo's tariff support (2026).",
+  "url": "https://fordfornevada.com/issues",
+  "changed": true
+ },
+ {
+  "who": "Aaron Ford",
+  "key": "workforce",
+  "new_stance": "Support",
+  "evidence": "Workers First plan would partner with unions to expand registered apprenticeships, enrolling 50% more apprentices (Jun 2026).",
+  "url": "https://www.fordfornevada.com/news/las-vegas-sun-fords-plan-targets-nv-energy-fees-prescription-costs-corporate-landlords",
+  "changed": true
+ },
+ {
+  "who": "Aaron Ford",
+  "key": "childcare",
+  "new_stance": "Lean support",
+  "evidence": "Education plan would expand pre-K access to more families (2026); no broader child care subsidy plan, so related only.",
+  "url": "https://www.fordfornevada.com/issues/education",
+  "changed": true
+ },
+ {
+  "who": "Aaron Ford",
+  "key": "avr",
+  "new_stance": "Lean support",
+  "evidence": "Opposes a photo voter ID requirement, citing no evidence of fraud (Aug 2026); not an AVR or state voting rights act pledge.",
+  "url": "https://thenevadaindependent.com/article/from-abortion-to-taxes-where-nevadas-2026-governor-candidates-stand-on-the-issues/",
+  "changed": true
+ },
+ {
+  "who": "Kathy Hochul",
+  "key": "schools",
+  "new_stance": "Support",
+  "evidence": "FY2027 budget proposes $39.3 billion in school aid, \"the highest level in state history,\" with a Foundation Aid increase for every district (Jan 2026).",
+  "url": "https://www.governor.ny.gov/news/governor-hochul-unveils-highlights-fiscal-year-2027-executive-budget-stronger-safer-more",
+  "changed": true
+ },
+ {
+  "who": "Kathy Hochul",
+  "key": "rural",
+  "new_stance": "Lean support",
+  "evidence": "FY2027 budget proposes $1 billion capital plus $330M+ operating for safety-net hospitals and $750M for hospitals and nursing homes (Jan 2026); not rural-specific.",
+  "url": "https://www.governor.ny.gov/news/governor-hochul-unveils-highlights-fiscal-year-2027-executive-budget-stronger-safer-more",
+  "changed": true
+ },
+ {
+  "who": "Kathy Hochul",
+  "key": "avr",
+  "new_stance": "Support",
+  "evidence": "Signed the John R. Lewis Voting Rights Act of New York, restoring protections against racial discrimination in voting (Jun 2022).",
+  "url": "https://brennancenter.org/our-work/analysis-opinion/new-york-governor-signs-john-r-lewis-voting-rights-act-new-york",
+  "changed": true
+ },
+ {
+  "who": "Mikie Sherrill",
+  "key": "schools",
+  "new_stance": "Support",
+  "evidence": "FY2027 budget fully funds the school formula with a record $12.4 billion for K-12 plus $1.4 billion for preschool (Mar 2026).",
+  "url": "https://www.nj.gov/governor/news/2026/20260430b.shtml",
+  "changed": true
+ },
+ {
+  "who": "Mikie Sherrill",
+  "key": "clean",
+  "new_stance": "Support",
+  "evidence": "Expanded Community Solar to 3,000 MW, fast-tracked battery storage and approved new solar and battery projects (Jan-Apr 2026).",
+  "url": "https://www.nj.gov/governor/news/2026/20260430b.shtml",
+  "changed": true
+ },
+ {
+  "who": "Mikie Sherrill",
+  "key": "mental",
+  "new_stance": "Support",
+  "evidence": "Executive Order 6 on youth mental health and FY2027 budget's SPARK program bringing intensive mental-health support back into schools (Mar 2026).",
+  "url": "https://www.nj.gov/governor/news/2026/20260310a.shtml",
+  "changed": true
+ },
+ {
+  "who": "Mikie Sherrill",
+  "key": "ai",
+  "new_stance": "Support",
+  "evidence": "Executive Order 6 created an Office of Youth Online Mental Health Safety and Awareness; budget adds a Social Media Research Center (Mar-Apr 2026).",
+  "url": "https://www.nj.gov/governor/news/2026/20260430b.shtml",
+  "changed": true
+ },
+ {
+  "who": "Mikie Sherrill",
+  "key": "college",
+  "new_stance": "Lean support",
+  "evidence": "FY2027 budget invests over $690 million in higher-education financial aid (Mar 2026); no free or capped tuition plan.",
+  "url": "https://www.nj.gov/governor/news/2026/20260430b.shtml",
+  "changed": true
+ },
+ {
+  "who": "Mikie Sherrill",
+  "key": "tariff",
+  "new_stance": "Support",
+  "evidence": "First-100-days report says NJ filed suits against federal tariffs raising costs for families and small businesses (Apr 2026).",
+  "url": "https://www.nj.gov/governor/news/2026/20260430b.shtml",
+  "changed": true
+ },
+ {
+  "who": "Mikie Sherrill",
+  "key": "house",
+  "new_stance": "Support",
+  "evidence": "Executive Order 5 streamlines permitting; Apr 2026 order created a Housing Task Force; budget cuts Affordable Housing Trust Fund diversions (Apr 2026).",
+  "url": "https://www.nj.gov/governor/news/2026/20260430b.shtml",
+  "changed": true
+ },
+ {
+  "who": "Mikie Sherrill",
+  "key": "avr",
+  "new_stance": "Lean support",
+  "evidence": "Signed a law expanding early voting for May municipal elections (Apr 2026); not AVR or a state voting rights act.",
+  "url": "https://www.nj.gov/governor/news/2026/20260430b.shtml",
+  "changed": true
+ },
+ {
+  "who": "Mikie Sherrill",
+  "key": "renter",
+  "new_stance": "Support",
+  "evidence": "Signed the FAIR Act banning landlords' algorithmic rent-setting, calling it \"collusion by algorithm\" (Jul 2026).",
+  "url": "https://www.insidernj.com/governor-sherrill-competence-over-chaos/",
+  "changed": true
+ },
+ {
+  "who": "Mikie Sherrill",
+  "key": "drugbd",
+  "new_stance": "Support",
+  "evidence": "Budget address said PBMs inflate drug costs up to 10 times and pledged a comprehensive PBM reform bill (Mar 2026).",
+  "url": "https://www.nj.gov/governor/news/2026/20260310a.shtml",
+  "changed": true
+ },
+ {
+  "who": "Josh Stein",
+  "key": "schools",
+  "new_stance": "Support",
+  "evidence": "FY2026-27 budget proposes ~$2.3 billion for educators, student outcomes and child care, raising starting teacher pay to highest in the Southeast (Apr 2026).",
+  "url": "https://governor.nc.gov/news/press-releases/2026/04/21/governor-stein-announces-budget-keep-north-carolina-strong",
+  "changed": true
+ },
+ {
+  "who": "Josh Stein",
+  "key": "mental",
+  "new_stance": "Support",
+  "evidence": "FY2026-27 budget invests in the behavioral-health workforce and adds two state psychiatric hospital units (Apr 2026).",
+  "url": "https://governor.nc.gov/news/press-releases/2026/04/21/governor-stein-announces-budget-keep-north-carolina-strong",
+  "changed": true
+ },
+ {
+  "who": "Josh Stein",
+  "key": "safety",
+  "new_stance": "Support",
+  "evidence": "FY2026-27 budget proposes a 5% law-enforcement raise atop 10% earlier, a Fentanyl Control Unit and more school security (Apr 2026).",
+  "url": "https://governor.nc.gov/news/press-releases/2026/04/21/governor-stein-announces-budget-keep-north-carolina-strong",
+  "changed": true
+ },
+ {
+  "who": "Josh Stein",
+  "key": "college",
+  "new_stance": "Lean support",
+  "evidence": "FY2026-27 budget funds free community college tuition for short-term workforce credentials (Apr 2026); narrower than free degree programs.",
+  "url": "https://governor.nc.gov/news/press-releases/2026/04/21/governor-stein-announces-budget-keep-north-carolina-strong",
+  "changed": true
+ },
+ {
+  "who": "Josh Stein",
+  "key": "workforce",
+  "new_stance": "Support",
+  "evidence": "FY2026-27 budget proposes $448M+ for opportunity programs incl. NC Career Launch youth apprenticeships (Apr 2026).",
+  "url": "https://governor.nc.gov/news/press-releases/2026/04/21/governor-stein-announces-budget-keep-north-carolina-strong",
+  "changed": true
+ },
+ {
+  "who": "Josh Stein",
+  "key": "clean",
+  "new_stance": "Support",
+  "evidence": "Vetoed SB 266, which scrapped Duke Energy's 2030 carbon-cut goal, saying it could cost ratepayers up to $23 billion (Jul 2025).",
+  "url": "https://nsjonline.com/article/2025/07/stein-vetoes-7-more-bills-bringing-his-total-to-11/",
+  "changed": true
+ },
+ {
+  "who": "Josh Stein",
+  "key": "utility",
+  "new_stance": "Lean support",
+  "evidence": "Vetoed SB 266, warning it could cost ratepayers up to $23 billion through 2050 (Jul 2025); no rate freeze or cap.",
+  "url": "https://nsjonline.com/article/2025/07/stein-vetoes-7-more-bills-bringing-his-total-to-11/",
+  "changed": true
+ },
+ {
+  "who": "Josh Stein",
+  "key": "gun",
+  "new_stance": "Lean support",
+  "evidence": "Vetoed SB 50 permitless carry, saying it \"makes North Carolinians less safe\" (Jun 2025); blocked a loosening, no new gun law.",
+  "url": "https://governor.nc.gov/news/press-releases/2025/06/20/governor-stein-takes-action-four-bills",
+  "changed": true
+ },
+ {
+  "who": "Greg Gianforte",
+  "key": "schools",
+  "new_stance": "Support",
+  "evidence": "Signed HB 15 (~$52M, ~3% more K-12 aid) and the STARS Act HB 252 (~$50M/yr to lift starting teacher pay) in 2025; proposed \"historic $100 million\" for pay (Jan 2025).",
+  "url": "https://www.mtpr.org/montana-news/2025-05-16/what-passed-and-what-failed-a-roundup-of-major-legislation-from-the-2025-legislature",
+  "changed": true
+ },
+ {
+  "who": "Greg Gianforte",
+  "key": "clean",
+  "new_stance": "Lean oppose",
+  "evidence": "Signed HB 291 barring greenhouse-gas rules stricter than federal ones and MEPA limits (2025); backs \"all-of-the-above\" energy, not a clean-power mandate.",
+  "url": "https://www.mtpr.org/montana-news/2025-05-16/what-passed-and-what-failed-a-roundup-of-major-legislation-from-the-2025-legislature",
+  "changed": true
+ },
+ {
+  "who": "Greg Gianforte",
+  "key": "mental",
+  "new_stance": "Support",
+  "evidence": "Requested ~$43.5M state funds for behavioral-health items, incl. crisis beds and facilities; lawmakers approved ~$124M package (May 2025).",
+  "url": "https://nbcmontana.com/news/local/montana-lawmakers-approve-124m-to-revamp-behavioral-health-system",
+  "changed": true
+ },
+ {
+  "who": "Greg Gianforte",
+  "key": "safety",
+  "new_stance": "Support",
+  "evidence": "Jan 2025 State of the State proposed $7M for Highway Patrol pay, $6.5M for corrections officers and 500 more prison beds.",
+  "url": "https://news.mt.gov/Governors-Office/Governor_Gianforte_Outlines_Vision_To_Secure_Montanas_Future",
+  "changed": true
+ },
+ {
+  "who": "Greg Gianforte",
+  "key": "ai",
+  "new_stance": "Support",
+  "evidence": "Jan 2025 State of the State: parental consent for kids' social media, default privacy, overnight curfew, $1M for cellphone-free schools.",
+  "url": "https://news.mt.gov/Governors-Office/Governor_Gianforte_Outlines_Vision_To_Secure_Montanas_Future",
+  "changed": true
+ },
+ {
+  "who": "Greg Gianforte",
+  "key": "workforce",
+  "new_stance": "Lean support",
+  "evidence": "Jan 2025 State of the State praised employers training apprentices and expanded career and technical education; no apprenticeship expansion plan.",
+  "url": "https://news.mt.gov/Governors-Office/Governor_Gianforte_Outlines_Vision_To_Secure_Montanas_Future",
+  "changed": true
+ },
+ {
+  "who": "Greg Gianforte",
+  "key": "rural",
+  "new_stance": "Lean support",
+  "evidence": "Signed HB 245 renewing Medicaid expansion and ending its sunset (2025); not a rural-hospital-specific plan.",
+  "url": "https://www.mtpr.org/montana-news/2025-05-16/what-passed-and-what-failed-a-roundup-of-major-legislation-from-the-2025-legislature",
+  "changed": true
+ },
+ {
+  "who": "Greg Gianforte",
+  "key": "renter",
+  "new_stance": "Lean support",
+  "evidence": "Signed HB 311 requiring landlords with 4+ properties to refund application fees to rejected applicants (2025); narrow protection.",
+  "url": "https://www.mtpr.org/montana-news/2025-05-16/what-passed-and-what-failed-a-roundup-of-major-legislation-from-the-2025-legislature",
+  "changed": true
+ },
+ {
+  "who": "Jim Pillen",
+  "key": "schools",
+  "new_stance": "Support",
+  "evidence": "Signed LB303 creating a school-finance review commission and LB645 adding $1,000/yr for teachers (Jun 2025); 2026 address backed more per-student foundation aid.",
+  "url": "https://governor.nebraska.gov/node/9642",
+  "changed": true
+ },
+ {
+  "who": "Jim Pillen",
+  "key": "ai",
+  "new_stance": "Support",
+  "evidence": "Signed LB504 (kids' online design code), LB383 (parental consent for minors' social media, AI-CSAM penalties) and LB140 school phone limits (May 2025).",
+  "url": "https://governor.nebraska.gov/node/9639",
+  "changed": true
+ },
+ {
+  "who": "Jim Pillen",
+  "key": "tariff",
+  "new_stance": "Oppose",
+  "evidence": "Feb 2025 op-ed backed Trump's trade policy and \"targeted tariffs\" as leverage: \"Promises made, promises kept.\"",
+  "url": "https://governor.nebraska.gov/node/9608",
+  "changed": true
+ },
+ {
+  "who": "Josh Stein",
+  "key": "house",
+  "new_stance": "Lean support",
+  "evidence": "2025-27 budget proposal includes \"building more homes\" for families facing high costs (Mar 2025); no zoning or permitting plan given.",
+  "url": "https://governor.nc.gov/news/press-releases/2025/03/19/governor-stein-announces-2025-2027-budget-proposal-keep-north-carolina-strong",
+  "changed": true
+ },
+ {
+  "who": "Josh Stein",
+  "key": "rural",
+  "new_stance": "Lean support",
+  "evidence": "2025-27 budget proposal calls for \"supporting rural clinics\" (Mar 2025); no rural-hospital funding named.",
+  "url": "https://governor.nc.gov/news/press-releases/2025/03/19/governor-stein-announces-2025-2027-budget-proposal-keep-north-carolina-strong",
+  "changed": true
+ },
+ {
+  "who": "Josh Stein",
+  "key": "ai",
+  "new_stance": "Lean support",
+  "evidence": "2025-27 budget proposal aims to reduce \"the distraction of cell phones in classrooms\" (Mar 2025); no social media or AI rules.",
+  "url": "https://governor.nc.gov/news/press-releases/2025/03/19/governor-stein-announces-2025-2027-budget-proposal-keep-north-carolina-strong",
+  "changed": true
+ }
+]

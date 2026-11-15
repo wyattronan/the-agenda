@@ -79,3 +79,207 @@ HOPE = [
    "medicaid": ["Lean support", "Fought the OBBBA Medicaid cuts on the House floor (Jul 2025).", "https://ocasio-cortez.house.gov/taxonomy/term/137?page=5", ""],
  }},
 ]
+
+# Nov 15 2026: positions on the measures added when the lists were re-based on the 2026 campaign census.
+# Only new cells are added; nothing above is overwritten. [stance, evidence, url, flag]
+R3 = {
+ 'Alexandria Ocasio-Cortez': {
+   'equality': ["Support", "Voted for the Equality Act, H.R.5 (Feb 25 2021, 224–206).", "https://clerk.house.gov/evs/2021/roll039", ""],
+   'gun': ["Support", "Voted for the Bipartisan Background Checks Act, H.R.8 (Mar 11 2021, 227–203).", "https://clerk.house.gov/evs/2021/roll075", ""],
+   'vra': ["Support", "Voted for the John R. Lewis Voting Rights Advancement Act, H.R.4 (Aug 24 2021, 219–212).", "https://clerk.house.gov/evs/2021/roll260", ""],
+   'clean': ["Lean support", "Voted against the OBBBA, H.R.1, which cut clean-energy credits (Jul 3 2025, 218–214).", "https://clerk.house.gov/evs/2025/roll190", ""],
+   'snap': ["Lean support", "Voted against the OBBBA, H.R.1, which cut SNAP and shifted costs to states (Jul 3 2025, 218–214).", "https://clerk.house.gov/evs/2025/roll190", ""],
+   'homes': ["Support", "Co-introduced the Homes Act with Sen. Tina Smith to build up to 1.3 million affordable homes via a public developer (Sep 2024).", "https://ocasio-cortez.house.gov/media/press-releases/us-senator-tina-smith-and-congresswoman-ocasio-cortez-introduce-homes-act", "spons"],
+   'pubopt': ["Lean support", "Cosponsor, Medicare for All Act H.R.3069 (Apr 2025); single payer is broader than a public option.", "https://www.govinfo.gov/app/details/BILLS-119hr3069ih", "spons"],
+   'ssm': ["Support", "Cosponsored Social Security 2100 to expand benefits and apply payroll tax above $400k; wants the wealthy to pay in (Oct 2021).", "https://truthout.org/articles/ocasio-cortez-backs-social-security-expansion-says-the-wealthy-need-to-chip-in", "spons"],
+ },
+ 'Kamala Harris': {
+   'homes': ["Support", "2024 campaign plan: 3 million new homes in four years and up to $25,000 down-payment help for first-time buyers (Aug 2024).", "https://nlihc.org/resource/harris-campaign-releases-plans-lower-housing-costs", ""],
+   'corphome': ["Support", "2024 plan urged Congress to pass the Stop Predatory Investing Act, stripping tax breaks from big single-family-home buyers (Aug 2024).", "https://nlihc.org/resource/harris-campaign-releases-plans-lower-housing-costs", ""],
+   'clean': ["Support", "As VP cast the tie-breaking vote passing the IRA's clean-energy credits (Aug 7 2022, 51–50); 2024 plan pledged to keep them.", "https://www.budget.senate.gov/ranking-member/newsroom/votearama/roll-call-vote-on-passage-of-hr5376-fy2022-budget-reconciliation-as-amended", "done"],
+   'ssm': ["Lean support", "2024 plan: protect Social Security and Medicare, keep them solvent by making the wealthy pay more; no cap-lift named (Sep 2024).", "https://kamalaharris.com/a-new-way-forward", ""],
+   'mctax': ["Lean support", "2024 plan: restore $3,600 Child Tax Credit, expand EITC, cut taxes for 100 million Americans; family credits, narrower (Sep 2024).", "https://kamalaharris.com/a-new-way-forward", ""],
+   'workforce': ["Support", "2024 plan: expand Registered Apprenticeships, pre-apprenticeships and career-technical education; drop degree rules for federal jobs (Sep 2024).", "https://kamalaharris.com/a-new-way-forward", ""],
+   'ai': ["Lean support", "2024 plan: continue the 2023 AI executive order to protect workers and consumers; federal, not kids-online rules (Sep 2024).", "https://kamalaharris.com/a-new-way-forward", ""],
+   'gun': ["Support", "2024 campaign promise: require universal background checks for gun sales and ban assault weapons (Sep 2024).", "https://api.politifact.com/article/2024/sep/30/kamala-harris-2024-campaign-promises-here-are-her/", ""],
+   'vra': ["Support", "2024 campaign promise: sign the John Lewis Voting Rights Act and the Freedom to Vote Act (Sep 2024).", "https://api.politifact.com/article/2024/sep/30/kamala-harris-2024-campaign-promises-here-are-her/", ""],
+   'equality': ["Support", "2024 campaign promise: pass the Equality Act to protect LGBTQ+ Americans from discrimination (Sep 2024).", "https://api.politifact.com/article/2024/sep/30/kamala-harris-2024-campaign-promises-here-are-her/", ""],
+   'ivf': ["Support", "VP statement condemned Senate GOP for blocking the IVF bill; reproductive freedom 'must include access to IVF' (Sep 17 2024).", "https://presidency.ucsb.edu/node/374244", ""],
+   'pubopt': ["Lean support", "2019 Medicare for All plan let under-65s buy into Medicare in year one; her 2024 plan dropped it (Jul 2019).", "https://www.npr.org/2019/07/29/746051105/kamala-harris-releases-medicare-for-all-plan-with-a-role-for-private-insurers", ""],
+   'tariff': ["Support", "2024 plan criticized Trump's proposed tariffs while backing targeted action on unfair Chinese trade (Sep 2024).", "https://kamalaharris.com/a-new-way-forward", ""],
+ },
+}
+for _h in HOPE:
+    for _k, _v in R3.get(_h['n'], {}).items():
+        if 'cells' in _h: _h['cells'].setdefault(_k, _v)
+
+# Nov 15 2026, second pass.
+R3B = {
+ "Pete Buttigieg": {
+  "clean": [
+   "Lean support",
+   "2019 climate plan: double clean electricity by 2025, zero-emission power by 2035, solar subsidies; no stance on restoring the OBBBA-cut credits.",
+   "https://en.wikipedia.org/wiki/Political_positions_of_Pete_Buttigieg",
+   ""
+  ],
+  "snap": [
+   "Lean support",
+   "Said the OBBBA would 'cut food' for veterans and children as it passed the House (Jul 2025); no restoration bill named.",
+   "https://www.advocate.com/politics/pete-buttigieg-one-big-beautiful-bill",
+   ""
+  ],
+  "ssm": [
+   "Support",
+   "Proposed raising the Social Security payroll-tax cap from $132,900 to $250,000 for solvency (2019 campaign).",
+   "https://www.fa-mag.com/news/buttigieg-unveils-social-security-proposal-50667.html",
+   ""
+  ],
+  "vra": [
+   "Lean support",
+   "2019 Douglass Plan proposed a federal 'New Voting Rights Act' to widen access (Jul 2019); did not name the John Lewis Act.",
+   "https://en.wikipedia.org/wiki/Political_positions_of_Pete_Buttigieg",
+   ""
+  ],
+  "equality": [
+   "Support",
+   "Platform backs passing the federal Equality Act to give LGBTQ Americans nondiscrimination protections (2019-20 campaign).",
+   "https://en.wikipedia.org/wiki/Political_positions_of_Pete_Buttigieg",
+   ""
+  ],
+  "ivf": [
+   "Lean support",
+   "Called Trump's broken IVF promise 'cruel'; pro-family means ensuring access and cost of care (Aug 2025); no bill named.",
+   "https://gayexpress.co.nz/2025/08/pete-buttigieg-slams-trump-for-breaking-ivf-promise-its-cruel-not-pro-family/",
+   ""
+  ],
+  "gun": [
+   "Support",
+   "2020 campaign backed universal background checks, an assault weapons ban, red-flag laws and national gun licensing.",
+   "https://en.wikipedia.org/wiki/Political_positions_of_Pete_Buttigieg",
+   ""
+  ],
+  "rural": [
+   "Lean support",
+   "Said the OBBBA would 'shut down rural hospitals' (Jul 2025); no rural hospital bill named.",
+   "https://www.advocate.com/politics/pete-buttigieg-one-big-beautiful-bill",
+   ""
+  ],
+  "mental": [
+   "Support",
+   "Released a $300 billion plan to expand mental health care and fight addiction (Aug 2019).",
+   "https://en.wikipedia.org/wiki/Political_positions_of_Pete_Buttigieg",
+   ""
+  ],
+  "schools": [
+   "Support",
+   "2019 education plan would triple federal Title I funding for schools.",
+   "https://en.wikipedia.org/wiki/Political_positions_of_Pete_Buttigieg",
+   ""
+  ],
+  "college": [
+   "Support",
+   "2019 plan: free public college for the bottom 80% of students, sliding-scale tuition above; opposes free college for all.",
+   "https://en.wikipedia.org/wiki/Political_positions_of_Pete_Buttigieg",
+   ""
+  ],
+  "tariff": [
+   "Support",
+   "Publicly criticized Trump's tariffs as feeding his concentration of arbitrary power, with Jon Stewart (Apr 2025).",
+   "https://petebuttigieg.substack.com/p/talking-trumps-tariffs-billionaire",
+   ""
+  ]
+ },
+ "Rahm Emanuel": {
+  "schools": [
+   "Lean support",
+   "As mayor, ended Chicago's shortest-in-nation school day, a change that sparked the 2012 teachers strike; not a funding change.",
+   "https://chicago.suntimes.com/news/what-is-mayor-rahm-emanuel-legacy-public-schools-police-shooting-property-tax-pension/",
+   "done"
+  ],
+  "college": [
+   "Support",
+   "As mayor, launched the Star Scholarship: free tuition and books at City Colleges for qualifying CPS graduates (mayor 2011-19; year not on page).",
+   "https://movingforward.chicago.gov/education",
+   "done"
+  ],
+  "workforce": [
+   "Support",
+   "As mayor, launched College to Careers, aligning City Colleges with in-demand industries for job training (2011).",
+   "https://movingforward.chicago.gov/education",
+   "done"
+  ],
+  "safety": [
+   "Support",
+   "As mayor, pledged to hire 1,000 new police officers in two years (2016); net gain of about 600 by May 2018.",
+   "https://chicago.suntimes.com/news/what-is-mayor-rahm-emanuel-legacy-public-schools-police-shooting-property-tax-pension/",
+   "done"
+  ],
+  "ai": [
+   "Support",
+   "Urged a U.S. ban on social media for kids under 16, like Australia's (Dec 2025).",
+   "https://www.wptv.com/science-and-tech/social-media/prominent-democrat-calls-for-us-to-restrict-social-media-for-kids-16-and-younger",
+   ""
+  ],
+  "tariff": [
+   "Support",
+   "Called Trump's tariffs 'the largest tax increase in memory' and a blunder (Apr 2025); backs high tariffs on China.",
+   "https://rahmemanuel.substack.com/p/trumps-folly-is-piling-up-and-america",
+   ""
+  ],
+  "equality": [
+   "Lean support",
+   "Backed same-sex marriage with a 100% HRC score in Congress; as mayor added transgender protections; no Equality Act statement.",
+   "https://www.wikiwand.com/en/articles/Rahm_Emanuel",
+   ""
+  ],
+  "gun": [
+   "Lean support",
+   "Backed banning many rifles under 'sporting purposes' rules (1998); NRA rated him F (Dec 2003); no background-check vote found.",
+   "https://www.wikiwand.com/en/articles/Rahm_Emanuel",
+   ""
+  ]
+ },
+ "Kamala Harris": {
+  "schools": [
+   "Lean support",
+   "2024 plan touted 'the largest investment in public education' (federal aid) but proposed no new K-12 funding (Sep 2024).",
+   "https://kamalaharris.com/a-new-way-forward",
+   ""
+  ],
+  "college": [
+   "Lean support",
+   "2024 plan cited a $900 Pell Grant increase and vowed to make college more affordable; no free or capped tuition (Sep 2024).",
+   "https://kamalaharris.com/a-new-way-forward",
+   ""
+  ],
+  "rural": [
+   "Support",
+   "2024 plan: 'helping increase funding for rural hospitals' and $130M for rural health infrastructure (Sep 2024).",
+   "https://kamalaharris.com/a-new-way-forward",
+   ""
+  ],
+  "mental": [
+   "Support",
+   "VP statement backed the final mental health parity rule barring stricter limits on mental health care (Sep 2024).",
+   "https://www.presidency.ucsb.edu/documents/fact-sheet-biden-harris-administration-lowers-mental-health-care-costs-improving-access",
+   ""
+  ],
+  "safety": [
+   "Support",
+   "As VP announced $285M for school mental health counselors plus $6M for community violence intervention (Jan 2024).",
+   "https://www.presidency.ucsb.edu/documents/press-release-vice-president-harris-announces-285-million-increase-mental-health",
+   ""
+  ]
+ },
+ "Alexandria Ocasio-Cortez": {
+  "ivf": [
+   "Support",
+   "Original cosponsor, Right to IVF Act of 2026 H.R.9941 (Jul 2026).",
+   "https://www.govinfo.gov/app/details/BILLS-119hr9941ih",
+   "spons"
+  ]
+ }
+}
+for _h in HOPE:
+    for _k, _v in R3B.get(_h['n'], {}).items():
+        if 'cells' in _h: _h['cells'].setdefault(_k, _v)
