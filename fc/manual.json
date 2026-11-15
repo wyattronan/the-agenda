@@ -470,5 +470,21 @@
   "evidence": "Not yet named. Secret-ballot vote set for Dec 1; Schumer allies want it moved up.",
   "url": null,
   "why": "Schumer leader re-check, Nov 14 2026"
+ },
+ {
+  "who": "Chris Van Hollen",
+  "key": "fil",
+  "new_stance": "Support",
+  "evidence": "Calls for abolishing it: 'my personal view has been all along that the filibuster is an anti-democratic' provision (remarks to reporters, Nov 13, 2026, while challenging Schumer).",
+  "url": "https://www.yahoo.com/news/politics/articles/democrats-eye-killing-senate-filibuster-160048680.html",
+  "why": "Daily update, Nov 15 2026"
+ },
+ {
+  "who": "Ed Markey",
+  "key": "fil",
+  "new_stance": "Lean support",
+  "evidence": "Ending the filibuster 'has to be on the table,' but will listen to colleagues on strategy (Fox News Digital, Nov 14, 2026). Voted Jan 2022 to change the rules for voting rights.",
+  "url": "https://www.yahoo.com/news/politics/articles/democrats-eye-killing-senate-filibuster-160048680.html",
+  "why": "Daily update, Nov 15 2026 (note only)"
  }
 ]
