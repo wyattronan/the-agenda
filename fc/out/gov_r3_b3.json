@@ -1,0 +1,498 @@
+[
+ {
+  "who": "Hannah Pingree",
+  "key": "schools",
+  "new_stance": "Support",
+  "evidence": "2026 plan: 'adequately fund public education,' build special-ed supports into the funding formula, $100M school construction loan fund.",
+  "url": "https://hannahforgovernor.com/education/",
+  "changed": true
+ },
+ {
+  "who": "Hannah Pingree",
+  "key": "clean",
+  "new_stance": "Support",
+  "evidence": "2026 plan: 'Deliver 100% clean energy by 2040,' regular auctions for solar, wind and storage, expanded heat pump programs.",
+  "url": "https://hannahforgovernor.com/climate/",
+  "changed": true
+ },
+ {
+  "who": "Hannah Pingree",
+  "key": "mental",
+  "new_stance": "Support",
+  "evidence": "2026 plan: fully staff crisis hotlines, crisis receiving centers, mobile crisis teams, more school mental health staff.",
+  "url": "https://hannahforgovernor.com/health-care/",
+  "changed": true
+ },
+ {
+  "who": "Hannah Pingree",
+  "key": "ai",
+  "new_stance": "Lean support",
+  "evidence": "2026 plan: statewide standards for AI in schools with student privacy safeguards, build on school cellphone ban; no broader kids-online law.",
+  "url": "https://hannahforgovernor.com/education/",
+  "changed": true
+ },
+ {
+  "who": "Hannah Pingree",
+  "key": "college",
+  "new_stance": "Support",
+  "evidence": "2026 plan: keep free community college; path to tuition-free first two years at UMaine for middle- and low-income students.",
+  "url": "https://hannahforgovernor.com/education/",
+  "changed": true
+ },
+ {
+  "who": "Hannah Pingree",
+  "key": "workforce",
+  "new_stance": "Support",
+  "evidence": "2026 plan: work experience or apprenticeship for every young Mainer by 20, expand registered apprenticeships and CTE.",
+  "url": "https://hannahforgovernor.com/education/",
+  "changed": true
+ },
+ {
+  "who": "Hannah Pingree",
+  "key": "rural",
+  "new_stance": "Support",
+  "evidence": "2026 plan: use Maine's $190M Rural Health Transformation grant to support rural hospitals; curb corporate buyouts of facilities.",
+  "url": "https://hannahforgovernor.com/health-care/",
+  "changed": true
+ },
+ {
+  "who": "Hannah Pingree",
+  "key": "tariff",
+  "new_stance": "Lean support",
+  "evidence": "2026 plan criticizes 'the Trump Administration's reckless tariffs'; no specific anti-tariff action proposed.",
+  "url": "https://hannahforgovernor.com/affordability/",
+  "changed": true
+ },
+ {
+  "who": "Hannah Pingree",
+  "key": "gun",
+  "new_stance": "Support",
+  "evidence": "Backs implementing Maine's voter-approved red flag law and the 72-hour waiting period, with state resources (Sep 2026).",
+  "url": "https://www.bangordailynews.com/2026/09/21/politics/maine-new-gun-laws-next-governor/",
+  "changed": true
+ },
+ {
+  "who": "Wes Moore",
+  "key": "schools",
+  "new_stance": "Support",
+  "evidence": "Campaign record: record K-12 funding four straight years, including $10.2 billion this year (2026 site).",
+  "url": "https://wesmoore.com/accomplishments/",
+  "changed": true
+ },
+ {
+  "who": "Wes Moore",
+  "key": "clean",
+  "new_stance": "Support",
+  "evidence": "Won passage of the Utility RELIEF Act, which modernizes the grid and funds local clean energy projects (2026 session).",
+  "url": "https://governor.maryland.gov/media/448",
+  "changed": true
+ },
+ {
+  "who": "Wes Moore",
+  "key": "safety",
+  "new_stance": "Support",
+  "evidence": "Touts historic law enforcement and public safety funding and a 44% homicide drop; pledged a 'public safety turnaround' (2026).",
+  "url": "https://wesmoore.com/accomplishments/",
+  "changed": true
+ },
+ {
+  "who": "Wes Moore",
+  "key": "gun",
+  "new_stance": "Support",
+  "evidence": "Signed SB 334 restricting sale of machine-gun-convertible pistols, facing NRA suit (May 26 2026).",
+  "url": "https://thedailybs.com/2026/05/27/democrat-governor-signs-bill-to-ban-glocks-but-immediately-faces-legal-challenge-from-pro-gun-groups/",
+  "changed": true
+ },
+ {
+  "who": "Wes Moore",
+  "key": "tariff",
+  "new_stance": "Support",
+  "evidence": "With state comptroller and treasurer, demanded Trump refund ~$4B in tariff costs to Marylanders; tariffs 'raised taxes on us all' (Feb 2026).",
+  "url": "https://www.thebanner.com/politics-power/state-government/maryland-trump-tariff-refund-3NANAGHSBNCVFJL55Z7BARK5DQ/",
+  "changed": true
+ },
+ {
+  "who": "Wes Moore",
+  "key": "workforce",
+  "new_stance": "Support",
+  "evidence": "Signed the RAISE Act expanding registered apprenticeships and creating an apprenticeship office (Apr 2025).",
+  "url": "https://governor.maryland.gov/news/press-releases/governor-moore-signs-legislation-strengthen-marylands-workforce",
+  "changed": true
+ },
+ {
+  "who": "Wes Moore",
+  "key": "drugbd",
+  "new_stance": "Lean support",
+  "evidence": "2026 campaign site cites efforts to 'lower prescription drug costs'; no price-board, PBM or insulin specifics.",
+  "url": "https://wesmoore.com/accomplishments/",
+  "changed": true
+ },
+ {
+  "who": "Maura Healey",
+  "key": "schools",
+  "new_stance": "Support",
+  "evidence": "Wants to 'change the funding formula' so towns, especially rural areas, do better (Oct 2026).",
+  "url": "https://www.wamc.org/news/2026-10-30/amid-re-election-bid-healey-talks-priorities-for-western-mass-handling-states-east-west-divide",
+  "changed": true
+ },
+ {
+  "who": "Maura Healey",
+  "key": "clean",
+  "new_stance": "Lean support",
+  "evidence": "Backs 'all of the above' supply incl. wind and solar and her energy cost bill; hedged that climate 'goals are goals' (Oct 2026 debate).",
+  "url": "https://www.wgbh.org/news/politics/2026-10-16/affordability-and-accountability-dominate-healey-minogue-finale",
+  "changed": true
+ },
+ {
+  "who": "Maura Healey",
+  "key": "mental",
+  "new_stance": "Support",
+  "evidence": "Pledged to expand primary care and mental health services in a second term (Oct 2026 debate).",
+  "url": "https://www.wgbh.org/news/politics/2026-10-16/affordability-and-accountability-dominate-healey-minogue-finale",
+  "changed": true
+ },
+ {
+  "who": "Maura Healey",
+  "key": "ai",
+  "new_stance": "Support",
+  "evidence": "Named new social media regulations a second-term priority; backs school cellphone limits (Nov 2026).",
+  "url": "https://www.bostonglobe.com/2026/11/04/metro/healey-reelection-victory-second-term/",
+  "changed": true
+ },
+ {
+  "who": "Maura Healey",
+  "key": "college",
+  "new_stance": "Support",
+  "evidence": "Touted free community college as a workforce pipeline (Oct 2026).",
+  "url": "https://www.wamc.org/news/2026-10-30/amid-re-election-bid-healey-talks-priorities-for-western-mass-handling-states-east-west-divide",
+  "changed": true
+ },
+ {
+  "who": "Maura Healey",
+  "key": "tariff",
+  "new_stance": "Support",
+  "evidence": "Publicly pushed back, telling her opponent to ask Trump to 'cut it out with the tariffs' (Oct 2026 debate).",
+  "url": "https://www.wgbh.org/news/politics/2026-10-08/guvs-record-trumps-impact-on-stage-in-healey-minogue-debate",
+  "changed": true
+ },
+ {
+  "who": "Maura Healey",
+  "key": "datactr",
+  "new_stance": "Support",
+  "evidence": "'No data center if your community says no'; approved ones must produce and pay for their own clean energy (Oct 2026).",
+  "url": "https://www.boston25news.com/news/local/gas-prices-housing-ice-gov-healey-answers-mass-voters-biggest-questions-ahead-election-day/HEUJGWORL5ENDDCSFRQGX2OG7Q/?outputType=amp",
+  "changed": true
+ },
+ {
+  "who": "Maura Healey",
+  "key": "gun",
+  "new_stance": "Support",
+  "evidence": "Signed Chapter 135 gun law (ghost guns, red flag) Jul 2024 and backs keeping it via Yes on Question 9 (Oct 2026).",
+  "url": "https://www.boston.com/news/politics/2026/10/09/what-to-know-about-mass-ballot-question-9-the-effort-to-repeal-a-sweeping-gun-reform-law/",
+  "changed": true
+ },
+ {
+  "who": "Maura Healey",
+  "key": "drugbd",
+  "new_stance": "Support",
+  "evidence": "Signed law licensing and policing PBMs, creating a drug-pricing office and capping some brand copays at $25 (Jan 2025).",
+  "url": "https://benefitspro.com/2025/01/10/new-massachusetts-law-requires-pbms-to-get-licensed-by-state-insurance-regulators",
+  "changed": true
+ },
+ {
+  "who": "Maura Healey",
+  "key": "workforce",
+  "new_stance": "Support",
+  "evidence": "State of the Commonwealth: goal of 100,000 paid apprentices over 10 years in trades, nursing, early ed and tech (Jan 2026).",
+  "url": "https://www.mass.gov/doc/governor-healey-state-of-the-commonwealth-2026/download",
+  "changed": true
+ },
+ {
+  "who": "Maura Healey",
+  "key": "renter",
+  "new_stance": "Support",
+  "evidence": "Cites banning renter-paid broker fees, which she signed in the FY2026 budget (Jan 2026 address).",
+  "url": "https://www.mass.gov/doc/governor-healey-state-of-the-commonwealth-2026/download",
+  "changed": true
+ },
+ {
+  "who": "Maura Healey",
+  "key": "rural",
+  "new_stance": "Lean support",
+  "evidence": "Secured $162M federal rural health award to expand rural care access (Jan 2026); not hospital-specific.",
+  "url": "https://www.mass.gov/news/governor-healey-secures-162-million-to-improve-rural-health-across-massachusetts",
+  "changed": true
+ },
+ {
+  "who": "Maura Healey",
+  "key": "safety",
+  "new_stance": "Lean support",
+  "evidence": "Jan 2026 address pledges support for state and local police; Oct 2026 says more State Police reforms needed. No new funding named.",
+  "url": "https://www.mass.gov/doc/governor-healey-state-of-the-commonwealth-2026/download",
+  "changed": true
+ },
+ {
+  "who": "Jocelyn Benson",
+  "key": "schools",
+  "new_stance": "Support",
+  "evidence": "Education plan: fund schools on student need, overhaul special-ed funding, protect the School Aid Fund, auto-continue budgets (May 2026).",
+  "url": "https://www.jocelynbenson.com/news/bensons-courageous-plan-will-deliver-a-world-class-education-for-every-michigan-student",
+  "changed": true
+ },
+ {
+  "who": "Jocelyn Benson",
+  "key": "tariff",
+  "new_stance": "Support",
+  "evidence": "Attacked 'reckless tariffs' backed by her opponent as 'the John James Tax'; would push to end tariffs on Canadian goods (Oct 2026).",
+  "url": "https://www.clickondetroit.com/news/local/2026/10/07/benson-james-offer-contrasting-visions-in-first-michigan-governor-debate/",
+  "changed": true
+ },
+ {
+  "who": "Jocelyn Benson",
+  "key": "clean",
+  "new_stance": "Lean support",
+  "evidence": "Energy affordability plan pledges 'investing in a clean energy future' but names no standard, rebates or buildout target (Apr 2026).",
+  "url": "https://www.jocelynbenson.com/news/jocelyn-bensons-energy-affordability-plan-will-take-on-skyrocketing-costs",
+  "changed": true
+ },
+ {
+  "who": "Jocelyn Benson",
+  "key": "mental",
+  "new_stance": "Support",
+  "evidence": "Education plan pledges to expand mental health support in schools and behavioral health resources for educators (2026).",
+  "url": "https://www.jocelynbenson.com/benson-education-plan.pdf",
+  "changed": true
+ },
+ {
+  "who": "Jocelyn Benson",
+  "key": "workforce",
+  "new_stance": "Support",
+  "evidence": "Education plan: create paid apprenticeships with unions and employers; CTE access for every student (2026).",
+  "url": "https://www.jocelynbenson.com/benson-education-plan.pdf",
+  "changed": true
+ },
+ {
+  "who": "Jocelyn Benson",
+  "key": "gun",
+  "new_stance": "Lean support",
+  "evidence": "At a gun violence forum, pledged to 'support commonsense laws' that keep communities safe; no specific law named (May 2026).",
+  "url": "https://www.jocelynbenson.com/news/at-gun-violence-prevention-forum-jocelyn-benson-lays-out-vision",
+  "changed": true
+ },
+ {
+  "who": "Jocelyn Benson",
+  "key": "rural",
+  "new_stance": "Lean support",
+  "evidence": "Health plan: mobile low/no-cost care in rural areas hit by hospital closures and federal cuts (Jan 2026); not hospital funding.",
+  "url": "https://michiganadvance.com/2026/01/08/as-michigans-august-primary-draws-closer-benson-promises-focus-on-affordable-health-care/",
+  "changed": true
+ },
+ {
+  "who": "Jocelyn Benson",
+  "key": "renter",
+  "new_stance": "Support",
+  "evidence": "Housing plan: temporary 100-day ban on private equity home buying; crack down on corporate investors raising rents (2026).",
+  "url": "https://www.fox47news.com/news/state/michigan-secretary-of-state-jocelyn-benson-unveils-housing-plan-as-she-campaigns-for-governor",
+  "changed": true
+ },
+ {
+  "who": "Amy Klobuchar",
+  "key": "schools",
+  "new_stance": "Support",
+  "evidence": "Listed 'Fully funding public education' and closing the opportunity gap as priorities (Education Minnesota page, Jul 2026).",
+  "url": "https://www.edmnvotes.org/?p=1248",
+  "changed": true
+ },
+ {
+  "who": "Amy Klobuchar",
+  "key": "gun",
+  "new_stance": "Support",
+  "evidence": "As governor-elect, backs assault-weapon and high-capacity magazine limits: 'The gun safety bill is going to get passed' (Nov 2026).",
+  "url": "https://www.kttc.com/2026/11/05/klobuchar-lays-out-transition-plan-first-address-governor-elect/?outputType=amp",
+  "changed": true
+ },
+ {
+  "who": "Amy Klobuchar",
+  "key": "workforce",
+  "new_stance": "Support",
+  "evidence": "Health workforce plan would double apprenticeships from 5,000 to 10,000 and scale career pipelines (Aug 2026).",
+  "url": "https://www.kttc.com/2026/08/15/klobuchar-unveils-healthcare-workforce-plan-during-winona-visit/",
+  "changed": true
+ },
+ {
+  "who": "Amy Klobuchar",
+  "key": "tariff",
+  "new_stance": "Support",
+  "evidence": "'We need to do something about these tariff taxes'; would seek subnational trade deals with Canadian provinces (Oct 2026 debate).",
+  "url": "https://www.kaxe.org/elections/2026-10-20/here-are-4-takeaways-from-the-first-demuth-klobuchar-debate",
+  "changed": true
+ },
+ {
+  "who": "Amy Klobuchar",
+  "key": "ai",
+  "new_stance": "Lean support",
+  "evidence": "'We have to develop AI responsibly'; wants models tested and cites federal guardrail work with Thune (Oct 2026); no state law pledged.",
+  "url": "https://www.kaxe.org/elections/2026-10-20/here-are-4-takeaways-from-the-first-demuth-klobuchar-debate",
+  "changed": true
+ },
+ {
+  "who": "Amy Klobuchar",
+  "key": "safety",
+  "new_stance": "Support",
+  "evidence": "Pledges police and first responders 'have the resources they need' and to expand police recruiting pipelines (Oct 2026).",
+  "url": "https://www.kttc.com/2026/10/01/minnesota-gubernatorial-candidates-aim-differentiate-themselves-their-opponent-ahead-election-day/",
+  "changed": true
+ },
+ {
+  "who": "Amy Klobuchar",
+  "key": "rural",
+  "new_stance": "Lean support",
+  "evidence": "Pledged to protect and strengthen 340B drug discounts that keep rural and safety-net hospitals going (Sep-Oct 2026); indirect.",
+  "url": "https://www.kttc.com/2026/09/21/klobuchar-touts-healthcare-key-campaign-platform-november-election-draws-closer/",
+  "changed": true
+ },
+ {
+  "who": "Jeff Landry",
+  "key": "gun",
+  "new_stance": "Oppose",
+  "evidence": "Signed permitless ('constitutional') concealed carry into law after the 2024 crime special session (Mar 2024).",
+  "url": "https://www.kedm.org/louisiana-news/2024-03-06/louisiana-gov-jeff-landry-signs-constitutional-carry",
+  "changed": true
+ },
+ {
+  "who": "Jeff Landry",
+  "key": "ice",
+  "new_stance": "Oppose",
+  "evidence": "Hosted ICE's 'Camp 57' detention center at Angola prison: 'We will take whatever ICE sends us' (Sep 2025).",
+  "url": "https://www.wwno.org/immigration/2025-09-04/a-notorious-wing-of-angola-prison-is-now-a-detention-center-for-ice",
+  "changed": true
+ },
+ {
+  "who": "Jeff Landry",
+  "key": "ai",
+  "new_stance": "Support",
+  "evidence": "Signed the App Store Accountability Act (HB 570): age verification and parental consent for minors' app downloads (Jul 2025).",
+  "url": "https://louisianaradionetwork.com/2025/07/05/governor-landry-signs-app-store-accountability-act/",
+  "changed": true
+ },
+ {
+  "who": "Jeff Landry",
+  "key": "tariff",
+  "new_stance": "Oppose",
+  "evidence": "Backed Trump's tariffs: 'the direction the President is making is the right one' (Apr 2025).",
+  "url": "https://www.audacy.com/wwl/news/local/landry-lauds-trumps-tariffs",
+  "changed": true
+ },
+ {
+  "who": "Jeff Landry",
+  "key": "schools",
+  "new_stance": "Lean support",
+  "evidence": "Mar 2026 address backs Amendment 3 to make teacher pay raises permanent; also pushes LA GATOR vouchers; no formula increase.",
+  "url": "https://gov.louisiana.gov/news/governor-jeff-landry-opens-third-regular-session",
+  "changed": true
+ },
+ {
+  "who": "Jeff Landry",
+  "key": "safety",
+  "new_stance": "Support",
+  "evidence": "Mar 2026 address touts the Troop NOLA state police deployment as a public safety commitment.",
+  "url": "https://gov.louisiana.gov/news/governor-jeff-landry-opens-third-regular-session",
+  "changed": true
+ },
+ {
+  "who": "Jeff Landry",
+  "key": "workforce",
+  "new_stance": "Support",
+  "evidence": "Mar 2026 address: more vocational/technical funding and the Louisiana Talent Accelerator to streamline workforce programs.",
+  "url": "https://gov.louisiana.gov/news/governor-jeff-landry-opens-third-regular-session",
+  "changed": true
+ },
+ {
+  "who": "Jeff Landry",
+  "key": "college",
+  "new_stance": "Lean support",
+  "evidence": "Mar 2026 address proposes more Promise Program aid for community and technical colleges while fully funding TOPS.",
+  "url": "https://gov.louisiana.gov/news/governor-jeff-landry-opens-third-regular-session",
+  "changed": true
+ },
+ {
+  "who": "Jeff Landry",
+  "key": "rural",
+  "new_stance": "Lean support",
+  "evidence": "Mar 2026 address credits raised Medicaid reimbursement rates with bringing more care to rural areas; no hospital-specific plan.",
+  "url": "https://gov.louisiana.gov/news/governor-jeff-landry-opens-third-regular-session",
+  "changed": true
+ },
+ {
+  "who": "Tate Reeves",
+  "key": "schools",
+  "new_stance": "Support",
+  "evidence": "Signed HB 4130, a new K-12 funding formula replacing MAEP (spring 2024); not a 2025-26 action.",
+  "url": "https://www.supertalk.fm/governors-signature-implements-new-public-school-funding-formula-in-mississippi/embed/",
+  "changed": true
+ },
+ {
+  "who": "Tate Reeves",
+  "key": "ai",
+  "new_stance": "Support",
+  "evidence": "Signed HB 1126, the Walker Montgomery Protecting Children Online Act: parental consent for minors' social media accounts (May 2024).",
+  "url": "https://wcbi.com/governor-signs-bill-enacting-more-protections-for-children-online",
+  "changed": true
+ },
+ {
+  "who": "Tate Reeves",
+  "key": "tariff",
+  "new_stance": "Lean oppose",
+  "evidence": "Said 'perhaps because of the tariff policy' more foreign firms want to build in red states like Mississippi (Mar 2025).",
+  "url": "https://www.breitbart.com/radio/2025/03/29/exclusive-ms-gov-tate-reeves-trump-agenda-bringing-forth-rebirth-american-success",
+  "changed": true
+ },
+ {
+  "who": "Tate Reeves",
+  "key": "rural",
+  "new_stance": "Lean support",
+  "evidence": "Awarded ~$104M in Rural Health Transformation grants, about two-thirds to hospitals (Sep 2026); hospital group says share falls short.",
+  "url": "https://mynorthwest.com/national/mississippis-governor-awarded-more-than-104-million-to-improve-rural-healthcare-wheres-it-going/4279879",
+  "changed": true
+ },
+ {
+  "who": "Tate Reeves",
+  "key": "clean",
+  "new_stance": "Lean support",
+  "evidence": "2025 State of the State: remove barriers to gas, solar, wind and nuclear ('power is the key to prosperity'); no clean standard.",
+  "url": "https://www.clarkecountytrib.com/state-state-governor-reeves-touts-economic-growth-education-gains-while-backing-more-tax-cuts-679bb1f276125",
+  "changed": true
+ },
+ {
+  "who": "Mike Kehoe",
+  "key": "schools",
+  "new_stance": "Support",
+  "evidence": "FY26 budget proposed a $200M foundation formula increase, largest ever, plus $33M for teacher salaries (Jan 2025 address).",
+  "url": "https://governor.mo.gov/press-releases/archive/securing-missouris-future-governor-kehoe-delivers-first-state-state-address",
+  "changed": true
+ },
+ {
+  "who": "Mike Kehoe",
+  "key": "safety",
+  "new_stance": "Support",
+  "evidence": "Safer Missouri orders, $10M new Blue Shield police funding, Missouri Blue Scholarships and a crime bill (Jan 2025 address).",
+  "url": "https://governor.mo.gov/press-releases/archive/securing-missouris-future-governor-kehoe-delivers-first-state-state-address",
+  "changed": true
+ },
+ {
+  "who": "Mike Kehoe",
+  "key": "workforce",
+  "new_stance": "Support",
+  "evidence": "Proposed $15M new for career and technical education centers and a Workforce of the Future Challenge, EO 25-16 (Jan 2025).",
+  "url": "https://governor.mo.gov/press-releases/archive/securing-missouris-future-governor-kehoe-delivers-first-state-state-address",
+  "changed": true
+ },
+ {
+  "who": "Mike Kehoe",
+  "key": "childcare",
+  "new_stance": "Lean support",
+  "evidence": "Proposed $10M in partnership grants to add child care slots and up-front provider pay; EO 25-15 rewrites rules (Jan 2025).",
+  "url": "https://governor.mo.gov/press-releases/archive/securing-missouris-future-governor-kehoe-delivers-first-state-state-address",
+  "changed": true
+ }
+]

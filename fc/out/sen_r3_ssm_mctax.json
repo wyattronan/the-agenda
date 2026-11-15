@@ -1,0 +1,514 @@
+[
+ {
+  "who": "Bernie Sanders",
+  "key": "ssm",
+  "new_stance": "Support",
+  "evidence": "Sponsor, Social Security Expansion Act S.770 (Feb 2025): +$2,400/yr benefits, payroll tax on income over $250K.",
+  "url": "https://www.sanders.senate.gov/?p=97448",
+  "changed": true
+ },
+ {
+  "who": "Elizabeth Warren",
+  "key": "ssm",
+  "new_stance": "Support",
+  "evidence": "Cosponsor, Social Security Expansion Act S.770 (Feb 2025): expands benefits, applies payroll tax above $250K.",
+  "url": "https://www.sanders.senate.gov/?p=97448",
+  "changed": true
+ },
+ {
+  "who": "Peter Welch",
+  "key": "ssm",
+  "new_stance": "Support",
+  "evidence": "Cosponsor, Social Security Expansion Act S.770 (Feb 2025): expands benefits, applies payroll tax above $250K.",
+  "url": "https://www.sanders.senate.gov/?p=97448",
+  "changed": true
+ },
+ {
+  "who": "Alex Padilla",
+  "key": "ssm",
+  "new_stance": "Support",
+  "evidence": "Cosponsor, Social Security Expansion Act S.770 (Feb 2025): expands benefits, applies payroll tax above $250K.",
+  "url": "https://www.sanders.senate.gov/?p=97448",
+  "changed": true
+ },
+ {
+  "who": "Ed Markey",
+  "key": "ssm",
+  "new_stance": "Support",
+  "evidence": "Cosponsor, Social Security Expansion Act S.770 (Feb 2025): expands benefits, applies payroll tax above $250K.",
+  "url": "https://www.sanders.senate.gov/?p=97448",
+  "changed": true
+ },
+ {
+  "who": "Kirsten Gillibrand",
+  "key": "ssm",
+  "new_stance": "Support",
+  "evidence": "Cosponsor, Social Security Expansion Act S.770 (Feb 2025): expands benefits, applies payroll tax above $250K.",
+  "url": "https://www.sanders.senate.gov/?p=97448",
+  "changed": true
+ },
+ {
+  "who": "Jeff Merkley",
+  "key": "ssm",
+  "new_stance": "Support",
+  "evidence": "Cosponsor, Social Security Expansion Act S.770 (Feb 2025) and Protecting and Preserving Social Security Act S.2614 (Jul 2025).",
+  "url": "https://www.sanders.senate.gov/?p=97448",
+  "changed": true
+ },
+ {
+  "who": "Chris Van Hollen",
+  "key": "ssm",
+  "new_stance": "Support",
+  "evidence": "Cosponsor, Social Security Expansion Act S.770 (Feb 2025) and Medicare and Social Security Fair Share Act S.1690 (May 2025).",
+  "url": "https://www.sanders.senate.gov/?p=97448",
+  "changed": true
+ },
+ {
+  "who": "Cory Booker",
+  "key": "ssm",
+  "new_stance": "Support",
+  "evidence": "Cosponsor, Social Security Expansion Act S.770 (Feb 2025) and Medicare and Social Security Fair Share Act S.1690 (May 2025).",
+  "url": "https://www.sanders.senate.gov/?p=97448",
+  "changed": true
+ },
+ {
+  "who": "Sheldon Whitehouse",
+  "key": "ssm",
+  "new_stance": "Support",
+  "evidence": "Sponsor, Medicare and Social Security Fair Share Act S.1690 (May 2025); cosponsor, S.770 (Feb 2025) and Social Security 2100 Act (Jul 2026).",
+  "url": "https://www.billtrack50.com/billdetail/1891898",
+  "changed": true
+ },
+ {
+  "who": "Ruben Gallego",
+  "key": "ssm",
+  "new_stance": "Support",
+  "evidence": "Cosponsor, Medicare and Social Security Fair Share Act S.1690 (May 2025), taxing income over $400K for both trust funds.",
+  "url": "https://www.billtrack50.com/billdetail/1891898",
+  "changed": true
+ },
+ {
+  "who": "Richard Blumenthal",
+  "key": "ssm",
+  "new_stance": "Support",
+  "evidence": "Sponsor, Social Security 2100 Act S.5042 (Jul 2026): raises benefits by eliminating the Social Security tax cap.",
+  "url": "https://www.blumenthal.senate.gov/newsroom/press/release/blumenthal-introduces-bill-strengthening-social-security",
+  "changed": true
+ },
+ {
+  "who": "Elissa Slotkin",
+  "key": "ssm",
+  "new_stance": "Support",
+  "evidence": "Cosponsor, Social Security 2100 Act S.5042 (Jul 2026): raises benefits by eliminating the Social Security tax cap.",
+  "url": "https://www.blumenthal.senate.gov/newsroom/press/release/blumenthal-introduces-bill-strengthening-social-security",
+  "changed": true
+ },
+ {
+  "who": "Ben Ray Luján",
+  "key": "ssm",
+  "new_stance": "Support",
+  "evidence": "Cosponsor, Social Security 2100 Act S.5042 (Jul 2026): raises benefits by eliminating the Social Security tax cap.",
+  "url": "https://www.blumenthal.senate.gov/newsroom/press/release/blumenthal-introduces-bill-strengthening-social-security",
+  "changed": true
+ },
+ {
+  "who": "Tammy Duckworth",
+  "key": "ssm",
+  "new_stance": "Support",
+  "evidence": "Cosponsor, Social Security 2100 Act S.5042 (Jul 2026): raises benefits by eliminating the Social Security tax cap.",
+  "url": "https://www.blumenthal.senate.gov/newsroom/press/release/blumenthal-introduces-bill-strengthening-social-security",
+  "changed": true
+ },
+ {
+  "who": "Mazie Hirono",
+  "key": "ssm",
+  "new_stance": "Support",
+  "evidence": "Sponsor, Protecting and Preserving Social Security Act S.2614 (Jul 2025), which lifts the payroll tax cap and boosts COLAs.",
+  "url": "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/s/BILLSTATUS-119s2614.xml",
+  "changed": true
+ },
+ {
+  "who": "Mike Crapo",
+  "key": "ssm",
+  "new_stance": "Lean oppose",
+  "evidence": "Objected to passing the Social Security Expansion Act S.770 by consent (Feb 27 2025), citing its tax on workers under $400K.",
+  "url": "https://www.govinfo.gov/content/pkg/CREC-2025-02-27/html/CREC-2025-02-27-pt1-PgS1419-3.htm",
+  "changed": true
+ },
+ {
+  "who": "Ron Johnson",
+  "key": "ssm",
+  "new_stance": "Lean oppose",
+  "evidence": "Said Social Security and Medicare should become discretionary spending, voted on yearly (Aug 2022); aide said he wants them solvent.",
+  "url": "https://insurancenewsnet.com/oarticle/sen-ron-johnson-calls-for-subjecting-medicare-and-social-security-to-annual-budget-talks",
+  "changed": true
+ },
+ {
+  "who": "Kevin Hern",
+  "key": "ssm",
+  "new_stance": "Lean oppose",
+  "evidence": "As RSC chair, released the FY2024 RSC budget raising the full retirement age from 67 to 69 for future retirees (Jun 2023).",
+  "url": "https://rollcall.com/2023/06/14/conservatives-budget-plan-renews-battle-over-seniors-benefits/",
+  "changed": true
+ },
+ {
+  "who": "Jon Ossoff",
+  "key": "ssm",
+  "new_stance": "Lean support",
+  "evidence": "2026 campaign site: protect Social Security and Medicare, strengthen benefits for public servants; no cap or expansion pledge.",
+  "url": "https://electjon.com/bio/",
+  "changed": true
+ },
+ {
+  "who": "Juliana Stratton",
+  "key": "ssm",
+  "new_stance": "Support",
+  "evidence": "Oct 2025 platform: require Medicare to cover long-term home care, plus vision and hearing (expand Medicare).",
+  "url": "https://capitolnewsillinois.com/news/stratton-aims-to-bring-pritzker-administration-policies-to-national-stage/",
+  "changed": true
+ },
+ {
+  "who": "Josh Turek",
+  "key": "ssm",
+  "new_stance": "Support",
+  "evidence": "2026 platform: strengthen Social Security by making billionaires pay their fair share into it.",
+  "url": "https://turek4iowa.com/platform/",
+  "changed": true
+ },
+ {
+  "who": "Troy Jackson",
+  "key": "ssm",
+  "new_stance": "Support",
+  "evidence": "2026 campaign site: lift the cap so the wealthiest pay into Social Security at the same rate.",
+  "url": "https://jacksonformaine.com/issues/",
+  "changed": true
+ },
+ {
+  "who": "Abdul El-Sayed",
+  "key": "ssm",
+  "new_stance": "Support",
+  "evidence": "2026 campaign site: close the Social Security payroll tax cap; opposes privatizing Medicare.",
+  "url": "https://abdulforsenate.com/priority/money-in-your-pocket/",
+  "changed": true
+ },
+ {
+  "who": "Peggy Flanagan",
+  "key": "ssm",
+  "new_stance": "Support",
+  "evidence": "2026 site: wealthiest pay fair share into the system; Oct 2026 debate: raise the cap for decades of solvency; add Medicare dental/vision.",
+  "url": "https://peggyflanagan.com/priorities/",
+  "changed": true
+ },
+ {
+  "who": "Sherrod Brown",
+  "key": "ssm",
+  "new_stance": "Support",
+  "evidence": "Oct 2026 AARP guide answers: raise the payroll tax cap; will always oppose privatizing Social Security.",
+  "url": "https://newsweek.com/sherrod-brown-vs-jon-husteds-plans-for-medicare-and-social-security-12630088",
+  "changed": true
+ },
+ {
+  "who": "Chris Pappas",
+  "key": "ssm",
+  "new_stance": "Support",
+  "evidence": "Oct 2026: a benefit cut is a \"nonstarter\"; opposes privatizing; $1M+ earners should pay their fair share.",
+  "url": "https://www.nhpr.org/2026-10-09/chris-pappas-nh-newhampshire-senate-2026-midterms-housing-affordability-ai-election",
+  "changed": true
+ },
+ {
+  "who": "Annie Andrews",
+  "key": "ssm",
+  "new_stance": "Support",
+  "evidence": "2026 campaign site pledges to \"protect and expand\" Medicare (and Medicaid); no Social Security cap plan stated.",
+  "url": "https://drannieandrews.com/issue/healthcare-is-a-right-not-a-privilege/",
+  "changed": true
+ },
+ {
+  "who": "James Talarico",
+  "key": "ssm",
+  "new_stance": "Support",
+  "evidence": "2026 site: fight attacks on Social Security and Medicare; lift the payroll tax cap on income above $400K.",
+  "url": "https://jamestalarico.com/issue/labor-business/",
+  "changed": true
+ },
+ {
+  "who": "Cory Booker",
+  "key": "mctax",
+  "new_stance": "Support",
+  "evidence": "Sponsor, Keep Your Pay Act S.4042 (Mar 2026): no federal income tax on first $75,000 for joint filers; also cosponsor S.4083.",
+  "url": "https://www.booker.senate.gov/news/press/booker-announces-keep-your-pay-act",
+  "changed": true
+ },
+ {
+  "who": "Chris Van Hollen",
+  "key": "mctax",
+  "new_stance": "Support",
+  "evidence": "Sponsor, Working Americans' Tax Cut Act S.4083 (Mar 2026): no income tax below a cost-of-living exemption ($92K joint).",
+  "url": "https://www.kelly.senate.gov/newsroom/press-releases/kelly-van-hollen-gillibrand-booker-kim-beyer-introduce-new-bill-to-cut-taxes-for-millions-of-working-americans/",
+  "changed": true
+ },
+ {
+  "who": "Mark Kelly",
+  "key": "mctax",
+  "new_stance": "Support",
+  "evidence": "Co-introduced the Working Americans' Tax Cut Act S.4083 (Mar 2026): no income tax below a cost-of-living exemption.",
+  "url": "https://www.kelly.senate.gov/newsroom/press-releases/kelly-van-hollen-gillibrand-booker-kim-beyer-introduce-new-bill-to-cut-taxes-for-millions-of-working-americans/",
+  "changed": true
+ },
+ {
+  "who": "Kirsten Gillibrand",
+  "key": "mctax",
+  "new_stance": "Support",
+  "evidence": "Co-introduced the Working Americans' Tax Cut Act S.4083 (Mar 2026): no income tax below a cost-of-living exemption.",
+  "url": "https://www.kelly.senate.gov/newsroom/press-releases/kelly-van-hollen-gillibrand-booker-kim-beyer-introduce-new-bill-to-cut-taxes-for-millions-of-working-americans/",
+  "changed": true
+ },
+ {
+  "who": "Andy Kim",
+  "key": "mctax",
+  "new_stance": "Support",
+  "evidence": "Co-introduced the Working Americans' Tax Cut Act S.4083 (Mar 2026): no income tax below a cost-of-living exemption.",
+  "url": "https://www.kelly.senate.gov/newsroom/press-releases/kelly-van-hollen-gillibrand-booker-kim-beyer-introduce-new-bill-to-cut-taxes-for-millions-of-working-americans/",
+  "changed": true
+ },
+ {
+  "who": "Bernie Sanders",
+  "key": "mctax",
+  "new_stance": "Support",
+  "evidence": "Cosponsor, Working Americans' Tax Cut Act S.4083 (Mar 2026): no income tax below a cost-of-living exemption.",
+  "url": "https://www.kelly.senate.gov/newsroom/press-releases/kelly-van-hollen-gillibrand-booker-kim-beyer-introduce-new-bill-to-cut-taxes-for-millions-of-working-americans/",
+  "changed": true
+ },
+ {
+  "who": "Jeff Merkley",
+  "key": "mctax",
+  "new_stance": "Support",
+  "evidence": "Cosponsor, Working Americans' Tax Cut Act S.4083 (Mar 2026): no income tax below a cost-of-living exemption.",
+  "url": "https://www.kelly.senate.gov/newsroom/press-releases/kelly-van-hollen-gillibrand-booker-kim-beyer-introduce-new-bill-to-cut-taxes-for-millions-of-working-americans/",
+  "changed": true
+ },
+ {
+  "who": "Chris Coons",
+  "key": "mctax",
+  "new_stance": "Support",
+  "evidence": "Cosponsor, Working Americans' Tax Cut Act S.4083 (Mar 2026): no income tax below a cost-of-living exemption.",
+  "url": "https://www.kelly.senate.gov/newsroom/press-releases/kelly-van-hollen-gillibrand-booker-kim-beyer-introduce-new-bill-to-cut-taxes-for-millions-of-working-americans/",
+  "changed": true
+ },
+ {
+  "who": "Richard Blumenthal",
+  "key": "mctax",
+  "new_stance": "Support",
+  "evidence": "Cosponsor, Working Americans' Tax Cut Act S.4083 (Mar 2026): no income tax below a cost-of-living exemption.",
+  "url": "https://www.kelly.senate.gov/newsroom/press-releases/kelly-van-hollen-gillibrand-booker-kim-beyer-introduce-new-bill-to-cut-taxes-for-millions-of-working-americans/",
+  "changed": true
+ },
+ {
+  "who": "Brian Schatz",
+  "key": "mctax",
+  "new_stance": "Support",
+  "evidence": "Cosponsor, Working Americans' Tax Cut Act S.4083 (Mar 2026): no income tax below a cost-of-living exemption.",
+  "url": "https://www.kelly.senate.gov/newsroom/press-releases/kelly-van-hollen-gillibrand-booker-kim-beyer-introduce-new-bill-to-cut-taxes-for-millions-of-working-americans/",
+  "changed": true
+ },
+ {
+  "who": "Tammy Baldwin",
+  "key": "mctax",
+  "new_stance": "Support",
+  "evidence": "Cosponsor, Working Americans' Tax Cut Act S.4083 (Mar 2026): no income tax below a cost-of-living exemption.",
+  "url": "https://www.kelly.senate.gov/newsroom/press-releases/kelly-van-hollen-gillibrand-booker-kim-beyer-introduce-new-bill-to-cut-taxes-for-millions-of-working-americans/",
+  "changed": true
+ },
+ {
+  "who": "Mazie Hirono",
+  "key": "mctax",
+  "new_stance": "Support",
+  "evidence": "Cosponsor, Working Americans' Tax Cut Act S.4083 (Mar 2026): no income tax below a cost-of-living exemption.",
+  "url": "https://www.kelly.senate.gov/newsroom/press-releases/kelly-van-hollen-gillibrand-booker-kim-beyer-introduce-new-bill-to-cut-taxes-for-millions-of-working-americans/",
+  "changed": true
+ },
+ {
+  "who": "Martin Heinrich",
+  "key": "mctax",
+  "new_stance": "Support",
+  "evidence": "Cosponsor, Working Americans' Tax Cut Act S.4083 (Mar 2026): no income tax below a cost-of-living exemption.",
+  "url": "https://www.kelly.senate.gov/newsroom/press-releases/kelly-van-hollen-gillibrand-booker-kim-beyer-introduce-new-bill-to-cut-taxes-for-millions-of-working-americans/",
+  "changed": true
+ },
+ {
+  "who": "Angus King",
+  "key": "mctax",
+  "new_stance": "Support",
+  "evidence": "Cosponsor, Working Americans' Tax Cut Act S.4083 (Mar 2026): no income tax below a cost-of-living exemption.",
+  "url": "https://www.kelly.senate.gov/newsroom/press-releases/kelly-van-hollen-gillibrand-booker-kim-beyer-introduce-new-bill-to-cut-taxes-for-millions-of-working-americans/",
+  "changed": true
+ },
+ {
+  "who": "Ed Markey",
+  "key": "mctax",
+  "new_stance": "Support",
+  "evidence": "Cosponsor, Working Americans' Tax Cut Act S.4083 (Mar 2026): no income tax below a cost-of-living exemption.",
+  "url": "https://www.kelly.senate.gov/newsroom/press-releases/kelly-van-hollen-gillibrand-booker-kim-beyer-introduce-new-bill-to-cut-taxes-for-millions-of-working-americans/",
+  "changed": true
+ },
+ {
+  "who": "Peter Welch",
+  "key": "mctax",
+  "new_stance": "Support",
+  "evidence": "Cosponsor, Working Americans' Tax Cut Act S.4083 (Mar 2026): no income tax below a cost-of-living exemption.",
+  "url": "https://www.kelly.senate.gov/newsroom/press-releases/kelly-van-hollen-gillibrand-booker-kim-beyer-introduce-new-bill-to-cut-taxes-for-millions-of-working-americans/",
+  "changed": true
+ },
+ {
+  "who": "Adam Schiff",
+  "key": "mctax",
+  "new_stance": "Support",
+  "evidence": "Cosponsor, Working Americans' Tax Cut Act S.4083 (Mar 2026): no income tax below a cost-of-living exemption.",
+  "url": "https://www.kelly.senate.gov/newsroom/press-releases/kelly-van-hollen-gillibrand-booker-kim-beyer-introduce-new-bill-to-cut-taxes-for-millions-of-working-americans/",
+  "changed": true
+ },
+ {
+  "who": "Lisa Blunt Rochester",
+  "key": "mctax",
+  "new_stance": "Support",
+  "evidence": "Cosponsor, Working Americans' Tax Cut Act S.4083 (Mar 2026): no income tax below a cost-of-living exemption.",
+  "url": "https://www.kelly.senate.gov/newsroom/press-releases/kelly-van-hollen-gillibrand-booker-kim-beyer-introduce-new-bill-to-cut-taxes-for-millions-of-working-americans/",
+  "changed": true
+ },
+ {
+  "who": "Ruben Gallego",
+  "key": "mctax",
+  "new_stance": "Support",
+  "evidence": "Cosponsor, Working Americans' Tax Cut Act S.4083 (Mar 2026): no income tax below a cost-of-living exemption.",
+  "url": "https://www.billtrack50.com/billdetail/1989093",
+  "changed": true
+ },
+ {
+  "who": "Ted Cruz",
+  "key": "mctax",
+  "new_stance": "Lean support",
+  "evidence": "Sponsor, No Tax on Tips Act S.129 (Jan 2025); a narrower tax cut than a broad middle-class cut.",
+  "url": "https://www.billtrack50.com/billdetail/1790113",
+  "changed": true
+ },
+ {
+  "who": "Catherine Cortez Masto",
+  "key": "mctax",
+  "new_stance": "Lean support",
+  "evidence": "Cosponsor, No Tax on Tips Act S.129 (Jan 2025); a narrower tax cut than a broad middle-class cut.",
+  "url": "https://www.billtrack50.com/billdetail/1790113",
+  "changed": true
+ },
+ {
+  "who": "Jacky Rosen",
+  "key": "mctax",
+  "new_stance": "Lean support",
+  "evidence": "Cosponsor, No Tax on Tips Act S.129 (Jan 2025); a narrower tax cut than a broad middle-class cut.",
+  "url": "https://www.billtrack50.com/billdetail/1790113",
+  "changed": true
+ },
+ {
+  "who": "Kevin Cramer",
+  "key": "mctax",
+  "new_stance": "Lean support",
+  "evidence": "Cosponsor, No Tax on Tips Act S.129 (Jan 2025); a narrower tax cut than a broad middle-class cut.",
+  "url": "https://www.billtrack50.com/billdetail/1790113",
+  "changed": true
+ },
+ {
+  "who": "Rick Scott",
+  "key": "mctax",
+  "new_stance": "Lean support",
+  "evidence": "Cosponsor, No Tax on Tips Act S.129 (Jan 2025); a narrower tax cut than a broad middle-class cut.",
+  "url": "https://www.billtrack50.com/billdetail/1790113",
+  "changed": true
+ },
+ {
+  "who": "Josh Hawley",
+  "key": "mctax",
+  "new_stance": "Lean support",
+  "evidence": "Sponsor, No Tax on Overtime Act S.1046 (Mar 2025); cosponsor, No Tax on Tips Act S.129. Narrower than a broad middle-class cut.",
+  "url": "https://policysoup.com/bills/s1046-119",
+  "changed": true
+ },
+ {
+  "who": "Pete Ricketts",
+  "key": "mctax",
+  "new_stance": "Lean support",
+  "evidence": "Cosponsor, No Tax on Tips Act S.129 (Jan 2025) and Overtime Wages Tax Relief Act S.1606 (May 2025); narrower tax cuts.",
+  "url": "https://www.billtrack50.com/billdetail/1790113",
+  "changed": true
+ },
+ {
+  "who": "Jim Justice",
+  "key": "mctax",
+  "new_stance": "Lean support",
+  "evidence": "Cosponsor, Overtime Wages Tax Relief Act S.1606 (May 2025); a narrower tax cut than a broad middle-class cut.",
+  "url": "https://www.marshall.senate.gov/?p=79790",
+  "changed": true
+ },
+ {
+  "who": "Chris Pappas",
+  "key": "mctax",
+  "new_stance": "Lean support",
+  "evidence": "Oct 2026: \"I'm on legislation to make the no tax on tips permanent\"; backs keeping taxes low. Narrower than a broad cut.",
+  "url": "https://www.nhpr.org/2026-10-09/chris-pappas-nh-newhampshire-senate-2026-midterms-housing-affordability-ai-election",
+  "changed": true
+ },
+ {
+  "who": "Mary Peltola",
+  "key": "mctax",
+  "new_stance": "Support",
+  "evidence": "May 2026 plan: eliminate federal income tax for Alaskans earning under $92,000 a year.",
+  "url": "https://www.knba.org/news/2026-05-20/alaska-us-senate-candidate-mary-peltola-calls-for-congressional-term-limits",
+  "changed": true
+ },
+ {
+  "who": "Juliana Stratton",
+  "key": "mctax",
+  "new_stance": "Support",
+  "evidence": "Oct 2025 platform: use millionaire-tax revenue to fund a tax cut for middle-income families.",
+  "url": "https://capitolnewsillinois.com/news/stratton-aims-to-bring-pritzker-administration-policies-to-national-stage/",
+  "changed": true
+ },
+ {
+  "who": "Josh Turek",
+  "key": "mctax",
+  "new_stance": "Support",
+  "evidence": "2026 platform: \"Cut taxes for the middle class and working families\"; Aug 2026 also backed no tax on tips and overtime.",
+  "url": "https://turek4iowa.com/platform/",
+  "changed": true
+ },
+ {
+  "who": "Troy Jackson",
+  "key": "mctax",
+  "new_stance": "Support",
+  "evidence": "2026 campaign site: cut taxes for working families so they keep more of what they earn.",
+  "url": "https://jacksonformaine.com/issues/",
+  "changed": true
+ },
+ {
+  "who": "Abdul El-Sayed",
+  "key": "mctax",
+  "new_stance": "Support",
+  "evidence": "2026 campaign site: a cost-of-living exemption from federal income tax on income up to $50,000.",
+  "url": "https://abdulforsenate.com/priority/money-in-your-pocket/",
+  "changed": true
+ },
+ {
+  "who": "Scott Colom",
+  "key": "mctax",
+  "new_stance": "Support",
+  "evidence": "Oct 2026: eliminate federal income tax for people earning $75,000 or less.",
+  "url": "https://www.mississippifreepress.org/scott-colom-wants-to-make-a-difference-for-mississippi-in-the-us-senate/",
+  "changed": true
+ },
+ {
+  "who": "James Talarico",
+  "key": "mctax",
+  "new_stance": "Lean support",
+  "evidence": "2026 site: a middle-class tax cut built from CTC, EITC, ACA credits and a tariff rebate; credits, not an income-tax exemption.",
+  "url": "https://jamestalarico.com/issue/taxes-cost-of-living/",
+  "changed": true
+ }
+]

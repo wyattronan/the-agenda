@@ -27,8 +27,8 @@
   },
   {
    "key": "drugneg",
-   "title": "Expand Medicare drug price negotiation (SMART Prices Act)",
-   "what": "Lets Medicare negotiate prices on many more drugs each year, which would lower costs for seniors and federal spending on prescriptions."
+   "title": "Lower drug prices: expand Medicare negotiation, cap insulin costs, rein in PBMs",
+   "what": "Lowers drug prices by letting Medicare negotiate many more drugs, capping insulin costs for everyone, and reining in the pharmacy benefit managers who set what patients pay."
   },
   {
    "key": "priorauth",
@@ -36,24 +36,34 @@
    "what": "Requires Medicare Advantage plans to approve routine care faster through electronic prior authorization, cutting delays for patients and paperwork for doctors."
   },
   {
+   "key": "pubopt",
+   "title": "Create a public health insurance option or Medicare buy-in",
+   "what": "Lets people buy into a government-run health plan or Medicare alongside private insurance, adding a lower-cost choice without ending private coverage."
+  },
+  {
+   "key": "ssm",
+   "title": "Protect and expand Social Security and Medicare: no benefit cuts, and the wealthy pay in (lift the payroll-tax cap)",
+   "what": "Rules out cuts to Social Security and Medicare benefits and has high earners pay more into them, usually by lifting the cap on wages subject to the payroll tax, to keep both funded for decades."
+  },
+  {
+   "key": "rural",
+   "title": "Protect rural hospitals: more funding, and undo the hit from the Medicaid cuts",
+   "what": "Sends more money to rural hospitals and undoes the hit they take from the 2025 Medicaid cuts, aimed at keeping emergency rooms and maternity wards from closing."
+  },
+  {
+   "key": "mental",
+   "title": "Expand mental health care: parity enforcement, crisis lines and school counselors",
+   "what": "Expands mental health care through stronger insurance parity enforcement, more money for the 988 crisis line and more school counselors."
+  },
+  {
    "key": "roe",
    "title": "Codify Roe: the Women's Health Protection Act",
    "what": "Creates a federal right to provide and receive abortion care, overriding most state bans and restrictions passed since Roe v. Wade was overturned."
   },
   {
-   "key": "gouge",
-   "title": "Ban grocery price-gouging and limit surveillance pricing",
-   "what": "Makes excessive grocery price hikes illegal and limits stores' use of personal data to charge different shoppers different prices."
-  },
-  {
-   "key": "meat",
-   "title": "Break up meatpackers (Family Grocery and Farmer Relief Act) and block grocery mergers",
-   "what": "Forces the biggest meatpackers to sell off lines of business and blocks new grocery mergers, aiming to restore competition and lower meat prices."
-  },
-  {
-   "key": "gastax",
-   "title": "Suspend the federal gas tax",
-   "what": "Temporarily stops the 18.4-cent-per-gallon federal gas tax, giving drivers a modest break at the pump at the cost of highway funding."
+   "key": "ivf",
+   "title": "Right to IVF Act",
+   "what": "Creates a federal right to IVF and other fertility treatment and requires many insurers to cover it, protecting access after state court rulings put clinics at risk."
   },
   {
    "key": "datactr",
@@ -61,14 +71,29 @@
    "what": "Requires data centers to cover the full cost of the power and grid upgrades they need and limits utility rate increases, so households aren't left paying for the AI boom."
   },
   {
+   "key": "clean",
+   "title": "Lower energy bills: restore the clean-energy tax credits the OBBBA cut (Lowering Electric Bills Act)",
+   "what": "Restores the clean-energy tax credits for solar, wind, batteries, home upgrades and EVs that the 2025 OBBBA cut, which backers say would lower power bills by adding cheap generation."
+  },
+  {
    "key": "ctc",
    "title": "Expand the Child Tax Credit",
    "what": "Makes the Child Tax Credit larger and available in full to low-income families, which cut child poverty sharply when it was temporarily expanded in 2021."
   },
   {
+   "key": "mctax",
+   "title": "A middle-class income tax cut (Keep Your Pay Act / Working Americans' Tax Cut Act)",
+   "what": "Cuts federal income taxes for middle-class families, for example by exempting the first $75,000 of a couple's income, paid for by taxes on the wealthy."
+  },
+  {
    "key": "childcare",
-   "title": "Cap child care at 7% of income / universal child care",
-   "what": "Caps what families pay for child care at 7% of their income and funds more providers, moving toward child care that every family can afford."
+   "title": "Lower child care costs: cap at 7% of income, universal child care, or bigger subsidies",
+   "what": "Cuts child care costs, for example by capping them at 7% of family income or funding universal child care, so working parents pay far less."
+  },
+  {
+   "key": "snap",
+   "title": "Reverse the OBBBA's SNAP (food assistance) cuts",
+   "what": "Reverses the 2025 OBBBA cuts to SNAP food assistance, including its new work rules and the cost shift to states, restoring benefits for millions of people."
   },
   {
    "key": "toptax",
@@ -81,29 +106,24 @@
    "what": "Guarantees workers paid time off to care for a new child, a sick relative or their own illness, funded through a national insurance program."
   },
   {
-   "key": "downpay",
-   "title": "Down payment assistance for first-time buyers",
-   "what": "Gives first-time and first-generation homebuyers federal help with a down payment, making it easier for renters to buy a home."
-  },
-  {
    "key": "wage",
    "title": "Raise the minimum wage ($15–$25) and expand overtime",
    "what": "Raises the federal minimum wage from $7.25 to between $15 and $25 an hour and expands overtime pay, giving raises to millions of low-wage workers."
   },
   {
    "key": "pro",
-   "title": "PRO Act (Protecting the Right to Organize)",
-   "what": "Makes it easier for workers to form unions and bargain, and adds penalties for employers who illegally fight organizing drives."
-  },
-  {
-   "key": "repair",
-   "title": "Federal right-to-repair for farm equipment",
-   "what": "Requires equipment makers to give farmers and independent shops the tools, parts and software needed to fix their own machines."
+   "title": "PRO Act and union rights",
+   "what": "Makes it easier to form a union and harder for employers to block one, with penalties for illegal firings during organizing drives."
   },
   {
    "key": "stock",
    "title": "Ban congressional stock trading: the Peters–Hawley–Merkley–Ossoff bill, covering the President and VP",
    "what": "Bars members of Congress, the President and the Vice President from trading individual stocks while in office, removing a major conflict of interest."
+  },
+  {
+   "key": "vra",
+   "title": "Pass the John Lewis Voting Rights Advancement Act",
+   "what": "Restores the Voting Rights Act's preclearance system, so states and localities with recent voting discrimination need federal approval before changing election rules."
   },
   {
    "key": "gerry",
@@ -117,13 +137,18 @@
   },
   {
    "key": "pacs",
-   "title": "Ban corporate PACs and super PACs",
-   "what": "Bans corporate PAC contributions and super PACs, cutting off the main channels for unlimited corporate and outside money in federal elections."
+   "title": "Get big money out: ban corporate PACs and super PACs, overturn Citizens United",
+   "what": "Gets big money out of elections by banning corporate PACs and super PACs and amending the Constitution to overturn Citizens United."
   },
   {
-   "key": "termlim",
-   "title": "Constitutional amendment for congressional term or age limits",
-   "what": "Amends the Constitution to cap how long members of Congress can serve, which needs two-thirds of both chambers and approval by 38 states."
+   "key": "equality",
+   "title": "Pass the Equality Act (LGBTQ civil rights)",
+   "what": "Adds sexual orientation and gender identity to federal civil-rights law, banning anti-LGBTQ discrimination in jobs, housing, public places and federal programs."
+  },
+  {
+   "key": "gun",
+   "title": "Universal background checks (Background Check Expansion Act)",
+   "what": "Requires a background check on nearly every gun sale, including private and online sales that skip checks today."
   },
   {
    "key": "imm",
@@ -132,8 +157,8 @@
   },
   {
    "key": "ice",
-   "title": "Rein in ICE: no masks, body cameras, visible ID, judicial warrants, right to sue",
-   "what": "Sets new limits on immigration agents, including no masks, visible ID, body cameras, judicial warrants and the right to sue over abuses."
+   "title": "Rein in or abolish ICE: no masks, body cameras, visible ID, judicial warrants, right to sue",
+   "what": "Puts limits on ICE, such as no masks, body cameras and visible ID, judicial warrants and a right to sue, or replaces the agency altogether."
   },
   {
    "key": "isr",
@@ -164,13 +189,13 @@
   },
   {
    "key": "drugbd",
-   "title": "A state board to negotiate prescription drug prices",
-   "what": "Creates a state board that can set upper payment limits on high-cost prescription drugs, lowering what patients and health plans pay."
+   "title": "Lower drug prices: a state price board, PBM limits, insulin caps",
+   "what": "Lowers drug prices with a state board that can cap what is paid for costly drugs, limits on pharmacy benefit managers, and insulin caps."
   },
   {
    "key": "pubopt",
-   "title": "A state public health insurance option",
-   "what": "Offers a state-backed health plan anyone can buy, adding a lower-cost choice and competition in the individual insurance market."
+   "title": "A state public option or universal coverage",
+   "what": "Creates a state-backed public health plan or a path to universal coverage, giving people a lower-cost option."
   },
   {
    "key": "meddebt",
@@ -183,49 +208,34 @@
    "what": "Ends insurer pre-approval rules for routine care and caps or eliminates insulin co-pays, speeding treatment and cutting out-of-pocket costs."
   },
   {
-   "key": "aca",
-   "title": "Backfill lost ACA subsidies with state money",
-   "what": "Uses state money to replace the federal ACA subsidies that expired after 2025, keeping marketplace premiums affordable."
+   "key": "mental",
+   "title": "Expand mental health care: crisis lines, school counselors, parity",
+   "what": "Expands mental health care with crisis lines and mobile teams, more school counselors and tougher enforcement of insurance parity."
+  },
+  {
+   "key": "rural",
+   "title": "Protect rural hospitals: state funding, Medicaid rates, rural health plans",
+   "what": "Keeps rural hospitals open with state money, higher Medicaid rates and rural health plans."
   },
   {
    "key": "datactr",
-   "title": "Make data centers pay their full costs",
-   "what": "Makes data centers pay their full power, water and grid costs and ends their tax breaks, so households don't subsidize them through higher bills."
+   "title": "Make data centers pay their full costs, or pause them until they do",
+   "what": "Makes data centers pay the full cost of the power and grid upgrades they need, or pauses new ones until rules are in place, so households don't foot the bill."
   },
   {
    "key": "utility",
-   "title": "Utility accountability: caps on fees, limits on utility influence",
-   "what": "Caps utility fees and limits utilities' political spending and lobbying costs on customers' bills, giving regulators more power to hold down rates."
+   "title": "Utility bills: accountability, caps on fees, rate freezes and price caps",
+   "what": "Holds utilities accountable with caps on fees and limits on their political influence, and freezes rates or caps power prices when bills spike."
   },
   {
-   "key": "ratefreeze",
-   "title": "Emergency rate freezes and bill credits",
-   "what": "Freezes utility rates or orders bill credits during an affordability emergency, giving households immediate relief on energy costs."
-  },
-  {
-   "key": "pricecap",
-   "title": "Push regulators and the grid operator to cap prices",
-   "what": "Pushes state regulators and the regional grid operator to cap wholesale electricity prices, limiting how much power-market spikes reach customers' bills."
-  },
-  {
-   "key": "gastax",
-   "title": "Cut gas taxes or send direct payments",
-   "what": "Cuts or suspends the state gas tax, or sends households direct payments, to offset high fuel prices."
+   "key": "clean",
+   "title": "Clean energy to lower bills: clean-power standards, buildout, home-energy rebates",
+   "what": "Builds more clean power and adopts clean-electricity standards and home-energy rebates, which backers say will cut power bills over time."
   },
   {
    "key": "house",
-   "title": "Ease zoning and building rules, including statewide preemption",
-   "what": "Loosens zoning and building rules, sometimes overriding local limits, so more homes can be built and rents and prices can come down."
-  },
-  {
-   "key": "eohousing",
-   "title": "Fast-track housing by executive action",
-   "what": "Uses executive orders and emergency powers to speed up permits and financing for housing already in the pipeline."
-  },
-  {
-   "key": "trust",
-   "title": "Housing trust funds and bonds",
-   "what": "Creates dedicated funds or bonds that finance the construction of affordable homes and apartments."
+   "title": "Build more homes: ease zoning, speed permits, add supply",
+   "what": "Builds more homes by easing zoning, speeding permits and adding supply, often with statewide rules that override local limits."
   },
   {
    "key": "downpay",
@@ -234,23 +244,13 @@
   },
   {
    "key": "renter",
-   "title": "Renter protections",
-   "what": "Adds renter protections such as caps on security deposits and junk fees and bans on algorithmic rent-fixing."
-  },
-  {
-   "key": "corphome",
-   "title": "Limit corporate homebuying",
-   "what": "Limits how many single-family homes large investors can buy, leaving more starter homes for families."
-  },
-  {
-   "key": "ptaxcorp",
-   "title": "Pay for property-tax cuts by ending corporate giveaways",
-   "what": "Pays for homeowner property-tax cuts by ending tax breaks and subsidies for corporations."
+   "title": "Renter protections and limits on corporate landlords",
+   "what": "Protects renters with limits on junk fees, algorithmic rent-setting and no-cause evictions, and reins in corporate landlords buying up homes."
   },
   {
    "key": "ptax",
    "title": "Targeted property-tax relief",
-   "what": "Targets property-tax relief at homeowners and seniors through larger exemptions, credits or rebates."
+   "what": "Cuts property taxes for homeowners, often targeted to seniors and middle-income families, sometimes paid for by ending corporate breaks."
   },
   {
    "key": "mctax",
@@ -258,19 +258,24 @@
    "what": "Cuts state income taxes for middle-class families, for example through a bigger standard deduction or no tax on tips and overtime."
   },
   {
-   "key": "ctc",
-   "title": "State child and working-family tax credits",
-   "what": "Creates or expands a state child tax credit or earned income credit, putting cash directly into working families' pockets."
-  },
-  {
-   "key": "sstax",
-   "title": "End state tax on Social Security and seniors",
-   "what": "Stops taxing Social Security and other retirement income, lowering taxes for seniors."
-  },
-  {
    "key": "millionaire",
    "title": "A millionaire's tax",
    "what": "Adds a higher income tax rate on earnings above $1 million, raising revenue for housing, schools or other priorities."
+  },
+  {
+   "key": "wage",
+   "title": "$15 minimum wage",
+   "what": "Raises the state minimum wage to $15 an hour, giving raises to the lowest-paid workers."
+  },
+  {
+   "key": "workforce",
+   "title": "Workforce training and apprenticeships",
+   "what": "Expands apprenticeships and free job training so workers can move into better-paying jobs."
+  },
+  {
+   "key": "schools",
+   "title": "Fully fund public schools: raise K-12 funding or fix the formula",
+   "what": "Raises state K-12 funding or rewrites the school funding formula so districts, especially poor and rural ones, get enough to pay teachers and run schools."
   },
   {
    "key": "prek",
@@ -279,8 +284,8 @@
   },
   {
    "key": "childcare",
-   "title": "Universal child care",
-   "what": "Builds a child care system every family can afford, often by capping costs as a share of income and funding providers directly."
+   "title": "Lower child care costs: universal child care or bigger subsidies",
+   "what": "Lowers child care costs through universal child care or much larger state subsidies for working families."
   },
   {
    "key": "teacher",
@@ -293,14 +298,29 @@
    "what": "Opposes or repeals private-school voucher programs and puts that money into fully funding public schools."
   },
   {
+   "key": "college",
+   "title": "Lower college costs: free community college, tuition-free public college",
+   "what": "Makes community college free, or public college tuition-free, for recent graduates and working adults."
+  },
+  {
+   "key": "ai",
+   "title": "AI safeguards and online protections for kids",
+   "what": "Sets state rules for AI and protects kids online, such as limits on addictive social media feeds and AI chatbots aimed at minors."
+  },
+  {
    "key": "pfml",
    "title": "Paid family and medical leave",
    "what": "Creates a state insurance program that gives workers paid time off for a new child, a sick relative or their own illness."
   },
   {
-   "key": "wage",
-   "title": "$15 minimum wage",
-   "what": "Raises the state minimum wage to $15 an hour, giving raises to the lowest-paid workers."
+   "key": "safety",
+   "title": "Fund public safety and violence prevention",
+   "what": "Pays for more police and for community violence-intervention programs, aimed at lowering violent crime."
+  },
+  {
+   "key": "gun",
+   "title": "Gun safety laws: universal background checks, red-flag laws",
+   "what": "Passes gun safety laws such as universal background checks and red-flag laws that let courts take guns from people judged dangerous."
   },
   {
    "key": "roe",
@@ -309,13 +329,18 @@
   },
   {
    "key": "ice",
-   "title": "Bar ICE from sensitive locations",
-   "what": "Bars immigration agents from schools, hospitals, courthouses and places of worship without a judicial warrant."
+   "title": "Limit ICE cooperation, including barring ICE from schools and other sensitive places",
+   "what": "Limits state and local help to ICE and bars immigration arrests at schools, hospitals, courthouses and churches without a judge's warrant."
   },
   {
    "key": "guard",
    "title": "Keep a federalized National Guard out of the state without the governor's consent",
-   "what": "Opposes the president federalizing the Guard or sending other states' troops into the state over the governor's objection, through lawsuits, refusals or state laws barring those deployments."
+   "what": "Opposes a president federalizing the National Guard, or sending in another state's troops, over the governor's objection, through lawsuits, refusals and state laws. State laws can bar other states' troops sent under Title 32, but not a president's Title 10 federalization, which only courts have checked."
+  },
+  {
+   "key": "tariff",
+   "title": "Fight Trump's tariffs: sue, push back, relief for hit businesses and farmers",
+   "what": "Fights Trump's tariffs by suing over them, pushing back publicly and helping businesses and farmers hit by higher costs."
   },
   {
    "key": "npv",
@@ -324,8 +349,8 @@
   },
   {
    "key": "avr",
-   "title": "Automatic voter registration",
-   "what": "Registers eligible citizens to vote automatically when they deal with state agencies like the DMV, unless they opt out."
+   "title": "Voting access: automatic voter registration and a state voting rights act",
+   "what": "Registers eligible voters automatically and passes a state voting rights act protecting access to the ballot."
   },
   {
    "key": "fraud",

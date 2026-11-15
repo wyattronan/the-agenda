@@ -79,3 +79,36 @@ HOPE = [
    "medicaid": ["Lean support", "Fought the OBBBA Medicaid cuts on the House floor (Jul 2025).", "https://ocasio-cortez.house.gov/taxonomy/term/137?page=5", ""],
  }},
 ]
+
+# Nov 15 2026: positions on the measures added when the lists were re-based on the 2026 campaign census.
+# Only new cells are added; nothing above is overwritten. [stance, evidence, url, flag]
+R3 = {
+ 'Alexandria Ocasio-Cortez': {
+   'equality': ["Support", "Voted for the Equality Act, H.R.5 (Feb 25 2021, 224–206).", "https://clerk.house.gov/evs/2021/roll039", ""],
+   'gun': ["Support", "Voted for the Bipartisan Background Checks Act, H.R.8 (Mar 11 2021, 227–203).", "https://clerk.house.gov/evs/2021/roll075", ""],
+   'vra': ["Support", "Voted for the John R. Lewis Voting Rights Advancement Act, H.R.4 (Aug 24 2021, 219–212).", "https://clerk.house.gov/evs/2021/roll260", ""],
+   'clean': ["Lean support", "Voted against the OBBBA, H.R.1, which cut clean-energy credits (Jul 3 2025, 218–214).", "https://clerk.house.gov/evs/2025/roll190", ""],
+   'snap': ["Lean support", "Voted against the OBBBA, H.R.1, which cut SNAP and shifted costs to states (Jul 3 2025, 218–214).", "https://clerk.house.gov/evs/2025/roll190", ""],
+   'homes': ["Support", "Co-introduced the Homes Act with Sen. Tina Smith to build up to 1.3 million affordable homes via a public developer (Sep 2024).", "https://ocasio-cortez.house.gov/media/press-releases/us-senator-tina-smith-and-congresswoman-ocasio-cortez-introduce-homes-act", "spons"],
+   'pubopt': ["Lean support", "Cosponsor, Medicare for All Act H.R.3069 (Apr 2025); single payer is broader than a public option.", "https://www.govinfo.gov/app/details/BILLS-119hr3069ih", "spons"],
+   'ssm': ["Support", "Cosponsored Social Security 2100 to expand benefits and apply payroll tax above $400k; wants the wealthy to pay in (Oct 2021).", "https://truthout.org/articles/ocasio-cortez-backs-social-security-expansion-says-the-wealthy-need-to-chip-in", "spons"],
+ },
+ 'Kamala Harris': {
+   'homes': ["Support", "2024 campaign plan: 3 million new homes in four years and up to $25,000 down-payment help for first-time buyers (Aug 2024).", "https://nlihc.org/resource/harris-campaign-releases-plans-lower-housing-costs", ""],
+   'corphome': ["Support", "2024 plan urged Congress to pass the Stop Predatory Investing Act, stripping tax breaks from big single-family-home buyers (Aug 2024).", "https://nlihc.org/resource/harris-campaign-releases-plans-lower-housing-costs", ""],
+   'clean': ["Support", "As VP cast the tie-breaking vote passing the IRA's clean-energy credits (Aug 7 2022, 51–50); 2024 plan pledged to keep them.", "https://www.budget.senate.gov/ranking-member/newsroom/votearama/roll-call-vote-on-passage-of-hr5376-fy2022-budget-reconciliation-as-amended", "done"],
+   'ssm': ["Lean support", "2024 plan: protect Social Security and Medicare, keep them solvent by making the wealthy pay more; no cap-lift named (Sep 2024).", "https://kamalaharris.com/a-new-way-forward", ""],
+   'mctax': ["Lean support", "2024 plan: restore $3,600 Child Tax Credit, expand EITC, cut taxes for 100 million Americans; family credits, narrower (Sep 2024).", "https://kamalaharris.com/a-new-way-forward", ""],
+   'workforce': ["Support", "2024 plan: expand Registered Apprenticeships, pre-apprenticeships and career-technical education; drop degree rules for federal jobs (Sep 2024).", "https://kamalaharris.com/a-new-way-forward", ""],
+   'ai': ["Lean support", "2024 plan: continue the 2023 AI executive order to protect workers and consumers; federal, not kids-online rules (Sep 2024).", "https://kamalaharris.com/a-new-way-forward", ""],
+   'gun': ["Support", "2024 campaign promise: require universal background checks for gun sales and ban assault weapons (Sep 2024).", "https://api.politifact.com/article/2024/sep/30/kamala-harris-2024-campaign-promises-here-are-her/", ""],
+   'vra': ["Support", "2024 campaign promise: sign the John Lewis Voting Rights Act and the Freedom to Vote Act (Sep 2024).", "https://api.politifact.com/article/2024/sep/30/kamala-harris-2024-campaign-promises-here-are-her/", ""],
+   'equality': ["Support", "2024 campaign promise: pass the Equality Act to protect LGBTQ+ Americans from discrimination (Sep 2024).", "https://api.politifact.com/article/2024/sep/30/kamala-harris-2024-campaign-promises-here-are-her/", ""],
+   'ivf': ["Support", "VP statement condemned Senate GOP for blocking the IVF bill; reproductive freedom 'must include access to IVF' (Sep 17 2024).", "https://presidency.ucsb.edu/node/374244", ""],
+   'pubopt': ["Lean support", "2019 Medicare for All plan let under-65s buy into Medicare in year one; her 2024 plan dropped it (Jul 2019).", "https://www.npr.org/2019/07/29/746051105/kamala-harris-releases-medicare-for-all-plan-with-a-role-for-private-insurers", ""],
+   'tariff': ["Support", "2024 plan criticized Trump's proposed tariffs while backing targeted action on unfair Chinese trade (Sep 2024).", "https://kamalaharris.com/a-new-way-forward", ""],
+ },
+}
+for _h in HOPE:
+    for _k, _v in R3.get(_h['n'], {}).items():
+        if 'cells' in _h: _h['cells'].setdefault(_k, _v)

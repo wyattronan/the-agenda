@@ -12,10 +12,6 @@
    "url": "https://www.congress.gov/bill/119th-congress/senate-bill/1816",
    "label": "S.1816 on Congress.gov"
   },
-  "meat": {
-   "url": "https://www.congress.gov/bill/119th-congress/senate-bill/4007",
-   "label": "S.4007 on Congress.gov"
-  },
   "wage": {
    "url": "https://www.congress.gov/bill/119th-congress/senate-bill/1332",
    "label": "S.1332 on Congress.gov"
@@ -36,17 +32,9 @@
    "url": "https://www.congress.gov/bill/119th-congress/senate-bill/2295",
    "label": "S.2295 on Congress.gov"
   },
-  "downpay": {
-   "url": "https://www.congress.gov/bill/119th-congress/senate-bill/967",
-   "label": "S.967 on Congress.gov"
-  },
   "drugneg": {
    "url": "https://www.congress.gov/bill/119th-congress/senate-bill/1836",
    "label": "S.1836 on Congress.gov"
-  },
-  "termlim": {
-   "url": "https://www.congress.gov/bill/119th-congress/senate-joint-resolution/1",
-   "label": "S.J.Res.1 on Congress.gov"
   },
   "gerry": {
    "url": "https://www.congress.gov/bill/119th-congress/senate-bill/2885",
@@ -56,10 +44,6 @@
    "url": "https://www.congress.gov/bill/119th-congress/senate-bill/1498",
    "label": "S.1498 on Congress.gov"
   },
-  "gastax": {
-   "url": "https://www.congress.gov/bill/119th-congress/senate-bill/4485",
-   "label": "S.4485 on Congress.gov"
-  },
   "pfl": {
    "url": "https://www.congress.gov/bill/119th-congress/senate-bill/2823",
    "label": "S.2823 on Congress.gov"
@@ -67,10 +51,6 @@
   "pacs": {
    "url": "https://www.congress.gov/bill/119th-congress/senate-bill/2515",
    "label": "S.2515 on Congress.gov"
-  },
-  "gouge": {
-   "url": "https://www.congress.gov/bill/119th-congress/senate-bill/3892",
-   "label": "S.3892 on Congress.gov"
   },
   "road": {
    "url": "https://www.congress.gov/bill/119th-congress/senate-bill/2651",
@@ -95,10 +75,6 @@
   "toptax": {
    "url": "https://www.congress.gov/bill/119th-congress/senate-bill/2845",
    "label": "S.2845 on Congress.gov"
-  },
-  "repair": {
-   "url": "https://www.congress.gov/bill/119th-congress/senate-bill/3068",
-   "label": "S.3068 on Congress.gov"
   },
   "fil": {
    "url": "https://ballotpedia.org/Filibuster",
@@ -127,6 +103,46 @@
   "ai": {
    "url": "https://www.congress.gov/crs-product/R48555",
    "label": "CRS report on AI rules"
+  },
+  "clean": {
+   "url": "https://www.congress.gov/bill/119th-congress/senate-bill/2681",
+   "label": "S.2681 on Congress.gov"
+  },
+  "snap": {
+   "url": "https://www.congress.gov/bill/119th-congress/senate-bill/3281",
+   "label": "S.3281 on Congress.gov"
+  },
+  "vra": {
+   "url": "https://www.congress.gov/bill/119th-congress/senate-bill/2523",
+   "label": "S.2523 on Congress.gov"
+  },
+  "equality": {
+   "url": "https://www.congress.gov/bill/119th-congress/senate-bill/1503",
+   "label": "S.1503 on Congress.gov"
+  },
+  "ivf": {
+   "url": "https://www.congress.gov/bill/119th-congress/senate-bill/5108",
+   "label": "S.5108 on Congress.gov"
+  },
+  "gun": {
+   "url": "https://www.congress.gov/bill/119th-congress/senate-bill/3214",
+   "label": "S.3214 on Congress.gov"
+  },
+  "pubopt": {
+   "url": "https://www.congress.gov/bill/119th-congress/senate-bill/3369",
+   "label": "S.3369 on Congress.gov"
+  },
+  "ssm": {
+   "url": "https://www.congress.gov/bill/119th-congress/senate-bill/770",
+   "label": "S.770 on Congress.gov"
+  },
+  "mctax": {
+   "url": "https://www.congress.gov/bill/119th-congress/senate-bill/4083",
+   "label": "S.4083 on Congress.gov"
+  },
+  "rural": {
+   "url": "https://www.congress.gov/bill/119th-congress/senate-bill/502",
+   "label": "S.502 on Congress.gov"
   }
  },
  "gov": {
@@ -265,6 +281,18 @@
   "ptaxcorp": {
    "url": "https://itep.org/8-things-to-know-about-state-taxes-2023/state-rundown-2-20-tools-to-address-corporate-tax-avoidance-and-property-tax-affordability",
    "label": "ITEP explainer"
+  },
+  "gun": {
+   "url": "https://giffords.org/gun-laws/policy-areas/background-checks/universal-background-checks",
+   "label": "Giffords background-check tracker"
+  },
+  "clean": {
+   "url": "https://www.cesa.org/projects/100-clean-energy-collaborative/guide/table-of-100-clean-energy-states/",
+   "label": "CESA 100% clean energy table"
+  },
+  "tariff": {
+   "url": "https://stateline.org/2025/04/24/12-states-sue-trump-administration-to-block-tariffs/",
+   "label": "Stateline: states suing over tariffs"
   }
  }
 }

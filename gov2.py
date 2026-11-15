@@ -9,55 +9,66 @@ GAREAS = [
     ("health", "Healthcare"),
     ("cost", "Cost of living"),
     ("kids", "Kids & schools"),
+    ("safety", "Public safety"),
     ("trump", "Trump-proofing"),
     ("gov", "Democracy"),
 ]
 
 # key, short label, full title, area, exec (governor can act alone)
+# The 30 policies the most 2026 Democratic governor winners campaigned on (fc/census/winners_2026.json, Nov 15 2026),
+# plus HOT ("hot button") policies kept on purpose even though they fall outside that top 30.
 GI = [
     ("medicaid", "Expand Medicaid", "Expand Medicaid and raise provider rates", "health", False),
-    ("drugbd", "Drug price board", "A state board to negotiate prescription drug prices", "health", False),
-    ("pubopt", "Public option", "A state public health insurance option", "health", False),
+    ("drugbd", "Lower drug prices", "Lower drug prices: a state price board, PBM limits, insulin caps", "health", False),
+    ("pubopt", "Public option", "A state public option or universal coverage", "health", False),
     ("meddebt", "Cancel medical debt", "Cancel medical debt and keep it off credit reports", "health", False),
     ("priorauth", "Prior auth & insulin", "End prior authorization and insulin co-pays", "health", False),
-    ("aca", "Backfill ACA credits", "Backfill lost ACA subsidies with state money", "health", False),
+    ("mental", "Mental health care", "Expand mental health care: crisis lines, school counselors, parity", "health", False),
+    ("rural", "Rural hospitals", "Protect rural hospitals: state funding, Medicaid rates, rural health plans", "health", False),
 
-    ("datactr", "Data centers pay", "Make data centers pay their full costs", "cost", False),
-    ("utility", "Utility accountability", "Utility accountability: caps on fees, limits on utility influence", "cost", False),
-    ("ratefreeze", "Rate freezes & credits", "Emergency rate freezes and bill credits", "cost", True),
-    ("pricecap", "Cap power prices", "Push regulators and the grid operator to cap prices", "cost", True),
-    ("gastax", "Gas tax relief", "Cut gas taxes or send direct payments", "cost", False),
+    ("datactr", "Data centers pay", "Make data centers pay their full costs, or pause them until they do", "cost", False),
+    ("utility", "Utility bills", "Utility bills: accountability, caps on fees, rate freezes and price caps", "cost", False),
+    ("clean", "Clean energy, lower bills", "Clean energy to lower bills: clean-power standards, buildout, home-energy rebates", "cost", False),
 
-    ("house", "Zoning reform", "Ease zoning and building rules, including statewide preemption", "cost", False),
-    ("eohousing", "Fast-track housing", "Fast-track housing by executive action", "cost", True),
-    ("trust", "Housing trust funds", "Housing trust funds and bonds", "cost", False),
+    ("house", "Build more homes", "Build more homes: ease zoning, speed permits, add supply", "cost", False),
     ("downpay", "Down payment help", "Down payment help and a broker-fee ban", "cost", False),
-    ("renter", "Renter protections", "Renter protections", "cost", False),
-    ("corphome", "Limit corporate buyers", "Limit corporate homebuying", "cost", False),
+    ("renter", "Renter protections", "Renter protections and limits on corporate landlords", "cost", False),
 
-    ("ptaxcorp", "Tax relief, not giveaways", "Pay for property-tax cuts by ending corporate giveaways", "cost", False),
     ("ptax", "Property tax relief", "Targeted property-tax relief", "cost", False),
     ("mctax", "Middle-class tax cuts", "Middle-class tax cuts", "cost", False),
-    ("ctc", "Child & family credits", "State child and working-family tax credits", "cost", False),
-    ("sstax", "No Social Security tax", "End state tax on Social Security and seniors", "cost", False),
     ("millionaire", "Millionaire's tax", "A millionaire's tax", "cost", False),
+    ("wage", "$15 minimum wage", "$15 minimum wage", "cost", False),
+    ("workforce", "Job training", "Workforce training and apprenticeships", "cost", False),
 
+    ("schools", "Fund public schools", "Fully fund public schools: raise K-12 funding or fix the formula", "kids", False),
     ("prek", "Universal pre-K", "Universal pre-K", "kids", False),
-    ("childcare", "Universal child care", "Universal child care", "kids", False),
+    ("childcare", "Lower child care costs", "Lower child care costs: universal child care or bigger subsidies", "kids", False),
     ("teacher", "Raise teacher pay", "Raise teacher pay", "kids", False),
     ("vouchers", "Schools, not vouchers", "Fund public schools fully instead of vouchers", "kids", False),
+    ("college", "Lower college costs", "Lower college costs: free community college, tuition-free public college", "kids", False),
+    ("ai", "AI & kids online", "AI safeguards and online protections for kids", "kids", False),
     ("pfml", "Paid family leave", "Paid family and medical leave", "kids", False),
 
-    ("wage", "$15 minimum wage", "$15 minimum wage", "cost", False),
+    ("safety", "Fund public safety", "Fund public safety and violence prevention", "safety", False),
+    ("gun", "Gun safety laws", "Gun safety laws: universal background checks, red-flag laws", "safety", False),
 
     ("roe", "Abortion rights in law", "Write abortion rights into state law", "trump", False),
-    ("ice", "Bar ICE from schools", "Bar ICE from sensitive locations", "trump", False),
+    ("ice", "Limit ICE cooperation", "Limit ICE cooperation, including barring ICE from schools and other sensitive places", "trump", False),
     ("guard", "Block federalized Guard", "Keep a federalized National Guard out of the state without the governor's consent", "trump", False),
+    ("tariff", "Fight Trump's tariffs", "Fight Trump's tariffs: sue, push back, relief for hit businesses and farmers", "trump", False),
 
     ("npv", "Popular Vote Compact", "National Popular Vote Interstate Compact", "gov", False),
-    ("avr", "Auto voter registration", "Automatic voter registration", "gov", True),
+    ("avr", "Voting access", "Voting access: automatic voter registration and a state voting rights act", "gov", True),
     ("fraud", "Anti-fraud overhaul", "Anti-fraud overhaul (audits, inspector general)", "gov", False),
 ]
+# Hot buttons: on the site even though fewer 2026 Democratic governor winners campaigned on them than on the top 30.
+HOT = {"npv", "pfml", "millionaire", "guard", "vouchers"}
+# Old keys folded into a wider one (Nov 15 2026): the stronger stance of the old and new cells wins.
+FOLD = {"ratefreeze": "utility", "pricecap": "utility", "corphome": "renter", "ptaxcorp": "ptax"}
+# Old keys dropped Nov 15 2026 (their research stays in fc/out).
+GDROPPED = {"aca", "ctc", "trust", "gastax", "sstax", "eohousing"}
+# Keys first researched Nov 15 2026 for governors of both parties (older NEW keys covered Democrats only).
+R3 = {"schools", "clean", "mental", "safety", "ai", "college", "gun", "tariff", "rural", "workforce"}
 OLD = {"npv", "pfml", "roe", "wage", "avr", "house"}   # these six keep the 'already law' status from gov_data
 NEW = [k for k, *_ in GI if k not in OLD]
 # For the state-legislature power rule: Republicans start as No on these.
@@ -285,9 +296,9 @@ NR = ("Unclear", "Not researched: this batch covers Democratic governors.")
 
 def gov_new(st, party):
     out = {}
-    for k in NEW:
+    for k in NEW + list(FOLD):
         if party != "D":
-            out[k] = NR
+            out[k] = NR   # Republicans: filled only where research found a position (R3 keys were researched for both parties)
         else:
             out[k] = POS.get(st, {}).get(k, NF)
     return out
@@ -386,6 +397,13 @@ TRACK["guard"] = ({"WA": "HB 1321 (2025) bars other states' Guard without the go
                    "ND": "Older law requires state approval for other states' troops",
                    "KS": "Older law requires state approval for other states' troops"},
                   None, "No law limiting outside Guard troops")
+
+# Trackers for policies added Nov 15 2026 (sources: Giffords Law Center, Aug 2026; Clean Energy States Alliance, Aug 2026;
+# Stateline/Roll Call, Apr 2025). College has no reliable statewide tracker yet, so it shows no green.
+TRACK['gun'] = ({"CA": "Universal checks on all firearm sales incl. private", "CO": "Universal checks on all firearm sales incl. private", "CT": "Universal checks on all firearms; permit-to-purchase for all buyers", "DE": "Universal checks on all firearm sales incl. private", "HI": "Universal checks on all firearms; permit-to-purchase for all buyers", "IL": "Universal checks on all firearms; FOID permit for all buyers", "MD": "Point-of-sale checks on all firearms; handgun permit", "MA": "Universal checks on all firearms; permit for all buyers", "MI": "Universal checks on all firearms; permit law effective early 2024", "NV": "Universal checks on all firearm sales incl. private", "NJ": "Universal checks on all firearms; permit for all buyers", "NM": "Universal checks on all firearm sales; Giffords notes exemption for transfers not made for a fee", "NY": "Point-of-sale checks on all firearms; handgun license", "OR": "Universal checks on all firearms; permit-to-purchase for all buyers", "RI": "Point-of-sale checks on all firearms; handgun permit", "VT": "Universal checks on all firearm sales incl. private", "VA": "Universal checks on all firearm sales; Giffords notes exemption for transfers not made for a fee", "WA": "Universal checks on all firearm sales incl. private"}, None, 'No universal background-check law (Giffords)')
+TRACK['clean'] = ({"CA": "100% carbon-free electricity by 2045 (SB 100, 2018)", "CT": "100% carbon-free electricity by 2040 (SB 10, 2022; began as EO 3, 2019)", "HI": "100% renewable electricity RPS by 2045 (HB 623, 2015)", "MI": "100% clean electricity by 2040 (SB 271, 2023; 'clean' includes carbon capture)", "MN": "100% carbon-free electricity by 2040 (SF 4, 2023; 80% by 2030, 90% by 2035)", "NM": "100% carbon-free electricity by 2045, 2050 for rural co-ops (SB 489, 2019)", "NC": "Carbon neutrality in electricity sector by 2050 (HB 951, 2021; SB 266, 2025 removed 2030 interim target)", "OR": "Electricity GHG cut 100% below baseline by 2040 (HB 2021, 2021)", "RI": "100% renewable electricity by 2033 (H7277 SUB A, 2022)", "VA": "100% carbon-free by 2045 for Dominion, 2050 for Appalachian Power (Virginia Clean Economy Act, 2020)", "VT": "100% renewable electricity by 2035, 2030 for GMP/VEC (H 289, 2024)", "WA": "100% zero-emission electricity by 2045 (SB 5116 CETA, 2019)"}, None, 'No binding 100% clean-electricity law (CESA)')
+TRACK['tariff'] = ({"AZ": "AG joined Oregon v. Trump, Court of International Trade, Apr 23, 2025", "CO": "AG joined Oregon v. Trump, Court of International Trade, Apr 23, 2025", "CT": "AG joined Oregon v. Trump, Court of International Trade, Apr 23, 2025", "DE": "AG joined Oregon v. Trump, Court of International Trade, Apr 23, 2025", "IL": "AG joined Oregon v. Trump, Court of International Trade, Apr 23, 2025", "ME": "AG joined Oregon v. Trump, Court of International Trade, Apr 23, 2025", "MN": "AG joined Oregon v. Trump, Court of International Trade, Apr 23, 2025", "NV": "AG joined Oregon v. Trump, Court of International Trade, Apr 23, 2025", "NM": "AG joined Oregon v. Trump, Court of International Trade, Apr 23, 2025", "NY": "AG joined Oregon v. Trump, Court of International Trade, Apr 23, 2025", "OR": "AG Dan Rayfield led Oregon v. Trump, Court of International Trade, Apr 23, 2025", "VT": "AG joined Oregon v. Trump, Court of International Trade, Apr 23, 2025", "CA": "Gov. Newsom and AG Bonta sued over IEEPA tariffs in N.D. Cal., Apr 16, 2025"}, None, "Hasn't sued over the IEEPA tariffs")
+TRACK_SRC = {'gun': 'https://giffords.org/gun-laws/policy-areas/background-checks/universal-background-checks', 'clean': 'https://www.cesa.org/projects/100-clean-energy-collaborative/guide/table-of-100-clean-energy-states/', 'tariff': 'https://stateline.org/2025/04/24/12-states-sue-trump-administration-to-block-tariffs/'}
 _gov_new0 = gov_new
 def gov_new(st, party):
     out = _gov_new0(st, party)

@@ -24,8 +24,9 @@ for g in d["gov"]: g["s"] = _gst.get(g["st"], g["s"])
 for x in d["sen"]:
     x["r"] = {k: list(v) for k, v in senate_data.senator_record(x["id"], party[x["id"]]).items()}
 import hegseth as _heg
+_HEG_ON = any(k == "heg" for k, *_ in issue_meta.META)
 for x in d["sen"]:
-    if x["id"] in _heg.POS:
+    if _HEG_ON and x["id"] in _heg.POS:
         _p = _heg.POS[x["id"]]; x["r"]["heg"] = [_p[0], _p[1]]
 NFS = "No specific statement found."
 for g in d["gov"]:
@@ -48,10 +49,24 @@ from apply_fc import apply as _fc
 _fcurls = _fc(d)
 _sid = {s["n"]: s["id"] for s in d["sen"]}; _gst = {g["n"]: g["st"] for g in d["gov"]}
 d["curl"] = {"sen": {f"{_sid[n]}|{k}": u for (sd,n,k),u in _fcurls.items() if sd=="sen" and n in _sid}, "gov": {f"{_gst[n]}|{k}": u for (sd,n,k),u in _fcurls.items() if sd=="gov" and n in _gst}}
-d["curl"]["sen"].update({f"{i}|heg": p[2] for i, p in _heg.POS.items()})
+if _HEG_ON: d["curl"]["sen"].update({f"{i}|heg": p[2] for i, p in _heg.POS.items()})
+# old governor keys folded into wider ones (gov2.FOLD): the stronger stance wins, with its source
+_RANK = {"Support": 5, "Lean support": 4, "Mixed": 3, "Lean oppose": 2, "Oppose": 1}
+for g in d["gov"]:
+    for _old, _new in gov2.FOLD.items():
+        _o = g["sp"].pop(_old, None)
+        _ou = d["curl"]["gov"].pop(f"{g['st']}|{_old}", None)
+        if _o and _RANK.get(_o[0], 0) > _RANK.get(g["sp"].get(_new, ["Unclear"])[0], 0):
+            g["sp"][_new] = _o
+            if _ou: d["curl"]["gov"][f"{g['st']}|{_new}"] = _ou
+            else: d["curl"]["gov"].pop(f"{g['st']}|{_new}", None)
+            _fcurls[("gov", g["n"], _new)] = _ou
+            if not _ou: _fcurls.pop(("gov", g["n"], _new), None)
+        _fcurls.pop(("gov", g["n"], _old), None)
+d["hot"] = {"sen": sorted(issue_meta.HOT), "gov": sorted(gov2.HOT)}
 d["curl"]["gov"].update({f"{st}|guard": u for st, u in gov2.GUARD_URLS.items()})
 # measures removed from the site: drop any leftover research records for them (fc/out still holds old findings)
-DROPPED = {"road"}
+DROPPED = set(issue_meta.DROPPED)
 for _x in d["sen"]:
     for _k in DROPPED: _x["r"].pop(_k, None)
 d["curl"]["sen"] = {k: v for k, v in d["curl"]["sen"].items() if k.split("|")[-1] not in DROPPED}
@@ -108,7 +123,7 @@ json.dump(d, open("data.json", "w"), ensure_ascii=False)
 tpl = open("template.html").read()
 blob = json.dumps(d, ensure_ascii=False).replace("</", "<\\/")
 # the home card's measure count, written into the page itself so link previews (pages.py) match what the page shows
-n_meas = sum(1 for x in d["issues"] if x[0] not in ("sch", "heg", "fil"))
+n_meas = sum(1 for x in d["issues"] if x[0] not in issue_meta.HOT)
 tpl, n_hb = re.subn(r'(id="hb-sen">Review the )\d+( highest)', lambda m: f"{m.group(1)}{n_meas}{m.group(2)}", tpl)
 assert n_hb == 1, "export.py: home card text for the Senate count not found"
 open("index.html", "w").write(tpl.replace("__DATA__", blob))
