@@ -4,6 +4,7 @@
   publish = "site"
   command = "python3 pages.py"
 
-# Glossary "request a definition" form: creates a GitHub issue (needs GITHUB_TOKEN set in Netlify)
+# Site forms (Glossary "request a definition" and the About contact form) file GitHub issues through
+# netlify/functions/glossary-request.js (needs GITHUB_TOKEN set in Netlify; contact needs the repo private)
 [functions]
   directory = "netlify/functions"
