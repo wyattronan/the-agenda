@@ -4223,10 +4223,10 @@ const DEEP = {
   senate:(a,b,c)=>{ if(KEYS.includes(a)) cur=a; if(b==='map'||b==='list') sview=b; const st=(c||'').toUpperCase(); if(SEN.some(s=>s.st===st)) smSel=st; renderSenate(); return st&&sview==='map' ? '#smap' : null; },
   governors:(a,b,c)=>{ if(a==='ctl'||GI[a]) pol=a; const st=(b||'').toUpperCase(); if(STS.includes(st)) selSt=st; ssOpen = c==='senate' && SSTATES.has(selSt); renderGovernors(); return ssOpen ? '#ssw' : st ? '#governors .mapbox' : null; },
   top10:a=>{ if(['prio','likely','verge','unlikely'].includes(a)){ t10Side=a; if(window.t10Ready) renderTop10(); } return null; },
-  gsd:a=>{ if(['gov','sen','hope'].includes(a)){ gsdSide=a; gsdAll=false; gsdOpen=null; gsdRan=null; renderGSD(); return '#gsdbox'; } return null; },
+  gsd:a=>{ if(a==='meter') return null; if(['gov','sen','hope'].includes(a)){ gsdSide=a; gsdAll=false; gsdOpen=null; gsdRan=null; renderGSD(); return '#gsdbox'; } return null; },
   proj:a=>{ if(['ec','sen','gov'].includes(a)){ pmode=a; pTouched=true; pSel=null; renderPMap(); } return null; },
-  gop:a=>({loss:'#gptl', factions:'#gplanes', ledger:'#gpledger', table:'#gpgrid'})[a]||null,
-  gloss:(a,b)=>{ if(a) setTimeout(()=>window.agendaGloss&&window.agendaGloss(a,b),350); return null; }
+  gop:a=>({loss:'#gpscore', factions:'#gplanes', ledger:'#gpledger', table:'#gpgrid'})[a]||null,
+  gloss:(a,b)=>{ if(a==='all') return null; if(a==='path') return '#gl-in-committee'; if(a==='hot') return '#gl-hot-button-terms'; if(a) setTimeout(()=>window.agendaGloss&&window.agendaGloss(a,b),350); return null; }
 };
 function route(h){
   const p=(h||'').split('/').map(s=>{ try{ return decodeURIComponent(s); }catch(e){ return s; } });
