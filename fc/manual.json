@@ -115,16 +115,16 @@
   "who": "John Fetterman",
   "key": "sch",
   "new_stance": "Support",
-  "evidence": "Asked if he'd back Schumer for majority leader, said he would vote for him (Nov 11, 2026); his office confirmed support Nov 9.",
+  "evidence": "Asked whether he'd back Schumer as leader, said he would vote for him (WGAL, Nov 11, 2026; reporter's paraphrase). In September said he'd back Schumer staying on as leader (CBS, Sept 2026).",
   "url": "https://www.wgal.com/article/senator-fetterman-shares-optimism-during-new-member-orientation-in-washington/74403736",
   "why": "Schumer leader re-check, Nov 14 2026"
  },
  {
   "who": "Angela Alsobrooks",
   "key": "sch",
-  "new_stance": "Support",
-  "evidence": "Publicly backs Schumer for leader (NPR, Nov 12, 2026; POLITICO, Nov 2026).",
-  "url": "https://whipcount.dropsitenews.com/",
+  "new_stance": "Lean support",
+  "evidence": "Publicly backed Schumer before the election (NPR, Nov 12, 2026), but hasn't reaffirmed it since Van Hollen, her Maryland colleague, entered the race on Nov 12 (Axios, Nov 13). Secret-ballot vote set for Dec 1; Schumer allies want it moved up.",
+  "url": "https://www.axios.com/2026/11/13/democrats-schumer-van-hollen-senate-leader",
   "why": "Schumer leader re-check, Nov 14 2026"
  },
  {
