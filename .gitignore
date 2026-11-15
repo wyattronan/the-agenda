@@ -3,3 +3,5 @@ __pycache__/
 *.pre-*.json
 *.pre-*.py
 .DS_Store
+# per-tab pages: written by pages.py in build.sh and in the Netlify build
+site/*/

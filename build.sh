@@ -5,6 +5,5 @@ cd "$(dirname "$0")"
 export PYTHONHASHSEED=0   # stable key order, so daily diffs show only real changes
 python3 export.py
 python3 checks.py
-cp index.html site/index.html
-cp index.html site/404.html
+python3 pages.py   # site/index.html, 404.html and one page per tab (/senate/, /top-10/ ...)
 echo "Built site/index.html"

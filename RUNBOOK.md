@@ -51,3 +51,6 @@ Steps:
 8. The run's summary is emailed to Wyatt with three links: preview the site, review and approve (merge), and deny (close).
 9. A reminder task runs Tuesdays at 11:43 a.m. Central. It emails only if a weekly/ or daily/ pull request is still open.
 10. If a weekly pull request is still open the next Sunday, the new run folds its changes in and closes the old one, so only one ever waits.
+
+## Tab pages
+Every tab has its own address: /senate/, /governors/, /top-10/, /getting-stuff-done/, /2028/, /gop-postmortem/, /glossary/. `pages.py` writes them from index.html (each with its own title and link-preview text, taken from the home-page buttons). It runs in `./build.sh` and again in the Netlify build, so only `site/index.html` and `site/404.html` are committed; `site/*/` is ignored. Old `#senate/sch`-style links still work and turn into `/senate/#sch`. The artifact copy (published from the root index.html) stays on #hashes.

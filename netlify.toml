@@ -1,7 +1,8 @@
-# The site is prebuilt by build.sh and committed in site/, so Netlify only serves files.
+# The site is prebuilt by build.sh and committed in site/. Netlify only adds the per-tab pages
+# (site/senate/index.html and so on) from the committed index.html; pages.py needs nothing but python3.
 [build]
   publish = "site"
-  command = ""
+  command = "python3 pages.py"
 
 # Glossary "request a definition" form: creates a GitHub issue (needs GITHUB_TOKEN set in Netlify)
 [functions]

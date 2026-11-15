@@ -1,3 +1,4 @@
+import re
 import json, os
 ROOT = os.path.dirname(os.path.abspath(__file__)); os.environ["AGENDA_ROOT"] = ROOT; os.chdir(ROOT)
 import state_senate, senate_data, issue_meta, gov_data, gov2
@@ -106,5 +107,9 @@ d["newst"] = _ns.update(d)
 json.dump(d, open("data.json", "w"), ensure_ascii=False)
 tpl = open("template.html").read()
 blob = json.dumps(d, ensure_ascii=False).replace("</", "<\\/")
+# the home card's measure count, written into the page itself so link previews (pages.py) match what the page shows
+n_meas = sum(1 for x in d["issues"] if x[0] not in ("sch", "heg", "fil"))
+tpl, n_hb = re.subn(r'(id="hb-sen">Review the )\d+( highest)', lambda m: f"{m.group(1)}{n_meas}{m.group(2)}", tpl)
+assert n_hb == 1, "export.py: home card text for the Senate count not found"
 open("index.html", "w").write(tpl.replace("__DATA__", blob))
 print("ok", len(blob))
