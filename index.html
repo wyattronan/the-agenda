@@ -441,6 +441,20 @@ dialog.about p{margin:0 0 8px;line-height:1.55}
 dialog.about .theory p{font-size:16.5px;line-height:1.6;margin:0 0 12px}
 dialog.about .theory mark{background:linear-gradient(transparent 40%,var(--hl) 40%,var(--hl) 92%,transparent 92%);color:inherit;font-weight:700;padding:0 .1em}
 dialog.about .theory{margin:0 0 18px}
+dialog.about .ct-form{display:grid;gap:10px;margin:6px 0 4px}
+dialog.about .ct-row{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+@media (max-width:560px){dialog.about .ct-row{grid-template-columns:1fr}}
+dialog.about .ct-form label{display:grid;gap:4px;font-size:12.5px;font-weight:700}
+dialog.about .ct-opt{font-weight:400;color:var(--muted)}
+dialog.about .ct-form input,dialog.about .ct-form textarea,dialog.about .ct-form select{font:inherit;font-size:14px;font-weight:400;color:var(--ink);background:var(--bg);border:1.5px solid var(--line);border-radius:8px;padding:8px 10px;outline:none;min-width:0}
+dialog.about .ct-form input:focus,dialog.about .ct-form textarea:focus,dialog.about .ct-form select:focus{border-color:var(--ink);box-shadow:0 0 0 3px var(--hl)}
+dialog.about .ct-form textarea{min-height:96px;resize:vertical}
+dialog.about .ct-hp{position:absolute!important;left:-9999px!important;width:1px;height:1px;overflow:hidden}
+dialog.about .ct-actions{display:flex;flex-wrap:wrap;align-items:center;gap:12px}
+dialog.about .ct-send{background:var(--ink);color:var(--surface);border:0;border-radius:5px;padding:9px 16px;font:500 11px var(--caps,var(--display));letter-spacing:.12em;text-transform:uppercase;cursor:pointer}
+dialog.about .ct-send[disabled]{opacity:.55;cursor:default}
+dialog.about .ct-sent{font-size:14px}
+dialog.about .ct-sent.err{color:#a3261a}
 .aboutx{position:absolute;top:12px;right:12px;border:2px solid var(--ink);background:var(--surface);border-radius:6px;width:34px;height:34px;cursor:pointer;font-weight:900}
 .supstamp .stamp-in{background:var(--ink);color:var(--hl)}
 
@@ -2330,6 +2344,16 @@ h1 .hl{background-image:linear-gradient(transparent 36%,var(--hl) 36%,var(--hl) 
   <p>Every leader is graded issue by issue on the Impact Meter, at the highest level their record reaches: <b>Deliver</b> (signed, enacted, or a law they wrote that passed), <b>Spend</b> (vetoes, lawsuits, forced votes, whip efforts, executive orders, and money: public funds, or spending by a PAC or issue group they founded, lead or control, on the measure itself or on candidates' ads built around it), <b>Commit</b> (recorded votes, lead sponsorship, pledges), or <b>Talk</b> (statements, cosponsorships), worth 100%, 50%, 25%, and 10% of an issue's credit; a lean earns half. That meter average is scaled so the best record in each group sets 90, leaving room to improve (no one can reach 100), and is 75% of the score. The other 25% is <b>Steward</b>: for governors, their state's average rank on four outside report cards (the Commonwealth Fund's 2025 health system scorecard, MERIC's Q3 2026 cost-of-living index, the 2026 KIDS COUNT Data Book, and the 2024 Cost of Voting Index); for members of Congress, their recorded votes defending laws already on the books. A governor's priority that's already law at home counts only if they signed it or pushed it nationally during the 2026 campaign or since. Presidential hopefuls are graded on both agendas at once; those without a current office are scored on the Impact Meter alone.</p>
   <p><b>Supporters, champions, and top champions.</b> Anyone on record in favor of a measure is a supporter. A <b>champion</b> moved it themselves, at the Commit level or higher: a senator who's the lead sponsor, or a leader who pledged it, put out a plan, or proposed it. Votes, cosponsorships, and statements count as support, not championing. A <b>top champion</b> went further, to Spend or Deliver: signed it, forced a vote, sued, vetoed, or put money behind it.</p>
   <p class="small">Last statement tracked Nov 14, 2026: Senate positions through Nov 6 (Schumer leader vote through Nov 14; cosponsor lists re-checked Nov 10; measures added Nov 15 researched through Nov 15), governor positions through Nov 6 (National Guard question through Nov 10; policies added Nov 15 researched through Nov 15), and GOP postmortem statements Nov 3–10. Sources are listed in the companion spreadsheet.</p>
+  <h3 id="contact">Contact</h3>
+  <p>Spot an error, have a source we missed, or want to reach the editor? Send a note. Messages go privately to the editor.</p>
+  <form class="ct-form" id="ct-form" novalidate>
+    <div class="ct-row"><label>Name <span class="ct-opt">(optional)</span><input name="name" maxlength="100" autocomplete="name"></label>
+    <label>Email <span class="ct-opt">(optional, if you'd like a reply)</span><input name="email" type="email" maxlength="200" autocomplete="email"></label></div>
+    <label>About <select name="topic"><option value="">Choose one (optional)</option><option>Correction or missing source</option><option>Question</option><option>Press</option><option>Other</option></select></label>
+    <label>Message<textarea name="message" maxlength="4000" required></textarea></label>
+    <label class="ct-hp" aria-hidden="true">Website<input name="website" tabindex="-1" autocomplete="off"></label>
+    <div class="ct-actions"><button class="ct-send" type="submit">Send message</button><span class="ct-sent" id="ct-sent" role="status" aria-live="polite"></span></div>
+  </form>
 </dialog>
 
 <footer>
@@ -4884,10 +4908,10 @@ window.GLOSSARY_LINKS = [
     try{
       if(location.protocol === 'file:'){ await new Promise(r=>setTimeout(r,400)); out.textContent = 'Request sent. (Preview only: on the live site this files a request for review.)'; return; }
       const res = await fetch('/.netlify/functions/glossary-request', {method:'POST', headers:{'Content-Type':'application/json'}, body: JSON.stringify(payload)});
-      if(!res.ok) throw new Error(res.status);
+      if(!res.ok){ let c=''; try{ c=(await res.json()).code||''; }catch(_){ } throw new Error(c||('HTTP_'+res.status)); }
       out.textContent = `Thanks! Your request for “${term}” was sent. New definitions are reviewed before they're added.`;
       f.querySelectorAll('input,textarea').forEach(el=>el.disabled = true);
-    }catch(err){ btn.disabled = false; out.className = 'gl-sent err'; out.textContent = "Sorry, that didn't go through. Please try again in a minute."; }
+    }catch(err){ btn.disabled = false; out.className = 'gl-sent err'; out.textContent = `Sorry, that didn't go through. Please try again in a minute. (Error: ${err.message||'NETWORK'})`; }
   });
 
   const sbox = qIn.closest('.gl-sbox'), shortPh = qIn.placeholder;
@@ -5413,5 +5437,28 @@ h1:has(.hlt),h2:has(.hlt),h3:has(.hlt),h4:has(.hlt){text-wrap:balance}
 })();
 </script>
 
+<script>
+// Contact form in the About dialog: files a private "contact" issue through the same Netlify function as glossary requests.
+(function(){
+  const f = document.getElementById('ct-form'); if(!f) return;
+  const out = document.getElementById('ct-sent'), btn = f.querySelector('.ct-send');
+  f.addEventListener('submit', async e => {
+    e.preventDefault();
+    const message = f.message.value.trim(), email = f.email.value.trim();
+    out.className = 'ct-sent';
+    if(message.length < 5){ out.className = 'ct-sent err'; out.textContent = 'Please write a message first.'; return; }
+    if(email && !/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(email)){ out.className = 'ct-sent err'; out.textContent = 'That email address looks incomplete.'; return; }
+    btn.disabled = true; out.textContent = 'Sending…';
+    const payload = { kind:'contact', name:f.elements['name'].value.trim(), email, topic:f.topic.value, message, website:f.website.value, page:location.pathname };
+    try{
+      if(location.protocol === 'file:'){ await new Promise(r=>setTimeout(r,400)); out.textContent = 'Message sent. (Preview only: on the live site this reaches the editor.)'; return; }
+      const res = await fetch('/.netlify/functions/glossary-request', {method:'POST', headers:{'Content-Type':'application/json'}, body: JSON.stringify(payload)});
+      if(!res.ok){ let c=''; try{ c=(await res.json()).code||''; }catch(_){ } throw new Error(c||('HTTP_'+res.status)); }
+      out.textContent = 'Thanks! Your message was sent.' + (email ? " We'll reply if it needs one." : '');
+      f.querySelectorAll('input,textarea,select').forEach(el=>el.disabled = true);
+    }catch(err){ btn.disabled = false; out.className = 'ct-sent err'; out.textContent = `Sorry, that didn't go through. Please try again later. (Error: ${err.message||'NETWORK'})`; }
+  });
+})();
+</script>
 </body>
 </html>
