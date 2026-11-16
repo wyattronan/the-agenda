@@ -3296,19 +3296,8 @@ function gItem(k, on){
     <span class="nm">${esc(tc(GI[k].s))}${topTag('gov',k)}</span><span></span>
     <span class="cts">${law!==null?`${law} law · `:''}<b class="y">${rec}</b> govs back · ${can} trifectas open</span></button>`;
 }
-// Statehouse Pass / In play / Fail, from the map's own data, across Democratic trifectas that don't have the law yet:
-// Pass = most of them have a governor fully on record for it; In play = some governors back it or lean in; Fail = no trifecta governor backs it.
-const gPath = k=>{ const open=STS.filter(s=>cat(k,s)==='dtri'), full=open.filter(s=>govStance(k,s)==='Support').length, back=open.filter(s=>isSup(govStance(k,s))).length;
-  return {open:open.length, full, back, cls: open.length && full*2>open.length ? 'pass' : back ? 'play' : 'fail'}; };
-const gByP = which=>D.gi.map(x=>x[0]).map(k=>[k,gPath(k)]).filter(([,p])=>p.cls===which);
-const shr = p=>p.open?p.full/p.open:0, shb = p=>p.open?p.back/p.open:0;
+// Governors get only Top 10 and Hot Button quick filters: party control on the map already shows what can pass where.
 const G_FILTERS = [
-  {id:'pass', label:'Pass', head:'Likely to pass', tip:'Priorities most Democratic trifectas without the law can pass now: over half of them have a governor fully on record for it.', none:'No priority has most trifecta governors behind it right now.',
-   keys:()=>gByP('pass').sort((a,b)=>shr(b[1])-shr(a[1])||b[1].full-a[1].full).map(x=>x[0])},
-  {id:'play', label:'In Play', head:'In play', tip:'Priorities some Democratic trifecta governors back or lean toward, but not most of them. Widest backing first.', none:'No priority is in play right now.',
-   keys:()=>gByP('play').sort((a,b)=>shb(b[1])-shb(a[1])||b[1].back-a[1].back).map(x=>x[0])},
-  {id:'fail', label:'Fail', head:'No path yet', tip:'Priorities no governor of a Democratic trifecta without the law is on record for yet.', none:'Every priority has a trifecta governor behind it.',
-   keys:()=>gByP('fail').map(x=>x[0])},
   {id:'top', label:'Top 10', head:'Top 10', tip:'The 10 governor priorities the most 2026 Democratic governor winners campaigned on, in rank order.',
    keys:()=>((D.top10||{}).gov||[]).filter(k=>GI[k])},
   {id:'hot', label:'Hot Button', head:'Hot button', tip:'Priorities outside the top 30 campaign issues that stay on the site because they drive the debate.',
