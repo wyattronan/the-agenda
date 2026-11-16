@@ -1,6 +1,6 @@
 {
- "as_of": "2026-11-11",
- "window": "2026-11-03/2026-11-11",
+ "as_of": "2026-11-15",
+ "window": "2026-11-03/2026-11-15",
  "scales": {
   "trump_alignment": "-2 open critic … +2 loyal",
   "economic": "-2 free-market/technocratic … +2 state-directed/populist",
@@ -20,11 +20,11 @@
    "role": "President",
    "posture": "Defender",
    "issues": {
-    "midterm_loss": "First said he wasn't on the ballot and blamed weak candidates and Fox News; by Nov 8 (60 Minutes) blamed the war, dislike of Israel and bad economic messaging.",
+    "midterm_loss": "First said he wasn't on the ballot and blamed weak candidates and Fox News; by Nov 8 (60 Minutes) blamed the war, dislike of Israel, bad economic messaging and a deportation policy that \"might be too tough.\"",
     "trump": "Doubled down: named Stephen Miller chief of staff (Nov 6), said he'll keep Hegseth, displayed a VETO hat, staying out of House leader race. Called Vance's diagnosis largely true. Nov 8: Vance's comments didn't hurt their relationship, but \"a lot of people didn't like his comments. But not me.\"",
     "tariffs": null,
     "healthcare": null,
-    "immigration": null,
+    "immigration": "Nov 8 (60 Minutes): said his deportation policy \"might be too tough\" and was part of why Republicans lost; said a deal with the Democratic majority is doable; would still deport killers and drug dealers but was open to letting working, in some cases taxpaying, \"good people\" stay. No specifics.",
     "iran_war": "Conceded the war and higher gas prices hurt, but gave an \"emphatic yes\" when asked if he'd do it again.",
     "stock_trading": null,
     "ai": null,
@@ -32,7 +32,7 @@
     "israel": "Election Day (Fox & Friends): said the ~$4B in annual military aid ends this year. Nov 8 (60 Minutes): said a \"great dislike\" of Israel contributed to the losses."
    },
    "other_themes": "Called Massie a \"low life\"; blamed Democrats for the post-election stock drop. Nov 9: called the Iran war \"militarily … effectively over\" and suggested without evidence that voting machines were to blame. Endorsed RNC chair Gruters for another term (Nov 6)",
-   "sources": "Truth Social posts and press remarks, Nov 4–8; CBS 60 Minutes, Nov 8; Times of Israel, Nov 4; The Hill via The National Desk, Nov 8–11",
+   "sources": "Truth Social posts and press remarks, Nov 4–8; CBS 60 Minutes, Nov 8; Times of Israel, Nov 4; The Hill via The National Desk, Nov 8–11; pbs.org, Nov 9",
    "map": {
     "trump_alignment": {
      "pre": 2,
@@ -108,19 +108,19 @@
    "role": "Secretary of State",
    "posture": "Defender",
    "issues": {
-    "midterm_loss": "No public comment on the loss found (Nov 3–10).",
+    "midterm_loss": "Nov 5 (NYT): conceded higher gas prices hurt but said Trump deserves credit for the war and called the political cost \"the price of leadership.\" Nov 9 (Paris, G7): said the losses won't change foreign policy, which the president sets.",
     "trump": "Defended Trump's Iran decision days after the loss; Trump praised him and floated a Vance-Rubio ticket. Separate reports say he is weighing leaving for a 2028 run (White House denies).",
     "tariffs": null,
     "healthcare": null,
     "immigration": null,
-    "iran_war": "Defended the war at the CPAC gala at Mar-a-Lago (Nov 6): Trump wasn't elected to let threats linger. Reportedly favors tighter sanctions over Vance-style diplomacy.",
+    "iran_war": "Nov 5 (NYT): said Trump deserves a tremendous amount of credit for the war despite its cost at the polls. Defended the war at the CPAC gala at Mar-a-Lago (Nov 6): Trump wasn't elected to let threats linger. Nov 8: said talks with Iran are not near a breakthrough and called Iran's demands unacceptable. Reportedly favors tighter sanctions over Vance-style diplomacy.",
     "stock_trading": null,
     "ai": null,
     "corruption": null,
     "israel": "Pre-election: the administration's leading Iran hawk; pro-Israel donors see him as the alternative to Vance."
    },
-   "other_themes": "Some pro-Israel donors and Rep. Randy Fine prefer him to Vance for 2028.",
-   "sources": "JFeed/CPAC remarks, Nov 6; Daily Wire; The Independent; Bloomberg",
+   "other_themes": "Some pro-Israel donors and Rep. Randy Fine prefer him to Vance for 2028. Nov 5: said he will no longer talk about 2028 at all.",
+   "sources": "JFeed/CPAC remarks, Nov 6; Daily Wire; The Independent; Bloomberg; theweek.in, Nov 10; townhall.com, Nov 6",
    "map": {
     "trump_alignment": {
      "pre": 2,
@@ -155,16 +155,16 @@
     "midterm_loss": "Said a defeat of this magnitude \"demands change\"; blamed abandoning pro-lifers and working people.",
     "trump": "Aimed at Senate leadership, not Trump; declined to commit to re-electing Thune (Nov 9). Nov 10: said he'd vote to delay the leadership election, hadn't heard from Thune, and wants \"a different direction.\"",
     "tariffs": "Cited fertilizer and gas costs (not tariffs by name).",
-    "healthcare": "Said healthcare costs are \"through the roof\"; attacked Medicaid and rural-hospital cuts.",
+    "healthcare": "Said healthcare costs are \"through the roof\"; attacked Medicaid and rural-hospital cuts. Nov 11 (X): listed funding rural hospitals among lame-duck priorities.",
     "immigration": null,
-    "iran_war": null,
+    "iran_war": "Nov 11 (Jewish Insider): called the war \"an issue\" in the loss but not the only one.",
     "stock_trading": null,
-    "ai": "Attacked funding data centers while cutting Medicaid.",
+    "ai": "Attacked funding data centers while cutting Medicaid. Nov 11 (X): put a national moratorium on data center construction on his to-do list for Senate Republicans' last six weeks in the majority.",
     "corruption": null,
-    "israel": null
+    "israel": "Nov 11 (Jewish Insider): declined to endorse Vance's Israel diagnosis, saying he'd let the vice president speak for himself and wasn't sure what he meant."
    },
-   "other_themes": "Pro-life base; Planned Parenthood funding; leadership revolt.",
-   "sources": "Hawley remarks, Nov 9; The Hill, Nov 9; Axios and CBS News, Nov 10",
+   "other_themes": "Pro-life base; Planned Parenthood funding; leadership revolt. Nov 11 (X) lame-duck agenda: defund Planned Parenthood, suspend the gas tax, fund rural hospitals, pass the SAVE America Act, and a national data center moratorium. Nov 10: said losing at least seven Senate seats means the party must change course.",
+   "sources": "Hawley remarks, Nov 9; The Hill, Nov 9; Axios and CBS News, Nov 10; jewishinsider.com, Nov 11; townhall.com, Nov 11",
    "map": {
     "trump_alignment": {
      "pre": 1,
@@ -182,7 +182,7 @@
      "pre": 1,
      "post": 1,
      "shift": 0,
-     "stance": "Pro-Israel on record; no post-election comment."
+     "stance": "Pro-Israel on record; post-election declined to back or reject Vance's call to change the relationship."
     },
     "provisional": true
    }
@@ -197,7 +197,7 @@
    "posture": "Distancer",
    "issues": {
     "midterm_loss": "Called it \"close to an extinction-level event\"; GOP not viable nationally without TX/KS/IA.",
-    "trump": "No direct criticism of Trump; blamed Senate GOP inaction.",
+    "trump": "Nov 4 (Fox, Ingraham): called the result a rebuke of both the president and Congress, on \"both sides of Pennsylvania Avenue,\" though most of his fire went at Senate GOP inaction (filibuster, immigration, court jurisdiction).",
     "tariffs": null,
     "healthcare": null,
     "immigration": "Asked why the Senate hasn't shut off H-1B visas or codified Trump's immigration orders; criticized Ramaswamy on foreign-worker visas; wary of street conflict from federal operations.",
@@ -208,13 +208,13 @@
     "israel": "Pre-election: long record as a strongly pro-Israel governor."
    },
    "other_themes": "\"No saviors\"; urged Senate to confirm judges in the lame duck.",
-   "sources": "Fox News (Ingraham), Nov; other remarks",
+   "sources": "Florida news conference and Fox News (Ingraham), Nov 4 (via AOL/Mediaite, Nov 6); other remarks",
    "map": {
     "trump_alignment": {
      "pre": 1,
      "post": -1,
      "shift": -2,
-     "note": "Started semi-independent (+1); blames Senate GOP rather than Trump. Distancer (−1)."
+     "note": "Started semi-independent (+1); called the loss a rebuke of the president and Congress, aiming mostly at Senate GOP inaction. Distancer (−1)."
     },
     "economic": {
      "pre": 0,
@@ -247,10 +247,10 @@
     "stock_trading": null,
     "ai": null,
     "corruption": null,
-    "israel": null
+    "israel": "Nov 11 (Jewish Insider): asked what Vance meant by changing the relationship; called Israel the region's only democracy and a longtime ally; said the partnership's nature will change but the U.S. must keep Israel as an ally."
    },
    "other_themes": "Whatley lost the NC Senate race to Cooper. The delay push failed Nov 10; the conference voted to proceed and re-elected Thune.",
-   "sources": "Fox News Digital and The Hill, Nov 9–10; AP and CBS News, Nov 10; co-signed letter to Chairman Cotton, Nov 9",
+   "sources": "Fox News Digital and The Hill, Nov 9–10; AP and CBS News, Nov 10; co-signed letter to Chairman Cotton, Nov 9; jewishinsider.com, Nov 11",
    "map": {
     "trump_alignment": {
      "pre": 2,
@@ -268,7 +268,7 @@
      "pre": 1,
      "post": 1,
      "shift": 0,
-     "stance": "No position found."
+     "stance": "Pro-Israel: pushed back on Vance and wants Israel kept as a close ally, while conceding the partnership will change."
     },
     "provisional": true
    }
@@ -277,7 +277,7 @@
    "name": "Jim Jordan",
    "category": "Trump Loyalists",
    "also_in": [],
-   "role": "U.S. Rep. (OH); running for House minority leader",
+   "role": "U.S. Rep. (OH); elected House GOP leader for the next Congress (Nov 10)",
    "posture": "Defender",
    "issues": {
     "midterm_loss": "Leadership letter (Nov 4): \"a staggering day for our Conference\"; \"offense, not defense, wins elections.\" Casting himself as the change candidate (Axios, Nov 10). Won the House GOP leader race over Scalise, 106–73 (Nov 10); said Republicans \"will fight for American families.\"",
@@ -292,7 +292,7 @@
     "israel": null
    },
    "other_themes": null,
-   "sources": "Jordan leadership letter, Nov 4; Axios, Nov 10; CBS News, Nov 10; CNN, Nov 11",
+   "sources": "Jordan leadership letter, Nov 4; Axios, Nov 10; CBS News, Nov 10; CNN, Nov 11; townhall.com, Nov 14",
    "map": {
     "trump_alignment": {
      "pre": 2,
@@ -361,7 +361,7 @@
    "name": "Stephen Miller",
    "category": "Trump Loyalists",
    "also_in": [],
-   "role": "Incoming White House chief of staff (from Nov 9)",
+   "role": "White House chief of staff (since Nov 9)",
    "posture": "Defender",
    "issues": {
     "midterm_loss": "X post: \"Fight with all of our soul to support our President.\"",
@@ -376,7 +376,7 @@
     "israel": null
    },
    "other_themes": null,
-   "sources": "Miller X post, Nov 6",
+   "sources": "Miller X post, Nov 6; ksat.com, Nov 15",
    "map": {
     "trump_alignment": {
      "pre": 2,
@@ -490,7 +490,7 @@
    "role": "RNC chair; Trump-backed for new term vs. KC Crosbie (Jan.)",
    "posture": "Silent",
    "issues": {
-    "midterm_loss": "No post-election statement found (Nov 3–10). On Election Day he predicted Republicans would \"surprise a lot of people.\"",
+    "midterm_loss": "No public diagnosis of the loss found. On Election Day he predicted Republicans would \"surprise a lot of people.\" In a letter to members (Thursday, apparently Nov 12), acknowledged their concerns and pledged to \"listen and learn,\" and held private calls with members; his allies rejected Crosbie's call for a post-election review.",
     "trump": "Trump endorsed him for another term.",
     "tariffs": null,
     "healthcare": null,
@@ -501,8 +501,8 @@
     "corruption": null,
     "israel": null
    },
-   "other_themes": "RNC co-chair KC Crosbie announced a challenge, calling for a review of the party's performance",
-   "sources": "Breitbart, Nov 3; Washington Examiner and Just the News, Nov 6–8",
+   "other_themes": "RNC co-chair KC Crosbie announced a challenge (Nov 5 letter), calling the midterms a serious setback and urging an honest account. Gruters defended RNC spending her backers question: donor hospitality at the Presidents Cup, a contract for Susie Wiles's daughter (hired by Whatley, he said) and hair and makeup for White House officials. Some members want a forensic audit. Chair vote is in January in Arizona.",
+   "sources": "Breitbart, Nov 3; Washington Examiner and Just the News, Nov 6–8; ksat.com, Nov 15",
    "map": {
     "trump_alignment": {
      "pre": 2,
@@ -574,7 +574,7 @@
    "role": "Governor (AR)",
    "posture": "Defender",
    "issues": {
-    "midterm_loss": "Said the economy was the leading factor.",
+    "midterm_loss": "Said the economy was the leading factor. Nov 15 (CNN State of the Union): said there's no question Election Night was a bad night for Republicans.",
     "trump": "Defended Trump: his name wasn't on the ballot. Called Vance the 2028 frontrunner.",
     "tariffs": null,
     "healthcare": null,
@@ -585,8 +585,8 @@
     "corruption": null,
     "israel": "Pre-election: strongly pro-Israel record (her father is U.S. ambassador to Israel and rejected Vance's claim)."
    },
-   "other_themes": null,
-   "sources": "Sanders remarks (news coverage)",
+   "other_themes": "Nov 15 (CNN): didn't rule out a future presidential run; said she loves being governor, is focused on Arkansas and is term-limited in four years.",
+   "sources": "Sanders remarks (news coverage); cnn.com, Nov 15; dailywire.com, Nov 15",
    "map": {
     "trump_alignment": {
      "pre": 2,
@@ -707,12 +707,12 @@
     "immigration": "Pre-election: pushed an H-1B and immigration-codification package.",
     "iran_war": null,
     "stock_trading": null,
-    "ai": null,
+    "ai": "Nov 15 (Fox News Sunday): in the Nvidia chip-smuggling scandal, faulted Commerce Secretary Lutnick for not closing export loopholes or blacklisting Megaspeed despite espionage warnings; wants Lutnick to testify even more than Jensen Huang. Said Trump has been clear on chips to China.",
     "corruption": null,
     "israel": null
    },
    "other_themes": null,
-   "sources": "WIBC, Nov 6; WOWO, Nov 4; statement reported by Bloomberg and Fox News, Nov 9",
+   "sources": "WIBC, Nov 6; WOWO, Nov 4; statement reported by Bloomberg and Fox News, Nov 9; 21alivenews.com, Nov 15",
    "map": {
     "trump_alignment": {
      "pre": 2,
@@ -835,10 +835,10 @@
     "stock_trading": null,
     "ai": "Warned Democrats would cut AI investment.",
     "corruption": null,
-    "israel": "Pre-election: the Senate's loudest pro-Israel voice; public feud with Carlson; Fine and RJC figures cite him as a model."
+    "israel": "Pre-election: the Senate's loudest pro-Israel voice; public feud with Carlson; Fine and RJC figures cite him as a model. Nov 11 (Jewish Insider): said Vance is entitled to his opinion on Israel but his own is \"quite different.\""
    },
    "other_themes": "Electricity bills up ~30%; wants to rebuild as a blue-collar party.",
-   "sources": "Cruz podcast/remarks, Nov 4–7 (news coverage)",
+   "sources": "Cruz podcast/remarks, Nov 4–7 (news coverage); jewishinsider.com, Nov 11",
    "map": {
     "trump_alignment": {
      "pre": 1,
@@ -954,8 +954,8 @@
    "issues": {
     "midterm_loss": "Blamed high prices (NPR, Nov 4). Led the letter (sent Nov 9) forcing a conference meeting on the \"stunning defeat\"; called rushing leadership votes \"political malpractice\" and asked candidates for a \"collaborative conference governing model\" and a strategy \"to counter the emboldened Democrats.\" Posted that \"an election defeat of this magnitude demands change.\" Nov 10: \"just can't continue on business as usual\"; wanted \"a plan\" first, with \"55 days until the Democrats take over.\" The conference voted to proceed and re-elected Thune.",
     "trump": null,
-    "tariffs": null,
-    "healthcare": null,
+    "tariffs": "Nov 11 (Jewish Insider): said a clear majority of voters felt they and the economy were hurt by the administration's tariff policies.",
+    "healthcare": "Nov 11 (Jewish Insider): faulted the administration for not delivering on Make America Healthy Again priorities that MAHA voters expected.",
     "immigration": null,
     "iran_war": null,
     "stock_trading": null,
@@ -963,8 +963,8 @@
     "corruption": null,
     "israel": null
    },
-   "other_themes": "Said he'd leave the room if the leadership election went ahead",
-   "sources": "NPR Here & Now, Nov 4; Political.org, Nov 6; Daily Signal and Daily Caller, Nov 9; The Hill and CBS News, Nov 10; AP, Nov 10; co-signed letter to Chairman Cotton, Nov 9",
+   "other_themes": "Said he'd leave the room if the leadership election went ahead, and did: walked out as voting began (Nov 10). Said the conference needs real soul-searching. Nov 11: also said Republicans weren't playing on a level media field.",
+   "sources": "NPR Here & Now, Nov 4; Political.org, Nov 6; Daily Signal and Daily Caller, Nov 9; The Hill and CBS News, Nov 10; AP, Nov 10; co-signed letter to Chairman Cotton, Nov 9; jewishinsider.com, Nov 11; scrippsnews.com, Nov 10",
    "map": {
     "trump_alignment": {
      "pre": 1,
@@ -1083,14 +1083,14 @@
     "tariffs": null,
     "healthcare": null,
     "immigration": null,
-    "iran_war": null,
+    "iran_war": "Nov 11 (Jewish Insider): conceded military action against Iran is unpopular but defended its purpose, saying nobody wants to be killed by a nuclear weapon.",
     "stock_trading": "Wants a congressional stock-trading ban passed in the lame duck, along with a balanced budget, permitting reform, the NDAA and the SAVE America Act (Fox News Digital, Nov 10).",
-    "ai": null,
+    "ai": "Nov 11 (Jewish Insider): said voters worry about their job security as AI grows, alongside the cost of living.",
     "corruption": null,
     "israel": "Pre-election: rebuked Vance earlier this year, calling Israel America's greatest ally in the region."
    },
    "other_themes": "Won't run for leader but won't commit to Thune without a plan; wants a \"collaborative conference governing model\" (per the letter)",
-   "sources": "Fox News Saturday in America, Nov 7; Fox News Digital and The Hill, Nov 9–10; Florida Politics, Nov 9; The Hill, Nov 10; co-signed letter to Chairman Cotton, Nov 9",
+   "sources": "Fox News Saturday in America, Nov 7; Fox News Digital and The Hill, Nov 9–10; Florida Politics, Nov 9; The Hill, Nov 10; co-signed letter to Chairman Cotton, Nov 9; jewishinsider.com, Nov 11",
    "map": {
     "trump_alignment": {
      "pre": 1,
@@ -1243,7 +1243,7 @@
    "name": "John Barrasso",
    "category": "Institutionalists",
    "also_in": [],
-   "role": "U.S. Senator (WY); running again for whip",
+   "role": "U.S. Senator (WY); re-elected GOP whip (Nov 10)",
    "posture": "Hedger",
    "issues": {
     "midterm_loss": "X post (Nov 4): \"Republicans had a tough night\"; \"clear lessons to be learned\"; voters' priorities must come first. Pledged to focus on affordability and lowering prices.",
@@ -1258,7 +1258,7 @@
     "israel": null
    },
    "other_themes": "Running for minority whip; vows to \"aggressively oppose\" what he calls Democrats' socialism. Re-elected whip, Nov 10.",
-   "sources": "CBS News live updates, Nov 4; Wyoming Tribune Eagle, Nov 8; Cowboy State Daily, Nov 9; CBS News, Nov 10",
+   "sources": "CBS News live updates, Nov 4; Wyoming Tribune Eagle, Nov 8; Cowboy State Daily, Nov 9; CBS News, Nov 10; scrippsnews.com, Nov 10",
    "map": {
     "trump_alignment": {
      "pre": 1,
@@ -1285,7 +1285,7 @@
    "name": "Steve Scalise",
    "category": "Institutionalists",
    "also_in": [],
-   "role": "House Majority Leader; running for minority leader",
+   "role": "House Majority Leader; lost the minority-leader race to Jordan (Nov 10)",
    "posture": "Hedger",
    "issues": {
     "midterm_loss": "Called it \"far worse than any of us expected\"; said the party must be honest with itself. Pitching \"a new set of expectations\" and \"accountability\" for members (Punchbowl, Nov 9). Lost the leader race to Jordan, 106–73 (Nov 10), after arguing \"I've got a proven record.\"",
@@ -1300,7 +1300,7 @@
     "israel": null
    },
    "other_themes": "Promises consensus-driven leadership; warns about socialists.",
-   "sources": "Scalise leadership letter, Nov 4; Punchbowl News, Nov 9; CBS News, Nov 10",
+   "sources": "Scalise leadership letter, Nov 4; Punchbowl News, Nov 9; CBS News, Nov 10; townhall.com, Nov 14",
    "map": {
     "trump_alignment": {
      "pre": 1,
@@ -1753,10 +1753,10 @@
    "posture": "Critic",
    "issues": {
     "midterm_loss": "Called it the end of the Trump era and of the Fox News era.",
-    "trump": "Said Trump abandoned America First.",
+    "trump": "Said Trump abandoned America First for foreign entanglements and resisted Epstein transparency. Nov 12: called Trump's openness to a deal for long-term residents amnesty.",
     "tariffs": null,
     "healthcare": null,
-    "immigration": null,
+    "immigration": "Nov 12 (Instagram video): attacked Trump for calling his deportation policy too tough and floating a deal with Democrats, calling it amnesty for tens of millions and blaming his desire to be liked.",
     "iran_war": "Blamed Fox and Mark Levin for the war.",
     "stock_trading": null,
     "ai": null,
@@ -1764,7 +1764,7 @@
     "israel": "Pre-election: calls Iran \"Israel's war\" and opposes U.S. aid; post-election blamed pro-Israel hawks at Fox for the war."
    },
    "other_themes": "Israel.",
-   "sources": "Carlson show (news coverage)",
+   "sources": "Carlson show (news coverage); theunionstar.com, Nov 12",
    "map": {
     "trump_alignment": {
      "pre": -1,
