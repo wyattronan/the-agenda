@@ -1963,6 +1963,23 @@ header::after{height:4px;margin-top:16px;background:none;border-top:1px solid va
 .ab.peek{background:linear-gradient(transparent 58%,var(--hl-soft) 58%,var(--hl-soft) 90%,transparent 90%) no-repeat 0 0/100% 100%;color:var(--ink)}
 .ab.cur{color:var(--ink);border-bottom-color:var(--ink);box-shadow:none;background:none}
 .tray{border:1px solid var(--rule-bold);border-radius:10px;box-shadow:var(--soft)}
+/* quick filters next to "Select a policy" */
+.selrow{display:flex;align-items:center;flex-wrap:wrap;gap:6px 14px;margin:6px 0 4px}
+.selrow .selpol{margin:0}
+.qf{display:flex;flex-wrap:wrap;gap:5px}
+.qb{display:inline-flex;align-items:center;gap:6px;font-family:var(--caps);font-weight:500;font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);background:var(--surface);border:1px solid var(--rule-bold);border-radius:3px;padding:4px 7px 4px 8px;cursor:pointer;line-height:1.2}
+.qb::before{content:"";width:7px;height:7px;border-radius:50%;background:var(--qc,var(--muted));flex:none}
+.qb .qn{font-variant-numeric:tabular-nums;color:var(--faint);letter-spacing:.04em}
+.qb:hover,.qb:focus-visible{color:var(--ink);border-color:var(--ink)}
+.qb[aria-pressed="true"]{color:var(--ink);border-color:var(--ink);background:var(--hl-soft);box-shadow:inset 0 0 0 1px var(--ink)}
+.qb[aria-pressed="true"] .qn{color:var(--ink)}
+.q-pass{--qc:var(--yes)}.q-play{--qc:var(--gold)}.q-fail{--qc:var(--no)}.q-top{--qc:var(--ink)}.q-hot{--qc:var(--rep)}
+.qdot{width:8px;height:8px;border-radius:50%;background:var(--qc);flex:none}
+.abar.qdim .ab{opacity:.38;filter:grayscale(1)}
+.abar.qdim .ab:hover{opacity:.7}
+.abar.qdim .ab.cur{border-bottom-color:transparent}
+.qmore{margin:8px 2px 2px}
+.qnone{margin:2px 4px 4px}
 
 /* ---------- containers ---------- */
 .panel,.mc,.stile,.empty{border:1px solid var(--rule-bold);border-radius:12px;background:var(--surface);box-shadow:var(--soft)}
@@ -2152,7 +2169,7 @@ h1 .hl{background-image:linear-gradient(transparent 36%,var(--hl) 36%,var(--hl) 
 
 <section class="view" id="senate" role="tabpanel" aria-labelledby="tab-senate">
   <p class="lede">With the House firmly in Democratic hands, <mark>the U.S. Senate will be the arena</mark> that decides whether or not most legislation arrives to Trump's desk for <mark>signature or veto</mark>. See where Senators have already <mark>pledged their support or opposition</mark>, toggle their position to see <mark>which bills could get through</mark>.</p>
-  <div class="selpol">Select a policy</div>
+  <div class="selrow"><div class="selpol">Select a policy</div><div class="qf" id="sqf" role="group" aria-label="Quick filters"></div></div>
   <div class="nav" id="snav"><div class="abar" id="sbar" role="toolbar" aria-label="Issue areas"></div><div class="tray" id="stray"></div></div>
   <div class="stop"><div class="panel detail" id="detail"></div><aside class="ttkbox" id="sttk" aria-label="Three things to know"></aside></div>
   <div class="rulesbar"><span class="segctl viewtog" id="sview" role="group" aria-label="View"><button data-v="map" aria-pressed="true">Map</button><button data-v="list" aria-pressed="false">List</button></span><button type="button" class="btn rulesbtn" id="rulesbtn" aria-expanded="false" aria-controls="rulespanel"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M2 4h7M12 4h2M2 12h2M7 12h7M2 8h3M8 8h6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" fill="none"/><circle cx="10.5" cy="4" r="1.7" fill="none" stroke="currentColor" stroke-width="1.5"/><circle cx="5.5" cy="12" r="1.7" fill="none" stroke="currentColor" stroke-width="1.5"/><circle cx="6.5" cy="8" r="1.7" fill="none" stroke="currentColor" stroke-width="1.5"/></svg>Adjust Rules<span class="chev" aria-hidden="true">›</span></button>
@@ -2179,7 +2196,7 @@ h1 .hl{background-image:linear-gradient(transparent 36%,var(--hl) 36%,var(--hl) 
 
 <section class="view" id="governors" role="tabpanel" aria-labelledby="tab-governors">
   <p class="lede"><mark>New Democratic governing trifectas</mark> in Alaska, Arizona, Michigan, Pennsylvania, and Wisconsin mean long overdue legislation can finally reach people. See which of the <mark>agenda items governors campaigned on</mark> are <mark>already on the books</mark>, which are <mark>likely to become law</mark>, and which <mark>require a handful of Republican votes</mark>.</p>
-  <div class="selpol">Select a policy</div>
+  <div class="selrow"><div class="selpol">Select a policy</div><div class="qf" id="gqf" role="group" aria-label="Quick filters"></div></div>
   <div class="nav" id="gnav"><div class="abar" id="gbar" role="toolbar" aria-label="Governor issue areas"></div><div class="tray" id="gtray"></div></div>
   <div class="glayout">
     <div>
@@ -2436,25 +2453,44 @@ const TTK_PROJ = [
    "Democrats defend 3 of 11 seats (DE, NC, WA), all Safe or Likely D. New Hampshire (D+0.7) and Vermont (D+1.2) start as toss-ups; Montana, open with Gianforte term-limited, is a reach at R+14.5."]];
 
 /* ---------- shared: area bar + tray ---------- */
-function areaNav({bar, tray, areas, itemsOf, current, renderItem, onPick, lead}){
+function areaNav({bar, tray, areas, itemsOf, current, renderItem, onPick, lead, qbar, filters}){
   let open=null;   // trays start collapsed (and collapse on every tab switch); clicking an area opens it, clicking the highlighted area again closes it
+  let qf=null, qall=false;   // quick filter (Pass / In play / Fail / Top 10 / Hot button): lists matching measures from every area, 10 at a time
+  const QN=10;
   const areaOfKey = k=> areas.find(([a])=>itemsOf(a).includes(k));
+  function drawQ(){
+    if(!qbar||!filters) return;
+    qbar.innerHTML = filters.map(f=>{ const n=f.keys().length;
+      return `<button type="button" class="qb q-${f.id}" data-q="${f.id}" aria-pressed="${qf===f.id}" data-tip="${esc(f.tip)}${qf===f.id?' Click again to go back to the policy areas.':''}">${esc(f.label)}<span class="qn">${n}</span></button>`; }).join('');
+  }
   function draw(){
+    drawQ();
     const curA = (areaOfKey(current())||[null])[0];
-    const showA = open;
+    const showA = qf ? null : open;
+    bar.classList.toggle('qdim', !!qf);
     bar.innerHTML = (lead?lead():'') + areas.map(([a,label])=>{
       const ks=itemsOf(a), sum = renderItem.summary ? renderItem.summary(ks) : '';
-      return `<button class="ab${a===curA?' cur':''}${a===showA?' peek':''}" data-a="${a}" aria-expanded="${a===showA}" aria-controls="${tray.id}" title="${a===showA?'Hide':'Show'} ${esc(label)} measures">${icon(a)}${esc(tc(label))}${sum?`<span class="asum">${sum}</span>`:''}</button>`;
+      return `<button class="ab${a===curA?' cur':''}${a===showA?' peek':''}" data-a="${a}" aria-expanded="${a===showA}" aria-controls="${tray.id}" title="${qf?'Clear the filter and show':a===showA?'Hide':'Show'} ${esc(label)} measures">${icon(a)}${esc(tc(label))}${sum?`<span class="asum">${sum}</span>`:''}</button>`;
     }).join('');
+    if(qf){
+      const f=filters.find(x=>x.id===qf), ks=f.keys(), shown=qall?ks:ks.slice(0,QN);
+      const was = tray.hidden; tray.hidden=false;
+      tray.innerHTML = `<div class="trayhd"><span class="qdot q-${f.id}"></span>${esc(f.head||f.label)}<span class="small">· ${ks.length} measure${ks.length===1?'':'s'}${ks.length>QN&&!qall?`, showing the first ${QN}`:''}</span></div>`
+        + (ks.length ? `<div class="tgrid" role="list" aria-label="${esc(f.label)} measures">${shown.map(k=>renderItem(k, k===current())).join('')}</div>` : `<p class="small qnone">${esc(f.none||'No measures match right now.')}</p>`)
+        + (ks.length>QN ? `<button type="button" class="btn qmore" data-qmore="1" aria-expanded="${qall}">${qall?'Show fewer':`Show all ${ks.length}`}</button>` : '');
+      if(was){ tray.classList.remove('tin'); void tray.offsetWidth; tray.classList.add('tin'); }
+      return;
+    }
     if(!showA){ tray.hidden=true; tray.innerHTML=''; return; }
     const was = tray.hidden; tray.hidden=false;
     const lab = areas.find(x=>x[0]===showA)[1];
     tray.innerHTML = `<div class="tgrid" role="list" aria-label="${esc(tc(lab))} measures">${itemsOf(showA).map(k=>renderItem(k, k===current())).join('')}</div>`;
     if(was){ tray.classList.remove('tin'); void tray.offsetWidth; tray.classList.add('tin'); }
   }
-  bar.addEventListener('click',e=>{ const b=e.target.closest('.ab[data-a]'); if(b){ open = open===b.dataset.a ? null : b.dataset.a; draw(); } });
-  tray.addEventListener('click',e=>{ const t=e.target.closest('.ti'); if(!t) return; onPick(t.dataset.k); });
-  return { draw, close(){ open=null; draw(); } };
+  bar.addEventListener('click',e=>{ const b=e.target.closest('.ab[data-a]'); if(!b) return; if(qf){ qf=null; open=b.dataset.a; } else open = open===b.dataset.a ? null : b.dataset.a; draw(); });
+  tray.addEventListener('click',e=>{ if(e.target.closest('[data-qmore]')){ qall=!qall; draw(); return; } const t=e.target.closest('.ti'); if(!t) return; onPick(t.dataset.k); });
+  if(qbar) qbar.addEventListener('click',e=>{ const b=e.target.closest('.qb'); if(!b) return; qf = qf===b.dataset.q ? null : b.dataset.q; qall=false; open=null; if(typeof tipHide==='function') tipHide(); draw(); });
+  return { draw, close(){ open=null; qf=null; qall=false; draw(); }, clearQ(){ qf=null; qall=false; } };
 }
 
 /* ================= Senate ================= */
@@ -2495,7 +2531,20 @@ function sItem(k, on){
     <span class="cts"><b class="y">${c.y}</b> yes · ${c.u} ? · <b class="n">${c.n}</b> no · need ${v.t}</span></button>`;
 }
 
-const sNav = areaNav({bar:$('sbar'), tray:$('stray'), areas:AREAS, itemsOf:sItems, current:()=>cur, renderItem:sItem, onPick:k=>{ cur=k; renderSenate(); }});
+const sByV = cls=>KEYS.map(k=>[k,verdict(k)]).filter(([,v])=>v.cls===cls);
+const S_FILTERS = [
+  {id:'pass', label:'Pass', head:'Passes', tip:'Measures with enough Yes votes to pass, counting the votes as they are set now.', none:'No measure has enough Yes votes right now.',
+   keys:()=>sByV('pass').sort((a,b)=>b[1].c.y-a[1].c.y).map(x=>x[0])},
+  {id:'play', label:'In Play', head:'In play', tip:'Measures that could pass if enough undecided senators say yes. Closest to passing first.', none:'No measure is in play right now.',
+   keys:()=>sByV('play').sort((a,b)=>(a[1].t-a[1].c.y)-(b[1].t-b[1].c.y)).map(x=>x[0])},
+  {id:'fail', label:'Fail', head:'Fails', tip:'Measures that fall short even if every undecided senator says yes. Closest to passing first.', none:'No measure fails right now.',
+   keys:()=>sByV('fail').sort((a,b)=>(a[1].t-a[1].c.y-a[1].c.u)-(b[1].t-b[1].c.y-b[1].c.u)).map(x=>x[0])},
+  {id:'top', label:'Top 10', head:'Top 10', tip:'The 10 Senate measures the most 2026 Democratic Senate winners campaigned on, in rank order.',
+   keys:()=>((D.top10||{}).sen||[]).filter(k=>KEYS.includes(k))},
+  {id:'hot', label:'Hot Button', head:'Hot button', tip:'Measures outside the top 30 campaign issues that stay on the site because they drive the debate.',
+   keys:()=>KEYS.filter(k=>((D.hot||{}).sen||[]).includes(k))},
+];
+const sNav = areaNav({bar:$('sbar'), tray:$('stray'), qbar:$('sqf'), filters:S_FILTERS, areas:AREAS, itemsOf:sItems, current:()=>cur, renderItem:sItem, onPick:k=>{ cur=k; renderSenate(); }});
 
 function renderRules(){
   document.querySelectorAll('#fmode button').forEach(b=>b.setAttribute('aria-pressed', b.dataset.m===fmode));
@@ -3250,7 +3299,25 @@ function gItem(k, on){
     <span class="nm">${esc(tc(GI[k].s))}${topTag('gov',k)}</span><span></span>
     <span class="cts">${law!==null?`${law} law · `:''}<b class="y">${rec}</b> govs back · ${can} trifectas open</span></button>`;
 }
-const gNav = areaNav({bar:$('gbar'), tray:$('gtray'), areas:GAREAS, itemsOf:gItems, current:()=>pol, renderItem:gItem,
+// Statehouse Pass / In play / Fail, from the map's own data, across Democratic trifectas that don't have the law yet:
+// Pass = most of them have a governor fully on record for it; In play = some governors back it or lean in; Fail = no trifecta governor backs it.
+const gPath = k=>{ const open=STS.filter(s=>cat(k,s)==='dtri'), full=open.filter(s=>govStance(k,s)==='Support').length, back=open.filter(s=>isSup(govStance(k,s))).length;
+  return {open:open.length, full, back, cls: open.length && full*2>open.length ? 'pass' : back ? 'play' : 'fail'}; };
+const gByP = which=>D.gi.map(x=>x[0]).map(k=>[k,gPath(k)]).filter(([,p])=>p.cls===which);
+const shr = p=>p.open?p.full/p.open:0, shb = p=>p.open?p.back/p.open:0;
+const G_FILTERS = [
+  {id:'pass', label:'Pass', head:'Likely to pass', tip:'Priorities most Democratic trifectas without the law can pass now: over half of them have a governor fully on record for it.', none:'No priority has most trifecta governors behind it right now.',
+   keys:()=>gByP('pass').sort((a,b)=>shr(b[1])-shr(a[1])||b[1].full-a[1].full).map(x=>x[0])},
+  {id:'play', label:'In Play', head:'In play', tip:'Priorities some Democratic trifecta governors back or lean toward, but not most of them. Widest backing first.', none:'No priority is in play right now.',
+   keys:()=>gByP('play').sort((a,b)=>shb(b[1])-shb(a[1])||b[1].back-a[1].back).map(x=>x[0])},
+  {id:'fail', label:'Fail', head:'No path yet', tip:'Priorities no governor of a Democratic trifecta without the law is on record for yet.', none:'Every priority has a trifecta governor behind it.',
+   keys:()=>gByP('fail').map(x=>x[0])},
+  {id:'top', label:'Top 10', head:'Top 10', tip:'The 10 governor priorities the most 2026 Democratic governor winners campaigned on, in rank order.',
+   keys:()=>((D.top10||{}).gov||[]).filter(k=>GI[k])},
+  {id:'hot', label:'Hot Button', head:'Hot button', tip:'Priorities outside the top 30 campaign issues that stay on the site because they drive the debate.',
+   keys:()=>D.gi.map(x=>x[0]).filter(k=>((D.hot||{}).gov||[]).includes(k))},
+];
+const gNav = areaNav({bar:$('gbar'), tray:$('gtray'), qbar:$('gqf'), filters:G_FILTERS, areas:GAREAS, itemsOf:gItems, current:()=>pol, renderItem:gItem,
   lead:()=>`<button class="ab${pol==='ctl'?' cur':''}" data-ctl="1">${icon('ctl')}Who Controls</button>`,
   onPick:k=>{ pol=k; renderGovernors(); }});
 gItem.empty = ()=>`<div class="trayhd">${icon('ctl')}Who Controls Each Statehouse<span class="small">· click an issue area above to pick a policy</span></div>`;
