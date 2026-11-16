@@ -4226,7 +4226,25 @@ function t10Items(){
   likely.push({side:'gov', k:'wage', title:'A $15 minimum wage', tag:'Statehouses', body:`New trifectas in Nevada, Wisconsin, and Pennsylvania can pass it. Wisconsin's and Pennsylvania's governors campaigned on raising the wage, and Nevada's leans toward it (Wisconsin and Pennsylvania are still at the $7.25 federal floor).`, extra:t10Chips('wage',[['NV','go'],['WI','go'],['PA','go']])});
   likely.push({side:'gov', k:'roe', title:'Write abortion rights into state law', tag:'Statehouses', body:`Pennsylvania, Wisconsin, and Alaska can codify Roe with their new trifectas. Georgia and North Carolina are possible with a few Republican votes, and Texas is a long shot.`, extra:t10Chips('roe',[['PA','go'],['WI','go'],['AK','go'],['GA','maybe'],['NC','maybe'],['TX','maybe']])});
   likely.push({side:'gov', k:'house', title:'Build more homes: zoning, permits, supply', tag:'Statehouses', body:`One of the priorities governors championed most. New trifectas in Pennsylvania, Wisconsin, and Alaska have governors fully behind it, Michigan's and Nevada's lean in, and zoning reform has passed with bipartisan votes in states like Montana and Arizona.`, extra:t10Chips('house',[['PA','go'],['WI','go'],['AK','go'],['MI','maybe'],['NV','maybe']])});
-  likely.push({side:'gov', k:'npv', title:'Activate the National Popular Vote compact', tag:'Statehouses', body:`The compact has 222 electoral votes. Trifectas in Arizona, Alaska, Nevada, Wisconsin, Michigan, and Pennsylvania would add 64, pushing it to 286, past the 270 that switches it on. None of those six governors is on record for it yet, and it would face court challenges.`, extra:t10Chips('npv',[['AZ','go'],['AK','go'],['NV','go'],['WI','go'],['MI','go'],['PA','go']])});
+  { // Popular Vote Compact: every number here is computed from the data (members, governor stances, electoral votes).
+    const W=['no','one','two','three','four','five','six'], wd=n=>W[n]??n, byEV=(a,b)=>EV[b]-EV[a], sumEV=a=>a.reduce((x,s)=>x+EV[s],0), or=a=>a.length<3?a.join(' or '):a.slice(0,-1).join(', ')+', or '+a.at(-1), and=a=>a.length<3?a.join(' and '):a.slice(0,-1).join(', ')+', and '+a.at(-1);
+    const inS=STS.filter(s=>cat('npv',s)==='law'), have=sumEV(inS)+3;   // +3 for D.C.
+    const open=['AZ','AK','NV','WI','MI','PA'].filter(s=>cat('npv',s)==='dtri');
+    const sig=open.filter(s=>isSup(govStance('npv',s))).sort(byEV), rest=open.filter(s=>!sig.includes(s)).sort(byEV);
+    const withSig=have+sumEV(sig), gap=Math.max(0,270-withSig), lead=rest[0], others=rest.slice(1);
+    const gname=s=>`${STN[s]}'s ${GOV[s].n.split(' ').slice(-1)[0]}`;
+    let path='';
+    if(gap>0 && lead){
+      if(EV[lead]>=gap) path=`${STN[lead]} alone would get it there`;
+      else { const partners=others.filter(s=>EV[lead]+EV[s]>=gap).map(s=>STN[s]); path=partners.length?`Closing that gap takes ${STN[lead]} plus ${or(partners)}`:'';
+        if(sumEV(others)>=gap) path+=(path?`, or ${and(others.map(s=>STN[s]))} together`:`Closing that gap takes ${and(others.map(s=>STN[s]))} together`); }
+      path = path ? path+`, and ${rest.length===1?'that governor hasn\'t':rest.length===2?'neither governor has':`none of those ${wd(rest.length)} governors has`} taken a position. ` : `Even all ${wd(rest.length)} remaining new trifectas wouldn't close the gap. `;
+    }
+    const body = `${inS.length} states and D.C. have joined, with ${have} electoral votes. `
+      + (sig.length ? `${sig.length===1?'One governor':`${wd(sig.length)[0].toUpperCase()+wd(sig.length).slice(1)} governors`} of new Democratic trifectas, ${and(sig.map(gname))}, ${sig.length===1?'has':'have'} signaled support, though not for the compact by name. ${sig.length===1?'That state\'s':'Their'} ${sumEV(sig)} votes would make ${withSig}, ${gap?`${gap} short of the 270 that switches it on. `:'enough to switch it on. '}`
+                    : `It needs ${270-have} more to reach the 270 that switches it on, and no governor of the ${wd(open.length)} new Democratic trifectas has signaled support. `)
+      + path + `It would also face court challenges.`;
+    likely.push({side:'gov', k:'npv', title:'Activate the National Popular Vote compact', tag:'Statehouses', body, extra:t10Chips('npv',[...sig.map(s=>[s,'go']),...rest.map(s=>[s,'maybe'])])}); }
   { const dt=STS.filter(s=>cat('datactr',s)==='dtri'), rd=dt.filter(s=>govStance('datactr',s)==='Support'), nw=['AK','AZ','MI','NV','PA','WI'].filter(s=>rd.includes(s));
     likely.push({side:'gov', k:'datactr', title:'Make data centers pay their full costs in the states', tag:'Statehouses', body:`${rd.length} Democratic trifectas that haven't passed it have governors who back it, including ${nw.length===6?'all six':nw.length} new trifectas. It's the most widely backed statehouse priority, and ${STS.filter(s=>cat('datactr',s)==='law').length} states already have a law on the books.`, extra:t10Chips('datactr',rd.map(s=>[s,'go']))}); }
   const ORDER=['ai','medicaid','wage','roe','stock','house','priorauth','datactr','npv'], pos=k=>{ const i=ORDER.indexOf(k); return i<0?99:i; };
