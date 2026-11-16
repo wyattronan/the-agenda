@@ -2448,7 +2448,7 @@ const TTK_GOV_F = ()=>{   // built when the Governors tab first renders, from th
   ["With a Democratic governor and House, Texas, North Carolina, and Georgia are a few scarce Senate seats from a majority. What can they get Senate Republicans to do?",
    "North Carolina is one seat short (a 25–25 tie goes to Lt. Gov. Hunt, and SD24 is in recount range), Georgia two short of 29, Texas seven short of the 17 its floor rule demands with two seats vacant. Click NC, TX, or GA on the map to whip each chamber."],
   [`Democratic trifectas in ${nm(npvNew)} could effectively end the Electoral College, if courts allow it.`,
-   `The National Popular Vote compact already has ${npvEV} electoral votes, counting D.C. These ${npvNew.length===6?'six':npvNew.length} trifectas would add ${add}, ${npvEV+add>=270?`reaching ${npvEV+add}, past the 270 that switches it on`:`short of the 270 that switches it on`}, though the compact would still face court challenges.`]];
+   (()=>{ const N=npvGov(); return `The National Popular Vote compact already has ${npvEV} electoral votes, counting D.C. ${N.support}${N.path}All ${npvNew.length===6?'six':npvNew.length} trifectas joining would add ${add}, ${npvEV+add>=270?`reaching ${npvEV+add}, past 270`:`still short of 270`}, though the compact would still face court challenges.`; })()]];
 };
 const TTK_PROJ = [
   ["Recent statewide results put Democrats over 270 electoral votes before TX, NV, OH, NH, WI, IA, or AK are even counted.",
@@ -3414,11 +3414,32 @@ function renderMap(){
   $('legend').innerHTML = leg;
 }
 const chip=(s,col,dark)=>`<button class="stchip" data-s="${s}" style="background:${col};${dark?'color:var(--ink)':''}">${s}</button>`;
+// National Popular Vote compact: one source for every place the site describes it (map callout, Three Things to Know, Top 10).
+// Members, electoral votes and governor stances all come from the data.
+function npvGov(){
+  const W=['no','one','two','three','four','five','six','seven','eight'], wd=n=>W[n]??n, byEV=(a,b)=>EV[b]-EV[a], sumEV=a=>a.reduce((x,s)=>x+EV[s],0),
+    or=a=>a.length<3?a.join(' or '):a.slice(0,-1).join(', ')+', or '+a.at(-1), and=a=>a.length<3?a.join(' and '):a.slice(0,-1).join(', ')+', and '+a.at(-1);
+  const inS=STS.filter(s=>cat('npv',s)==='law'), have=sumEV(inS)+3;   // +3 for D.C.
+  const open=STS.filter(s=>cat('npv',s)==='dtri');
+  const sig=open.filter(s=>isSup(govStance('npv',s))).sort(byEV), rest=open.filter(s=>!sig.includes(s)).sort(byEV);
+  const withSig=have+sumEV(sig), gap=Math.max(0,270-withSig), all=have+sumEV(open), lead=rest[0], others=rest.slice(1);
+  const gname=s=>`${STN[s]}'s ${GOV[s].n.split(' ').slice(-1)[0]}`;
+  let path='';
+  if(gap>0 && lead){
+    if(EV[lead]>=gap) path=`${STN[lead]} alone would get it there`;
+    else { const partners=others.filter(s=>EV[lead]+EV[s]>=gap).map(s=>STN[s]); path=partners.length?`Closing that gap takes ${STN[lead]} plus ${or(partners)}`:'';
+      if(sumEV(others)>=gap) path+=(path?`, or ${and(others.map(s=>STN[s]))} together`:`Closing that gap takes ${and(others.map(s=>STN[s]))} together`); }
+    path = path ? path+`, and ${rest.length===1?'that governor hasn\'t':rest.length===2?'neither governor has':`none of those ${wd(rest.length)} governors has`} taken a position. ` : `Even all ${wd(rest.length)} remaining new trifectas wouldn't close the gap. `;
+  }
+  const support = sig.length
+    ? `${sig.length===1?'One governor':`${wd(sig.length)[0].toUpperCase()+wd(sig.length).slice(1)} governors`} of new Democratic trifectas, ${and(sig.map(gname))}, ${sig.length===1?'has':'have'} signaled support, though not for the compact by name. ${sig.length===1?'That state\'s':'Their'} ${sumEV(sig)} votes would make ${withSig}, ${gap?`${gap} short of the 270 that switches it on. `:'enough to switch it on. '}`
+    : `It needs ${270-have} more to reach the 270 that switches it on, and no governor of the ${wd(open.length)} new Democratic trifectas has signaled support. `;
+  return {inS, have, open, sig, rest, withSig, gap, all, members:`${inS.length} states and D.C. have joined, with ${have} electoral votes. `, support, path, and};
+}
 function renderWhere(){
   if(pol!=='npv'){ $('where').innerHTML=''; return; }
-  const tri = STS.filter(s=>cat('npv',s)==='dtri');
-  const curEV = STS.filter(s=>has('npv',s)).reduce((a,s)=>a+EV[s],0)+3, add=tri.reduce((a,s)=>a+EV[s],0), tot=curEV+add;
-  $('where').innerHTML = `<div class="callout"><strong>${curEV} electoral votes</strong> are in the compact today (18 states + DC). If every Democratic trifecta without it joins (${tri.join(', ')||'none'}), it reaches <strong>${tot}</strong> — ${tot>=270?`<strong>enough to take effect</strong> (270 needed) before the July 20, 2028 deadline`:`still ${270-tot} short of 270`}.</div>`;
+  const N=npvGov();
+  $('where').innerHTML = `<div class="callout"><strong>${N.have} electoral votes</strong> are in the compact today (${N.inS.length} states + DC). ${esc(N.support)}${esc(N.path)}If every Democratic trifecta without it joins (${[...N.open].sort().join(', ')||'none'}), it reaches <strong>${N.all}</strong> — ${N.all>=270?`<strong>enough to take effect</strong> (270 needed) before the July 20, 2028 deadline`:`still ${270-N.all} short of 270`}.</div>`;
 }
 
 function route(c,s){
@@ -4226,29 +4247,13 @@ function t10Items(){
   likely.push({side:'gov', k:'wage', title:'A $15 minimum wage', tag:'Statehouses', body:`New trifectas in Nevada, Wisconsin, and Pennsylvania can pass it. Wisconsin's and Pennsylvania's governors campaigned on raising the wage, and Nevada's leans toward it (Wisconsin and Pennsylvania are still at the $7.25 federal floor).`, extra:t10Chips('wage',[['NV','go'],['WI','go'],['PA','go']])});
   likely.push({side:'gov', k:'roe', title:'Write abortion rights into state law', tag:'Statehouses', body:`Pennsylvania, Wisconsin, and Alaska can codify Roe with their new trifectas. Georgia and North Carolina are possible with a few Republican votes, and Texas is a long shot.`, extra:t10Chips('roe',[['PA','go'],['WI','go'],['AK','go'],['GA','maybe'],['NC','maybe'],['TX','maybe']])});
   likely.push({side:'gov', k:'house', title:'Build more homes: zoning, permits, supply', tag:'Statehouses', body:`One of the priorities governors championed most. New trifectas in Pennsylvania, Wisconsin, and Alaska have governors fully behind it, Michigan's and Nevada's lean in, and zoning reform has passed with bipartisan votes in states like Montana and Arizona.`, extra:t10Chips('house',[['PA','go'],['WI','go'],['AK','go'],['MI','maybe'],['NV','maybe']])});
-  { // Popular Vote Compact: every number here is computed from the data (members, governor stances, electoral votes).
-    const W=['no','one','two','three','four','five','six'], wd=n=>W[n]??n, byEV=(a,b)=>EV[b]-EV[a], sumEV=a=>a.reduce((x,s)=>x+EV[s],0), or=a=>a.length<3?a.join(' or '):a.slice(0,-1).join(', ')+', or '+a.at(-1), and=a=>a.length<3?a.join(' and '):a.slice(0,-1).join(', ')+', and '+a.at(-1);
-    const inS=STS.filter(s=>cat('npv',s)==='law'), have=sumEV(inS)+3;   // +3 for D.C.
-    const open=['AZ','AK','NV','WI','MI','PA'].filter(s=>cat('npv',s)==='dtri');
-    const sig=open.filter(s=>isSup(govStance('npv',s))).sort(byEV), rest=open.filter(s=>!sig.includes(s)).sort(byEV);
-    const withSig=have+sumEV(sig), gap=Math.max(0,270-withSig), lead=rest[0], others=rest.slice(1);
-    const gname=s=>`${STN[s]}'s ${GOV[s].n.split(' ').slice(-1)[0]}`;
-    let path='';
-    if(gap>0 && lead){
-      if(EV[lead]>=gap) path=`${STN[lead]} alone would get it there`;
-      else { const partners=others.filter(s=>EV[lead]+EV[s]>=gap).map(s=>STN[s]); path=partners.length?`Closing that gap takes ${STN[lead]} plus ${or(partners)}`:'';
-        if(sumEV(others)>=gap) path+=(path?`, or ${and(others.map(s=>STN[s]))} together`:`Closing that gap takes ${and(others.map(s=>STN[s]))} together`); }
-      path = path ? path+`, and ${rest.length===1?'that governor hasn\'t':rest.length===2?'neither governor has':`none of those ${wd(rest.length)} governors has`} taken a position. ` : `Even all ${wd(rest.length)} remaining new trifectas wouldn't close the gap. `;
-    }
-    const body = `${inS.length} states and D.C. have joined, with ${have} electoral votes. `
-      + (sig.length ? `${sig.length===1?'One governor':`${wd(sig.length)[0].toUpperCase()+wd(sig.length).slice(1)} governors`} of new Democratic trifectas, ${and(sig.map(gname))}, ${sig.length===1?'has':'have'} signaled support, though not for the compact by name. ${sig.length===1?'That state\'s':'Their'} ${sumEV(sig)} votes would make ${withSig}, ${gap?`${gap} short of the 270 that switches it on. `:'enough to switch it on. '}`
-                    : `It needs ${270-have} more to reach the 270 that switches it on, and no governor of the ${wd(open.length)} new Democratic trifectas has signaled support. `)
-      + path + `It would also face court challenges.`;
-    likely.push({side:'gov', k:'npv', title:'Activate the National Popular Vote compact', tag:'Statehouses', body, extra:t10Chips('npv',[...sig.map(s=>[s,'go']),...rest.map(s=>[s,'maybe'])])}); }
+  { // Popular Vote Compact: every number comes from npvGov(), the same text the Governors map and Three Things to Know use.
+    const N=npvGov(), body=N.members+N.support+N.path+`It would also face court challenges.`;
+    likely.push({side:'gov', k:'npv', title:'Activate the National Popular Vote compact', tag:'Statehouses', body, extra:t10Chips('npv',[...N.sig.map(s=>[s,'go']),...N.rest.map(s=>[s,'maybe'])])}); }
   { const dt=STS.filter(s=>cat('datactr',s)==='dtri'), rd=dt.filter(s=>govStance('datactr',s)==='Support'), nw=['AK','AZ','MI','NV','PA','WI'].filter(s=>rd.includes(s));
     likely.push({side:'gov', k:'datactr', title:'Make data centers pay their full costs in the states', tag:'Statehouses', body:`${rd.length} Democratic trifectas that haven't passed it have governors who back it, including ${nw.length===6?'all six':nw.length} new trifectas. It's the most widely backed statehouse priority, and ${STS.filter(s=>cat('datactr',s)==='law').length} states already have a law on the books.`, extra:t10Chips('datactr',rd.map(s=>[s,'go']))}); }
   const ORDER=['ai','medicaid','wage','roe','stock','house','priorauth','datactr','npv'], pos=k=>{ const i=ORDER.indexOf(k); return i<0?99:i; };
-  likely.sort((a,b)=>pos(a.k)-pos(b.k));
+  likely.sort((a,b)=>pos(a.k)-pos(b.k)); likely.splice(10);   // the tab promises 10
   const lowK = KEYS.filter(k=>(META[k].need==='leg'||k==='termlim') && !['fil','sch','heg'].includes(k) && !ENACTED[k]).map(k=>[k,onRecord(k).n]).sort((a,b)=>a[1]-b[1]).slice(0,5).map(x=>x[0]);
   const unlikelySen = lowK.map(k=>{ const o=onRecord(k), need=needOf(k); return {side:'sen', k, title:FULL(k), tag:'Senate', body:`Only ${o.n} senators are on record in support${o.r?`, ${o.r} of them Republicans`:''}, far from ${need}${need===60?', and short of 51 even without the filibuster':''}.`, extra:t10Meter(k,need,'')}; });
   const triStates = ['AZ','AK','NV','WI','MI','PA'];
