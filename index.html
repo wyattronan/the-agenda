@@ -285,6 +285,12 @@ h1 .hl,.hlt,.homedek mark,.gpdek mark,dialog.about .theory mark{background-repea
 .usg .gdot{stroke:var(--ink);stroke-width:2}
 .usg .gl{font-family:var(--display);font-weight:900;font-size:13px;fill:#fff;text-anchor:middle;dominant-baseline:central;pointer-events:none}
 .usg .whptag,.tagov .whptag{fill:var(--hl);stroke:var(--ink);stroke-width:1.2}
+.tagov[data-whip]{cursor:pointer}
+.sspick b{font-family:var(--display)}
+.sschips{display:flex;flex-wrap:wrap;gap:6px;margin-top:10px}
+.tagov[data-whip]:hover .whptag,.tagov[data-whip]:focus-visible .whptag{fill:var(--ink)}
+.tagov[data-whip]:hover .wt,.tagov[data-whip]:focus-visible .wt{fill:var(--hl)}
+.tagov[data-whip]:focus{outline:none}
 .usg .wt,.tagov .wt{font-family:var(--display);font-weight:900;font-size:10px;fill:var(--ink);text-anchor:middle;dominant-baseline:central;letter-spacing:.08em;pointer-events:none}
 .ussvg .dhd{font-family:var(--display);font-weight:800;font-size:11px;letter-spacing:.12em;fill:var(--muted)}
 @media (prefers-reduced-motion:reduce){.usg path{transition:none}}
@@ -3343,7 +3349,7 @@ function usMapSVG(cellFn, extraFn){
       const [ax,ay] = LADJ[s]||[0,0]; const x = g.c[0]+ax-(c.badge?10:0), y = g.c[1]+ay;
       lab = `<text x="${x}" y="${y - (lines.length>1?7:0)}" fill="${txt}" class="lt">${s}</text>` + (lines.length>1?`<text x="${x}" y="${y+9}" fill="${txt}" class="ls">${lines[1]}</text>`:'');
       if(c.badge){ const by=y-(lines.length>1?7:0); lab += (c.bring?`<circle cx="${x+24}" cy="${by}" r="13.5" fill="none" stroke="${c.bring}" stroke-width="2.5"/>`:'') + `<circle class="gdot" cx="${x+24}" cy="${by}" r="10.5" fill="${c.badge}"/><text x="${x+24}" y="${by+.5}" class="gl">${c.btxt}</text>`; }
-      if(c.tag) ov.push(`<g class="tagov" pointer-events="none" transform="translate(${x-(c.badge?24:20)},${y+(c.badge?17:12)})"><rect width="40" height="15" rx="3" class="whptag"/><text x="20" y="8" class="wt">${c.tag}</text></g>`);
+      if(c.tag) ov.push(`<g class="tagov" data-s="${s}" data-whip="1" role="button" tabindex="0" aria-label="Whip the ${esc(c.tagName||s)} Senate" data-tip="Open the senator-by-senator whip count for the ${esc(c.tagName||s)} Senate" transform="translate(${x-(c.badge?24:20)},${y+(c.badge?17:12)})"><rect width="40" height="15" rx="3" class="whptag"/><text x="20" y="8" class="wt">${c.tag}</text></g>`);
       if(c.dot) lab += `<circle cx="${x-19}" cy="${y}" r="4" fill="var(--gold)" stroke="#fff" stroke-width="1"/>`;
     }
     const el = `<g class="usg${c.cls?' '+c.cls:''}" ${c.attr} ${c.off?'':'tabindex="0" role="button"'} aria-label="${esc(c.aria||s)}">${shape}${lab}</g>`;
@@ -3351,7 +3357,7 @@ function usMapSVG(cellFn, extraFn){
   });
   return `<svg class="ussvg" viewBox="0 0 ${US_W} ${US_H}" role="group" aria-label="Map of U.S. states">${parts.join('')}${top.join('')}${ov.join('')}${extraFn?extraFn():''}</svg>`;
 }
-function usKeys(id){ $(id).addEventListener('keydown',e=>{ if((e.key==='Enter'||e.key===' ') && e.target.classList && e.target.classList.contains('usg')){ e.preventDefault(); e.target.dispatchEvent(new MouseEvent('click',{bubbles:true})); } }); }
+function usKeys(id){ $(id).addEventListener('keydown',e=>{ if((e.key==='Enter'||e.key===' ') && e.target.classList && (e.target.classList.contains('usg')||e.target.classList.contains('tagov'))){ e.preventDefault(); e.target.dispatchEvent(new MouseEvent('click',{bubbles:true})); } }); }
 
 function renderMap(){
   $('maphd').innerHTML = pol==='ctl' ? `<h2 class="dttl"><span class="dico" title="Who controls">${icon('ctl')}</span><span><span class="hlt">Who controls each statehouse in 2027</span></span></h2>`
@@ -3366,7 +3372,7 @@ function renderMap(){
     return { fill:bg, dark, attr:`data-s="${s}"`, cls: s===selSt?'sel':'',
       ring: pol==='ctl' && FLIPL[s] ? 'var(--gold)' : '',
       badge: leg===gov ? '' : (gov==='D'?'var(--dem)':'var(--rep)'), btxt: gov, bring: leg===gov ? '' : pol==='ctl' && FLIPG[s] ? 'var(--gold)' : '',
-      tag: SSTATES.has(s)?'WHIP':'', dot: false,
+      tag: SSTATES.has(s)?'WHIP':'', tagName: SSTATES.has(s)?D.ss.find(S=>S.st===s).name:'', dot: false,
       aria: `${s}${SSTATES.has(s)?', open the state senate whip':''}` };
   });
   let leg='';
@@ -3459,8 +3465,9 @@ $('tmap').addEventListener('mouseleave',()=>{ $('gtip').hidden=true; });
 usKeys('tmap'); usKeys('pmap');
 $('smtiles').addEventListener('keydown',e=>{ const t=e.target.closest&&e.target.closest('.sst'); if(t && (e.key==='Enter'||e.key===' ')){ e.preventDefault(); smSel=t.dataset.st; renderList(); persist(); const n=document.querySelector(`#smtiles .sst[data-st="${smSel}"]`); if(n) n.focus(); } });
 function renderGovernors(){ gNav.draw(); renderMap(); renderWhere(); renderSide(); renderSS(); persist(); }
-$('governors').addEventListener('click',e=>{ const pk=e.target.closest('[data-pol]'); if(pk){ pol=pk.dataset.pol; renderGovernors(); $('maphd').scrollIntoView({behavior:'smooth',block:'start'}); return; } const t=e.target.closest('[data-s]');
+$('governors').addEventListener('click',e=>{ const sp=e.target.closest('[data-sspol]'); if(sp){ pol=sp.dataset.sspol; renderGovernors(); $('ssw').scrollIntoView({behavior:'smooth',block:'start'}); return; } const pk=e.target.closest('[data-pol]'); if(pk){ pol=pk.dataset.pol; renderGovernors(); $('maphd').scrollIntoView({behavior:'smooth',block:'start'}); return; } const t=e.target.closest('[data-s]');
   if(!t) return;
+  if(t.closest('.tagov[data-whip]')){ selSt=t.dataset.s; ssOpen=true; if(typeof tipHide==='function') tipHide(); renderGovernors(); setTimeout(()=>$('ssw').scrollIntoView({behavior:'smooth',block:'start'}),40); return; }
   if(t.dataset.s===selSt && !e.target.closest('.whiptag,[data-whip]')){ selSt=null; ssOpen=false; renderGovernors(); return; }
   if(t.dataset.s!==selSt) ssOpen=false; selSt=t.dataset.s; renderGovernors(); });
 
@@ -3899,7 +3906,7 @@ function renderSS(){
   const box=$('ssw');
   if(!SSTATES.has(selSt) || !ssOpen){ box.innerHTML=''; return; }
   const S=SS.find(x=>x.st===selSt);
-  if(pol==='ctl'){ box.innerHTML = `<div class="empty">Pick an issue from the bar above to whip the ${esc(S.name)} Senate on it.</div>`; return; }
+  if(pol==='ctl'){ box.innerHTML = `<div class="empty sspick"><b>Whip the ${esc(S.name)} Senate.</b> Pick one of the Top 10 governor priorities, or any issue from the bar above.<div class="sschips">${((D.top10||{}).gov||[]).filter(k=>GI[k]).map(k=>`<button type="button" class="btn" data-sspol="${k}">${esc(tc(GI[k].s))}</button>`).join('')}</div></div>`; return; }
   const k=pol, v=sVerdict(S,k), c=v.c, R=v.R;
   const mk=(n,label,req)=>{ const pct=100*(n-0.5)/R.N; return `<span class="mark${req?' req':''}${pct<6?' l':pct>94?' r':''}" style="left:${pct.toFixed(2)}%">${label}</span>`; };
   const marks=[]; if(R.tie) marks.push(mk(R.N/2,`${R.N/2} + Lt. Gov.`,true)); else marks.push(mk(R.t,`${R.t} needed`,true));
