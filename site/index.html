@@ -2555,22 +2555,47 @@ function renderRules(){
   document.querySelectorAll('#fmode button').forEach(b=>b.setAttribute('aria-pressed', b.dataset.m===fmode));
   const fc=counts('fil').y;
 }
-function seatStrip(vals, N, marks, tips){
-  const order=['y','u','n'];
-  const idx = vals.map((v,i)=>i).sort((a,b)=>order.indexOf(vals[a])-order.indexOf(vals[b]));   // stable: keeps seat order inside each group
+// Date a position was first taken, read from its evidence ("May 2024", "Jul 1 2025", "Sep. 17, 2024"; a bare year only if nothing finer).
+// The earliest date mentioned wins. Returns yyyymmdd or null.
+const MON_I={jan:1,feb:2,mar:3,apr:4,may:5,jun:6,jul:7,aug:8,sep:9,oct:10,nov:11,dec:12}, _evd=new Map();
+function evDate(ev){
+  ev=String(ev||''); if(!ev) return null; if(_evd.has(ev)) return _evd.get(ev);
+  let best=null, m; const keep=d=>{ if(best===null||d<best) best=d; };
+  const re=/\b(Jan(?:uary)?|Feb(?:ruary)?|Mar(?:ch)?|Apr(?:il)?|May|June?|July?|Aug(?:ust)?|Sept?(?:ember)?|Oct(?:ober)?|Nov(?:ember)?|Dec(?:ember)?)\b\.?\s+(?:(\d{1,2})(?:st|nd|rd|th)?,?\s+)?((?:19|20)\d{2})\b/g;
+  while((m=re.exec(ev))) keep(+m[3]*10000 + MON_I[m[1].slice(0,3).toLowerCase()]*100 + (m[2]?+m[2]:15));
+  const iso=/\b((?:19|20)\d{2})-(\d{2})-(\d{2})\b/g; while((m=iso.exec(ev))) keep(+m[1]*10000 + +m[2]*100 + +m[3]);
+  if(best===null){ const yr=/(?<![\d.\/#])((?:19[89]|20[0-3])\d)(?!\d)/g; while((m=yr.exec(ev))) keep(+m[1]*10000+701); }
+  _evd.set(ev,best); return best;
+}
+// When a counted vote took its side: only if the vote matches the researched stance (a visitor's own flip has no date).
+const SUPST=new Set(['Support','Lean support']), OPPST=new Set(['Oppose','Lean oppose']);
+const voteDate = (v, stance, ev)=> (v==='y'&&SUPST.has(stance)) || (v==='n'&&OPPST.has(stance)) ? evDate(ev) : null;
+const fmtYMD = d=> d ? `${['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'][Math.floor(d/100)%100-1]} ${Math.floor(d/10000)}` : '';
+// Seat order: Yes from the left, earliest supporters first; No from the right, earliest opponents last (far right); undecided in the middle.
+// Undated votes sit nearest the middle of their side.
+function seatCmp(va, da, vb, db){
+  const o={y:0,u:1,x:1,n:2}, g=(o[va]??1)-(o[vb]??1); if(g) return g;
+  if(va==='y'){ if(da==null||db==null) return (da==null)-(db==null); return da-db; }
+  if(va==='n'){ if(da==null||db==null) return (db==null)-(da==null); return db-da; }
+  return 0;
+}
+function seatStrip(vals, N, marks, tips, dates){
+  const idx = vals.map((v,i)=>i).sort((a,b)=>seatCmp(vals[a], dates&&dates[a], vals[b], dates&&dates[b]));   // stable: keeps seat order where dates tie
   const tall = marks.some(m=>m.includes('mark lo')) ? ' tall' : '';
   return `<div class="seats" style="grid-template-columns:repeat(${N},minmax(0,1fr))">${idx.map(i=>{ const x=vals[i], t=tips&&tips[i]; return `<span class="seat ${x==='x'?'u':x}"${t?` data-tiph="${esc(t)}" tabindex="0"`:''}></span>`; }).join('')}</div><div class="marks${tall}">${marks.join('')}</div>`;
 }
 // Tooltip for one voter: who they are, how they're counted, and their researched position.
 const VNAME = {y:'Yes', n:'No', u:'Undecided', x:'Undecided'};
 function voterTip(name, sub, v, stance, ev){
-  const e = ev ? String(ev) : '';
-  return TT(`${esc(name)}<span class="vtsub">${esc(sub)}</span>`, TKV([['Counted as', `<span class="vt${v==='x'?'u':v}">${VNAME[v]||v}</span>`], stance?['Position', esc(stance)]:null]), e ? esc(e.length>190 ? e.slice(0,187).replace(/\s+\S*$/,'')+'…' : e) : null);
+  const e = ev ? String(ev) : '', d = voteDate(v, stance, ev);
+  return TT(`${esc(name)}<span class="vtsub">${esc(sub)}</span>`, TKV([['Counted as', `<span class="vt${v==='x'?'u':v}">${VNAME[v]||v}</span>`], stance?['Position', esc(stance)]:null, d?['On record since', fmtYMD(d)]:null]), e ? esc(e.length>190 ? e.slice(0,187).replace(/\s+\S*$/,'')+'…' : e) : null);
 }
-// Senate vote meter: the senators behind each seat, in the order the bar fills (yes, undecided, no; Democrats first inside each group).
+// Senate vote meter: the senators behind each seat, in the order the bar fills: Yes from the left by earliest supporter,
+// No from the right by earliest opponent, undecided in the middle (Democrats first, then by state, where dates tie).
 function senSeatTips(k){
-  const order={y:0,u:1,n:2}, pty=s=>s.p==='R'?2:(s.pl||'').startsWith('I')?1:0;
-  return eligible(k).slice().sort((a,b)=>(order[votes[a.id][k]]??1)-(order[votes[b.id][k]]??1) || pty(a)-pty(b) || a.st.localeCompare(b.st))
+  const pty=s=>s.p==='R'?2:(s.pl||'').startsWith('I')?1:0, dt={};
+  eligible(k).forEach(s=>{ const [st,ev]=s.r[k]||['','']; dt[s.id]=voteDate(votes[s.id][k], st, ev); });
+  return eligible(k).slice().sort((a,b)=>seatCmp(votes[a.id][k], dt[a.id], votes[b.id][k], dt[b.id]) || pty(a)-pty(b) || a.st.localeCompare(b.st))
     .map(s=>{ const v=votes[s.id][k], p=s.p==='D'&&(s.pl||'').startsWith('I')?'I':s.p, [st,ev]=s.r[k]||['','']; return `<span class="vs ${v}" data-tiph="${esc(voterTip(s.n, `${p}-${s.st}${s.new?' · new':''}`, v, st, ev))}"></span>`; }).join('');
 }
 
@@ -3929,7 +3954,7 @@ function renderSS(){
   box.innerHTML = `<div class="panel detail">
     <div class="sswhead"><div class="ttl"><div class="areatag">${icon(GI[k].a)}${esc(S.name)} Senate whip · ${r} R · ${d} D${R.ms.length<S.seats?` · ${S.seats-R.ms.length} vacant`:''}</div><h2>${esc(GI[k].f)}</h2></div>
       <div class="nums3"><div><div class="big y">${c.y}</div><div class="small">yes</div></div><div><div class="big u">${c.u}</div><div class="small">undecided</div></div><div><div class="big n">${c.n}</div><div class="small">no</div></div><span class="pill ${v.cls}" style="align-self:center">${v.txt}</span></div></div>
-    <div>${seatStrip(R.ms.map(m=>sVotes[m.vid][k]), R.N, marks, R.ms.map(m=>{ const [st,ev]=m.r[k]||['','']; return voterTip(m.n, `${m.p} · District ${m.d}`, sVotes[m.vid][k], st, ev); }))}</div>
+    <div>${seatStrip(R.ms.map(m=>sVotes[m.vid][k]), R.N, marks, R.ms.map(m=>{ const [st,ev]=m.r[k]||['','']; return voterTip(m.n, `${m.p} · District ${m.d}`, sVotes[m.vid][k], st, ev); }), R.ms.map(m=>{ const [st,ev]=m.r[k]||['','']; return voteDate(sVotes[m.vid][k], st, ev); }))}</div>
     <p class="explain">${esc(S.rule)} With every Democrat voting yes, this needs <b>${v.repsNeeded} Republican vote${v.repsNeeded===1?'':'s'}</b>. ${esc(path)}${SPOWER.has(k)?' Per our rule for power measures, every Republican starts as No.':''}</p>
     <p class="explain"><b>${esc(S.gov)}:</b> ${gst!=='Noted'?`<span class="tag ${tagCls(gst)}">${esc(gst)}</span>`:''}${esc(gev)}</p>
     <div class="ssasm"><b>Assumptions</b>${asmHtml}<span class="small">Presiding: ${esc(S.pres)}${S.tb?', breaks ties':', no tie vote'}</span></div>
