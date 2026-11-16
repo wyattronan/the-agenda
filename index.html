@@ -2457,8 +2457,7 @@ function areaNav({bar, tray, areas, itemsOf, current, renderItem, onPick, lead, 
   const areaOfKey = k=> areas.find(([a])=>itemsOf(a).includes(k));
   function drawQ(){
     if(!qbar||!filters) return;
-    qbar.innerHTML = filters.map(f=>{ const n=f.keys().length;
-      return `<button type="button" class="qb q-${f.id}" data-q="${f.id}" aria-pressed="${qf===f.id}" data-tip="${esc(f.tip)}${qf===f.id?' Click again to go back to the policy areas.':''}">${esc(f.label)}<span class="qn">${n}</span></button>`; }).join('');
+    qbar.innerHTML = filters.map(f=>`<button type="button" class="qb q-${f.id}" data-q="${f.id}" aria-pressed="${qf===f.id}" data-tip="${esc(f.tip)}${qf===f.id?' Click again to go back to the policy areas.':''}">${esc(f.label)}</button>`).join('');
   }
   function draw(){
     drawQ();
