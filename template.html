@@ -2546,12 +2546,12 @@ function renderRules(){
   document.querySelectorAll('#fmode button').forEach(b=>b.setAttribute('aria-pressed', b.dataset.m===fmode));
   const fc=counts('fil').y;
 }
-// Date a position was first taken, read from its evidence ("May 2024", "Jul 1 2025", "Sep. 17, 2024"; a bare year only if nothing finer).
-// The earliest date mentioned wins. Returns yyyymmdd or null.
+// Date of a position's most recent action, read from its evidence ("May 2024", "Jul 1 2025", "Sep. 17, 2024"; a bare year only if nothing finer).
+// The latest date mentioned wins, since the most recent action is what sets the stance. Returns yyyymmdd or null.
 const MON_I={jan:1,feb:2,mar:3,apr:4,may:5,jun:6,jul:7,aug:8,sep:9,oct:10,nov:11,dec:12}, _evd=new Map();
 function evDate(ev){
   ev=String(ev||''); if(!ev) return null; if(_evd.has(ev)) return _evd.get(ev);
-  let best=null, m; const keep=d=>{ if(best===null||d<best) best=d; };
+  let best=null, m; const keep=d=>{ if(best===null||d>best) best=d; };
   const re=/\b(Jan(?:uary)?|Feb(?:ruary)?|Mar(?:ch)?|Apr(?:il)?|May|June?|July?|Aug(?:ust)?|Sept?(?:ember)?|Oct(?:ober)?|Nov(?:ember)?|Dec(?:ember)?)\b\.?\s+(?:(\d{1,2})(?:st|nd|rd|th)?,?\s+)?((?:19|20)\d{2})\b/g;
   while((m=re.exec(ev))) keep(+m[3]*10000 + MON_I[m[1].slice(0,3).toLowerCase()]*100 + (m[2]?+m[2]:15));
   const iso=/\b((?:19|20)\d{2})-(\d{2})-(\d{2})\b/g; while((m=iso.exec(ev))) keep(+m[1]*10000 + +m[2]*100 + +m[3]);
@@ -2562,7 +2562,7 @@ function evDate(ev){
 const SUPST=new Set(['Support','Lean support']), OPPST=new Set(['Oppose','Lean oppose']);
 const voteDate = (v, stance, ev)=> (v==='y'&&SUPST.has(stance)) || (v==='n'&&OPPST.has(stance)) ? evDate(ev) : null;
 const fmtYMD = d=> d ? `${['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'][Math.floor(d/100)%100-1]} ${Math.floor(d/10000)}` : '';
-// Seat order: Yes from the left, earliest supporters first; No from the right, earliest opponents last (far right); undecided in the middle.
+// Seat order: Yes from the left by most recent action, oldest first; No from the right, oldest last (far right); undecided in the middle.
 // Undated votes sit nearest the middle of their side.
 function seatCmp(va, da, vb, db){
   const o={y:0,u:1,x:1,n:2}, g=(o[va]??1)-(o[vb]??1); if(g) return g;
@@ -2579,10 +2579,10 @@ function seatStrip(vals, N, marks, tips, dates){
 const VNAME = {y:'Yes', n:'No', u:'Undecided', x:'Undecided'};
 function voterTip(name, sub, v, stance, ev){
   const e = ev ? String(ev) : '', d = voteDate(v, stance, ev);
-  return TT(`${esc(name)}<span class="vtsub">${esc(sub)}</span>`, TKV([['Counted as', `<span class="vt${v==='x'?'u':v}">${VNAME[v]||v}</span>`], stance?['Position', esc(stance)]:null, d?['On record since', fmtYMD(d)]:null]), e ? esc(e.length>190 ? e.slice(0,187).replace(/\s+\S*$/,'')+'…' : e) : null);
+  return TT(`${esc(name)}<span class="vtsub">${esc(sub)}</span>`, TKV([['Counted as', `<span class="vt${v==='x'?'u':v}">${VNAME[v]||v}</span>`], stance?['Position', esc(stance)]:null, d?['Most recent action', fmtYMD(d)]:null]), e ? esc(e.length>190 ? e.slice(0,187).replace(/\s+\S*$/,'')+'…' : e) : null);
 }
-// Senate vote meter: the senators behind each seat, in the order the bar fills: Yes from the left by earliest supporter,
-// No from the right by earliest opponent, undecided in the middle (Democrats first, then by state, where dates tie).
+// Senate vote meter: the senators behind each seat, in the order the bar fills: Yes from the left by date of their most recent action
+// (oldest first), No from the right the same way, undecided in the middle (Democrats first, then by state, where dates tie).
 function senSeatTips(k){
   const pty=s=>s.p==='R'?2:(s.pl||'').startsWith('I')?1:0, dt={};
   eligible(k).forEach(s=>{ const [st,ev]=s.r[k]||['','']; dt[s.id]=voteDate(votes[s.id][k], st, ev); });

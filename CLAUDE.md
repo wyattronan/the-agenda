@@ -4,6 +4,7 @@ Read RUNBOOK.md, fc/INSTRUCTIONS.md and fc/polls/BRIEF.md before changing data.
 
 ## Standing rules
 - Never infer support. Anyone without their own statement or vote is Undecided/Unclear.
+- The most recent action sets a stance. When evidence shows actions pointing both ways, follow the latest one, softened to a Lean if an earlier action conflicts (Mixed only when the latest action is itself mixed). Whip meters order seats by the date of each position's most recent action.
 - Republicans default to No on fil/dcpr/gerry and on state npv/avr.
 - Fixed calls: the Kansas governor is D. Arizona and Alaska are Democratic trifectas. Texas is split.
 - Every changed position needs a source URL and a date in its note.
