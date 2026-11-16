@@ -3422,15 +3422,9 @@ function npvGov(){
   const inS=STS.filter(s=>cat('npv',s)==='law'), have=sumEV(inS)+3;   // +3 for D.C.
   const open=STS.filter(s=>cat('npv',s)==='dtri');
   const sig=open.filter(s=>isSup(govStance('npv',s))).sort(byEV), rest=open.filter(s=>!sig.includes(s)).sort(byEV);
-  const withSig=have+sumEV(sig), gap=Math.max(0,270-withSig), all=have+sumEV(open), lead=rest[0], others=rest.slice(1);
-  const gname=s=>`${STN[s]}'s ${GOV[s].n.split(' ').slice(-1)[0]}`;
-  let path='';
-  if(gap>0 && lead){
-    if(EV[lead]>=gap) path=`${STN[lead]} alone would get it there`;
-    else { const partners=others.filter(s=>EV[lead]+EV[s]>=gap).map(s=>STN[s]); path=partners.length?`Closing that gap takes ${STN[lead]} plus ${or(partners)}`:'';
-      if(sumEV(others)>=gap) path+=(path?`, or ${and(others.map(s=>STN[s]))} together`:`Closing that gap takes ${and(others.map(s=>STN[s]))} together`); }
-    path = path ? path+`, and ${rest.length===1?'that governor hasn\'t':rest.length===2?'neither governor has':`none of those ${wd(rest.length)} governors has`} taken a position. ` : `Even all ${wd(rest.length)} remaining new trifectas wouldn't close the gap. `;
-  }
+  const withSig=have+sumEV(sig), gap=Math.max(0,270-withSig), all=have+sumEV(open);
+  const ev=s=>`${STN[s]} (${EV[s]})`, gname=s=>`${STN[s]}'s ${GOV[s].n.split(' ').slice(-1)[0]} (${EV[s]})`;
+  const path = rest.length ? `${rest.length===1?'The governor of':'The governors of'} ${and(rest.map(ev))} ${rest.length===1?'hasn\'t':'haven\'t'} taken a position. ` : '';
   const support = sig.length
     ? `${sig.length===1?'One governor':`${wd(sig.length)[0].toUpperCase()+wd(sig.length).slice(1)} governors`} of new Democratic trifectas, ${and(sig.map(gname))}, ${sig.length===1?'has':'have'} signaled support, though not for the compact by name. ${sig.length===1?'That state\'s':'Their'} ${sumEV(sig)} votes would make ${withSig}, ${gap?`${gap} short of the 270 that switches it on. `:'enough to switch it on. '}`
     : `It needs ${270-have} more to reach the 270 that switches it on, and no governor of the ${wd(open.length)} new Democratic trifectas has signaled support. `;
@@ -3439,7 +3433,7 @@ function npvGov(){
 function renderWhere(){
   if(pol!=='npv'){ $('where').innerHTML=''; return; }
   const N=npvGov();
-  $('where').innerHTML = `<div class="callout"><strong>${N.have} electoral votes</strong> are in the compact today (${N.inS.length} states + DC). ${esc(N.support)}${esc(N.path)}If every Democratic trifecta without it joins (${[...N.open].sort().join(', ')||'none'}), it reaches <strong>${N.all}</strong> — ${N.all>=270?`<strong>enough to take effect</strong> (270 needed) before the July 20, 2028 deadline`:`still ${270-N.all} short of 270`}.</div>`;
+  $('where').innerHTML = `<div class="callout"><strong>${N.have} electoral votes</strong> are in the compact today (${N.inS.length} states + DC). ${esc(N.support)}${esc(N.path)}If all ${N.open.length===6?'six':N.open.length} new trifectas join, it reaches <strong>${N.all}</strong> — ${N.all>=270?`<strong>enough to take effect</strong> (270 needed) before the July 20, 2028 deadline`:`still ${270-N.all} short of 270`}.</div>`;
 }
 
 function route(c,s){
