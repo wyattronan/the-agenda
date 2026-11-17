@@ -45,7 +45,7 @@ Add a `hedge` note (one sentence, sourced, dated) to a `fc/manual.json` entry wh
 - they move a commitment past the election, or make it conditional on something unlikely;
 - they say different things to different audiences.
 
-The cell keeps its stance (the most-recent-action rule still sets it); the site adds a "Hedging" tag and shows the note. Skip it when the stance is already Mixed. Weekly runs: work through the cells whose notes say "softened to a Lean because an earlier action points the other way" and give each a specific hedge note.
+The cell keeps its stance (the most-recent-action rule still sets it); the site adds a "Hedging" tag and shows the note. Put the source for the other side of the record in `hedge_url`. Skip it when the stance is already Mixed. Weekly runs: work through the cells whose notes say "softened to a Lean because an earlier action points the other way" and give each a specific hedge note.
 
 ### Postmortem walkbacks
 A walkback is a later statement that pulls back from a post-election shift in `gop/gop_tracker.json`. Record it in the person's `walkbacks` list; don't edit `map` pre/post:
