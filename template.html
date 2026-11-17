@@ -2390,7 +2390,10 @@ const NEWST = D.newst || {};
 const newSince = key=>{ const d=NEWST[key]; if(!d) return ''; const age=(Date.now()-new Date(d+'T12:00:00').getTime())/864e5; return age<7 ? d : ''; };
 const HEDGE = D.hedge || {sen:{},gov:{}};
 // "Hedging": the person has been on both sides, or tailors it to the audience. Keyed like nsTag ("sen:Kaine|sch").
-const hedgeOf = key=>{ const m=/^(sen|gov):(.+)$/.exec(key||''); return m ? (HEDGE[m[1]]||{})[m[2]]||'' : ''; };
+const hedgeRec = key=>{ const m=/^(sen|gov):(.+)$/.exec(key||''); const h=m?(HEDGE[m[1]]||{})[m[2]]:null; return !h ? null : typeof h==='string' ? {t:h} : h; };
+const hedgeOf = key=>{ const h=hedgeRec(key); return h ? h.t : ''; };
+const hedgeUrl = key=>{ const h=hedgeRec(key); return h&&h.u || ''; };
+const hgSrc = u=> u ? ` <a class="srcln" href="${esc(u)}" target="_blank" rel="noopener">Source ↗</a>` : '';
 const hgTag = key=>{ const h=hedgeOf(key); return h ? `<span class="hgtag" tabindex="0" data-tiph="${esc(TT('Hedging', esc(h)))}">Hedging</span>` : ''; };
 const nsTag = key=>{ const d=newSince(key); if(!d) return ''; const t=new Date(d+'T12:00:00').toLocaleDateString('en-US',{month:'short',day:'numeric'}); return `<span class="nstag" title="Stance updated ${t}">New stance</span>`; };
 const LS = 'whip2027-v3';
@@ -2703,7 +2706,7 @@ function card({id, vid, top, stance, ev, note, v, asm, dw, src, nm, iss, nk}){
   // The NEW MEMBER tag sits on the second line, next to the stance (and any New stance tag), so names keep their room on phones.
   let mem=''; top=top.replace(/<span class="newtag"[^>]*>NEW MEMBER<\/span>/, m=>{ mem=m; return ''; });
   const b=(val,lab)=>`<button class="${v===val&&POP===vid+'|'+val?'pop':''}" data-id="${vid}" data-v="${val}" aria-pressed="${v===val}" aria-label="${lab}" title="${lab}">${VICON[val]}</button>`;
-  const key = vid+'|'+(iss||''); STK[key] = {nm:nm||'', stance, ev, note, src, iss, asm, hedge:hedgeOf(nk)};
+  const key = vid+'|'+(iss||''); STK[key] = {nm:nm||'', stance, ev, note, src, iss, asm, hedge:hedgeOf(nk), hedgeU:hedgeUrl(nk)};
   const empty = !ev || /^No position on record yet\.?$/.test(ev);
   const tip = TT(`${esc(nm||'')} · ${esc(stance)}`, esc(empty?'No statement on record yet.':ev.length>150?ev.slice(0,147).replace(/\s+\S*$/,'')+'…':ev), note?esc(note):'', asm?'Assumed No: a measure that could add to Democratic power.':'', TFT(`Click for the full record${src?' and source':''}`));
   return `<div class="mc v${v==='x'?'u':v}${dw?' dw':''}" data-card="${id}"${dw?` title="${DWTIP}"`:''}>
@@ -2718,7 +2721,7 @@ function openStance(key){
   $('stance-b').innerHTML = `<div class="stline"><span class="tag ${tagCls(r.stance)}">${esc(r.stance)}</span>${r.asm?'<span class="asmtag">Assumed No</span>':''}</div>
     <p>${esc(empty?'No statement on record yet. Under our rules, anyone without their own statement or vote is counted as undecided.':r.ev)}</p>
     ${r.note?`<p class="small">${esc(r.note)}</p>`:''}
-    ${r.hedge?`<p class="hgnote"><span class="hgtag">Hedging</span> ${esc(r.hedge)}</p>`:''}
+    ${r.hedge?`<p class="hgnote"><span class="hgtag">Hedging</span> ${esc(r.hedge)}${hgSrc(r.hedgeU)}</p>`:''}
     ${r.asm?'<p class="small">Republicans start as No on measures that could add to Democratic power, unless they say otherwise.</p>':''}
     ${r.src?`<p><a href="${esc(r.src)}" target="_blank" rel="noopener">Read the source ↗</a></p>`:''}`;
   $('stancedlg').showModal();
@@ -3532,7 +3535,7 @@ function renderSide(){
   } else {
     const c=cat(pol,s), [stance,ev]=g.sp[pol]||['Unclear',''];
     body += `<div><div class="small">${esc(GI[pol].f)}</div><span class="pill" style="margin-top:6px;background:${CATS[c].col};color:${lightCats.has(c)?'var(--ink)':'#fff'};white-space:normal">${CATS[c].lab}</span></div>
-     <dl class="kv"><dt>On the books</dt><dd>${esc(g.status[pol]||'')}</dd>${has(pol,s)?'':`<dt>Governor</dt><dd>${stance!=='Noted'?`<span class="tag ${tagCls(stance)}">${esc(stance)}</span>`:''}${esc(ev)}${CURL.gov[s+'|'+pol]?`<a class="srcln" href="${esc(CURL.gov[s+'|'+pol])}" target="_blank" rel="noopener">Source ↗</a>`:''}${hedgeOf('gov:'+s+'|'+pol)?`<span class="hgnote"><span class="hgtag">Hedging</span> ${esc(hedgeOf('gov:'+s+'|'+pol))}</span>`:''}</dd>`}</dl>
+     <dl class="kv"><dt>On the books</dt><dd>${esc(g.status[pol]||'')}</dd>${has(pol,s)?'':`<dt>Governor</dt><dd>${stance!=='Noted'?`<span class="tag ${tagCls(stance)}">${esc(stance)}</span>`:''}${esc(ev)}${CURL.gov[s+'|'+pol]?`<a class="srcln" href="${esc(CURL.gov[s+'|'+pol])}" target="_blank" rel="noopener">Source ↗</a>`:''}${hedgeOf('gov:'+s+'|'+pol)?`<span class="hgnote"><span class="hgtag">Hedging</span> ${esc(hedgeOf('gov:'+s+'|'+pol))}${hgSrc(hedgeUrl('gov:'+s+'|'+pol))}</span>`:''}</dd>`}</dl>
 `;
   }
   if(SSTATES.has(s)){ const nm=D.ss.find(S=>S.st===s).name; body = `<button class="whipbtn" id="toss" aria-expanded="${ssOpen}" aria-controls="ssw"><span>${ssOpen?'Hide':'Whip'} the ${nm} Senate<small>${ssOpen?'Collapse the senator-by-senator count':'The one Republican chamber in the way. Open the senator-by-senator count.'}</small></span><span aria-hidden="true">${ssOpen?'▴':'▾'}</span></button>` + body; }

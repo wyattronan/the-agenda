@@ -560,7 +560,9 @@
   "new_stance": "Mixed",
   "evidence": "Voted for Wyden's amendment to strike the $880B Medicaid-cut instruction (Apr 2025, failed 49–50), then cast the deciding vote for the OBBBA (Jul 1 2025).",
   "url": "https://www.aha.org/news/headline/2025-04-04-senate-expected-vote-revised-budget-resolution-over-weekend",
-  "why": "Weekly review, Nov 15 2026 (source dated 2025-04-05)"
+  "why": "Weekly review, Nov 15 2026 (source dated 2025-04-05)",
+  "hedge": "Voted to strike the $880B Medicaid-cut instruction (Apr 2025), then voted for the OBBBA, which passed 51–50 after last-minute changes won her over (Jul 1, 2025).",
+  "hedge_url": "https://www.cbsnews.com/news/senate-debate-trump-one-big-beautiful-bill"
  },
  {
   "who": "Lisa Murkowski",
@@ -1265,85 +1267,113 @@
   "who": "Katie Britt",
   "key": "rural",
   "new_stance": "Lean support",
-  "note": "Most recent action sets the stance (Nov 16 2026 rule); softened to a Lean because an earlier action points the other way."
+  "note": "Most recent action sets the stance (Nov 16 2026 rule); softened to a Lean because an earlier action points the other way.",
+  "hedge": "Voted for the OBBBA and its Medicaid cuts (Jul 1, 2025, 51–50), then cosponsored a rural emergency hospital bill, S.5164 (Jul 2026).",
+  "hedge_url": "https://www.cbsnews.com/news/senate-debate-trump-one-big-beautiful-bill"
  },
  {
   "who": "John Boozman",
   "key": "rural",
   "new_stance": "Lean support",
-  "note": "Most recent action sets the stance (Nov 16 2026 rule); softened to a Lean because an earlier action points the other way."
+  "note": "Most recent action sets the stance (Nov 16 2026 rule); softened to a Lean because an earlier action points the other way.",
+  "hedge": "Cosponsored the Rural Hospital Support Act (Jan 2025), then voted for the OBBBA and its Medicaid cuts (Jul 1, 2025, 51–50), then cosponsored S.5164 (Nov 2026).",
+  "hedge_url": "https://www.cbsnews.com/news/senate-debate-trump-one-big-beautiful-bill"
  },
  {
   "who": "Jerry Moran",
   "key": "rural",
   "new_stance": "Lean support",
-  "note": "Most recent action sets the stance (Nov 16 2026 rule); softened to a Lean because an earlier action points the other way."
+  "note": "Most recent action sets the stance (Nov 16 2026 rule); softened to a Lean because an earlier action points the other way.",
+  "hedge": "Cosponsored the Rural Hospital Support Act (Jan 2025), then voted for the OBBBA and its Medicaid cuts (Jul 1, 2025, 51–50), then sponsored the rural emergency hospital bill S.5164 (Jul 2026).",
+  "hedge_url": "https://www.cbsnews.com/news/senate-debate-trump-one-big-beautiful-bill"
  },
  {
   "who": "Josh Hawley",
   "key": "rural",
   "new_stance": "Support",
-  "note": "Most recent action sets the stance (Nov 16 2026 rule): sponsored a bill to repeal the provider-tax cuts after voting for them."
+  "note": "Most recent action sets the stance (Nov 16 2026 rule): sponsored a bill to repeal the provider-tax cuts after voting for them.",
+  "hedge": "Voted for the OBBBA and its Medicaid cuts (Jul 1, 2025, 51–50), then introduced a bill to repeal its provider-tax cuts that same month.",
+  "hedge_url": "https://www.cbsnews.com/news/senate-debate-trump-one-big-beautiful-bill"
  },
  {
   "who": "Shelley Moore Capito",
   "key": "rural",
   "new_stance": "Lean support",
-  "note": "Most recent action sets the stance (Nov 16 2026 rule); softened to a Lean because an earlier action points the other way."
+  "note": "Most recent action sets the stance (Nov 16 2026 rule); softened to a Lean because an earlier action points the other way.",
+  "hedge": "Cosponsored rural hospital bills S.335 and S.502 (2025), then voted for the OBBBA and its Medicaid cuts (Jul 1, 2025, 51–50), then cosponsored S.5164 (Jul 2026).",
+  "hedge_url": "https://www.cbsnews.com/news/senate-debate-trump-one-big-beautiful-bill"
  },
  {
   "who": "John Barrasso",
   "key": "rural",
   "new_stance": "Lean support",
-  "note": "Most recent action sets the stance (Nov 16 2026 rule); softened to a Lean because an earlier action points the other way."
+  "note": "Most recent action sets the stance (Nov 16 2026 rule); softened to a Lean because an earlier action points the other way.",
+  "hedge": "Voted for the OBBBA and its Medicaid cuts (Jul 1, 2025, 51–50), then cosponsored the Rural Hospital Flexibility Act (Nov 2025).",
+  "hedge_url": "https://www.cbsnews.com/news/senate-debate-trump-one-big-beautiful-bill"
  },
  {
   "who": "Chuck Grassley",
   "key": "rural",
   "new_stance": "Lean oppose",
-  "note": "Most recent action sets the stance (Nov 16 2026 rule); softened to a Lean because an earlier action points the other way."
+  "note": "Most recent action sets the stance (Nov 16 2026 rule); softened to a Lean because an earlier action points the other way.",
+  "hedge": "Sponsored the Rural Hospital Support Act (Jan 2025), then voted for the OBBBA and its Medicaid cuts (Jul 1, 2025, 51–50).",
+  "hedge_url": "https://www.cbsnews.com/news/senate-debate-trump-one-big-beautiful-bill"
  },
  {
   "who": "John Kennedy",
   "key": "rural",
   "new_stance": "Lean oppose",
-  "note": "Most recent action sets the stance (Nov 16 2026 rule); softened to a Lean because an earlier action points the other way."
+  "note": "Most recent action sets the stance (Nov 16 2026 rule); softened to a Lean because an earlier action points the other way.",
+  "hedge": "Cosponsored the Rural Hospital Support Act (Mar 2025), then voted for the OBBBA and its Medicaid cuts (Jul 1, 2025, 51–50).",
+  "hedge_url": "https://www.cbsnews.com/news/senate-debate-trump-one-big-beautiful-bill"
  },
  {
   "who": "Deb Fischer",
   "key": "rural",
   "new_stance": "Lean oppose",
-  "note": "Most recent action sets the stance (Nov 16 2026 rule); softened to a Lean because an earlier action points the other way."
+  "note": "Most recent action sets the stance (Nov 16 2026 rule); softened to a Lean because an earlier action points the other way.",
+  "hedge": "Reintroduced her bill to support rural community hospitals (Feb 2025), then voted for the OBBBA and its Medicaid cuts (Jul 1, 2025, 51–50).",
+  "hedge_url": "https://www.cbsnews.com/news/senate-debate-trump-one-big-beautiful-bill"
  },
  {
   "who": "James Lankford",
   "key": "rural",
   "new_stance": "Lean oppose",
-  "note": "Most recent action sets the stance (Nov 16 2026 rule); softened to a Lean because an earlier action points the other way."
+  "note": "Most recent action sets the stance (Nov 16 2026 rule); softened to a Lean because an earlier action points the other way.",
+  "hedge": "Cosponsored the Rural Hospital Closure Relief Act (Feb 2025), then voted for the OBBBA and its Medicaid cuts (Jul 1, 2025, 51–50).",
+  "hedge_url": "https://www.cbsnews.com/news/senate-debate-trump-one-big-beautiful-bill"
  },
  {
   "who": "Katie Britt",
   "key": "ivf",
   "new_stance": "Lean oppose",
-  "note": "Most recent action sets the stance (Nov 16 2026 rule); softened to a Lean because an earlier action points the other way."
+  "note": "Most recent action sets the stance (Nov 16 2026 rule); softened to a Lean because an earlier action points the other way.",
+  "hedge": "Cosponsored the GOP's IVF Protection Act (May 2024), then voted to block the Right to IVF Act (Sep 17, 2024, cloture failed 51–44).",
+  "hedge_url": "https://congressdocket.vercel.app/vote/s242-118.2024"
  },
  {
   "who": "Roger Wicker",
   "key": "ivf",
   "new_stance": "Lean oppose",
-  "note": "Most recent action sets the stance (Nov 16 2026 rule); softened to a Lean because an earlier action points the other way."
+  "note": "Most recent action sets the stance (Nov 16 2026 rule); softened to a Lean because an earlier action points the other way.",
+  "hedge": "Cosponsored the GOP's IVF Protection Act (May 2024), then voted to block the Right to IVF Act (Sep 17, 2024, cloture failed 51–44).",
+  "hedge_url": "https://congressdocket.vercel.app/vote/s242-118.2024"
  },
  {
   "who": "Ted Budd",
   "key": "ivf",
   "new_stance": "Lean oppose",
-  "note": "Most recent action sets the stance (Nov 16 2026 rule); softened to a Lean because an earlier action points the other way."
+  "note": "Most recent action sets the stance (Nov 16 2026 rule); softened to a Lean because an earlier action points the other way.",
+  "hedge": "Cosponsored the GOP's IVF Protection Act (May 2024), then voted to block the Right to IVF Act (Sep 17, 2024, cloture failed 51–44).",
+  "hedge_url": "https://congressdocket.vercel.app/vote/s242-118.2024"
  },
  {
   "who": "Ted Cruz",
   "key": "ivf",
   "new_stance": "Lean oppose",
-  "note": "Most recent action sets the stance (Nov 16 2026 rule); softened to a Lean because an earlier action points the other way."
+  "note": "Most recent action sets the stance (Nov 16 2026 rule); softened to a Lean because an earlier action points the other way.",
+  "hedge": "Sponsored the GOP's IVF Protection Act (May 2024), then voted to block the Right to IVF Act (Sep 17, 2024, cloture failed 51–44).",
+  "hedge_url": "https://congressdocket.vercel.app/vote/s242-118.2024"
  },
  {
   "who": "Lisa Murkowski",
@@ -1355,61 +1385,81 @@
   "who": "Rick Scott",
   "key": "stock",
   "new_stance": "Lean support",
-  "note": "Most recent action sets the stance (Nov 16 2026 rule); softened to a Lean because an earlier action points the other way."
+  "note": "Most recent action sets the stance (Nov 16 2026 rule); softened to a Lean because an earlier action points the other way.",
+  "hedge": "Voted against the Hawley-Peters stock-trading ban in committee (Jul 30, 2025), wrote that he backs a ban 'done right' (Aug 2025), then voted to advance the narrower House bill (Sep 2026).",
+  "hedge_url": "https://rollcall.com/2025/07/30/senate-panel-advances-bill-banning-congressional-stock-trading/"
  },
  {
   "who": "Rand Paul",
   "key": "stock",
   "new_stance": "Lean support",
-  "note": "Most recent action sets the stance (Nov 16 2026 rule); softened to a Lean because an earlier action points the other way."
+  "note": "Most recent action sets the stance (Nov 16 2026 rule); softened to a Lean because an earlier action points the other way.",
+  "hedge": "Voted against the Hawley-Peters stock-trading ban in committee, calling it 'a really crummy bill' (Jul 30, 2025), then voted to advance the narrower House bill (Sep 30, 2026).",
+  "hedge_url": "https://rollcall.com/2025/07/30/senate-panel-advances-bill-banning-congressional-stock-trading/"
  },
  {
   "who": "James Lankford",
   "key": "stock",
   "new_stance": "Lean support",
-  "note": "Most recent action sets the stance (Nov 16 2026 rule); softened to a Lean because an earlier action points the other way."
+  "note": "Most recent action sets the stance (Nov 16 2026 rule); softened to a Lean because an earlier action points the other way.",
+  "hedge": "Voted against the Hawley-Peters stock-trading ban in committee (Jul 30, 2025, 8–7), then for cloture on the narrower House bill (Sep 30, 2026).",
+  "hedge_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00253.htm"
  },
  {
   "who": "Ron Johnson",
   "key": "stock",
   "new_stance": "Lean support",
-  "note": "Most recent action sets the stance (Nov 16 2026 rule); softened to a Lean because an earlier action points the other way."
+  "note": "Most recent action sets the stance (Nov 16 2026 rule); softened to a Lean because an earlier action points the other way.",
+  "hedge": "Called the Hawley-Peters stock-trading ban 'legislative demagoguery' and voted against it in committee (Jul 30, 2025), then voted to advance the narrower House bill (Sep 30, 2026).",
+  "hedge_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00253.htm"
  },
  {
   "who": "Todd Young",
   "key": "tariff",
   "new_stance": "Lean oppose",
-  "note": "Most recent action sets the stance (Nov 16 2026 rule); softened to a Lean because an earlier action points the other way."
+  "note": "Most recent action sets the stance (Nov 16 2026 rule); softened to a Lean because an earlier action points the other way.",
+  "hedge": "Cosponsored the Trade Review Act to give Congress a say on tariffs (Apr 2025), then voted against ending the Brazil tariff emergency (Oct 28, 2025, passed 52–48).",
+  "hedge_url": "https://www.npr.org/2025/10/28/nx-s1-5589180/trump-tariffs-senate-vote"
  },
  {
   "who": "Chuck Grassley",
   "key": "tariff",
   "new_stance": "Lean oppose",
-  "note": "Most recent action sets the stance (Nov 16 2026 rule); softened to a Lean because an earlier action points the other way."
+  "note": "Most recent action sets the stance (Nov 16 2026 rule); softened to a Lean because an earlier action points the other way.",
+  "hedge": "Original cosponsor of the Trade Review Act to give Congress a say on tariffs (Apr 2025), then voted against ending the Brazil tariff emergency (Oct 28, 2025, passed 52–48).",
+  "hedge_url": "https://www.npr.org/2025/10/28/nx-s1-5589180/trump-tariffs-senate-vote"
  },
  {
   "who": "Jerry Moran",
   "key": "tariff",
   "new_stance": "Lean oppose",
-  "note": "Most recent action sets the stance (Nov 16 2026 rule); softened to a Lean because an earlier action points the other way."
+  "note": "Most recent action sets the stance (Nov 16 2026 rule); softened to a Lean because an earlier action points the other way.",
+  "hedge": "Original cosponsor of the Trade Review Act to give Congress a say on tariffs (Apr 2025), then voted against ending the Brazil tariff emergency (Oct 28, 2025, passed 52–48).",
+  "hedge_url": "https://www.npr.org/2025/10/28/nx-s1-5589180/trump-tariffs-senate-vote"
  },
  {
   "who": "Jim Banks",
   "key": "priorauth",
   "new_stance": "Lean oppose",
-  "note": "Most recent action sets the stance (Nov 16 2026 rule); softened to a Lean because an earlier action points the other way."
+  "note": "Most recent action sets the stance (Nov 16 2026 rule); softened to a Lean because an earlier action points the other way.",
+  "hedge": "Cosponsored the Improving Seniors' Timely Access to Care Act on Medicare Advantage prior authorization (Jul 2025), then voted against taking up a resolution to overturn CMS's prior-auth pilot (Jul 16, 2026).",
+  "hedge_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00199.htm"
  },
  {
   "who": "Rand Paul",
   "key": "fil",
   "new_stance": "Lean support",
-  "note": "Most recent action sets the stance (Nov 16 2026 rule); softened to a Lean because an earlier action points the other way."
+  "note": "Most recent action sets the stance (Nov 16 2026 rule); softened to a Lean because an earlier action points the other way.",
+  "hedge": "Voted against Democrats' 2022 rules change to pass voting-rights bills by simple majority (Jan 19, 2022), then was named among GOP senators urging Republicans to weaken the 60-vote rule (May 2026).",
+  "hedge_url": "https://beecherlocal.com/2026/05/04/gop-senators-renew-calls-to-nuke-filibuster-after-voter-id-bill-languishes/page/21/"
  },
  {
   "who": "Rand Paul",
   "key": "ice",
   "new_stance": "Lean oppose",
-  "note": "Most recent action sets the stance (Nov 16 2026 rule); softened to a Lean because an earlier action points the other way."
+  "note": "Most recent action sets the stance (Nov 16 2026 rule); softened to a Lean because an earlier action points the other way.",
+  "hedge": "Proposed barring ICE agents from wearing masks outside border zones (Mar 2026), then helped pass the $70B ICE and Border Patrol package, on which Murkowski was the only Republican no (Jun 5, 2026).",
+  "hedge_url": "https://wghn.com/2026/06/04/senate-to-hold-vote-a-rama-on-ice-funding-ahead-of-final-passage/"
  },
  {
   "who": "John Curtis",
@@ -1427,13 +1477,17 @@
   "who": "Roy Cooper",
   "key": "pro",
   "new_stance": "Lean support",
-  "note": "Most recent action sets the stance (Nov 16 2026 rule); softened to a Lean because an earlier action points the other way."
+  "note": "Most recent action sets the stance (Nov 16 2026 rule); softened to a Lean because an earlier action points the other way.",
+  "hedge": "As governor signed the 2017 Farm Act, which barred farmworker union dues agreements, while saying he 'had concerns' (Jul 12, 2017); later praised unions as a candidate (2023–24).",
+  "hedge_url": "https://m.washingtontimes.com/news/2017/jul/13/farm-bill-with-anti-union-language-signed-by-coope/"
  },
  {
   "who": "Marsha Blackburn",
   "key": "rural",
   "new_stance": "Lean support",
-  "note": "Most recent action sets the stance (Nov 16 2026 rule); softened to a Lean because an earlier action points the other way."
+  "note": "Most recent action sets the stance (Nov 16 2026 rule); softened to a Lean because an earlier action points the other way.",
+  "hedge": "As a senator voted for the OBBBA and its Medicaid cuts (Jul 1, 2025, 51–50); as a governor candidate touted the $1B rural health fund created in the same law (Oct 2026).",
+  "hedge_url": "https://www.cbsnews.com/news/senate-debate-trump-one-big-beautiful-bill"
  },
  {
   "who": "Alan Wilson",
@@ -1445,7 +1499,9 @@
   "who": "Patrick Morrisey",
   "key": "datactr",
   "new_stance": "Lean support",
-  "note": "Most recent action sets the stance (Nov 16 2026 rule); softened to a Lean because an earlier action points the other way."
+  "note": "Most recent action sets the stance (Nov 16 2026 rule); softened to a Lean because an earlier action points the other way.",
+  "hedge": "Signed HB 2014, which conservation groups say strips local control over data centers (Apr 30, 2025), then signed the White House pledge that data centers pay their full power and grid costs (Jul 2026).",
+  "hedge_url": "https://www.conservewv.org/governor-legislature-yank-local-control-of-data-centers-from-wv-residents/"
  },
  {
   "who": "Kelly Armstrong",
