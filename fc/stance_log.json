@@ -1882,7 +1882,7 @@
  "sen:Hirono|road": ["Support", null],
  "sen:Hirono|roe": ["Support", null],
  "sen:Hirono|rural": ["Lean support", null],
- "sen:Hirono|sch": ["Unclear", null],
+ "sen:Hirono|sch": ["Support", "2026-11-16"],
  "sen:Hirono|snap": ["Support", null],
  "sen:Hirono|ssm": ["Support", null],
  "sen:Hirono|stock": ["Unclear", null],
