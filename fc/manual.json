@@ -146,10 +146,10 @@
  {
   "who": "Tim Kaine",
   "key": "sch",
-  "new_stance": "Lean support",
-  "evidence": "Asked in June if he'd keep backing Schumer as leader: 'Yes... one of the best majority leaders we've had' (CBS, Jun 28, 2026). Hasn't restated it since Van Hollen's Nov 12 challenge. Secret-ballot vote set for Dec 1; Schumer allies want it moved up.",
-  "url": "https://www.cbsnews.com/news/face-the-nation-full-transcript-06-28-2026/",
-  "why": "Schumer leader re-check, Nov 14 2026"
+  "new_stance": "Unclear",
+  "evidence": "Told reporters he's undecided between Schumer and Van Hollen, while praising Schumer ('Chuck delivered an amazing win') and saying 'voters are demanding change' (Politico, Nov 16, 2026). Had backed Schumer in June. Secret-ballot vote set for Dec 1.",
+  "url": "https://www.yahoo.com/news/politics/articles/senate-democrats-reject-quick-exit-024642557.html",
+  "why": "Daily update, Nov 17 2026 (Politico via Yahoo, Nov 16 2026). Latest statement sets the stance; Dropsite whip count also lists him undecided as of Nov 16."
  },
  {
   "who": "Chris Van Hollen",
@@ -474,10 +474,10 @@
  {
   "who": "Chris Van Hollen",
   "key": "fil",
-  "new_stance": "Support",
-  "evidence": "Calls for abolishing it: 'my personal view has been all along that the filibuster is an anti-democratic' provision (remarks to reporters, Nov 13, 2026, while challenging Schumer).",
-  "url": "https://www.yahoo.com/news/politics/articles/democrats-eye-killing-senate-filibuster-160048680.html",
-  "why": "Daily update, Nov 15 2026"
+  "new_stance": "Lean support",
+  "evidence": "Says the filibuster 'needs to be reformed' but won't 'push right out of the gate' to end it and will leave how and when to the caucus (Fox News Sunday, Nov 15, 2026); on Nov 13 called it anti-democratic. Reform, not elimination, so Lean.",
+  "url": "https://thenationaldesk.com/news/politics/democrats-weigh-risks-of-ending-filibuster-amid-pressure-to-deliver",
+  "why": "Daily update, Nov 17 2026 (The National Desk, Nov 16 2026, quoting Fox News Sunday Nov 15). Latest statement sets the stance."
  },
  {
   "who": "Ed Markey",
