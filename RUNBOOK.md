@@ -27,6 +27,37 @@ Steps:
    Include `fc/stance_log.json` in the commit. The build stamps each stance change with the build date (Chicago time), and the site tags those cells "New stance" for 7 days. Never edit the log by hand.
 7. Send a short notification listing the changes.
 
+## Weighing statements (all scrapes)
+
+Score each statement on three factors and multiply them:
+
+| Factor | Weights |
+|---|---|
+| Initiative | 1.0 they started it (post, speech, op-ed, release, floor remarks) · 0.7 answering a question |
+| Specificity | 1.0 engages the policy or the claim itself · 0.5 a generic formula ("no daylight", "I support the president", "everything's on the table") |
+| Audience cost | 1.0 says something this audience won't like · 0.75 mixed or national audience · 0.5 tells this audience what it wants to hear |
+
+Actions (votes, signatures, vetoes, executive orders, hires) outrank words. Outlet size and ideology are not factors by themselves: what someone tells their base can reveal more than what they tell a national audience, and the reverse. What matters is whether the statement cost them anything with the people in front of them.
+
+### Hedging
+Add a `hedge` note (one sentence, sourced, dated) to a `fc/manual.json` entry when:
+- the person has been on both sides (earlier pledge, later "not viable"; wary, then open to a conditional version);
+- they move a commitment past the election, or make it conditional on something unlikely;
+- they say different things to different audiences.
+
+The cell keeps its stance (the most-recent-action rule still sets it); the site adds a "Hedging" tag and shows the note. Skip it when the stance is already Mixed. Weekly runs: work through the cells whose notes say "softened to a Lean because an earlier action points the other way" and give each a specific hedge note.
+
+### Postmortem walkbacks
+A walkback is a later statement that pulls back from a post-election shift in `gop/gop_tracker.json`. Record it in the person's `walkbacks` list; don't edit `map` pre/post:
+
+```json
+{"date": "2026-11-16", "issue": "iran_war", "axes": ["trump_alignment"],
+ "initiative": "prompted", "specificity": "generic", "audience": "pleasing",
+ "said": "One-sentence summary with a short quote.", "source": "Outlet, date", "url": "https://..."}
+```
+
+`initiative`: self | prompted. `specificity`: specific | generic. `audience`: against | mixed | pleasing. The site computes the weight (product of the factors above) and takes back 50% × weight of whatever shift is left, per walkback: three full-weight walkbacks take back 50%, 75%, 87.5%. Add `"retract": true` only for an explicit retraction ("I was wrong") or an action that reverses the shift; that resets it fully. A walkback that restates the original claim isn't one: note it in `issues` instead. Topline numbers about scores use `{d:Name}` tokens, which the site fills in, so they stay current.
+
 ## Weekly thorough scrape (needs approval)
 
 Scope:

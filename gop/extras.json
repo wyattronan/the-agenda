@@ -374,7 +374,7 @@
  "toplines": {
   "field": {
    "h": "The 2028 field is breaking. The Cabinet isn't.",
-   "b": "Vance (−6.3), Cruz (−4.2), Hawley (−3.9) and DeSantis (−3.3) all moved away from Trump within days. Rubio, still in the Cabinet, is the only hopeful holding with him."
+   "b": "Vance ({d:JD Vance}), Cruz ({d:Ted Cruz}), Hawley ({d:Josh Hawley}) and DeSantis ({d:Ron DeSantis}) all moved away from Trump within days. Rubio, still in the Cabinet, is the only hopeful holding with him."
   },
   "iran": {
    "h": "The Iran war is the position they're abandoning.",
@@ -414,7 +414,7 @@
   },
   "field2": {
    "h": "The 2028 field is breaking with Trump, except Rubio.",
-   "b": "Vance (−6.3), Cruz (−4.2), Hawley (−3.9) and DeSantis (−3.3) moved away, mostly by blaming his policies rather than him: Vance the Iran war, Cruz tariffs and the war, Hawley costs, DeSantis a do-nothing Senate. Rubio, still in the Cabinet, defended the war and holds at 10."
+   "b": "Vance ({d:JD Vance}), Cruz ({d:Ted Cruz}), Hawley ({d:Josh Hawley}) and DeSantis ({d:Ron DeSantis}) moved away, mostly by blaming his policies rather than him: Vance the Iran war, Cruz tariffs and the war, Hawley costs, DeSantis a do-nothing Senate. Rubio, still in the Cabinet, defended the war and holds at 10."
   },
   "senate2": {
    "h": "Senate Republicans want a reckoning first.",

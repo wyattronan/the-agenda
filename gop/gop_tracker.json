@@ -97,7 +97,22 @@
      "stance": "Skeptic/realist: wants a \"normal relationship with a normal country\"; post-election made it a stated reason for the loss."
     },
     "provisional": true
-   }
+   },
+   "walkbacks": [
+    {
+     "date": "2026-11-16",
+     "issue": "iran_war",
+     "axes": [
+      "trump_alignment"
+     ],
+     "initiative": "prompted",
+     "specificity": "generic",
+     "audience": "pleasing",
+     "said": "In his first TV interview since the midterms (Fox News, Laura Ingraham) said 'There's no daylight' between him and Trump on the Iran war. Didn't retract that the war cost Republicans; said it carried 'a political cost' and Trump won't let it become a 'forever war.'",
+     "source": "NBC News, Nov 17",
+     "url": "https://www.nbcnews.com/politics/jd-vance/vance-says-no-daylight-trump-iran-war-rcna609681"
+    }
+   ]
   },
   {
    "name": "Marco Rubio",

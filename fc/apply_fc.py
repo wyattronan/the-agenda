@@ -9,6 +9,13 @@ def apply(d, log=True):
     seen = set()
     sen_by = {s['n']: s for s in d['sen']}
     gov_by = {g['n']: g for g in d['gov']}
+    # Hedging notes ("has been on both sides", "tailors it to the audience"): shown as a tag, never change the stance.
+    hedge = d.setdefault('hedge', {'sen': {}, 'gov': {}})
+    def _hedge(side, who, k, txt):
+        t = (txt or '').strip()
+        if not t: return
+        tgt = (sen_by if side == 'sen' else gov_by)[who]
+        hedge[side][f"{tgt['id'] if side == 'sen' else tgt['st']}|{k}"] = t
     for f in sorted(glob.glob(_R + '/fc/out/*.json')):
         base = os.path.basename(f)
         if base == 'links.json': continue
@@ -31,6 +38,7 @@ def apply(d, log=True):
             if url: urls[(side, who, k)] = url
             if r.get('changed') and new != 'Unclear' and not url:
                 stats['skipped'] += 1; continue          # no source, no change
+            if r.get('hedge'): _hedge(side, who, k, r['hedge'])
             if r.get('changed'):
                 cells[k] = [new, ev or cells[k][1]]
                 stats['changed'] += 1
@@ -42,8 +50,11 @@ def apply(d, log=True):
             cells = tgt['r'] if m['who'] in sen_by else tgt['sp']
             if m['key'] in cells:
                 cells[m['key']] = [m['new_stance'], m.get('evidence') or cells[m['key']][1]]
+                side = 'sen' if m['who'] in sen_by else 'gov'
+                if 'hedge' in m:   # explicit; "" clears an older agent note
+                    if m['hedge']: _hedge(side, m['who'], m['key'], m['hedge'])
+                    else: hedge[side].pop(f"{tgt['id'] if side == 'sen' else tgt['st']}|{m['key']}", None)
                 if 'url' in m:   # explicit source override; None clears a stale link
-                    side = 'sen' if m['who'] in sen_by else 'gov'
                     if m['url']: urls[(side, m['who'], m['key'])] = m['url']
                     else: urls.pop((side, m['who'], m['key']), None)
     except FileNotFoundError: pass

@@ -70,6 +70,7 @@ DROPPED = set(issue_meta.DROPPED)
 for _x in d["sen"]:
     for _k in DROPPED: _x["r"].pop(_k, None)
 d["curl"]["sen"] = {k: v for k, v in d["curl"]["sen"].items() if k.split("|")[-1] not in DROPPED}
+d["hedge"]["sen"] = {k: v for k, v in d["hedge"]["sen"].items() if k.split("|")[-1] not in DROPPED}
 _fcurls = {kk: v for kk, v in _fcurls.items() if not (kk[0] == "sen" and kk[2] in DROPPED)}
 from build_champ import build as _bc
 d["champ"], _st = _bc(d, _fcurls); print("champions", _st)

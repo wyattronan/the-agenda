@@ -20,6 +20,8 @@ Your input file lists officials and their current recorded position on every mea
 - **Never infer from party, ideology, or what similar politicians think.** Every non-Unclear stance must rest on the official's own words or actions, with a URL.
 - Ignore the site's "power rule" default (Republicans assumed No on the filibuster, DC/PR statehood, gerrymandering ban, National Popular Vote, automatic voter registration). That's a display default, not a position. Record only what they actually said or did.
 - A position on a closely related but different policy is at most a Lean, and say so in the evidence.
+- Weigh statements by initiative (self-started > prompted), specificity (the policy itself > a generic formula) and audience cost (says what this audience won't like > tells it what it wants to hear). Actions outrank words.
+- If the official has been on both sides, moved a commitment past the election, or says different things to different audiences, add a `"hedge"` field: one sentence, own words, with dates and a URL. It doesn't change the stance by itself.
 - Evidence: one sentence, max ~200 characters, in your own words (no quotes longer than ~10 words), with month and year.
 
 ## How to work efficiently
