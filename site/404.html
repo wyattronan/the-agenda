@@ -536,6 +536,7 @@ dialog.champdlg,dialog.stancedlg{max-width:640px}
 .rulesbtn .chev{transition:transform .2s;display:inline-block}
 .rulesbtn[aria-expanded="true"]{background:var(--ink);color:#fff}
 .rulesbtn[aria-expanded="true"] .chev{transform:rotate(180deg)}
+.rulesbtn .fdot{width:7px;height:7px;border-radius:50%;background:var(--rep);flex:none;margin-left:-2px}.rulesbtn .fdot[hidden]{display:none}
 .rulespanel.tools{margin:0;flex:1 1 auto;min-width:0;padding:6px 10px;border:2px solid var(--ink);border-radius:12px;background:var(--surface);box-shadow:3px 3px 0 var(--ink)}
 .rulespanel[hidden]{display:none!important}
 .rulespanel.rin{animation:rulesin .35s cubic-bezier(.2,.8,.2,1)}
@@ -2181,7 +2182,13 @@ h1 .hl{background-image:linear-gradient(transparent 36%,var(--hl) 36%,var(--hl) 
   <div class="selrow"><div class="selpol">Select a policy</div><div class="qf" id="sqf" role="group" aria-label="Quick filters"></div></div>
   <div class="nav" id="snav"><div class="abar" id="sbar" role="toolbar" aria-label="Issue areas"></div><div class="tray" id="stray"></div></div>
   <div class="stop"><div class="panel detail" id="detail"></div><aside class="ttkbox" id="sttk" aria-label="Three things to know"></aside></div>
-  <div class="rulesbar"><span class="segctl viewtog" id="sview" role="group" aria-label="View"><button data-v="map" aria-pressed="true">Map</button><button data-v="list" aria-pressed="false">List</button></span><button type="button" class="btn rulesbtn" id="rulesbtn" aria-expanded="false" aria-controls="rulespanel"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M2 4h7M12 4h2M2 12h2M7 12h7M2 8h3M8 8h6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" fill="none"/><circle cx="10.5" cy="4" r="1.7" fill="none" stroke="currentColor" stroke-width="1.5"/><circle cx="5.5" cy="12" r="1.7" fill="none" stroke="currentColor" stroke-width="1.5"/><circle cx="6.5" cy="8" r="1.7" fill="none" stroke="currentColor" stroke-width="1.5"/></svg>Adjust Rules<span class="chev" aria-hidden="true">›</span></button>
+  <div class="rulesbar"><span class="segctl viewtog" id="sview" role="group" aria-label="View"><button data-v="map" aria-pressed="true">Map</button><button data-v="list" aria-pressed="false">List</button></span><button type="button" class="btn rulesbtn" id="sortbtn" aria-expanded="false" aria-controls="sortpanel"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M2 3.5h12M4.5 8h7M7 12.5h2" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" fill="none"/></svg>Sort &amp; Filter<span class="fdot" id="fdot" hidden></span><span class="chev" aria-hidden="true">›</span></button><button type="button" class="btn rulesbtn" id="rulesbtn" aria-expanded="false" aria-controls="rulespanel"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M2 4h7M12 4h2M2 12h2M7 12h7M2 8h3M8 8h6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" fill="none"/><circle cx="10.5" cy="4" r="1.7" fill="none" stroke="currentColor" stroke-width="1.5"/><circle cx="5.5" cy="12" r="1.7" fill="none" stroke="currentColor" stroke-width="1.5"/><circle cx="6.5" cy="8" r="1.7" fill="none" stroke="currentColor" stroke-width="1.5"/></svg>Adjust Rules<span class="chev" aria-hidden="true">›</span></button>
+  <div class="tools rulespanel" id="sortpanel" hidden>
+    <input type="search" id="q" placeholder="Search senator or state" aria-label="Search senators">
+    <select id="fp" aria-label="Party filter"><option value="all">All parties</option><option value="D">Dem caucus</option><option value="R">Republicans</option></select>
+    <select id="fv" aria-label="Vote filter"><option value="all">All votes</option><option value="u">Undecided only</option><option value="y">Yes only</option><option value="n">No only</option><option value="new">Newly elected only</option></select>
+    <select id="fs" aria-label="Sort cards"><option value="def">Sort: By state</option><option value="new">Sort: New stances first</option></select>
+  </div>
   <div class="tools rulespanel" id="rulespanel" hidden>
     <span class="thr"><span class="small tipq" tabindex="0" data-tiph="&lt;span class=&quot;tt&quot;&gt;Threshold&lt;/span&gt;&lt;span class=&quot;tl&quot;&gt;60 votes to end a filibuster on most bills; 51 once the rule is scrapped.&lt;/span&gt;">Threshold</span>
       <span class="segctl" id="fmode">
@@ -2189,10 +2196,6 @@ h1 .hl{background-image:linear-gradient(transparent 36%,var(--hl) 36%,var(--hl) 
         <button data-m="60" title="Keep the filibuster: 60 votes">60</button>
         <button data-m="51" title="Filibuster gone: 51 votes">51</button>
       </span></span>
-    <input type="search" id="q" placeholder="Search senator or state" aria-label="Search senators">
-    <select id="fp" aria-label="Party filter"><option value="all">All parties</option><option value="D">Dem caucus</option><option value="R">Republicans</option></select>
-    <select id="fv" aria-label="Vote filter"><option value="all">All votes</option><option value="u">Undecided only</option><option value="y">Yes only</option><option value="n">No only</option><option value="new">Newly elected only</option></select>
-    <span class="rsep" aria-hidden="true"></span>
     <button class="btn" id="b-reset" title="Put every senator back to their researched position on this measure">Reset measure</button>
     <button class="btn" id="b-lean" title="Treat leans as undecided">Leans → ?</button>
     <button class="btn" id="b-un" title="Count everyone undecided as a No">? → No</button>
@@ -2721,7 +2724,13 @@ function onCardClick(e, setVote){
   if(m){ const c=m.closest('.mc'); c.classList.toggle('open'); m.textContent=c.classList.contains('open')?'Less':'More'; return; }
   const b=e.target.closest('.vote button'); if(b){ POP = b.dataset.id+'|'+b.dataset.v; setVote(b.dataset.id, b.dataset.v); setTimeout(()=>{ POP=''; },50); }
 }
+function filtNote(){
+  const nNew=eligible(cur).filter(s=>newSince('sen:'+s.id+'|'+cur)).length;
+  $('fs').options[1].textContent = `Sort: New stances first (${nNew})`;
+  $('fdot').hidden = !($('q').value.trim() || $('fp').value!=='all' || $('fv').value!=='all' || $('fs').value!=='def');
+}
 function renderList(){
+  filtNote();
   document.querySelectorAll('#sview button').forEach(b=>b.setAttribute('aria-pressed', b.dataset.v===sview));
   $('list').hidden = sview==='map'; $('lkey').hidden = sview==='map'; $('smap').hidden = sview!=='map';
   if(sview==='map'){ renderSMap(); return; }
@@ -2734,6 +2743,8 @@ function renderList(){
     if(q && !(s.n.toLowerCase().includes(q) || s.st.toLowerCase().includes(q))) return false;
     return true;
   });
+  // "New stances first": cards tagged New stance (last 7 days) lead, most recent change first; the rest keep state order.
+  if($('fs').value==='new'){ const nd=s=>newSince('sen:'+s.id+'|'+k); rows.sort((a,b)=>(nd(b)||'').localeCompare(nd(a)||'')); }
   if(!rows.length){ $('list').innerHTML='<div class="empty">No senators match these filters.</div>'; return; }
   $('list').innerHTML = rows.map(s=>{
     const [stance,ev]=s.r[k];
@@ -2832,6 +2843,8 @@ function renderSenate(){ if(!$('sttk').firstChild){ $('sttk').innerHTML = ttkHtm
 $('list').addEventListener('click',e=>onCardClick(e,(id,v)=>{ votes[id][cur]=v; sNav.draw(); renderRules(); renderDetail(); renderList(); persist(); }));
 $('fmode').addEventListener('click',e=>{ const b=e.target.closest('button'); if(!b) return; fmode=b.dataset.m; renderSenate(); });
 ['q','fp','fv'].forEach(id=>$(id).addEventListener('input',renderList));
+// Sorting only orders the cards, so picking a sort while on the map switches to the card list.
+$('fs').addEventListener('change',()=>{ if($('fs').value!=='def' && sview==='map') sview='list'; renderList(); persist(); });
 $('b-reset').onclick=()=>{ SEN.forEach(s=>votes[s.id][cur]=sDef(s,cur)); renderSenate(); };
 $('b-lean').onclick=()=>{ SEN.forEach(s=>{ if(s.r[cur][0].startsWith('Lean') && !(s.p==='R'&&POWER.has(cur))) votes[s.id][cur]='u'; }); renderSenate(); };
 $('b-un').onclick=()=>{ eligible(cur).forEach(s=>{ if(votes[s.id][cur]==='u') votes[s.id][cur]='n'; }); renderSenate(); };
@@ -3150,7 +3163,12 @@ $('gop').addEventListener('click', e=>{
 });
 $('gop').addEventListener('keydown', e=>{ if(e.key!=='Enter' && e.key!==' ') return; const t=e.target.closest('tr[data-gpn]'); if(t){ e.preventDefault(); gpOpen(t.dataset.gpn); } });
 $('gp-replay').onclick=()=>gAnimate(true);
-$('rulesbtn').addEventListener('click',()=>{ const b=$('rulesbtn'), p=$('rulespanel'), open=b.getAttribute('aria-expanded')!=='true'; b.setAttribute('aria-expanded',open); p.hidden=!open; if(open){ p.classList.remove('rin'); void p.offsetWidth; p.classList.add('rin'); } });
+// Two expandable buckets under the Senate detail: Sort & Filter, and Adjust Rules. Opening one closes the other.
+[['sortbtn','sortpanel'],['rulesbtn','rulespanel']].forEach(([bid,pid],i,all)=>$(bid).addEventListener('click',()=>{
+  const b=$(bid), p=$(pid), open=b.getAttribute('aria-expanded')!=='true';
+  all.forEach(([ob,op])=>{ if(ob!==bid){ $(ob).setAttribute('aria-expanded','false'); $(op).hidden=true; } });
+  b.setAttribute('aria-expanded',open); p.hidden=!open; if(open){ p.classList.remove('rin'); void p.offsetWidth; p.classList.add('rin'); }
+}));
 $('gp-sort').onchange=e=>{ gpSortV=e.target.value; gpChgDir=1; renderGopGrid(); };
 $('gp-fac').onchange=e=>{ gpFacV=e.target.value; renderGopGrid(); };
 $('gp-q').oninput=e=>{ gpQ=e.target.value.trim(); renderGopGrid(); };
