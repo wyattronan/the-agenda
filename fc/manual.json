@@ -226,10 +226,10 @@
  {
   "who": "Annie Andrews",
   "key": "sch",
-  "new_stance": "Oppose",
-  "evidence": "Won't back Schumer: 'It is time for a generational change on both sides of the aisle' (Nov 5, 2026); pledged in the campaign not to support him. Secret-ballot vote set for Dec 1; Schumer allies want it moved up.",
-  "url": "https://whipcount.dropsitenews.com/",
-  "why": "Schumer leader re-check, Nov 14 2026"
+  "new_stance": "Unclear",
+  "evidence": "Asked whether she backs Schumer or Van Hollen: 'I'm having conversations with both of them. I've not made a decision yet' (to reporters, Nov 17, 2026). Had called for 'generational change' (Nov 5) and pledged in the campaign not to back him. Secret-ballot vote set for Dec 1.",
+  "url": "https://x.com/igorbobic/status/2122695116368363942",
+  "why": "Wyatt's request, Nov 17 2026: Igor Bobic (HuffPost) post quoting her to reporters, Nov 17 2026. Latest statement sets the stance."
  },
  {
   "who": "Ed Markey",
@@ -1474,5 +1474,13 @@
   "evidence": "Before Van Hollen entered, said 'there's no other person that's running right now, so we'll see what happens' (Nov 11, 2026). Hasn't taken a position since Van Hollen's Nov 12 challenge, though Punchbowl's whip count lists him as a Schumer vote (Nov 16). Secret-ballot vote set for Dec 1.",
   "url": "https://www.mynbc5.com/article/welch-democratic-senate-majority-leader/74404630",
   "why": "Wyatt's call, Nov 17 2026: stays Unclear. His Nov 11 remark came before any challenger declared and left room to back someone else; no statement since. Punchbowl sheet: https://docs.google.com/spreadsheets/d/1BqryHo6TpPS5b8ax7rUDPg8t9P3jppkbRwy4aDMIMH8"
+ },
+ {
+  "who": "David Crowley",
+  "key": "medicaid",
+  "new_stance": "Lean support",
+  "evidence": "Asked if he still backs expansion, called getting the federal matching dollars 'an uphill battle' but said the state should still tackle health care (WRJN, Nov 16, 2026). Just before the election his campaign said expansion was no longer viable under the new federal limits and he'd revisit it if Congress reversed them (Journal Sentinel, Nov 9).",
+  "url": "https://www.jsonline.com/story/news/politics/2026/11/09/medicaid-expansion-in-doubt-even-with-wisconsin-democrats-in-control/92628521007/",
+  "why": "Wyatt's request, Nov 17 2026. Journal Sentinel Nov 9 2026 (campaign statement as summarized by Townhall, Nov 10; the JS page itself couldn't be opened here); WRJN Q&A Nov 16 2026: https://wrjn.com/news/2026/11/16/qa-wisconsin-governor-elect-david-crowley-on-election-results-and-priorities-including-education-healthcare-marijuana-act-10-prisoner-commutations. Latest statements are conditional and hedged, and conflict with his April 'fully expand BadgerCare' pledge, so Lean."
  }
 ]
