@@ -1,4 +1,4 @@
-# Senate data for the 120th Congress (Jan 2027), assuming Colom (MS) and Peltola (AK) win.
+# Senate data for the 120th Congress (Jan 2027). Colom (MS, AP call Nov 11) and Peltola (AK, AP call Nov 17) won.
 # Each issue value: (stance, evidence). Stances: Support / Lean support / Mixed / Unclear / Lean oppose / Oppose / N/A
 # "Support" always means support FOR the policy named in the column header.
 
@@ -121,7 +121,7 @@ ROSTER = [
  ("AL","Britt","Katie Britt","R","Continuing"),
  ("AL","Moore","Barry Moore","R","Senator-elect (succeeds Tuberville)"),
  ("AK","Murkowski","Lisa Murkowski","R","Continuing"),
- ("AK","Peltola","Mary Peltola","D","Presumed winner (uncalled; led by 0.3 pts)"),
+ ("AK","Peltola","Mary Peltola","D","Senator-elect (flip; defeated Sullivan; AP call Nov 17, 2026)"),
  ("AZ","Kelly","Mark Kelly","D","Continuing"),
  ("AZ","Gallego","Ruben Gallego","D","Continuing"),
  ("AR","Boozman","John Boozman","R","Continuing"),
