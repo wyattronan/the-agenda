@@ -1542,5 +1542,41 @@
   "url": "https://www.jsonline.com/story/news/politics/2026/11/09/medicaid-expansion-in-doubt-even-with-wisconsin-democrats-in-control/92628521007/",
   "why": "Wyatt's request, Nov 17 2026. Journal Sentinel Nov 9 2026 (campaign statement as summarized by Townhall, Nov 10; the JS page itself couldn't be opened here); WRJN Q&A Nov 16 2026: https://wrjn.com/news/2026/11/16/qa-wisconsin-governor-elect-david-crowley-on-election-results-and-priorities-including-education-healthcare-marijuana-act-10-prisoner-commutations. Latest statements are conditional and hedged, and conflict with his April 'fully expand BadgerCare' pledge, so Lean.",
   "hedge": "Promised to fully expand BadgerCare (Apr 2026); just before the election his campaign called expansion no longer viable and conditioned it on Congress reversing federal limits (Nov 9 report); after winning called it 'an uphill battle' (Nov 16)."
+ },
+ {
+  "who": "Gina Hinojosa",
+  "key": "prek",
+  "new_stance": "Lean support",
+  "evidence": "Said many voucher applicants wanted pre-K help and 'the Legislature should be responsive to that need,' but set no pre-K requirement (Texas Tribune interview, Nov 18, 2026).",
+  "url": "https://texastribune.org/2026/11/18/gina-hinojosa-texas-governor-elect-interview",
+  "why": "Daily update, Nov 19 2026 (source dated 2026-11-18)",
+  "note": "Source: https://texastribune.org/2026/11/18/gina-hinojosa-texas-governor-elect-interview (Texas Tribune, Nov 18, 2026). Prompted, favorable remark with no plan, so Lean."
+ },
+ {
+  "who": "Gina Hinojosa",
+  "key": "vouchers",
+  "new_stance": "Support",
+  "why": "Daily update, Nov 19 2026 (source dated 2026-11-18); stance unchanged, hedge added",
+  "note": "Hedge source: https://texastribune.org/2026/11/18/gina-hinojosa-texas-governor-elect-interview (Texas Tribune, Nov 18, 2026).",
+  "hedge": "Campaigned on ending private-school vouchers (2026), then as governor-elect called a revamped voucher program 'a negotiation' with no must-haves, saying only she doesn't see it expanding (Nov 18, 2026).",
+  "hedge_url": "https://texastribune.org/2026/11/18/gina-hinojosa-texas-governor-elect-interview"
+ },
+ {
+  "who": "Gina Hinojosa",
+  "key": "ice",
+  "new_stance": "Lean support",
+  "evidence": "Says Texas 'should not facilitate' ICE and questioned Abbott's order making agencies assist it, but wants to read it first; wants no masked agents (Nov 18, 2026). Not sensitive-location rules.",
+  "url": "https://texastribune.org/2026/11/18/gina-hinojosa-texas-governor-elect-interview",
+  "why": "Daily update, Nov 19 2026 (source dated 2026-11-18); stance unchanged, evidence refreshed",
+  "note": "Source: https://texastribune.org/2026/11/18/gina-hinojosa-texas-governor-elect-interview (Texas Tribune, Nov 18, 2026). Stays Lean: no firm commitment to rescind the order."
+ },
+ {
+  "who": "Ron Johnson",
+  "key": "fil",
+  "new_stance": "Support",
+  "evidence": "Urged Republicans to 'eliminate the filibuster' in the lame duck, saying Democrats will anyway (Breitbart interview, Nov 18, 2026); earlier WSJ op-ed made the same case (Mar 2026).",
+  "url": "https://www.yahoo.com/news/politics/articles/ron-johnson-calls-gop-ditch-232925049.html",
+  "why": "Daily update, Nov 19 2026 (source dated 2026-11-18); stance unchanged, evidence refreshed",
+  "note": "Source: https://www.yahoo.com/news/politics/articles/ron-johnson-calls-gop-ditch-232925049.html (The Hill via Yahoo, Nov 18, 2026)."
  }
 ]

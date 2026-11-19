@@ -572,5 +572,25 @@
    "opp": 20
   },
   "note": "sup = % opposing higher Canada tariffs, opp = % supporting; 21% don't know. Three-day online poll ending ~Aug 30 2026."
+ },
+ {
+  "match": "concept",
+  "pollster": "Strength In Numbers / Verasight",
+  "sponsor": "",
+  "tier": 2,
+  "type": "national",
+  "fielded": "2026-11",
+  "n": null,
+  "url": "https://www.gelliottmorris.com/p/2026-11-18-november-strength-in-numbers-verasight-poll-release",
+  "states": {},
+  "keys": [
+   "sen:iran"
+  ],
+  "question": "A bill to end the war in Iran",
+  "national": {
+   "sup": 73,
+   "opp": 18
+  },
+  "note": "Released Nov 18, 2026; fielded about a week after the Nov 3 election. Field dates and sample size not in the public write-up. Concept match: ending the war, not the war powers resolution itself."
  }
 ]

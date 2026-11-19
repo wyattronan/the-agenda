@@ -300,5 +300,25 @@
    "opp": 76
   },
   "note": "US adults. sup = get rid of entirely (19%); opp = keep with reforms (38%) + keep with no changes (38%); 6% DK. Older poll; no newer tier-1 filibuster topline opened."
+ },
+ {
+  "match": "concept",
+  "pollster": "Strength In Numbers / Verasight",
+  "sponsor": "",
+  "tier": 2,
+  "type": "national",
+  "fielded": "2026-11",
+  "n": null,
+  "url": "https://www.gelliottmorris.com/p/2026-11-18-november-strength-in-numbers-verasight-poll-release",
+  "states": {},
+  "keys": [
+   "sen:stock"
+  ],
+  "question": "Ban members of Congress from trading stocks",
+  "national": {
+   "sup": 84,
+   "opp": 6
+  },
+  "note": "Released Nov 18, 2026; fielded about a week after the Nov 3 election. Field dates and sample size not in the public write-up."
  }
 ]
