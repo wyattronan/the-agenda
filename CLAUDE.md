@@ -6,7 +6,7 @@ Read RUNBOOK.md, fc/INSTRUCTIONS.md and fc/polls/BRIEF.md before changing data.
 - Never infer support. Anyone without their own statement or vote is Undecided/Unclear.
 - The most recent action sets a stance. When evidence shows actions pointing both ways, follow the latest one, softened to a Lean if an earlier action conflicts (Mixed only when the latest action is itself mixed). Whip meters order seats by the date of each position's most recent action.
 - Republicans default to No on fil/dcpr/gerry and on state npv/avr.
-- Fixed calls: the Kansas governor is D. Arizona and Alaska are Democratic trifectas. Texas is split.
+- Fixed calls: the Kansas governor is D. Arizona and Alaska are Democratic trifectas. Texas is split. Treat Alaska as a Democratic trifecta unless a source shows definitively that it isn't; don't flag it otherwise.
 - Every changed position needs a source URL and a date in its note.
 - A position's default vote follows its stance: Support or Lean support defaults to Yes; Oppose or Lean oppose defaults to No. When a stance changes, the default changes with it. `defVote` in template.html does this, and visitors' saved votes reset when a cell's default moves, so don't override the default by hand.
 - New stances are tagged "New stance" on their Senate and state-senate cards for 7 days. `newstance.py` dates each change in `fc/stance_log.json` at build time; commit that file with every data change.
