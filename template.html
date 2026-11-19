@@ -2390,7 +2390,7 @@ const NEWST = D.newst || {};
 const newSince = key=>{ const d=NEWST[key]; if(!d) return ''; const age=(Date.now()-new Date(d+'T12:00:00').getTime())/864e5; return age<7 ? d : ''; };
 const HEDGE = D.hedge || {sen:{},gov:{}};
 // "Hedging": the person has been on both sides, or tailors it to the audience. Keyed like nsTag ("sen:Kaine|sch").
-const hedgeRec = key=>{ const m=/^(sen|gov):(.+)$/.exec(key||''); const h=m?(HEDGE[m[1]]||{})[m[2]]:null; return !h ? null : typeof h==='string' ? {t:h} : h; };
+const hedgeRec = key=>{ const m=/^(sen|gov|ss):(.+)$/.exec(key||''); const h=m?(HEDGE[m[1]]||{})[m[2]]:null; return !h ? null : typeof h==='string' ? {t:h} : h; };
 const hedgeOf = key=>{ const h=hedgeRec(key); return h ? h.t : ''; };
 const hedgeUrl = key=>{ const h=hedgeRec(key); return h&&h.u || ''; };
 const hgSrc = u=> u ? ` <a class="srcln" href="${esc(u)}" target="_blank" rel="noopener">Source ↗</a>` : '';
@@ -4038,7 +4038,7 @@ function renderSS(){
   <div class="cgrid" id="x-list">${rows.length ? rows.map(m=>{
     const [stance,ev]=m.r[k];
     const top=`<span class="stc">SD${m.d}</span><b title="${esc(m.n)}">${esc(m.n)}</b><span class="pty ${m.p}">${m.p}</span>${m.f.includes('new')?'<span class="newtag" title="Newly elected in 2026">NEW MEMBER</span>':''}${m.f.includes('narrow')?'<span class="closetag">CLOSE</span>':''}`;
-    return card({id:m.vid, vid:m.vid, top, stance, ev, note:m.note, v:sVotes[m.vid][k], asm: m.p==='R' && SPOWER.has(k), nm:`${m.n} (SD${m.d})`, iss:GI[k]?GI[k].f:k, nk:'ss:'+m.vid+'|'+k});
+    return card({id:m.vid, vid:m.vid, top, stance, ev, note:m.note, v:sVotes[m.vid][k], asm: m.p==='R' && SPOWER.has(k), src: (CURL.ss||{})[m.vid+'|'+k], nm:`${m.n} (SD${m.d})`, iss:GI[k]?GI[k].f:k, nk:'ss:'+m.vid+'|'+k});
   }).join('') : '<div class="empty">No senators match these filters.</div>'}</div>`;
   $('x-fp').value=sfp; $('x-fv').value=sfv;
   const bind=(id,key)=>{ const el=$(id); if(!el) return; el.value=sAsm[key]; el.addEventListener('change',e=>{ sAsm[key]=e.target.value; renderSS(); persist(); }); };
