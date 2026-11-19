@@ -15,17 +15,25 @@ Scope:
 - New public statements by people already tracked.
 - Poll additions (`fc/polls`).
 - Office changes (resignations, appointments, swearing-ins).
+- GOP postmortem statements by the people in `gop/gop_tracker.json` (see "GOP postmortem, daily" below).
 
 Steps:
 
 1. Run `git pull`.
-2. Search the news from the last 48 hours for each tracked issue and person.
-3. Write only sourced changes into `fc/manual.json` and `fc/polls`, with the date and URL.
+2. Search the news from the last 48 hours for each tracked issue and person, including the GOP postmortem people.
+3. Write only sourced changes into `fc/manual.json`, `fc/polls` and `gop/gop_tracker.json`, with the date and URL.
 4. Run `./build.sh`. If `checks.py` fails, stop and change nothing.
 5. Safety cap: if a run would change more than 15 positions, don't push to `main`. Open a pull request instead, as in the weekly flow.
 6. Commit as "Daily update YYYY-MM-DD: N changes", with one line per change. Push to `main`, and Netlify deploys.
    Include `fc/stance_log.json` in the commit. The build stamps each stance change with the build date (Chicago time), and the site tags those cells "New stance" for 7 days. Never edit the log by hand.
 7. Send a short notification listing the changes.
+
+### GOP postmortem, daily
+Search the last 48 hours for what each person in `gop/gop_tracker.json` said about the midterm loss, Trump, or the tracked issues (`issues` keys).
+- A statement that pulls back from a recorded shift: add it to their `walkbacks` list, as in "Postmortem walkbacks" below. The site scores it. Each walkback counts as one change toward the 15-change cap.
+- A statement that adds to or restates a position: update that `issues` field (one or two sentences, with the date), and add the outlet and date to `sources`. Not a stance change; list it under "Note text only".
+- A statement that would move a `map` pre/post score or a `posture` (a new break with Trump, a Silent person speaking up): don't apply it. Flag it in the commit message for the weekly run, with the source.
+- Set `as_of` and the end of `window` to the latest statement date recorded.
 
 ## Weighing statements (all scrapes)
 
