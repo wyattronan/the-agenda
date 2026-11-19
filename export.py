@@ -65,6 +65,8 @@ for g in d["gov"]:
         _fcurls.pop(("gov", g["n"], _old), None)
 d["hot"] = {"sen": sorted(issue_meta.HOT), "gov": sorted(gov2.HOT)}
 d["curl"]["gov"].update({f"{st}|guard": u for st, u in gov2.GUARD_URLS.items()})
+d["curl"]["ss"] = dict(state_senate.SS_URLS)
+d.setdefault("hedge", {"sen": {}, "gov": {}})["ss"] = dict(state_senate.SS_HEDGE)
 # measures removed from the site: drop any leftover research records for them (fc/out still holds old findings)
 DROPPED = set(issue_meta.DROPPED)
 for _x in d["sen"]:

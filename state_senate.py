@@ -143,6 +143,24 @@ ALT_OVR = {("GA",37): {"roe": ("Oppose", "Sponsored HB 481 (2019), Georgia's six
   "vouchers": ("Oppose", "Voted for SB 233, the Georgia Promise Scholarship voucher (Mar 6 2023, 33–23, every Republican yes)."),
   "ptax": ("Lean support", "HB 581 (2024), the floating homestead exemption, passed the Senate 52–0 (Mar 28 2024); four didn't vote and the per-member roll call wasn't retrievable.")}}
 
+# ---------- weekly state-senate checks (fc/ss_check.json): later rows override everything above ----------
+import json as _json, os as _os
+SS_URLS, SS_HEDGE = {}, {}
+_CHK = _os.path.join(_os.path.dirname(_os.path.abspath(__file__)), "fc", "ss_check.json")
+if _os.path.exists(_CHK):
+    for _r in _json.load(open(_CHK)):
+        _st, _d, _k = _r["st"], _r["district"], _r["key"]
+        _cell = (_r["new"], _r["evidence"])
+        if _r.get("alt"):
+            ALT_OVR.setdefault((_st, _d), {})[_k] = _cell
+            _vid = f"{_st}{_d}a"
+        else:
+            put(_st, _d, **{_k: _cell})
+            _vid = f"{_st}{_d}"
+        if _r.get("url"): SS_URLS[f"{_vid}|{_k}"] = _r["url"]
+        if _r.get("hedge"): SS_HEDGE[f"{_vid}|{_k}"] = {"t": _r["hedge"], **({"u": _r["hedge_url"]} if _r.get("hedge_url") else {})}
+        else: SS_HEDGE.pop(f"{_vid}|{_k}", None)
+
 def rec(st, d, p, ov=None):
     base = DEF[st]("D" if p in ("D","V") else "R")
     r = {k: list(base[k]) for k in KEYS}
