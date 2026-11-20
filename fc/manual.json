@@ -1578,5 +1578,920 @@
   "url": "https://www.yahoo.com/news/politics/articles/ron-johnson-calls-gop-ditch-232925049.html",
   "why": "Daily update, Nov 19 2026 (source dated 2026-11-18); stance unchanged, evidence refreshed",
   "note": "Source: https://www.yahoo.com/news/politics/articles/ron-johnson-calls-gop-ditch-232925049.html (The Hill via Yahoo, Nov 18, 2026)."
+ },
+ {
+  "who": "Katie Britt",
+  "key": "iran",
+  "new_stance": "Oppose",
+  "evidence": "Voted against H.Con.Res. 93 to remove U.S. forces from hostilities with Iran (Nov 19 2026, rejected 48–51). Earlier: voted against the Iran war powers resolution (Apr 15 2026, 47–52).",
+  "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00269.htm",
+  "why": "Daily update, Nov 20 2026 (source dated 2026-11-19); stance unchanged, evidence refreshed to latest vote",
+  "note": "Source: https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00269.htm (senate.gov roll call 269, Nov 19, 2026)."
+ },
+ {
+  "who": "Lisa Murkowski",
+  "key": "iran",
+  "new_stance": "Support",
+  "evidence": "Voted for H.Con.Res. 93 to remove U.S. forces from hostilities with Iran (Nov 19 2026, rejected 48–51). Earlier: after a no on Apr 15 2026, voted for Iran war powers measures on May 19, Jun 23 (H.Con.Res. 86, adopted 50-48) and Sep 24 2026.",
+  "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00269.htm",
+  "why": "Daily update, Nov 20 2026 (source dated 2026-11-19); stance unchanged, evidence refreshed to latest vote",
+  "note": "Source: https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00269.htm (senate.gov roll call 269, Nov 19, 2026)."
+ },
+ {
+  "who": "Mark Kelly",
+  "key": "iran",
+  "new_stance": "Support",
+  "evidence": "Voted for H.Con.Res. 93 to remove U.S. forces from hostilities with Iran (Nov 19 2026, rejected 48–51). Earlier: voted for Kaine's Iran war powers resolution (Apr 15 2026, 47–52).",
+  "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00269.htm",
+  "why": "Daily update, Nov 20 2026 (source dated 2026-11-19); stance unchanged, evidence refreshed to latest vote",
+  "note": "Source: https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00269.htm (senate.gov roll call 269, Nov 19, 2026)."
+ },
+ {
+  "who": "Ruben Gallego",
+  "key": "iran",
+  "new_stance": "Support",
+  "evidence": "Voted for H.Con.Res. 93 to remove U.S. forces from hostilities with Iran (Nov 19 2026, rejected 48–51). Earlier: voted for Kaine's Iran war powers resolution (Apr 15 2026, 47–52).",
+  "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00269.htm",
+  "why": "Daily update, Nov 20 2026 (source dated 2026-11-19); stance unchanged, evidence refreshed to latest vote",
+  "note": "Source: https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00269.htm (senate.gov roll call 269, Nov 19, 2026)."
+ },
+ {
+  "who": "John Boozman",
+  "key": "iran",
+  "new_stance": "Oppose",
+  "evidence": "Voted against H.Con.Res. 93 to remove U.S. forces from hostilities with Iran (Nov 19 2026, rejected 48–51). Earlier: voted against the Iran war powers resolution (Apr 15 2026, 47–52).",
+  "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00269.htm",
+  "why": "Daily update, Nov 20 2026 (source dated 2026-11-19); stance unchanged, evidence refreshed to latest vote",
+  "note": "Source: https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00269.htm (senate.gov roll call 269, Nov 19, 2026)."
+ },
+ {
+  "who": "Tom Cotton",
+  "key": "iran",
+  "new_stance": "Oppose",
+  "evidence": "Voted against H.Con.Res. 93 to remove U.S. forces from hostilities with Iran (Nov 19 2026, rejected 48–51). Earlier: voted against the Iran war powers resolution (Apr 15 2026, 47–52).",
+  "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00269.htm",
+  "why": "Daily update, Nov 20 2026 (source dated 2026-11-19); stance unchanged, evidence refreshed to latest vote",
+  "note": "Source: https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00269.htm (senate.gov roll call 269, Nov 19, 2026)."
+ },
+ {
+  "who": "Alex Padilla",
+  "key": "iran",
+  "new_stance": "Support",
+  "evidence": "Voted for H.Con.Res. 93 to remove U.S. forces from hostilities with Iran (Nov 19 2026, rejected 48–51). Earlier: voted for Kaine's Iran war powers resolution (Apr 15 2026, 47–52).",
+  "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00269.htm",
+  "why": "Daily update, Nov 20 2026 (source dated 2026-11-19); stance unchanged, evidence refreshed to latest vote",
+  "note": "Source: https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00269.htm (senate.gov roll call 269, Nov 19, 2026)."
+ },
+ {
+  "who": "Adam Schiff",
+  "key": "iran",
+  "new_stance": "Support",
+  "evidence": "Voted for H.Con.Res. 93 to remove U.S. forces from hostilities with Iran (Nov 19 2026, rejected 48–51).",
+  "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00269.htm",
+  "why": "Daily update, Nov 20 2026 (source dated 2026-11-19); stance unchanged, evidence refreshed to latest vote",
+  "note": "Source: https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00269.htm (senate.gov roll call 269, Nov 19, 2026)."
+ },
+ {
+  "who": "Michael Bennet",
+  "key": "iran",
+  "new_stance": "Support",
+  "evidence": "Voted for H.Con.Res. 93 to remove U.S. forces from hostilities with Iran (Nov 19 2026, rejected 48–51).",
+  "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00269.htm",
+  "why": "Daily update, Nov 20 2026 (source dated 2026-11-19); stance unchanged, evidence refreshed to latest vote",
+  "note": "Source: https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00269.htm (senate.gov roll call 269, Nov 19, 2026)."
+ },
+ {
+  "who": "John Hickenlooper",
+  "key": "iran",
+  "new_stance": "Support",
+  "evidence": "Voted for H.Con.Res. 93 to remove U.S. forces from hostilities with Iran (Nov 19 2026, rejected 48–51).",
+  "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00269.htm",
+  "why": "Daily update, Nov 20 2026 (source dated 2026-11-19); stance unchanged, evidence refreshed to latest vote",
+  "note": "Source: https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00269.htm (senate.gov roll call 269, Nov 19, 2026)."
+ },
+ {
+  "who": "Richard Blumenthal",
+  "key": "iran",
+  "new_stance": "Support",
+  "evidence": "Voted for H.Con.Res. 93 to remove U.S. forces from hostilities with Iran (Nov 19 2026, rejected 48–51).",
+  "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00269.htm",
+  "why": "Daily update, Nov 20 2026 (source dated 2026-11-19); stance unchanged, evidence refreshed to latest vote",
+  "note": "Source: https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00269.htm (senate.gov roll call 269, Nov 19, 2026)."
+ },
+ {
+  "who": "Chris Coons",
+  "key": "iran",
+  "new_stance": "Support",
+  "evidence": "Voted for H.Con.Res. 93 to remove U.S. forces from hostilities with Iran (Nov 19 2026, rejected 48–51).",
+  "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00269.htm",
+  "why": "Daily update, Nov 20 2026 (source dated 2026-11-19); stance unchanged, evidence refreshed to latest vote",
+  "note": "Source: https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00269.htm (senate.gov roll call 269, Nov 19, 2026)."
+ },
+ {
+  "who": "Lisa Blunt Rochester",
+  "key": "iran",
+  "new_stance": "Support",
+  "evidence": "Voted for H.Con.Res. 93 to remove U.S. forces from hostilities with Iran (Nov 19 2026, rejected 48–51). Earlier: voted for Kaine's Iran war powers resolution (Apr 15 2026, 47–52).",
+  "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00269.htm",
+  "why": "Daily update, Nov 20 2026 (source dated 2026-11-19); stance unchanged, evidence refreshed to latest vote",
+  "note": "Source: https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00269.htm (senate.gov roll call 269, Nov 19, 2026)."
+ },
+ {
+  "who": "Rick Scott",
+  "key": "iran",
+  "new_stance": "Oppose",
+  "evidence": "Voted against H.Con.Res. 93 to remove U.S. forces from hostilities with Iran (Nov 19 2026, rejected 48–51). Earlier: voted against the Iran war powers resolution (Apr 15 2026, 47–52).",
+  "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00269.htm",
+  "why": "Daily update, Nov 20 2026 (source dated 2026-11-19); stance unchanged, evidence refreshed to latest vote",
+  "note": "Source: https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00269.htm (senate.gov roll call 269, Nov 19, 2026)."
+ },
+ {
+  "who": "Ashley Moody",
+  "key": "iran",
+  "new_stance": "Oppose",
+  "evidence": "Voted against H.Con.Res. 93 to remove U.S. forces from hostilities with Iran (Nov 19 2026, rejected 48–51). Earlier: voted against the Iran war powers resolution (Apr 15 2026, 47–52).",
+  "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00269.htm",
+  "why": "Daily update, Nov 20 2026 (source dated 2026-11-19); stance unchanged, evidence refreshed to latest vote",
+  "note": "Source: https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00269.htm (senate.gov roll call 269, Nov 19, 2026)."
+ },
+ {
+  "who": "Raphael Warnock",
+  "key": "iran",
+  "new_stance": "Support",
+  "evidence": "Voted for H.Con.Res. 93 to remove U.S. forces from hostilities with Iran (Nov 19 2026, rejected 48–51).",
+  "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00269.htm",
+  "why": "Daily update, Nov 20 2026 (source dated 2026-11-19); stance unchanged, evidence refreshed to latest vote",
+  "note": "Source: https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00269.htm (senate.gov roll call 269, Nov 19, 2026)."
+ },
+ {
+  "who": "Jon Ossoff",
+  "key": "iran",
+  "new_stance": "Support",
+  "evidence": "Voted for H.Con.Res. 93 to remove U.S. forces from hostilities with Iran (Nov 19 2026, rejected 48–51). Earlier: voted for Kaine's Iran war powers resolution (Apr 15 2026, 47–52).",
+  "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00269.htm",
+  "why": "Daily update, Nov 20 2026 (source dated 2026-11-19); stance unchanged, evidence refreshed to latest vote",
+  "note": "Source: https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00269.htm (senate.gov roll call 269, Nov 19, 2026)."
+ },
+ {
+  "who": "Brian Schatz",
+  "key": "iran",
+  "new_stance": "Support",
+  "evidence": "Voted for H.Con.Res. 93 to remove U.S. forces from hostilities with Iran (Nov 19 2026, rejected 48–51). Earlier: voted for Kaine's Iran war powers resolution (Apr 15 2026, 47–52).",
+  "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00269.htm",
+  "why": "Daily update, Nov 20 2026 (source dated 2026-11-19); stance unchanged, evidence refreshed to latest vote",
+  "note": "Source: https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00269.htm (senate.gov roll call 269, Nov 19, 2026)."
+ },
+ {
+  "who": "Mazie Hirono",
+  "key": "iran",
+  "new_stance": "Support",
+  "evidence": "Voted for H.Con.Res. 93 to remove U.S. forces from hostilities with Iran (Nov 19 2026, rejected 48–51). Earlier: voted for Kaine's Iran war powers resolution (Apr 15 2026, 47–52).",
+  "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00269.htm",
+  "why": "Daily update, Nov 20 2026 (source dated 2026-11-19); stance unchanged, evidence refreshed to latest vote",
+  "note": "Source: https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00269.htm (senate.gov roll call 269, Nov 19, 2026)."
+ },
+ {
+  "who": "Mike Crapo",
+  "key": "iran",
+  "new_stance": "Oppose",
+  "evidence": "Voted against H.Con.Res. 93 to remove U.S. forces from hostilities with Iran (Nov 19 2026, rejected 48–51). Earlier: voted against the Iran war powers resolution (Apr 15 2026, 47–52).",
+  "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00269.htm",
+  "why": "Daily update, Nov 20 2026 (source dated 2026-11-19); stance unchanged, evidence refreshed to latest vote",
+  "note": "Source: https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00269.htm (senate.gov roll call 269, Nov 19, 2026)."
+ },
+ {
+  "who": "Jim Risch",
+  "key": "iran",
+  "new_stance": "Oppose",
+  "evidence": "Voted against H.Con.Res. 93 to remove U.S. forces from hostilities with Iran (Nov 19 2026, rejected 48–51). Earlier: voted against the Iran war powers resolution (Apr 15 2026, 47–52).",
+  "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00269.htm",
+  "why": "Daily update, Nov 20 2026 (source dated 2026-11-19); stance unchanged, evidence refreshed to latest vote",
+  "note": "Source: https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00269.htm (senate.gov roll call 269, Nov 19, 2026)."
+ },
+ {
+  "who": "Tammy Duckworth",
+  "key": "iran",
+  "new_stance": "Support",
+  "evidence": "Voted for H.Con.Res. 93 to remove U.S. forces from hostilities with Iran (Nov 19 2026, rejected 48–51).",
+  "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00269.htm",
+  "why": "Daily update, Nov 20 2026 (source dated 2026-11-19); stance unchanged, evidence refreshed to latest vote",
+  "note": "Source: https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00269.htm (senate.gov roll call 269, Nov 19, 2026)."
+ },
+ {
+  "who": "Todd Young",
+  "key": "iran",
+  "new_stance": "Oppose",
+  "evidence": "Voted against H.Con.Res. 93 to remove U.S. forces from hostilities with Iran (Nov 19 2026, rejected 48–51). Earlier: voted against the Iran war powers resolution (Apr 15 2026, 47–52).",
+  "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00269.htm",
+  "why": "Daily update, Nov 20 2026 (source dated 2026-11-19); stance unchanged, evidence refreshed to latest vote",
+  "note": "Source: https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00269.htm (senate.gov roll call 269, Nov 19, 2026)."
+ },
+ {
+  "who": "Jim Banks",
+  "key": "iran",
+  "new_stance": "Oppose",
+  "evidence": "Voted against H.Con.Res. 93 to remove U.S. forces from hostilities with Iran (Nov 19 2026, rejected 48–51). Earlier: voted against the Iran war powers resolution (Apr 15 2026, 47–52).",
+  "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00269.htm",
+  "why": "Daily update, Nov 20 2026 (source dated 2026-11-19); stance unchanged, evidence refreshed to latest vote",
+  "note": "Source: https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00269.htm (senate.gov roll call 269, Nov 19, 2026)."
+ },
+ {
+  "who": "Chuck Grassley",
+  "key": "iran",
+  "new_stance": "Oppose",
+  "evidence": "Voted against H.Con.Res. 93 to remove U.S. forces from hostilities with Iran (Nov 19 2026, rejected 48–51). Earlier: voted against the Iran war powers resolution (Apr 15 2026, 47–52).",
+  "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00269.htm",
+  "why": "Daily update, Nov 20 2026 (source dated 2026-11-19); stance unchanged, evidence refreshed to latest vote",
+  "note": "Source: https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00269.htm (senate.gov roll call 269, Nov 19, 2026)."
+ },
+ {
+  "who": "Jerry Moran",
+  "key": "iran",
+  "new_stance": "Oppose",
+  "evidence": "Voted against H.Con.Res. 93 to remove U.S. forces from hostilities with Iran (Nov 19 2026, rejected 48–51). Earlier: voted against the Iran war powers resolution (Apr 15 2026, 47–52).",
+  "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00269.htm",
+  "why": "Daily update, Nov 20 2026 (source dated 2026-11-19); stance unchanged, evidence refreshed to latest vote",
+  "note": "Source: https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00269.htm (senate.gov roll call 269, Nov 19, 2026)."
+ },
+ {
+  "who": "Rand Paul",
+  "key": "iran",
+  "new_stance": "Support",
+  "evidence": "Voted for H.Con.Res. 93 to remove U.S. forces from hostilities with Iran (Nov 19 2026, rejected 48–51). Earlier: only Republican to vote for the Iran war powers resolution (Apr 15 2026, 47–52).",
+  "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00269.htm",
+  "why": "Daily update, Nov 20 2026 (source dated 2026-11-19); stance unchanged, evidence refreshed to latest vote",
+  "note": "Source: https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00269.htm (senate.gov roll call 269, Nov 19, 2026)."
+ },
+ {
+  "who": "John Kennedy",
+  "key": "iran",
+  "new_stance": "Oppose",
+  "evidence": "Voted against H.Con.Res. 93 to remove U.S. forces from hostilities with Iran (Nov 19 2026, rejected 48–51). Earlier: voted against the Iran war powers resolution (Apr 15 2026, 47–52).",
+  "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00269.htm",
+  "why": "Daily update, Nov 20 2026 (source dated 2026-11-19); stance unchanged, evidence refreshed to latest vote",
+  "note": "Source: https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00269.htm (senate.gov roll call 269, Nov 19, 2026)."
+ },
+ {
+  "who": "Angus King",
+  "key": "iran",
+  "new_stance": "Support",
+  "evidence": "Voted for H.Con.Res. 93 to remove U.S. forces from hostilities with Iran (Nov 19 2026, rejected 48–51). Earlier: voted for Kaine's Iran war powers resolution (Apr 15 2026, 47–52).",
+  "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00269.htm",
+  "why": "Daily update, Nov 20 2026 (source dated 2026-11-19); stance unchanged, evidence refreshed to latest vote",
+  "note": "Source: https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00269.htm (senate.gov roll call 269, Nov 19, 2026)."
+ },
+ {
+  "who": "Chris Van Hollen",
+  "key": "iran",
+  "new_stance": "Support",
+  "evidence": "Voted for H.Con.Res. 93 to remove U.S. forces from hostilities with Iran (Nov 19 2026, rejected 48–51).",
+  "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00269.htm",
+  "why": "Daily update, Nov 20 2026 (source dated 2026-11-19); stance unchanged, evidence refreshed to latest vote",
+  "note": "Source: https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00269.htm (senate.gov roll call 269, Nov 19, 2026)."
+ },
+ {
+  "who": "Angela Alsobrooks",
+  "key": "iran",
+  "new_stance": "Support",
+  "evidence": "Voted for H.Con.Res. 93 to remove U.S. forces from hostilities with Iran (Nov 19 2026, rejected 48–51). Earlier: voted for Kaine's Iran war powers resolution (Apr 15 2026, 47–52).",
+  "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00269.htm",
+  "why": "Daily update, Nov 20 2026 (source dated 2026-11-19); stance unchanged, evidence refreshed to latest vote",
+  "note": "Source: https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00269.htm (senate.gov roll call 269, Nov 19, 2026)."
+ },
+ {
+  "who": "Elizabeth Warren",
+  "key": "iran",
+  "new_stance": "Support",
+  "evidence": "Voted for H.Con.Res. 93 to remove U.S. forces from hostilities with Iran (Nov 19 2026, rejected 48–51).",
+  "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00269.htm",
+  "why": "Daily update, Nov 20 2026 (source dated 2026-11-19); stance unchanged, evidence refreshed to latest vote",
+  "note": "Source: https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00269.htm (senate.gov roll call 269, Nov 19, 2026)."
+ },
+ {
+  "who": "Ed Markey",
+  "key": "iran",
+  "new_stance": "Support",
+  "evidence": "Voted for H.Con.Res. 93 to remove U.S. forces from hostilities with Iran (Nov 19 2026, rejected 48–51).",
+  "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00269.htm",
+  "why": "Daily update, Nov 20 2026 (source dated 2026-11-19); stance unchanged, evidence refreshed to latest vote",
+  "note": "Source: https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00269.htm (senate.gov roll call 269, Nov 19, 2026)."
+ },
+ {
+  "who": "Elissa Slotkin",
+  "key": "iran",
+  "new_stance": "Support",
+  "evidence": "Voted for H.Con.Res. 93 to remove U.S. forces from hostilities with Iran (Nov 19 2026, rejected 48–51). Earlier: voted to discharge Duckworth's Iran war powers resolution S.J.Res.123 (Apr 2026, 47-52); recorded 'Kaine' attribution corrected.",
+  "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00269.htm",
+  "why": "Daily update, Nov 20 2026 (source dated 2026-11-19); stance unchanged, evidence refreshed to latest vote",
+  "note": "Source: https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00269.htm (senate.gov roll call 269, Nov 19, 2026)."
+ },
+ {
+  "who": "Roger Wicker",
+  "key": "iran",
+  "new_stance": "Oppose",
+  "evidence": "Voted against H.Con.Res. 93 to remove U.S. forces from hostilities with Iran (Nov 19 2026, rejected 48–51). Earlier: voted against the Iran war powers resolution (Apr 15 2026, 47–52).",
+  "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00269.htm",
+  "why": "Daily update, Nov 20 2026 (source dated 2026-11-19); stance unchanged, evidence refreshed to latest vote",
+  "note": "Source: https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00269.htm (senate.gov roll call 269, Nov 19, 2026)."
+ },
+ {
+  "who": "Josh Hawley",
+  "key": "iran",
+  "new_stance": "Oppose",
+  "evidence": "Voted against H.Con.Res. 93 to remove U.S. forces from hostilities with Iran (Nov 19 2026, rejected 48–51). Earlier: voted against the Iran war powers resolution (Apr 15 2026, 47–52).",
+  "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00269.htm",
+  "why": "Daily update, Nov 20 2026 (source dated 2026-11-19); stance unchanged, evidence refreshed to latest vote",
+  "note": "Source: https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00269.htm (senate.gov roll call 269, Nov 19, 2026)."
+ },
+ {
+  "who": "Eric Schmitt",
+  "key": "iran",
+  "new_stance": "Oppose",
+  "evidence": "Voted against H.Con.Res. 93 to remove U.S. forces from hostilities with Iran (Nov 19 2026, rejected 48–51). Earlier: voted against the Iran war powers resolution (Apr 15 2026, 47–52).",
+  "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00269.htm",
+  "why": "Daily update, Nov 20 2026 (source dated 2026-11-19); stance unchanged, evidence refreshed to latest vote",
+  "note": "Source: https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00269.htm (senate.gov roll call 269, Nov 19, 2026)."
+ },
+ {
+  "who": "Tim Sheehy",
+  "key": "iran",
+  "new_stance": "Oppose",
+  "evidence": "Voted against H.Con.Res. 93 to remove U.S. forces from hostilities with Iran (Nov 19 2026, rejected 48–51). Earlier: voted against the Iran war powers resolution (Apr 15 2026, 47–52).",
+  "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00269.htm",
+  "why": "Daily update, Nov 20 2026 (source dated 2026-11-19); stance unchanged, evidence refreshed to latest vote",
+  "note": "Source: https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00269.htm (senate.gov roll call 269, Nov 19, 2026)."
+ },
+ {
+  "who": "Deb Fischer",
+  "key": "iran",
+  "new_stance": "Oppose",
+  "evidence": "Voted against H.Con.Res. 93 to remove U.S. forces from hostilities with Iran (Nov 19 2026, rejected 48–51). Earlier: voted against the Iran war powers resolution (Apr 15 2026, 47–52).",
+  "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00269.htm",
+  "why": "Daily update, Nov 20 2026 (source dated 2026-11-19); stance unchanged, evidence refreshed to latest vote",
+  "note": "Source: https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00269.htm (senate.gov roll call 269, Nov 19, 2026)."
+ },
+ {
+  "who": "Pete Ricketts",
+  "key": "iran",
+  "new_stance": "Oppose",
+  "evidence": "Voted against H.Con.Res. 93 to remove U.S. forces from hostilities with Iran (Nov 19 2026, rejected 48–51). Earlier: voted against the Iran war powers resolution (Apr 15 2026, 47–52).",
+  "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00269.htm",
+  "why": "Daily update, Nov 20 2026 (source dated 2026-11-19); stance unchanged, evidence refreshed to latest vote",
+  "note": "Source: https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00269.htm (senate.gov roll call 269, Nov 19, 2026)."
+ },
+ {
+  "who": "Catherine Cortez Masto",
+  "key": "iran",
+  "new_stance": "Support",
+  "evidence": "Voted for H.Con.Res. 93 to remove U.S. forces from hostilities with Iran (Nov 19 2026, rejected 48–51). Earlier: voted for Kaine's Iran war powers resolution (Apr 15 2026, 47–52).",
+  "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00269.htm",
+  "why": "Daily update, Nov 20 2026 (source dated 2026-11-19); stance unchanged, evidence refreshed to latest vote",
+  "note": "Source: https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00269.htm (senate.gov roll call 269, Nov 19, 2026)."
+ },
+ {
+  "who": "Jacky Rosen",
+  "key": "iran",
+  "new_stance": "Support",
+  "evidence": "Voted for H.Con.Res. 93 to remove U.S. forces from hostilities with Iran (Nov 19 2026, rejected 48–51). Earlier: voted for Kaine's Iran war powers resolution (Apr 15 2026, 47–52).",
+  "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00269.htm",
+  "why": "Daily update, Nov 20 2026 (source dated 2026-11-19); stance unchanged, evidence refreshed to latest vote",
+  "note": "Source: https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00269.htm (senate.gov roll call 269, Nov 19, 2026)."
+ },
+ {
+  "who": "Maggie Hassan",
+  "key": "iran",
+  "new_stance": "Support",
+  "evidence": "Voted for H.Con.Res. 93 to remove U.S. forces from hostilities with Iran (Nov 19 2026, rejected 48–51). Earlier: voted for Kaine's Iran war powers resolution (Apr 15 2026, 47–52).",
+  "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00269.htm",
+  "why": "Daily update, Nov 20 2026 (source dated 2026-11-19); stance unchanged, evidence refreshed to latest vote",
+  "note": "Source: https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00269.htm (senate.gov roll call 269, Nov 19, 2026)."
+ },
+ {
+  "who": "Cory Booker",
+  "key": "iran",
+  "new_stance": "Support",
+  "evidence": "Voted for H.Con.Res. 93 to remove U.S. forces from hostilities with Iran (Nov 19 2026, rejected 48–51).",
+  "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00269.htm",
+  "why": "Daily update, Nov 20 2026 (source dated 2026-11-19); stance unchanged, evidence refreshed to latest vote",
+  "note": "Source: https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00269.htm (senate.gov roll call 269, Nov 19, 2026)."
+ },
+ {
+  "who": "Andy Kim",
+  "key": "iran",
+  "new_stance": "Support",
+  "evidence": "Voted for H.Con.Res. 93 to remove U.S. forces from hostilities with Iran (Nov 19 2026, rejected 48–51). Earlier: sponsor, S.J.Res.171, an Iran war powers resolution (Apr 2026); also cosponsored Kaine's S.J.Res.104 (Feb 2026).",
+  "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00269.htm",
+  "why": "Daily update, Nov 20 2026 (source dated 2026-11-19); stance unchanged, evidence refreshed to latest vote",
+  "note": "Source: https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00269.htm (senate.gov roll call 269, Nov 19, 2026)."
+ },
+ {
+  "who": "Martin Heinrich",
+  "key": "iran",
+  "new_stance": "Support",
+  "evidence": "Voted for H.Con.Res. 93 to remove U.S. forces from hostilities with Iran (Nov 19 2026, rejected 48–51). Earlier: cosponsor, Kaine's Iran war powers resolution S.J.Res.104 (Mar 2026).",
+  "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00269.htm",
+  "why": "Daily update, Nov 20 2026 (source dated 2026-11-19); stance unchanged, evidence refreshed to latest vote",
+  "note": "Source: https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00269.htm (senate.gov roll call 269, Nov 19, 2026)."
+ },
+ {
+  "who": "Ben Ray Luján",
+  "key": "iran",
+  "new_stance": "Support",
+  "evidence": "Voted for H.Con.Res. 93 to remove U.S. forces from hostilities with Iran (Nov 19 2026, rejected 48–51). Earlier: voted for Kaine's Iran war powers resolution (Apr 15 2026, 47–52).",
+  "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00269.htm",
+  "why": "Daily update, Nov 20 2026 (source dated 2026-11-19); stance unchanged, evidence refreshed to latest vote",
+  "note": "Source: https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00269.htm (senate.gov roll call 269, Nov 19, 2026)."
+ },
+ {
+  "who": "Chuck Schumer",
+  "key": "iran",
+  "new_stance": "Support",
+  "evidence": "Voted for H.Con.Res. 93 to remove U.S. forces from hostilities with Iran (Nov 19 2026, rejected 48–51).",
+  "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00269.htm",
+  "why": "Daily update, Nov 20 2026 (source dated 2026-11-19); stance unchanged, evidence refreshed to latest vote",
+  "note": "Source: https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00269.htm (senate.gov roll call 269, Nov 19, 2026)."
+ },
+ {
+  "who": "Kirsten Gillibrand",
+  "key": "iran",
+  "new_stance": "Support",
+  "evidence": "Voted for H.Con.Res. 93 to remove U.S. forces from hostilities with Iran (Nov 19 2026, rejected 48–51).",
+  "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00269.htm",
+  "why": "Daily update, Nov 20 2026 (source dated 2026-11-19); stance unchanged, evidence refreshed to latest vote",
+  "note": "Source: https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00269.htm (senate.gov roll call 269, Nov 19, 2026)."
+ },
+ {
+  "who": "Ted Budd",
+  "key": "iran",
+  "new_stance": "Oppose",
+  "evidence": "Voted against H.Con.Res. 93 to remove U.S. forces from hostilities with Iran (Nov 19 2026, rejected 48–51). Earlier: voted against the Iran war powers resolution (Apr 15 2026, 47–52).",
+  "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00269.htm",
+  "why": "Daily update, Nov 20 2026 (source dated 2026-11-19); stance unchanged, evidence refreshed to latest vote",
+  "note": "Source: https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00269.htm (senate.gov roll call 269, Nov 19, 2026)."
+ },
+ {
+  "who": "John Hoeven",
+  "key": "iran",
+  "new_stance": "Oppose",
+  "evidence": "Voted against H.Con.Res. 93 to remove U.S. forces from hostilities with Iran (Nov 19 2026, rejected 48–51). Earlier: voted against the Iran war powers resolution (Apr 15 2026, 47–52).",
+  "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00269.htm",
+  "why": "Daily update, Nov 20 2026 (source dated 2026-11-19); stance unchanged, evidence refreshed to latest vote",
+  "note": "Source: https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00269.htm (senate.gov roll call 269, Nov 19, 2026)."
+ },
+ {
+  "who": "Kevin Cramer",
+  "key": "iran",
+  "new_stance": "Oppose",
+  "evidence": "Voted against H.Con.Res. 93 to remove U.S. forces from hostilities with Iran (Nov 19 2026, rejected 48–51). Earlier: voted against the Iran war powers resolution (Apr 15 2026, 47–52).",
+  "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00269.htm",
+  "why": "Daily update, Nov 20 2026 (source dated 2026-11-19); stance unchanged, evidence refreshed to latest vote",
+  "note": "Source: https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00269.htm (senate.gov roll call 269, Nov 19, 2026)."
+ },
+ {
+  "who": "Bernie Moreno",
+  "key": "iran",
+  "new_stance": "Oppose",
+  "evidence": "Voted against H.Con.Res. 93 to remove U.S. forces from hostilities with Iran (Nov 19 2026, rejected 48–51). Earlier: voted against the Iran war powers resolution (Apr 15 2026, 47–52).",
+  "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00269.htm",
+  "why": "Daily update, Nov 20 2026 (source dated 2026-11-19); stance unchanged, evidence refreshed to latest vote",
+  "note": "Source: https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00269.htm (senate.gov roll call 269, Nov 19, 2026)."
+ },
+ {
+  "who": "James Lankford",
+  "key": "iran",
+  "new_stance": "Oppose",
+  "evidence": "Voted against H.Con.Res. 93 to remove U.S. forces from hostilities with Iran (Nov 19 2026, rejected 48–51). Earlier: voted against the Iran war powers resolution (Apr 15 2026, 47–52).",
+  "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00269.htm",
+  "why": "Daily update, Nov 20 2026 (source dated 2026-11-19); stance unchanged, evidence refreshed to latest vote",
+  "note": "Source: https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00269.htm (senate.gov roll call 269, Nov 19, 2026)."
+ },
+ {
+  "who": "Ron Wyden",
+  "key": "iran",
+  "new_stance": "Support",
+  "evidence": "Voted for H.Con.Res. 93 to remove U.S. forces from hostilities with Iran (Nov 19 2026, rejected 48–51). Earlier: cosponsor, Kaine's Iran war powers resolution S.J.Res.104 (Mar 2026); voted for Iran war powers measure Apr 2026.",
+  "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00269.htm",
+  "why": "Daily update, Nov 20 2026 (source dated 2026-11-19); stance unchanged, evidence refreshed to latest vote",
+  "note": "Source: https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00269.htm (senate.gov roll call 269, Nov 19, 2026)."
+ },
+ {
+  "who": "Jeff Merkley",
+  "key": "iran",
+  "new_stance": "Support",
+  "evidence": "Voted for H.Con.Res. 93 to remove U.S. forces from hostilities with Iran (Nov 19 2026, rejected 48–51).",
+  "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00269.htm",
+  "why": "Daily update, Nov 20 2026 (source dated 2026-11-19); stance unchanged, evidence refreshed to latest vote",
+  "note": "Source: https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00269.htm (senate.gov roll call 269, Nov 19, 2026)."
+ },
+ {
+  "who": "John Fetterman",
+  "key": "iran",
+  "new_stance": "Oppose",
+  "evidence": "Voted against H.Con.Res. 93 to remove U.S. forces from hostilities with Iran (Nov 19 2026, rejected 48–51). Earlier: only Democrat to vote against the Iran war powers resolution (Apr 15 2026, 47–52).",
+  "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00269.htm",
+  "why": "Daily update, Nov 20 2026 (source dated 2026-11-19); stance unchanged, evidence refreshed to latest vote",
+  "note": "Source: https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00269.htm (senate.gov roll call 269, Nov 19, 2026)."
+ },
+ {
+  "who": "Dave McCormick",
+  "key": "iran",
+  "new_stance": "Oppose",
+  "evidence": "Voted against H.Con.Res. 93 to remove U.S. forces from hostilities with Iran (Nov 19 2026, rejected 48–51). Earlier: voted against the Iran war powers resolution (Apr 15 2026, 47–52).",
+  "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00269.htm",
+  "why": "Daily update, Nov 20 2026 (source dated 2026-11-19); stance unchanged, evidence refreshed to latest vote",
+  "note": "Source: https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00269.htm (senate.gov roll call 269, Nov 19, 2026)."
+ },
+ {
+  "who": "Jack Reed",
+  "key": "iran",
+  "new_stance": "Support",
+  "evidence": "Voted for H.Con.Res. 93 to remove U.S. forces from hostilities with Iran (Nov 19 2026, rejected 48–51). Earlier: voted for Kaine's Iran war powers resolution (Apr 15 2026, 47–52).",
+  "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00269.htm",
+  "why": "Daily update, Nov 20 2026 (source dated 2026-11-19); stance unchanged, evidence refreshed to latest vote",
+  "note": "Source: https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00269.htm (senate.gov roll call 269, Nov 19, 2026)."
+ },
+ {
+  "who": "Sheldon Whitehouse",
+  "key": "iran",
+  "new_stance": "Support",
+  "evidence": "Voted for H.Con.Res. 93 to remove U.S. forces from hostilities with Iran (Nov 19 2026, rejected 48–51). Earlier: voted for Kaine's Iran war powers resolution (Apr 15 2026, 47–52).",
+  "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00269.htm",
+  "why": "Daily update, Nov 20 2026 (source dated 2026-11-19); stance unchanged, evidence refreshed to latest vote",
+  "note": "Source: https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00269.htm (senate.gov roll call 269, Nov 19, 2026)."
+ },
+ {
+  "who": "Tim Scott",
+  "key": "iran",
+  "new_stance": "Oppose",
+  "evidence": "Voted against H.Con.Res. 93 to remove U.S. forces from hostilities with Iran (Nov 19 2026, rejected 48–51). Earlier: voted against the Iran war powers resolution (Apr 15 2026, 47–52).",
+  "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00269.htm",
+  "why": "Daily update, Nov 20 2026 (source dated 2026-11-19); stance unchanged, evidence refreshed to latest vote",
+  "note": "Source: https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00269.htm (senate.gov roll call 269, Nov 19, 2026)."
+ },
+ {
+  "who": "John Thune",
+  "key": "iran",
+  "new_stance": "Oppose",
+  "evidence": "Voted against H.Con.Res. 93 to remove U.S. forces from hostilities with Iran (Nov 19 2026, rejected 48–51). Earlier: voted against the Iran war powers resolution (Apr 15 2026, 47–52).",
+  "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00269.htm",
+  "why": "Daily update, Nov 20 2026 (source dated 2026-11-19); stance unchanged, evidence refreshed to latest vote",
+  "note": "Source: https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00269.htm (senate.gov roll call 269, Nov 19, 2026)."
+ },
+ {
+  "who": "Mike Rounds",
+  "key": "iran",
+  "new_stance": "Oppose",
+  "evidence": "Voted against H.Con.Res. 93 to remove U.S. forces from hostilities with Iran (Nov 19 2026, rejected 48–51). Earlier: voted against the Iran war powers resolution (Apr 15 2026, 47–52).",
+  "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00269.htm",
+  "why": "Daily update, Nov 20 2026 (source dated 2026-11-19); stance unchanged, evidence refreshed to latest vote",
+  "note": "Source: https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00269.htm (senate.gov roll call 269, Nov 19, 2026)."
+ },
+ {
+  "who": "Bill Hagerty",
+  "key": "iran",
+  "new_stance": "Oppose",
+  "evidence": "Voted against H.Con.Res. 93 to remove U.S. forces from hostilities with Iran (Nov 19 2026, rejected 48–51). Earlier: voted against the Iran war powers resolution (Apr 15 2026, 47–52).",
+  "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00269.htm",
+  "why": "Daily update, Nov 20 2026 (source dated 2026-11-19); stance unchanged, evidence refreshed to latest vote",
+  "note": "Source: https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00269.htm (senate.gov roll call 269, Nov 19, 2026)."
+ },
+ {
+  "who": "Ted Cruz",
+  "key": "iran",
+  "new_stance": "Oppose",
+  "evidence": "Voted against H.Con.Res. 93 to remove U.S. forces from hostilities with Iran (Nov 19 2026, rejected 48–51). Earlier: voted against the Iran war powers resolution (Apr 15 2026, 47–52).",
+  "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00269.htm",
+  "why": "Daily update, Nov 20 2026 (source dated 2026-11-19); stance unchanged, evidence refreshed to latest vote",
+  "note": "Source: https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00269.htm (senate.gov roll call 269, Nov 19, 2026)."
+ },
+ {
+  "who": "Mike Lee",
+  "key": "iran",
+  "new_stance": "Oppose",
+  "evidence": "Voted against H.Con.Res. 93 to remove U.S. forces from hostilities with Iran (Nov 19 2026, rejected 48–51). Earlier: voted against the Iran war powers resolution (Apr 15 2026, 47–52).",
+  "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00269.htm",
+  "why": "Daily update, Nov 20 2026 (source dated 2026-11-19); stance unchanged, evidence refreshed to latest vote",
+  "note": "Source: https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00269.htm (senate.gov roll call 269, Nov 19, 2026)."
+ },
+ {
+  "who": "John Curtis",
+  "key": "iran",
+  "new_stance": "Oppose",
+  "evidence": "Voted against H.Con.Res. 93 to remove U.S. forces from hostilities with Iran (Nov 19 2026, rejected 48–51). Earlier: voted against the Iran war powers resolution (Apr 15 2026, 47–52).",
+  "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00269.htm",
+  "why": "Daily update, Nov 20 2026 (source dated 2026-11-19); stance unchanged, evidence refreshed to latest vote",
+  "note": "Source: https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00269.htm (senate.gov roll call 269, Nov 19, 2026)."
+ },
+ {
+  "who": "Bernie Sanders",
+  "key": "iran",
+  "new_stance": "Support",
+  "evidence": "Voted for H.Con.Res. 93 to remove U.S. forces from hostilities with Iran (Nov 19 2026, rejected 48–51). Earlier: voted for Kaine's Iran war powers resolution (Apr 15 2026, 47–52).",
+  "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00269.htm",
+  "why": "Daily update, Nov 20 2026 (source dated 2026-11-19); stance unchanged, evidence refreshed to latest vote",
+  "note": "Source: https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00269.htm (senate.gov roll call 269, Nov 19, 2026)."
+ },
+ {
+  "who": "Peter Welch",
+  "key": "iran",
+  "new_stance": "Support",
+  "evidence": "Voted for H.Con.Res. 93 to remove U.S. forces from hostilities with Iran (Nov 19 2026, rejected 48–51). Earlier: voted for Kaine's Iran war powers resolution (Apr 15 2026, 47–52).",
+  "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00269.htm",
+  "why": "Daily update, Nov 20 2026 (source dated 2026-11-19); stance unchanged, evidence refreshed to latest vote",
+  "note": "Source: https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00269.htm (senate.gov roll call 269, Nov 19, 2026)."
+ },
+ {
+  "who": "Mark Warner",
+  "key": "iran",
+  "new_stance": "Support",
+  "evidence": "Voted for H.Con.Res. 93 to remove U.S. forces from hostilities with Iran (Nov 19 2026, rejected 48–51). Earlier: voted for Kaine's Iran war powers resolution (Apr 15 2026, 47–52).",
+  "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00269.htm",
+  "why": "Daily update, Nov 20 2026 (source dated 2026-11-19); stance unchanged, evidence refreshed to latest vote",
+  "note": "Source: https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00269.htm (senate.gov roll call 269, Nov 19, 2026)."
+ },
+ {
+  "who": "Tim Kaine",
+  "key": "iran",
+  "new_stance": "Support",
+  "evidence": "Voted for H.Con.Res. 93 to remove U.S. forces from hostilities with Iran (Nov 19 2026, rejected 48–51). Earlier: sponsor, Iran war powers resolution S.J.Res.59 (Jun 2025 vote, 47-53); also cosponsor of Duckworth's S.J.Res.123 (Mar 2026).",
+  "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00269.htm",
+  "why": "Daily update, Nov 20 2026 (source dated 2026-11-19); stance unchanged, evidence refreshed to latest vote",
+  "note": "Source: https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00269.htm (senate.gov roll call 269, Nov 19, 2026)."
+ },
+ {
+  "who": "Patty Murray",
+  "key": "iran",
+  "new_stance": "Support",
+  "evidence": "Voted for H.Con.Res. 93 to remove U.S. forces from hostilities with Iran (Nov 19 2026, rejected 48–51). Earlier: voted for Kaine's Iran war powers resolution (Apr 15 2026, 47–52).",
+  "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00269.htm",
+  "why": "Daily update, Nov 20 2026 (source dated 2026-11-19); stance unchanged, evidence refreshed to latest vote",
+  "note": "Source: https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00269.htm (senate.gov roll call 269, Nov 19, 2026)."
+ },
+ {
+  "who": "Maria Cantwell",
+  "key": "iran",
+  "new_stance": "Support",
+  "evidence": "Voted for H.Con.Res. 93 to remove U.S. forces from hostilities with Iran (Nov 19 2026, rejected 48–51). Earlier: voted for Kaine's Iran war powers resolution (Apr 15 2026, 47–52).",
+  "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00269.htm",
+  "why": "Daily update, Nov 20 2026 (source dated 2026-11-19); stance unchanged, evidence refreshed to latest vote",
+  "note": "Source: https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00269.htm (senate.gov roll call 269, Nov 19, 2026)."
+ },
+ {
+  "who": "Shelley Moore Capito",
+  "key": "iran",
+  "new_stance": "Oppose",
+  "evidence": "Voted against H.Con.Res. 93 to remove U.S. forces from hostilities with Iran (Nov 19 2026, rejected 48–51). Earlier: voted against the Iran war powers resolution (Apr 15 2026, 47–52).",
+  "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00269.htm",
+  "why": "Daily update, Nov 20 2026 (source dated 2026-11-19); stance unchanged, evidence refreshed to latest vote",
+  "note": "Source: https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00269.htm (senate.gov roll call 269, Nov 19, 2026)."
+ },
+ {
+  "who": "Jim Justice",
+  "key": "iran",
+  "new_stance": "Oppose",
+  "evidence": "Voted against H.Con.Res. 93 to remove U.S. forces from hostilities with Iran (Nov 19 2026, rejected 48–51).",
+  "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00269.htm",
+  "why": "Daily update, Nov 20 2026 (source dated 2026-11-19); stance unchanged, evidence refreshed to latest vote",
+  "note": "Source: https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00269.htm (senate.gov roll call 269, Nov 19, 2026)."
+ },
+ {
+  "who": "Ron Johnson",
+  "key": "iran",
+  "new_stance": "Oppose",
+  "evidence": "Voted against H.Con.Res. 93 to remove U.S. forces from hostilities with Iran (Nov 19 2026, rejected 48–51). Earlier: voted against the Iran war powers resolution (Apr 15 2026, 47–52).",
+  "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00269.htm",
+  "why": "Daily update, Nov 20 2026 (source dated 2026-11-19); stance unchanged, evidence refreshed to latest vote",
+  "note": "Source: https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00269.htm (senate.gov roll call 269, Nov 19, 2026)."
+ },
+ {
+  "who": "Tammy Baldwin",
+  "key": "iran",
+  "new_stance": "Support",
+  "evidence": "Voted for H.Con.Res. 93 to remove U.S. forces from hostilities with Iran (Nov 19 2026, rejected 48–51). Earlier: voted for Kaine's Iran war powers resolution (Apr 15 2026, 47–52).",
+  "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00269.htm",
+  "why": "Daily update, Nov 20 2026 (source dated 2026-11-19); stance unchanged, evidence refreshed to latest vote",
+  "note": "Source: https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00269.htm (senate.gov roll call 269, Nov 19, 2026)."
+ },
+ {
+  "who": "John Barrasso",
+  "key": "iran",
+  "new_stance": "Oppose",
+  "evidence": "Voted against H.Con.Res. 93 to remove U.S. forces from hostilities with Iran (Nov 19 2026, rejected 48–51). Earlier: voted against the Iran war powers resolution (Apr 15 2026, 47–52).",
+  "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00269.htm",
+  "why": "Daily update, Nov 20 2026 (source dated 2026-11-19); stance unchanged, evidence refreshed to latest vote",
+  "note": "Source: https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00269.htm (senate.gov roll call 269, Nov 19, 2026)."
+ },
+ {
+  "who": "Josh Hawley",
+  "key": "iran",
+  "new_stance": "Oppose",
+  "evidence": "Voted against H.Con.Res. 93 to remove U.S. forces from hostilities with Iran (Nov 19 2026, rejected 48–51), citing process. Earlier: voted against the Apr 15 2026 resolution.",
+  "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00269.htm",
+  "why": "Daily update, Nov 20 2026 (source dated 2026-11-19); stance unchanged, hedge added",
+  "note": "Hedge source: https://www.aol.com/articles/senate-republicans-quash-measure-aimed-200220000.html (USA Today via AOL, Nov 19, 2026).",
+  "hedge": "Told USA Today 'it's time to bring the war to a close' but voted the same day against the war powers resolution, citing process (Nov 19, 2026).",
+  "hedge_url": "https://www.aol.com/articles/senate-republicans-quash-measure-aimed-200220000.html"
+ },
+ {
+  "who": "Angus King",
+  "key": "datactr",
+  "new_stance": "Lean support",
+  "evidence": "Voted for Senate passage of the Bipartisan American Affordability and Jobs Act (H.R. 2347), a permitting bill that makes large data centers pay their grid costs (Nov 19 2026, 62–33); broader bill, so Lean.",
+  "url": "https://www.yahoo.com/news/politics/articles/senate-approves-key-permitting-reform-030911669.html",
+  "why": "Daily update, Nov 20 2026 (source dated 2026-11-19); Unclear → Lean support (related-bill vote caps at Lean)",
+  "note": "Source: https://www.yahoo.com/news/politics/articles/senate-approves-key-permitting-reform-030911669.html (The Hill via Yahoo, Nov 20, 2026; names the 15 Democratic yes votes). Earlier voted against the weaker GOP Ratepayer Protection Act (Sep 30 2026). senate.gov roll call 270 not opened (page blocked); totals match Reuters."
+ },
+ {
+  "who": "Brian Schatz",
+  "key": "datactr",
+  "new_stance": "Lean support",
+  "evidence": "Voted for Senate passage of the Bipartisan American Affordability and Jobs Act (H.R. 2347), a permitting bill that makes large data centers pay their grid costs (Nov 19 2026, 62–33); broader bill, so Lean.",
+  "url": "https://www.yahoo.com/news/politics/articles/senate-approves-key-permitting-reform-030911669.html",
+  "why": "Daily update, Nov 20 2026 (source dated 2026-11-19); Unclear → Lean support (related-bill vote caps at Lean)",
+  "note": "Source: https://www.yahoo.com/news/politics/articles/senate-approves-key-permitting-reform-030911669.html (The Hill via Yahoo, Nov 20, 2026; names the 15 Democratic yes votes). Earlier voted against the weaker GOP Ratepayer Protection Act (Sep 30 2026). senate.gov roll call 270 not opened (page blocked); totals match Reuters."
+ },
+ {
+  "who": "Chris Coons",
+  "key": "datactr",
+  "new_stance": "Lean support",
+  "evidence": "Voted for Senate passage of the Bipartisan American Affordability and Jobs Act (H.R. 2347), a permitting bill that makes large data centers pay their grid costs (Nov 19 2026, 62–33); broader bill, so Lean.",
+  "url": "https://www.yahoo.com/news/politics/articles/senate-approves-key-permitting-reform-030911669.html",
+  "why": "Daily update, Nov 20 2026 (source dated 2026-11-19); Unclear → Lean support (related-bill vote caps at Lean)",
+  "note": "Source: https://www.yahoo.com/news/politics/articles/senate-approves-key-permitting-reform-030911669.html (The Hill via Yahoo, Nov 20, 2026; names the 15 Democratic yes votes). Earlier voted against the weaker GOP Ratepayer Protection Act (Sep 30 2026). senate.gov roll call 270 not opened (page blocked); totals match Reuters."
+ },
+ {
+  "who": "Elissa Slotkin",
+  "key": "datactr",
+  "new_stance": "Lean support",
+  "evidence": "Voted for Senate passage of the Bipartisan American Affordability and Jobs Act (H.R. 2347), a permitting bill that makes large data centers pay their grid costs (Nov 19 2026, 62–33); broader bill, so Lean.",
+  "url": "https://www.yahoo.com/news/politics/articles/senate-approves-key-permitting-reform-030911669.html",
+  "why": "Daily update, Nov 20 2026 (source dated 2026-11-19); Unclear → Lean support (related-bill vote caps at Lean)",
+  "note": "Source: https://www.yahoo.com/news/politics/articles/senate-approves-key-permitting-reform-030911669.html (The Hill via Yahoo, Nov 20, 2026; names the 15 Democratic yes votes). Earlier voted against the weaker GOP Ratepayer Protection Act (Sep 30 2026). senate.gov roll call 270 not opened (page blocked); totals match Reuters."
+ },
+ {
+  "who": "Jack Reed",
+  "key": "datactr",
+  "new_stance": "Lean support",
+  "evidence": "Voted for Senate passage of the Bipartisan American Affordability and Jobs Act (H.R. 2347), a permitting bill that makes large data centers pay their grid costs (Nov 19 2026, 62–33); broader bill, so Lean.",
+  "url": "https://www.yahoo.com/news/politics/articles/senate-approves-key-permitting-reform-030911669.html",
+  "why": "Daily update, Nov 20 2026 (source dated 2026-11-19); Unclear → Lean support (related-bill vote caps at Lean)",
+  "note": "Source: https://www.yahoo.com/news/politics/articles/senate-approves-key-permitting-reform-030911669.html (The Hill via Yahoo, Nov 20, 2026; names the 15 Democratic yes votes). Earlier voted against the weaker GOP Ratepayer Protection Act (Sep 30 2026). senate.gov roll call 270 not opened (page blocked); totals match Reuters."
+ },
+ {
+  "who": "Jacky Rosen",
+  "key": "datactr",
+  "new_stance": "Lean support",
+  "evidence": "Voted for Senate passage of the Bipartisan American Affordability and Jobs Act (H.R. 2347), a permitting bill that makes large data centers pay their grid costs (Nov 19 2026, 62–33); broader bill, so Lean.",
+  "url": "https://www.yahoo.com/news/politics/articles/senate-approves-key-permitting-reform-030911669.html",
+  "why": "Daily update, Nov 20 2026 (source dated 2026-11-19); Unclear → Lean support (related-bill vote caps at Lean)",
+  "note": "Source: https://www.yahoo.com/news/politics/articles/senate-approves-key-permitting-reform-030911669.html (The Hill via Yahoo, Nov 20, 2026; names the 15 Democratic yes votes). Earlier voted against the weaker GOP Ratepayer Protection Act (Sep 30 2026). senate.gov roll call 270 not opened (page blocked); totals match Reuters."
+ },
+ {
+  "who": "John Fetterman",
+  "key": "datactr",
+  "new_stance": "Lean support",
+  "evidence": "Voted for Senate passage of the Bipartisan American Affordability and Jobs Act (H.R. 2347), a permitting bill that makes large data centers pay their grid costs (Nov 19 2026, 62–33); broader bill, so Lean.",
+  "url": "https://www.yahoo.com/news/politics/articles/senate-approves-key-permitting-reform-030911669.html",
+  "why": "Daily update, Nov 20 2026 (source dated 2026-11-19); Unclear → Lean support (related-bill vote caps at Lean)",
+  "note": "Source: https://www.yahoo.com/news/politics/articles/senate-approves-key-permitting-reform-030911669.html (The Hill via Yahoo, Nov 20, 2026; names the 15 Democratic yes votes). Earlier voted against the weaker GOP Ratepayer Protection Act (Sep 30 2026). senate.gov roll call 270 not opened (page blocked); totals match Reuters."
+ },
+ {
+  "who": "Ruben Gallego",
+  "key": "datactr",
+  "new_stance": "Lean support",
+  "evidence": "Voted for Senate passage of the Bipartisan American Affordability and Jobs Act (H.R. 2347), a permitting bill that makes large data centers pay their grid costs (Nov 19 2026, 62–33); broader bill, so Lean.",
+  "url": "https://www.yahoo.com/news/politics/articles/senate-approves-key-permitting-reform-030911669.html",
+  "why": "Daily update, Nov 20 2026 (source dated 2026-11-19); Unclear → Lean support (related-bill vote caps at Lean)",
+  "note": "Source: https://www.yahoo.com/news/politics/articles/senate-approves-key-permitting-reform-030911669.html (The Hill via Yahoo, Nov 20, 2026; names the 15 Democratic yes votes). Earlier voted against the weaker GOP Ratepayer Protection Act (Sep 30 2026). senate.gov roll call 270 not opened (page blocked); totals match Reuters."
+ },
+ {
+  "who": "Raphael Warnock",
+  "key": "datactr",
+  "new_stance": "Lean support",
+  "url": "https://www.warnock.senate.gov/newsroom/press-releases/warnock-statement-on-permitting-reform-bill/",
+  "why": "Daily update, Nov 20 2026 (source dated 2026-11-20); stance unchanged, hedge added",
+  "note": "Hedge source: https://www.warnock.senate.gov/newsroom/press-releases/warnock-statement-on-permitting-reform-bill/ (Warnock release, Nov 20, 2026); cloture vote https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00268.htm",
+  "evidence": "Voted no on final passage of the permitting bill H.R. 2347 with its data-center cost rules (Nov 19 2026), objecting to data centers built 'without local input'; earlier backed the GOP Ratepayer Protection Act (Sep 2026).",
+  "hedge": "Voted for cloture on the permitting bill with data-center cost rules (Nov 18, 2026), then against passage the next day, saying he wants 'a better bill' in January (Nov 20, 2026).",
+  "hedge_url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00268.htm"
+ },
+ {
+  "who": "Angela Alsobrooks",
+  "key": "sch",
+  "new_stance": "Support",
+  "evidence": "Told a Bethesda-Chevy Chase Democratic club she backs Schumer over Van Hollen, her Maryland colleague, because she committed first: 'a person of my word' (Nov 18, 2026). Vote set for Dec 1.",
+  "url": "https://www.cbsnews.com/baltimore/news/maryland-sen-angela-alsobrooks-backs-schumer-van-hollen-leadership-race/",
+  "why": "Daily update, Nov 20 2026 (source dated 2026-11-18); Lean support → Support",
+  "note": "Source: https://www.cbsnews.com/baltimore/news/maryland-sen-angela-alsobrooks-backs-schumer-van-hollen-leadership-race/ (CBS Baltimore / Baltimore Banner, Nov 19, 2026)."
+ },
+ {
+  "who": "Elissa Slotkin",
+  "key": "sch",
+  "new_stance": "Oppose",
+  "evidence": "Endorsed Van Hollen for leader in an X video: 'I will be supporting Chris Van Hollen' (Nov 19, 2026); earlier said she's 'not voting for Sen. Schumer' (Nov 13). Vote set for Dec 1.",
+  "url": "https://www.yahoo.com/news/politics/articles/slotkin-picks-van-hollen-over-001523769.html",
+  "why": "Daily update, Nov 20 2026 (source dated 2026-11-19); stance unchanged, evidence refreshed",
+  "note": "Source: https://www.yahoo.com/news/politics/articles/slotkin-picks-van-hollen-over-001523769.html (The Hill via Yahoo, Nov 20, 2026)."
+ },
+ {
+  "who": "Ron Johnson",
+  "key": "ssm",
+  "new_stance": "Oppose",
+  "evidence": "Called Social Security a 'Ponzi scheme' that can't be fixed and said 'You just shut it down' (Fox Business, Nov 18, 2026); in 2022 wanted it made discretionary.",
+  "url": "https://www.thedailybeast.com/vulnerable-maga-senator-ron-johnson-says-beloved-service-should-be-shut-down",
+  "why": "Daily update, Nov 20 2026 (source dated 2026-11-18); Lean oppose → Oppose",
+  "note": "Source: https://www.thedailybeast.com/vulnerable-maga-senator-ron-johnson-says-beloved-service-should-be-shut-down (Daily Beast, Nov 18, 2026). Hedge source: https://commondreams.org/news/senate-democrats-ron-johnson (Common Dreams, Nov 18, 2026).",
+  "hedge": "Said Social Security should be shut down on Fox Business, then told a Budget Committee hearing the same day he'd been 'taken out of context' (Nov 18, 2026).",
+  "hedge_url": "https://commondreams.org/news/senate-democrats-ron-johnson"
+ },
+ {
+  "who": "Tammy Baldwin",
+  "key": "ssm",
+  "new_stance": "Lean support",
+  "evidence": "Answering Ron Johnson, said Social Security 'is not a Ponzi scheme' and shouldn't be shut down (Nov 18, 2026); a defense, no expansion plan.",
+  "url": "https://www.thedailybeast.com/vulnerable-maga-senator-ron-johnson-says-beloved-service-should-be-shut-down",
+  "why": "Daily update, Nov 20 2026 (source dated 2026-11-18); Unclear → Lean support",
+  "note": "Source: https://www.thedailybeast.com/vulnerable-maga-senator-ron-johnson-says-beloved-service-should-be-shut-down (Daily Beast, Nov 18, 2026)."
+ },
+ {
+  "who": "Ron Wyden",
+  "key": "ssm",
+  "new_stance": "Lean support",
+  "evidence": "At a Budget Committee hearing attacked Ron Johnson for wanting to shut Social Security down rather than fix it (Nov 18, 2026); a defense, no expansion plan.",
+  "url": "https://commondreams.org/news/senate-democrats-ron-johnson",
+  "why": "Daily update, Nov 20 2026 (source dated 2026-11-18); Unclear → Lean support",
+  "note": "Source: https://commondreams.org/news/senate-democrats-ron-johnson (Common Dreams, Nov 18, 2026)."
+ },
+ {
+  "who": "Mark Warner",
+  "key": "ssm",
+  "new_stance": "Lean support",
+  "evidence": "At a Budget Committee hearing called Ron Johnson's call to shut down Social Security 'outrageous scare tactics' (Nov 18, 2026); a defense, no expansion plan.",
+  "url": "https://commondreams.org/news/senate-democrats-ron-johnson",
+  "why": "Daily update, Nov 20 2026 (source dated 2026-11-18); Unclear → Lean support",
+  "note": "Source: https://commondreams.org/news/senate-democrats-ron-johnson (Common Dreams, Nov 18, 2026)."
+ },
+ {
+  "who": "Mark Kelly",
+  "key": "stock",
+  "new_stance": "Support",
+  "evidence": "Wants a stock-trading ban for members of Congress, the President and VP 'right out of the gate' (NewDEAL summit, Nov 19, 2026); cosponsor, S.1879 (May 2025).",
+  "url": "https://downbeach.com/national-news/kelly-reverse-medicaid-cuts-ban-congressional-stock-trading/",
+  "why": "Daily update, Nov 20 2026 (source dated 2026-11-19); Lean support → Support (now covers the President and VP)",
+  "note": "Source: https://downbeach.com/national-news/kelly-reverse-medicaid-cuts-ban-congressional-stock-trading/ (Nov 19, 2026)."
+ },
+ {
+  "who": "Todd Young",
+  "key": "stock",
+  "new_stance": "Lean support",
+  "evidence": "Urged passing his Stop Insider Trading Act before year's end (Nov 18, 2026), a narrower GOP bill; voted for cloture on H.R.7008 (Sep 30 2026).",
+  "url": "https://www.young.senate.gov/newsroom/press-releases/young-stop-insider-trading-act-must-pass-before-years-end/",
+  "why": "Daily update, Nov 20 2026 (source dated 2026-11-18); stance unchanged, evidence refreshed",
+  "note": "Source: https://www.young.senate.gov/newsroom/press-releases/young-stop-insider-trading-act-must-pass-before-years-end/ (Young release, Nov 18, 2026)."
+ },
+ {
+  "who": "Alex Padilla",
+  "key": "ice",
+  "new_stance": "Lean support",
+  "evidence": "Co-introduced the Travel Without Fear Act limiting ICE civil enforcement at airports (Nov 18, 2026); sponsors the VISIBLE Act S.2212 (Jul 2025). Both narrower than the measure.",
+  "url": "https://rosen.senate.gov/2026/11/18/rosen-padilla-introduce-bill-to-limit-ice-operations-at-airports",
+  "why": "Daily update, Nov 20 2026 (source dated 2026-11-18); stance unchanged, evidence refreshed",
+  "note": "Source: https://rosen.senate.gov/2026/11/18/rosen-padilla-introduce-bill-to-limit-ice-operations-at-airports (Rosen release, Nov 18, 2026)."
+ },
+ {
+  "who": "Bernie Sanders",
+  "key": "m4a",
+  "new_stance": "Support",
+  "evidence": "Says Medicare for All will be a priority as HELP chair, possibly via reconciliation (Nov 18, 2026); sponsor, S.1506 (Apr 2025).",
+  "url": "https://rollcall.com/2026/11/18/sanders-medicare-for-all-will-be-help-priority",
+  "why": "Daily update, Nov 20 2026 (source dated 2026-11-18); stance unchanged, evidence refreshed",
+  "note": "Source: https://rollcall.com/2026/11/18/sanders-medicare-for-all-will-be-help-priority (Roll Call, Nov 18, 2026)."
+ },
+ {
+  "who": "Josh Stein",
+  "key": "house",
+  "new_stance": "Support",
+  "evidence": "Signed the Regulatory Reform Act (S445) making cities over 50,000 allow ADUs on single-family lots (Aug 2026); urged missing-middle zoning statewide (Nov 19, 2026).",
+  "url": "https://ncnewsline.com/2026/11/19/nc-gov-stein-takes-aim-at-housing-supply-affordability-on-national-stage/",
+  "why": "Daily update, Nov 20 2026 (source dated 2026-11-19); Lean support → Support",
+  "note": "Source: https://ncnewsline.com/2026/11/19/nc-gov-stein-takes-aim-at-housing-supply-affordability-on-national-stage/ (NC Newsline, Nov 19, 2026). Signing: https://www.cbs17.com/news/north-carolina-news/nc-governor-signs-off-on-housing-bill-that-would-make-tiny-homes-garage-apartments-easier-to-build/amp/ (CBS17, Aug 12, 2026)."
+ },
+ {
+  "who": "Keisha Lance Bottoms",
+  "key": "datactr",
+  "new_stance": "Lean support",
+  "evidence": "Spokeswoman says she'll sign an executive order pausing new data center development, length not set (Nov 19, 2026); not a cost-recovery plan.",
+  "url": "https://justthenews.com/nation/states/center-square/georgias-data-center-growth-continues-amid-proposed-pause",
+  "why": "Daily update, Nov 20 2026 (source dated 2026-11-19); stance unchanged, evidence refreshed",
+  "note": "Source: https://justthenews.com/nation/states/center-square/georgias-data-center-growth-continues-amid-proposed-pause (The Center Square, Nov 19, 2026)."
+ },
+ {
+  "who": "Deb Haaland",
+  "key": "pubopt",
+  "new_stance": "Support",
+  "evidence": "Says her team is discussing a public option with legislative leaders and calls health care 'a top top priority' (Politico interview, Nov 2026); earlier: 'I want to work toward a public option' (2026).",
+  "url": "https://www.yahoo.com/news/politics/articles/early-state-governor-advice-2028-185126251.html",
+  "why": "Daily update, Nov 20 2026 (source dated 2026-11-18); stance unchanged, evidence refreshed",
+  "note": "Source: https://www.yahoo.com/news/politics/articles/early-state-governor-advice-2028-185126251.html (Politico via Yahoo, Nov 18, 2026; interview date not given)."
  }
 ]

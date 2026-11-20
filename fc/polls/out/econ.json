@@ -592,5 +592,48 @@
    "opp": 18
   },
   "note": "Released Nov 18, 2026; fielded about a week after the Nov 3 election. Field dates and sample size not in the public write-up. Concept match: ending the war, not the war powers resolution itself."
+ },
+ {
+  "keys": [
+   "sen:tariff"
+  ],
+  "match": "concept",
+  "pollster": "Carolina Journal Poll",
+  "sponsor": "John Locke Foundation (Carolina Journal publisher)",
+  "tier": 3,
+  "type": "state",
+  "fielded": "2026-11",
+  "n": 600,
+  "question": "Keeping prices low matters more than tariffs that protect U.S. jobs even if prices rise (NC voters)",
+  "url": "https://www.carolinajournal.com/wp-content/uploads/2026/11/H25082-CJ-NC-Nov26-Toplines.pdf",
+  "states": {
+   "NC": {
+    "sup": 55.8,
+    "opp": 35.0
+   }
+  },
+  "national": null,
+  "note": "Q14, Nov 5-8, 2026, 2026 NC general-election voters, live phone + text-to-web; released Nov 18. Measure opposes tariffs: sup = prices matter more, opp = tariffs worth it; 9.2% unsure. Sponsor is a conservative think tank, so tier 3; no other NC tariff poll found."
+ },
+ {
+  "keys": [
+   "sen:ai",
+   "gov:ai"
+  ],
+  "match": "concept",
+  "pollster": "Navigator Research (Global Strategy Group)",
+  "sponsor": "",
+  "tier": 3,
+  "type": "national",
+  "fielded": "2026-11",
+  "n": 3000,
+  "question": "AI needs more regulation to protect Americans, vs. heavy regulation would hand China the AI race (paired statements)",
+  "url": "https://navigatorresearch.org/wp-content/uploads/2026/11/Navigator-2026-Exit-Poll-Topline-F11.09.26-1.pdf",
+  "states": {},
+  "national": {
+   "sup": 74,
+   "opp": 26
+  },
+  "note": "Q67 forced choice, midterm voters, opt-in panels matched to the voter file. Fielded Oct 28-Nov 8, 2026; released Nov 19."
  }
 ]

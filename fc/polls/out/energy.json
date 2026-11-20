@@ -348,5 +348,26 @@
   },
   "national": null,
   "note": "Reverse-worded: sup = % opposing local data center subsidies, opp = % supporting; 12% unsure. Field dates not stated (article published Jul 23 2026); toplines at https://kstp.com/wp-content/uploads/2026/07/PollData.pdf (not opened)."
+ },
+ {
+  "keys": [
+   "sen:datactr",
+   "gov:datactr"
+  ],
+  "match": "concept",
+  "pollster": "Navigator Research (Global Strategy Group)",
+  "sponsor": "",
+  "tier": 3,
+  "type": "national",
+  "fielded": "2026-11",
+  "n": 3000,
+  "question": "Data centers need guardrails so they don't strain water or raise energy costs, vs. data centers are good for the country (paired statements)",
+  "url": "https://navigatorresearch.org/wp-content/uploads/2026/11/Navigator-2026-Exit-Poll-Topline-F11.09.26-1.pdf",
+  "states": {},
+  "national": {
+   "sup": 75,
+   "opp": 25
+  },
+  "note": "Q66 forced choice, midterm voters, opt-in panels matched to the voter file. Fielded Oct 28-Nov 8, 2026; released Nov 19."
  }
 ]
