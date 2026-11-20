@@ -320,5 +320,25 @@
    "opp": 6
   },
   "note": "Released Nov 18, 2026; fielded about a week after the Nov 3 election. Field dates and sample size not in the public write-up."
+ },
+ {
+  "keys": [
+   "sen:stock"
+  ],
+  "match": "concept",
+  "pollster": "YouGov",
+  "sponsor": "The Economist",
+  "tier": 1,
+  "type": "national",
+  "fielded": "2026-11",
+  "n": 1628,
+  "question": "Ban federal government officials from trading stocks",
+  "url": "https://yougov.com/en-us/articles/56009-whether-congress-should-investigate-trump-administration-jensen-huang-november-13-16-2026-economist-yougov-poll",
+  "states": {},
+  "national": {
+   "sup": 67,
+   "opp": 11
+  },
+  "note": "U.S. adult citizens, Nov 13-16, 2026, released Nov 19. Wording covers 'federal government officials', not only members of Congress; the rest not sure."
  }
 ]

@@ -55,10 +55,11 @@ HOPE = [
  {"n": "Josh Shapiro", "p": "D", "role": "Governor of Pennsylvania", "kind": "gov", "ref": "PA"},
  {"n": "Rahm Emanuel", "p": "D", "role": "Former Chicago mayor and ambassador to Japan", "kind": "selfgov", "st": "IL", "office": "mayor", "cells": {
    "prek": ["Support", "As mayor, launched free full-day pre-K for every Chicago 4-year-old, phased in from 2018.", "https://movingforward.chicago.gov/education", "done"],
-   "wage": ["Lean support", "As mayor, passed a $13 Chicago minimum wage (Dec 2014), short of $15.", "https://chicago.gov/city/en/depts/mayor/press_room/press_releases/2014/dec/mayor-emanuel--city-council-approve-ordinance-to-increase-minimu.html", ""],
+   "wage": ["Support", "On a South Carolina trip, backed a $20 minimum wage (Post and Courier paraphrase, Nov 18, 2026); as mayor passed a $13 Chicago wage (Dec 2014).", "https://www.yahoo.com/news/politics/articles/rahm-emanuel-says-sc-dems-100000485.html", ""],
    "pfml": ["Lean support", "Passed a paid sick leave ordinance, up to five days a year (Jun 2016); narrower than paid family leave.", "https://movingforward.chicago.gov/working-families", ""],
    "ice": ["Lean support", "Backed Chicago's Welcoming City Ordinance limiting police help to ICE (2012); not a sensitive-locations rule.", W + "Rahm_Emanuel", ""],
    "roe": ["Lean support", "Had a 100% pro-choice voting record in Congress; no state-law action.", W + "Rahm_Emanuel", ""],
+   "millionaire": ["Lean support", "Backed raising corporate and capital gains taxes on a South Carolina trip (Post and Courier paraphrase, Nov 18, 2026); federal, not a state millionaire's tax.", "https://www.yahoo.com/news/politics/articles/rahm-emanuel-says-sc-dems-100000485.html", ""],
  }},
  {"n": "Alexandria Ocasio-Cortez", "p": "D", "role": "U.S. Representative, New York", "kind": "selfsen", "st": "NY", "cells": {
    "m4a": ["Support", "Cosponsor, Medicare for All Act H.R.3069 (Apr 2025).", CG.format(3069), "spons"],

@@ -1,6 +1,6 @@
 {
- "as_of": "2026-11-15",
- "window": "2026-11-03/2026-11-15",
+ "as_of": "2026-11-19",
+ "window": "2026-11-03/2026-11-19",
  "scales": {
   "trump_alignment": "-2 open critic … +2 loyal",
   "economic": "-2 free-market/technocratic … +2 state-directed/populist",
@@ -20,19 +20,19 @@
    "role": "President",
    "posture": "Defender",
    "issues": {
-    "midterm_loss": "First said he wasn't on the ballot and blamed weak candidates and Fox News; by Nov 8 (60 Minutes) blamed the war, dislike of Israel, bad economic messaging and a deportation policy that \"might be too tough.\"",
+    "midterm_loss": "First said he wasn't on the ballot and blamed weak candidates and Fox News; by Nov 8 (60 Minutes) blamed the war, dislike of Israel, bad economic messaging and a deportation policy that \"might be too tough.\" Nov 18 (Fox News): \"I respect them. They won,\" predicting an \"unbelievably productive two years\" with Democrats.",
     "trump": "Doubled down: named Stephen Miller chief of staff (Nov 6), said he'll keep Hegseth, displayed a VETO hat, staying out of House leader race. Called Vance's diagnosis largely true. Nov 8: Vance's comments didn't hurt their relationship, but \"a lot of people didn't like his comments. But not me.\"",
     "tariffs": null,
-    "healthcare": null,
+    "healthcare": "Nov 18 (Fox News, from Shenzhen): said Democrats will \"send me a bill on healthcare\" and he'll \"veto it,\" then negotiate.",
     "immigration": "Nov 8 (60 Minutes): said his deportation policy \"might be too tough\" and was part of why Republicans lost; said a deal with the Democratic majority is doable; would still deport killers and drug dealers but was open to letting working, in some cases taxpaying, \"good people\" stay. No specifics.",
     "iran_war": "Conceded the war and higher gas prices hurt, but gave an \"emphatic yes\" when asked if he'd do it again.",
     "stock_trading": null,
-    "ai": null,
+    "ai": "Nov 19 (Air Force One, Fox): he and Xi want \"moderate regulations for safety purposes,\" but not ones that \"destroy trillions of dollars of value.\"",
     "corruption": null,
     "israel": "Election Day (Fox & Friends): said the ~$4B in annual military aid ends this year. Nov 8 (60 Minutes): said a \"great dislike\" of Israel contributed to the losses."
    },
    "other_themes": "Called Massie a \"low life\"; blamed Democrats for the post-election stock drop. Nov 9: called the Iran war \"militarily … effectively over\" and suggested without evidence that voting machines were to blame. Endorsed RNC chair Gruters for another term (Nov 6)",
-   "sources": "Truth Social posts and press remarks, Nov 4–8; CBS 60 Minutes, Nov 8; Times of Israel, Nov 4; The Hill via The National Desk, Nov 8–11; pbs.org, Nov 9",
+   "sources": "Truth Social posts and press remarks, Nov 4–8; CBS 60 Minutes, Nov 8; Times of Israel, Nov 4; The Hill via The National Desk, Nov 8–11; pbs.org, Nov 9; Fox News interview via whitehouse.gov and USA Today, Nov 18–19; NTD, Nov 19; Fox News live blog, Nov 19",
    "map": {
     "trump_alignment": {
      "pre": 2,
@@ -167,19 +167,19 @@
    "role": "U.S. Senator (MO)",
    "posture": "Distancer",
    "issues": {
-    "midterm_loss": "Said a defeat of this magnitude \"demands change\"; blamed abandoning pro-lifers and working people.",
+    "midterm_loss": "Said a defeat of this magnitude \"demands change\"; blamed abandoning pro-lifers and working people. Nov 19 (AP): on 2028, \"I have a lot of thinking to do\"; the GOP \"will either be a blue-collar party or\" a permanent minority.",
     "trump": "Aimed at Senate leadership, not Trump; declined to commit to re-electing Thune (Nov 9). Nov 10: said he'd vote to delay the leadership election, hadn't heard from Thune, and wants \"a different direction.\"",
     "tariffs": "Cited fertilizer and gas costs (not tariffs by name).",
     "healthcare": "Said healthcare costs are \"through the roof\"; attacked Medicaid and rural-hospital cuts. Nov 11 (X): listed funding rural hospitals among lame-duck priorities.",
     "immigration": null,
-    "iran_war": "Nov 11 (Jewish Insider): called the war \"an issue\" in the loss but not the only one.",
+    "iran_war": "Nov 11 (Jewish Insider): called the war \"an issue\" in the loss but not the only one. Nov 19: told USA Today \"it's time to bring the war to a close,\" but voted against the war powers resolution H.Con.Res. 93 (rejected 48–51), citing process.",
     "stock_trading": null,
     "ai": "Attacked funding data centers while cutting Medicaid. Nov 11 (X): put a national moratorium on data center construction on his to-do list for Senate Republicans' last six weeks in the majority.",
     "corruption": null,
     "israel": "Nov 11 (Jewish Insider): declined to endorse Vance's Israel diagnosis, saying he'd let the vice president speak for himself and wasn't sure what he meant."
    },
    "other_themes": "Pro-life base; Planned Parenthood funding; leadership revolt. Nov 11 (X) lame-duck agenda: defund Planned Parenthood, suspend the gas tax, fund rural hospitals, pass the SAVE America Act, and a national data center moratorium. Nov 10: said losing at least seven Senate seats means the party must change course.",
-   "sources": "Hawley remarks, Nov 9; The Hill, Nov 9; Axios and CBS News, Nov 10; jewishinsider.com, Nov 11; townhall.com, Nov 11",
+   "sources": "Hawley remarks, Nov 9; The Hill, Nov 9; Axios and CBS News, Nov 10; jewishinsider.com, Nov 11; townhall.com, Nov 11; USA Today via AOL, Nov 19; AP via KMBC and The Hill, Nov 19",
    "map": {
     "trump_alignment": {
      "pre": 1,
@@ -467,7 +467,7 @@
     "trump": "Thanked Trump.",
     "tariffs": null,
     "healthcare": null,
-    "immigration": null,
+    "immigration": "Nov 19 (X): warned Tallahassee over ending its 287(g) ICE agreement: \"Florida is not a sanctuary state… full stop.\"",
     "iran_war": null,
     "stock_trading": null,
     "ai": null,
@@ -475,7 +475,7 @@
     "israel": null
    },
    "other_themes": "Plans to focus on affordability, housing and insurance.",
-   "sources": "Donalds remarks (news coverage)",
+   "sources": "Donalds remarks (news coverage); ClickOrlando, Nov 20",
    "map": {
     "trump_alignment": {
      "pre": 2,
@@ -677,7 +677,7 @@
     "trump": "No criticism of Trump; wants to pass as much of the agenda as possible before January.",
     "tariffs": null,
     "healthcare": null,
-    "immigration": null,
+    "immigration": "Nov 18 (X), against the Dignidad Act: \"No amnesty. Ever.\" Anyone here illegally \"must be deported.\"",
     "iran_war": null,
     "stock_trading": null,
     "ai": null,
@@ -685,7 +685,7 @@
     "israel": null
    },
    "other_themes": "Husted lost the other OH seat to Sherrod Brown; Ramaswamy lost governor.",
-   "sources": "Washington Sun, Nov 5; Fox News Digital, Nov 9",
+   "sources": "Washington Sun, Nov 5; Fox News Digital, Nov 9; Moreno X post via Townhall, Nov 18–19",
    "map": {
     "trump_alignment": {
      "pre": 2,
@@ -846,14 +846,14 @@
     "tariffs": "Said tariffs have made everything too expensive.",
     "healthcare": "Said insurance costs are too high.",
     "immigration": null,
-    "iran_war": "Said the war has dragged on too long.",
+    "iran_war": "Said the war has dragged on too long. Voted against the Iran war powers resolution H.Con.Res. 93 (Nov 19, rejected 48–51).",
     "stock_trading": null,
     "ai": "Warned Democrats would cut AI investment.",
     "corruption": null,
     "israel": "Pre-election: the Senate's loudest pro-Israel voice; public feud with Carlson; Fine and RJC figures cite him as a model. Nov 11 (Jewish Insider): said Vance is entitled to his opinion on Israel but his own is \"quite different.\""
    },
    "other_themes": "Electricity bills up ~30%; wants to rebuild as a blue-collar party.",
-   "sources": "Cruz podcast/remarks, Nov 4–7 (news coverage); jewishinsider.com, Nov 11",
+   "sources": "Cruz podcast/remarks, Nov 4–7 (news coverage); jewishinsider.com, Nov 11; Senate Daily Press, Nov 19",
    "map": {
     "trump_alignment": {
      "pre": 1,
@@ -1056,14 +1056,14 @@
     "tariffs": "Wants the trade wars ended.",
     "healthcare": null,
     "immigration": null,
-    "iran_war": "Cited gas, diesel and fertilizer costs; wants the war ended.",
+    "iran_war": "Cited gas, diesel and fertilizer costs; wants the war ended. Voted for the Iran war powers resolution H.Con.Res. 93 (Nov 19, rejected 48–51). Nov 18: said colleagues read the election as a mandate to spend more and \"fund the Iran war.\"",
     "stock_trading": null,
     "ai": null,
     "corruption": null,
     "israel": null
    },
    "other_themes": "Balanced budgets.",
-   "sources": "Daily Caller, Nov 6; CBS News, Nov 10",
+   "sources": "Daily Caller, Nov 6; CBS News, Nov 10; Washington Examiner via The Fiscal Times, Nov 18–19; Senate Daily Press, Nov 19",
    "map": {
     "trump_alignment": {
      "pre": -1,
@@ -1219,7 +1219,7 @@
    "role": "Senate GOP leader; unopposed for minority leader (Nov 10)",
    "posture": "Defender",
    "issues": {
-    "midterm_loss": "Defended the record (taxes, border, Cabinet, judges); named no causes. Called it a \"tough night\" in his first floor remarks (Nov 9). Re-elected leader unopposed Nov 10; promised to \"finish this legislative session strong\" and extend the calendar.",
+    "midterm_loss": "Defended the record (taxes, border, Cabinet, judges); named no causes. Called it a \"tough night\" in his first floor remarks (Nov 9). Re-elected leader unopposed Nov 10; promised to \"finish this legislative session strong\" and extend the calendar. Nov 18 (Fox): \"it was about the war, it was about the economy,\" inflation and gas prices, \"none of which our candidates had much control over\"; said they lost independents by about 30 points. Voted against the Iran war powers resolution H.Con.Res. 93 (Nov 19, rejected 48–51).",
     "trump": "Praised Trump.",
     "tariffs": null,
     "healthcare": null,
@@ -1231,7 +1231,7 @@
     "israel": null
    },
    "other_themes": "Vowed not to stand idly by against Democratic extremism.",
-   "sources": "Thune X post, Nov 4; AP, Nov 10; CBS News and AP, Nov 10",
+   "sources": "Thune X post, Nov 4; AP, Nov 10; CBS News and AP, Nov 10; Breitbart and The Hill, Nov 18–19; Senate Daily Press, Nov 19",
    "map": {
     "trump_alignment": {
      "pre": 1,
@@ -1350,14 +1350,14 @@
     "tariffs": "Opposes tariffs as a free-marketer.",
     "healthcare": null,
     "immigration": "Cited frustration over ICE conduct.",
-    "iran_war": "Said Americans don't want the Iran war.",
+    "iran_war": "Said Americans don't want the Iran war. Voted against the Iran war powers resolution H.Con.Res. 93 (Nov 19, rejected 48–51).",
     "stock_trading": null,
     "ai": null,
     "corruption": "Cited frustration over buildings renamed for Trump.",
     "israel": null
    },
    "other_themes": "Gas, diesel and inflation; wants a return to principles. Nov 10: backed holding leadership elections that day since GOP freshmen were in town; called leading the conference \"a pretty complicated role.\"",
-   "sources": "News9 (Oklahoma City); AP, Nov 10",
+   "sources": "News9 (Oklahoma City); AP, Nov 10; Senate Daily Press, Nov 19",
    "map": {
     "trump_alignment": {
      "pre": 1,
@@ -1598,18 +1598,18 @@
    "posture": "Critic",
    "issues": {
     "midterm_loss": "Surprised by the Senate loss; hopes Democrats don't treat it as a mandate to retaliate.",
-    "trump": null,
-    "tariffs": null,
+    "trump": "Nov 17 (Alaska Public Media): \"This election was a repudiation of many of Trump's actions.\"",
+    "tariffs": "Nov 17: Trump \"has gone around us\" on tariffs; \"We need to reclaim that in Congress.\"",
     "healthcare": null,
     "immigration": "Was the lone GOP vote against the ICE funding bill (pre-election).",
-    "iran_war": "Wants the war brought to a responsible end, with Congress's role respected.",
+    "iran_war": "Wants the war brought to a responsible end, with Congress's role respected. Voted for the Iran war powers resolution H.Con.Res. 93 (Nov 19, rejected 48–51).",
     "stock_trading": null,
     "ai": null,
     "corruption": null,
     "israel": null
    },
    "other_themes": "Next in line as top Republican on Appropriations.",
-   "sources": "KNOM, Nov 5",
+   "sources": "KNOM, Nov 5; Senate Daily Press, Nov 19; Alaska Public Media via Breitbart, Nov 17",
    "map": {
     "trump_alignment": {
      "pre": -2,
@@ -1900,18 +1900,18 @@
    "posture": "Critic",
    "issues": {
     "midterm_loss": "Election night: \"It's a wipeout.\" Next day called it a repudiation of Trump.",
-    "trump": "Cited unaffordability, chaos and corruption.",
+    "trump": "Cited unaffordability, chaos and corruption. Nov 19 (NPR): \"I regret the way the president has performed\" but not his vote; tied losses partly to hard-line immigration enforcement.",
     "tariffs": null,
     "healthcare": null,
     "immigration": null,
     "iran_war": null,
     "stock_trading": null,
     "ai": null,
-    "corruption": "Cited corruption as a cause.",
+    "corruption": "Cited corruption as a cause. Nov 19 (NPR): a \"whiff of corruption\" around the president, citing World Liberty Financial.",
     "israel": "Pre-election: called Vance's Iran deal a \"disaster.\" Post-election, he and Levin are blamed by MAGA influencers for the war and in turn blame Vance's deal for prolonging it (per Axios and Daily Caller)."
    },
    "other_themes": null,
-   "sources": "Shapiro show (news coverage)",
+   "sources": "Shapiro show (news coverage); NPR Morning Edition, Nov 19",
    "map": {
     "trump_alignment": {
      "pre": 1,
@@ -1948,14 +1948,14 @@
     "tariffs": null,
     "healthcare": null,
     "immigration": null,
-    "iran_war": "Broke with Trump over Iran in March.",
+    "iran_war": "Broke with Trump over Iran in March. Nov 17 (her show): if the war is still on in 2028, Republicans \"will 100% be losing the White House.\"",
     "stock_trading": null,
     "ai": null,
     "corruption": null,
     "israel": "Pre-election: argued Israel manipulated the administration into war (per Shapiro)."
    },
    "other_themes": null,
-   "sources": "Kelly show (news coverage)",
+   "sources": "Kelly show (news coverage); TheWrap, Nov 18",
    "map": {
     "trump_alignment": {
      "pre": 0,
