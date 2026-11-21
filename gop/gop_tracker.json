@@ -1,6 +1,6 @@
 {
- "as_of": "2026-11-15",
- "window": "2026-11-03/2026-11-15",
+ "as_of": "2026-11-20",
+ "window": "2026-11-03/2026-11-20",
  "scales": {
   "trump_alignment": "-2 open critic … +2 loyal",
   "economic": "-2 free-market/technocratic … +2 state-directed/populist",
@@ -20,19 +20,19 @@
    "role": "President",
    "posture": "Defender",
    "issues": {
-    "midterm_loss": "First said he wasn't on the ballot and blamed weak candidates and Fox News; by Nov 8 (60 Minutes) blamed the war, dislike of Israel, bad economic messaging and a deportation policy that \"might be too tough.\"",
+    "midterm_loss": "First said he wasn't on the ballot and blamed weak candidates and Fox News; by Nov 8 (60 Minutes) blamed the war, dislike of Israel, bad economic messaging and a deportation policy that \"might be too tough.\" Nov 19 (Truth Social, self-started): posted a graphic of past presidents' midterm losses that undercounted the GOP's Senate and House losses (Daily Beast, Nov 20).",
     "trump": "Doubled down: named Stephen Miller chief of staff (Nov 6), said he'll keep Hegseth, displayed a VETO hat, staying out of House leader race. Called Vance's diagnosis largely true. Nov 8: Vance's comments didn't hurt their relationship, but \"a lot of people didn't like his comments. But not me.\"",
     "tariffs": null,
-    "healthcare": null,
+    "healthcare": "Nov 20 press conference: said the new Democratic majority could work with Republicans on healthcare, 'a combination of what we all want,' and 'we could end up with great healthcare'; no plan named (Common Dreams, Nov 20).",
     "immigration": "Nov 8 (60 Minutes): said his deportation policy \"might be too tough\" and was part of why Republicans lost; said a deal with the Democratic majority is doable; would still deport killers and drug dealers but was open to letting working, in some cases taxpaying, \"good people\" stay. No specifics.",
-    "iran_war": "Conceded the war and higher gas prices hurt, but gave an \"emphatic yes\" when asked if he'd do it again.",
+    "iran_war": "Conceded the war and higher gas prices hurt, but gave an \"emphatic yes\" when asked if he'd do it again. Nov 19: reposted Laura Loomer's 'I for one voted for blowing up Islamic terrorists' on Truth Social (Daily Beast, Nov 20).",
     "stock_trading": null,
     "ai": null,
     "corruption": null,
     "israel": "Election Day (Fox & Friends): said the ~$4B in annual military aid ends this year. Nov 8 (60 Minutes): said a \"great dislike\" of Israel contributed to the losses."
    },
    "other_themes": "Called Massie a \"low life\"; blamed Democrats for the post-election stock drop. Nov 9: called the Iran war \"militarily … effectively over\" and suggested without evidence that voting machines were to blame. Endorsed RNC chair Gruters for another term (Nov 6)",
-   "sources": "Truth Social posts and press remarks, Nov 4–8; CBS 60 Minutes, Nov 8; Times of Israel, Nov 4; The Hill via The National Desk, Nov 8–11; pbs.org, Nov 9",
+   "sources": "Truth Social posts and press remarks, Nov 4–8; CBS 60 Minutes, Nov 8; Times of Israel, Nov 4; The Hill via The National Desk, Nov 8–11; pbs.org, Nov 9; Daily Beast via Yahoo, Nov 20 (https://www.yahoo.com/news/politics/articles/trump-spirals-truth-social-way-020627908.html); Common Dreams, Nov 20 (https://www.commondreams.org/news/donald-trump-healthcare-plan)",
    "map": {
     "trump_alignment": {
      "pre": 2,

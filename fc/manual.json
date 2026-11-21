@@ -1578,5 +1578,32 @@
   "url": "https://www.yahoo.com/news/politics/articles/ron-johnson-calls-gop-ditch-232925049.html",
   "why": "Daily update, Nov 19 2026 (source dated 2026-11-18); stance unchanged, evidence refreshed",
   "note": "Source: https://www.yahoo.com/news/politics/articles/ron-johnson-calls-gop-ditch-232925049.html (The Hill via Yahoo, Nov 18, 2026)."
+ },
+ {
+  "who": "Angela Alsobrooks",
+  "key": "sch",
+  "new_stance": "Support",
+  "evidence": "Told a Bethesda-Chevy Chase Democratic club she backs Schumer over fellow Marylander Van Hollen, citing a prior commitment: 'I am definitely a person of my word' (reported Nov 18-19, 2026). Caucus vote set for Dec 1.",
+  "url": "https://www.cbsnews.com/baltimore/news/maryland-sen-angela-alsobrooks-backs-schumer-van-hollen-leadership-race/",
+  "why": "Daily update, Nov 21 2026 (source dated 2026-11-19)",
+  "note": "Source: https://www.cbsnews.com/baltimore/news/maryland-sen-angela-alsobrooks-backs-schumer-van-hollen-leadership-race/ (CBS Baltimore, Nov 19, 2026); also Baltimore Sun, Nov 18: https://www.baltimoresun.com/2026/11/18/alsobrooks-van-hollen/. Explicit commitment, said to a home-state Democratic audience that includes Van Hollen's base, so Support."
+ },
+ {
+  "who": "Elissa Slotkin",
+  "key": "sch",
+  "new_stance": "Oppose",
+  "evidence": "Endorsed Van Hollen for leader in an X video: 'Because I've been clear that I wasn't supporting Schumer, I will be supporting Chris Van Hollen' (Nov 19, 2026). Caucus vote set for Dec 1.",
+  "url": "https://x.com/SenatorSlotkin/status/2123555725339226549",
+  "why": "Daily update, Nov 21 2026 (source dated 2026-11-19); stance unchanged, evidence refreshed",
+  "note": "Source: https://x.com/SenatorSlotkin/status/2123555725339226549 (Slotkin on X, Nov 19, 2026), as reported by TIME (Nov 20): https://time.com/article/2026/11/20/chris-van-hollen-chuck-schumer-senate-majority-leader/ and the Washington Sun (Nov 19): https://www.washingtonsun.com/congress/elissa-slotkin-van-hollen-chuck-schumer-senate-majority-leader-changes"
+ },
+ {
+  "who": "Adam Hamilton",
+  "key": "sch",
+  "new_stance": "Oppose",
+  "evidence": "'I will not be voting for Chuck Schumer for Senate majority leader' (MS NOW interview, Nov 19, 2026), but wouldn't say whether he'll back Van Hollen; earlier: 'we need new leadership' (Nov 4). Senator-elect, Kansas.",
+  "url": "https://www.washingtonsun.com/congress/elissa-slotkin-van-hollen-chuck-schumer-senate-majority-leader-changes",
+  "why": "Daily update, Nov 21 2026 (source dated 2026-11-19); stance unchanged, evidence refreshed",
+  "note": "Source: https://www.washingtonsun.com/congress/elissa-slotkin-van-hollen-chuck-schumer-senate-majority-leader-changes (Washington Sun, Nov 19, 2026, reporting his Nov 19 MS NOW interview)."
  }
 ]
