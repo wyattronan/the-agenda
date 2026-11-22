@@ -1635,5 +1635,95 @@
   "why": "Sunday-show check, Nov 22 2026 (Roll Call, Nov 19; The News International, Nov 22); stance unchanged, evidence refreshed",
   "hedge": "Told reporters the filibuster is 'anti-democratic' (Nov 13, 2026), then told a Fox News Sunday audience it 'needs to be reformed' and he won't push to end it right away (Nov 15).",
   "note": "Sources: https://rollcall.com/2026/11/19/van-hollen-senate-rules-changes-a-matter-for-caucus-to-decide (Roll Call, Nov 19, 2026); https://www.thenews.com.pk/latest/1424657-chris-van-hollen-rules-out-2028-presidential-bid-amid-senate-majority-leader-race (The News International, Nov 22, 2026, on his Meet the Press interview). A Washington Times headline (Nov 22) says he 'pitches ending the filibuster'; that page couldn't be opened, and the accounts read don't show him calling for elimination, so the Lean stays."
+ },
+ {
+  "who": "Mary Peltola",
+  "key": "tariff",
+  "new_stance": "Lean support",
+  "evidence": "Asked how much she blamed Trump for rising costs, said the administration has 'an outsized role' on 'tariffs or wars' and Congress has ceded too much power (May 2026).",
+  "url": "https://www.juneauindependent.com/post/peltola-holds-brief-juneau-rally-during-senate-campaign-stop",
+  "why": "Weekly review, Nov 22 2026 (Juneau Independent, May 14 2026); stance unchanged, evidence corrected and sourced",
+  "note": "Source: https://www.juneauindependent.com/post/peltola-holds-brief-juneau-rally-during-senate-campaign-stop (Juneau Independent, May 14, 2026; also KYUK, May 18). The old quote 'The tariffs drove costs up' wasn't found in any of eight sources and was dropped. Prompted and fairly generic, so Lean."
+ },
+ {
+  "who": "Mary Peltola",
+  "key": "datactr",
+  "new_stance": "Lean support",
+  "evidence": "On data centers, said she takes her 'cue from the people' of each region but worries about power for existing ratepayers (Sep 2026); later said Sullivan's push would raise utility costs (Oct 2026).",
+  "url": "https://www.alaskasnewssource.com/2026/09/08/mary-peltola-attends-fairbanks-labor-day-parade/",
+  "why": "Weekly review, Nov 22 2026 (Alaska's News Source, Sep 7 2026; her Substack, Oct 21 2026); flagged by the Nov 18 daily run",
+  "note": "Sources: https://www.alaskasnewssource.com/2026/09/08/mary-peltola-attends-fairbanks-labor-day-parade/ (Alaska's News Source, Sep 7, 2026); https://marypeltola.substack.com/p/we-want-you-guys-all-to-come-up-to (Oct 21, 2026); repeated by TIME, Nov 18, 2026. Ratepayer protection with no cost-allocation plan, so Lean, not Support."
+ },
+ {
+  "who": "Adam Hamilton",
+  "key": "m4a",
+  "new_stance": "Oppose",
+  "evidence": "Asked on national TV after his win, said 'I don't think Medicare for All is the right approach' and doubted it would pass (Nov 2026).",
+  "url": "https://www.thebulwark.com/p/democrats-medicare-for-all-debate-single-payer-clash",
+  "why": "Weekly review, Nov 22 2026 (The Bulwark, Nov 8 2026); replaces a Lean oppose inferred from his platform's silence",
+  "note": "Source: https://www.thebulwark.com/p/democrats-medicare-for-all-debate-single-payer-clash (Nov 8, 2026). The Bulwark says Meet the Press; a CNN video URL (cnn.com/2026/11/08/politics/video/hamilton-medicare-for-all-sotu) points to State of the Union. He did both shows that day; CNN and NBC couldn't be opened. Prompted, specific, and costly with the Democratic base."
+ },
+ {
+  "who": "Adam Hamilton",
+  "key": "wage",
+  "new_stance": "Lean support",
+  "evidence": "His May 2026 campaign platform backs raising the minimum wage, per Christianity Daily (Aug 2026); no dollar figure given.",
+  "url": "https://www.christianitydaily.com/news/umc-pastor-adam-hamilton-wins-kansas-democratic-senate-primary.html",
+  "why": "Weekly review, Nov 22 2026 (Christianity Daily, Aug 6 2026); stance unchanged, source added",
+  "note": "Source: https://www.christianitydaily.com/news/umc-pastor-adam-hamilton-wins-kansas-democratic-senate-primary.html (Aug 6, 2026, says 'federal minimum wage'). Mismatch: a blog summary of the Christian Post platform story says the Kansas minimum wage, and his current issues page mentions only wage-theft enforcement. Christian Post story couldn't be opened."
+ },
+ {
+  "who": "Troy Jackson",
+  "key": "fil",
+  "new_stance": "Support",
+  "evidence": "Answering the Press Herald candidate survey, backed ending the Senate filibuster (Jul 2026).",
+  "url": "https://www.pressherald.com/2026/07/17/we-asked-maine-democratic-senate-candidates-about-policy-they-agree-on-nearly-everything/",
+  "why": "Weekly review, Nov 22 2026 (Press Herald, Jul 17 2026); stance unchanged, source added, date corrected from 'fall 2026'",
+  "note": "Source: https://www.pressherald.com/2026/07/17/we-asked-maine-democratic-senate-candidates-about-policy-they-agree-on-nearly-everything/ (Jul 17, 2026). The exact voter-guide quote couldn't be checked (page errored)."
+ },
+ {
+  "who": "Troy Jackson",
+  "key": "pfl",
+  "new_stance": "Support",
+  "evidence": "Touting Maine's paid family and medical leave law, said workers in every state deserve the same and every full-time worker in America should have paid time off on top of 'paid sick leave and family leave' (Sep 2026).",
+  "url": "https://www.jacksonformaine.com/news/over-labor-day-weekend-jackson-barnstormed-maine-with-13-campaign-events-standing-with-workers",
+  "why": "Weekly review, Nov 22 2026 (campaign release, Sep 9 2026, quoting his Sep 7 Labor Day remarks); the old note said no federal plan",
+  "note": "Source: https://www.jacksonformaine.com/news/over-labor-day-weekend-jackson-barnstormed-maine-with-13-campaign-events-standing-with-workers (Sep 9, 2026, quoting News Center Maine). Maine's 12-week program passed in 2023 while he was Senate President. Friendly Labor Day audience and no funding mechanism; Lean support is defensible if a campaign release counts for less."
+ },
+ {
+  "who": "Troy Jackson",
+  "key": "imm",
+  "new_stance": "Lean support",
+  "evidence": "Calls for 'comprehensive immigration reform' and says 'we need to secure the border' while urging ICE be replaced; hasn't spelled out legal status for undocumented residents (Sep 2026).",
+  "url": "https://www.pressherald.com/2026/09/21/maines-senate-race-where-susan-collins-and-troy-jackson-stand-on-immigration-policy/",
+  "why": "Weekly review, Nov 22 2026 (Press Herald, Sep 21 2026); the stored quote wasn't found as worded",
+  "note": "Source: https://www.pressherald.com/2026/09/21/maines-senate-race-where-susan-collins-and-troy-jackson-stand-on-immigration-policy/ (Sep 21, 2026). The old quote's 'detention quotas' appears nowhere; it looks like a composite. 'Comprehensive reform' with no path to legal status named is a generic label, so Lean."
+ },
+ {
+  "who": "Maggie Hassan",
+  "key": "sch",
+  "new_stance": "Unclear",
+  "evidence": "Declined to say whether she backs Schumer or Van Hollen, saying the caucus needs a discussion 'about how we run' (Nov 16, 2026); nothing later found through Nov 22.",
+  "url": "https://www.nhpr.org/nh-news/2026-11-16/hassan-and-pappas-newhampshire-senate-majority-leader-schumer-vanhollen",
+  "why": "Weekly review, Nov 22 2026 (NHPR, Nov 16 2026); stance unchanged, evidence refreshed (flagged by the Nov 19 daily run)",
+  "note": "Source: https://www.nhpr.org/nh-news/2026-11-16/hassan-and-pappas-newhampshire-senate-majority-leader-schumer-vanhollen (NHPR, Nov 16, 2026). Drop Site's 'undecided' paraphrases NHPR's 'not yet sharing which side'."
+ },
+ {
+  "who": "Mark Kelly",
+  "key": "ai",
+  "new_stance": "Support",
+  "evidence": "Released his own frontier-AI framework: federal hazard levels and required safeguards, examiners embedded at labs, civil penalties for hiding risks (Nov 2026); voted to strip the state AI-law moratorium (Jul 2025).",
+  "url": "https://www.kelly.senate.gov/newsroom/press-releases/kelly-unveils-framework-to-protect-americans-from-most-advanced-ai-models/",
+  "why": "Weekly review, Nov 22 2026 (Kelly release and framework PDF, Nov 17 2026); flagged by the Nov 20 daily run",
+  "note": "Source: https://www.kelly.senate.gov/newsroom/press-releases/kelly-unveils-framework-to-protect-americans-from-most-advanced-ai-models/ (Nov 17, 2026). Self-started and specific, with binding rules. A framework, not a filed bill; silent on state preemption, which rests on his July 2025 vote."
+ },
+ {
+  "who": "John Curtis",
+  "key": "childcare",
+  "new_stance": "Lean oppose",
+  "note": "Most recent action sets the stance (Nov 16 2026 rule); softened to a Lean because an earlier action points the other way. Hedge added in the Nov 22 2026 weekly review.",
+  "why": "Weekly review, Nov 22 2026: hedge note for a cell softened by the most-recent-action rule",
+  "hedge": "Co-introduced the bipartisan Child Care Availability and Affordability Act to expand child care tax credits (Mar 2025), then voted against restoring the 7% copay cap rule (Jul 2026).",
+  "hedge_url": "https://www.curtis.senate.gov/newsroom/press-releases/curtis-britt-kaine-colleagues-introduce-bipartisan-bicameral-bill-to-make-child-care-more-affordable/"
  }
 ]
