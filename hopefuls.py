@@ -55,7 +55,7 @@ HOPE = [
  {"n": "Josh Shapiro", "p": "D", "role": "Governor of Pennsylvania", "kind": "gov", "ref": "PA"},
  {"n": "Rahm Emanuel", "p": "D", "role": "Former Chicago mayor and ambassador to Japan", "kind": "selfgov", "st": "IL", "office": "mayor", "cells": {
    "prek": ["Support", "As mayor, launched free full-day pre-K for every Chicago 4-year-old, phased in from 2018.", "https://movingforward.chicago.gov/education", "done"],
-   "wage": ["Lean support", "As mayor, passed a $13 Chicago minimum wage (Dec 2014), short of $15.", "https://chicago.gov/city/en/depts/mayor/press_room/press_releases/2014/dec/mayor-emanuel--city-council-approve-ordinance-to-increase-minimu.html", ""],
+   "wage": ["Support", "Called for a $20 federal minimum wage by 2030 as a top priority for the new Democratic majority (ABC This Week, Nov 22, 2026); as mayor passed a $13 Chicago minimum (Dec 2014).", "https://www.yahoo.com/news/politics/articles/rahm-emanuel-schumer-commit-stepping-171204448.html", ""],
    "pfml": ["Lean support", "Passed a paid sick leave ordinance, up to five days a year (Jun 2016); narrower than paid family leave.", "https://movingforward.chicago.gov/working-families", ""],
    "ice": ["Lean support", "Backed Chicago's Welcoming City Ordinance limiting police help to ICE (2012); not a sensitive-locations rule.", W + "Rahm_Emanuel", ""],
    "roe": ["Lean support", "Had a 100% pro-choice voting record in Congress; no state-law action.", W + "Rahm_Emanuel", ""],
@@ -222,8 +222,8 @@ R3B = {
   ],
   "tariff": [
    "Support",
-   "Called Trump's tariffs 'the largest tax increase in memory' and a blunder (Apr 2025); backs high tariffs on China.",
-   "https://rahmemanuel.substack.com/p/trumps-folly-is-piling-up-and-america",
+   "Urged the new Democratic majorities to roll back Trump's tariff increases as an affordability priority (ABC This Week, Nov 22, 2026); called them 'the largest tax increase in memory' (Apr 2025).",
+   "https://www.yahoo.com/news/politics/articles/rahm-emanuel-schumer-commit-stepping-171204448.html",
    ""
   ],
   "equality": [

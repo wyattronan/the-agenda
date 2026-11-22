@@ -1605,5 +1605,35 @@
   "url": "https://www.washingtonsun.com/congress/elissa-slotkin-van-hollen-chuck-schumer-senate-majority-leader-changes",
   "why": "Daily update, Nov 21 2026 (source dated 2026-11-19); stance unchanged, evidence refreshed",
   "note": "Source: https://www.washingtonsun.com/congress/elissa-slotkin-van-hollen-chuck-schumer-senate-majority-leader-changes (Washington Sun, Nov 19, 2026, reporting his Nov 19 MS NOW interview)."
+ },
+ {
+  "who": "Abdul El-Sayed",
+  "key": "m4a",
+  "new_stance": "Support",
+  "evidence": "Still backs Sanders' single-payer bill, and offered to brand it 'Trumpcare for All' if Trump signs on: 'I'll work with anyone who's ready to... pass Medicare for All' (Meet the Press, Nov 22, 2026).",
+  "url": "https://www.yahoo.com/news/politics/articles/el-sayed-open-keeping-private-191652815.html",
+  "why": "Sunday-show check, Nov 22 2026 (Politico via Yahoo and IBTimes, Nov 22 2026); stance unchanged, evidence refreshed, hedge added",
+  "hedge": "Ran on Medicare for every American 'from cradle to grave'; on Meet the Press said his version would work 'like public schools', with room for private plans, and 'I don't want to take anything away' (Nov 22, 2026).",
+  "hedge_url": "https://abdulforsenate.com/priority/medicare-for-all-the-path-to-a-healthier-america/",
+  "note": "Sources: https://www.yahoo.com/news/politics/articles/el-sayed-open-keeping-private-191652815.html (Politico via Yahoo, Nov 22, 2026); https://www.ibtimes.com/abdul-el-sayed-trumpcare-all-healthcare-3810062 (IBTimes, Nov 22, 2026). Answering Kristen Welker on a national audience; the private-insurance opening is the softer side, the campaign site the harder one."
+ },
+ {
+  "who": "Peggy Flanagan",
+  "key": "m4a",
+  "new_stance": "Support",
+  "evidence": "'People are ready for Medicare for all; if we have to call it TrumpCare in order to get it across the finish line, that's fine by me' (CNN State of the Union, Nov 22, 2026).",
+  "url": "https://www.washingtonexaminer.com/policy/healthcare/4811627/el-sayed-flanagan-medicare-for-all-trumpcare/",
+  "why": "Sunday-show check, Nov 22 2026 (Washington Examiner, Nov 22 2026); stance unchanged, evidence refreshed",
+  "note": "Source: https://www.washingtonexaminer.com/policy/healthcare/4811627/el-sayed-flanagan-medicare-for-all-trumpcare/ (Washington Examiner, Nov 22, 2026, quoting CNN's State of the Union). Told Politico her first priority is reversing the Medicaid and food-aid cuts: https://www.yahoo.com/news/politics/articles/el-sayed-open-keeping-private-191652815.html"
+ },
+ {
+  "who": "Chris Van Hollen",
+  "key": "fil",
+  "new_stance": "Lean support",
+  "evidence": "Backs the Merkley-Daines talking-filibuster plan: 'I'm in favor of filibuster reform... How and when... is a matter for the caucus' (Nov 19, 2026); again called it 'anti-democratic' on Meet the Press (Nov 22). Reform, not elimination, so Lean.",
+  "url": "https://rollcall.com/2026/11/19/van-hollen-senate-rules-changes-a-matter-for-caucus-to-decide",
+  "why": "Sunday-show check, Nov 22 2026 (Roll Call, Nov 19; The News International, Nov 22); stance unchanged, evidence refreshed",
+  "hedge": "Told reporters the filibuster is 'anti-democratic' (Nov 13, 2026), then told a Fox News Sunday audience it 'needs to be reformed' and he won't push to end it right away (Nov 15).",
+  "note": "Sources: https://rollcall.com/2026/11/19/van-hollen-senate-rules-changes-a-matter-for-caucus-to-decide (Roll Call, Nov 19, 2026); https://www.thenews.com.pk/latest/1424657-chris-van-hollen-rules-out-2028-presidential-bid-amid-senate-majority-leader-race (The News International, Nov 22, 2026, on his Meet the Press interview). A Washington Times headline (Nov 22) says he 'pitches ending the filibuster'; that page couldn't be opened, and the accounts read don't show him calling for elimination, so the Lean stays."
  }
 ]
