@@ -26,6 +26,7 @@ PAGES = {
     "proj":      ("2028", "2028 Projections"),
     "gop":       ("gop-postmortem", "GOP Midterm Postmortem"),
     "gloss":     ("glossary", "Glossary"),
+    "lead":      ("leadership-report-card", "Leadership Report Card"),
 }
 HOME_DESC = "Your one-stop civic engagement tool: the Democratic agenda, who backs it, and what it would take to pass."
 
