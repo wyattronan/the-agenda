@@ -2493,5 +2493,292 @@
   "url": "https://www.yahoo.com/news/politics/articles/early-state-governor-advice-2028-185126251.html",
   "why": "Daily update, Nov 20 2026 (source dated 2026-11-18); stance unchanged, evidence refreshed",
   "note": "Source: https://www.yahoo.com/news/politics/articles/early-state-governor-advice-2028-185126251.html (Politico via Yahoo, Nov 18, 2026; interview date not given)."
+ },
+ {
+  "who": "Angela Alsobrooks",
+  "key": "sch",
+  "new_stance": "Support",
+  "evidence": "Told a Bethesda-Chevy Chase Democratic club she backs Schumer over fellow Marylander Van Hollen, citing a prior commitment: 'I am definitely a person of my word' (reported Nov 18-19, 2026). Caucus vote set for Dec 1.",
+  "url": "https://www.cbsnews.com/baltimore/news/maryland-sen-angela-alsobrooks-backs-schumer-van-hollen-leadership-race/",
+  "why": "Daily update, Nov 21 2026 (source dated 2026-11-19)",
+  "note": "Source: https://www.cbsnews.com/baltimore/news/maryland-sen-angela-alsobrooks-backs-schumer-van-hollen-leadership-race/ (CBS Baltimore, Nov 19, 2026); also Baltimore Sun, Nov 18: https://www.baltimoresun.com/2026/11/18/alsobrooks-van-hollen/. Explicit commitment, said to a home-state Democratic audience that includes Van Hollen's base, so Support."
+ },
+ {
+  "who": "Elissa Slotkin",
+  "key": "sch",
+  "new_stance": "Oppose",
+  "evidence": "Endorsed Van Hollen for leader in an X video: 'Because I've been clear that I wasn't supporting Schumer, I will be supporting Chris Van Hollen' (Nov 19, 2026). Caucus vote set for Dec 1.",
+  "url": "https://x.com/SenatorSlotkin/status/2123555725339226549",
+  "why": "Daily update, Nov 21 2026 (source dated 2026-11-19); stance unchanged, evidence refreshed",
+  "note": "Source: https://x.com/SenatorSlotkin/status/2123555725339226549 (Slotkin on X, Nov 19, 2026), as reported by TIME (Nov 20): https://time.com/article/2026/11/20/chris-van-hollen-chuck-schumer-senate-majority-leader/ and the Washington Sun (Nov 19): https://www.washingtonsun.com/congress/elissa-slotkin-van-hollen-chuck-schumer-senate-majority-leader-changes"
+ },
+ {
+  "who": "Adam Hamilton",
+  "key": "sch",
+  "new_stance": "Oppose",
+  "evidence": "'I will not be voting for Chuck Schumer for Senate majority leader' (MS NOW interview, Nov 19, 2026), but wouldn't say whether he'll back Van Hollen; earlier: 'we need new leadership' (Nov 4). Senator-elect, Kansas.",
+  "url": "https://www.washingtonsun.com/congress/elissa-slotkin-van-hollen-chuck-schumer-senate-majority-leader-changes",
+  "why": "Daily update, Nov 21 2026 (source dated 2026-11-19); stance unchanged, evidence refreshed",
+  "note": "Source: https://www.washingtonsun.com/congress/elissa-slotkin-van-hollen-chuck-schumer-senate-majority-leader-changes (Washington Sun, Nov 19, 2026, reporting his Nov 19 MS NOW interview)."
+ },
+ {
+  "who": "Abdul El-Sayed",
+  "key": "m4a",
+  "new_stance": "Support",
+  "evidence": "Still backs Sanders' single-payer bill, and offered to brand it 'Trumpcare for All' if Trump signs on: 'I'll work with anyone who's ready to... pass Medicare for All' (Meet the Press, Nov 22, 2026).",
+  "url": "https://www.yahoo.com/news/politics/articles/el-sayed-open-keeping-private-191652815.html",
+  "why": "Sunday-show check, Nov 22 2026 (Politico via Yahoo and IBTimes, Nov 22 2026); stance unchanged, evidence refreshed, hedge added",
+  "hedge": "Ran on Medicare for every American 'from cradle to grave'; on Meet the Press said his version would work 'like public schools', with room for private plans, and 'I don't want to take anything away' (Nov 22, 2026).",
+  "hedge_url": "https://abdulforsenate.com/priority/medicare-for-all-the-path-to-a-healthier-america/",
+  "note": "Sources: https://www.yahoo.com/news/politics/articles/el-sayed-open-keeping-private-191652815.html (Politico via Yahoo, Nov 22, 2026); https://www.ibtimes.com/abdul-el-sayed-trumpcare-all-healthcare-3810062 (IBTimes, Nov 22, 2026). Answering Kristen Welker on a national audience; the private-insurance opening is the softer side, the campaign site the harder one."
+ },
+ {
+  "who": "Peggy Flanagan",
+  "key": "m4a",
+  "new_stance": "Support",
+  "evidence": "'People are ready for Medicare for all; if we have to call it TrumpCare in order to get it across the finish line, that's fine by me' (CNN State of the Union, Nov 22, 2026).",
+  "url": "https://www.washingtonexaminer.com/policy/healthcare/4811627/el-sayed-flanagan-medicare-for-all-trumpcare/",
+  "why": "Sunday-show check, Nov 22 2026 (Washington Examiner, Nov 22 2026); stance unchanged, evidence refreshed",
+  "note": "Source: https://www.washingtonexaminer.com/policy/healthcare/4811627/el-sayed-flanagan-medicare-for-all-trumpcare/ (Washington Examiner, Nov 22, 2026, quoting CNN's State of the Union). Told Politico her first priority is reversing the Medicaid and food-aid cuts: https://www.yahoo.com/news/politics/articles/el-sayed-open-keeping-private-191652815.html"
+ },
+ {
+  "who": "Chris Van Hollen",
+  "key": "fil",
+  "new_stance": "Lean support",
+  "evidence": "Backs the Merkley-Daines talking-filibuster plan: 'I'm in favor of filibuster reform... How and when... is a matter for the caucus' (Nov 19, 2026); again called it 'anti-democratic' on Meet the Press (Nov 22). Reform, not elimination, so Lean.",
+  "url": "https://rollcall.com/2026/11/19/van-hollen-senate-rules-changes-a-matter-for-caucus-to-decide",
+  "why": "Sunday-show check, Nov 22 2026 (Roll Call, Nov 19; The News International, Nov 22); stance unchanged, evidence refreshed",
+  "hedge": "Told reporters the filibuster is 'anti-democratic' (Nov 13, 2026), then told a Fox News Sunday audience it 'needs to be reformed' and he won't push to end it right away (Nov 15).",
+  "note": "Sources: https://rollcall.com/2026/11/19/van-hollen-senate-rules-changes-a-matter-for-caucus-to-decide (Roll Call, Nov 19, 2026); https://www.thenews.com.pk/latest/1424657-chris-van-hollen-rules-out-2028-presidential-bid-amid-senate-majority-leader-race (The News International, Nov 22, 2026, on his Meet the Press interview). A Washington Times headline (Nov 22) says he 'pitches ending the filibuster'; that page couldn't be opened, and the accounts read don't show him calling for elimination, so the Lean stays."
+ },
+ {
+  "who": "Mary Peltola",
+  "key": "tariff",
+  "new_stance": "Lean support",
+  "evidence": "Asked how much she blamed Trump for rising costs, said the administration has 'an outsized role' on 'tariffs or wars' and Congress has ceded too much power (May 2026).",
+  "url": "https://www.juneauindependent.com/post/peltola-holds-brief-juneau-rally-during-senate-campaign-stop",
+  "why": "Weekly review, Nov 22 2026 (Juneau Independent, May 14 2026); stance unchanged, evidence corrected and sourced",
+  "note": "Source: https://www.juneauindependent.com/post/peltola-holds-brief-juneau-rally-during-senate-campaign-stop (Juneau Independent, May 14, 2026; also KYUK, May 18). The old quote 'The tariffs drove costs up' wasn't found in any of eight sources and was dropped. Prompted and fairly generic, so Lean."
+ },
+ {
+  "who": "Mary Peltola",
+  "key": "datactr",
+  "new_stance": "Lean support",
+  "evidence": "On data centers, said she takes her 'cue from the people' of each region but worries about power for existing ratepayers (Sep 2026); later said Sullivan's push would raise utility costs (Oct 2026).",
+  "url": "https://www.alaskasnewssource.com/2026/09/08/mary-peltola-attends-fairbanks-labor-day-parade/",
+  "why": "Weekly review, Nov 22 2026 (Alaska's News Source, Sep 7 2026; her Substack, Oct 21 2026); flagged by the Nov 18 daily run",
+  "note": "Sources: https://www.alaskasnewssource.com/2026/09/08/mary-peltola-attends-fairbanks-labor-day-parade/ (Alaska's News Source, Sep 7, 2026); https://marypeltola.substack.com/p/we-want-you-guys-all-to-come-up-to (Oct 21, 2026); repeated by TIME, Nov 18, 2026. Ratepayer protection with no cost-allocation plan, so Lean, not Support."
+ },
+ {
+  "who": "Adam Hamilton",
+  "key": "m4a",
+  "new_stance": "Oppose",
+  "evidence": "Asked on national TV after his win, said 'I don't think Medicare for All is the right approach' and doubted it would pass (Nov 2026).",
+  "url": "https://www.thebulwark.com/p/democrats-medicare-for-all-debate-single-payer-clash",
+  "why": "Weekly review, Nov 22 2026 (The Bulwark, Nov 8 2026); replaces a Lean oppose inferred from his platform's silence",
+  "note": "Source: https://www.thebulwark.com/p/democrats-medicare-for-all-debate-single-payer-clash (Nov 8, 2026). The Bulwark says Meet the Press; a CNN video URL (cnn.com/2026/11/08/politics/video/hamilton-medicare-for-all-sotu) points to State of the Union. He did both shows that day; CNN and NBC couldn't be opened. Prompted, specific, and costly with the Democratic base."
+ },
+ {
+  "who": "Adam Hamilton",
+  "key": "wage",
+  "new_stance": "Lean support",
+  "evidence": "His May 2026 campaign platform backs raising the minimum wage, per Christianity Daily (Aug 2026); no dollar figure given.",
+  "url": "https://www.christianitydaily.com/news/umc-pastor-adam-hamilton-wins-kansas-democratic-senate-primary.html",
+  "why": "Weekly review, Nov 22 2026 (Christianity Daily, Aug 6 2026); stance unchanged, source added",
+  "note": "Source: https://www.christianitydaily.com/news/umc-pastor-adam-hamilton-wins-kansas-democratic-senate-primary.html (Aug 6, 2026, says 'federal minimum wage'). Mismatch: a blog summary of the Christian Post platform story says the Kansas minimum wage, and his current issues page mentions only wage-theft enforcement. Christian Post story couldn't be opened."
+ },
+ {
+  "who": "Troy Jackson",
+  "key": "fil",
+  "new_stance": "Support",
+  "evidence": "Answering the Press Herald candidate survey, backed ending the Senate filibuster (Jul 2026).",
+  "url": "https://www.pressherald.com/2026/07/17/we-asked-maine-democratic-senate-candidates-about-policy-they-agree-on-nearly-everything/",
+  "why": "Weekly review, Nov 22 2026 (Press Herald, Jul 17 2026); stance unchanged, source added, date corrected from 'fall 2026'",
+  "note": "Source: https://www.pressherald.com/2026/07/17/we-asked-maine-democratic-senate-candidates-about-policy-they-agree-on-nearly-everything/ (Jul 17, 2026). The exact voter-guide quote couldn't be checked (page errored)."
+ },
+ {
+  "who": "Troy Jackson",
+  "key": "pfl",
+  "new_stance": "Support",
+  "evidence": "Touting Maine's paid family and medical leave law, said workers in every state deserve the same and every full-time worker in America should have paid time off on top of 'paid sick leave and family leave' (Sep 2026).",
+  "url": "https://www.jacksonformaine.com/news/over-labor-day-weekend-jackson-barnstormed-maine-with-13-campaign-events-standing-with-workers",
+  "why": "Weekly review, Nov 22 2026 (campaign release, Sep 9 2026, quoting his Sep 7 Labor Day remarks); the old note said no federal plan",
+  "note": "Source: https://www.jacksonformaine.com/news/over-labor-day-weekend-jackson-barnstormed-maine-with-13-campaign-events-standing-with-workers (Sep 9, 2026, quoting News Center Maine). Maine's 12-week program passed in 2023 while he was Senate President. Friendly Labor Day audience and no funding mechanism; Lean support is defensible if a campaign release counts for less."
+ },
+ {
+  "who": "Troy Jackson",
+  "key": "imm",
+  "new_stance": "Lean support",
+  "evidence": "Calls for 'comprehensive immigration reform' and says 'we need to secure the border' while urging ICE be replaced; hasn't spelled out legal status for undocumented residents (Sep 2026).",
+  "url": "https://www.pressherald.com/2026/09/21/maines-senate-race-where-susan-collins-and-troy-jackson-stand-on-immigration-policy/",
+  "why": "Weekly review, Nov 22 2026 (Press Herald, Sep 21 2026); the stored quote wasn't found as worded",
+  "note": "Source: https://www.pressherald.com/2026/09/21/maines-senate-race-where-susan-collins-and-troy-jackson-stand-on-immigration-policy/ (Sep 21, 2026). The old quote's 'detention quotas' appears nowhere; it looks like a composite. 'Comprehensive reform' with no path to legal status named is a generic label, so Lean."
+ },
+ {
+  "who": "Maggie Hassan",
+  "key": "sch",
+  "new_stance": "Unclear",
+  "evidence": "Declined to say whether she backs Schumer or Van Hollen, saying the caucus needs a discussion 'about how we run' (Nov 16, 2026); nothing later found through Nov 22.",
+  "url": "https://www.nhpr.org/nh-news/2026-11-16/hassan-and-pappas-newhampshire-senate-majority-leader-schumer-vanhollen",
+  "why": "Weekly review, Nov 22 2026 (NHPR, Nov 16 2026); stance unchanged, evidence refreshed (flagged by the Nov 19 daily run)",
+  "note": "Source: https://www.nhpr.org/nh-news/2026-11-16/hassan-and-pappas-newhampshire-senate-majority-leader-schumer-vanhollen (NHPR, Nov 16, 2026). Drop Site's 'undecided' paraphrases NHPR's 'not yet sharing which side'."
+ },
+ {
+  "who": "Mark Kelly",
+  "key": "ai",
+  "new_stance": "Support",
+  "evidence": "Released his own frontier-AI framework: federal hazard levels and required safeguards, examiners embedded at labs, civil penalties for hiding risks (Nov 2026); voted to strip the state AI-law moratorium (Jul 2025).",
+  "url": "https://www.kelly.senate.gov/newsroom/press-releases/kelly-unveils-framework-to-protect-americans-from-most-advanced-ai-models/",
+  "why": "Weekly review, Nov 22 2026 (Kelly release and framework PDF, Nov 17 2026); flagged by the Nov 20 daily run",
+  "note": "Source: https://www.kelly.senate.gov/newsroom/press-releases/kelly-unveils-framework-to-protect-americans-from-most-advanced-ai-models/ (Nov 17, 2026). Self-started and specific, with binding rules. A framework, not a filed bill; silent on state preemption, which rests on his July 2025 vote."
+ },
+ {
+  "who": "John Curtis",
+  "key": "childcare",
+  "new_stance": "Lean oppose",
+  "note": "Most recent action sets the stance (Nov 16 2026 rule); softened to a Lean because an earlier action points the other way. Hedge added in the Nov 22 2026 weekly review.",
+  "why": "Weekly review, Nov 22 2026: hedge note for a cell softened by the most-recent-action rule",
+  "hedge": "Co-introduced the bipartisan Child Care Availability and Affordability Act to expand child care tax credits (Mar 2025), then voted against restoring the 7% copay cap rule (Jul 2026).",
+  "hedge_url": "https://www.curtis.senate.gov/newsroom/press-releases/curtis-britt-kaine-colleagues-introduce-bipartisan-bicameral-bill-to-make-child-care-more-affordable/"
+ },
+ {
+  "who": "Lisa Murkowski",
+  "key": "medicaid",
+  "new_stance": "Lean oppose",
+  "evidence": "Voted for Wyden's amendment to strike the $880B Medicaid-cut instruction (Apr 2025, failed 49-50), then voted for the OBBBA, which passed 51-50 on Vance's tiebreak (Jul 1, 2025).",
+  "url": "https://www.cbsnews.com/news/senate-debate-trump-one-big-beautiful-bill",
+  "why": "Weekly review follow-up, Nov 22 2026 (source dated 2025-07-01); stance unchanged, evidence and source corrected",
+  "note": "Notes: Both facts confirmed. Wyden amendment #1989, which would strike the Energy & Commerce instruction (the $880B Medicaid-cut target), failed 49-50 on roll call vote 20, Apr 4-5, 2025 (Senate Democrats' floor wrap-up). The AHA story, updated Apr 5, says Murkowski, Collins and Hawley were the three Republicans who voted for it. The AHA page mislabels Wyden 'R-Ore.' On the OBBBA, CBS confirms the Jul 1, 2025 51-50 passage, Vance's tiebreak, and that Murkowski voted yes after last-minute changes. CBS also quotes her calling the vote 'agonizing' and saying the bill is 'not ready for the President's desk'. Note an imprecision in the stored wording: with a 50-50 split broken by Vance, no single senato",
+  "hedge": "Voted to strike the $880B Medicaid-cut instruction (Apr 2025), then voted for the OBBBA after last-minute Alaska changes, calling the choice 'agonizing' (Jul 1, 2025).",
+  "hedge_url": "https://www.aha.org/news/headline/2025-04-04-senate-expected-vote-revised-budget-resolution-over-weekend"
+ },
+ {
+  "who": "John Curtis",
+  "key": "childcare",
+  "new_stance": "Lean oppose",
+  "evidence": "Voted no on proceeding to S.J.Res. 199, which would have overturned the HHS rule ending the 7%-of-income child care copay cap (Jul 30, 2026; failed 47-52).",
+  "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00215.htm",
+  "why": "Weekly review follow-up, Nov 22 2026 (source dated 2026-07-30); stance unchanged, evidence and source corrected",
+  "note": "Notes: Both sides confirmed. Co-introduction: Curtis's own release (Mar 5, 2025) on the Child Care Availability and Affordability Act. It makes the dependent care credit partially refundable (up to $2,500 for one child, $4,000 for two or more), raises the DCAP limit to $7,500 and expands the employer child care credit. He said child care's high cost makes it hard to raise a family. That is a tax-credit expansion, related to but narrower than the measure. Vote: Senate roll call 215 (119th Congress, 2nd session, Jul 30, 2026), a motion to proceed to S.J.Res. 199, a CRA disapproval of HHS's May 2026 'Restoring Flexibility in the CCDF' rule. That rule rolled back the 7% copay cap. The motion was reject",
+  "hedge": "Co-introduced the bipartisan Child Care Availability and Affordability Act to expand child care tax credits (Mar 5, 2025), then voted against restoring the 7% copay cap (Jul 30, 2026).",
+  "hedge_url": "https://www.curtis.senate.gov/press-releases/curtis-britt-kaine-colleagues-introduce-bipartisan-bicameral-bill-to-make-child-care-more-affordable"
+ },
+ {
+  "who": "Ted Cruz",
+  "key": "dcpr",
+  "new_stance": "Lean oppose",
+  "evidence": "On Fox's Faulkner Focus, said Democrats push DC statehood 'because they want two new Democratic senators' (Apr 2021); earlier said Puerto Rico should get an up-or-down statehood vote (Feb 2016).",
+  "url": "https://www.foxnews.com/media/ted-cruz-dc-statehood-court-packing-democrats-power-forever",
+  "why": "Weekly review follow-up, Nov 22 2026 (source dated 2021-04-23); stance unchanged, evidence and source corrected",
+  "note": "Notes: Both sides confirmed. Fox News (Apr 23, 2021), on The Faulkner Focus, quotes him: 'They're pushing D.C. statehood. Why? Because they want two new Democratic senators.' Puerto Rico isn't mentioned. Minor wording fix: Fox's quotes don't use the phrase 'power grab' (that is the framing), so I reworded the evidence to his actual line. The Feb 24, 2016 statement, issued from Houston as a presidential candidate (American Presidency Project), says Puerto Rico 'should be allowed to take an up or down vote on statehood' and should be allowed to proceed if voters choose it. It is procedural and doesn't say he personally backs admission. It came just before the Mar 6, 2016 Puerto Rico GOP primary, a pl",
+  "hedge": "As a presidential candidate before Puerto Rico's GOP primary, said Puerto Rico should be allowed an up-or-down statehood vote and proceed if it chose statehood (Feb 24, 2016); in Apr 2021 he attacked DC statehood as a bid for two Democratic seats.",
+  "hedge_url": "https://www.presidency.ucsb.edu/documents/statement-senator-ted-cruz-puerto-rican-statehood"
+ },
+ {
+  "who": "Xavier Becerra",
+  "key": "drugbd",
+  "new_stance": "Lean support",
+  "evidence": "His campaign health plan calls for expanding CalRx, the state's own-label and bulk-purchase drug program (May 2026); not a price board with payment caps.",
+  "url": "https://timesofsandiego.com/politics/2026/05/23/governors-race-xavier-becerra-single-payer-healthcare/",
+  "why": "Weekly review follow-up, Nov 22 2026 (source dated 2026-05); stance unchanged, evidence and source corrected",
+  "note": "Notes: Now sourced, though only via reporters' paraphrase. Times of San Diego (May 23, 2026) says the health plan on his campaign website calls for expanding CalRx, the state program that makes some of its own drugs or uses state purchasing power to negotiate lower prices. CalMatters/LAist (Ana B. Ibarra, Sep 28, 2026) says he 'wants to expand on Newsom-era programs' to cut the cost of expensive drugs. It doesn't name CalRx, and he declined an interview. I could not open the plan page itself. The campaign homepage (xavierbecerra2026.com) says only that as HHS Secretary he 'stood up to drug companies.' No statement on a prescription drug affordability board, upper payment limits, PBM limits or insul"
+ },
+ {
+  "who": "Gina Hinojosa",
+  "key": "wage",
+  "new_stance": "Lean support",
+  "evidence": "As a state rep, authored HB 3226 to set a $15/hour minimum wage for essential workers (2021); no 2026 campaign statement on a general $15 minimum wage found.",
+  "url": "https://capitol.texas.gov/tlodocs/87R/billtext/pdf/HB03226I.pdf",
+  "why": "Weekly review follow-up, Nov 22 2026 (source dated 2021); Noted → Lean support",
+  "note": "Notes: Status: governor-elect. Fox 7 Austin (Nov 4, 2026) says she defeated Greg Abbott and was the projected winner. HB 3226 (87th Legislature, 2021) is confirmed. The introduced text reads 'By: Hinojosa', caption 'relating to establishing a minimum wage for essential workers'. It sets pay at the greater of $15 an hour or the federal minimum for CISA-designated essential critical infrastructure workers, effective Sep 1, 2021. Gina Hinojosa was, to my knowledge, the only Hinojosa in the 2021 Texas House (Sen. Chuy Hinojosa files SBs), but the PDF shows only the surname, so authorship is near-certain rather than proven. The bill is a $15 floor for a subset of workers, a narrower version of the measu"
+ },
+ {
+  "who": "Abigail Spanberger",
+  "key": "datactr",
+  "new_stance": "Lean support",
+  "evidence": "Issued Executive Order 22, which ends state site-readiness aid for 25MW+ data centers, bans agency NDAs on them and tells her energy chief to push rates that keep their grid costs off households (Sep 2026).",
+  "url": "https://cardinalnews.org/2026/09/18/spanberger-issues-executive-order-to-hold-data-centers-accountable-form-ai-task-force/",
+  "why": "Weekly review follow-up, Nov 22 2026 (source dated 2026-09-18); Mixed → Lean support",
+  "note": "Notes: EO 22 (Sep 18, 2026) confirmed via Cardinal News (Sep 18) and the Holland & Knight analysis (Sep 21, 2026). I could not open the governor.virginia.gov PDF named in the brief because it never appeared in a search result. Binding parts: VEDP stops site-readiness and expedited-review help for data centers of 25 MW or more. Agencies may no longer sign NDAs hiding data-center details. Eastern Virginia's groundwater area is designated a cooling-water scarcity area, and the VA-LEAD designation is created. On cost, the Chief Energy Officer must only ADVOCATE for rate structures that keep data-center infrastructure costs off residential and small-business customers, including through PJM, and must wo",
+  "hedge": "In Apr 2026 she amended SB 253/HB 1393 to strip their explicit mechanism shifting grid costs onto data centers and opposed ending their sales-tax break early, before her Sep 18, 2026 EO 22 took a tougher line.",
+  "hedge_url": "https://www.route-fifty.com/artificial-intelligence/2026/04/virginia-governor-amends-bills-shift-costs-data-centers-critics-say-her-tweaks-weaken-them/412929/"
+ },
+ {
+  "who": "Mikie Sherrill",
+  "key": "roe",
+  "new_stance": "Support",
+  "evidence": "Signed S2260/A2218, which puts new protections for abortion access in state law: crimes for obstructing care, suits against obstructors, shields for providers (Aug 2026). Backs a state constitutional abortion right (Jun 2025).",
+  "url": "https://www.nj.gov/governor/news/2026/20260820a.shtml",
+  "why": "Weekly review follow-up, Nov 22 2026 (source dated 2026-08-20); Unclear → Support",
+  "note": "Notes: Confirmed via the governor's release (Aug 20, 2026). I couldn't open the NJ Monitor URL from the brief (client error), but its headline in search results matches. S2260/A2218 does the following: makes it a crime to harm, threaten, block or vandalize in order to interfere with reproductive care; lets patients and providers sue obstructors; bars licensing and malpractice-insurance penalties for providing legal reproductive care; and adds gender-affirming care to the shield law. It took effect immediately. Sherrill spoke of defending 'the right to choose'. Earlier support: NJ Monitor (Sophie Nieto-Munoz and Morgan Leason, Jun 25, 2025, via News From the States) reports 'Sherrill supports adding"
+ },
+ {
+  "who": "Aaron Ford",
+  "key": "npv",
+  "new_stance": "Support",
+  "evidence": "As governor-elect, told KOLO the Electoral College's 'racist underpinnings' mean 'we need to get rid of it'; his spokesperson confirmed he backs Nevada joining the compact (Nov 2026).",
+  "url": "https://newsweek.com/incoming-nevada-governor-changes-his-mind-on-electoral-college-reform-12711800",
+  "why": "Weekly review follow-up, Nov 22 2026 (source dated 2026-11-12); Unclear → Support",
+  "note": "Notes: Confirmed. KOLO's interview was republished by FOX5 Vegas on Nov 12, 2026. Newsweek (Nov 13, 2026) reports it and adds that his spokesperson confirmed he supports the compact. He gave three quotes: 'I didn't initially support it frankly because I hadn't done enough research on it'; the 'racist underpinnings' line ('...leads me to believe that we need to get rid of it'); and that the popular-vote winner has lost 'several times'. Support: an explicit, specific commitment, given in an interview after the election. The earlier position is his own undated admission that he didn't support it. I could not find a dated earlier statement or action: no veto, vote or quote turned up in two searches. Ne",
+  "hedge": "Says he 'didn't initially support' the popular-vote compact because he hadn't researched it, and only backed it after winning the governorship (Nov 2026).",
+  "hedge_url": "https://www.fox5vegas.com/2026/11/12/incoming-nevada-governor-says-electoral-college-was-created-with-racist-underpinnings-calls-state-join-popular-vote-compact/"
+ },
+ {
+  "who": "Kathy Hochul",
+  "key": "datactr",
+  "new_stance": "Support",
+  "evidence": "Issued Executive Order 62, pausing state DEC permits for new hyperscale data centers for up to a year while rules are set (Jul 2026); earlier proposed that data centers pay more or supply their own power (Jan 2026).",
+  "url": "https://www.governor.ny.gov/news/western-new-york-governor-hochul-highlights-first-statewide-moratorium-new-hyperscale-data",
+  "why": "Weekly review follow-up, Nov 22 2026 (source dated 2026-07-14); stance unchanged, evidence and source corrected",
+  "note": "Notes: Confirmed, and EO 62 is real. The governor's release (Jul 20, 2026) names Executive Order No. 62, a temporary moratorium of up to one year on new hyperscale data centers. During it, DEC won't issue discretionary permits for applications not complete before the order, while a Generic Environmental Impact Statement is prepared. Hochul: 'we will not burden our communities with rising utility costs.' Greenberg Traurig (Jul 2026) dates the order Jul 14, 2026. It also says the order tells DPS to consider a Grid Acceleration Fund financed by data centers, to set up an interconnection and cost-allocation working group within 60 days, and that it may create data-center service classes. The pause excl"
+ },
+ {
+  "who": "Amy Klobuchar",
+  "key": "millionaire",
+  "new_stance": "Lean oppose",
+  "evidence": "At her first governor-elect press conference, repeated her pledge not to raise taxes and to put no new tax hikes in her two-year budget; no carve-out for top earners reported (Nov 2026).",
+  "url": "https://www.kaxe.org/minnesota-news/2026-11-05/governor-elect-klobuchar-promises-to-transform-state-government-grow-economy",
+  "why": "Weekly review follow-up, Nov 22 2026 (source dated 2026-11-04); Unclear → Lean oppose",
+  "note": "Notes: The pledge is confirmed; the brief's exact wording is not. Minnesota Reformer, via KAXE and News From the States (Nov 4-5, 2026), reports that at her Nov 4, 2026 press conference at St. Paul's James J. Hill Center she 'reiterated that she will not raise taxes' and promised 'no new tax hikes' in her budget. Both phrases are the reporter's paraphrase. Axios Twin Cities (Nov 5) calls it her 'no-new-taxes pledge'. MPR (Nov 16) lists 'Not raise taxes and aim to bring down some taxes' among her promises. The verbatim 'I am not going to raise taxes' was not found in any source I opened. Minnesota Reformer (Oct 19 debate story; Oct 29 column) was blocked by client errors. No source mentions an excep",
+  "hedge": "As a 2019 presidential candidate she backed at least a 39.6% federal top income tax rate and was open to a wealth tax, but as Minnesota governor-elect she pledges no new taxes (Nov 4, 2026).",
+  "hedge_url": "https://ontheissues.org/Governor/Amy_Klobuchar_Tax_Reform.htm"
+ },
+ {
+  "who": "Alan Wilson",
+  "key": "clean",
+  "new_stance": "Lean support",
+  "evidence": "As governor-elect, said 'finishing V.C. Summer has got to be a priority' and called himself 'a pro-nuclear person,' tying more supply to lower utility rates (Nov 2026).",
+  "url": "https://www.wtoc.com/2026/11/06/interview-gov-elect-alan-wilson-his-priorities-goals-after-election-win/",
+  "why": "Weekly review follow-up, Nov 22 2026 (source dated 2026-11-06); stance unchanged, evidence and source corrected",
+  "note": "Notes: Both sides confirmed. Nuclear remark: a WIS interview published by WTOC on Nov 6, 2026. His words: 'finishing V.C. Summer has got to be a priority', 'I'm a pro-nuclear person', and 'when you increase the energy supply, you lower energy prices and utility rates for families'. He is also forming a stakeholder group on energy and nuclear policy. His Oct 15, 2026 affordability agenda (FOX Carolina) lists only grid building, competition and 'innovative ways to produce more energy', with no mention of nuclear or clean energy. AG side: scag.gov (Nov 5, 2025). He joined a 23-AG letter backing EPA's proposal to eliminate most of the Greenhouse Gas Reporting Program, and a 25-AG letter seeking delay a",
+  "hedge": "Wants the V.C. Summer reactors finished (Nov 6, 2026), but as attorney general backed EPA's repeal of greenhouse-gas reporting and of coal-plant water rules (Nov 5, 2025) and attacked federal efficiency standards as 'woke climate' rules (Feb 2026).",
+  "hedge_url": "https://www.scag.gov/about-the-office/news/attorney-general-alan-wilson-continues-fight-against-government-overreach-and-for-affordable-electricity/"
+ },
+ {
+  "who": "Jon Ossoff",
+  "key": "sch",
+  "new_stance": "Unclear",
+  "evidence": "Said he hasn't committed to Schumer or Van Hollen and will 'hear everybody out' (AP, Nov 21, 2026); campaign wouldn't say earlier (Nov 5). Secret-ballot vote set for Dec 1.",
+  "url": "https://spectrumlocalnews.com/us/snplus/politics/2026/11/21/senate-democrats-leadership-vote",
+  "why": "Daily update, Nov 23 2026 (AP via Spectrum News, Nov 21 2026); stance unchanged, evidence refreshed",
+  "note": "Source: https://spectrumlocalnews.com/us/snplus/politics/2026/11/21/senate-democrats-leadership-vote (AP, Nov 21, 2026). AP says he said it 'this week'; Drop Site's whip count also lists him undecided as of Nov 21."
+ },
+ {
+  "who": "Mark Kelly",
+  "key": "stock",
+  "new_stance": "Support",
+  "evidence": "Told reporters in Phoenix he wants to pass a ban on stock trading by members of Congress, the President and the VP: 'it needs to be against the law' (Nov 23, 2026); cosponsors S.1879 (May 2025).",
+  "url": "https://ktar.com/arizona-politics-news/mark-kelly-snap-medicaid",
+  "why": "Daily update, Nov 24 2026 (KTAR, Nov 23 2026; Center Square via Yahoo); now commits to the full scope, including the President and VP",
+  "note": "Source: https://ktar.com/arizona-politics-news/mark-kelly-snap-medicaid (KTAR, Nov 23, 2026); also https://www.yahoo.com/news/politics/articles/u-sen-mark-kelly-lays-001800220.html (The Center Square: asked about his priorities for the new year). Prompted, specific, at a Thanksgiving turkey handout."
+ },
+ {
+  "who": "Jeff Merkley",
+  "key": "fil",
+  "new_stance": "Lean support",
+  "evidence": "Wants a talking filibuster so a minority seeking more debate must 'actually have to debate'; called the current rule 'an incentive for paralysis' (Nov 19-23, 2026). Reform, not elimination, so Lean.",
+  "url": "https://local12.com/news/nation-world/senate-democrats-debate-about-filibuster-prior-to-taking-control-of-the-chamber-next-year-oregon-virginia-gop-maine-donald-trump-rrt",
+  "why": "Daily update, Nov 24 2026 (National News Desk, Nov 23 2026; States Newsroom, Nov 19 2026); stance unchanged, evidence refreshed (old note said no 2025-26 statement)",
+  "note": "Source: https://local12.com/news/nation-world/senate-democrats-debate-about-filibuster-prior-to-taking-control-of-the-chamber-next-year-oregon-virginia-gop-maine-donald-trump-rrt (National News Desk, Nov 23, 2026); https://www.newsfromthestates.com/node/439238 (States Newsroom, Nov 19, 2026). Also voted Jan 19 2022 to change the rules for the voting-rights bill."
  }
 ]

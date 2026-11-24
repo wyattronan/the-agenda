@@ -11293,5 +11293,851 @@
   "evidence": "His 2026 campaign platform, as summarized by Branch Politics, says he wants to cut property taxes; not a targeted plan.",
   "url": "https://branch.vote/races/2026-texas-general-election-tx-state-state-senator-tx-state-senate-4/candidates/brett-w-ligon-1",
   "date": "2026-07"
+ },
+ {
+  "st": "TX",
+  "district": 21,
+  "name": "Judith Zaffirini",
+  "key": "medicaid",
+  "new": "Support",
+  "evidence": "Prefiled SB 31 (companion to Rep. Bucy's HB 101) and SJR 6 to expand Medicaid to everyone eligible under the ACA (Nov 2026).",
+  "url": "https://www.texaspolicyresearch.com/medicaid-expansion-returns-to-a-changed-capitol/",
+  "date": "2026-11"
+ },
+ {
+  "st": "TX",
+  "district": 21,
+  "name": "Judith Zaffirini",
+  "key": "prek",
+  "new": "Support",
+  "evidence": "Prefiled SB 37, requiring school districts to offer free full-day pre-K to every 4-year-old (Nov 2026).",
+  "url": "https://www.texastribune.org/2026/11/09/texas-legislature-90th-session-bill-filing-begins/",
+  "date": "2026-11"
+ },
+ {
+  "st": "TX",
+  "district": 21,
+  "name": "Judith Zaffirini",
+  "key": "gun",
+  "new": "Lean support",
+  "evidence": "Prefiled SB 80, barring anyone under 21 from buying or owning an assault weapon and making it a felony to sell one to them (Nov 2026). An age limit, not background checks or red flags.",
+  "url": "https://capitol.texas.gov/tlodocs/90R/billtext/html/SB00080I.htm",
+  "date": "2026-11"
+ },
+ {
+  "st": "TX",
+  "district": 21,
+  "name": "Judith Zaffirini",
+  "key": "college",
+  "new": "Support",
+  "evidence": "Prefiled SB 39, a state grant to cover college costs for qualifying students at public two- and four-year schools (Nov 2026).",
+  "url": "https://paisano-online.com/55140/news/lawmakers-file-early-bills-on-abortion-wages-cannabis/",
+  "date": "2026-11"
+ },
+ {
+  "st": "TX",
+  "district": 21,
+  "name": "Judith Zaffirini",
+  "key": "datactr",
+  "new": "Support",
+  "evidence": "Prefiled SB 33 to keep data centers from raising Texans' electricity costs, SB 32 (PUC permits before construction) and SB 36 (no local tax incentives) (Nov 2026).",
+  "url": "https://www.texastribune.org/2026/11/09/texas-legislature-90th-session-bill-filing-begins/",
+  "date": "2026-11"
+ },
+ {
+  "st": "TX",
+  "district": 26,
+  "name": "José Menéndez",
+  "key": "medicaid",
+  "new": "Support",
+  "evidence": "Prefiled SB 109 to expand Medicaid; said Texas not expanding \"makes no sense\" (Nov 2026).",
+  "url": "https://www.ksat.com/news/local/2026/11/10/san-antonio-democrats-file-bills-on-medicaid-immigration-enforcement-minimum-wage-ahead-of-2027-session/",
+  "date": "2026-11"
+ },
+ {
+  "st": "TX",
+  "district": 26,
+  "name": "José Menéndez",
+  "key": "vouchers",
+  "new": "Support",
+  "evidence": "Prefiled SB 106 to repeal the state's new private-school voucher (ESA) program (Nov 2026).",
+  "url": "https://www.ksat.com/news/local/2026/11/10/san-antonio-democrats-file-bills-on-medicaid-immigration-enforcement-minimum-wage-ahead-of-2027-session/",
+  "date": "2026-11",
+  "hedge": "Filing a full repeal, he also said parts of the program could be kept after its numbers are reviewed: \"we have to study things\" (KSAT, Nov 9 2026).",
+  "hedge_url": "https://www.ksat.com/news/local/2026/11/10/san-antonio-democrats-file-bills-on-medicaid-immigration-enforcement-minimum-wage-ahead-of-2027-session/"
+ },
+ {
+  "st": "TX",
+  "district": 26,
+  "name": "José Menéndez",
+  "key": "ice",
+  "new": "Support",
+  "evidence": "Prefiled SB 99 to repeal the 2025 law forcing sheriffs into 287(g) deals with ICE, letting them end those agreements (Nov 2026).",
+  "url": "https://www.texastribune.org/2026/11/09/texas-legislature-90th-session-bill-filing-begins/",
+  "date": "2026-11"
+ },
+ {
+  "st": "TX",
+  "district": 26,
+  "name": "José Menéndez",
+  "key": "house",
+  "new": "Support",
+  "evidence": "Prefiled SB 141, ending city parking mandates on homes and businesses statewide (Nov 2026); voted for final SB 15 in 2025.",
+  "url": "https://www.texastribune.org/2026/11/09/texas-legislature-90th-session-bill-filing-begins/",
+  "date": "2026-11"
+ },
+ {
+  "st": "TX",
+  "district": 6,
+  "name": "Carol Alvarado",
+  "key": "medicaid",
+  "new": "Support",
+  "evidence": "Prefiled SB 229 to expand Medicaid (Nov 2026).",
+  "url": "https://www.texaspolicyresearch.com/medicaid-expansion-returns-to-a-changed-capitol/",
+  "date": "2026-11"
+ },
+ {
+  "st": "TX",
+  "district": 6,
+  "name": "Carol Alvarado",
+  "key": "avr",
+  "new": "Lean support",
+  "evidence": "Sponsoring the Senate bill for online voter registration; joint author of SB 230 (same-day and online registration, no-excuse mail voting, more early voting) (Nov 2026). Broadens registration, but isn't AVR.",
+  "url": "https://www.texastribune.org/2026/11/18/texas-elections-voting-laws-legislation-online-voter-registration/",
+  "date": "2026-11"
+ },
+ {
+  "st": "TX",
+  "district": 6,
+  "name": "Carol Alvarado",
+  "key": "roe",
+  "new": "Lean support",
+  "evidence": "Prefiled SB 231, adding rape and incest exceptions to the abortion ban and repealing the pre-Roe statutes; called it \"a starting point\" (Nov 2026). Narrower than a rights law.",
+  "url": "https://www.yahoo.com/news/politics/articles/texas-democrats-file-bills-roll-183500237.html",
+  "date": "2026-11"
+ },
+ {
+  "st": "TX",
+  "district": 15,
+  "name": "Molly Cook",
+  "key": "roe",
+  "new": "Lean support",
+  "evidence": "Prefiled SB 243, adding exceptions for fatal fetal diagnoses and repealing the pre-Roe statutes, a \"compassionate pathway for families\" (Nov 2026). Narrower than a rights law.",
+  "url": "https://www.yahoo.com/news/politics/articles/texas-democrats-file-bills-roll-183500237.html",
+  "date": "2026-11"
+ },
+ {
+  "st": "TX",
+  "district": 15,
+  "name": "Molly Cook",
+  "key": "medicaid",
+  "new": "Support",
+  "evidence": "Joint author of SB 229 to expand Medicaid, per Progress Texas's list of prefiled bills (Nov 2026).",
+  "url": "https://progresstexas.org/blog/texas-dems-launch-wave-great-bills-%E2%80%9927-session",
+  "date": "2026-11"
+ },
+ {
+  "st": "TX",
+  "district": 15,
+  "name": "Molly Cook",
+  "key": "avr",
+  "new": "Lean support",
+  "evidence": "Joint author of SB 230: same-day and online voter registration, no-excuse mail voting, more early voting, per Progress Texas (Nov 2026). Broadens registration, but isn't AVR.",
+  "url": "https://progresstexas.org/blog/texas-dems-launch-wave-great-bills-%E2%80%9927-session",
+  "date": "2026-11"
+ },
+ {
+  "st": "TX",
+  "district": 19,
+  "name": "Roland Gutierrez",
+  "key": "medicaid",
+  "new": "Support",
+  "evidence": "Joint author of SB 229 to expand Medicaid, per Progress Texas's list of prefiled bills (Nov 2026).",
+  "url": "https://progresstexas.org/blog/texas-dems-launch-wave-great-bills-%E2%80%9927-session",
+  "date": "2026-11"
+ },
+ {
+  "st": "TX",
+  "district": 19,
+  "name": "Roland Gutierrez",
+  "key": "avr",
+  "new": "Lean support",
+  "evidence": "Joint author of SB 230: same-day and online voter registration, no-excuse mail voting, more early voting, per Progress Texas (Nov 2026). Broadens registration, but isn't AVR.",
+  "url": "https://progresstexas.org/blog/texas-dems-launch-wave-great-bills-%E2%80%9927-session",
+  "date": "2026-11"
+ },
+ {
+  "st": "TX",
+  "district": 19,
+  "name": "Roland Gutierrez",
+  "key": "datactr",
+  "new": "Support",
+  "evidence": "Prefiled SB 296: a two-year moratorium on new data centers, local voter approval, repeal of their tax breaks and payments to county residents (Nov 2026).",
+  "url": "https://capitol.texas.gov/tlodocs/90R/billtext/html/SB00296I.htm",
+  "date": "2026-11"
+ },
+ {
+  "st": "TX",
+  "district": 9,
+  "name": "Taylor Rehmet",
+  "key": "medicaid",
+  "new": "Support",
+  "evidence": "Joint author of SB 229 to expand Medicaid, per Progress Texas's list of prefiled bills (Nov 2026).",
+  "url": "https://progresstexas.org/blog/texas-dems-launch-wave-great-bills-%E2%80%9927-session",
+  "date": "2026-11"
+ },
+ {
+  "st": "TX",
+  "district": 9,
+  "name": "Taylor Rehmet",
+  "key": "avr",
+  "new": "Lean support",
+  "evidence": "Joint author of SB 230: same-day and online voter registration, no-excuse mail voting, more early voting, per Progress Texas (Nov 2026). Broadens registration, but isn't AVR.",
+  "url": "https://progresstexas.org/blog/texas-dems-launch-wave-great-bills-%E2%80%9927-session",
+  "date": "2026-11"
+ },
+ {
+  "st": "TX",
+  "district": 17,
+  "name": "Joan Huffman",
+  "key": "datactr",
+  "new": "Support",
+  "evidence": "Filed SB 293 to repeal data centers' state sales-tax exemption (about $3.3 billion a biennium): \"Texas should welcome investment. It should not write a blank check\" (Nov 2026).",
+  "url": "https://senate.texas.gov/members/d17/press/en/p20261109a.pdf",
+  "date": "2026-11"
+ },
+ {
+  "st": "TX",
+  "district": 4,
+  "name": "Brett Ligon",
+  "key": "datactr",
+  "new": "Lean support",
+  "evidence": "Joint author of SB 293, repealing data centers' state sales-tax exemption, and SB 338, capping their tax breaks and requiring water-efficient cooling before they connect to ERCOT (Nov 2026). Both are narrower than making them pay full grid costs.",
+  "url": "https://fastdemocracy.com/bill/tx/90/bills/TXB00084777/",
+  "date": "2026-11"
+ },
+ {
+  "st": "TX",
+  "district": 22,
+  "name": "David Cook",
+  "key": "datactr",
+  "new": "Lean support",
+  "evidence": "Joint author of SB 293, repealing data centers' state sales-tax exemption, and SB 338, capping their tax breaks and adding water and grid-connection conditions (Nov 2026). As a House member he voted against SB 6 (May 2025).",
+  "url": "https://fastdemocracy.com/bill/tx/90/bills/TXB00084777/",
+  "date": "2026-11",
+  "hedge": "Voted against SB 6, which makes large loads pay toward grid costs, in the House (May 2025), then joined the 2026 tax-break repeal: on both sides of the issue.",
+  "hedge_url": "https://fastdemocracy.com/bill/tx/90/bills/TXB00084777/"
+ },
+ {
+  "st": "TX",
+  "district": 6,
+  "name": "Carol Alvarado",
+  "key": "avr",
+  "new": "Lean support",
+  "evidence": "Primary author of SB 230 (online voter registration only); joint author of SB 101–104: polling places on college campuses, voter ID, mail voting with repeal of mail-ballot application offenses, and volunteer deputy registrars (Nov 2026). These are related to automatic registration and a state voting rights act but narrower.",
+  "url": "https://capitol.texas.gov/reports/Report.aspx?LegSess=90R&ID=senatefiled",
+  "date": "2026-11"
+ },
+ {
+  "st": "TX",
+  "district": 15,
+  "name": "Molly Cook",
+  "key": "avr",
+  "new": "Lean support",
+  "evidence": "Joint author of SB 230 (online voter registration only) and SB 101–104: polling places on college campuses, voter ID, mail voting with repeal of mail-ballot application offenses, and volunteer deputy registrars (Nov 2026). These are related to automatic registration and a state voting rights act but narrower.",
+  "url": "https://capitol.texas.gov/reports/Report.aspx?LegSess=90R&ID=senatefiled",
+  "date": "2026-11"
+ },
+ {
+  "st": "TX",
+  "district": 19,
+  "name": "Roland Gutierrez",
+  "key": "avr",
+  "new": "Lean support",
+  "evidence": "Joint author of SB 230 (online voter registration only) and SB 101–104: polling places on college campuses, voter ID, mail voting with repeal of mail-ballot application offenses, and volunteer deputy registrars (Nov 2026). These are related to automatic registration and a state voting rights act but narrower.",
+  "url": "https://capitol.texas.gov/reports/Report.aspx?LegSess=90R&ID=senatefiled",
+  "date": "2026-11"
+ },
+ {
+  "st": "TX",
+  "district": 9,
+  "name": "Taylor Rehmet",
+  "key": "avr",
+  "new": "Lean support",
+  "evidence": "Joint author of SB 230 (online voter registration only) and SB 101–104: polling places on college campuses, voter ID, mail voting with repeal of mail-ballot application offenses, and volunteer deputy registrars (Nov 2026). These are related to automatic registration and a state voting rights act but narrower.",
+  "url": "https://capitol.texas.gov/reports/Report.aspx?LegSess=90R&ID=senatefiled",
+  "date": "2026-11"
+ },
+ {
+  "st": "TX",
+  "district": 26,
+  "name": "José Menéndez",
+  "key": "avr",
+  "new": "Lean support",
+  "evidence": "Primary author of SB 101–104: polling places on college campuses, voter ID, mail voting with repeal of mail-ballot application offenses, and volunteer deputy registrars; joint author of SB 230 (online registration) (Nov 2026).",
+  "url": "https://capitol.texas.gov/reports/Report.aspx?LegSess=90R&ID=senatefiled",
+  "date": "2026-11"
+ },
+ {
+  "st": "TX",
+  "district": 23,
+  "name": "Royce West",
+  "key": "vouchers",
+  "new": "Support",
+  "evidence": "Filed SB 294 to repeal the state's private-school voucher (education savings account) program (Nov 2026).",
+  "url": "https://fastdemocracy.com/bill/tx/90/bills/TXB00084807/",
+  "date": "2026-11"
+ },
+ {
+  "st": "TX",
+  "district": 6,
+  "name": "Carol Alvarado",
+  "key": "vouchers",
+  "new": "Support",
+  "evidence": "Joint author of SB 294 to repeal the state's private-school voucher (education savings account) program (Nov 2026).",
+  "url": "https://fastdemocracy.com/bill/tx/90/bills/TXB00084807/",
+  "date": "2026-11"
+ },
+ {
+  "st": "TX",
+  "district": 15,
+  "name": "Molly Cook",
+  "key": "vouchers",
+  "new": "Support",
+  "evidence": "Joint author of SB 294 to repeal the state's private-school voucher (education savings account) program (Nov 2026).",
+  "url": "https://fastdemocracy.com/bill/tx/90/bills/TXB00084807/",
+  "date": "2026-11"
+ },
+ {
+  "st": "TX",
+  "district": 19,
+  "name": "Roland Gutierrez",
+  "key": "vouchers",
+  "new": "Support",
+  "evidence": "Joint author of SB 294 to repeal the state's private-school voucher (education savings account) program (Nov 2026).",
+  "url": "https://fastdemocracy.com/bill/tx/90/bills/TXB00084807/",
+  "date": "2026-11"
+ },
+ {
+  "st": "TX",
+  "district": 20,
+  "name": "Juan \"Chuy\" Hinojosa",
+  "key": "vouchers",
+  "new": "Support",
+  "evidence": "Joint author of SB 294 to repeal the state's private-school voucher (education savings account) program (Nov 2026).",
+  "url": "https://fastdemocracy.com/bill/tx/90/bills/TXB00084807/",
+  "date": "2026-11"
+ },
+ {
+  "st": "TX",
+  "district": 13,
+  "name": "Borris Miles",
+  "key": "vouchers",
+  "new": "Support",
+  "evidence": "Joint author of SB 294 to repeal the state's private-school voucher (education savings account) program (Nov 2026).",
+  "url": "https://fastdemocracy.com/bill/tx/90/bills/TXB00084807/",
+  "date": "2026-11"
+ },
+ {
+  "st": "TX",
+  "district": 21,
+  "name": "Judith Zaffirini",
+  "key": "vouchers",
+  "new": "Support",
+  "evidence": "Joint author of SB 294 to repeal the state's private-school voucher (education savings account) program (Nov 2026).",
+  "url": "https://fastdemocracy.com/bill/tx/90/bills/TXB00084807/",
+  "date": "2026-11"
+ },
+ {
+  "st": "TX",
+  "district": 29,
+  "name": "César Blanco",
+  "key": "vouchers",
+  "new": "Support",
+  "evidence": "Joint author of SB 294 repealing the voucher (ESA) program; his Nov 9 release lists 'repealing school vouchers' among bills he joined (Nov 2026).",
+  "url": "https://fastdemocracy.com/bill/tx/90/bills/TXB00084807/",
+  "date": "2026-11"
+ },
+ {
+  "st": "TX",
+  "district": 29,
+  "name": "César Blanco",
+  "key": "medicaid",
+  "new": "Support",
+  "evidence": "His Nov 9 release lists 'expanding Medicaid' among the bills he joint-authored: 'Families across Texas want to know they can afford their homes, fill their prescriptions' (Nov 2026).",
+  "url": "https://senate.texas.gov/press.php?id=29-20261109a&ref=1",
+  "date": "2026-11"
+ },
+ {
+  "st": "TX",
+  "district": 29,
+  "name": "César Blanco",
+  "key": "workforce",
+  "new": "Lean support",
+  "evidence": "Prefiled SB 279 (a cross-agency employment resource initiative) and SB 280 (economic-development groups working with local workforce boards) (Nov 2026).",
+  "url": "https://capitol.texas.gov/reports/Report.aspx?LegSess=90R&ID=senatefiled",
+  "date": "2026-11"
+ },
+ {
+  "st": "TX",
+  "district": 29,
+  "name": "César Blanco",
+  "key": "drugbd",
+  "new": "Support",
+  "evidence": "Prefiled SB 271 (a prescription-drug purchasing pool for employers and health plans) and SB 272 (pharmacies must disclose the lowest cash price) (Nov 2026); co-authored the 2025 PBM-limits bill SB 1236.",
+  "url": "https://senate.texas.gov/press.php?id=29-20261109a&ref=1",
+  "date": "2026-11"
+ },
+ {
+  "st": "TX",
+  "district": 23,
+  "name": "Royce West",
+  "key": "renter",
+  "new": "Support",
+  "evidence": "Prefiled SB 201 (landlords disclose applicant and tenant fees), SB 202 (limit on mail fees), SB 203 (a cap on security deposits) and SB 228 (limits on security-deposit alternative products) (Nov 2026).",
+  "url": "https://capitol.texas.gov/reports/Report.aspx?LegSess=90R&ID=senatefiled",
+  "date": "2026-11"
+ },
+ {
+  "st": "TX",
+  "district": 23,
+  "name": "Royce West",
+  "key": "medicaid",
+  "new": "Lean support",
+  "evidence": "Prefiled SB 198, an 'express lane' for Medicaid and CHIP enrollment (Nov 2026). This eases enrollment but is not expansion.",
+  "url": "https://capitol.texas.gov/reports/Report.aspx?LegSess=90R&ID=senatefiled",
+  "date": "2026-11"
+ },
+ {
+  "st": "TX",
+  "district": 23,
+  "name": "Royce West",
+  "key": "workforce",
+  "new": "Lean support",
+  "evidence": "Prefiled SB 204, adding career-connected learning to the state micro-credential program (Nov 2026).",
+  "url": "https://capitol.texas.gov/reports/Report.aspx?LegSess=90R&ID=senatefiled",
+  "date": "2026-11"
+ },
+ {
+  "st": "TX",
+  "district": 23,
+  "name": "Royce West",
+  "key": "utility",
+  "new": "Lean support",
+  "evidence": "Prefiled SB 224, requiring utility-disconnection notices for tenants in submetered apartments (Nov 2026).",
+  "url": "https://capitol.texas.gov/reports/Report.aspx?LegSess=90R&ID=senatefiled",
+  "date": "2026-11"
+ },
+ {
+  "st": "TX",
+  "district": 13,
+  "name": "Borris Miles",
+  "key": "renter",
+  "new": "Support",
+  "evidence": "Prefiled SB 321, giving tenants remedies for unsafe rental conditions and setting civil penalties (Nov 2026).",
+  "url": "https://capitol.texas.gov/reports/Report.aspx?LegSess=90R&ID=senatefiled",
+  "date": "2026-11"
+ },
+ {
+  "st": "TX",
+  "district": 13,
+  "name": "Borris Miles",
+  "key": "safety",
+  "new": "Support",
+  "evidence": "Prefiled SB 349, creating a state community-violence-intervention office and grant program (Nov 2026).",
+  "url": "https://capitol.texas.gov/reports/Report.aspx?LegSess=90R&ID=senatefiled",
+  "date": "2026-11"
+ },
+ {
+  "st": "TX",
+  "district": 13,
+  "name": "Borris Miles",
+  "key": "mental",
+  "new": "Support",
+  "evidence": "Prefiled SB 342 (a behavioral-health allotment in school funding), SB 348 (Medicaid services by more mental and behavioral health providers) and SB 412 (continuity of mental-health care for people leaving custody) (Nov 2026).",
+  "url": "https://capitol.texas.gov/reports/Report.aspx?LegSess=90R&ID=senatefiled",
+  "date": "2026-11"
+ },
+ {
+  "st": "TX",
+  "district": 13,
+  "name": "Borris Miles",
+  "key": "medicaid",
+  "new": "Lean support",
+  "evidence": "Prefiled SB 313, a 'Texas solution' Medicaid overhaul: premium assistance for private plans for people under 65 up to 133% of poverty (needs a federal waiver; not an entitlement), plus an optional block grant (Nov 2026). It is not straight ACA expansion.",
+  "url": "https://capitol.texas.gov/tlodocs/90R/billtext/pdf/SB00313I.pdf",
+  "date": "2026-11"
+ },
+ {
+  "st": "TX",
+  "district": 20,
+  "name": "Juan \"Chuy\" Hinojosa",
+  "key": "renter",
+  "new": "Lean support",
+  "evidence": "Prefiled SB 434, requiring landlords to offer a way to pay rent with no processing fee (Nov 2026).",
+  "url": "https://capitol.texas.gov/reports/Report.aspx?LegSess=90R&ID=senatefiled",
+  "date": "2026-11"
+ },
+ {
+  "st": "TX",
+  "district": 26,
+  "name": "José Menéndez",
+  "key": "renter",
+  "new": "Support",
+  "evidence": "Prefiled SB 156, limiting algorithmic (RealPage-style) rent-pricing tools; joint author of SB 242, landlord fee disclosure (Nov 2026).",
+  "url": "https://capitol.texas.gov/reports/Report.aspx?LegSess=90R&ID=senatefiled",
+  "date": "2026-11"
+ },
+ {
+  "st": "TX",
+  "district": 26,
+  "name": "José Menéndez",
+  "key": "prek",
+  "new": "Support",
+  "evidence": "Prefiled SB 261, requiring districts to offer tuition-free pre-K to any 4-year-old (all eligibility categories repealed) (Nov 2026).",
+  "url": "https://capitol.texas.gov/tlodocs/90R/billtext/html/SB00261I.htm",
+  "date": "2026-11"
+ },
+ {
+  "st": "TX",
+  "district": 26,
+  "name": "José Menéndez",
+  "key": "priorauth",
+  "new": "Lean support",
+  "evidence": "Prefiled SB 111, barring prior authorization for HIV-prevention (PrEP) drugs, and SB 148, notice of doctors' prior-auth exemption status (Nov 2026). These are narrow prior-auth limits.",
+  "url": "https://capitol.texas.gov/reports/Report.aspx?LegSess=90R&ID=senatefiled",
+  "date": "2026-11"
+ },
+ {
+  "st": "TX",
+  "district": 26,
+  "name": "José Menéndez",
+  "key": "schools",
+  "new": "Support",
+  "evidence": "Prefiled SB 98, raising the basic allotment from $6,160 to $7,365 with yearly inflation adjustments; 30% of new per-student money goes to non-administrator pay (Nov 2026).",
+  "url": "https://capitol.texas.gov/tlodocs/90R/billtext/html/SB00098I.htm",
+  "date": "2026-11"
+ },
+ {
+  "st": "TX",
+  "district": 15,
+  "name": "Molly Cook",
+  "key": "renter",
+  "new": "Support",
+  "evidence": "Prefiled SB 242 (landlord fee disclosure); joint author of SB 255, limiting algorithmic rent-pricing tools (Nov 2026).",
+  "url": "https://capitol.texas.gov/reports/Report.aspx?LegSess=90R&ID=senatefiled",
+  "date": "2026-11"
+ },
+ {
+  "st": "TX",
+  "district": 15,
+  "name": "Molly Cook",
+  "key": "ice",
+  "new": "Support",
+  "evidence": "Prefiled SB 372, barring hospitals, hospital-district facilities and FQHCs from letting immigration officers onto their premises without a judicial warrant, and SB 369 on facial coverings by law enforcement (Nov 2026).",
+  "url": "https://capitol.texas.gov/tlodocs/90R/billtext/html/SB00372I.htm",
+  "date": "2026-11"
+ },
+ {
+  "st": "TX",
+  "district": 15,
+  "name": "Molly Cook",
+  "key": "utility",
+  "new": "Lean support",
+  "evidence": "Prefiled SB 366, barring electric disconnections during extreme weather (Nov 2026).",
+  "url": "https://capitol.texas.gov/reports/Report.aspx?LegSess=90R&ID=senatefiled",
+  "date": "2026-11"
+ },
+ {
+  "st": "TX",
+  "district": 19,
+  "name": "Roland Gutierrez",
+  "key": "wage",
+  "new": "Support",
+  "evidence": "Prefiled SB 295, raising the state minimum wage to $15 an hour (or the federal rate if higher) from Sept 1 2027 (Nov 2026).",
+  "url": "https://capitol.texas.gov/tlodocs/90R/billtext/html/SB00295I.htm",
+  "date": "2026-11"
+ },
+ {
+  "st": "TX",
+  "district": 19,
+  "name": "Roland Gutierrez",
+  "key": "renter",
+  "new": "Lean support",
+  "evidence": "Joint author of SB 242, requiring landlords to disclose fees (Nov 2026).",
+  "url": "https://capitol.texas.gov/reports/Report.aspx?LegSess=90R&ID=senatefiled",
+  "date": "2026-11"
+ },
+ {
+  "st": "TX",
+  "district": 9,
+  "name": "Taylor Rehmet",
+  "key": "drugbd",
+  "new": "Support",
+  "evidence": "Prefiled SB 252, putting a fiduciary duty on pharmacy benefit managers (Nov 2026).",
+  "url": "https://capitol.texas.gov/reports/Report.aspx?LegSess=90R&ID=senatefiled",
+  "date": "2026-11"
+ },
+ {
+  "st": "TX",
+  "district": 9,
+  "name": "Taylor Rehmet",
+  "key": "gun",
+  "new": "Lean support",
+  "evidence": "Joint author of SB 234, barring gun possession after a family-violence misdemeanor conviction (Nov 2026). This is narrower than background checks or red-flag laws.",
+  "url": "https://capitol.texas.gov/reports/Report.aspx?LegSess=90R&ID=senatefiled",
+  "date": "2026-11"
+ },
+ {
+  "st": "TX",
+  "district": 9,
+  "name": "Taylor Rehmet",
+  "key": "wage",
+  "new": "Lean support",
+  "evidence": "Prefiled SB 253, tying the state minimum wage to a proposed 2027 constitutional amendment for a higher, inflation-indexed minimum wage (Nov 2026). The bill names no amount.",
+  "url": "https://capitol.texas.gov/tlodocs/90R/billtext/html/SB00253I.htm",
+  "date": "2026-11"
+ },
+ {
+  "st": "TX",
+  "district": 21,
+  "name": "Judith Zaffirini",
+  "key": "pfml",
+  "new": "Lean support",
+  "evidence": "Prefiled SB 48, giving employees leave when they or a dependent are victims of family violence (Nov 2026). This is narrow, not general paid family leave.",
+  "url": "https://capitol.texas.gov/reports/Report.aspx?LegSess=90R&ID=senatefiled",
+  "date": "2026-11"
+ },
+ {
+  "st": "TX",
+  "district": 24,
+  "name": "Pete Flores",
+  "key": "ptax",
+  "new": "Support",
+  "evidence": "Prefiled SB 298 and SJR 14, letting the Legislature lower the 10% yearly cap on homestead appraisal increases (Nov 2026).",
+  "url": "https://fastdemocracy.com/bill/tx/90/bills/TXB00084837/",
+  "date": "2026-11"
+ },
+ {
+  "st": "TX",
+  "district": 28,
+  "name": "Charles Perry",
+  "key": "clean",
+  "new": "Lean oppose",
+  "evidence": "Prefiled SB 287 (with Campbell), repealing state tax preferences for solar and wind devices and their makers and installers (Tax Code 11.27(a-1), 171.056, 171.107) (Nov 2026).",
+  "url": "https://capitol.texas.gov/tlodocs/90R/billtext/html/SB00287I.htm",
+  "date": "2026-11"
+ },
+ {
+  "st": "TX",
+  "district": 25,
+  "name": "Donna Campbell",
+  "key": "clean",
+  "new": "Lean oppose",
+  "evidence": "Joint author of Perry's SB 287, repealing state tax preferences for solar and wind energy devices (Nov 2026).",
+  "url": "https://capitol.texas.gov/tlodocs/90R/billtext/html/SB00287I.htm",
+  "date": "2026-11"
+ },
+ {
+  "st": "TX",
+  "district": 2,
+  "name": "Bob Hall",
+  "key": "clean",
+  "new": "Lean oppose",
+  "evidence": "Prefiled SB 435, requiring a new PUC permit, fees, public hearings and 500-foot setbacks for solar, wind and battery projects before they connect to the grid (Nov 2026).",
+  "url": "https://capitol.texas.gov/tlodocs/90R/billtext/html/SB00435I.htm",
+  "date": "2026-11"
+ },
+ {
+  "st": "TX",
+  "district": 8,
+  "name": "Angela Paxton",
+  "key": "priorauth",
+  "new": "Lean support",
+  "evidence": "Prefiled SB 249, barring state-regulated health plans from requiring prior authorization for emergency care, urgent 'intervention-necessary' care, outpatient mental-health care and USPSTF preventive services (Nov 2026). It doesn't apply to Medicaid or CHIP.",
+  "url": "https://capitol.texas.gov/tlodocs/90R/billtext/html/SB00249I.htm",
+  "date": "2026-11"
+ },
+ {
+  "st": "TX",
+  "district": 30,
+  "name": "Brent Hagenbuch",
+  "key": "prek",
+  "new": "Lean support",
+  "evidence": "Prefiled SB 169, making children of foreign military members eligible for free pre-K (Nov 2026). This is a narrow expansion.",
+  "url": "https://capitol.texas.gov/reports/Report.aspx?LegSess=90R&ID=senatefiled",
+  "date": "2026-11"
+ },
+ {
+  "st": "GA",
+  "district": 26,
+  "name": "David Lucas",
+  "key": "medicaid",
+  "new": "Support",
+  "evidence": "Lead sponsor of SB 50, the PeachCare Plus Act, seeking a waiver to expand coverage to 138% of poverty: 'It is time that we stand up in Georgia' (Jan 2025).",
+  "url": "https://fastdemocracy.com/bill/ga/2025_26/bills/GAB00028742",
+  "date": "2025-01"
+ },
+ {
+  "st": "GA",
+  "district": 13,
+  "name": "Carden Summers",
+  "key": "medicaid",
+  "new": "Support",
+  "evidence": "Co-sponsored SB 50 to expand Medicaid to 138% of poverty: 'I voted for it last year because I live in rural Georgia and this would help rural hospitals' (Jan 2025).",
+  "url": "https://fastdemocracy.com/bill/ga/2025_26/bills/GAB00028742",
+  "date": "2025-01"
+ },
+ {
+  "st": "GA",
+  "district": 11,
+  "name": "Sam Watson",
+  "key": "medicaid",
+  "new": "Support",
+  "evidence": "Co-sponsored SB 50 (PeachCare Plus Act), seeking a waiver to expand Medicaid to 138% of poverty (Jan 2025).",
+  "url": "https://fastdemocracy.com/bill/ga/2025_26/bills/GAB00028742",
+  "date": "2025-01"
+ },
+ {
+  "st": "GA",
+  "district": 8,
+  "name": "Russ Goodman",
+  "key": "medicaid",
+  "new": "Support",
+  "evidence": "Co-sponsored SB 50 to expand Medicaid to 138% of poverty, to 'keep the conversation going': 'There are 40 states that have expanded Medicaid, including red, conservative states' (Jan 2025).",
+  "url": "https://fastdemocracy.com/bill/ga/2025_26/bills/GAB00028742",
+  "date": "2025-01",
+  "hedge": "After Democrats won the 2027 majority he wouldn't commit: 'You can't commit to anything until you see it', though he has 'been open to the idea all along' (WABE, Nov 2026), and 'stand up for conservative values where we can't' (AJC, Nov 9 2026).",
+  "hedge_url": "https://www.wabe.org/?p=1002144"
+ },
+ {
+  "st": "GA",
+  "district": 17,
+  "name": "Gail Davenport",
+  "key": "medicaid",
+  "new": "Support",
+  "evidence": "Co-sponsored SB 50, the PeachCare Plus Act, seeking a waiver to expand Medicaid to 138% of poverty (Jan 2025).",
+  "url": "https://fastdemocracy.com/bill/ga/2025_26/bills/GAB00028742",
+  "date": "2025-01"
+ },
+ {
+  "st": "GA",
+  "district": 34,
+  "name": "Kenya Wicks",
+  "key": "medicaid",
+  "new": "Support",
+  "evidence": "Co-sponsored SB 50, the PeachCare Plus Act, seeking a waiver to expand Medicaid to 138% of poverty (Jan 2025).",
+  "url": "https://fastdemocracy.com/bill/ga/2025_26/bills/GAB00028742",
+  "date": "2025-01"
+ },
+ {
+  "st": "GA",
+  "district": 38,
+  "name": "RaShaun Kemp",
+  "key": "medicaid",
+  "new": "Support",
+  "evidence": "Co-sponsored SB 50, the PeachCare Plus Act, seeking a waiver to expand Medicaid to 138% of poverty (Jan 2025).",
+  "url": "https://fastdemocracy.com/bill/ga/2025_26/bills/GAB00028742",
+  "date": "2025-01"
+ },
+ {
+  "st": "GA",
+  "district": 43,
+  "name": "Tonya Anderson",
+  "key": "medicaid",
+  "new": "Support",
+  "evidence": "Co-sponsored SB 50, the PeachCare Plus Act, seeking a waiver to expand Medicaid to 138% of poverty (Jan 2025).",
+  "url": "https://fastdemocracy.com/bill/ga/2025_26/bills/GAB00028742",
+  "date": "2025-01"
+ },
+ {
+  "st": "GA",
+  "district": 40,
+  "name": "Sally Harrell",
+  "key": "medicaid",
+  "new": "Support",
+  "evidence": "Co-sponsored SB 50, the PeachCare Plus Act, seeking a waiver to expand Medicaid to 138% of poverty (Jan 2025).",
+  "url": "https://fastdemocracy.com/bill/ga/2025_26/bills/GAB00028742",
+  "date": "2025-01"
+ },
+ {
+  "st": "GA",
+  "district": 9,
+  "name": "Nikki Merritt",
+  "key": "medicaid",
+  "new": "Support",
+  "evidence": "Co-sponsored SB 50, the PeachCare Plus Act, seeking a waiver to expand Medicaid to 138% of poverty (Jan 2025).",
+  "url": "https://fastdemocracy.com/bill/ga/2025_26/bills/GAB00028742",
+  "date": "2025-01"
+ },
+ {
+  "st": "GA",
+  "district": 36,
+  "name": "Nan Orrock",
+  "key": "medicaid",
+  "new": "Support",
+  "evidence": "Co-sponsored SB 50, the PeachCare Plus Act, seeking a waiver to expand Medicaid to 138% of poverty (Jan 2025).",
+  "url": "https://fastdemocracy.com/bill/ga/2025_26/bills/GAB00028742",
+  "date": "2025-01"
+ },
+ {
+  "st": "GA",
+  "district": 2,
+  "name": "Derek Mallow",
+  "key": "medicaid",
+  "new": "Support",
+  "evidence": "Co-sponsored SB 50, the PeachCare Plus Act, seeking a waiver to expand Medicaid to 138% of poverty (Jan 2025).",
+  "url": "https://fastdemocracy.com/bill/ga/2025_26/bills/GAB00028742",
+  "date": "2025-01"
+ },
+ {
+  "st": "GA",
+  "district": 5,
+  "name": "Sheikh Rahman",
+  "key": "medicaid",
+  "new": "Support",
+  "evidence": "Co-sponsored SB 50, the PeachCare Plus Act, seeking a waiver to expand Medicaid to 138% of poverty (Jan 2025).",
+  "url": "https://fastdemocracy.com/bill/ga/2025_26/bills/GAB00028742",
+  "date": "2025-01"
+ },
+ {
+  "st": "GA",
+  "district": 55,
+  "name": "Randal Mangham",
+  "key": "medicaid",
+  "new": "Support",
+  "evidence": "Co-sponsored SB 50, the PeachCare Plus Act, seeking a waiver to expand Medicaid to 138% of poverty (Jan 2025).",
+  "url": "https://fastdemocracy.com/bill/ga/2025_26/bills/GAB00028742",
+  "date": "2025-01"
+ },
+ {
+  "st": "GA",
+  "district": 39,
+  "name": "Sonya Halpern",
+  "key": "medicaid",
+  "new": "Support",
+  "evidence": "Co-sponsored SB 50, the PeachCare Plus Act, seeking a waiver to expand Medicaid to 138% of poverty (Jan 2025).",
+  "url": "https://fastdemocracy.com/bill/ga/2025_26/bills/GAB00028742",
+  "date": "2025-01"
+ },
+ {
+  "st": "GA",
+  "district": 45,
+  "name": "Anthony Scott Tippetts",
+  "key": "wage",
+  "new": "Lean support",
+  "evidence": "2026 campaign site (via BallotReady): backs 'Livable Wages, Affordable Childcare, and Reasonable Healthcare Access'. No wage figure.",
+  "url": "https://www.ballotready.org/people/anthony-scott-tippetts",
+  "date": "2026"
+ },
+ {
+  "st": "GA",
+  "district": 45,
+  "name": "Anthony Scott Tippetts",
+  "key": "childcare",
+  "new": "Lean support",
+  "evidence": "2026 campaign site (via BallotReady): backs 'Livable Wages, Affordable Childcare, and Reasonable Healthcare Access'. No specific plan.",
+  "url": "https://www.ballotready.org/people/anthony-scott-tippetts",
+  "date": "2026"
  }
 ]

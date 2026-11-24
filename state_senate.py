@@ -19,7 +19,7 @@ NC = [
  (11,"James Gailliard","D","new|Flip: beat Lisa Barnes (R)"),(12,"Jim Burgin","R"),(13,"Lisa Grafstein","D"),(14,"Dan Blue","D"),
  (15,"Jay Chaudhuri","D","lead|Democratic Whip"),(16,"Gale Adcock","D"),(17,"Sydney Batch","D","lead|Democratic Leader"),
  (18,"Haseeb Fatmi","D"),(19,"Val Applewhite","D"),(20,"Natalie Murdock","D"),(21,"Tom McInnis","R"),(22,"Sophia Chitlik","D"),
- (23,"Jonah Garson","D"),(24,"Danny Britt","R","narrow|Uncalled: leads Catina Hamm (D) by 268 votes, recount range"),
+ (23,"Jonah Garson","D"),(24,"Danny Britt","R","narrow|Won the recount by 225 votes over Catina Hamm (D), who conceded Nov 21; state canvass Nov 24"),
  (25,"Amy Galey","R","lead|Majority Whip"),(26,"Sam Page","R","new|Unseated Senate leader Phil Berger in the primary"),
  (27,"Michael Garrett","D"),(28,"Gladys Robinson","D"),(29,"Dave Craven","R"),(30,"Steve Jarvis","R"),(31,"Dana Jones","R"),
  (32,"Paul Lowe","D"),(33,"Carl Ford","R","lead|Republican Joint Caucus Leader"),(34,"April Cook","D","new|Flip: open seat"),
@@ -47,7 +47,7 @@ GA = [
  (22,"Harold Jones II","D","lead|Democratic Leader"),(23,"Max Burns","R"),(24,"Lee Anderson","R"),(25,"Rick Williams","R"),(26,"David Lucas","D"),
  (27,"Mike Dudgeon","R"),(28,"Donzella James","D"),(29,"Randy Robertson","R"),(30,"Tim Bearden","R"),
  (31,"Jason Anavitarte","R","lead|Majority Leader"),(32,"Kay Kirkpatrick","R"),(33,"Doc Rhett","D"),(34,"Kenya Wicks","D"),
- (35,"Jaha Howard","D"),(36,"Nan Orrock","D"),(37,"Darcy Castro","D","new|narrow|Flip, pending: leads Sen. Ed Setzler (R) by under 1 point"),
+ (35,"Jaha Howard","D"),(36,"Nan Orrock","D"),(37,"Darcy Castro","D","new|narrow|Flip: beat Sen. Ed Setzler (R) by 1,409 votes, about 1.5 points"),
  (38,"RaShaun Kemp","D"),(39,"Sonya Halpern","D"),(40,"Sally Harrell","D"),(41,"Kim Jackson","D"),
  (42,"Eric W. Lee Sr.","D","new|Flip: open seat"),(43,"Tonya Anderson","D"),(44,"Saira Draper","D"),
  (45,"Anthony Scott Tippetts","D","new|Flip: beat Clint Dixon (R)"),(46,"Marc McMain","R"),(47,"Frank Ginn","R"),
@@ -136,8 +136,8 @@ put("GA", 52, datactr=("Support", "Sponsor of SB 34 (2025–26) to bar Georgia P
 
 # alternates for uncalled seats
 ALT = {
- ("NC",24): ("Catina Hamm", "D", "Trails Sen. Danny Britt by 268 votes; a win makes the chamber 25–25 with Lt. Gov. Rachel Hunt (D) breaking ties"),
- ("GA",37): ("Ed Setzler", "R", "Incumbent (author of HB 481, the 2019 six-week ban); trails Darcy Castro by under 1 point"),
+ ("NC",24): ("Catina Hamm", "D", "Lost the recount to Sen. Danny Britt by 225 votes and conceded Nov 21; a win would have made the chamber 25–25 with Lt. Gov. Rachel Hunt (D) breaking ties"),
+ ("GA",37): ("Ed Setzler", "R", "Incumbent (author of HB 481, the 2019 six-week ban); lost to Darcy Castro by 1,409 votes, about 1.5 points"),
 }
 ALT_OVR = {("GA",37): {"roe": ("Oppose", "Sponsored HB 481 (2019), Georgia's six-week abortion ban."),
   "vouchers": ("Oppose", "Voted for SB 233, the Georgia Promise Scholarship voucher (Mar 6 2023, 33–23, every Republican yes)."),

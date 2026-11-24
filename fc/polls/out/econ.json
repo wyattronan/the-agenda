@@ -635,5 +635,27 @@
    "opp": 26
   },
   "note": "Q67 forced choice, midterm voters, opt-in panels matched to the voter file. Fielded Oct 28-Nov 8, 2026; released Nov 19."
+ },
+ {
+  "keys": [
+   "sen:tariff"
+  ],
+  "match": "concept",
+  "pollster": "Carolina Journal Poll",
+  "sponsor": "John Locke Foundation",
+  "tier": 3,
+  "type": "state",
+  "fielded": "2026-11",
+  "n": 600,
+  "question": "Support Congress enforcing constitutional limits on presidential power over tariffs, emergency declarations and spending, even under a president you support (NC 2026 general election voters)",
+  "url": "https://www.carolinajournal.com/wp-content/uploads/2026/11/H25082-CJ-NC-Nov26-Toplines.pdf",
+  "states": {
+   "NC": {
+    "sup": 70,
+    "opp": 24
+   }
+  },
+  "national": null,
+  "note": "Fielded Nov 5-8, 2026 (live phone and text-to-web), released Nov 18; 70.2% support, 23.8% oppose, 6.0% unsure. Concept match: congressional limits on tariff and emergency powers, not the Trade Review Act itself. Same poll: 55.8% say keeping prices low matters more than tariffs, 35.0% say tariffs are worth it. Sponsor is a conservative think tank (tier 3); no tier 1-2 NC tariff poll on file. Write-up: https://www.carolinajournal.com/polls/november-2026-post-election-poll-reveals-nc-voters-want-accountability-checks-and-balances/"
  }
 ]
