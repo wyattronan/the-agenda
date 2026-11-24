@@ -59,6 +59,7 @@ HOPE = [
    "pfml": ["Lean support", "Passed a paid sick leave ordinance, up to five days a year (Jun 2016); narrower than paid family leave.", "https://movingforward.chicago.gov/working-families", ""],
    "ice": ["Lean support", "Backed Chicago's Welcoming City Ordinance limiting police help to ICE (2012); not a sensitive-locations rule.", W + "Rahm_Emanuel", ""],
    "roe": ["Lean support", "Had a 100% pro-choice voting record in Congress; no state-law action.", W + "Rahm_Emanuel", ""],
+   "millionaire": ["Lean support", "Backed raising corporate and capital gains taxes on a South Carolina trip (Post and Courier paraphrase, Nov 18, 2026); federal, not a state millionaire's tax.", "https://www.yahoo.com/news/politics/articles/rahm-emanuel-says-sc-dems-100000485.html", ""],
  }},
  {"n": "Alexandria Ocasio-Cortez", "p": "D", "role": "U.S. Representative, New York", "kind": "selfsen", "st": "NY", "cells": {
    "m4a": ["Support", "Cosponsor, Medicare for All Act H.R.3069 (Apr 2025).", CG.format(3069), "spons"],
