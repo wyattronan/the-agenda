@@ -1734,5 +1734,23 @@
   "url": "https://spectrumlocalnews.com/us/snplus/politics/2026/11/21/senate-democrats-leadership-vote",
   "why": "Daily update, Nov 23 2026 (AP via Spectrum News, Nov 21 2026); stance unchanged, evidence refreshed",
   "note": "Source: https://spectrumlocalnews.com/us/snplus/politics/2026/11/21/senate-democrats-leadership-vote (AP, Nov 21, 2026). AP says he said it 'this week'; Drop Site's whip count also lists him undecided as of Nov 21."
+ },
+ {
+  "who": "Mark Kelly",
+  "key": "stock",
+  "new_stance": "Support",
+  "evidence": "Told reporters in Phoenix he wants to pass a ban on stock trading by members of Congress, the President and the VP: 'it needs to be against the law' (Nov 23, 2026); cosponsors S.1879 (May 2025).",
+  "url": "https://ktar.com/arizona-politics-news/mark-kelly-snap-medicaid",
+  "why": "Daily update, Nov 24 2026 (KTAR, Nov 23 2026; Center Square via Yahoo); now commits to the full scope, including the President and VP",
+  "note": "Source: https://ktar.com/arizona-politics-news/mark-kelly-snap-medicaid (KTAR, Nov 23, 2026); also https://www.yahoo.com/news/politics/articles/u-sen-mark-kelly-lays-001800220.html (The Center Square: asked about his priorities for the new year). Prompted, specific, at a Thanksgiving turkey handout."
+ },
+ {
+  "who": "Jeff Merkley",
+  "key": "fil",
+  "new_stance": "Lean support",
+  "evidence": "Wants a talking filibuster so a minority seeking more debate must 'actually have to debate'; called the current rule 'an incentive for paralysis' (Nov 19-23, 2026). Reform, not elimination, so Lean.",
+  "url": "https://local12.com/news/nation-world/senate-democrats-debate-about-filibuster-prior-to-taking-control-of-the-chamber-next-year-oregon-virginia-gop-maine-donald-trump-rrt",
+  "why": "Daily update, Nov 24 2026 (National News Desk, Nov 23 2026; States Newsroom, Nov 19 2026); stance unchanged, evidence refreshed (old note said no 2025-26 statement)",
+  "note": "Source: https://local12.com/news/nation-world/senate-democrats-debate-about-filibuster-prior-to-taking-control-of-the-chamber-next-year-oregon-virginia-gop-maine-donald-trump-rrt (National News Desk, Nov 23, 2026); https://www.newsfromthestates.com/node/439238 (States Newsroom, Nov 19, 2026). Also voted Jan 19 2022 to change the rules for the voting-rights bill."
  }
 ]
