@@ -1,6 +1,6 @@
 {
- "as_of": "2026-11-22",
- "window": "2026-11-03/2026-11-22",
+ "as_of": "2026-11-23",
+ "window": "2026-11-03/2026-11-23",
  "scales": {
   "trump_alignment": "-2 open critic … +2 loyal",
   "economic": "-2 free-market/technocratic … +2 state-directed/populist",
@@ -20,19 +20,19 @@
    "role": "President",
    "posture": "Defender",
    "issues": {
-    "midterm_loss": "First said he wasn't on the ballot and blamed weak candidates and Fox News; by Nov 8 (60 Minutes) blamed the war, dislike of Israel, bad economic messaging and a deportation policy that \"might be too tough.\" Nov 19 (Truth Social, self-started): posted a graphic of past presidents' midterm losses that undercounted the GOP's Senate and House losses (Daily Beast, Nov 20).",
+    "midterm_loss": "First said he wasn't on the ballot and blamed weak candidates and Fox News; by Nov 8 (60 Minutes) blamed the war, dislike of Israel, bad economic messaging and a deportation policy that \"might be too tough.\" Nov 19 (Truth Social, self-started): posted a graphic of past presidents' midterm losses that undercounted the GOP's Senate and House losses (Daily Beast, Nov 20). Nov 23 (CNBC Squawk on the Street, prompted): \"I wasn't on the ballot. I think if I was, it would have been a whole different story\"; said Democrats \"have caused us to lose 5 trillion\" in market value.",
     "trump": "Doubled down: named Stephen Miller chief of staff (Nov 6), said he'll keep Hegseth, displayed a VETO hat, staying out of House leader race. Called Vance's diagnosis largely true. Nov 8: Vance's comments didn't hurt their relationship, but \"a lot of people didn't like his comments. But not me.\" Nov 18 (Fox): said Vance is \"doing a very good job\" but \"left one thing out: If we had it to do again, would you do it again?\" (Daily Beast, Nov 18).",
-    "tariffs": null,
+    "tariffs": "Nov 23 (CNBC): \"We lost our chip business because we had presidents that didn't understand the word tariff.\"",
     "healthcare": "Nov 20 press conference: said the new Democratic majority could work with Republicans on healthcare, 'a combination of what we all want,' and 'we could end up with great healthcare'; no plan named (Common Dreams, Nov 20). Nov 21: reposted El-Sayed's 'TrumpCare' Medicare for All card on Truth Social without comment (RedState, Politico, Nov 21-22).",
     "immigration": "Nov 8 (60 Minutes): said his deportation policy \"might be too tough\" and was part of why Republicans lost; said a deal with the Democratic majority is doable; would still deport killers and drug dealers but was open to letting working, in some cases taxpaying, \"good people\" stay. No specifics. Nov 9, the day after 60 Minutes, told reporters \"There's no amnesty\" and \"my policy hasn't changed,\" while still praising undocumented workers who pay taxes (Fox News, Nov 9). Nov 20: dodged a question on legalization (\"the worst of the worst\"); Nov 22 Truth Social: \"OPEN BORDERS DESTROY NATIONS!\" (Breitbart, Nov 22).",
-    "iran_war": "Conceded the war and higher gas prices hurt, but gave an \"emphatic yes\" when asked if he'd do it again. Nov 19: reposted Laura Loomer's 'I for one voted for blowing up Islamic terrorists' on Truth Social (Daily Beast, Nov 20). Nov 18 (Fox): claimed without evidence Iran is \"looking at gases, looking at bio\" and \"we wipe them out\" if so; Nov 19 (Channel 12): \"not rushing\" a decision; Nov 21 (Fox): wants a \"permanent\" deal (CBS News live updates, Nov 20-22).",
+    "iran_war": "Conceded the war and higher gas prices hurt, but gave an \"emphatic yes\" when asked if he'd do it again. Nov 19: reposted Laura Loomer's 'I for one voted for blowing up Islamic terrorists' on Truth Social (Daily Beast, Nov 20). Nov 18 (Fox): claimed without evidence Iran is \"looking at gases, looking at bio\" and \"we wipe them out\" if so; Nov 19 (Channel 12): \"not rushing\" a decision; Nov 21 (Fox): wants a \"permanent\" deal (CBS News live updates, Nov 20-22). Nov 22 (Truth Social): Iran has launched more drones and missiles in the last week than at any time in over a year; Iran's leaders think Democrats are weak, 'but I won't let that happen!' (CBS News live updates, Nov 22).",
     "stock_trading": null,
-    "ai": null,
+    "ai": "Nov 23: pressed Nvidia's board to reinstate Jensen Huang as CEO (\"I convinced them. I made the deal,\" ABC News); called it the \"correct and proper decision\" on Truth Social; told CNBC he'd have \"loved\" a government stake in Nvidia \"but I don't want to get sued.\"",
     "corruption": null,
     "israel": "Election Day (Fox & Friends): said the ~$4B in annual military aid ends this year. Nov 8 (60 Minutes): said a \"great dislike\" of Israel contributed to the losses."
    },
    "other_themes": "Called Massie a \"low life\"; blamed Democrats for the post-election stock drop. Nov 9: called the Iran war \"militarily … effectively over\" and suggested without evidence that voting machines were to blame. Endorsed RNC chair Gruters for another term (Nov 6). Nov 21 press conference called Schumer and Jeffries 'smart' ('If they want to get things done, I want to get things done too'); Nov 22 Truth Social: 'very hard for me to work with Chuck Schumer' as leader (Newsweek, Nov 22)",
-   "sources": "Truth Social posts and press remarks, Nov 4–8; CBS 60 Minutes, Nov 8; Times of Israel, Nov 4; The Hill via The National Desk, Nov 8–11; pbs.org, Nov 9; Daily Beast via Yahoo, Nov 20 (https://www.yahoo.com/news/politics/articles/trump-spirals-truth-social-way-020627908.html); Common Dreams, Nov 20 (https://www.commondreams.org/news/donald-trump-healthcare-plan); RedState, Nov 21 (https://redstate.com/beccalower/2026/11/21/popcorn-trump-trolls-abdul-el-sayed-over-offer-to-name-medicare-for-all-bill-after-him-n2209665); Newsweek, Nov 22 (https://www.newsweek.com/trump-targets-schumer-as-van-hollen-challenges-him-for-senate-leadership-12753718); Fox News, Nov 9 (https://www.foxnews.com/politics/white-house-doubles-down-trump-angers-base-floating-illegal-alien-deal-dems.amp); Breitbart, Nov 22 (https://www.breitbart.com/politics/2026/11/22/trump-says-he-saved-usa-from-open-borders-that-destroy-nations/); CBS News, Nov 20-22 (https://www.cbsnews.com/live-updates/iran-war-trump-tehran-denies-chemical-weapons/); Daily Beast, Nov 18 (https://www.thedailybeast.com/trump-throws-jd-vance-under-the-bus-as-bitter-feud-over-iran-war-heats-up)",
+   "sources": "Truth Social posts and press remarks, Nov 4–8; CBS 60 Minutes, Nov 8; Times of Israel, Nov 4; The Hill via The National Desk, Nov 8–11; pbs.org, Nov 9; Daily Beast via Yahoo, Nov 20 (https://www.yahoo.com/news/politics/articles/trump-spirals-truth-social-way-020627908.html); Common Dreams, Nov 20 (https://www.commondreams.org/news/donald-trump-healthcare-plan); RedState, Nov 21 (https://redstate.com/beccalower/2026/11/21/popcorn-trump-trolls-abdul-el-sayed-over-offer-to-name-medicare-for-all-bill-after-him-n2209665); Newsweek, Nov 22 (https://www.newsweek.com/trump-targets-schumer-as-van-hollen-challenges-him-for-senate-leadership-12753718); Fox News, Nov 9 (https://www.foxnews.com/politics/white-house-doubles-down-trump-angers-base-floating-illegal-alien-deal-dems.amp); Breitbart, Nov 22 (https://www.breitbart.com/politics/2026/11/22/trump-says-he-saved-usa-from-open-borders-that-destroy-nations/); CBS News, Nov 20-22 (https://www.cbsnews.com/live-updates/iran-war-trump-tehran-denies-chemical-weapons/); Daily Beast, Nov 18 (https://www.thedailybeast.com/trump-throws-jd-vance-under-the-bus-as-bitter-feud-over-iran-war-heats-up); CBS News, Nov 22 (https://www.cbsnews.com/live-updates/iran-war-trump-tehran-denies-chemical-weapons/); CNBC transcript, Nov 23 (https://pressroom.versantmedia.com/cnbc/press-releases/cnbc-transcript-president-donald-trump-speaks-cnbcs-eamon-javers-and-squawk); ABC News, Nov 23 (https://abcnews.com/Politics/republicans-condemn-jensen-huangs-reinstatement-nvidia-after-trump/story?id=138384161); Manila Times, Nov 24 (https://www.manilatimes.net/2026/11/24/world/vance-tapped-as-trumps-emissary-to-nvidia-board-amid-ceo-reinstatement-concerns/2476614)",
    "map": {
     "trump_alignment": {
      "pre": 2,
@@ -227,7 +227,7 @@
     "midterm_loss": "Called it \"close to an extinction-level event\"; GOP not viable nationally without TX/KS/IA.",
     "trump": "Nov 4 (Fox, Ingraham): called the result a rebuke of both the president and Congress, on \"both sides of Pennsylvania Avenue,\" though most of his fire went at Senate GOP inaction (filibuster, immigration, court jurisdiction).",
     "tariffs": null,
-    "healthcare": null,
+    "healthcare": "Nov 22 (X, self-started): called Peggy Flanagan's 'TrumpCare'/Medicare for All pitch on CNN \"political malpractice.\"",
     "immigration": "Asked why the Senate hasn't shut off H-1B visas or codified Trump's immigration orders; criticized Ramaswamy on foreign-worker visas; wary of street conflict from federal operations.",
     "iran_war": "Pre-window baseline (Nov 2, SiriusXM): gas is higher \"because of this conflict\"; ignoring the war's cost is \"gaslighting\" voters. No post-election war remark found.",
     "stock_trading": "Backs a congressional stock-trading ban.",
@@ -236,7 +236,7 @@
     "israel": "Pre-election: long record as a strongly pro-Israel governor."
    },
    "other_themes": "\"No saviors\"; urged Senate to confirm judges in the lame duck. Nov 15 (X), on GOP senators resisting Trump's lame-duck judges: \"Ugh. And Republicans wonder why they have problems with base voter enthusiasm.\"",
-   "sources": "Florida news conference and Fox News (Ingraham), Nov 4 (via AOL/Mediaite, Nov 6); other remarks; Raw Story, Nov 15 (https://www.rawstory.com/trump-judges-2678412367/); The National Desk via ABC News 4, Nov 3 (https://abcnews4.com/news/nation-world/florida-gov-ron-desantis-says-the-iran-war-has-backfired-on-republicans-donald-trump-2024-gop)",
+   "sources": "Florida news conference and Fox News (Ingraham), Nov 4 (via AOL/Mediaite, Nov 6); other remarks; Raw Story, Nov 15 (https://www.rawstory.com/trump-judges-2678412367/); The National Desk via ABC News 4, Nov 3 (https://abcnews4.com/news/nation-world/florida-gov-ron-desantis-says-the-iran-war-has-backfired-on-republicans-donald-trump-2024-gop); Wisevoter, Nov 23 (https://wisevoter.com/world/us/2026/11/23/desantis-flanagan-clash-over-health-insurance)",
    "map": {
     "trump_alignment": {
      "pre": 1,
@@ -777,12 +777,12 @@
     "immigration": null,
     "iran_war": "Pre-election: urged Trump to finish the job in Iran. Nov 19: voted no on H.Con.Res. 93, the Iran war powers resolution (Senate roll call 269, rejected 48-51).",
     "stock_trading": null,
-    "ai": null,
+    "ai": "Nov 21 (to the Wall Street Journal): faulted Commerce Secretary Lutnick over Nvidia AI chips reaching China through Megaspeed: \"If Howard Lutnick wanted my support, perhaps he should have responded to my many letters\" (Daily Beast, Nov 21). He had asked Lutnick to investigate Megaspeed in Oct 2025. Nov 23, after Huang's reinstatement: \"The controversy with Nvidia and Megaspeed is just the tip of the iceberg... Congress has much to investigate\" (AP).",
     "corruption": null,
     "israel": "Pre-election: longtime pro-Israel hawk (\"back Israel to the hilt,\" June 2025)."
    },
    "other_themes": "As conference chair, received Ron Johnson's letter forcing a debrief meeting. Re-elected conference chair, Nov 10.",
-   "sources": "KY3, Nov 4; CBS News, Nov 10; U.S. Senate roll call 269, Nov 19 (https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00269.htm)",
+   "sources": "KY3, Nov 4; CBS News, Nov 10; U.S. Senate roll call 269, Nov 19 (https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00269.htm); Daily Beast, Nov 21 (https://www.thedailybeast.com/republican-senator-calls-out-top-trump-goon-over-chip-disaster); AP via WLWT, Nov 23 (https://www.wlwt.com/article/congress-huang-reinstatement-lawmakers-hearings/74514264)",
    "map": {
     "trump_alignment": {
      "pre": 1,
@@ -1653,18 +1653,18 @@
    "posture": "Critic",
    "issues": {
     "midterm_loss": "On ABC News (election night): \"The Trump era is over. It is over. You cannot lose at this level.\"",
-    "trump": "Called the scale of losses, including Texas statewide, a verdict on Trump's dominance.",
+    "trump": "Called the scale of losses, including Texas statewide, a verdict on Trump's dominance. Nov 22 (ABC This Week roundtable, prompted): Trump \"always thought that he is immune to political gravity. What Election Day showed is he's not\"; \"As your power decreases, people run away\"; said Vance is \"out of his depth\" and needs a \"Declaration of Independence\" moment.",
     "tariffs": null,
     "healthcare": null,
     "immigration": null,
     "iran_war": null,
     "stock_trading": null,
     "ai": null,
-    "corruption": null,
+    "corruption": "Nov 22 (ABC This Week): attacked \"the Lutnick syndicate being run out of the Commerce Department and out of Cantor by his two sons.\"",
     "israel": null
    },
    "other_themes": null,
-   "sources": "ABC News via IBTimes, Nov 4",
+   "sources": "ABC News via IBTimes, Nov 4; ABC This Week transcript (Tommy Christopher), Nov 22 (https://tommyxtopher.substack.com/p/this-week-11-22-2026-full-video-and)",
    "map": {
     "trump_alignment": {
      "pre": -2,
@@ -1972,7 +1972,7 @@
    "posture": "Critic",
    "issues": {
     "midterm_loss": "Said the party is \"in ruins\" and must learn to win without Trump on the ballot.",
-    "trump": "Called it a referendum on Trump and his policies.",
+    "trump": "Called it a referendum on Trump and his policies. Nov 23 (her show, self-started): on Trump's meme casting Jensen Huang in the Butler photo, \"Is it funny? Is any of this funny? Should we be laughing?\"",
     "tariffs": "Nov 4: tariffs \"are not on the list of things that help\" Republicans.",
     "healthcare": null,
     "immigration": "Nov 9-10, on Trump's deal talk: \"That is amnesty. And everyone knows it.\"",
@@ -1983,7 +1983,7 @@
     "israel": "Pre-election: argued Israel manipulated the administration into war (per Shapiro). Nov 5 (own words): called Levin and Shapiro \"dishonest and dangerous\" and said hawks take \"directions from Bibi Netanyahu.\""
    },
    "other_themes": null,
-   "sources": "Kelly show (news coverage); Megyn Kelly Show transcripts (HappyScribe), Nov 4-10 (https://podcasts.happyscribe.com/the-megyn-kelly-show/why-voters-delivered-the-blue-tsunami-the-shocking-dem-margins-and-the-worst-new-senators-with-realclearpolitics-ep); Megyn Kelly Show, Nov 5 (https://podcasts.happyscribe.com/the-megyn-kelly-show/neocon-panic-over-blue-tsunami-with-jesse-kelly-plus-shock-twist-in-markle-investigation-and-blago-on-prison-and-freedom-ep); Megyn Kelly Show, Nov 9 (https://podcasts.happyscribe.com/the-megyn-kelly-show/russell-brand-s-lengthy-sentence-trump-s-shock-immigration-deal-comments-and-disgusting-charlie-kirk-attacks-with-emily-jashinsky-dave-aronberg-and-viva-frei-ep)",
+   "sources": "Kelly show (news coverage); Megyn Kelly Show transcripts (HappyScribe), Nov 4-10 (https://podcasts.happyscribe.com/the-megyn-kelly-show/why-voters-delivered-the-blue-tsunami-the-shocking-dem-margins-and-the-worst-new-senators-with-realclearpolitics-ep); Megyn Kelly Show, Nov 5 (https://podcasts.happyscribe.com/the-megyn-kelly-show/neocon-panic-over-blue-tsunami-with-jesse-kelly-plus-shock-twist-in-markle-investigation-and-blago-on-prison-and-freedom-ep); Megyn Kelly Show, Nov 9 (https://podcasts.happyscribe.com/the-megyn-kelly-show/russell-brand-s-lengthy-sentence-trump-s-shock-immigration-deal-comments-and-disgusting-charlie-kirk-attacks-with-emily-jashinsky-dave-aronberg-and-viva-frei-ep); Daily Beast, Nov 23 (https://www.thedailybeast.com/obsessed/megyn-kelly-has-shocking-reaction-to-trumps-demented-post)",
    "map": {
     "trump_alignment": {
      "pre": 0,
