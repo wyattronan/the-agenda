@@ -657,5 +657,46 @@
   },
   "national": null,
   "note": "Fielded Nov 5-8, 2026 (live phone and text-to-web), released Nov 18; 70.2% support, 23.8% oppose, 6.0% unsure. Concept match: congressional limits on tariff and emergency powers, not the Trade Review Act itself. Same poll: 55.8% say keeping prices low matters more than tariffs, 35.0% say tariffs are worth it. Sponsor is a conservative think tank (tier 3); no tier 1-2 NC tariff poll on file. Write-up: https://www.carolinajournal.com/polls/november-2026-post-election-poll-reveals-nc-voters-want-accountability-checks-and-balances/"
+ },
+ {
+  "match": "concept",
+  "pollster": "YouGov",
+  "sponsor": "The Economist",
+  "tier": 1,
+  "type": "national",
+  "fielded": "2026-11",
+  "n": 1623,
+  "url": "https://yougovamerica.substack.com/p/what-americans-think-about-grand",
+  "states": {},
+  "keys": [
+   "sen:ai",
+   "gov:ai"
+  ],
+  "question": "Should government regulation of AI be increased, kept the same, or decreased",
+  "national": {
+   "sup": 60,
+   "opp": 10
+  },
+  "note": "U.S. adult citizens, Nov 20-23, 2026 (released Nov 24). sup = increased; opp = decreased; 17% kept the same."
+ },
+ {
+  "match": "concept",
+  "pollster": "YouGov",
+  "sponsor": "The Economist",
+  "tier": 1,
+  "type": "national",
+  "fielded": "2026-11",
+  "n": 1623,
+  "url": "https://yougovamerica.substack.com/p/what-americans-think-about-grand",
+  "states": {},
+  "keys": [
+   "sen:iran"
+  ],
+  "question": "Looking back, was going to war in Iran the right or wrong decision",
+  "national": {
+   "sup": 57,
+   "opp": 25
+  },
+  "note": "U.S. adult citizens, Nov 20-23, 2026 (released Nov 24). sup = wrong decision (the measure's direction); opp = right decision. 63% say the U.S. spends too much on the war."
  }
 ]

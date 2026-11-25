@@ -340,5 +340,25 @@
    "opp": 11
   },
   "note": "U.S. adult citizens, Nov 13-16, 2026, released Nov 19. Wording covers 'federal government officials', not only members of Congress; the rest not sure."
+ },
+ {
+  "match": "bill",
+  "pollster": "YouGov",
+  "sponsor": "The Economist",
+  "tier": 1,
+  "type": "national",
+  "fielded": "2026-11",
+  "n": 1623,
+  "url": "https://yougovamerica.substack.com/p/what-americans-think-about-grand",
+  "states": {},
+  "keys": [
+   "sen:sch"
+  ],
+  "question": "Rather have Chuck Schumer or Chris Van Hollen as Senate Democratic leader (all adults)",
+  "national": {
+   "sup": 14,
+   "opp": 28
+  },
+  "note": "U.S. adult citizens, Nov 20-23, 2026 (released Nov 24). sup = Schumer; opp = Van Hollen; 59% not sure. Democrats 40% Van Hollen, 19% Schumer."
  }
 ]

@@ -2780,5 +2780,50 @@
   "url": "https://local12.com/news/nation-world/senate-democrats-debate-about-filibuster-prior-to-taking-control-of-the-chamber-next-year-oregon-virginia-gop-maine-donald-trump-rrt",
   "why": "Daily update, Nov 24 2026 (National News Desk, Nov 23 2026; States Newsroom, Nov 19 2026); stance unchanged, evidence refreshed (old note said no 2025-26 statement)",
   "note": "Source: https://local12.com/news/nation-world/senate-democrats-debate-about-filibuster-prior-to-taking-control-of-the-chamber-next-year-oregon-virginia-gop-maine-donald-trump-rrt (National News Desk, Nov 23, 2026); https://www.newsfromthestates.com/node/439238 (States Newsroom, Nov 19, 2026). Also voted Jan 19 2022 to change the rules for the voting-rights bill."
+ },
+ {
+  "who": "Mary Peltola",
+  "key": "aca",
+  "new_stance": "Support",
+  "evidence": "Asked her first priority in the Senate, said 'we need to restore the [ACA] tax credits' (Nov 23, 2026); earlier criticized double or triple insurance costs after they lapsed (Aug 2026).",
+  "url": "https://www.kyuk.org/alaska-state-news/2026-11-23/with-eyes-forward-to-u-s-senate-peltola-says-shes-not-looking-in-the-rearview",
+  "why": "Daily update, Nov 25 2026 (Alaska Public Media via KYUK, Nov 23 2026); a direct commitment to restoring the credits",
+  "note": "Source: https://www.kyuk.org/alaska-state-news/2026-11-23/with-eyes-forward-to-u-s-senate-peltola-says-shes-not-looking-in-the-rearview (Alaska Public Media interview by Casey Grove, Nov 23, 2026). Prompted ('What's the first thing you want to do?'), specific, home-state audience."
+ },
+ {
+  "who": "Mary Peltola",
+  "key": "sch",
+  "new_stance": "Unclear",
+  "evidence": "Asked who she'll back for majority leader: 'I don't know,' 'to be continued after Thanksgiving' (Nov 23, 2026). Secret-ballot vote set for Dec 1.",
+  "url": "https://www.kyuk.org/alaska-state-news/2026-11-23/with-eyes-forward-to-u-s-senate-peltola-says-shes-not-looking-in-the-rearview",
+  "why": "Daily update, Nov 25 2026 (Alaska Public Media via KYUK, Nov 23 2026); stance unchanged, evidence refreshed",
+  "note": "Source: https://www.kyuk.org/alaska-state-news/2026-11-23/with-eyes-forward-to-u-s-senate-peltola-says-shes-not-looking-in-the-rearview (Nov 23, 2026). Also Alaska's News Source / KTUU, Nov 23: hasn't made up her mind (https://www.webcenterfairbanks.com/2026/11/24/sexism-price-gouging-child-tax-credits-mary-peltola-alaskas-next-senator/)."
+ },
+ {
+  "who": "Scott Colom",
+  "key": "wage",
+  "new_stance": "Support",
+  "evidence": "In a WLBT interview listed raising the federal minimum from $7.25 to at least $15, and said it could 'possibly gradually go up even more' (Nov 23, 2026).",
+  "url": "https://www.wlbt.com/2026/11/24/senator-elect-scott-colom-outlines-priorities-after-historic-win/",
+  "why": "Daily update, Nov 25 2026 (WLBT, Nov 23 2026); now names a figure in the measure's $15-$25 range",
+  "note": "Source: https://www.wlbt.com/2026/11/24/senator-elect-scott-colom-outlines-priorities-after-historic-win/ (WLBT, Nov 23, 2026, one-on-one interview). The $15 figure is WLBT's summary of his priorities; the 'gradually go up even more' line is his quote. Prompted, specific, Mississippi audience."
+ },
+ {
+  "who": "Wes Moore",
+  "key": "ai",
+  "new_stance": "Lean support",
+  "evidence": "On The Axios Show laid out an AI framework: liability for dangerous models, worker protections, safeguards for children; urged Congress to act fast (Nov 25, 2026). Mostly federal, so Lean.",
+  "url": "https://enmnews.com/2026/11/25/moore-says-ai-fight-has-become-corruption-test",
+  "why": "Daily update, Nov 25 2026 (Axios Show interview, via ENM News, Nov 25 2026); first AI statement found",
+  "note": "Source: https://enmnews.com/2026/11/25/moore-says-ai-fight-has-become-corruption-test (ENM News write-up of The Axios Show, Nov 25, 2026); original https://www.axios.com/2026/11/25/wes-moore-ai-plan-axios-show couldn't be opened. Self-started, specific, national audience. The write-up says he signed a 2026 Maryland law on deceptive AI in campaign ads (unverified; a related state AI rule). Lean, not Support, because the framework is aimed at Congress."
+ },
+ {
+  "who": "Kathy Hochul",
+  "key": "ai",
+  "new_stance": "Support",
+  "evidence": "Signed a ban on making and selling AI chatbot toys, effective Feb 2027 (Nov 24, 2026); Jan 2026 State of the State proposed disabling AI chatbots for under-18s.",
+  "url": "https://www.weny.com/news/governor-hochul-signs-bill-banning-ai-toys-in-new-york/article_72732954-f261-4e77-9a07-086c018e8a8c.html",
+  "why": "Daily update, Nov 25 2026 (WENY, Nov 24 2026); stance unchanged, evidence refreshed with the signing",
+  "note": "Source: https://www.weny.com/news/governor-hochul-signs-bill-banning-ai-toys-in-new-york/article_72732954-f261-4e77-9a07-086c018e8a8c.html (WENY, Nov 24, 2026). Earlier State of the State: https://www.governor.ny.gov/news/remarks-prepared-governor-hochul-delivers-2026-state-state-address. Around Nov 20 she vetoed a generative-AI accuracy-warning bill (https://www.wamc.org/2026-11-23/ny-gov-hochul-vetoes-bill-that-would-have-required-ai-accuracy-warnings); whether that softens the cell to a Lean is left for the weekly run."
  }
 ]
