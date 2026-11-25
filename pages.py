@@ -20,13 +20,13 @@ OUT = os.path.join(ROOT, "site")
 # tab id -> (folder, page name); keep in step with PAGE / PAGE_T in template.html
 PAGES = {
     "senate":    ("senate", "U.S. Senate Whip"),
-    "governors": ("governors", "Governors & State Houses"),
-    "top10":     ("top-10", "The Agenda Top 10"),
+    "governors": ("governors", "The States"),
+    "top10":     ("top-10", "Top 10"),
     "gsd":       ("getting-stuff-done", "Getting Stuff Done"),
     "proj":      ("2028", "2028 Projections"),
-    "gop":       ("gop-postmortem", "GOP Midterm Postmortem"),
+    "gop":       ("gop-postmortem", "GOP Postmortem"),
     "gloss":     ("glossary", "Glossary"),
-    "lead":      ("leadership-report-card", "Leadership Report Card"),
+    "lead":      ("leadership-report-card", "Leadership"),
 }
 HOME_DESC = "Your one-stop civic engagement tool: the Democratic agenda, who backs it, and what it would take to pass."
 
