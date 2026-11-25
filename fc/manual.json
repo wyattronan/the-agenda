@@ -3010,5 +3010,23 @@
   "url": "https://newsweek.com/full-list-senators-back-chris-van-hollen-chuck-schumer-12728769",
   "why": "Leader-race check, Nov 25 2026 (Newsweek, Nov 13 2026; stance unchanged, evidence refreshed)",
   "note": "Source: https://newsweek.com/full-list-senators-back-chris-van-hollen-chuck-schumer-12728769 (Newsweek, quoting his Nov 13 X post). Drop Site cites a Nov 16 Washington Sun piece praising Schumer's recruiting (not opened); if verified, a Lean support case."
+ },
+ {
+  "who": "Troy Jackson",
+  "key": "sch",
+  "new_stance": "Oppose",
+  "evidence": "Endorsed Van Hollen in a statement posted online: 'I'll be voting for Sen. Van Hollen... it's time for a change in leadership' (Nov 25, 2026). Earlier told Schumer he'd support somebody else. Secret-ballot vote set for Dec 1.",
+  "url": "https://thehill.com/homenews/senate/6243237-troy-jackson-chris-van-hollen-support-senate-leadership-race/",
+  "why": "Leader-race check, Nov 25 2026 (The Hill and Washington Examiner, Nov 25 2026); stance unchanged, now a formal Van Hollen endorsement",
+  "note": "Source: https://thehill.com/homenews/senate/6243237-troy-jackson-chris-van-hollen-support-senate-leadership-race/ (The Hill, Nov 25, 2026, quoting his statement on X); also https://www.washingtonexaminer.com/news/senate/4815410/troy-jackson-endorses-chris-van-hollen-senate-majority-leader/. Self-started, specific."
+ },
+ {
+  "who": "Troy Jackson",
+  "key": "fil",
+  "new_stance": "Support",
+  "evidence": "Endorsing Van Hollen for leader: 'Sen. Van Hollen and I agree that it's time to end the filibuster' (Nov 25, 2026); backed ending it in the Press Herald candidate survey (Jul 2026).",
+  "url": "https://thehill.com/homenews/senate/6243237-troy-jackson-chris-van-hollen-support-senate-leadership-race/",
+  "why": "Leader-race check, Nov 25 2026 (The Hill, Nov 25 2026); stance unchanged, evidence refreshed",
+  "note": "Source: https://thehill.com/homenews/senate/6243237-troy-jackson-chris-van-hollen-support-senate-leadership-race/ (The Hill, Nov 25, 2026, quoting his statement). Self-started, specific."
  }
 ]
