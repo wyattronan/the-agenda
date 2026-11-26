@@ -4082,7 +4082,7 @@
  "sen:Warner|road": ["Support", null],
  "sen:Warner|roe": ["Support", null],
  "sen:Warner|rural": ["Support", null],
- "sen:Warner|sch": ["Unclear", null],
+ "sen:Warner|sch": ["Support", "2026-11-25"],
  "sen:Warner|snap": ["Support", null],
  "sen:Warner|ssm": ["Lean support", "2026-11-20"],
  "sen:Warner|stock": ["Unclear", null],
